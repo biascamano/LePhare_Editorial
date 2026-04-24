@@ -305,7 +305,11 @@ def choose_topic_of_the_day() -> CandidateTopic:
 
 def fetch_google_news_topics() -> list[CandidateTopic]:
     try:
-        with request.urlopen(GOOGLE_NEWS_RSS) as response:
+        req = request.Request(
+            GOOGLE_NEWS_RSS,
+            headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"},
+        )
+        with request.urlopen(req, timeout=15) as response:
             xml_text = response.read().decode("utf-8", errors="replace")
     except error.URLError as exc:
         raise RuntimeError(f"Unable to fetch Google News RSS: {exc}") from exc

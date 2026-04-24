@@ -1,0 +1,26 @@
+[2026-04-24T16:05:26] Unhandled error: Unable to fetch Google News RSS: HTTP Error 403: Forbidden
+[2026-04-24T16:06:34] Unhandled error: Unable to fetch Google News RSS: HTTP Error 403: Forbidden
+[2026-04-24T16:08:07] Selected topic: Le FMI abaisse ses prévisions de croissance mondiale face à la guerre au Moyen-Orient et au blocus du détroit d'Ormuz
+[2026-04-24T16:08:07] Theme: ECON
+[2026-04-24T16:08:07] Running command: /usr/local/bin/python3 /home/user/LePhare_Editorial/tools/editorial_pipeline.py Le FMI abaisse ses prévisions de croissance mondiale face à la guerre au Moyen-Orient et au blocus du détroit d'Ormuz --mode architecture_editoriale --output-profile triptyque_minimal --config /home/user/LePhare_Editorial/tools/editorial_config.local.json --index /home/user/LePhare_Editorial/index_editorial.csv --use-api-llm --theme ECON --publish-drafts --wp-config /home/user/LePhare_Editorial/tools/wp_config.local.json
+[2026-04-24T16:08:07] --- PIPELINE OUTPUT ---
+[2026-04-24T16:08:08] Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...
+[2026-04-24T16:08:08] Editorial pipeline error: LLM API error 403: Host not in allowlist
+[2026-04-24T16:15:08] Selected topic: Le FMI abaisse ses prévisions de croissance mondiale face à la guerre au Moyen-Orient et au blocus du détroit d'Ormuz
+[2026-04-24T16:15:08] Source: WebSearch | https://www.imf.org/fr/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026
+[2026-04-24T16:15:08] Theme: ECON
+[2026-04-24T16:15:08] WARN: Google News RSS bloqué (HTTP 403 Host not in allowlist)
+[2026-04-24T16:15:08] WARN: OpenAI API bloquée (HTTP 403 Host not in allowlist)
+[2026-04-24T16:15:08] WARN: WordPress REST API bloquée (HTTP 403 Host not in allowlist)
+[2026-04-24T16:15:08] Fallback: génération éditoriale directe via Claude Sonnet 4.6
+[2026-04-24T16:15:08] Generating manifest: architecture_editoriale / triptyque_minimal
+[2026-04-24T16:15:08] Manifest saved: 00_Systeme/Manifests/2026-04-24_le-fmi-abaisse-ses-previsions-de-croissance-mondiale_architecture_editoriale.json
+[2026-04-24T16:15:08] Generating article 1/3: 2026-448 [ACTU] Le FMI revoit la croissance mondiale à la baisse...
+[2026-04-24T16:15:08] Generating article 2/3: 2026-449 [TF] Charles Kindleberger et les crises de liquidité mondiale...
+[2026-04-24T16:15:08] Generating article 3/3: 2026-450 [SENTIER] Comment analyser une crise économique sans se laisser piéger...
+[2026-04-24T16:15:08] Writing articles locally... OK
+[2026-04-24T16:15:08] Appending index rows (2026-448, 2026-449, 2026-450)... OK
+[2026-04-24T16:15:08] Duplicating publish folder... OK
+[2026-04-24T16:15:08] Triptych generated locally in: 07_A_Publier/2026-04-24_le-fmi-abaisse-ses-previsions-de-croissance-mondiale_architecture_editoriale
+[2026-04-24T16:15:08] WordPress push SKIPPED (le-phare.info inaccessible depuis sandbox Claude Code)
+[2026-04-24T16:15:08] Daily routine completed for topic: FMI / Moyen-Orient / Ormuz

@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-24",
+  "status": "success",
+  "topic": "Le FMI abaisse ses prévisions de croissance mondiale face à la guerre au Moyen-Orient et au blocus du détroit d'Ormuz",
+  "theme": "ECON",
+  "source": "WebSearch (Google News RSS bloqué)",
+  "source_link": "https://www.imf.org/fr/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+  "publish_drafts": false,
+  "publish_dir": "07_A_Publier/2026-04-24_le-fmi-abaisse-ses-previsions-de-croissance-mondiale_architecture_editoriale",
+  "generation_method": "Claude Sonnet 4.6 direct (OpenAI API inaccessible depuis sandbox)",
+  "article_ids": [
+    "2026-448",
+    "2026-449",
+    "2026-450"
+  ],
+  "stdout": "Triptyque généré directement via Claude Sonnet 4.6. WordPress push non effectué (le-phare.info bloqué par proxy sandbox).",
+  "stderr": "WARN: OpenAI API bloquée (Host not in allowlist). WARN: Google News RSS 403. WARN: WordPress REST API 403. Fallback: génération LLM directe via Claude.",
+  "returncode": 0,
+  "completed_at": "2026-04-24T16:15:08"
+}

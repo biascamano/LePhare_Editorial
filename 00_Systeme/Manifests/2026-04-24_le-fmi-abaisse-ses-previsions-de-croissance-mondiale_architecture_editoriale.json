@@ -1,0 +1,161 @@
+{
+  "source_topic": "Le FMI abaisse ses prévisions de croissance mondiale face à la guerre au Moyen-Orient et au blocus du détroit d'Ormuz",
+  "requested_mode": "architecture_editoriale",
+  "content_mode": "triptyque",
+  "output_profile": "triptyque_minimal",
+  "cycle_question": "Comment une crise géopolitique au Moyen-Orient se transforme-t-elle en onde de choc économique mondiale, et quels outils intellectuels permettent de l'analyser sans catastrophisme ni déni ?",
+  "cycle_status": "critique",
+  "active_posture": "Analyser",
+  "triptych_role": "mise_en_tension",
+  "theme_code": "ECON",
+  "category_label": "Economie & Finance",
+  "angle": "Impact macroéconomique mondial du blocus d'Ormuz et des révisions FMI d'avril 2026",
+  "topic_summary": "Le FMI a abaissé le 14 avril 2026 ses prévisions de croissance mondiale à 3,1 %, en raison du conflit au Moyen-Orient et du blocus quasi-total du détroit d'Ormuz. L'Europe et la France sont directement affectées. Cette crise illustre les mécanismes théorisés par Kindleberger et exige des outils critiques rigoureux pour être analysée sans biais.",
+  "question_centrale": "Comment une crise géopolitique au Moyen-Orient se transforme-t-elle en onde de choc économique mondiale ?",
+  "architecture_summary": "Un triptyque ACTU-TF-SENTIER articulé autour de la révision FMI d'avril 2026. L'ACTU expose les faits et mécanismes économiques. Le TF mobilise Kindleberger pour éclairer la notion de crise de liquidité et de stabilisateur hégémonique. Le SENTIER propose cinq outils cognitifs pour analyser une crise économique sans se laisser piéger par les récits catastrophistes.",
+  "knowledge_layer": {
+    "central_nodes": ["Blocus détroit d'Ormuz", "Révision FMI avril 2026"],
+    "nodes": [
+      {
+        "node_id": "evt_1",
+        "label": "Blocus détroit d'Ormuz",
+        "node_type": "Evenement",
+        "definition": "Réduction de plus de 95 % du trafic maritime dans le détroit d'Ormuz suite au conflit au Moyen-Orient, perturbant 20 % de l'approvisionnement mondial en pétrole et GNL.",
+        "editorial_role": "porte d'entrée",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "evt_2",
+        "label": "Révision FMI avril 2026",
+        "node_type": "Evenement",
+        "definition": "Publication le 14 avril 2026 des Perspectives de l'économie mondiale : croissance révisée à 3,1 %, inflation à 4,4 %, zone euro à 1,1 %, France à 0,9 %.",
+        "editorial_role": "données de référence",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "concept_1",
+        "label": "Stabilisateur hégémonique",
+        "node_type": "Concept",
+        "definition": "Théorie de Kindleberger selon laquelle la stabilité économique mondiale requiert un acteur dominant capable et disposé à maintenir des marchés ouverts et à fournir des liquidités en dernier ressort.",
+        "editorial_role": "cadre théorique",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "concept_2",
+        "label": "Biais de disponibilité et catastrophisme",
+        "node_type": "Concept",
+        "definition": "Tendance cognitive à surpondérer les événements saillants récents, conduisant à des projections excessivement pessimistes lors des crises.",
+        "editorial_role": "outil critique",
+        "reuse_potential": "fort"
+      }
+    ],
+    "relations": [
+      {"source": "evt_1", "relation": "cause", "target": "evt_2"},
+      {"source": "concept_1", "relation": "historise", "target": "evt_1"},
+      {"source": "concept_2", "relation": "explique", "target": "evt_2"}
+    ],
+    "editorial_tensions": [
+      "Choc ponctuel vs tendance structurelle de dépendance énergétique européenne",
+      "Nécessité d'alerte vs risque de récit catastrophiste auto-réalisateur"
+    ],
+    "durable_pivots": ["Théorie du stabilisateur hégémonique (Kindleberger)", "Outils de calibration de l'incertitude (Kahneman, Tetlock)"]
+  },
+  "publication_layer": {
+    "recommended_entrypoint": "ACTU",
+    "content_candidates": [
+      {
+        "content_id": "actu",
+        "type_code": "ACTU",
+        "title": "Le FMI revoit la croissance mondiale à la baisse : guerre au Moyen-Orient et blocus d'Ormuz",
+        "question": "Quels sont les mécanismes économiques par lesquels le blocus d'Ormuz affecte la croissance mondiale ?",
+        "covered_nodes": ["evt_1", "evt_2"],
+        "editorial_function": "porte_entree"
+      },
+      {
+        "content_id": "tf",
+        "type_code": "TF",
+        "title": "Charles Kindleberger et les crises de liquidité mondiale",
+        "question": "Que nous apprend Kindleberger sur les crises pétrolières et le rôle du stabilisateur hégémonique ?",
+        "covered_nodes": ["concept_1", "evt_1"],
+        "editorial_function": "historicisation"
+      },
+      {
+        "content_id": "sentier",
+        "type_code": "SENTIER",
+        "title": "Comment analyser une crise économique sans se laisser piéger par les récits catastrophistes",
+        "question": "Quels outils cognitifs permettent d'analyser une crise économique avec rigueur ?",
+        "covered_nodes": ["concept_2", "evt_2"],
+        "editorial_function": "exercice_critique"
+      }
+    ],
+    "triptych_candidates": [
+      {
+        "triptych_id": "triptyque_1",
+        "label": "Guerre, énergie et croissance : quand le FMI tire la sonnette d'alarme",
+        "function": "minimal",
+        "core_tension": "Comment une crise géopolitique au Moyen-Orient se transforme en onde de choc économique mondiale ?",
+        "covered_nodes": ["evt_1", "evt_2", "concept_1", "concept_2"],
+        "recommended_order": 1
+      }
+    ],
+    "recommended_triptych_id": "triptyque_1",
+    "publication_sequence": ["triptyque_1"]
+  },
+  "articles": [
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre, énergie et croissance : quand le FMI tire la sonnette d'alarme",
+      "triptych_order": 1,
+      "type_code": "ACTU",
+      "title": "Le FMI revoit la croissance mondiale à la baisse : guerre au Moyen-Orient et blocus d'Ormuz",
+      "objective": "Exposer les mécanismes par lesquels la guerre au Moyen-Orient et le blocus d'Ormuz se répercutent sur la croissance mondiale et les économies européennes.",
+      "summary": "Le FMI a abaissé ses prévisions de croissance mondiale à 3,1 % en raison du blocus d'Ormuz et de la guerre au Moyen-Orient. La France est attendue à 0,9 % en 2026.",
+      "keywords": ["FMI", "croissance mondiale", "guerre Moyen-Orient", "détroit d'Ormuz", "énergie", "inflation"],
+      "primary_sources": ["FMI Perspectives économie mondiale avril 2026", "IMF Blog 14 avril 2026"],
+      "etape_sentier": "Analyser",
+      "wp_categories": ["actualites", "economie-finance"],
+      "wp_tags": ["fmi", "croissance-mondiale", "ormuz", "guerre", "energie"],
+      "relative_folder": "01_Actualites/Economie_Finance"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre, énergie et croissance : quand le FMI tire la sonnette d'alarme",
+      "triptych_order": 1,
+      "type_code": "TF",
+      "title": "Charles Kindleberger et les crises de liquidité mondiale : la rente pétrolière comme facteur de déstabilisation",
+      "objective": "Présenter la pensée de Kindleberger sur les crises de liquidité et le stabilisateur hégémonique pour éclairer la crise de 2026.",
+      "summary": "Kindleberger théorise le rôle du stabilisateur hégémonique et les crises de rente pétrolière. Un cadre intellectuel précieux pour comprendre 2026.",
+      "keywords": ["Kindleberger", "crises financières", "rente pétrolière", "stabilisateur hégémonique"],
+      "primary_sources": ["Kindleberger Manias Panics and Crashes 1978", "Kindleberger The World in Depression 1973"],
+      "etape_sentier": "Comprendre",
+      "wp_categories": ["textes-fondateurs"],
+      "wp_tags": ["kindleberger", "economie", "crises", "petrole"],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre, énergie et croissance : quand le FMI tire la sonnette d'alarme",
+      "triptych_order": 1,
+      "type_code": "SENTIER",
+      "title": "Comment analyser une crise économique sans se laisser piéger par les récits catastrophistes",
+      "objective": "Doter le lecteur de cinq outils cognitifs pour analyser les crises économiques avec rigueur.",
+      "summary": "Cinq outils cognitifs (Kahneman, Tetlock, Taleb) pour analyser la crise FMI/Ormuz sans catastrophisme ni déni.",
+      "keywords": ["analyse économique", "biais cognitifs", "catastrophisme", "pensée critique"],
+      "primary_sources": ["Kahneman Thinking Fast and Slow 2011", "Tetlock Superforecasting 2015", "Taleb The Black Swan 2007"],
+      "etape_sentier": "Analyser",
+      "wp_categories": ["sentier", "outils-cognitifs"],
+      "wp_tags": ["pensee-critique", "biais", "crise", "economie"],
+      "relative_folder": "05_Sentier/Etape_03_Argumentation"
+    }
+  ],
+  "assigned_article_ids": ["2026-448", "2026-449", "2026-450"],
+  "generated_on": "2026-04-24",
+  "publish_folder_name": "2026-04-24_le-fmi-abaisse-ses-previsions-de-croissance-mondiale_architecture_editoriale",
+  "generation_method": "Claude Sonnet 4.6 direct (OpenAI API inaccessible depuis sandbox Claude Code)",
+  "guardrails": {
+    "max_triptychs": 1,
+    "max_overlap_ratio": 0.35,
+    "require_distinct_function": true,
+    "require_sentier_link": true
+  }
+}
