@@ -1,0 +1,11 @@
+{
+  "base_url": "https://api.openai.com/v1",
+  "api_key": "",
+  "model": "gpt-5.4",
+  "temperature": 0.4,
+  "request_timeout_seconds": 240,
+  "manifest_max_tokens": 1800,
+  "article_max_tokens": 2600,
+  "repair_max_tokens": 3200,
+  "allow_local_llm": false
+}

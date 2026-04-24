@@ -1,0 +1,110 @@
+{
+  "cycle_question": "critique",
+  "cycle_status": "fondateur",
+  "active_posture": "Comprendre",
+  "triptych_role": "approfondissement",
+  "theme_code": "POL",
+  "category_label": "Politique & Societe",
+  "angle": "Aucun angle impose",
+  "topic_summary": "La guerre entre les États-Unis, Israël et l'Iran est un sujet complexe qui nécessite une analyse nuancée pour comprendre ses enjeux et implications.",
+  "articles": [
+    {
+      "type_code": "ACTU",
+      "title": "Guerre USA-Israël-Iran: Contexte et enjeux actuels",
+      "objective": "Apporter un regard approfondi sur les tensions récentes entre les États-Unis, Israël et l'Iran.",
+      "summary": "Cette analyse examine la situation géopolitique complexe qui a conduit à des tensions croissantes entre ces trois pays, mettant en lumière les enjeux politiques et économiques au cœur de cette crise.",
+      "keywords": [
+        "Guerre",
+        "États-Unis",
+        "Israël",
+        "Iran",
+        "Tensions géopolitiques",
+        "Enjeux diplomatiques"
+      ],
+      "primary_sources": [
+        "Reuters",
+        "Bloomberg",
+        "The New York Times"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "actualites-politique-societe",
+        "geopolitique"
+      ],
+      "wp_tags": [
+        "guerre-iraniennes",
+        "politique-internationale",
+        "tensions-regionales"
+      ],
+      "relative_folder": "01_Actualites/Politique_Societe"
+    },
+    {
+      "type_code": "TF",
+      "title": "Les fondements de la diplomatie israélo-américaine face à l'Iran",
+      "objective": "Explorer les principes et les textes fondateurs qui guident la politique américaine envers Israël et l'Iran.",
+      "summary": "Ce texte examine les documents clés qui ont formé les politiques de l'administration américaine envers Israël et l'Iran, mettant en lumière leurs implications sur le plan diplomatique et stratégique.",
+      "keywords": [
+        "Diplomatie",
+        "États-Unis",
+        "Israël",
+        "Iran",
+        "Textes fondateurs",
+        "Politique étrangère"
+      ],
+      "primary_sources": [
+        "US Department of State",
+        "Israel Ministry of Foreign Affairs",
+        "Iranian Ministry of Foreign Affairs"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "textes-fondateurs-auteurs",
+        "diplomatie"
+      ],
+      "wp_tags": [
+        "diplomatie-israel-iran",
+        "politique-et-etrangere",
+        "fondements-diplomatiques"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "type_code": "SENTIER",
+      "title": "Relier la connaissance sur la guerre USA-Israël-Iran à l'histoire mondiale",
+      "objective": "Faire le lien entre les enjeux actuels de la guerre entre les États-Unis, Israël et l'Iran avec des événements historiques similaires.",
+      "summary": "Ce texte invite le lecteur à relier les enjeux contemporains de la guerre USA-Israël-Iran aux conflits passés pour mieux comprendre leurs implications sur le plan stratégique et politique.",
+      "keywords": [
+        "Histoire",
+        "Conflits historiques",
+        "États-Unis",
+        "Israël",
+        "Iran",
+        "Lien historique"
+      ],
+      "primary_sources": [
+        "Encyclopædia Britannica",
+        "History.com",
+        "The Guardian"
+      ],
+      "etape_sentier": "Relier",
+      "wp_categories": [
+        "step-08-relier-savoirs-et-experience",
+        "histoire-mondiale"
+      ],
+      "wp_tags": [
+        "conflits-historiques",
+        "guerre-iraniennes",
+        "histoire-politique"
+      ],
+      "relative_folder": "05_Sentier/Etape_08_Relier_savoirs_et_experience"
+    }
+  ],
+  "source_topic": "Guerre usa israel iran",
+  "assigned_article_ids": [
+    "2026-429",
+    "2026-430",
+    "2026-431"
+  ],
+  "generated_on": "2026-04-09",
+  "publish_folder_name": "2026-04-09_guerre-usa-israel-iran_triptyque"
+}

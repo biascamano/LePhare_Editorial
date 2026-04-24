@@ -1,0 +1,51 @@
+{
+  "cycle_question": "quelles sont les implications de la guerre entre USA, Israël et l'Iran?",
+  "cycle_status": "exploratoire",
+  "active_posture": "Comprendre",
+  "triptych_role": "approfondissement",
+  "theme_code": "POL",
+  "category_label": "Politique & Societe",
+  "angle": "Aucun angle impose",
+  "topic_summary": "Explorer les enjeux de la guerre entre USA, Israël et l'Iran, en mettant l'accent sur le contexte historique, géopolitique et économique.",
+  "articles": [
+    {
+      "type_code": "DOSSIER",
+      "title": "La Guerre USA-Israël-Iran: Un Dossier Complexe",
+      "objective": "Fournir une analyse nuancée de la situation actuelle entre les trois parties, en mettant l'accent sur le contexte historique et géopolitique.",
+      "summary": "Ce dossier explore les enjeux et implications d'une éventuelle guerre entre USA, Israël et l'Iran, en se basant sur des faits et analyses nuancées.",
+      "keywords": [
+        "USA",
+        "Israël",
+        "Iran",
+        "guerre",
+        "contexte historique",
+        "géopolitique",
+        "économie"
+      ],
+      "primary_sources": [
+        "Bureau de la Presse Étrangère (Agence France-Presse)",
+        "Reuters",
+        "The New York Times",
+        "Le Monde"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "politique-societe",
+        "actualites"
+      ],
+      "wp_tags": [
+        "guerre-usa-israel-iran",
+        "contexte-historique",
+        "geopolitique"
+      ],
+      "relative_folder": "03_Dossiers/Politique_Societe/guerre_usa_israel_iran_Mini_Encyclopedie"
+    }
+  ],
+  "source_topic": "Guerre usa israel iran",
+  "content_mode": "mini_encyclopedie",
+  "assigned_article_ids": [
+    "2026-435"
+  ],
+  "generated_on": "2026-04-09",
+  "publish_folder_name": "2026-04-09_guerre-usa-israel-iran_mini_encyclopedie"
+}

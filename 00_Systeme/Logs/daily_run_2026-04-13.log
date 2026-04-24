@@ -1,0 +1,17 @@
+[2026-04-13T09:01:38] Selected topic: Le pari risqué de Donald Trump, qui annonce un blocus maritime de l’Iran après l’échec des premières négociations
+[2026-04-13T09:01:38] Source: Le Monde.fr | https://news.google.com/rss/articles/CBMimwJBVV95cUxPX3RIUjFyY0VhOU1vNnoyYWlYWHN1cWdJQ1VNN09VVEtlcGUwSkdpSVotR0lNV3ZpRDQzUHJWYVhGZ2R1TmdHYVlMeEhTT2NMUEQ4X05HXzVkVHRkUVlxQnF0X1ZUZjBXRTJNdjhsRDNnX2RnNGFEYnAtaDB6SjhfWkhXV0lUZzYzSGxVcHk3S25SLUpMSEZtYWYtNngwX3p3QVZFNG9NVTNvSmx2RXFfajhONXBCS3ltdEgyZ1ZGUWhIOGgwVUI4SnBHZ2ZGbUNXc0haa2pDWWlrOHUzN3VhRENaUVZJbHU1QVlzZWloLWc1NDBvalRYUzdObjFuX1l4WUl3dzRKWkE3cGZRSi10akh5aU1ram5jek9n?oc=5
+[2026-04-13T09:01:38] Theme: MONDE
+[2026-04-13T09:01:38] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\editorial_pipeline.py Le pari risqué de Donald Trump, qui annonce un blocus maritime de l’Iran après l’échec des premières négociations --mode architecture_editoriale --output-profile triptyque_minimal --config D:\workspaces\LePhare_Editorial\tools\editorial_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv --theme MONDE --publish-drafts --wp-config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json
+[2026-04-13T09:35:29] Selected topic: Test stream logs Ormuz
+[2026-04-13T09:35:29] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\editorial_pipeline.py Test stream logs Ormuz --mode architecture_editoriale --output-profile triptyque_minimal --config D:\workspaces\LePhare_Editorial\tools\editorial_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-04-13T09:35:29] --- PIPELINE OUTPUT ---
+[2026-04-13T09:35:29] Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...
+[2026-04-13T09:37:37] --- STDOUT ---
+[2026-04-13T09:37:37] Manifest saved: D:\workspaces\LePhare_Editorial\00_Systeme\Manifests\2026-04-13_le-pari-risque-de-donald-trump-qui-annonce-un-blocus-maritim_architecture_editoriale.json
+[2026-04-13T09:37:37] --- STDERR ---
+[2026-04-13T09:37:37] Editorial pipeline error: LLM response does not contain valid JSON
+[2026-04-13T09:39:30] Editorial pipeline error: LLM request failed or timed out after 240.0s: timed out
+[2026-04-13T09:52:42] Selected topic: Test OpenAI sans cle
+[2026-04-13T09:52:42] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\editorial_pipeline.py Test OpenAI sans cle --mode architecture_editoriale --output-profile triptyque_minimal --config D:\workspaces\LePhare_Editorial\tools\editorial_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-04-13T09:52:42] --- PIPELINE OUTPUT ---
+[2026-04-13T09:52:43] Editorial pipeline error: Missing LLM config value(s): api_key

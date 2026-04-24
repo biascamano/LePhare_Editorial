@@ -1,0 +1,20 @@
+﻿ID article : 2026-278
+Titre : Devenez Curateur d’une Rubrique Thématique
+Type : FOND
+Theme : CULTURE
+Statut : publie
+Version : V1
+Date de creation : 2026-04-08
+Date de derniere mise a jour : 2026-04-08
+Auteur : Le Phare Info
+Etape du Sentier liee : 
+Articles lies (IDs) : 
+Mots-cles : 
+Resume court (500 caracteres max) : Une offre en 3 volets pour co-construire une rubrique au sein d’un média indépendant, rigoureux et sans publicité. 🔹 1. Création du Dossier Initial 🎯 Objectif : Lancer une rubrique avec un dossier de fond rigoureux et accessible Vous choisissez une thématiqu
+Objectif de l'article : Archive source depuis WordPress.
+Sources principales : Le Phare Info
+URL WordPress (si publie) : https://le-phare.info/devenez-curateur-dune-rubrique-thematique/
+
+---
+
+Une offre en 3 volets pour co-construire une rubrique au sein d’un média indépendant, rigoureux et sans publicité. 🔹 1. Création du Dossier Initial 🎯 Objectif : Lancer une rubrique avec un dossier de fond rigoureux et accessible Vous choisissez une thématique en lien avec la ligne éditoriale du média. Nous co-construisons avec vous la structure d’un dossier d’introduction , puis notre rédaction le rédige intégralement. Ce que comprend cette étape : Entretien éditorial initial pour cadrer le sujet Recherche documentaire approfondie Rédaction d’un article de fond structurant (1500 à 3000 mots) Intégration complète au site (mise en page, visuel, SEO) Votre bio, lien professionnel et rôle clairement indiqués ✅ Vous ne rédigez pas, mais vous avez un droit de regard sur les ajustements : précisions, vérifications, correction d’éventuels biais. 💰 Tarif : à partir de 300 € à 800 € 🔹 2. Mise en place de votre Rubrique Personnalisée 🎯 Objectif : Créer un espace éditorial autonome sous votre responsabilité thématique Une rubrique est créée sur le site à votre nom, avec une URL dédiée (ex : /rubriques/philo-et-democratie/ ). Ce que comprend cette étape : Création d’une rubrique visible et accessible depuis le menu Page d’accueil personnalisée : Votre bio + lien vers votre site ou projet Introduction au thème Rôle de curateur : Vous validez ou refusez les publications proposées Vous orientez la ligne thématique (sans intervenir sur les contenus) Vous faites votre veille personnelle pour suggérer des pistes, points de vigilance, ou sujets à creuser Vous assurez le respect du cadre éditorial de la rubrique ❌ Vous ne publiez pas vos propres articles ❌ Vous ne modifiez pas le contenu ✅ Vous êtes garant de la cohérence, rigueur et clarté des publications 🔹 3. Publication d’Articles Récurrents 🎯 Objectif : Faire vivre la rubrique dans la durée avec des publications régulières, validées par vous Notre rédaction propose chaque mois ou trimestre de nouveaux contenus en lien avec votre thématique. Vous êtes informé·e en amont pour chaque publication. Ce que comprend cette phase : Propositions d’articles validées ou refusées par vous Relecture possible pour vérification, suggestions, signalement de biais Publication sous votre supervision, selon le rythme convenu Suivi éditorial continu avec un point régulier 💰 Tarif sur devis , selon le volume d’articles et le degré d’accompagnement 🎁 Offre de Lancement Pour tout dossier lancé en 2025 : 🎉 6 mois offerts sur les volets “Rubrique personnalisée” + “Articles récurrents” ✅ Vous ne payez que la création du dossier initial ✅ Vous testez gratuitement le fonctionnement de la rubrique pendant 6 mois ✅ Ensuite, renouvellement libre selon vos besoins 🧭 Pourquoi cette offre est unique Ce que vous obtenez Ce que vous ne faites pas Une rubrique éditoriale à votre nom Vous n’écrivez pas les articles Une visibilité durable dans un média indépendant Vous ne modifiez pas les contenus Une participation intellectuelle réelle Vous ne sponsorisez ni ne commercialisez Une veille partagée et utile Vous ne dirigez pas la ligne globale du média 📬 Intéressé.e ? Présentez-nous votre idée en quelques lignes ici : 👉 [Lien formulaire ou e-mail] Nous vous recontactons pour en discuter librement. 🙌 Co-construisons ensemble un espace de savoir rigoureux, ouvert, et libéré des logiques publicitaires.

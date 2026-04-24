@@ -1,0 +1,107 @@
+{
+  "cycle_question": "MONDE",
+  "cycle_status": "exploratoire",
+  "active_posture": "Observer",
+  "triptych_role": "ouverture",
+  "theme_code": "MONDE",
+  "category_label": "Monde",
+  "angle": "Aucun angle impose",
+  "topic_summary": "Le Liban en deuil après les bombardements d’Israël, la France dénonce des attaques « intolérables ».",
+  "articles": [
+    {
+      "type_code": "ACTU",
+      "title": "Guerre au Moyen-Orient : Le Liban plongé dans le deuil après les bombardements israéliens",
+      "objective": "Rapporter les faits et conséquences des bombardements sur le Liban.",
+      "summary": "Le Liban est en deuil suite aux bombardements d’Israël qui ont causé de nombreuses victimes civiles. La France a dénoncé ces attaques comme intolérables.",
+      "keywords": [
+        "Liban",
+        "bombardement",
+        "Israël",
+        "France",
+        "deuil",
+        "attaques"
+      ],
+      "primary_sources": [
+        "AFP",
+        "Reuters",
+        "Le Monde"
+      ],
+      "etape_sentier": "Observer",
+      "wp_categories": [
+        "01-actualites-politique-societe",
+        "guerre-moyen-orient"
+      ],
+      "wp_tags": [
+        "liban",
+        "israel",
+        "france"
+      ],
+      "relative_folder": "01_Actualites/Politique_Societe"
+    },
+    {
+      "type_code": "TF",
+      "title": "Déclaration de la France sur les bombardements israéliens en Liban : un texte fondateur du droit international",
+      "objective": "Exposer le point de vue de la France et ses implications juridiques.",
+      "summary": "La déclaration de la France sur les bombardements israéliens en Liban soulève des questions importantes concernant l’application du droit international.",
+      "keywords": [
+        "France",
+        "bombardement",
+        "Liban",
+        "droit international",
+        "déclaration"
+      ],
+      "primary_sources": [
+        "Déclaration de la France",
+        "Traité de non-prolifération des armes nucléaires (TNP)"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "04-textes-fondateurs-auteurs",
+        "droit-international"
+      ],
+      "wp_tags": [
+        "france",
+        "liban",
+        "israel"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "type_code": "SENTIER",
+      "title": "Sentier du Savoir : Observer, Questionner et Comprendre les enjeux de la guerre au Moyen-Orient",
+      "objective": "Activer une posture de questionnement et de compréhension des enjeux de la situation.",
+      "summary": "Ce Sentier invite à observer les faits et à poser des questions sur l’impact des bombardements d’Israël en Liban, pour mieux comprendre les enjeux de cette guerre au Moyen-Orient.",
+      "keywords": [
+        "guerre",
+        "Moyen-Orient",
+        "bombardement",
+        "Liban",
+        "Israël"
+      ],
+      "primary_sources": [
+        "Déclaration de la France",
+        "Rapports des Nations Unies",
+        "Articles de presse"
+      ],
+      "etape_sentier": "Relier",
+      "wp_categories": [
+        "05-sentier-etape-08-relier-savoirs-et-experience",
+        "guerre-moyen-orient"
+      ],
+      "wp_tags": [
+        "liban",
+        "israel",
+        "france"
+      ],
+      "relative_folder": "05_Sentier/Etape_08_Relier_savoirs_et_experience"
+    }
+  ],
+  "source_topic": "EN DIRECT, guerre au Moyen-Orient : le Liban en deuil après les bombardements d’Israël, la France dénonce des attaques « intolérables »",
+  "assigned_article_ids": [
+    "2026-432",
+    "2026-433",
+    "2026-434"
+  ],
+  "generated_on": "2026-04-09",
+  "publish_folder_name": "2026-04-09_en-direct-guerre-au-moyen-orient-le-liban-en-deuil-apres-les_triptyque"
+}

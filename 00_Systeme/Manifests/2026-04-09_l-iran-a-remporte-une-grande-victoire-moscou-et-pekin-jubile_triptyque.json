@@ -1,0 +1,101 @@
+{
+  "cycle_question": "exploratoire",
+  "cycle_status": "exploratoire",
+  "active_posture": "Observer",
+  "triptych_role": "ouverture",
+  "theme_code": "MONDE",
+  "category_label": "Monde",
+  "angle": "Aucun angle impose",
+  "topic_summary": "L'Iran a remporté une grande victoire: Moscou et Pékin jubilent après le cessez-le-feu, la naissance d'un axe Chine/Iran/Russie effraie l'occident (il contrôlerait 30% du pétrole mondial).",
+  "articles": [
+    {
+      "type_code": "ACTU",
+      "title": "L'Iran remporte une victoire stratégique: Moscou et Pékin jubilent après le cessez-le-feu",
+      "objective": "Présenter les développements récents concernant l'accord de cessez-le-feu entre l'Iran, la Russie et la Chine.",
+      "summary": "L'Iran a remporté une victoire stratégique avec un accord de cessez-le-feu qui a été salué par Moscou et Pékin. Cette alliance pourrait avoir des implications majeures sur le marché du pétrole mondial.",
+      "keywords": [
+        "Iran",
+        "Royaume Uni",
+        "Russie",
+        "Chine",
+        "Pétrole",
+        "Cessez-le-feu"
+      ],
+      "primary_sources": [
+        "AFP",
+        "Reuters",
+        "Agence France-Presse"
+      ],
+      "etape_sentier": "Observer",
+      "wp_categories": [
+        "01-actualites-politique-societe"
+      ],
+      "wp_tags": [
+        "iran",
+        "petrole",
+        "chine"
+      ],
+      "relative_folder": "01_Actualites/Politique_Societe"
+    },
+    {
+      "type_code": "TF",
+      "title": "Texte fondateur: Le rôle des grandes puissances dans la politique internationale",
+      "objective": "Explorer le rôle des grandes puissances et leur influence sur les relations mondiales.",
+      "summary": "Ce texte fondateur examine l'influence des grandes puissances telles que la Russie, la Chine et l'Iran sur la scène internationale. Il explore comment ces alliances peuvent affecter les politiques économiques et diplomatiques.",
+      "keywords": [
+        "Grande Puissance",
+        "Politique Internationale",
+        "Alliance",
+        "Influence"
+      ],
+      "primary_sources": [
+        "Diplomatie",
+        "Stratégie Nationale"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "04-textes-fondateurs-auteurs"
+      ],
+      "wp_tags": [
+        "role",
+        "puissances",
+        "influence"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "type_code": "SENTIER",
+      "title": "Relier: L'impact de l'alliance Chine/Iran/Russie sur le marché pétrolier mondial",
+      "objective": "Analyser les implications économiques et politiques d'une possible alliance entre ces trois pays.",
+      "summary": "Cette analyse explore comment une possible alliance entre la Chine, l'Iran et la Russie pourrait affecter le marché du pétrole mondial. Elle souligne l'importance de cette alliance pour comprendre les dynamiques économiques mondiales.",
+      "keywords": [
+        "Alliance",
+        "Pétrole",
+        "Économie Mondiale",
+        "Politique Énergétique"
+      ],
+      "primary_sources": [
+        "Banque Mondiale",
+        "Organisation des Pays Exportateurs de Pétrole (OPEP)"
+      ],
+      "etape_sentier": "Relier",
+      "wp_categories": [
+        "05-sentier-etape-08-rlier-savoirs-et-experience"
+      ],
+      "wp_tags": [
+        "alliance",
+        "petrole",
+        "economie-mondiale"
+      ],
+      "relative_folder": "05_Sentier/Etape_08_Relier_savoirs_et_experience"
+    }
+  ],
+  "source_topic": "\"L'Iran a remporté une grande victoire\": Moscou et Pékin jubilent après le cessez-le-feu, la naissance d'un axe Chine/Iran/Russie effraie l'occident (il contrôlerait 30% du pétrole mondial)",
+  "assigned_article_ids": [
+    "2026-432",
+    "2026-433",
+    "2026-434"
+  ],
+  "generated_on": "2026-04-09",
+  "publish_folder_name": "2026-04-09_l-iran-a-remporte-une-grande-victoire-moscou-et-pekin-jubile_triptyque"
+}

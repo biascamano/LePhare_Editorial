@@ -1,0 +1,227 @@
+{
+  "cycle_question": "Quels sont les enjeux et implications du blocus maritime annoncé par Donald Trump contre l'Iran ?",
+  "cycle_status": "exploratoire",
+  "active_posture": "Analyser",
+  "triptych_role": "approfondissement",
+  "theme_code": "MONDE",
+  "category_label": "Monde",
+  "angle": "Aucun angle impose",
+  "topic_summary": "Ce triptyque explore les motivations de Donald Trump pour imposer un blocus maritime à l'Iran et les implications potentielles sur le plan économique, diplomatique et stratégique.",
+  "articles": [
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs maritimes : une nouvelle menace contre l'Iran ?",
+      "triptych_order": 1,
+      "type_code": "ACTU",
+      "title": "Donald Trump bloque le commerce maritime avec l’Iran : ce qu’il faut savoir",
+      "objective": "Fournir un résumé clair et concis des enjeux du blocus maritime annoncé par Donald Trump.",
+      "summary": "Le président américain a annoncé un blocus maritime contre l'Iran après l’échec des premières négociations. Cette mesure vise à mettre la pression sur le pays pour qu'il cède dans les discussions sur son programme nucléaire et ses activités en Syrie.",
+      "keywords": [
+        "Donald Trump",
+        "Iran",
+        "blocus maritime",
+        "négociations",
+        "programme nucléaire"
+      ],
+      "primary_sources": [
+        "AFP",
+        "Reuters",
+        "The New York Times"
+      ],
+      "etape_sentier": "Observer",
+      "wp_categories": [
+        "climat-transition",
+        "politique-societe"
+      ],
+      "wp_tags": [
+        "blocus-maritime",
+        "iran",
+        "donald-trump"
+      ],
+      "relative_folder": "01_Actualites/Politique_Societe"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs maritimes : une nouvelle menace contre l'Iran ?",
+      "triptych_order": 2,
+      "type_code": "TF",
+      "title": "Le blocus maritime : un outil diplomatique dans la guerre économique",
+      "objective": "Expliquer comment le blocus maritime peut devenir un outil stratégique pour influencer les décisions politiques d'un pays.",
+      "summary": "Le blocus maritime est une forme de guerre économique qui vise à isoler un pays sur le plan commercial. Dans ce texte, nous analysons comment cette mesure peut être utilisée comme outil diplomatique et ses implications potentielles pour l'Iran.",
+      "keywords": [
+        "blocus maritime",
+        "guerre économique",
+        "outil diplomatique"
+      ],
+      "primary_sources": [
+        "The Economist",
+        "Foreign Affairs"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "climat-transition",
+        "politique-societe"
+      ],
+      "wp_tags": [
+        "blocus-maritime",
+        "guerre-economique",
+        "outil-diplomatique"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs maritimes : une nouvelle menace contre l'Iran ?",
+      "triptych_order": 3,
+      "type_code": "SENTIER",
+      "title": "Comment comprendre les enjeux d'un blocus maritime ?",
+      "objective": "Fournir des outils pour aider le lecteur à comprendre et analyser les implications d'une mesure de ce type.",
+      "summary": "Ce texte propose une méthodologie pour comprendre et analyser les enjeux d'un blocus maritime. Il guide le lecteur dans la détermination des acteurs, des motivations et des conséquences potentielles.",
+      "keywords": [
+        "blocus maritime",
+        "analyse stratégique",
+        "compréhension"
+      ],
+      "primary_sources": [
+        "Harvard Business Review",
+        "Strategic Studies Quarterly"
+      ],
+      "etape_sentier": "Relier",
+      "wp_categories": [
+        "climat-transition",
+        "politique-societe"
+      ],
+      "wp_tags": [
+        "blocus-maritime",
+        "analyse-strategique",
+        "comprehension"
+      ],
+      "relative_folder": "05_Sentier/Etape_03_Argumentation"
+    }
+  ],
+  "question_centrale": "Comment comprendre les enjeux d'un blocus maritime imposé par Donald Trump contre l'Iran ?",
+  "architecture_summary": "Ce triptyque offre une approche complète pour comprendre et analyser la mesure de Donald Trump, allant des faits immédiats à une compréhension plus profonde.",
+  "knowledge_layer": {
+    "central_nodes": [
+      "blocus_maritime",
+      "Iran",
+      "Donald_Trump"
+    ],
+    "nodes": [
+      {
+        "node_id": "node_1",
+        "label": "Blocs maritimes",
+        "node_type": "Concept",
+        "definition": "Mesure économique et diplomatique visant à isoler un pays sur le plan commercial.",
+        "editorial_role": "Expliquer la nature du blocus maritime.",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "node_2",
+        "label": "Donald Trump",
+        "node_type": "Acteur",
+        "definition": "Président américain qui a annoncé le blocus maritime contre l'Iran.",
+        "editorial_role": "Positionner l'acteur dans la situation.",
+        "reuse_potential": "moyen"
+      },
+      {
+        "node_id": "node_3",
+        "label": "Iran",
+        "node_type": "Acteur",
+        "definition": "Pays visé par le blocus maritime, impliqué dans des conflits régionaux et internationaux.",
+        "editorial_role": "Expliquer la situation du pays.",
+        "reuse_potential": "fort"
+      }
+    ],
+    "relations": [
+      {
+        "source": "node_1",
+        "relation": "explique",
+        "target": "node_2"
+      },
+      {
+        "source": "node_1",
+        "relation": "explique",
+        "target": "node_3"
+      }
+    ],
+    "editorial_tensions": [
+      "La tension entre le besoin de pression diplomatique et les conséquences économiques potentielles.",
+      "Le débat sur l'efficacité des blocus maritimes comme outil stratégique."
+    ],
+    "durable_pivots": [
+      "Blocs maritimes",
+      "Politique étrangère américaine"
+    ]
+  },
+  "publication_layer": {
+    "recommended_entrypoint": "ACTU",
+    "content_candidates": [
+      {
+        "content_id": "actu_1",
+        "type_code": "ACTU",
+        "title": "Donald Trump bloque le commerce maritime avec l’Iran : ce qu’il faut savoir",
+        "question": "Quels sont les enjeux du blocus maritime annoncé par Donald Trump ?",
+        "covered_nodes": [
+          "node_1"
+        ],
+        "editorial_function": "porte_entree"
+      },
+      {
+        "content_id": "tf_1",
+        "type_code": "TF",
+        "title": "Le blocus maritime : un outil diplomatique dans la guerre économique",
+        "question": "Comment le blocus maritime peut-il être utilisé comme outil stratégique ?",
+        "covered_nodes": [
+          "node_2"
+        ],
+        "editorial_function": "clarification"
+      },
+      {
+        "content_id": "sentier_1",
+        "type_code": "SENTIER",
+        "title": "Comment comprendre les enjeux d'un blocus maritime ?",
+        "question": "Quels sont les outils pour comprendre et analyser la mesure de Donald Trump ?",
+        "covered_nodes": [
+          "node_3"
+        ],
+        "editorial_function": "approfondissement"
+      }
+    ],
+    "triptych_candidates": [
+      {
+        "triptych_id": "triptyque_1",
+        "label": "Blocs maritimes : une nouvelle menace contre l'Iran ?",
+        "function": "minimal",
+        "core_tension": "La tension entre le besoin de pression diplomatique et les conséquences économiques potentielles.",
+        "covered_nodes": [
+          "node_1",
+          "node_2",
+          "node_3"
+        ],
+        "recommended_order": 1
+      }
+    ],
+    "recommended_triptych_id": "triptyque_1",
+    "publication_sequence": [
+      "triptyque_1"
+    ]
+  },
+  "source_topic": "Le pari risqué de Donald Trump, qui annonce un blocus maritime de l’Iran après l’échec des premières négociations",
+  "requested_mode": "architecture_editoriale",
+  "content_mode": "triptyque",
+  "output_profile": "triptyque_minimal",
+  "guardrails": {
+    "max_triptychs": 1,
+    "max_overlap_ratio": 0.35,
+    "require_distinct_function": true,
+    "require_sentier_link": true
+  },
+  "assigned_article_ids": [
+    "2026-439",
+    "2026-440",
+    "2026-441"
+  ],
+  "generated_on": "2026-04-13",
+  "publish_folder_name": "2026-04-13_le-pari-risque-de-donald-trump-qui-annonce-un-blocus-maritim_architecture_editoriale"
+}

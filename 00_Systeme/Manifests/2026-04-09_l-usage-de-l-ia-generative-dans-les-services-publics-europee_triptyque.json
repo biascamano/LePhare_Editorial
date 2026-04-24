@@ -1,0 +1,99 @@
+{
+  "cycle_question": "critique",
+  "cycle_status": "fondateur",
+  "active_posture": "Comprendre",
+  "triptych_role": "approfondissement",
+  "theme_code": "TECH",
+  "category_label": "Technologie & IA",
+  "angle": "L'usage de l'IA generative dans les services publics europeens",
+  "topic_summary": "Cette étude explore comment l'intelligence artificielle est utilisée pour améliorer la qualité des services publics en Europe, avec un focus sur les défis et opportunités.",
+  "articles": [
+    {
+      "type_code": "ACTU",
+      "title": "L'IA generative dans le secteur public européen : une révolution en marche",
+      "objective": "Analyser l'usage de l'IA generative par les services publics européens et ses implications.",
+      "summary": "Cette analyse examine comment les institutions européennes utilisent l'intelligence artificielle pour améliorer leur efficacité, en mettant l'accent sur les cas d'utilisation et les défis rencontrés.",
+      "keywords": [
+        "IA generative",
+        "services publics",
+        "Europe",
+        "efficacité",
+        "défis"
+      ],
+      "primary_sources": [
+        "Commission européenne",
+        "Institut européen pour la recherche sur l'intelligence artificielle (EIT AI)",
+        "Fondation Bertelsmann"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "technologie-ia",
+        "services-publics-europeens"
+      ],
+      "wp_tags": [
+        "ia-generative",
+        "efficacite-services-publics",
+        "europe"
+      ],
+      "relative_folder": "01_Actualites/Technologie_IA"
+    },
+    {
+      "type_code": "TF",
+      "title": "Le rôle de l'IA generative dans la modernisation des services publics",
+      "objective": "Expliquer les principes fondamentaux et les applications pratiques de l'IA generative.",
+      "summary": "Ce texte fondateur définit l'IA generative, explique ses mécanismes de fonctionnement et présente des exemples concrets d'utilisation dans le secteur public européen.",
+      "keywords": [
+        "principes IA",
+        "applications pratiques",
+        "modernisation"
+      ],
+      "primary_sources": [
+        "Wikipedia",
+        "MIT Technology Review"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "textes-fondateurs-auteurs"
+      ],
+      "wp_tags": [
+        "ia-generative",
+        "principes-fonctionnement",
+        "applications-pratiques"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "type_code": "SENTIER",
+      "title": "Observer, questionner et analyser l'usage de l'IA generative dans les services publics européens",
+      "objective": "Activer une posture critique sur l'utilisation de l'IA generative par les institutions publiques.",
+      "summary": "Ce texte guide le lecteur à observer, questionner et analyser l'impact de l'IA generative sur la qualité des services publics en Europe, en encourageant un débat éclairé.",
+      "keywords": [
+        "observer",
+        "questionner",
+        "analyser"
+      ],
+      "primary_sources": [
+        "Commission européenne",
+        "EIT AI"
+      ],
+      "etape_sentier": "Analyser",
+      "wp_categories": [
+        "sentier-du-savoir-etape-04-expertise"
+      ],
+      "wp_tags": [
+        "ia-generative",
+        "services-publics-europeens",
+        "expertise-critique"
+      ],
+      "relative_folder": "05_Sentier/Etape_04_Expertise"
+    }
+  ],
+  "source_topic": "L'usage de l'IA generative dans les services publics europeens",
+  "assigned_article_ids": [
+    "2026-429",
+    "2026-430",
+    "2026-431"
+  ],
+  "generated_on": "2026-04-09",
+  "publish_folder_name": "2026-04-09_l-usage-de-l-ia-generative-dans-les-services-publics-europee_triptyque"
+}

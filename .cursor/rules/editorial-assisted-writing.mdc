@@ -1,0 +1,44 @@
+---
+description: Editorial workflow defaults to assisted high-quality writing, not local Ollama generation
+globs: {tools/**/*.py,00_Systeme/**/*.md,01_Actualites/**/*.md,03_Dossiers/**/*.md,04_Textes_fondateurs/**/*.md,05_Sentier/**/*.md,07_A_Publier/**/*.md}
+alwaysApply: true
+---
+
+# Editorial Default Mode
+
+For editorial work in this project, do not use local Ollama generation by default.
+Do not use an external API LLM by default either.
+
+- Default writing mode: the assistant writes the articles directly.
+- Default model posture: use the agent's own reasoning/writing ability for editorial generation.
+- Quality target: strong editorial quality, following `00_Systeme/Instructions_editoriales_officielles.md`.
+- Treat `daily_run.py` and `editorial_pipeline.py` as technical helpers, not default writing engines.
+- Use automation primarily for file organization, index updates, WordPress draft push, and internal linking.
+- Prefer short user prompts whenever possible; rely on project rules and docs for defaults instead of asking the user to restate them.
+- If the user asks for `routine quotidienne` or a `triptyque`, interpret that as assisted editorial production unless they explicitly request automated LLM generation.
+- For multi-triptych dossiers, prefer the lightweight workflow in `00_Systeme/Workflow_plan_dossier_triptyques.md` (plan once, optional pivot article linking all triptychs, then one triptych at a time) unless the user explicitly wants pipeline-driven `architecture_editoriale` generation.
+- If the user does not explicitly ask for API generation, do not launch `editorial_pipeline.py` as the writing engine.
+- If an API workflow is needed, it must be explicit, e.g. `--use-api-llm` or a clearly stated user request.
+- In `routine quotidienne`, choose the subject directly when needed; do not ask for topic approval before starting.
+- When choosing the daily topic for `routine quotidienne`, prefer subjects that progressively build the editorial knowledge graph: enrich the Sentier, strengthen cross-theme links, and keep WordPress categories/tags coherent (see `00_Systeme/Strategie_routine_quotidienne_graphe_taxonomie_WP.md`).
+- Include a final micro-editing pass by default before publication push.
+- In `Repères de sources`, include clickable source URLs whenever available, not just source names.
+- Keep Ollama available only as an explicit fallback or test mode, never as the implicit default.
+- Never silently switch to Ollama when an API key or config is missing.
+- Never silently switch to OpenAI API when the user asked for agent-first writing.
+
+# Expected Workflow
+
+1. Choose the topic directly unless the user already gave one.
+2. Write the triptych content directly with high editorial quality.
+3. Run a final micro-editing pass on the three drafts.
+4. Ensure the `Repères de sources` blocks contain explicit clickable URLs.
+5. Use the project defaults without requiring a long prompt from the user.
+6. Save them in the editorial folders and `07_A_Publier`.
+7. Use the existing scripts only for publishing and post-processing.
+8. Let the user review the final result in WordPress, not before topic selection.
+
+# Explicit Exceptions
+
+- `routine quotidienne api` or an explicit request for API generation: allowed to use the technical pipeline with `--use-api-llm`.
+- Explicit local fallback/testing request: allowed to use Ollama only if the user clearly asks for it.

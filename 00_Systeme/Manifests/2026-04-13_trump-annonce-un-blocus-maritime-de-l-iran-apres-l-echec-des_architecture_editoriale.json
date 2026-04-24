@@ -1,0 +1,203 @@
+{
+  "cycle_question": "quelles sont les implications du blocus maritime de Trump sur la politique internationale ?",
+  "cycle_status": "exploratoire",
+  "active_posture": "Analyser",
+  "triptych_role": "approfondissement",
+  "theme_code": "MONDE",
+  "category_label": "Monde",
+  "angle": "Impact du blocus maritime sur la politique internationale et les relations économiques entre l'Amérique du Nord et le Moyen-Orient.",
+  "topic_summary": "Le président américain a annoncé un blocus maritime contre l'Iran, suite à l'échec des premières négociations. Cette mesure vise à renforcer la pression sur Téhéran concernant son programme nucléaire.",
+  "articles": [
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs Maritimes et Politique Internationale",
+      "triptych_order": 1,
+      "type_code": "ACTU",
+      "title": "Trump impose un blocus maritime à l'Iran : les enjeux internationaux",
+      "objective": "Présenter les raisons du blocus maritime imposé par le président américain et ses implications sur la politique internationale.",
+      "summary": "Le président américain a annoncé un blocus maritime contre l'Iran, suite à l'échec des premières négociations. Cette mesure vise à renforcer la pression sur Téhéran concernant son programme nucléaire et ses activités dans le golfe Persique.",
+      "keywords": [
+        "blocus maritime",
+        "Iran",
+        "Trump",
+        "négociations échouées"
+      ],
+      "primary_sources": [
+        "Déclaration officielle du département d'État américain",
+        "Communiqué de presse de la République Islamique d'Iran",
+        "Analyse économique et politique des relations entre l'Amérique du Nord et le Moyen-Orient"
+      ],
+      "etape_sentier": "Observer",
+      "wp_categories": [
+        "01-actualites-politique-societe"
+      ],
+      "wp_tags": [
+        "iran",
+        "trump",
+        "blocus-maritime"
+      ],
+      "relative_folder": "01_Actualites/Politique_Societe"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs Maritimes et Politique Internationale",
+      "triptych_order": 2,
+      "type_code": "TF",
+      "title": "Le concept de blocus maritime dans la politique internationale : une analyse historique et juridique",
+      "objective": "Expliquer le concept de blocus maritime, son origine historique et sa légalité internationale.",
+      "summary": "Le blocus maritime est un outil diplomatique utilisé par les grandes puissances pour exiger des concessions ou imposer des sanctions. Son application dans la politique internationale a une longue histoire qui remonte aux guerres navales du 19ème siècle.",
+      "keywords": [
+        "blocus maritime",
+        "histoire internationale",
+        "droit de la mer"
+      ],
+      "primary_sources": [
+        "Traité de La Haye sur le droit de la mer (1958)",
+        "Documents historiques sur les blocus maritimes",
+        "Analyse juridique du concept de blocus maritime"
+      ],
+      "etape_sentier": "Comprendre",
+      "wp_categories": [
+        "04-textes-fondateurs-auteurs"
+      ],
+      "wp_tags": [
+        "blocus-maritime",
+        "histoire-internationale",
+        "droit-de-la-mer"
+      ],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Blocs Maritimes et Politique Internationale",
+      "triptych_order": 3,
+      "type_code": "SENTIER",
+      "title": "Comprendre les implications d'un blocus maritime : une approche critique",
+      "objective": "Analyser les implications potentielles d'un blocus maritime sur l'économie mondiale et les relations internationales.",
+      "summary": "Le blocus maritime contre l'Iran pourrait avoir des répercussions économiques significatives, notamment sur le pétrole et le commerce international. Cette analyse critique explore ces enjeux à la lumière du Sentier du Savoir.",
+      "keywords": [
+        "blocus maritime",
+        "économie mondiale",
+        "relations internationales"
+      ],
+      "primary_sources": [
+        "Etudes économiques sur l'impact des sanctions contre l'Iran",
+        "Documents diplomatiques sur les relations entre les grandes puissances et le Moyen-Orient",
+        "Analyse critique du concept de blocus maritime"
+      ],
+      "etape_sentier": "Relier",
+      "wp_categories": [
+        "05-sentier-etape-06-methode-scientifique"
+      ],
+      "wp_tags": [
+        "blocus-maritime",
+        "economie-mondiale",
+        "relations-internationales"
+      ],
+      "relative_folder": "05_Sentier/Etape_06_Methode_scientifique"
+    }
+  ],
+  "question_centrale": "Comment comprendre les implications d'un blocus maritime sur la politique internationale ?",
+  "architecture_summary": "Cette architecture editoriale explore le concept de blocus maritime, son application historique et juridique, avant d'analyser ses implications potentielles pour l'économie mondiale et les relations internationales.",
+  "knowledge_layer": {
+    "central_nodes": [
+      "blocus maritime",
+      "Iran",
+      "États-Unis"
+    ],
+    "nodes": [
+      {
+        "node_id": "n01",
+        "label": "Blocs Maritimes",
+        "node_type": "Concept",
+        "definition": "Outil diplomatique utilisé par les grandes puissances pour exiger des concessions ou imposer des sanctions.",
+        "editorial_role": "Explication conceptuelle",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "n02",
+        "label": "Iran",
+        "node_type": "Acteur",
+        "definition": "Pays cible du blocus maritime, impliqué dans le programme nucléaire et les tensions régionales.",
+        "editorial_role": "Contextualisation géopolitique",
+        "reuse_potential": "moyen"
+      },
+      {
+        "node_id": "n03",
+        "label": "États-Unis",
+        "node_type": "Acteur",
+        "definition": "Pays imposant le blocus maritime, leader mondial et puissance économique.",
+        "editorial_role": "Contextualisation géopolitique",
+        "reuse_potential": "fort"
+      }
+    ],
+    "relations": [
+      {
+        "source": "n01",
+        "relation": "explique",
+        "target": "n02"
+      },
+      {
+        "source": "n01",
+        "relation": "explique",
+        "target": "n03"
+      }
+    ],
+    "editorial_tensions": [
+      "Tension entre l'application du droit de la mer et les intérêts géopolitiques des grandes puissances.",
+      "Contradiction entre le libre échange et la sécurité nationale dans le contexte d'un blocus maritime."
+    ],
+    "durable_pivots": [
+      "Concept de blocus maritime",
+      "Rôle de l'Iran dans les relations internationales"
+    ]
+  },
+  "publication_layer": {
+    "recommended_entrypoint": "ACTU",
+    "content_candidates": [
+      {
+        "content_id": "actu-01",
+        "type_code": "ACTU",
+        "title": "Trump impose un blocus maritime à l'Iran : les enjeux internationaux",
+        "question": "Quelles sont les raisons du blocus maritime imposé par le président américain ?",
+        "covered_nodes": [
+          "n01"
+        ],
+        "editorial_function": "porte_entree"
+      }
+    ],
+    "triptych_candidates": [
+      {
+        "triptych_id": "triptyque_1",
+        "label": "Blocs Maritimes et Politique Internationale",
+        "function": "minimal",
+        "core_tension": "Tension entre l'application du droit de la mer et les intérêts géopolitiques des grandes puissances.",
+        "covered_nodes": [
+          "n01"
+        ],
+        "recommended_order": 1
+      }
+    ],
+    "recommended_triptych_id": "triptyque_1",
+    "publication_sequence": [
+      "triptyque_1"
+    ]
+  },
+  "source_topic": "Trump annonce un blocus maritime de l Iran apres l echec des premieres negociations",
+  "requested_mode": "architecture_editoriale",
+  "content_mode": "triptyque",
+  "output_profile": "triptyque_minimal",
+  "guardrails": {
+    "max_triptychs": 1,
+    "max_overlap_ratio": 0.35,
+    "require_distinct_function": true,
+    "require_sentier_link": true
+  },
+  "assigned_article_ids": [
+    "2026-442",
+    "2026-443",
+    "2026-444"
+  ],
+  "generated_on": "2026-04-13",
+  "publish_folder_name": "2026-04-13_trump-annonce-un-blocus-maritime-de-l-iran-apres-l-echec-des_architecture_editoriale"
+}
