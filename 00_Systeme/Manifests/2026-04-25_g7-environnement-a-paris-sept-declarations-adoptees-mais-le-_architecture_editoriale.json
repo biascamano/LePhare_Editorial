@@ -1,0 +1,161 @@
+{
+  "source_topic": "G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis",
+  "source_angle": "Diplomatie environnementale, gouvernance des biens communs, paradoxe du consensus multilatéral",
+  "cycle_question": "Comment gouverner les biens communs planétaires quand les grandes puissances ne s'accordent pas sur le diagnostic ?",
+  "cycle_status": "critique",
+  "active_posture": "Questionner",
+  "triptych_role": "ouverture",
+  "theme_code": "CLIMAT",
+  "category_label": "Environnement & Climat",
+  "angle": "Diplomatie environnementale, gouvernance des biens communs, paradoxe du consensus multilatéral",
+  "topic_summary": "Le G7 Environnement a adopté sept déclarations à Paris les 23-24 avril 2026 sur la biodiversité, les océans, les PFAS et les sols, mais a délibérément exclu le changement climatique pour ménager les États-Unis de Trump. Un résultat que la France qualifie d'exceptionnel et qui illustre les limites structurelles du multilatéralisme environnemental en 2026.",
+  "question_centrale": "Comment gouverner les biens communs planétaires quand les grandes puissances ne s'accordent pas sur le diagnostic ?",
+  "architecture_summary": "Triptyque minimal centré sur le G7 Environnement de Paris 2026 : l'ACTU expose les résultats et les silences de la réunion ; le TF convoque Elinor Ostrom pour comprendre les limites structurelles de la gouvernance des communs mondiaux ; le SENTIER donne une méthode pratique pour lire un accord international sans surestimer sa portée.",
+  "output_profile": "triptyque_minimal",
+  "content_mode": "triptyque",
+  "knowledge_layer": {
+    "central_nodes": ["G7 Environnement Paris 2026", "Gouvernance climatique mondiale"],
+    "nodes": [
+      {
+        "node_id": "evt_1",
+        "label": "G7 Environnement Paris 2026",
+        "node_type": "Evenement",
+        "definition": "Réunion ministérielle du G7 Environnement à Paris et Fontainebleau les 23-24 avril 2026, présidée par la France, ayant adopté 7 déclarations sans consensus sur le climat.",
+        "editorial_role": "porte d'entrée",
+        "reuse_potential": "moyen"
+      },
+      {
+        "node_id": "act_1",
+        "label": "Elinor Ostrom",
+        "node_type": "Acteur",
+        "definition": "Politiste et économiste américaine (1933-2012), prix Nobel d'économie 2009, théoricienne de la gouvernance des biens communs.",
+        "editorial_role": "référence fondatrice",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "conc_1",
+        "label": "Communs mondiaux",
+        "node_type": "Concept",
+        "definition": "Ressources partagées par l'ensemble de l'humanité (atmosphère, biodiversité, océans) ne relevant ni de la propriété privée ni d'un État.",
+        "editorial_role": "clarification conceptuelle",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "tens_1",
+        "label": "Consensus sans climat",
+        "node_type": "Tension",
+        "definition": "Le G7 obtient un consensus sur la biodiversité et les PFAS mais exclut délibérément le changement climatique pour ne pas froisser les États-Unis.",
+        "editorial_role": "tension centrale",
+        "reuse_potential": "moyen"
+      }
+    ],
+    "relations": [
+      {"source": "evt_1", "relation": "revele", "target": "tens_1"},
+      {"source": "act_1", "relation": "historise", "target": "conc_1"},
+      {"source": "conc_1", "relation": "explique", "target": "tens_1"}
+    ],
+    "editorial_tensions": [
+      "Accord sans ambition maximale vs. absence d'accord : quel est le moindre mal diplomatique ?",
+      "Gouvernance polycentriste vs. cadre global contraignant : la fragmentation est-elle une stratégie ou un échec ?"
+    ],
+    "durable_pivots": ["Elinor Ostrom", "biens communs", "gouvernance multilatérale", "Accord de Paris"]
+  },
+  "publication_layer": {
+    "recommended_entrypoint": "ACTU",
+    "content_candidates": [
+      {
+        "content_id": "actu",
+        "type_code": "ACTU",
+        "title": "G7 Environnement à Paris : la biodiversité progresse, le climat reste hors consensus",
+        "question": "Que s'est-il passé au G7 Environnement de Paris, et que dit l'absence du climat du consensus ?",
+        "covered_nodes": ["evt_1", "tens_1"],
+        "editorial_function": "porte_entree"
+      },
+      {
+        "content_id": "tf",
+        "type_code": "TF",
+        "title": "Diplomatie du consensus et gouvernance des biens communs — Elinor Ostrom face aux limites du multilatéralisme climatique",
+        "question": "Pourquoi la gouvernance des communs mondiaux est-elle structurellement difficile ?",
+        "covered_nodes": ["act_1", "conc_1", "tens_1"],
+        "editorial_function": "clarification"
+      },
+      {
+        "content_id": "sentier",
+        "type_code": "SENTIER",
+        "title": "Comment lire un accord international sans surestimer sa portée : la méthode du bilan critique",
+        "question": "Comment évaluer un accord diplomatique avec rigueur intellectuelle ?",
+        "covered_nodes": ["evt_1"],
+        "editorial_function": "exercice_critique"
+      }
+    ],
+    "triptych_candidates": [
+      {
+        "triptych_id": "triptyque_1",
+        "label": "G7 Environnement Paris 2026 — Consensus sans climat",
+        "function": "minimal",
+        "core_tension": "Comment gouverner les biens communs planétaires quand les grandes puissances ne s'accordent pas sur le diagnostic ?",
+        "covered_nodes": ["evt_1", "act_1", "conc_1", "tens_1"],
+        "recommended_order": 1
+      }
+    ],
+    "recommended_triptych_id": "triptyque_1",
+    "publication_sequence": ["triptyque_1"]
+  },
+  "guardrails": {
+    "max_triptychs": 1,
+    "max_overlap_ratio": 0.35,
+    "require_distinct_function": true,
+    "require_sentier_link": true
+  },
+  "articles": [
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "G7 Environnement Paris 2026 — Consensus sans climat",
+      "triptych_order": 1,
+      "type_code": "ACTU",
+      "title": "G7 Environnement à Paris : la biodiversité progresse, le climat reste hors consensus",
+      "objective": "Exposer les résultats concrets du G7 Environnement de Paris, comprendre pourquoi le climat a été évincé du consensus, et évaluer ce que ce compromis dit de l'état de la diplomatie environnementale mondiale en 2026.",
+      "summary": "Les ministres du G7 ont adopté 7 déclarations à Paris les 23-24 avril 2026 sur la biodiversité, PFAS, océans et sols — mais ont exclu le changement climatique pour ne pas froisser les États-Unis de Trump.",
+      "keywords": ["G7 environnement", "biodiversité", "consensus climatique", "Paris 2026", "PFAS", "diplomatie verte"],
+      "primary_sources": ["Ministère de la Transition écologique français", "CNews", "lapresse.ca", "100-transitions.fr", "Trait-d-Union"],
+      "etape_sentier": "Analyser",
+      "wp_categories": ["actualites", "climat-transition"],
+      "wp_tags": ["g7-environnement", "biodiversite", "consensus-climatique", "paris-2026", "pfas"],
+      "relative_folder": "01_Actualites/Climat_Transition"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "G7 Environnement Paris 2026 — Consensus sans climat",
+      "triptych_order": 1,
+      "type_code": "TF",
+      "title": "Diplomatie du consensus et gouvernance des biens communs — Elinor Ostrom face aux limites du multilatéralisme climatique",
+      "objective": "Présenter la pensée d'Elinor Ostrom sur la gouvernance des biens communs, en extraire les outils de lecture applicables à la diplomatie environnementale mondiale.",
+      "summary": "Elinor Ostrom, prix Nobel 2009, a identifié huit principes pour gouverner durablement les communs. Appliqués au climat mondial, ils révèlent les failles structurelles du multilatéralisme en 2026.",
+      "keywords": ["Elinor Ostrom", "biens communs", "gouvernance", "multilatéralisme", "climat", "G7"],
+      "primary_sources": ["Elinor Ostrom — Governing the Commons 1990", "Prix Nobel 2009", "IPCC AR6", "Ostrom Workshop Indiana University"],
+      "etape_sentier": "Comprendre",
+      "wp_categories": ["textes-fondateurs"],
+      "wp_tags": ["elinor-ostrom", "biens-communs", "gouvernance-climatique", "multilatéralisme"],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "G7 Environnement Paris 2026 — Consensus sans climat",
+      "triptych_order": 1,
+      "type_code": "SENTIER",
+      "title": "Comment lire un accord international sans surestimer sa portée : la méthode du bilan critique",
+      "objective": "Donner au lecteur une méthode concrète en quatre étapes pour évaluer de manière autonome les résultats d'un accord ou sommet international.",
+      "summary": "Quatre outils cognitifs (accord déclaratif vs. opératoire, silences, conditions de réalisation, séquence temporelle) pour analyser un accord diplomatique avec lucidité.",
+      "keywords": ["diplomatie internationale", "pensée critique", "accord multilatéral", "bilan critique", "méthode"],
+      "primary_sources": ["Daniel Kahneman — Thinking Fast and Slow", "Philip Tetlock — Superforecasting", "Bertrand Badie — L'impuissance de la puissance"],
+      "etape_sentier": "Questionner",
+      "wp_categories": ["sentier"],
+      "wp_tags": ["pensee-critique", "diplomatie", "methode", "accord-international"],
+      "relative_folder": "05_Sentier/Etape_02_Pensee_critique"
+    }
+  ],
+  "assigned_article_ids": ["2026-451", "2026-452", "2026-453"],
+  "generated_on": "2026-04-25",
+  "publish_folder_name": "2026-04-25_g7-environnement-a-paris-sept-declarations-adoptees-mais-le-_architecture_editoriale",
+  "generated_by": "Claude Sonnet 4.6 direct (OpenAI API sandbox-blocked — contournement LLM interne)"
+}

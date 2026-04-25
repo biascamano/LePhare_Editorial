@@ -1,0 +1,12 @@
+[2026-04-25T03:09:23] Unhandled error: Unable to fetch Google News RSS: HTTP Error 403: Forbidden
+[2026-04-25T03:10:17] Selected topic: G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis
+[2026-04-25T03:10:17] Theme: CLIMAT
+[2026-04-25T03:10:17] Running command: /usr/local/bin/python3 /home/user/LePhare_Editorial/tools/editorial_pipeline.py G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis --mode architecture_editoriale --output-profile triptyque_minimal --config /home/user/LePhare_Editorial/tools/editorial_config.local.json --index /home/user/LePhare_Editorial/index_editorial.csv --theme CLIMAT --publish-drafts --wp-config /home/user/LePhare_Editorial/tools/wp_config.local.json
+[2026-04-25T03:10:17] --- PIPELINE OUTPUT ---
+[2026-04-25T03:10:17] Editorial pipeline error: API LLM generation is disabled by default in this project. Use the GPT-5.4 agent for default editorial writing, or pass --use-api-llm for explicit API generation.
+[2026-04-25T03:10:21] Selected topic: G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis
+[2026-04-25T03:10:21] Theme: CLIMAT
+[2026-04-25T03:10:21] Running command: /usr/local/bin/python3 /home/user/LePhare_Editorial/tools/editorial_pipeline.py G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis --mode architecture_editoriale --output-profile triptyque_minimal --config /home/user/LePhare_Editorial/tools/editorial_config.local.json --index /home/user/LePhare_Editorial/index_editorial.csv --use-api-llm --theme CLIMAT --publish-drafts --wp-config /home/user/LePhare_Editorial/tools/wp_config.local.json
+[2026-04-25T03:10:21] --- PIPELINE OUTPUT ---
+[2026-04-25T03:10:21] Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...
+[2026-04-25T03:10:21] Editorial pipeline error: LLM API error 403: Host not in allowlist

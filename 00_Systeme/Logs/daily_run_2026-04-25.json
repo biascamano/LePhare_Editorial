@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-25",
+  "status": "error",
+  "topic": "G7 Environnement à Paris : sept déclarations adoptées mais le climat évincé du consensus pour ménager les États-Unis",
+  "theme": "CLIMAT",
+  "source": "manual",
+  "source_link": "",
+  "publish_drafts": true,
+  "publish_dir": "",
+  "stdout": "Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...\nEditorial pipeline error: LLM API error 403: Host not in allowlist\n",
+  "stderr": "",
+  "linking_stdout": "",
+  "linking_stderr": "",
+  "returncode": 1,
+  "completed_at": "2026-04-25T03:10:21"
+}
