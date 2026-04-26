@@ -1,0 +1,7 @@
+[2026-04-26T03:13:22] Unhandled error: Unable to fetch Google News RSS: HTTP Error 403: Forbidden
+[2026-04-26T03:14:03] Selected topic: Intelligence artificielle et marché du travail : les premières lois européennes de 2026 face aux suppressions d'emplois massives
+[2026-04-26T03:14:03] Theme: TECH
+[2026-04-26T03:14:03] Running command: /usr/local/bin/python3 /home/user/LePhare_Editorial/tools/editorial_pipeline.py Intelligence artificielle et marché du travail : les premières lois européennes de 2026 face aux suppressions d'emplois massives --mode architecture_editoriale --output-profile triptyque_minimal --config /home/user/LePhare_Editorial/tools/editorial_config.local.json --index /home/user/LePhare_Editorial/index_editorial.csv --use-api-llm --theme TECH --publish-drafts --wp-config /home/user/LePhare_Editorial/tools/wp_config.local.json
+[2026-04-26T03:14:03] --- PIPELINE OUTPUT ---
+[2026-04-26T03:14:03] Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...
+[2026-04-26T03:14:03] Editorial pipeline error: LLM API error 403: Host not in allowlist

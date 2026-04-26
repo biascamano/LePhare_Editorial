@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-26",
+  "status": "error",
+  "topic": "Intelligence artificielle et marché du travail : les premières lois européennes de 2026 face aux suppressions d'emplois massives",
+  "theme": "TECH",
+  "source": "manual",
+  "source_link": "",
+  "publish_drafts": true,
+  "publish_dir": "",
+  "stdout": "Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...\nEditorial pipeline error: LLM API error 403: Host not in allowlist\n",
+  "stderr": "",
+  "linking_stdout": "",
+  "linking_stderr": "",
+  "returncode": 1,
+  "completed_at": "2026-04-26T03:14:03"
+}
