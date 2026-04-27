@@ -1,2 +1,5 @@
 tools/*.local.json
 tools/wp_config.local - Copie.json
+__pycache__/
+*.pyc
+*.pyo
