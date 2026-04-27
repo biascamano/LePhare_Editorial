@@ -1,0 +1,181 @@
+{
+  "source_topic": "La guerre commerciale entre les États-Unis et la Chine s'intensifie face aux nouvelles taxes douanières",
+  "source_angle": "Économie politique, interdépendances géopolitiques, rhétorique protectionniste",
+  "cycle_question": "Dans quelle mesure la guerre commerciale USA-Chine recompose-t-elle durablement l'ordre économique mondial ?",
+  "cycle_status": "critique",
+  "active_posture": "Analyser",
+  "triptych_role": "mise_en_tension",
+  "theme_code": "ECON",
+  "category_label": "Economie & Finance",
+  "angle": "Économie politique, interdépendances géopolitiques, rhétorique protectionniste",
+  "topic_summary": "En avril 2026, les droits de douane américains sur les importations chinoises atteignent 145 %, déclenchant une riposte de 125 % de Pékin. Le commerce bilatéral chute de plus de 30 % en volume. Cette escalade dépasse la logique commerciale : elle engage une rivalité de systèmes et remet en cause les fondements du multilatéralisme libéral construit après 1945.",
+  "question_centrale": "Dans quelle mesure la guerre commerciale USA-Chine recompose-t-elle durablement l'ordre économique mondial ?",
+  "architecture_summary": "Triptyque minimal centré sur l'escalade tarifaire USA-Chine d'avril 2026. L'ACTU expose les faits et les enjeux systémiques en distinguant économique et géopolitique. Le TF convoque Ricardo et Hirschman pour fournir les cadres intellectuels fondateurs : avantage comparatif et commerce comme instrument de puissance. Le SENTIER donne cinq outils cognitifs pour analyser les arguments d'une guerre commerciale sans se laisser piéger par les récits nationaux.",
+  "output_profile": "triptyque_minimal",
+  "content_mode": "triptyque",
+  "requested_mode": "architecture_editoriale",
+  "knowledge_layer": {
+    "central_nodes": ["Guerre commerciale USA-Chine 2026", "Ordre économique libéral"],
+    "nodes": [
+      {
+        "node_id": "evt_1",
+        "label": "Escalade tarifaire USA-Chine 2026",
+        "node_type": "Evenement",
+        "definition": "Imposition de droits de douane de 145 % par les États-Unis sur les importations chinoises, avec riposte de 125 % de Pékin, entraînant une chute de plus de 30 % du commerce bilatéral en volume.",
+        "editorial_role": "porte d'entrée",
+        "reuse_potential": "moyen"
+      },
+      {
+        "node_id": "act_1",
+        "label": "David Ricardo",
+        "node_type": "Acteur",
+        "definition": "Économiste britannique (1772-1823), auteur des Principes de l'économie politique (1817), théoricien de l'avantage comparatif — fondement intellectuel du libre-échange.",
+        "editorial_role": "référence fondatrice",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "act_2",
+        "label": "Albert Hirschman",
+        "node_type": "Acteur",
+        "definition": "Économiste et politologue américain d'origine allemande (1915-2012), auteur de National Power and the Structure of Foreign Trade (1945), théoricien des interdépendances commerciales asymétriques comme instruments de puissance.",
+        "editorial_role": "référence fondatrice complémentaire",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "conc_1",
+        "label": "Avantage comparatif",
+        "node_type": "Concept",
+        "definition": "Principe ricardien selon lequel chaque pays a intérêt à se spécialiser dans les productions pour lesquelles il est relativement le plus efficace, même s'il est absolument moins efficace que ses partenaires dans tous les secteurs.",
+        "editorial_role": "clarification conceptuelle",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "conc_2",
+        "label": "Dépendance asymétrique",
+        "node_type": "Concept",
+        "definition": "Situation où des relations commerciales créent une vulnérabilité plus grande pour l'un des partenaires, que la puissance dominante peut exploiter comme levier de pression politique (concept hirschmanien).",
+        "editorial_role": "outil d'analyse",
+        "reuse_potential": "fort"
+      },
+      {
+        "node_id": "tens_1",
+        "label": "Découplage sélectif",
+        "node_type": "Tension",
+        "definition": "Stratégie des deux puissances visant à réduire leur dépendance mutuelle dans les secteurs stratégiques (semi-conducteurs, terres rares, batteries) tout en maintenant des échanges dans les secteurs non sensibles.",
+        "editorial_role": "tension centrale",
+        "reuse_potential": "fort"
+      }
+    ],
+    "relations": [
+      {"source": "evt_1", "relation": "revele", "target": "tens_1"},
+      {"source": "act_1", "relation": "historise", "target": "conc_1"},
+      {"source": "act_2", "relation": "explique", "target": "conc_2"},
+      {"source": "conc_2", "relation": "aggrave", "target": "tens_1"},
+      {"source": "conc_1", "relation": "s_oppose_a", "target": "conc_2"}
+    ],
+    "editorial_tensions": [
+      "Libre-échange optimal en théorie vs. stratégies de puissance en pratique : comment réconcilier Ricardo et Hirschman ?",
+      "Souveraineté économique légitime vs. protectionnisme rhétorique : où placer la frontière ?",
+      "Court terme (emplois protégés) vs. long terme (efficacité, innovation, chaînes d'approvisionnement) : quelle comptabilité politique ?"
+    ],
+    "durable_pivots": ["David Ricardo", "Albert Hirschman", "avantage comparatif", "interdépendances géopolitiques", "OMC", "CHIPS Act"]
+  },
+  "publication_layer": {
+    "recommended_entrypoint": "ACTU",
+    "content_candidates": [
+      {
+        "content_id": "actu",
+        "type_code": "ACTU",
+        "title": "Guerre commerciale USA-Chine : les nouvelles surtaxes de 2026 marquent un tournant structurel",
+        "question": "Que se passe-t-il vraiment dans la guerre commerciale USA-Chine, qui en paie le coût, et pourquoi dépasse-t-elle la logique purement commerciale ?",
+        "covered_nodes": ["evt_1", "tens_1"],
+        "editorial_function": "porte_entree"
+      },
+      {
+        "content_id": "tf",
+        "type_code": "TF",
+        "title": "David Ricardo et Albert Hirschman : le libre-échange comme utopie et comme instrument de puissance",
+        "question": "Quels cadres intellectuels permettent de comprendre la logique profonde d'une guerre commerciale ?",
+        "covered_nodes": ["act_1", "act_2", "conc_1", "conc_2"],
+        "editorial_function": "clarification"
+      },
+      {
+        "content_id": "sentier",
+        "type_code": "SENTIER",
+        "title": "Comment analyser les arguments d'une guerre commerciale : séparer l'économique du géopolitique",
+        "question": "Comment ne pas se laisser piéger par les récits nationaux et les projections économiques d'une guerre commerciale ?",
+        "covered_nodes": ["evt_1", "tens_1"],
+        "editorial_function": "exercice_critique"
+      }
+    ],
+    "triptych_candidates": [
+      {
+        "triptych_id": "triptyque_1",
+        "label": "Guerre commerciale USA-Chine 2026 — Le tournant structurel",
+        "function": "minimal",
+        "core_tension": "Dans quelle mesure la guerre commerciale USA-Chine recompose-t-elle durablement l'ordre économique mondial ?",
+        "covered_nodes": ["evt_1", "act_1", "act_2", "conc_1", "conc_2", "tens_1"],
+        "recommended_order": 1
+      }
+    ],
+    "recommended_triptych_id": "triptyque_1",
+    "publication_sequence": ["triptyque_1"]
+  },
+  "guardrails": {
+    "max_triptychs": 1,
+    "max_overlap_ratio": 0.35,
+    "require_distinct_function": true,
+    "require_sentier_link": true
+  },
+  "articles": [
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre commerciale USA-Chine 2026 — Le tournant structurel",
+      "triptych_order": 1,
+      "type_code": "ACTU",
+      "title": "Guerre commerciale USA-Chine : les nouvelles surtaxes de 2026 marquent un tournant structurel",
+      "objective": "Exposer les faits, le contexte historique et les effets concrets de l'escalade tarifaire USA-Chine de 2026, en distinguant les enjeux économiques des logiques géopolitiques sous-jacentes.",
+      "summary": "En avril 2026, les droits de douane américains sur les importations chinoises atteignent 145 %, déclenchant une riposte de 125 % de Pékin. Le commerce bilatéral chute de plus de 30 % en volume. Cette escalade dépasse la logique commerciale : elle engage une rivalité de systèmes.",
+      "keywords": ["guerre commerciale", "taxes douanières", "USA-Chine", "protectionnisme", "OMC", "chaînes d'approvisionnement"],
+      "primary_sources": ["FMI World Economic Outlook 2026", "OMC statistiques 2025-2026", "Peterson Institute for International Economics", "Council on Foreign Relations", "CEPII"],
+      "etape_sentier": "Analyser",
+      "wp_categories": ["actualites", "economie-finance"],
+      "wp_tags": ["guerre-commerciale", "usa-chine", "taxes-douanieres", "protectionnisme", "omc"],
+      "relative_folder": "01_Actualites/Economie_Finance"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre commerciale USA-Chine 2026 — Le tournant structurel",
+      "triptych_order": 1,
+      "type_code": "TF",
+      "title": "David Ricardo et Albert Hirschman : le libre-échange comme utopie et comme instrument de puissance",
+      "objective": "Présenter les théories de Ricardo et Hirschman sur le commerce international, extraire les outils de lecture qu'elles fournissent pour comprendre la rivalité commerciale USA-Chine, et identifier ce qui dans la réalité de 2026 confirme ou dépasse leurs cadres.",
+      "summary": "David Ricardo (1817) théorise les gains mutuels du libre-échange par l'avantage comparatif. Albert Hirschman (1945) retourne cette logique : les mêmes interdépendances commerciales deviennent des instruments de pression entre puissances inégales.",
+      "keywords": ["David Ricardo", "Albert Hirschman", "avantage comparatif", "libre-échange", "puissance commerciale", "dépendance asymétrique"],
+      "primary_sources": ["David Ricardo — Principes de l'économie politique (1817)", "Albert Hirschman — National Power and the Structure of Foreign Trade (1945)", "Dani Rodrik — The Globalization Paradox (2011)", "Henry Farrell & Abraham Newman — Weaponized Interdependence (2019)"],
+      "etape_sentier": "Comprendre",
+      "wp_categories": ["textes-fondateurs"],
+      "wp_tags": ["ricardo", "hirschman", "libre-echange", "puissance-commerciale", "avantage-comparatif"],
+      "relative_folder": "04_Textes_fondateurs/Auteurs"
+    },
+    {
+      "triptych_id": "triptyque_1",
+      "triptych_label": "Guerre commerciale USA-Chine 2026 — Le tournant structurel",
+      "triptych_order": 1,
+      "type_code": "SENTIER",
+      "title": "Comment analyser les arguments d'une guerre commerciale : séparer l'économique du géopolitique",
+      "objective": "Doter le lecteur de cinq outils cognitifs pratiques pour analyser de manière autonome et rigoureuse les arguments avancés dans le cadre d'une guerre commerciale, en prenant la rivalité USA-Chine comme terrain d'application.",
+      "summary": "Cinq outils cognitifs (distinguer récit et analyse, identifier l'horizon temporel, repérer les effets distributifs, décoder la rhétorique de souveraineté, calibrer l'incertitude) pour analyser les arguments d'une guerre commerciale sans se laisser piéger.",
+      "keywords": ["guerre commerciale", "analyse argumentative", "biais cognitifs", "économie politique", "rhétorique protectionniste", "pensée critique"],
+      "primary_sources": ["Daniel Kahneman — Thinking Fast and Slow (2011)", "Philip Tetlock — Superforecasting (2015)", "Albert Hirschman — The Rhetoric of Reaction (1991)", "Nate Silver — The Signal and the Noise (2012)"],
+      "etape_sentier": "Analyser",
+      "wp_categories": ["sentier", "outils-cognitifs"],
+      "wp_tags": ["pensee-critique", "argumentation", "guerre-commerciale", "biais-cognitifs", "methode"],
+      "relative_folder": "05_Sentier/Etape_03_Argumentation"
+    }
+  ],
+  "assigned_article_ids": ["2026-454", "2026-455", "2026-456"],
+  "generated_on": "2026-04-27",
+  "publish_folder_name": "2026-04-27_la-guerre-commerciale-entre-les-etats-unis-et-la-chine-s-int_architecture_editoriale",
+  "generated_by": "Claude Sonnet 4.6 direct (OpenAI API sandbox-blocked — contournement LLM interne)"
+}

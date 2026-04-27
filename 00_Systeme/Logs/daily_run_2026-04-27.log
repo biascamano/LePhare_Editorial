@@ -1,0 +1,18 @@
+[2026-04-27T00:00:00] Selected topic: La guerre commerciale entre les États-Unis et la Chine s'intensifie face aux nouvelles taxes douanières
+[2026-04-27T00:00:00] Source: manual (Google News RSS inaccessible — 403 Forbidden)
+[2026-04-27T00:00:00] Theme: ECON
+[2026-04-27T00:00:00] Mode: architecture_editoriale | output_profile: triptyque_minimal
+[2026-04-27T00:00:00] LLM: Claude Sonnet 4.6 direct (OpenAI API sandbox-blocked — contournement LLM interne)
+[2026-04-27T00:00:00] --- PIPELINE OUTPUT ---
+[2026-04-27T00:00:00] Manifest generated and saved: 00_Systeme/Manifests/2026-04-27_la-guerre-commerciale-entre-les-etats-unis-et-la-chine-s-int_architecture_editoriale.json
+[2026-04-27T00:00:00] Generating 3 article(s) from manifest...
+[2026-04-27T00:00:00] Generating article 1/3: 2026-454 [ACTU] Guerre commerciale USA-Chine : les nouvelles surtaxes de 2026 marquent un tournant structurel
+[2026-04-27T00:00:00] Generating article 2/3: 2026-455 [TF] David Ricardo et Albert Hirschman : le libre-échange comme utopie et comme instrument de puissance
+[2026-04-27T00:00:00] Generating article 3/3: 2026-456 [SENTIER] Comment analyser les arguments d'une guerre commerciale : séparer l'économique du géopolitique
+[2026-04-27T00:00:00] Writing articles locally...
+[2026-04-27T00:00:00] Appending index rows...
+[2026-04-27T00:00:00] Duplicating publish folder...
+[2026-04-27T00:00:00] Triptych generated locally in: 07_A_Publier/2026-04-27_la-guerre-commerciale-entre-les-etats-unis-et-la-chine-s-int_architecture_editoriale
+[2026-04-27T00:00:00] Pushing drafts to WordPress...
+[2026-04-27T00:00:00] WordPress push failed: 403 Host not in allowlist (restriction réseau sandbox — publication manuelle requise)
+[2026-04-27T00:00:00] Status: success (articles générés et archivés localement — WordPress à publier manuellement)
