@@ -37,8 +37,8 @@ TYPES: dict[str, dict] = {
     "question": {"code": "ACTU", "label": "Question", "category": "actualites", "tags": ["type-question"], "posture": "Comprendre", "routine": "quotidienne"},
     "application": {"code": "ACTU", "label": "Application", "category": "actualites", "tags": ["type-application"], "posture": "Relier", "routine": "quotidienne"},
     "texte-fondateur": {"code": "TF", "label": "Texte fondateur", "category": "textes-fondateurs", "tags": ["type-texte-fondateur"], "posture": "Comprendre", "routine": "mensuelle"},
-    "fil-du-phare": {"code": "SYNTHESE", "label": "Fil du Phare", "category": "syntheses", "tags": ["fil-du-phare", "question-du-phare", "synthese-hebdomadaire"], "posture": "Relier", "routine": "hebdomadaire"},
-    "synthese-mensuelle": {"code": "SYNTHESE", "label": "Synthese mensuelle", "category": "syntheses", "tags": ["synthese-mensuelle", "question-du-phare"], "posture": "Relier", "routine": "mensuelle"},
+    "fil-du-phare": {"code": "SYNTHESE", "label": "Fil du Phare", "category": "cycle", "tags": ["fil-du-phare", "question-du-phare", "synthese-hebdomadaire"], "posture": "Relier", "routine": "hebdomadaire"},
+    "synthese-mensuelle": {"code": "SYNTHESE", "label": "Synthese mensuelle", "category": "cycle", "tags": ["synthese-mensuelle", "question-du-phare"], "posture": "Relier", "routine": "mensuelle"},
     "dossier": {"code": "DOSSIER", "label": "Dossier", "category": "dossier-hebdomadaire", "tags": [], "posture": "Relier", "routine": "mensuelle"},
     "atelier": {"code": "SENTIER", "label": "Atelier Sentier", "category": "sentier-du-savoir", "tags": ["atelier-sentier"], "posture": "Transmettre", "routine": "mensuelle"},
 }

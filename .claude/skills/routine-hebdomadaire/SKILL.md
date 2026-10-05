@@ -1,6 +1,6 @@
 ---
 name: routine-hebdomadaire
-description: Routine hebdomadaire Le Phare — relire les articles de la semaine, dégager le fil rouge, publier « Le Fil du Phare » (catégorie syntheses), auditer les fils éditoriaux et préparer la semaine suivante dans la mémoire éditoriale. Déclenché par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
+description: Routine hebdomadaire Le Phare — relire les articles de la semaine, dégager le fil rouge, publier « Le Fil du Phare » (catégorie cycle), auditer les fils éditoriaux et préparer la semaine suivante dans la mémoire éditoriale. Déclenché par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
 ---
 
 # Routine hebdomadaire — Le Fil du Phare
@@ -39,7 +39,7 @@ Métadonnées :
 ```bash
 python tools/new_article.py create --type fil-du-phare --theme <THEME dominant> --title "…" --slug <kebab-case> --question "…" --linked "<IDs de la semaine>" --keywords "…" --summary "…" --objective "…" --tags "<concept>;…"
 ```
-Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, catégorie `syntheses`, tags `fil-du-phare`/`question-du-phare`/`synthese-hebdomadaire`, slug `fil-du-phare-<slug>` et la ligne d'index. Rédiger le corps dans le `path` renvoyé, compléter navigation et `# SEO`. Sources en `[libellé](url)`.
+Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, catégorie `cycle`, tags `fil-du-phare`/`question-du-phare`/`synthese-hebdomadaire`, slug `fil-du-phare-<slug>` et la ligne d'index. Rédiger le corps dans le `path` renvoyé, compléter navigation et `# SEO`. Sources en `[libellé](url)`.
 
 Puis `python tools/new_article.py stage <ID>`. `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine. Ensuite :
 ```bash

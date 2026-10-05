@@ -19,7 +19,7 @@ from index_editorial_utils import INDEX_COLUMNS, read_index, scan_index_issues  
 MAX_TAGS = 8
 THEME_DIRS = {"MONDE": "Politique_Societe", "POL": "Politique_Societe", "ECON": "Economie_Finance", "TECH": "Technologie_IA", "CLIMAT": "Climat_Transition", "SCIENCE": "Science_Sante", "CULTURE": "Culture"}
 THEME_TAGS = {"MONDE": "monde", "POL": "politique-societe", "ECON": "economie-finance", "TECH": "technologie-ia", "CLIMAT": "environnement-climat", "SCIENCE": "science-sante", "CULTURE": "culture-philosophie"}
-TYPE_CATEGORY = {"ACTU": "actualites", "TF": "textes-fondateurs", "SYNTHESE": "syntheses", "DOSSIER": "dossier-hebdomadaire", "SENTIER": "sentier-du-savoir"}
+TYPE_CATEGORY = {"ACTU": "actualites", "TF": "textes-fondateurs", "SYNTHESE": "cycle", "DOSSIER": "dossier-hebdomadaire", "SENTIER": "sentier-du-savoir"}
 V3_HEADER_KEYS = ("Type article", "Question du Phare", "Dossier", "Article precedent (ID)", "Prolongement envisage")
 NAV_MARKERS = ("**Repères de sources**", "**La question suivante**", "**Pour aller plus loin**", "**Sur le Sentier du Savoir**")
 PLACEHOLDER = "[Corps de l'article à rédiger]"

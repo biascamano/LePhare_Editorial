@@ -16,7 +16,7 @@ Toutes s'exécutent en autonomie totale jusqu'au rapport final. Déclenchement m
 | `routine quotidienne — sujet : …, thème TECH` | idem | Même chose avec sujet, angle et thème imposés. 🔴 |
 | `routine quotidienne — type question` / `application` / `texte fondateur` | idem | Même chose avec le type d'article imposé. 🔴 |
 | `routine quotidienne — brouillons seulement` | idem | Même chose mais les posts restent en brouillon WP (`--no-publish-final`). 🔴 |
-| `routine hebdomadaire` / `fil du phare` | `/routine-hebdomadaire` | Relit la semaine, trouve les connexions, formule une grande question, rédige **Le Fil du Phare** (`SYNTHESE`, catégorie `syntheses`), audite les fils éditoriaux, prépare la semaine suivante, met à jour mémoire §2–§3. 🔴 |
+| `routine hebdomadaire` / `fil du phare` | `/routine-hebdomadaire` | Relit la semaine, trouve les connexions, formule une grande question, rédige **Le Fil du Phare** (`SYNTHESE`, catégorie `cycle`), audite les fils éditoriaux, prépare la semaine suivante, met à jour mémoire §2–§3. 🔴 |
 | `routine mensuelle` | `/routine-mensuelle` | Bilan du mois : phénomènes, mise à jour/création de dossiers, 0–2 textes fondateurs, 0–2 ateliers Sentier, synthèse mensuelle si justifiée, audit navigation et équilibre, rapport `06_Syntheses/Rapports_mensuels/YYYY-MM.md`, cap du mois suivant (mémoire §4–§5). 🔴 |
 | `routine triptyque` / `triptyque` | `/routine-triptyque` | **Ancienne** routine (archivée, secours) : ACTU + TF + SENTIER atelier le même jour. Accepte aussi sujet imposé et `brouillons seulement`. 🔴 |
 | `… api` (ex. `routine triptyque api`) | — | Exception : génération par LLM externe via `editorial_pipeline.py --use-api-llm`. 🔴💰 |

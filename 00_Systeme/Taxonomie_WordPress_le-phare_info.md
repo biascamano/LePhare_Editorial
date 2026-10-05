@@ -27,10 +27,10 @@ Ce document fixe la **meilleure structure pour l'objectif** : construire petit a
 | 2 | **textes-fondateurs** | TF, lectures d'auteurs, concepts ancres par une reference. |
 | 3 | **sentier-du-savoir** | SENTIER, exercices de methode, outils cognitifs, articles du parcours Sentier. |
 | 4 | **dossier-hebdomadaire** | DOSSIER, series, volets d'un dossier nomme (routine mensuelle). |
-| 5 | **syntheses** | SYNTHESE : Fil du Phare (routine hebdomadaire), synthese mensuelle (routine mensuelle). Creee a la volee par `wp_push_draft` au 1er push. |
+| 5 | **cycle** (id 97, « Dossier hebdomadaire - Notre fil rouge ») | SYNTHESE : Fil du Phare (routine hebdomadaire), synthese mensuelle (routine mensuelle). Categorie existante, aucune creation. |
 | 6 | **le-phare** | Pages institutionnelles, charte, methode (rarement des articles de fond). |
 
-La categorie existante `cycle` (id 97, « Dossier hebdomadaire - Notre fil rouge ») n'est **pas utilisee** pour l'instant (voir `plan.md`, backlog B1).
+Aucune categorie `syntheses` n'est creee : les syntheses vont dans `cycle` (decision B1, `plan.md`).
 
 **Correspondance routines / types** (detail : `plan.md`) :
 
@@ -38,10 +38,10 @@ La categorie existante `cycle` (id 97, « Dossier hebdomadaire - Notre fil rouge
 |---------|--------------|-----------|--------------|
 | Quotidienne | Actualite / Question / Application | ACTU | actualites |
 | Quotidienne (occasionnel) ou mensuelle | Texte fondateur | TF | textes-fondateurs |
-| Hebdomadaire | Fil du Phare | SYNTHESE | syntheses |
+| Hebdomadaire | Fil du Phare | SYNTHESE | cycle |
 | Mensuelle | Dossier | DOSSIER | dossier-hebdomadaire |
 | Mensuelle | Atelier Sentier | SENTIER | sentier-du-savoir |
-| Mensuelle | Synthese mensuelle | SYNTHESE | syntheses |
+| Mensuelle | Synthese mensuelle | SYNTHESE | cycle |
 | Triptyque (archive, `routine triptyque`) | ACTU + TF + SENTIER | ACTU / TF / SENTIER | actualites / textes-fondateurs / sentier-du-savoir |
 
 Si WordPress impose un libelle legerement different (accents, pluriel), **garde** la correspondance dans l'index avec le slug reel du site.
@@ -97,8 +97,8 @@ Un parmi les **huit themes** Sentier du site :
 | TF | textes-fondateurs | theme (A) + auteur ou titre d'oeuvre en concept (C) + 1 concept (C) |
 | SENTIER | sentier-du-savoir | theme (A) + pilier Sentier (B) + 2 concepts (C) ; + posture (D) si pertinent |
 | DOSSIER | dossier-hebdomadaire | theme (A) + 2 concepts (C) ; + pilier Sentier (B) si pertinent |
-| SYNTHESE (Fil du Phare) | syntheses | `fil-du-phare` + `question-du-phare` + `synthese-hebdomadaire` (D) + theme dominant (A) ; concepts (C) dans la limite des 8 tags |
-| SYNTHESE (mensuelle) | syntheses | `synthese-mensuelle` + `question-du-phare` (D) + theme dominant (A) + concepts (C) |
+| SYNTHESE (Fil du Phare) | cycle | `fil-du-phare` + `question-du-phare` + `synthese-hebdomadaire` (D) + theme dominant (A) ; concepts (C) dans la limite des 8 tags |
+| SYNTHESE (mensuelle) | cycle | `synthese-mensuelle` + `question-du-phare` (D) + theme dominant (A) + concepts (C) |
 
 Routines v3 (quotidienne) : ajouter le tag de type (D) et `question-du-phare` en plus des minimums ACTU / TF.
 

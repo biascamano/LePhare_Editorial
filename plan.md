@@ -77,7 +77,7 @@ Principes transverses :
 |---|-------|----------|------|
 | D1 | TF et atelier Sentier quotidiens | **Retirés** du quotidien → routine mensuelle. Le type D « Texte fondateur » reste possible au quotidien **occasionnellement**, s'il est nécessaire pour comprendre les articles précédents. | 2026-10-05 |
 | D2 | Taxonomie | **Conservée** : types index `ACTU`, `TF`, `SENTIER`, `FOND`, `DOSSIER`, `SYNTHESE` ; thèmes `TECH`, `CLIMAT`, `ECON`, `SCIENCE`, `POL`, `CULTURE`, `MONDE`. Les catégories proposées par le docx mensuel ne sont **pas** ajoutées. | 2026-10-05 |
-| D3 | Fil du Phare (hebdo) et synthèse mensuelle | **Publiés sur WordPress**, catégorie `syntheses`, type index `SYNTHESE`. | 2026-10-05 |
+| D3 | Fil du Phare (hebdo) et synthèse mensuelle | **Publiés sur WordPress**, catégorie existante `cycle` (id 97, B1), type index `SYNTHESE`. | 2026-10-05 |
 | D4 | Déclenchement | **Manuel** (prompt ou slash command). Pas de cron. | 2026-10-05 |
 | D5 | Ancienne routine | Conservée sous `routine triptyque` / `triptyque` / `/routine-triptyque`. | 2026-10-05 |
 | D6 | Mémoire | Un seul fichier : `00_Systeme/Memoire_editoriale.md`, sections attribuées par routine (§8). | 2026-10-05 |
@@ -219,7 +219,7 @@ Skill : `.claude/skills/routine-hebdomadaire/SKILL.md`.
 | Theme | thème dominant de la semaine |
 | Type article | `Fil du Phare` |
 | Fichier | `06_Syntheses/Fil_du_Phare/YYYY-NNN_SYNTHESE_<THEME>_fil-du-phare-<slug>_V1.md` |
-| Catégorie WP | `syntheses` |
+| Catégorie WP | `cycle` (id 97) |
 | Tags | `fil-du-phare`, `question-du-phare`, `synthese-hebdomadaire` + concepts |
 | Articles liés | tous les IDs de la semaine |
 | Slug | `fil-du-phare-<slug>` |
@@ -246,7 +246,7 @@ Skill : `.claude/skills/routine-mensuelle/SKILL.md`.
 | 4 | Nouveaux dossiers | Création (`DOSSIER`, catégorie `dossier-hebdomadaire`) ou proposition dans le rapport. |
 | 5 | Textes fondateurs | 0–2 créations (`TF`, `04_Textes_fondateurs/Auteurs/`, `textes-fondateurs`) ; vérification de l'existant par grep + index. |
 | 6 | Sentier du Savoir | Compétence intellectuelle du mois ; 0–2 ateliers (règles de `routine-triptyque/workflow.md` §2–§3) ; ligne `## Ateliers` du parent **en local** ; `--refresh-body` seulement sur `05_Sentier/…`. |
-| 7 | Synthèse mensuelle | `Ce que l'actualité du mois nous a appris sur [thème]` ; `SYNTHESE`, `06_Syntheses/Mensuelles/`, catégorie `syntheses`, tags `synthese-mensuelle`, `question-du-phare`. |
+| 7 | Synthèse mensuelle | `Ce que l'actualité du mois nous a appris sur [thème]` ; `SYNTHESE`, `06_Syntheses/Mensuelles/`, catégorie `cycle`, tags `synthese-mensuelle`, `question-du-phare`. |
 | 8 | Audit navigation | Articles isolés, liens manquants (proposés ; correction seulement si évidente). |
 | 9 | Équilibre éditorial | Répartition par thème via l'index ; sous-représentés. |
 | 10 | Mois suivant | Mémoire §5 (condensé + lien rapport), §1 (purge si > ~60 lignes), §4 (nouveau cap). |
@@ -341,9 +341,8 @@ Fin de fichier : bloc `# SEO` (Mot-clé principal, Meta description, `Slug propo
 | `textes-fondateurs` | TF |
 | `sentier-du-savoir` | SENTIER |
 | `dossier-hebdomadaire` | DOSSIER |
-| `syntheses` | **nouvelle** — Fil du Phare, synthèse mensuelle (créée automatiquement par `wp_push_draft.get_or_create_term` au 1er push) |
 | `le-phare` | pages institutionnelles |
-| `cycle` (id 97) | existante, « Dossier hebdomadaire - Notre fil rouge » — **non utilisée** pour l'instant (voir B1) |
+| `cycle` (id 97) | existante, « Dossier hebdomadaire - Notre fil rouge » — Fil du Phare, synthèse mensuelle (B1) |
 
 Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`, `environnement-climat`, `science-sante`, `culture-philosophie`. Nouveaux tags : `question-du-phare`, `type-actualite`, `type-question`, `type-application`, `type-texte-fondateur`, `fil-du-phare`, `synthese-hebdomadaire`, `synthese-mensuelle`.
 
@@ -360,7 +359,7 @@ Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`
 | `tools/index_editorial_utils.py` | `build_index_row`, `append_rows_to_index` | Aucun. |
 | `tools/validate_index_editorial.py` | Validation de l'index | Aucun : contrôle d'alignement des colonnes seulement, `SYNTHESE` accepté (T3). |
 | `tools/editorial_pipeline.py` | Génération par API | Exception `api` uniquement. |
-| `tools/fetch_wp_categories.py`, `fetch_wp_tags.py` | Snapshots taxonomie | À relancer après création de `syntheses`. |
+| `tools/fetch_wp_categories.py`, `fetch_wp_tags.py` | Snapshots taxonomie | À relancer après T5 (nouveaux tags). |
 
 Configuration locale (non lue par Claude) : `tools/wp_config.local.json`, `tools/editorial_config.local.json`, `tools/wp_featured_media.local.json`.
 
@@ -407,7 +406,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | ID | Tâche | Priorité |
 |----|-------|----------|
 | T4 | Premier run `routine quotidienne — brouillons seulement` (validation §14) | Haute |
-| T5 | Premier run hebdomadaire en brouillons ; vérifier création catégorie `syntheses` | Haute |
+| T5 | Premier run hebdomadaire en brouillons ; vérifier le classement dans `cycle` (id 97) | Haute |
 | T6 | Relancer `fetch_wp_categories.py` / `fetch_wp_tags.py` après T5 | Moyenne |
 | T8 | Premier run mensuel (fin octobre → début novembre 2026) | Moyenne |
 | T9 | Commit ciblé des fichiers de la refonte | Fait — `19fd68c` + `e56e6aa` (configs locales hors suivi) |
@@ -424,6 +423,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-05 | v3.3 | Validateur v3 (B14) branché sur `new_article.py stage` ; `.gitignore` des configs locales | `tools/validate_index_editorial.py`, `tools/new_article.py`, skills, `actions.md`, `.gitignore` |
 | 2026-10-05 | v3.4 | Hubs de dossiers générés depuis l'index (B15) | `tools/build_hubs.py`, `routine-mensuelle`, `routine-quotidienne`, `actions.md` |
 | 2026-10-05 | v3.5 | B12 : faux positifs du validateur d'alignement (imports WP) | `tools/index_editorial_utils.py` |
+| 2026-10-05 | v3.6 | B1 : synthèses dans la catégorie existante `cycle` | `tools/new_article.py`, `tools/validate_index_editorial.py`, skills hebdo/mensuelle, `actions.md`, `CLAUDE.md`, `Taxonomie_WordPress_le-phare_info.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -443,7 +443,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 ### 14.2 Hebdomadaire
 
 1. Après ≥ 3 quotidiennes v3 (sinon tester la branche « < 3 articles »).
-2. Vérifier : `06_Syntheses/Fil_du_Phare/` créé, catégorie `syntheses` créée, `--force` fonctionnel, liens vers chaque article de la semaine, §1/§2/§3 mis à jour.
+2. Vérifier : `06_Syntheses/Fil_du_Phare/` créé, brouillon classé dans `cycle`, `--force` fonctionnel, liens vers chaque article de la semaine, §1/§2/§3 mis à jour.
 
 ### 14.3 Mensuelle
 
@@ -460,7 +460,6 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | Risque | Effet | Parade |
 |--------|-------|--------|
 | Garde `daily_run` un même jour | 2e routine refusée | `--force` (hebdo, mensuelle) |
-| Catégorie `syntheses` créée à la volée | Doublon avec `cycle`, nom/slug non maîtrisé | Vérifier au 1er run ; éventuellement la créer à la main avant (B1) |
 | Mémoire qui grossit | Coût tokens | Purge mensuelle §1, lecture ciblée |
 | Mémoire désynchronisée de l'index | Liens faux, ID manquant | L'index fait foi ; la mensuelle réconcilie |
 | Routine qui écrit hors de ses sections | Perte d'information | Règle §8.3 ; contrôle au rapport |
@@ -477,7 +476,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 
 | ID | Évolution | Statut |
 |----|-----------|--------|
-| B1 | Utiliser la catégorie existante `cycle` (id 97) pour le Fil du Phare au lieu de `syntheses` | À décider |
+| B1 | Utiliser la catégorie existante `cycle` (id 97) pour le Fil du Phare au lieu de `syntheses` | Fait — Fil du Phare et synthèse mensuelle dans `cycle` ; pas de catégorie `syntheses` |
 | B2 | Déclenchement planifié (cron / RemoteTrigger) | Écarté (D4), réévaluable |
 | B3 | Script `tools/memoire_editoriale.py` (ajout ligne §1, purge, lecture N dernières lignes) pour fiabiliser et économiser des tokens | Idée |
 | B4 | `post_seo_enrich` compatible article unique (lever la contrainte 3 IDs dans `daily_run.py`) | Idée |

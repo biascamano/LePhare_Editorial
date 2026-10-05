@@ -1,6 +1,6 @@
 ---
 name: routine-mensuelle
-description: Routine mensuelle Le Phare — consolider le mois en savoir durable : dossiers, textes fondateurs, ateliers du Sentier, audit de navigation et d'équilibre, synthèse mensuelle (catégorie syntheses), cap du mois suivant dans la mémoire éditoriale. Déclenché par « routine mensuelle » ou /routine-mensuelle.
+description: Routine mensuelle Le Phare — consolider le mois en savoir durable : dossiers, textes fondateurs, ateliers du Sentier, audit de navigation et d'équilibre, synthèse mensuelle (catégorie cycle), cap du mois suivant dans la mémoire éditoriale. Déclenché par « routine mensuelle » ou /routine-mensuelle.
 ---
 
 # Routine mensuelle — Architecture du Phare
@@ -49,7 +49,7 @@ Atelier (0 à 2 par mois), règles de l'ancienne routine conservées (`.claude/s
 ## 7. Synthèse mensuelle (si le mois la justifie)
 
 Titre : `Ce que l'actualité du mois nous a appris sur [thème]`. Relier plusieurs événements, prendre de la hauteur, intégrer les questions étudiées, montrer ce qui reste incertain, renvoyer vers dossiers et Sentier. **Pas** un résumé chronologique.
-Création : `python tools/new_article.py create --type synthese-mensuelle --theme <THEME> --title "…" --tags "<concept>;…" …` (→ `06_Syntheses/Mensuelles/`, `SYNTHESE`, `syntheses`, tags `synthese-mensuelle`, `question-du-phare`).
+Création : `python tools/new_article.py create --type synthese-mensuelle --theme <THEME> --title "…" --tags "<concept>;…" …` (→ `06_Syntheses/Mensuelles/`, `SYNTHESE`, `cycle`, tags `synthese-mensuelle`, `question-du-phare`).
 
 ## 8. Auditer la navigation
 
