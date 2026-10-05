@@ -1,0 +1,6 @@
+*.local.json
+.claude/settings.local.json
+.env
+**/.env
+**/*credentials*
+__pycache__/
