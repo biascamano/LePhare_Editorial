@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -277,6 +278,9 @@ def run_logged_command(command: list[str], log_path: Path, label: str) -> subpro
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
+        encoding="utf-8",
+        errors="replace",
+        env={**os.environ, "PYTHONIOENCODING": "utf-8"},
         bufsize=1,
     )
     collected_lines: list[str] = []
