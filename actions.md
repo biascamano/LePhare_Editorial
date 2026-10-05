@@ -12,9 +12,10 @@ Toutes s'exécutent en autonomie totale jusqu'au rapport final. Déclenchement m
 
 | Prompt | Slash command | Ce que ça fait |
 |--------|---------------|----------------|
-| `routine quotidienne` | `/routine-quotidienne` | Veille 24–72 h, choix d'**un** sujet, rédaction d'un article (Actualité, Question, Application, ou Texte fondateur occasionnel) avec sa Question du Phare, index, publication WP, une ligne en mémoire §1. 🔴 |
+| `routine quotidienne` | `/routine-quotidienne` | Veille 24–72 h, choix d'**un** sujet, rédaction d'une **paire** : A (Actualité, les faits) + B (Question du Phare, ce que l'événement révèle), liens croisés A ↔ B, index, publication WP, deux lignes en mémoire §1. 🔴 |
 | `routine quotidienne — sujet : …, thème TECH` | idem | Même chose avec sujet, angle et thème imposés. 🔴 |
-| `routine quotidienne — type question` / `application` / `texte fondateur` | idem | Même chose avec le type d'article imposé. 🔴 |
+| `routine quotidienne — type application` / `type texte fondateur` | idem | Article seul (Application ou Texte fondateur), sans B. 🔴 |
+| `routine quotidienne — type question — sur <ID>` | idem | Article B seul, sur la question finale de l'article `<ID>` (rattrapage). 🔴 |
 | `routine quotidienne — brouillons seulement` | idem | Même chose mais les posts restent en brouillon WP (`--no-publish-final`). 🔴 |
 | `routine hebdomadaire` / `fil du phare` | `/routine-hebdomadaire` | Relit la semaine, trouve les connexions, formule une grande question, rédige **Le Fil du Phare** (`SYNTHESE`, catégorie `cycle`), audite les fils éditoriaux, prépare la semaine suivante, met à jour mémoire §2–§3. 🔴 |
 | `routine mensuelle` | `/routine-mensuelle` | Bilan du mois : phénomènes, mise à jour/création de dossiers, 0–2 textes fondateurs, 0–2 ateliers Sentier, synthèse mensuelle si justifiée, audit navigation et équilibre, rapport `06_Syntheses/Rapports_mensuels/YYYY-MM.md`, cap du mois suivant (mémoire §4–§5). 🔴 |

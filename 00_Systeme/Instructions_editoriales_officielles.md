@@ -2,6 +2,8 @@
 
 ## 1) Vision et objectifs
 
+> Ligne editoriale de reference : `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` (racine). Le present document regle la qualite redactionnelle. Routine quotidienne = paire A (Actualite) + B (Question du Phare) : exigences dans `plan.md` §5.6 a §5.8. En cas d'ecart entre les deux documents, le signaler plutot que trancher.
+
 Le media suit une approche de slow journalism :
 
 - produire du savoir durable et de l'analyse de fond,
