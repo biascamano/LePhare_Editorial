@@ -82,7 +82,7 @@ Liens Markdown obligatoires (pas d'URL nue). Liens internes : uniquement des URL
 
 Créer l'article **avant** de rédiger le corps (ID, dossier, nom de fichier, catégorie, tags et ligne d'index sont calculés par le script) :
 ```bash
-python tools/new_article.py create --type <actualite|question|application|texte-fondateur> --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "…" --previous <ID> --linked "<ID>;…" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>" [--dossier "…"] [--routine quotidienne]
+python tools/new_article.py create --type <actualite|question|application|texte-fondateur> --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "…" --previous <ID> --linked "<ID>;…" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>" [--dossier "<ID de la page principale ou nom du sous-dossier>"] [--routine quotidienne]
 ```
 (`--routine quotidienne` obligatoire pour un texte fondateur.) Le script renvoie `id` et `path` : écrire le corps à la place de `[Corps de l'article à rédiger]`, compléter la navigation finale, `Sources principales` et le bloc `# SEO` (meta description). En-tête (`00_Systeme/Modele_Entete_Article.md`) déjà rempli, dont :
 

@@ -21,7 +21,7 @@ Sujets revenus plusieurs fois (dépendance, attention, accélération, travail, 
 
 ## 3. Mettre à jour les dossiers existants (`03_Dossiers/<Theme>/`)
 
-Pour chaque dossier touché : question centrale encore pertinente ? articles associés à ajouter, sous-thèmes à réorganiser, manques, page principale à créer/mettre à jour ? Modifier les `.md` locaux ; si la page dossier existe sur WP (URL dans l'index) : `python tools/wp_push_draft.py --refresh-body --config tools/wp_config.local.json --index index_editorial.csv "<fichier>"`.
+Pour chaque dossier touché : question centrale encore pertinente ? articles associés à ajouter, sous-thèmes à réorganiser, manques, page principale à créer/mettre à jour ? Modifier les `.md` locaux, puis `python tools/build_hubs.py` : régénère `## Liens internes du dossier` de chaque page principale (plus petit ID du sous-dossier) depuis l'index — autres volets du sous-dossier + articles dont l'en-tête `Dossier :` vise ce dossier. Traiter les avertissements `!` (dossier inconnu, chemin hors `03_Dossiers`). Le script affiche les commandes `wp_push_draft.py --refresh-body` des pages déjà sur WP : les lancer.
 
 ## 4. Évaluer les nouveaux dossiers
 

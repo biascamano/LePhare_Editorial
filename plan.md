@@ -422,6 +422,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-05 | v3.1 | Alignement documentaire (T1, T2, T7) + validation index/WP du type `SYNTHESE` (T3) | `Modele_Entete_Article.md`, `Taxonomie_WordPress_le-phare_info.md`, `Strategie_routine_quotidienne_graphe_taxonomie_WP.md`, `Checklist_publication.md`, `.cursor/rules/editorial-assisted-writing.mdc` |
 | 2026-10-05 | v3.2 | Rangement automatique : `new_article.py` (B13) branché dans les routines ; backlog B14–B15 | `plan.md`, `tools/new_article.py`, `actions.md`, `.claude/skills/routine-{quotidienne,hebdomadaire,mensuelle}/SKILL.md` |
 | 2026-10-05 | v3.3 | Validateur v3 (B14) branché sur `new_article.py stage` ; `.gitignore` des configs locales | `tools/validate_index_editorial.py`, `tools/new_article.py`, skills, `actions.md`, `.gitignore` |
+| 2026-10-05 | v3.4 | Hubs de dossiers générés depuis l'index (B15) | `tools/build_hubs.py`, `routine-mensuelle`, `routine-quotidienne`, `actions.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -489,7 +490,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | B12 | Corriger les lignes préexistantes de l'index signalées par `validate_index_editorial.py` (« Categorie_WP contains ';' but Tags_WP is empty » : 2026-050, 059, 061–066, 081–082, 102–104, 107, 233, 259, 315–317, 327, 329, 332, 335–418) | À faire (hors refonte) |
 | B13 | `tools/new_article.py` : création déterministe d'un article (type + thème + slug) — réserve l'ID, calcule chemin canonique, nom de fichier, catégorie et tags WP, écrit le squelette v3, ajoute la ligne d'index, prépare le dossier de transit `07_A_Publier/` (sous-commande `stage`) | Fait — branché dans les 3 skills |
 | B14 | Validateur étendu : cohérence type/chemin/catégorie, ≤ 8 tags dont le tag de thème, champs v3 présents, liens internes existants dans l'index ; lancé par les routines avant publication | Fait — `validate_index_editorial.py --ids`, appelé automatiquement par `new_article.py stage` |
-| B15 | `tools/build_hubs.py` : sections « Articles de ce dossier » générées depuis l'index + `--refresh-body` des hubs (jamais `02_Fonds`) | À faire |
+| B15 | `tools/build_hubs.py` : sections « Articles de ce dossier » générées depuis l'index + `--refresh-body` des hubs (jamais `02_Fonds`) | Fait — hub = plus petit ID du sous-dossier ; section `## Liens internes du dossier` remplacée ; refresh WP affiché, pas lancé |
 
 ---
 
