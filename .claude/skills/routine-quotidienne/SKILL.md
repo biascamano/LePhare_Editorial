@@ -16,13 +16,15 @@ Référence éditoriale : `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` (
 - **Sujet imposé** (`routine quotidienne — sujet : …, thème TECH`) : respecter sujet/angle/thème ; produire la paire.
 - **Brouillons seulement** : `--no-publish-final` sur tous les runs.
 - **`type application` / `type texte fondateur`** : article **seul** (C ou D), pas de B.
-- **`type question — sur <ID>`** : article **B seul**, en rattrapage, sur la question finale de l'article `<ID>` déjà publié (étapes 6B à 9 seulement, `--previous <ID>`).
+- **`type question — sur <ID>`** : article **B seul**, en rattrapage, sur la question finale de l'article `<ID>` déjà publié (étapes 6B à 9 seulement, `--previous <ID>`). Sans `<ID>` : prendre la première entrée P1 de `00_Systeme/Articles_a_creer.md` §2.
 
 Autonomie totale : pas de validation du sujet, pas de confirmation intermédiaire, exécution jusqu'au rapport final.
 
 ## 1. Lire la mémoire éditoriale
 
 `00_Systeme/Memoire_editoriale.md` : §1 (15 dernières lignes), §2 fils actifs, §3 dernier Fil du Phare, §4 cap du mois. Identifier sujets récents, Questions du Phare ouvertes, dossiers actifs, penseurs récents, étapes du Sentier sollicitées, prolongements envisagés. Ne pas répéter un sujet sans raison.
+
+Puis `00_Systeme/Articles_a_creer.md` §1–§2 (liste priorisée tenue par l'hebdomadaire et la mensuelle) : repérer les entrées P1 dont l'échéance est atteinte.
 
 Les deux IDs (A puis B) sont attribués à l'étape 8 par `tools/new_article.py` (ne pas les calculer à la main).
 
@@ -32,7 +34,7 @@ Veille web (presse sérieuse, sources institutionnelles). Retenir 5 à 10 sujets
 
 ## 3. Choisir UN sujet
 
-Critères : importance, durabilité, intérêt intellectuel, originalité, connexion avec les publications précédentes. **Le potentiel de Question du Phare est décisif** : un sujet qui n'ouvre aucune question réutilisable ailleurs ne fait pas une paire. Tenir compte des catégories sous-représentées (§4 de la mémoire) sans forcer.
+Critères : importance, durabilité, intérêt intellectuel, originalité, connexion avec les publications précédentes. **Le potentiel de Question du Phare est décisif** : un sujet qui n'ouvre aucune question réutilisable ailleurs ne fait pas une paire. Tenir compte des catégories sous-représentées (§4 de la mémoire) sans forcer. Une entrée P1 de `00_Systeme/Articles_a_creer.md` arrivée à échéance passe en tête des candidats si l'actualité du jour la confirme ; sinon la laisser.
 
 ## 4. Déterminer la forme
 
@@ -134,6 +136,8 @@ Fournir dans le rapport : idée d'image, légende, texte alternatif pour A et B 
 ## 9. Mettre à jour la mémoire éditoriale
 
 Ajouter **deux lignes** (A puis B) à la fin du tableau §1 de `00_Systeme/Memoire_editoriale.md` : date, ID, `[titre](url WP)`, type, catégorie/thème, Question du Phare, dossier, penseur, Sentier, article précédent, prolongement envisagé. Pour B, article précédent = A. Ne pas toucher §2–§5.
+
+Si la paire réalise une entrée de `00_Systeme/Articles_a_creer.md`, **retirer** cette entrée (pas d'ajout : réservé à l'hebdomadaire et à la mensuelle).
 
 **La routine s'arrête ici.**
 

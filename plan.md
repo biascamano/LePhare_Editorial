@@ -507,6 +507,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-05 | v3.6 | B1 : synthèses dans la catégorie existante `cycle` | `tools/new_article.py`, `tools/validate_index_editorial.py`, skills hebdo/mensuelle, `actions.md`, `CLAUDE.md`, `Taxonomie_WordPress_le-phare_info.md` |
 | 2026-10-05 | v3.7 | Socle éditorial consolidé intégré ; paire quotidienne Actualité + Question du Phare (D9–D11) — plan seulement, skills à aligner (T10) | `plan.md` |
 | 2026-10-05 | v3.8 | T10 : skill quotidien réécrit pour la paire (§4 forme, §6A/§6B, §7 navigation croisée, §8 séquence de publication §5.9, §9 deux lignes) ; variantes `type application` / `type texte fondateur` = article seul, `type question — sur <ID>` = B seul ; commande, `CLAUDE.md`, `actions.md` alignés ; renvoi au socle dans les Instructions §1. Premier run paire en brouillons : 2026-543 (A, ?p=5493) + 2026-544 (B, ?p=5495), liens croisés ok ; `wp_push_draft --refresh-body` exige `--config tools/wp_config.local.json` (ajouté au §8 du skill) | `.claude/skills/routine-quotidienne/SKILL.md`, `.claude/commands/routine-quotidienne.md`, `CLAUDE.md`, `actions.md`, `00_Systeme/Instructions_editoriales_officielles.md`, `plan.md` |
+| 2026-10-05 | v3.9 | Base éditoriale : `tools/build_catalogue.py` génère `00_Systeme/Catalogue_editorial.md` (inventaire depuis l'index, équilibre, lacunes) ; `00_Systeme/Articles_a_creer.md` = liste priorisée P1–P3 par niveau du parcours. Branchés : quotidienne (pioche P1, retire le réalisé), hebdomadaire (ajoute suivis/questions), mensuelle (régénère, révise) | `tools/build_catalogue.py`, `00_Systeme/Catalogue_editorial.md`, `00_Systeme/Articles_a_creer.md`, skills des 3 routines, `actions.md`, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -608,6 +609,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `.claude/commands/routine-*.md` | Slash commands (4) |
 | `00_Systeme/Memoire_editoriale.md` | Mémoire partagée |
 | `00_Systeme/Instructions_editoriales_officielles.md` | Qualité rédactionnelle |
+| `00_Systeme/Catalogue_editorial.md` | Inventaire généré (`tools/build_catalogue.py`) : articles, équilibre, lacunes |
+| `00_Systeme/Articles_a_creer.md` | Liste priorisée des articles à créer (P1–P3) |
 | `00_Systeme/Modele_Entete_Article.md` | En-tête v3 |
 | `00_Systeme/Taxonomie_WordPress_le-phare_info.md` | Catégories/tags |
 | `00_Systeme/Manifests/sentier_fondamentaux.csv` | Fondamentaux parents |

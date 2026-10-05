@@ -58,6 +58,8 @@ Mettre à jour §2 de la mémoire :
 
 3 à 5 pistes : articles à poursuivre, nouveaux domaines où tester les mêmes questions, textes fondateurs éventuellement nécessaires. Ne **pas** fixer un programme de sept articles : l'actualité doit pouvoir le modifier.
 
+Reporter les pistes durables dans `00_Systeme/Articles_a_creer.md` (§1 suivis datés, §2 questions en attente ; P1 réservé aux échéances fixes, sinon P2/P3) et retirer les entrées réalisées dans la semaine. Ne pas toucher aux §3–§5 de ce fichier (textes fondateurs, dossiers, Sentier → mensuelle).
+
 ## 7. Mettre à jour la mémoire éditoriale
 
 - §1 : ajouter la ligne du Fil du Phare (type `Fil du Phare`).
