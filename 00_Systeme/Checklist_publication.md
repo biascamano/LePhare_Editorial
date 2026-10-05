@@ -8,6 +8,16 @@ Utiliser cette checklist avant chaque publication WordPress.
 - [ ] L'article relie l'actualite a un savoir durable.
 - [ ] Le lien au Sentier du Savoir est explicite (etape/fondamental/competence).
 
+## A bis. Atelier Sentier (routine mensuelle, routine triptyque)
+
+- [ ] Le SENTIER est declare `Type Sentier : atelier` (pas un nouveau fondamental).
+- [ ] `Fondamental lie (ID)` et `Fondamental numero` renseignes (CSV `sentier_fondamentaux.csv`).
+- [ ] Rubrique `## Ateliers (applications sur l'actualite)` mise a jour en fin du **fondamental canonique** (`02_Fonds/…`, URL racine — pas `wiki-du-phare`).
+- [ ] (Routine triptyque) ACTU et TF renvoient a la meme etape / fondamental en conclusion.
+- [ ] Apres `daily_run --publish-existing` : si besoin, **passe WP** `wp_push_draft --refresh-body` sur le **SENTIER atelier** uniquement (`Sentier_fondamentaux_referentiel.md` §5) — **pas** sur le fondamental parent.
+- [ ] **Fondamental parent sur WordPress** : republication du corps (pour la table Ateliers) **a la charge de l'editeur** — pas d'action automatique assistant ; prerequis `Slug propose` si `wp_push_draft` : voir `Sentier_fondamentaux_referentiel.md` §5.
+- [ ] Doublons KB : l'editeur met en **brouillon** les posts `/wiki-du-phare/*` (l'assistant ne le fait pas).
+
 ## B. Structure du contenu
 
 - [ ] H1 clair, impactant, SEO-friendly.
@@ -23,10 +33,14 @@ Utiliser cette checklist avant chaque publication WordPress.
 - [ ] Sources sensibles (geo, eco, science) double-verifiees.
 - [ ] Les faits sont dates et sourcés.
 - [ ] Les interpretations sont distinguees des faits.
-- [ ] Le bloc `Reperes de sources` contient des URLs cliquables quand elles sont disponibles.
+- [ ] `Repères de sources` : liens `[libellé](url)` (pas d'URL nue apres « : » — voir Instructions 3.10).
+- [ ] (Routines v3) Navigation finale : `Repères de sources` / `La question suivante` / `Pour aller plus loin` / `Sur le Sentier du Savoir` ; liens internes reels (index, `sentier_fondamentaux.csv`) ; **pas** de `Dans ce triptyque`.
+- [ ] (Routine triptyque) `Dans ce triptyque` : libelle hors lien (`Approfondir… :`, `Prolonger… :`) ; seul le titre de l'article lie est cliquable (Instructions 3.10).
 
 ## D. SEO et WordPress
 
+- [ ] En-tete v3 complet (`Type article`, `Question du Phare`, `Dossier`, `Article precedent (ID)`, `Prolongement envisage`) — `Modele_Entete_Article.md`.
+- [ ] Bloc `# SEO` avec `Slug propose` (requis par `wp_push_draft`).
 - [ ] Mot-cle principal defini.
 - [ ] Meta description redigee (150-160 caracteres).
 - [ ] Hierarchie H2/H3 propre.

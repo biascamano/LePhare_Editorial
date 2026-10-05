@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python tools/*)",
+      "Bash(python tools/**)",
+      "Bash(python:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "WebFetch",
+      "WebSearch",
+      "Edit(01_Actualites/**)",
+      "Edit(02_Fonds/**)",
+      "Edit(04_Textes_fondateurs/**)",
+      "Edit(05_Sentier/**)",
+      "Edit(07_A_Publier/**)",
+      "Edit(index_editorial.csv)",
+      "Write(01_Actualites/**)",
+      "Write(02_Fonds/**)",
+      "Write(04_Textes_fondateurs/**)",
+      "Write(05_Sentier/**)",
+      "Write(07_A_Publier/**)",
+      "Write(index_editorial.csv)",
+      "Edit(03_Dossiers/**)",
+      "Edit(06_Syntheses/**)",
+      "Edit(00_Systeme/Memoire_editoriale.md)",
+      "Write(03_Dossiers/**)",
+      "Write(06_Syntheses/**)",
+      "Write(00_Systeme/Memoire_editoriale.md)"
+    ],
+    "deny": [
+      "Read(tools/wp_config.local.json)",
+      "Read(tools/editorial_config.local.json)",
+      "Read(**/.env)",
+      "Read(**/*credentials*)"
+    ]
+  }
+}
