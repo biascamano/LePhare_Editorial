@@ -94,7 +94,7 @@ Article precedent (ID) : YYYY-NNN
 Prolongement envisage : …
 ```
 
-`Articles lies (IDs)` = article précédent (+ éventuels). Bloc `# SEO` : mot-clé, meta description, `Slug propose`. Une fois l'article rédigé : `python tools/new_article.py stage <ID>` (copie dans `07_A_Publier/<date>_<slug>/`). Ne jamais écrire l'index à la main ni via `csv.writer`.
+`Articles lies (IDs)` = article précédent (+ éventuels). Bloc `# SEO` : mot-clé, meta description, `Slug propose`. Une fois l'article rédigé : `python tools/new_article.py stage <ID>` (copie dans `07_A_Publier/<date>_<slug>/`). `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine. Ne jamais écrire l'index à la main ni via `csv.writer`.
 
 Publication :
 ```bash

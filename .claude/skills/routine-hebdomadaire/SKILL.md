@@ -41,7 +41,7 @@ python tools/new_article.py create --type fil-du-phare --theme <THEME dominant> 
 ```
 Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, catégorie `syntheses`, tags `fil-du-phare`/`question-du-phare`/`synthese-hebdomadaire`, slug `fil-du-phare-<slug>` et la ligne d'index. Rédiger le corps dans le `path` renvoyé, compléter navigation et `# SEO`. Sources en `[libellé](url)`.
 
-Puis `python tools/new_article.py stage <ID>` et :
+Puis `python tools/new_article.py stage <ID>`. `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine. Ensuite :
 ```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force
 ```

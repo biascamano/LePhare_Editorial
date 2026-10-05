@@ -73,10 +73,11 @@ Point d'entrée technique des routines. À lancer depuis la racine du dépôt.
 
 | Commande | Ce que ça fait |
 |----------|----------------|
-| `python tools/validate_index_editorial.py [--index …]` | Détecte les décalages de colonnes (cause de doublons WP au re-push). Ne contrôle ni type ni chemin. 🟢 |
+| `python tools/validate_index_editorial.py [--index …]` | Détecte les décalages de colonnes (cause de doublons WP au re-push). 🟢 |
+| `python tools/validate_index_editorial.py --ids <ID> [<ID>…]` | Contrôle v3 d'articles : type/chemin/catégorie, ≤ 8 tags dont le tag de thème, champs v3 de l'en-tête, corps rédigé, navigation finale, `Slug propose` = index, meta description, pas d'URL nue dans les Repères, liens internes connus. Les articles d'avant la v3 échouent sur les champs v3 (normal). 🟢 |
 | `index_editorial_utils.build_index_row(...)` + `append_rows_to_index(...)` (Python) | **Seule** façon autorisée d'ajouter une ligne à l'index. 🟡 |
 | `python tools/new_article.py create --type <type> --theme <THEME> --title "…" [--slug …] [--pillar …] [--fondamental-id …] [--dossier-dir …] [--dry-run]` | Crée un article déjà rangé : réserve l'ID, choisit dossier, nom de fichier, catégorie et tags (≤ 8), écrit le squelette v3 et ajoute la ligne d'index (`en_redaction`). Types : `actualite`, `question`, `application`, `texte-fondateur`, `fil-du-phare`, `synthese-mensuelle`, `dossier`, `atelier`. 🟡 |
-| `python tools/new_article.py stage <ID> [--date YYYY-MM-DD]` | Copie le fichier canonique rédigé dans `07_A_Publier/<date>_<slug>/`, prêt pour `daily_run.py --publish-existing`. 🟡 |
+| `python tools/new_article.py stage <ID> [--date YYYY-MM-DD]` | Copie le fichier canonique rédigé dans `07_A_Publier/<date>_<slug>/`, prêt pour `daily_run.py --publish-existing`. Refuse si le contrôle v3 est KO (`--force` pour passer outre, hors routine). 🟡 |
 | `python tools/merge_index_fragment.py [--out PATH]` | Fusionne un fragment CSV dans l'index (en place, ou vers `PATH` si l'index est verrouillé). Usage ponctuel historique. 🟡 |
 | `python tools/_merge_index_to_merged_file.py` | ⚠️ **S'exécute sans argument** : écrit `index_editorial.merged.csv` (index + fragment). 🟡 |
 

@@ -67,7 +67,7 @@ Répartition du mois par thème (`ECON`, `POL`, `MONDE`, `TECH`, `CLIMAT`, `SCIE
 
 ## Publication
 
-Chaque production (synthèse, TF, atelier, dossier) est créée par `new_article.py create` (ID + ligne d'index, jamais d'écriture manuelle de l'index), rédigée, puis `python tools/new_article.py stage <ID>` (un dossier `07_A_Publier/<date>_<slug>/` **par article**), puis
+Chaque production (synthèse, TF, atelier, dossier) est créée par `new_article.py create` (ID + ligne d'index, jamais d'écriture manuelle de l'index), rédigée, puis `python tools/new_article.py stage <ID>` (un dossier `07_A_Publier/<date>_<slug>/` **par article** ; `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine.), puis
 ```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force
 ```

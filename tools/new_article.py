@@ -262,9 +262,12 @@ def cmd_stage(args: argparse.Namespace) -> dict:
     row = next((r for r in rows if (r.get("ID") or "").strip() == args.id), None)
     if row is None:
         raise SystemExit(f"ID absent de l'index : {args.id}")
+    from validate_index_editorial import check_article
+
+    errors = check_article(row, rows, ROOT)
+    if errors and not args.force:
+        raise SystemExit("Contrôle v3 KO (corriger puis relancer) :\n- " + "\n- ".join(errors))
     source = ROOT / row["Chemin_dossier"] / row["Nom_fichier"]
-    if not source.exists():
-        raise SystemExit(f"Fichier canonique introuvable : {source}")
     stage_date = args.date or date.today().isoformat()
     folder = ROOT / STAGING_DIR / f"{stage_date}_{row['Slug_WordPress']}"
     existing = [p for p in folder.glob("*.md") if p.name != source.name] if folder.exists() else []
@@ -309,6 +312,7 @@ def main() -> None:
     stage = sub.add_parser("stage", help="Copie le fichier canonique dans 07_A_Publier/<date>_<slug>/")
     stage.add_argument("id")
     stage.add_argument("--date", help="YYYY-MM-DD, défaut aujourd'hui")
+    stage.add_argument("--force", action="store_true", help="copier malgré un contrôle v3 KO")
     stage.set_defaults(handler=cmd_stage)
 
     args = parser.parse_args()
