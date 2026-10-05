@@ -68,7 +68,8 @@ def validate_row_columns(row: dict[str, str], fieldnames: list[str]) -> list[str
         issues.append(f"URL_WordPress looks like a slug ({url!r}), not a URL")
 
     tags = safe_str(row.get("Tags_WP"))
-    if categorie and ";" in categorie and not tags:
+    imported_from_wp = safe_str(row.get("Remarques")).startswith("Import auto API WP")
+    if categorie and ";" in categorie and not tags and not imported_from_wp:
         issues.append("Categorie_WP contains ';' but Tags_WP is empty — likely column shift")
 
     if slug and slug.startswith(("http://", "https://")):
