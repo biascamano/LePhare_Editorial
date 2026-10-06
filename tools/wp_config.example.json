@@ -2,5 +2,6 @@
   "site_url": "https://le-phare.info",
   "username": "your-wordpress-username",
   "application_password": "xxxx xxxx xxxx xxxx xxxx xxxx",
-  "verify_ssl": true
+  "verify_ssl": true,
+  "push_rank_math_meta": true
 }

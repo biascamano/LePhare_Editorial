@@ -7,5 +7,13 @@
   "manifest_max_tokens": 1800,
   "article_max_tokens": 2600,
   "repair_max_tokens": 3200,
-  "allow_local_llm": false
+  "allow_local_llm": false,
+  "calibration_api_enabled": false,
+  "calibration_model": "gpt-5.5",
+  "seo_enrich_api_enabled": false,
+  "seo_enrich_model": "gpt-5.5",
+  "seo_enrich_temperature": 0.35,
+  "seo_enrich_request_timeout_seconds": 300,
+  "seo_enrich_max_output_tokens": 14000,
+  "seo_enrich_max_input_chars_per_article": 12000
 }

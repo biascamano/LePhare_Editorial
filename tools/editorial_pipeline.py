@@ -174,8 +174,9 @@ def main() -> int:
     try:
         if not args.use_api_llm:
             raise ValueError(
-                "API LLM generation is disabled by default in this project. "
-                "Use the GPT-5.4 agent for default editorial writing, or pass --use-api-llm for explicit API generation."
+                "Generation via ce script exige --use-api-llm (cle API dans la config editorial). "
+                "Pour la redaction par l'assistant Cursor : ecrire le triptyque puis "
+                'python tools/daily_run.py --publish-existing "07_A_Publier/VotreDossier"'
             )
         llm_config = load_llm_config(args.config)
         print(f"Generating manifest for mode={args.mode}, output_profile={args.output_profile}...", flush=True)
@@ -228,7 +229,7 @@ def load_llm_config(config_path: str | None) -> LlmConfig:
 
     env_raw = {
         "base_url": os.environ.get("LP_LLM_BASE_URL", "https://api.openai.com/v1"),
-        "api_key": os.environ.get("LP_LLM_API_KEY", "") or os.environ.get("OPENAI_API_KEY", ""),
+        "api_key": os.environ.get("LP_LLM_API_KEY", "") or os.environ.get("ANTHROPIC_API_KEY", "") or os.environ.get("OPENAI_API_KEY", ""),
         "model": os.environ.get("LP_LLM_MODEL", ""),
         "temperature": os.environ.get("LP_LLM_TEMPERATURE", "0.4"),
         "request_timeout_seconds": os.environ.get("LP_LLM_REQUEST_TIMEOUT_SECONDS", "300"),
@@ -1397,52 +1398,32 @@ def duplicate_to_publish_folder(planned_articles: list[PlannedArticle], publish_
 
 
 def append_rows_to_index(index_path: Path, planned_articles: list[PlannedArticle]) -> None:
-    if not index_path.exists():
-        raise FileNotFoundError(f"Index file not found: {index_path}")
+    from index_editorial_utils import append_rows_to_index as append_rows_safe
 
-    with index_path.open("r", encoding="utf-8-sig", newline="") as fh:
-        reader = csv.DictReader(fh)
-        rows = list(reader)
-        fieldnames = reader.fieldnames or []
-
-    existing_ids = {row.get("ID", "").strip() for row in rows}
-    new_rows = []
-    for article in planned_articles:
-        if article.article_id in existing_ids:
-            raise ValueError(f"Article ID already exists in index: {article.article_id}")
-        new_rows.append(build_index_row(article))
-
-    with index_path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows + new_rows)
+    new_rows = [build_index_row(article) for article in planned_articles]
+    append_rows_safe(index_path, new_rows)
 
 
 def build_index_row(article: PlannedArticle) -> dict[str, str]:
-    return {
-        "ID": article.article_id,
-        "Titre": article.title,
-        "Type": article.type_code,
-        "Theme": article.theme_code,
-        "Statut": "pret_a_publier",
-        "Version": "V1",
-        "Date_creation": _today_iso(),
-        "Date_derniere_maj": _today_iso(),
-        "Auteur": "Le Phare Info",
-        "Etape_sentier": article.etape_sentier,
-        "Articles_lies": ";".join(article.generated["linked_ids"]),
-        "Mots_cles": ";".join(article.keywords),
-        "Resume_court": article.summary,
-        "Objectif": article.objective,
-        "Nom_fichier": article.filename,
-        "Chemin_dossier": article.relative_folder,
-        "Date_publication_WP": "",
-        "URL_WordPress": "",
-        "Slug_WordPress": article.slug,
-        "Categorie_WP": ";".join(article.wp_categories),
-        "Tags_WP": ";".join(article.wp_tags),
-        "Remarques": f"Genere via editorial_pipeline.py | {article.generated['publish_folder_name']}",
-    }
+    from index_editorial_utils import build_index_row as build_row
+
+    return build_row(
+        article_id=article.article_id,
+        title=article.title,
+        type_code=article.type_code,
+        theme_code=article.theme_code,
+        etape_sentier=article.etape_sentier,
+        linked_ids=article.generated["linked_ids"],
+        keywords=article.keywords,
+        summary=article.summary,
+        objective=article.objective,
+        filename=article.filename,
+        relative_folder=article.relative_folder,
+        slug=article.slug,
+        wp_categories=article.wp_categories,
+        wp_tags=article.wp_tags,
+        remarques=f"Genere via editorial_pipeline.py | {article.generated['publish_folder_name']}",
+    )
 
 
 def push_to_wordpress_drafts(publish_dir: Path, index_path: Path, wp_config_path: Path) -> None:
@@ -1465,7 +1446,17 @@ def build_filename(article_id: str, type_code: str, theme_code: str, title: str)
     return f"{article_id}_{type_code}_{theme_code}_{short_title[:90]}_V1.md"
 
 
+def _is_anthropic_api(config: LlmConfig) -> bool:
+    return "anthropic.com" in config.base_url.lower()
+
+
 def call_llm_json(llm_config: LlmConfig, system_prompt: str, user_prompt: str, max_tokens: int | None = None) -> dict[str, Any]:
+    if _is_anthropic_api(llm_config):
+        return _call_anthropic_json(llm_config, system_prompt, user_prompt, max_tokens)
+    return _call_openai_json(llm_config, system_prompt, user_prompt, max_tokens)
+
+
+def _call_openai_json(llm_config: LlmConfig, system_prompt: str, user_prompt: str, max_tokens: int | None = None) -> dict[str, Any]:
     endpoint = f"{llm_config.base_url}/chat/completions"
     payload = {
         "model": llm_config.model,
@@ -1486,7 +1477,6 @@ def call_llm_json(llm_config: LlmConfig, system_prompt: str, user_prompt: str, m
         },
         method="POST",
     )
-
     try:
         with request.urlopen(req, timeout=llm_config.request_timeout_seconds) as response:
             data = json.loads(response.read().decode("utf-8"))
@@ -1497,8 +1487,40 @@ def call_llm_json(llm_config: LlmConfig, system_prompt: str, user_prompt: str, m
         raise RuntimeError(
             f"LLM request failed or timed out after {llm_config.request_timeout_seconds}s: {exc}"
         ) from exc
-
     content = data["choices"][0]["message"]["content"]
+    return parse_llm_json_content(content, llm_config)
+
+
+def _call_anthropic_json(llm_config: LlmConfig, system_prompt: str, user_prompt: str, max_tokens: int | None = None) -> dict[str, Any]:
+    endpoint = f"{llm_config.base_url}/v1/messages"
+    payload = {
+        "model": llm_config.model,
+        "max_tokens": max_tokens or llm_config.article_max_tokens,
+        "system": system_prompt,
+        "messages": [{"role": "user", "content": user_prompt}],
+        "temperature": llm_config.temperature,
+    }
+    req = request.Request(
+        endpoint,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "x-api-key": llm_config.api_key,
+            "anthropic-version": "2023-06-01",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with request.urlopen(req, timeout=llm_config.request_timeout_seconds) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"LLM API error {exc.code}: {detail}") from exc
+    except (error.URLError, TimeoutError, socket.timeout) as exc:
+        raise RuntimeError(
+            f"LLM request failed or timed out after {llm_config.request_timeout_seconds}s: {exc}"
+        ) from exc
+    content = data["content"][0]["text"]
     return parse_llm_json_content(content, llm_config)
 
 
@@ -1585,23 +1607,41 @@ Broken JSON:
 {raw_json}
 """.strip()
 
-    endpoint = f"{llm_config.base_url}/chat/completions"
-    payload = {
-        "model": llm_config.model,
-        "temperature": 0,
-        "messages": [
-            {"role": "system", "content": "You repair invalid JSON and return only valid JSON."},
-            {"role": "user", "content": prompt},
-        ],
-        "max_tokens": llm_config.repair_max_tokens,
-    }
+    system = "You repair invalid JSON and return only valid JSON."
+    if _is_anthropic_api(llm_config):
+        endpoint = f"{llm_config.base_url}/v1/messages"
+        payload = {
+            "model": llm_config.model,
+            "max_tokens": llm_config.repair_max_tokens,
+            "system": system,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0,
+        }
+        headers = {
+            "x-api-key": llm_config.api_key,
+            "anthropic-version": "2023-06-01",
+            "Content-Type": "application/json",
+        }
+    else:
+        endpoint = f"{llm_config.base_url}/chat/completions"
+        payload = {
+            "model": llm_config.model,
+            "temperature": 0,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": prompt},
+            ],
+            "max_tokens": llm_config.repair_max_tokens,
+        }
+        headers = {
+            "Authorization": f"Bearer {llm_config.api_key}",
+            "Content-Type": "application/json",
+        }
+
     req = request.Request(
         endpoint,
         data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {llm_config.api_key}",
-            "Content-Type": "application/json",
-        },
+        headers=headers,
         method="POST",
     )
 
@@ -1616,6 +1656,8 @@ Broken JSON:
             f"LLM JSON repair request failed or timed out after {llm_config.request_timeout_seconds}s: {exc}"
         ) from exc
 
+    if _is_anthropic_api(llm_config):
+        return extract_json_block(data["content"][0]["text"])
     return extract_json_block(data["choices"][0]["message"]["content"])
 
 

@@ -2,6 +2,12 @@
 """
 Add real internal links to published Le Phare triptychs.
 
+V2 (routine quotidienne V2):
+- extract_wordpress_post_id accepte un config optionnel : fallback API par slug quand l'URL
+  est un permalink propre (slug/) plutôt que ?p=ID (articles déjà publiés)
+- config chargé tôt dans main() et transmis à collect_triptych_groups / collect_triptych_articles
+- évite l'erreur "Unable to extract WordPress post ID" au 2e run après publication
+
 Supported scopes:
 - one triptych directory inside 07_A_Publier
 - one architecture directory containing multiple triptych subdirectories
@@ -12,7 +18,7 @@ Current scope:
 - replace placeholder internal links with a real "Dans ce triptyque" block
 - optionally add a "Dans cette architecture editoriale" block for multi-triptych dossiers
 - update both the publish copy and the original local source file
-- update WordPress drafts through the REST API
+- update WordPress posts through the REST API (draft by default; optional publish after linking)
 """
 
 from __future__ import annotations
@@ -29,6 +35,7 @@ from urllib import parse
 
 from wp_push_draft import (
     Config,
+    find_wp_post_id_by_slug,
     load_config,
     parse_article,
     split_frontmatter,
@@ -95,14 +102,30 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--index", required=True, help="Path to index_editorial.csv")
     parser.add_argument("--config", required=True, help="Path to local WordPress config JSON")
     parser.add_argument("--dry-run", action="store_true", help="Preview the triptych links without modifying files or WordPress")
+    parser.add_argument(
+        "--publish-final",
+        action="store_true",
+        help="After updating content, set WordPress status to publish (not draft) and sync index rows",
+    )
     return parser.parse_args()
 
 
 def main() -> int:
     args = parse_args()
+
+    # Load config early (before collect) so we can resolve post IDs via WP API
+    # when URL is a permalink slug/ (already published) rather than ?p=ID.
+    pre_config: Config | None = None
+    if not args.dry_run:
+        try:
+            pre_config = load_config(args.config)
+        except Exception as exc:
+            print(f"Triptych linking error (config): {exc}", file=sys.stderr)
+            return 1
+
     try:
         triptych_dir = Path(args.triptych_dir)
-        grouped_articles = collect_triptych_groups(triptych_dir, Path(args.index))
+        grouped_articles = collect_triptych_groups(triptych_dir, Path(args.index), config=pre_config)
     except Exception as exc:
         print(f"Triptych linking error: {exc}", file=sys.stderr)
         return 1
@@ -113,18 +136,30 @@ def main() -> int:
         return 0
 
     try:
-        config = load_config(args.config)
+        config = pre_config or load_config(args.config)
         results: list[LinkingResult] = []
         all_articles = [article for articles in grouped_articles.values() for article in articles]
         for triptych_id, articles in grouped_articles.items():
             architecture_siblings = [candidate for candidate in all_articles if candidate.triptych_id != triptych_id]
             for article in articles:
                 sibling_articles = [candidate for candidate in articles if candidate.article_id != article.article_id]
-                triptych_block = build_triptych_links_block(article, sibling_articles)
-                architecture_block = build_architecture_links_block(architecture_siblings)
-                updated_paths = update_article_files(article, triptych_block, architecture_block)
+                if sibling_articles or architecture_siblings:
+                    triptych_block = build_triptych_links_block(article, sibling_articles)
+                    architecture_block = build_architecture_links_block(architecture_siblings)
+                    updated_paths = update_article_files(article, triptych_block, architecture_block)
+                else:
+                    # Article seul : la navigation finale est rédigée dans l'article, on ne fait que publier.
+                    updated_paths = []
                 parsed_article = parse_article(article.publish_path)
-                update_wordpress_post(config, article, parsed_article.body_html, parsed_article.excerpt)
+                wp_response = update_wordpress_post(
+                    config,
+                    article,
+                    parsed_article.body_html,
+                    parsed_article.excerpt,
+                    publish=args.publish_final,
+                )
+                if args.publish_final:
+                    update_index_publication(Path(args.index), article.article_id, wp_response)
                 results.append(
                     LinkingResult(
                         article_id=article.article_id,
@@ -136,7 +171,8 @@ def main() -> int:
                         status="updated",
                     )
                 )
-        update_index_notes(Path(args.index), [article.article_id for article in all_articles], len(grouped_articles) > 1)
+        if len(all_articles) > 1:
+            update_index_notes(Path(args.index), [article.article_id for article in all_articles], len(grouped_articles) > 1)
     except Exception as exc:
         print(f"Triptych linking error: {exc}", file=sys.stderr)
         return 1
@@ -145,7 +181,11 @@ def main() -> int:
     return 0
 
 
-def collect_triptych_groups(root_dir: Path, index_path: Path) -> dict[str, list[TriptychArticle]]:
+def collect_triptych_groups(
+    root_dir: Path,
+    index_path: Path,
+    config: Config | None = None,
+) -> dict[str, list[TriptychArticle]]:
     if not root_dir.exists():
         raise FileNotFoundError(f"Triptych directory not found: {root_dir}")
     if not root_dir.is_dir():
@@ -153,7 +193,7 @@ def collect_triptych_groups(root_dir: Path, index_path: Path) -> dict[str, list[
 
     direct_files = sorted(path for path in root_dir.glob("*.md") if path.is_file())
     if direct_files:
-        articles = collect_triptych_articles(root_dir, index_path)
+        articles = collect_triptych_articles(root_dir, index_path, config=config)
         triptych_id = articles[0].triptych_id if articles else "triptyque_1"
         return {triptych_id: articles}
 
@@ -162,7 +202,7 @@ def collect_triptych_groups(root_dir: Path, index_path: Path) -> dict[str, list[
         article_files = sorted(path for path in child.glob("*.md") if path.is_file())
         if not article_files:
             continue
-        articles = collect_triptych_articles(child, index_path)
+        articles = collect_triptych_articles(child, index_path, config=config)
         triptych_id = articles[0].triptych_id if articles else child.name
         groups[triptych_id] = articles
 
@@ -171,15 +211,20 @@ def collect_triptych_groups(root_dir: Path, index_path: Path) -> dict[str, list[
     return groups
 
 
-def collect_triptych_articles(triptych_dir: Path, index_path: Path) -> list[TriptychArticle]:
+def collect_triptych_articles(
+    triptych_dir: Path,
+    index_path: Path,
+    config: Config | None = None,
+) -> list[TriptychArticle]:
     if not triptych_dir.exists():
         raise FileNotFoundError(f"Triptych directory not found: {triptych_dir}")
     if not triptych_dir.is_dir():
         raise ValueError(f"Triptych path is not a directory: {triptych_dir}")
 
     source_files = sorted(path for path in triptych_dir.glob("*.md") if path.is_file())
-    if len(source_files) != 3:
-        raise ValueError(f"Expected exactly 3 markdown files in triptych directory, found {len(source_files)}")
+    single_article = len(source_files) == 1
+    if not single_article and len(source_files) != 3:
+        raise ValueError(f"Expected 1 (article seul) or 3 (triptyque) markdown files in directory, found {len(source_files)}")
 
     index_records = load_index_records(index_path)
     articles: list[TriptychArticle] = []
@@ -197,7 +242,7 @@ def collect_triptych_articles(triptych_dir: Path, index_path: Path) -> list[Trip
 
         if not article_id or not title or not type_code:
             raise ValueError(f"Missing mandatory metadata in file: {path}")
-        if type_code not in REQUIRED_TYPES:
+        if not single_article and type_code not in REQUIRED_TYPES:
             raise ValueError(f"Unexpected article type '{type_code}' in triptych: {path}")
         if type_code in seen_types:
             raise ValueError(f"Duplicate article type '{type_code}' in triptych directory")
@@ -209,7 +254,11 @@ def collect_triptych_articles(triptych_dir: Path, index_path: Path) -> list[Trip
         if not index_record.wordpress_url:
             raise ValueError(f"Missing WordPress URL in index for article {article_id}")
 
-        wordpress_id = extract_wordpress_post_id(index_record.wordpress_url, index_record.wordpress_slug)
+        wordpress_id = extract_wordpress_post_id(
+            index_record.wordpress_url,
+            index_record.wordpress_slug,
+            config=config,
+        )
         source_path = resolve_source_path(index_record)
         articles.append(
             TriptychArticle(
@@ -228,6 +277,9 @@ def collect_triptych_articles(triptych_dir: Path, index_path: Path) -> list[Trip
                 wordpress_id=wordpress_id,
             )
         )
+
+    if single_article:
+        return articles
 
     missing_types = [type_code for type_code in REQUIRED_TYPES if type_code not in seen_types]
     if missing_types:
@@ -271,14 +323,34 @@ def resolve_source_path(record: IndexRecord) -> Path | None:
     return path if path.exists() else None
 
 
-def extract_wordpress_post_id(wordpress_url: str, wordpress_slug: str) -> int:
+def extract_wordpress_post_id(
+    wordpress_url: str,
+    wordpress_slug: str,
+    config: Config | None = None,
+) -> int:
+    """Extract WordPress integer post ID from URL or fall back to WP API slug lookup.
+
+    V2: when the URL is a pretty permalink (slug/) rather than ?p=ID (article already
+    published), query the WP API by slug instead of raising an error.
+    """
     parsed = parse.urlparse(wordpress_url)
     query = parse.parse_qs(parsed.query)
     raw_id = query.get("p", [""])[0]
     if raw_id.isdigit():
         return int(raw_id)
+
+    # Fallback: API lookup by slug (V2 — handles published permalink URLs)
+    slug = wordpress_slug or parsed.path.rstrip("/").split("/")[-1].strip()
+    if slug and config is not None:
+        post_id = find_wp_post_id_by_slug(config, slug, loose_suffix=True)
+        if post_id is not None:
+            return post_id
+
     if wordpress_slug:
-        raise ValueError(f"Unable to extract WordPress post ID from URL '{wordpress_url}' for slug '{wordpress_slug}'")
+        raise ValueError(
+            f"Unable to extract WordPress post ID from URL '{wordpress_url}' for slug '{wordpress_slug}'. "
+            f"L'URL est un permalink propre ; assurez-vous que wp_config est accessible."
+        )
     raise ValueError(f"Unable to extract WordPress post ID from URL '{wordpress_url}'")
 
 
@@ -368,15 +440,60 @@ def remove_section(content: str, heading: str) -> str:
     return re.sub(pattern, "\n", content).strip() + "\n"
 
 
-def update_wordpress_post(config: Config, article: TriptychArticle, html_content: str, excerpt: str) -> dict:
+def update_wordpress_post(
+    config: Config,
+    article: TriptychArticle,
+    html_content: str,
+    excerpt: str,
+    *,
+    publish: bool = False,
+) -> dict:
     endpoint = f"{config.site_url}/wp-json/wp/v2/posts/{article.wordpress_id}"
     payload = {
         "content": html_content,
-        "status": "draft",
+        "status": "publish" if publish else "draft",
     }
     if excerpt:
         payload["excerpt"] = excerpt
     return wordpress_request_json(config, endpoint, method="POST", payload=payload)
+
+
+def update_index_publication(index_path: Path, article_id: str, wp_result: dict) -> None:
+    if not index_path.exists():
+        raise FileNotFoundError(f"Index file not found: {index_path}")
+
+    with index_path.open("r", encoding="utf-8-sig", newline="") as fh:
+        reader = csv.DictReader(fh)
+        rows = list(reader)
+        fieldnames = reader.fieldnames or []
+
+    updated = False
+    link = str(wp_result.get("link", "") or "").strip()
+    slug = str(wp_result.get("slug", "") or "").strip()
+    for row in rows:
+        if row.get("ID", "").strip() != article_id:
+            continue
+        row["Statut"] = "publie"
+        row["Date_publication_WP"] = today_iso()
+        row["Date_derniere_maj"] = today_iso()
+        if link:
+            row["URL_WordPress"] = link
+        if slug:
+            row["Slug_WordPress"] = slug
+        updated = True
+        break
+
+    if not updated:
+        raise ValueError(f"Article ID not found in index: {article_id}")
+
+    normalized_rows: list[dict[str, str]] = []
+    for row in rows:
+        normalized_rows.append({fieldname: row.get(fieldname, "") for fieldname in fieldnames})
+
+    with index_path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(normalized_rows)
 
 
 def update_index_notes(index_path: Path, article_ids: list[str], has_architecture_links: bool = False) -> None:

@@ -1,4 +1,4 @@
 @echo off
 setlocal
-cd /d D:\workspaces\LePhare_Editorial
+cd /d "%~dp0.."
 python tools\daily_run.py
