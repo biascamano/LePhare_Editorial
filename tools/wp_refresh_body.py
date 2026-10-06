@@ -13,6 +13,7 @@ Usage: python tools/wp_refresh_body.py "<chemin canonique>" ["<chemin>" ...] [--
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 from pathlib import Path
@@ -43,6 +44,7 @@ def main() -> int:
             [sys.executable, str(TOOLS_DIR / "wp_push_draft.py"), path,
              "--index", "index_editorial.csv", "--refresh-body", *extra, "--config", str(CONFIG_PATH)],
             cwd=ROOT_DIR, capture_output=True, text=True, encoding="utf-8", errors="replace",
+            env={**os.environ, "PYTHONUTF8": "1"},
         )
         try:
             data = json.loads(out.stdout.strip())

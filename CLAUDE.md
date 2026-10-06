@@ -18,6 +18,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 | `routine quotidienne — brouillons seulement` | `--no-publish-final` | idem |
 | `routine hebdomadaire` / `fil du phare` | Le Fil du Phare (`SYNTHESE`, catégorie WP `cycle`) + fils éditoriaux + comité du Radar | `.claude/skills/routine-hebdomadaire/SKILL.md` |
 | `routine mensuelle` | Dossiers, TF, ateliers Sentier, audit, synthèse mensuelle, cap du mois | `.claude/skills/routine-mensuelle/SKILL.md` |
+| `routine renovation` (+ `— lot 2` / `— <IDs>` / `— à blanc`) | Rénovation du stock ancien, même ID/URL/slug (`plan.md` D17, §19) | `.claude/skills/routine-renovation/SKILL.md` |
 | `routine triptyque` / `triptyque` | **Ancienne** routine ACTU+TF+SENTIER (archivée, secours) | `.claude/skills/routine-triptyque/` |
 | `… api` | **Exception** : `editorial_pipeline.py --use-api-llm` | — |
 
@@ -88,6 +89,10 @@ python tools/validate_index_editorial.py
 python tools/verify_publication.py [IDs…] [--days 31] [--offline]
 python tools/verify_publication.py --fix                       # ajoute a-la-une, réécrit les liens ?p=
 python tools/verify_publication.py --publish-drafts <IDs…>     # publie des brouillons désignés
+
+# Rénovation (plan.md §19)
+python tools/build_inventaire_renovation.py                    # régénère 00_Systeme/Inventaire_renovation.md
+python tools/wp_pull_body.py <ID…> [--apply]                   # resynchronise le corps local depuis WP
 ```
 
 ## Docs de référence (lire au besoin)

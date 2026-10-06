@@ -312,37 +312,47 @@ def split_frontmatter(text: str) -> tuple[dict[str, str], str]:
 
 
 def extract_seo_and_body(remainder: str) -> tuple[str, str, str, str]:
+    """SEO block either leading (triptyque: `# SEO` … `---` then body) or trailing (v3: body then `# SEO`)."""
     lines = remainder.splitlines()
-    seo_keyword = ""
-    seo_description = ""
-    seo_title = ""
-    body_start = 0
+    seo = {"mot cle principal": "", "meta description": "", "titre seo": ""}
+
+    def read_meta(line: str) -> None:
+        match = META_LINE_RE.match(line.strip())
+        if match:
+            nk = _normalize_meta_key_label(match.group("key")).replace("-", " ")
+            if nk in seo:
+                seo[nk] = match.group("value").strip()
 
     lead = 0
     while lead < len(lines) and not lines[lead].strip():
         lead += 1
 
     if lead < len(lines) and lines[lead].strip().casefold() in {"# seo", "#seo"}:
+        body_start = len(lines)
         for idx, line in enumerate(lines[lead + 1 :], start=lead + 1):
-            stripped = line.strip()
-            if stripped == "---":
+            if line.strip() == "---":
                 body_start = idx + 1
                 break
-            match = META_LINE_RE.match(stripped)
-            if match:
-                key = match.group("key").strip()
-                value = match.group("value").strip()
-                nk = _normalize_meta_key_label(key)
-                if nk == "mot-cle principal":
-                    seo_keyword = value
-                elif nk == "meta-description":
-                    seo_description = value
-                elif nk == "titre seo":
-                    seo_title = value
+            read_meta(line)
+        body = "\n".join(lines[body_start:]).lstrip()
+    else:
+        seo_idx = next(
+            (i for i in range(len(lines) - 1, lead, -1) if lines[i].strip().casefold() in {"# seo", "#seo"}),
+            None,
+        )
+        if seo_idx is None:
+            body = "\n".join(lines[lead:])
         else:
-            body_start = len(lines)
-    body = "\n".join(lines[body_start:]).lstrip()
-    return seo_keyword, seo_description, seo_title, body
+            tail = lines[seo_idx + 1 :]
+            for line in tail:
+                read_meta(line)
+            head = lines[:seo_idx]
+            while head and head[-1].strip() in {"", "---"}:
+                head.pop()
+            # Slug propose stays in body for extract_slug; strip_internal_sections drops it from HTML.
+            head += [line.strip() for line in tail if line.strip().startswith("Slug propose")]
+            body = "\n".join(head).lstrip()
+    return seo["mot cle principal"], seo["meta description"], seo["titre seo"], body
 
 
 def extract_slug(body: str) -> str:

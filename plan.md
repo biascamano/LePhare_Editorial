@@ -150,6 +150,7 @@ Principes transverses :
 | `routine quotidienne` (+ `— sujet : …, thème X` / `— brouillons seulement` / `type actualite|application|texte fondateur` = type imposé / `type question — sur <ID>` = Question sur la question finale de `<ID>` / `paire` = Actualité + Question le même jour) | `/routine-quotidienne` | `.claude/skills/routine-quotidienne/SKILL.md` |
 | `routine hebdomadaire`, `fil du phare` | `/routine-hebdomadaire` | `.claude/skills/routine-hebdomadaire/SKILL.md` |
 | `routine mensuelle` | `/routine-mensuelle` | `.claude/skills/routine-mensuelle/SKILL.md` |
+| `routine renovation` (+ `— lot 2|3` / `— <IDs>` / `— à blanc`) | `/routine-renovation` | `.claude/skills/routine-renovation/SKILL.md` (D17, §19) |
 | `routine triptyque`, `triptyque` | `/routine-triptyque` | `.claude/skills/routine-triptyque/SKILL.md` + `workflow.md` |
 | `… api` | — | Exception : `editorial_pipeline.py --use-api-llm` |
 
@@ -518,7 +519,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | T9 | Commit ciblé des fichiers de la refonte | Fait — `19fd68c` + `e56e6aa` (configs locales hors suivi) |
 | T13 | Premier run quotidien V5 (D12) : vérifier arbitrage, `memoire_append`, mise à jour du Radar, `build_etat_courant` | Haute |
 | T14 | Rénovation lot 1 (tri, §19.3) : décisions humaines sur brouillons 419–447, doublons de titre, pages rubriques ; retrait des 29 lignes d'index en double | Haute |
-| T15 | Outils de rénovation : resynchronisation WP → local (B18), remise à niveau de la navigation (B19), skill `routine-renovation` (B20) | Moyenne |
+| T15 | Outils de rénovation : resynchronisation WP → local (B18), remise à niveau de la navigation (B19), skill `routine-renovation` (B20) | B18 et B20 faits (v5.4) ; B19 reste (lot 2 à la main en attendant) |
+| T16 | Refresh WP des articles au `# SEO` final publiés avant v5.4 (fuite « SEO » visible en bas d'article, Rank Math vide)  : 35 articles, 2026-528 → 562 ; `wp_refresh_body.py` sur chaque fichier, puis `verify_publication.py` | Fait (v5.4) — 35/35 rafraîchis, 0 erreur ; restent les avertissements 528/529 (navigation triptyque) et 536 (lien vers le brouillon 445) |
 
 ---
 
@@ -542,6 +544,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-06 | v5.1 | D15 : vérification de fin de routine (`verify_publication.py`) et tag `a-la-une` obligatoire (`new_article.py`, `wp_push_draft.py`, validateur hors quota). Publication des brouillons 531–552, 559, 560 ; tag ajouté à 553–558, 561, 562 ; liens `?p=` réécrits | `tools/verify_publication.py`, `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/validate_index_editorial.py`, skills des 3 routines, `plan.md`, `CLAUDE.md` |
 | 2026-10-06 | v5.2 | D16 : préfixe de titre par type (sauf Actualité), tiret court ; `wp_refresh_body.py --title` ; préfixe appliqué à 544, 546, 547, 548, 550, 552, 559, 560 | `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, skills des 3 routines, `plan.md`, 8 articles, index |
 | 2026-10-06 | v5.3 | D17 : inventaire de rénovation du stock ancien (lecture seule, GET WP) et plan en lots (§19) ; contenus de démo 414–418 retirés | `tools/build_inventaire_renovation.py`, `00_Systeme/Inventaire_renovation.md`, `plan.md` |
+| 2026-10-06 | v5.4 | B18 : `wp_pull_body.py` (resynchronisation WP → local, contrôle d'aller-retour) ; B20 : skill et commande `routine-renovation`. Bug corrigé dans `wp_push_draft.extract_seo_and_body` : un bloc `# SEO` **final** (format v3) était publié dans le corps (`<h1>SEO</h1>` + paragraphe) et Rank Math ne recevait ni mot-clé ni description ; clés « Meta description » / « Meta-description » acceptées. T16 : refresh WP des 35 articles 528 → 562. `wp_refresh_body.py` force `PYTHONUTF8` dans le sous-processus (échec cp1252 sur « Hōlei ») | `tools/wp_pull_body.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, `.claude/skills/routine-renovation/SKILL.md`, `.claude/commands/routine-renovation.md`, `CLAUDE.md`, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -596,6 +599,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | Copie locale tronquée (~70 anciens articles : WP bien plus long que le `.md`) | Un refresh depuis le local écrase la version en ligne | D17 : resynchroniser depuis WP avant toute retouche (B18) ; marqueur « tronquée » dans l'inventaire |
 | Lignes d'index en double (même URL) | Article compté deux fois, maillage ambigu | Lot 1 de la rénovation (§19.3) |
 | Liens `?p=` vers des posts absents de l'index | Liens fragiles, `--fix` impuissant | Résolus à la main pendant la remise à niveau (lot 2) |
+| Pertes au pull WP → local (italique, images, iframes, tableaux) | Contenu appauvri après resynchronisation | `wp_pull_body.py` les signale ; pas d'`--apply` si image/iframe/tableau ou écart d'aller-retour |
+| Bloc `# SEO` final publié dans le corps (avant v5.4) | « SEO » visible en bas d'article, Rank Math vide | Corrigé dans `wp_push_draft.py` ; refresh des articles concernés (T16) |
 
 ---
 
@@ -620,9 +625,9 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | B15 | `tools/build_hubs.py` : sections « Articles de ce dossier » générées depuis l'index + `--refresh-body` des hubs (jamais `02_Fonds`) | Fait — hub = plus petit ID du sous-dossier ; section `## Liens internes du dossier` remplacée ; refresh WP affiché, pas lancé |
 | B16 | Mode paire intégré : `post_linking.py` accepte 2 articles (A ACTU + B `type-question`), injecte les liens croisés et publie en un seul `daily_run` | Idée, moins urgente depuis D12 (paire = variante) |
 | B17 | Champ d'en-tête « Relations » (phase 3 de la V5) : relations typées entre articles (suite de, applique, répond à…) | Reporté (décision 2026-10-06) |
-| B18 | `tools/wp_pull_body.py <ID>` : remplace le corps local par la version WP (HTML → Markdown, à partir de `crude_html_to_markdown` de `import_wp_posts.py`), en gardant l'en-tête local ; `--dry-run` affiche l'écart de mots | Idée — prérequis des lots 2 et 3 pour les articles tronqués |
+| B18 | `tools/wp_pull_body.py <ID>` : remplace le corps local par la version WP (HTML → Markdown relu par `wp_push_draft`), en gardant l'en-tête, le titre et le bloc `# SEO` ; à blanc par défaut (mots local / WP / aller-retour, pertes), `--apply` pour écrire ; refuse `02_Fonds/` | Fait (v5.4) — aller-retour exact sur 497, 010, 531, 499, 153, 250 |
 | B19 | `tools/renovate_nav.py <ID>` : navigation v3 semi-automatique (« Dans ce triptyque » → « Pour aller plus loin », squelette « La question suivante » et « Sur le Sentier du Savoir » depuis le manifeste, liens `?p=` signalés) ; texte de la question rédigé à la main | Idée — lot 2 |
-| B20 | Skill `routine-renovation` (§19.4) | À créer après validation de §19 |
+| B20 | Skill `routine-renovation` (§19.4) | Fait (v5.4) — `.claude/skills/routine-renovation/SKILL.md` + `/routine-renovation` |
 
 ---
 
@@ -648,8 +653,9 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `.claude/skills/routine-quotidienne/SKILL.md` | Routine quotidienne |
 | `.claude/skills/routine-hebdomadaire/SKILL.md` | Routine hebdomadaire |
 | `.claude/skills/routine-mensuelle/SKILL.md` | Routine mensuelle |
+| `.claude/skills/routine-renovation/SKILL.md` | Routine de rénovation du stock ancien (D17, §19) |
 | `.claude/skills/routine-triptyque/SKILL.md`, `workflow.md` | Ancienne routine (archivée) |
-| `.claude/commands/routine-*.md` | Slash commands (4) |
+| `.claude/commands/routine-*.md` | Slash commands (5) |
 | `00_Systeme/Memoire_editoriale.md` | Mémoire partagée |
 | `00_Systeme/Instructions_editoriales_officielles.md` | Qualité rédactionnelle |
 | `00_Systeme/Catalogue_editorial.md` | Inventaire généré (`tools/build_catalogue.py`) : articles, équilibre, lacunes — lu par la mensuelle seulement |
@@ -658,6 +664,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py` | Outils V5 (mémoire §1, état courant, recherche d'index) |
 | `tools/verify_publication.py` | Vérification de fin de routine (D15) |
 | `tools/build_inventaire_renovation.py`, `00_Systeme/Inventaire_renovation.md` | Inventaire de rénovation du stock ancien (D17, §19), généré |
+| `tools/wp_pull_body.py` | Resynchronisation du corps local depuis WP (B18) |
 | `planV5.docx` | Source de la V5 (pilotage éditorial adaptatif) |
 | `00_Systeme/Modele_Entete_Article.md` | En-tête v3 |
 | `00_Systeme/Taxonomie_WordPress_le-phare_info.md` | Catégories/tags |
@@ -733,7 +740,7 @@ Score de priorité = 3 × liens entrants depuis un article actuel + autres liens
 
 ### 19.4 Rythme et routine
 
-La rénovation **ne se mêle pas** aux routines éditoriales : une session dédiée, déclenchée à la main (`routine renovation`, skill B20), par exemple 1 à 2 fois par semaine, en dehors des jours chargés.
+La rénovation **ne se mêle pas** aux routines éditoriales : une session dédiée, déclenchée à la main (`routine renovation` ou `/routine-renovation`, `.claude/skills/routine-renovation/SKILL.md`), par exemple 1 à 2 fois par semaine, en dehors des jours chargés.
 
 Une session :
 1. régénérer l'inventaire ;
