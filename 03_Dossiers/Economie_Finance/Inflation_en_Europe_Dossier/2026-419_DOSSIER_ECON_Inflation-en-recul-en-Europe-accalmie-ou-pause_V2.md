@@ -67,10 +67,15 @@ Cet article constitue la porte d'entree du dossier. Pour aller plus loin, il fau
 - INSEE / Banque de France : evolution des prix et du pouvoir d'achat en France.
 
 ## Liens internes du dossier
-- Comprendre l'inflation : mecanismes, causes et effets
-- Pourquoi l'inflation persiste : les causes structurelles derriere l'accalmie
-- Pourquoi nous avons l'impression que l'inflation continue d'augmenter
-- Analyser l'inflation : distinguer faits, perceptions et interpretations
+- [Comprendre l'inflation : mecanismes, causes et effets](https://le-phare.info/?p=4076)
+- [Pourquoi l'inflation persiste : les causes structurelles derriere l'accalmie](https://le-phare.info/?p=4077)
+- [Pourquoi nous avons l'impression que l'inflation continue d'augmenter](https://le-phare.info/?p=4078)
+- [La spirale prix-salaires : mythe ou realite economique ?](https://le-phare.info/?p=4079)
+- [Milton Friedman et l'inflation : toujours un phenomene monetaire ?](https://le-phare.info/?p=4080)
+- [Inflation hier et aujourd'hui : des chocs petroliers aux crises contemporaines](https://le-phare.info/?p=4081)
+- [Analyser l'inflation : distinguer faits, perceptions et interpretations](https://le-phare.info/?p=4082)
+- [Inflation, richesse et perception : que mesurent vraiment les prix ?](https://le-phare.info/?p=4083)
+- [Comprendre l'inflation : livres, concepts et pistes pour aller plus loin](https://le-phare.info/?p=4084)
 
 ## Bloc image WordPress
 Suggestion image : une file d'attente dans un supermarche europeen, avec etiquette de prix visibles mais sans logos reconnaissables, ambiance sobre, lumiere naturelle, style documentaire.

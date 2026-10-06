@@ -1,6 +1,6 @@
 # Articles à créer — Le Phare Info
 
-*Liste priorisée, maintenue à la main par les routines (la quotidienne y pioche, la mensuelle la révise). État au 2026-10-05.*
+*Liste priorisée, maintenue à la main par les routines (la quotidienne y pioche, la mensuelle la révise). État au 2026-10-06.*
 *Inventaire de l'existant et lacunes calculées : `00_Systeme/Catalogue_editorial.md`, régénéré par `python tools/build_catalogue.py`.*
 
 ## Règles de cohérence
@@ -64,8 +64,9 @@ Ce sont les penseurs repères du socle (plan.md §5.8) qui n'ont pas encore de t
 
 | P | Dossier | Articles candidats | Pilier |
 |---|---|---|---|
-| P1 | Mesurer ou juger : que laisse hors champ un indicateur ? | 533, 534, 540, 545, 546, 547, 548 | critique |
-| P2 | Qui contrôle le contrôleur ? | 537, 543, 544, plus le TF Ellul à venir | critique |
+| P1 | Qui contrôle le contrôleur ? | 537, 543, 544, plus le TF Ellul à venir | critique |
+
+*Réalisé : Mesurer ou juger → dossier 2026-559 (2026-10-06). Les suivis §1 marqués « Mesurer ou juger » l'alimentent : y renseigner `Dossier : 2026-559`.*
 
 ## 5. Sentier du Savoir (niveau 5, ateliers, validation humaine)
 
@@ -73,8 +74,9 @@ Ce sont des fondamentaux choisis parce qu'un fil actif peut les illustrer. Sauf 
 
 | P | Atelier proposé | Fondamental (étape) | Appui |
 |---|---|---|---|
-| P1 | Lire un indicateur : cinq questions avant de croire un chiffre | 2026-159 Statistiques, corrélations et causalité (06) | TF 548 |
 | P2 | Capacité démontrée ou proclamée : ce qui rend une affirmation testable | 2026-153 La falsifiabilité selon Popper (06) | 531, fil « Capacités proclamées » |
 | P2 | Un fait, deux récits : démêler un communiqué de guerre | 2026-199 Sophismes et manipulations rhétoriques (02) | 535, 541 |
 | P3 | Qui nomme, gouverne ? | 2026-163 Langues et pouvoir (05) | 538, 541 |
 | P3 | Les récits fondateurs à l'épreuve de l'actualité | 2026-137 Les grands récits fondateurs de l'humanité (08) | 532, 538 |
+
+*Réalisé : Lire un indicateur → atelier 2026-560 sous 2026-159 (2026-10-06).*

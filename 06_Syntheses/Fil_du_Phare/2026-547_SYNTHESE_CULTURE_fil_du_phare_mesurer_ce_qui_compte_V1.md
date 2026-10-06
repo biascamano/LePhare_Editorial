@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Relier
 Articles lies (IDs) : 2026-531;2026-532;2026-533;2026-534;2026-535;2026-536;2026-537;2026-538;2026-539;2026-540;2026-541;2026-542;2026-543;2026-544;2026-545;2026-546
 Question du Phare : Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) :
 Prolongement envisage :
 Mots-cles : indicateurs;sondages;fréquentation;mesure;Campbell;Fil du Phare
@@ -96,6 +96,7 @@ Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il lais
 
 - [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
 - [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

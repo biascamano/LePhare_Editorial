@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Comprendre
 Articles lies (IDs) : 2026-551;2026-546;2026-545;2026-449;2026-548;2026-529
 Question du Phare : Peut-on juger une recherche à son utilité prévisible ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-551
 Prolongement envisage : Examiner comment d'autres institutions (musées, bibliothèques, archives) justifient ce qui n'a pas d'usage immédiat
 Mots-cles : recherche fondamentale;utilité;financement de la recherche;Abraham Flexner;sérendipité;optogénétique;évaluation
@@ -99,6 +99,7 @@ Comment une société qui exige des comptes peut-elle garder une place pour ce q
 - [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière](https://le-phare.info/?p=5512)
 - [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
 - [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

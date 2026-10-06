@@ -98,6 +98,7 @@ Un système conçu pour garantir la paix entre communautés peut-il aussi permet
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
 - [Ernst Haas : le néofonctionnalisme et l'élargissement aux Balkans](https://le-phare.info/ernst-haas-neofonctionnalisme-spillover-elargissement-balkans/)
 - [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/?p=5473)
+- [Éthiopie : l'armée fédérale reprend Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/?p=5477)
 
 **Sur le Sentier du Savoir**
 

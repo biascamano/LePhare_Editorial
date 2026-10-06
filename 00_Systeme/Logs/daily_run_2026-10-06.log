@@ -524,3 +524,102 @@
 [2026-10-06T13:37:40]   ],
 [2026-10-06T13:37:40]   "errors": []
 [2026-10-06T13:37:40] }
+[2026-10-06T13:51:05] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_dossier-mesurer-ou-juger-indicateurs
+[2026-10-06T13:51:05] Selected topic label: 2026-10-06_dossier-mesurer-ou-juger-indicateurs
+[2026-10-06T13:51:05] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_dossier-mesurer-ou-juger-indicateurs --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T13:51:05] --- WP-PUSH OUTPUT ---
+[2026-10-06T13:51:16] {
+[2026-10-06T13:51:16]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_dossier-mesurer-ou-juger-indicateurs\\2026-559_DOSSIER_CULTURE_dossier_mesurer_ou_juger_indicateurs_V1.md",
+[2026-10-06T13:51:16]   "article_id": "2026-559",
+[2026-10-06T13:51:16]   "title": "Mesurer ou juger : ce qu'un indicateur laisse hors champ",
+[2026-10-06T13:51:16]   "status": "draft",
+[2026-10-06T13:51:16]   "skipped": false,
+[2026-10-06T13:51:16]   "wordpress_id": 5532,
+[2026-10-06T13:51:16]   "wordpress_slug": "dossier-mesurer-ou-juger-indicateurs",
+[2026-10-06T13:51:16]   "wordpress_link": "https://le-phare.info/?p=5532",
+[2026-10-06T13:51:16]   "categories": [
+[2026-10-06T13:51:16]     "dossier-hebdomadaire"
+[2026-10-06T13:51:16]   ],
+[2026-10-06T13:51:16]   "tags": [
+[2026-10-06T13:51:16]     "culture-philosophie",
+[2026-10-06T13:51:16]     "sentier-critique",
+[2026-10-06T13:51:16]     "posture-relier"
+[2026-10-06T13:51:16]   ],
+[2026-10-06T13:51:16]   "index_updated": true,
+[2026-10-06T13:51:16]   "error": "",
+[2026-10-06T13:51:16]   "featured_media_id": 4738
+[2026-10-06T13:51:16] }
+[2026-10-06T13:51:16] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_dossier-mesurer-ou-juger-indicateurs --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T13:51:16] --- POST-LINKING OUTPUT ---
+[2026-10-06T13:51:17] {
+[2026-10-06T13:51:17]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_dossier-mesurer-ou-juger-indicateurs",
+[2026-10-06T13:51:17]   "mode": "triptyque_linking_v2",
+[2026-10-06T13:51:17]   "dry_run": false,
+[2026-10-06T13:51:17]   "total": 1,
+[2026-10-06T13:51:17]   "updated_local": 0,
+[2026-10-06T13:51:17]   "updated_wordpress": 1,
+[2026-10-06T13:51:17]   "items": [
+[2026-10-06T13:51:17]     {
+[2026-10-06T13:51:17]       "article_id": "2026-559",
+[2026-10-06T13:51:17]       "type": "DOSSIER",
+[2026-10-06T13:51:17]       "title": "Mesurer ou juger : ce qu'un indicateur laisse hors champ",
+[2026-10-06T13:51:17]       "wordpress_id": 5532,
+[2026-10-06T13:51:17]       "wordpress_url": "https://le-phare.info/?p=5532",
+[2026-10-06T13:51:17]       "updated_paths": [],
+[2026-10-06T13:51:17]       "status": "updated",
+[2026-10-06T13:51:17]       "error": ""
+[2026-10-06T13:51:17]     }
+[2026-10-06T13:51:17]   ],
+[2026-10-06T13:51:17]   "errors": []
+[2026-10-06T13:51:17] }
+[2026-10-06T13:52:44] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre
+[2026-10-06T13:52:44] Selected topic label: 2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre
+[2026-10-06T13:52:44] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T13:52:44] --- WP-PUSH OUTPUT ---
+[2026-10-06T13:52:58] {
+[2026-10-06T13:52:58]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre\\2026-560_SENTIER_SCIENCE_lire_un_indicateur_cinq_questions_avant_de_croire_un_chiffre_V1.md",
+[2026-10-06T13:52:58]   "article_id": "2026-560",
+[2026-10-06T13:52:58]   "title": "Lire un indicateur : cinq questions avant de croire un chiffre",
+[2026-10-06T13:52:58]   "status": "draft",
+[2026-10-06T13:52:58]   "skipped": false,
+[2026-10-06T13:52:58]   "wordpress_id": 5534,
+[2026-10-06T13:52:58]   "wordpress_slug": "lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre",
+[2026-10-06T13:52:58]   "wordpress_link": "https://le-phare.info/?p=5534",
+[2026-10-06T13:52:58]   "categories": [
+[2026-10-06T13:52:58]     "sentier-du-savoir"
+[2026-10-06T13:52:58]   ],
+[2026-10-06T13:52:58]   "tags": [
+[2026-10-06T13:52:58]     "science-sante",
+[2026-10-06T13:52:58]     "sentier-science",
+[2026-10-06T13:52:58]     "posture-transmettre",
+[2026-10-06T13:52:58]     "atelier-sentier",
+[2026-10-06T13:52:58]     "fondamental-2026-159"
+[2026-10-06T13:52:58]   ],
+[2026-10-06T13:52:58]   "index_updated": true,
+[2026-10-06T13:52:58]   "error": "",
+[2026-10-06T13:52:58]   "featured_media_id": 2060
+[2026-10-06T13:52:58] }
+[2026-10-06T13:52:58] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T13:52:58] --- POST-LINKING OUTPUT ---
+[2026-10-06T13:52:58] {
+[2026-10-06T13:52:58]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre",
+[2026-10-06T13:52:58]   "mode": "triptyque_linking_v2",
+[2026-10-06T13:52:58]   "dry_run": false,
+[2026-10-06T13:52:58]   "total": 1,
+[2026-10-06T13:52:58]   "updated_local": 0,
+[2026-10-06T13:52:58]   "updated_wordpress": 1,
+[2026-10-06T13:52:58]   "items": [
+[2026-10-06T13:52:58]     {
+[2026-10-06T13:52:58]       "article_id": "2026-560",
+[2026-10-06T13:52:58]       "type": "SENTIER",
+[2026-10-06T13:52:58]       "title": "Lire un indicateur : cinq questions avant de croire un chiffre",
+[2026-10-06T13:52:58]       "wordpress_id": 5534,
+[2026-10-06T13:52:58]       "wordpress_url": "https://le-phare.info/?p=5534",
+[2026-10-06T13:52:58]       "updated_paths": [],
+[2026-10-06T13:52:58]       "status": "updated",
+[2026-10-06T13:52:58]       "error": ""
+[2026-10-06T13:52:58]     }
+[2026-10-06T13:52:58]   ],
+[2026-10-06T13:52:58]   "errors": []
+[2026-10-06T13:52:58] }
+[2026-10-06T13:52:58] [V2] Rappel fondamental parent : fondamental-2026-159 — rafraîchir WP manuellement pour afficher ## Ateliers.

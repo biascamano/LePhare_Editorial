@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Observer
 Articles lies (IDs) : 2026-538;2026-519
 Question du Phare : Un lieu de savoir doit-il être jugé à sa fréquentation ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-538
 Prolongement envisage : Suivre l'audition du conseil municipal de Philadelphie du 7 octobre et la réponse de Drexel à l'offre de la William Penn Foundation
 Mots-cles : musée;Academy of Natural Sciences;Philadelphie;Drexel;collections scientifiques;fréquentation
@@ -87,6 +87,7 @@ D'où une question qui dépasse ce musée et cette ville : un lieu de savoir doi
 
 - [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/?p=5483)
 - [Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

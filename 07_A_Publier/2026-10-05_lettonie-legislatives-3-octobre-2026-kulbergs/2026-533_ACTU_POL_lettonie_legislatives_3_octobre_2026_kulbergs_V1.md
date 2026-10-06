@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Observer
 Articles lies (IDs) : 2026-505;2026-109
 Question du Phare : Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection : le premier, ou ceux qui feront la coalition ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-505
 Prolongement envisage : Suivre la formation de la coalition lettone et le poids des partis prorusses et populistes
 Mots-cles : Lettonie;élections législatives;Andris Kulbergs;Liste unie;coalition;Saeima
@@ -95,6 +95,8 @@ Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l
 
 - [Crise du régime et désarroi démocratique : ce que nous enseignent Hannah Arendt et Raymond Aron](https://le-phare.info/crise-du-regime-et-desarroi-democratique-ce-que-nous-enseigne-hannah-arendt-et-raymond-aron/)
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

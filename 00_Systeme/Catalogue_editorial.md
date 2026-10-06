@@ -5,28 +5,28 @@
 
 ## Vue d'ensemble
 
-- Articles indexés : 544
-- Publiés : 500 ; brouillons WordPress : 44
+- Articles indexés : 556
+- Publiés : 506 ; brouillons WordPress : 50
 
 | Niveau | Articles |
 |---|---|
-| Actualités | 55 |
-| Questions du Phare | 2 |
+| Actualités | 60 |
+| Questions du Phare | 7 |
 | Textes fondateurs | 49 |
 | Synthèses et briefings | 3 |
-| Dossiers | 11 |
-| Sentier — ateliers et pages | 165 |
+| Dossiers | 12 |
+| Sentier — ateliers et pages | 166 |
 | Fonds — fondamentaux et notions | 259 |
 
 | Thème | Total | Depuis 2026-05 |
 |---|---|---|
-| CULTURE | 208 | 12 |
-| TECH | 84 | 23 |
+| CULTURE | 209 | 13 |
+| TECH | 86 | 25 |
 | MONDE | 77 | 7 |
-| SCIENCE | 64 | 16 |
+| SCIENCE | 69 | 21 |
 | POL | 45 | 15 |
 | ECON | 40 | 14 |
-| CLIMAT | 26 | 14 |
+| CLIMAT | 30 | 18 |
 
 ## Lacunes détectées
 
@@ -43,12 +43,12 @@
 
 *Rattachement = en-tête « Fondamental lie (ID) » d'une actualité, question, TF ou atelier.*
 
-- **Étape 1 — Construire une culture generale solide** (6) : 2026-212 Qu'est-ce que la culture generale et pourquoi est-elle essentielle ? ; 2026-210 Les revolutions scientifiques majeures ; 2026-209 Les grands courants philosophiques ; 2026-205 Comment lire un classique efficacement ; 2026-203 Penser en transversalite : relier les disciplines ; 2026-220 Savoir opinion croyance : ne pas confondre
+- **Étape 1 — Construire une culture generale solide** (5) : 2026-212 Qu'est-ce que la culture generale et pourquoi est-elle essentielle ? ; 2026-209 Les grands courants philosophiques ; 2026-205 Comment lire un classique efficacement ; 2026-203 Penser en transversalite : relier les disciplines ; 2026-220 Savoir opinion croyance : ne pas confondre
 - **Étape 2 — Maitriser la pensee critique et l'analyse** (6) : 2026-202 Qu'est-ce que la pensee critique ? ; 2026-199 Sophismes et manipulations rhetoriques ; 2026-197 Methodes d'analyse des arguments ; 2026-196 Esprit critique et sciences ; 2026-195 Les limites de la pensee critique ; 2026-193 Developper l'art du debat constructif
 - **Étape 3 — Apprendre a argumenter et a convaincre** (8) : 2026-191 Les fondements de la rhetorique ; 2026-190 Construire un argument solide ; 2026-189 Les techniques de persuasion ; 2026-187 Structurer un discours efficace ; 2026-186 L'art de raconter (storytelling critique) ; 2026-185 Convaincre sans manipuler ; 2026-184 Developper sa presence a l'oral ; 2026-183 Argumenter a l'ecrit
 - **Étape 4 — Approfondir un ou plusieurs domaines d'expertise** (8) : 2026-181 Choisir son domaine d'expertise ; 2026-180 Les etapes de l'apprentissage approfondi ; 2026-179 Lire les textes fondateurs ; 2026-176 Dialoguer avec les experts ; 2026-175 Pratiquer la recherche personnelle ; 2026-174 Relier expertise et culture generale ; 2026-173 Apprendre a vulgariser son domaine ; 2026-172 Construire une trajectoire d'expertise vivante
 - **Étape 5 — Devenir polyglotte et cosmopolite** (9) : 2026-171 Pourquoi apprendre plusieurs langues ? ; 2026-170 Langue et pensee ; 2026-169 Methodes modernes d'apprentissage des langues ; 2026-168 Apprendre en contexte (immersion) ; 2026-167 La memoire et les langues ; 2026-166 Polyglottes celebres ; 2026-165 Langues en danger ; 2026-163 Langues et pouvoir ; 2026-162 Construire son parcours polyglotte
-- **Étape 6 — Comprendre la methode scientifique et experimenter** (7) : 2026-364 Qu'est-ce que la methode scientifique ? ; 2026-160 Experimenter : de Galilee a aujourd'hui ; 2026-158 Biais cognitifs et illusions de savoir ; 2026-156 Sciences experimentales vs sciences humaines ; 2026-155 La science dans l'histoire ; 2026-153 La falsifiabilite selon Popper ; 2026-152 La pratique personnelle de l'experimentation
+- **Étape 6 — Comprendre la methode scientifique et experimenter** (6) : 2026-364 Qu'est-ce que la methode scientifique ? ; 2026-158 Biais cognitifs et illusions de savoir ; 2026-156 Sciences experimentales vs sciences humaines ; 2026-155 La science dans l'histoire ; 2026-153 La falsifiabilite selon Popper ; 2026-152 La pratique personnelle de l'experimentation
 - **Étape 7 — Ecrire transmettre enseigner** (9) : 2026-151 Ecrire pour clarifier sa pensee ; 2026-150 Les genres de l'ecriture savante ; 2026-148 L'art de la transmission orale ; 2026-147 Les methodes pedagogiques essentielles ; 2026-146 Apprendre en enseignant ; 2026-145 Raconter une histoire pour transmettre ; 2026-143 Ecrire et transmettre a l'ere numerique ; 2026-142 Transmettre entre cultures et generations ; 2026-141 Construire une pratique durable de transmission
 - **Étape 8 — Relier les savoirs et vision du monde** (8) : 2026-140 Pourquoi relier les savoirs ? ; 2026-138 Sciences lettres arts : frontieres a depasser ; 2026-137 Les grands recits fondateurs de l'humanite ; 2026-135 Cartes mentales et frises du savoir ; 2026-133 Les metaphores qui structurent notre pensee ; 2026-132 Ecologie des savoirs ; 2026-131 Vers une vision personnelle du monde ;  Erudition et sagesse : relier pour mieux vivre
 - **Étape 9 — Cultiver l'equilibre corps-esprit** (9) : 2026-129 Nutrition et cognition ; 2026-128 Le sommeil comme allie de la memoire ; 2026-127 Le mouvement pour l'esprit ; 2026-126 Meditation et pleine conscience ; 2026-125 Gestion des emotions et resilience ; 2026-123 Rituels quotidiens des grands penseurs ; 2026-122 Art du rythme et discipline personnelle ; 2026-121 Corps-esprit et philosophies du bien-vivre ; 2026-120 Construire son programme personnel d'equilibre
@@ -73,6 +73,17 @@
 - 2026-546 — Chercher d'autres indicateurs de valeur d'une institution de savoir (usage scientifique des collections, prêts, publications) et suivre leur place dans les décisions publiques
 - 2026-547 — Tester « mesurer ou juger » dans un nouveau domaine (classements, notation) ; envisager un texte fondateur sur Campbell et Goodhart
 - 2026-548 — Appliquer la grille en cinq questions à un classement ou à une notation
+- 2026-549 — Suivre la décision de la Cour suprême dans Suncor c. Boulder (attendue d'ici fin juin 2027) et ses effets sur les autres procédures climatiques
+- 2026-550 — Comparer les fondements possibles d'une responsabilité partagée (savoir, pouvoir, profit) dans d'autres dommages collectifs : santé publique, pollution, numérique
+- 2026-551 — Suivre les essais cliniques d'optogénétique (rétine) et la place de la recherche fondamentale dans les arbitrages budgétaires
+- 2026-552 — Examiner comment d'autres institutions (musées, bibliothèques, archives) justifient ce qui n'a pas d'usage immédiat
+- 2026-553 — Suivre l'enquête du LVV sur les abattages de Muhos et le sort des projets de loi américains sur le coût des raccordements
+- 2026-554 — Observer comment les régulateurs répartissent le coût des raccordements de très gros consommateurs, en Europe comme aux États-Unis
+- 2026-555 — Suivre le test des publicités visuelles aux États-Unis, l'arrivée de la publicité chez les assistants concurrents et la réponse des régulateurs européens
+- 2026-556 — Faut-il des règles particulières pour la publicité dans des services qui nous parlent et nous conseillent ?
+- 2026-557 — Suivre le financement d'IceCube-Gen2 et les prochains résultats sur les sources de neutrinos
+- 2026-558 — Comment une institution peut-elle se donner, dès le départ, les critères qui lui diront quand arrêter ?
+- 2026-559 — Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il laisse hors champ ?
 
 ## Sentier — rattachements par fondamental
 
@@ -80,7 +91,7 @@
 |---|---|---|---|
 | 1 | 2026-212 | [Qu'est-ce que la culture generale et pourquoi est-elle essentielle ?](https://le-phare.info/quest-ce-que-la-culture-generale-et-pourquoi-est-elle-essentielle/) | — |
 | 1 | 2026-211 | [Les grandes periodes de l'histoire du monde](https://le-phare.info/les-grandes-periodes-de-lhistoire-du-monde/) | 2 |
-| 1 | 2026-210 | [Les revolutions scientifiques majeures](https://le-phare.info/les-revolutions-scientifiques-majeures/) | — |
+| 1 | 2026-210 | [Les revolutions scientifiques majeures](https://le-phare.info/les-revolutions-scientifiques-majeures/) | 1 |
 | 1 | 2026-209 | [Les grands courants philosophiques](https://le-phare.info/les-grands-courants-philosophiques/) | — |
 | 1 | 2026-208 | [Religions et visions du monde](https://le-phare.info/religions-et-visions-du-monde/) | 1 |
 | 1 | 2026-207 | [Economie pour non-economistes](https://le-phare.info/economie-pour-non-economistes/) | 3 |
@@ -107,7 +118,7 @@
 | 3 | 2026-185 | [Convaincre sans manipuler](https://le-phare.info/convaincre-sans-manipuler/) | — |
 | 3 | 2026-184 | [Developper sa presence a l'oral](https://le-phare.info/developper-sa-presence-a-loral/) | — |
 | 3 | 2026-183 | [Argumenter a l'ecrit](https://le-phare.info/argumenter-a-lecrit/) | — |
-| 3 | 2026-182 | [Argumenter en situation complexe](https://le-phare.info/argumenter-en-situation-complexe/) | 3 |
+| 3 | 2026-182 | [Argumenter en situation complexe](https://le-phare.info/argumenter-en-situation-complexe/) | 4 |
 | 4 | 2026-181 | [Choisir son domaine d'expertise](https://le-phare.info/choisir-son-domaine-dexpertise-trouver-son-territoire-de-savoir/) | — |
 | 4 | 2026-180 | [Les etapes de l'apprentissage approfondi](https://le-phare.info/les-etapes-de-lapprentissage-approfondi-du-novice-a-lexpert/) | — |
 | 4 | 2026-179 | [Lire les textes fondateurs](https://le-phare.info/lire-les-textes-fondateurs-senraciner-dans-la-profondeur-dun-savoir/) | — |
@@ -129,8 +140,8 @@
 | 5 | 2026-163 | [Langues et pouvoir](https://le-phare.info/langues-et-pouvoir-la-geopolitique-linguistique/) | — |
 | 5 | 2026-162 | [Construire son parcours polyglotte](https://le-phare.info/construire-son-parcours-polyglotte/) | — |
 | 6 | 2026-364 | Qu'est-ce que la methode scientifique ? | — |
-| 6 | 2026-160 | [Experimenter : de Galilee a aujourd'hui](https://le-phare.info/experimenter-de-galilee-a-aujourdhui/) | — |
-| 6 | 2026-159 | [Statistiques correlations et causalite](https://le-phare.info/statistiques-correlations-et-causalite/) | 4 |
+| 6 | 2026-160 | [Experimenter : de Galilee a aujourd'hui](https://le-phare.info/experimenter-de-galilee-a-aujourdhui/) | 1 |
+| 6 | 2026-159 | [Statistiques correlations et causalite](https://le-phare.info/statistiques-correlations-et-causalite/) | 6 |
 | 6 | 2026-158 | [Biais cognitifs et illusions de savoir](https://le-phare.info/biais-cognitifs-et-illusions-de-savoir/) | — |
 | 6 | 2026-157 | [Lire un article scientifique](https://le-phare.info/lire-un-article-scientifique/) | 1 |
 | 6 | 2026-156 | [Sciences experimentales vs sciences humaines](https://le-phare.info/sciences-experimentales-vs-sciences-humaines/) | — |
@@ -169,10 +180,15 @@
 | 9 | 2026-121 | [Corps-esprit et philosophies du bien-vivre](https://le-phare.info/corps-esprit-et-philosophies-du-bien-vivre-traditions-pour-une-erudition-equilibree/) | — |
 | 9 | 2026-120 | [Construire son programme personnel d'equilibre](https://le-phare.info/construire-son-programme-personnel-dequilibre-une-methode-pour-durer-dans-lerudition/) | — |
 
-## Actualités (55)
+## Actualités (60)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-557 | [Nobel de physique 2026 : Francis Halzen et IceCube, ou trente-huit ans pour entendre les neutrinos du cosmos](https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/) | SCIENCE | publie | 2026-10-06 | Le Nobel de physique 2026 récompense le seul Francis Halzen pour IceCube, un kilomètre cube de glace antarctique transformé en télescope à neutrinos. Proposée en 1988, l'idée a mis vingt-cinq ans à p… |
+| 2026-555 | [ChatGPT : la publicité arrive dans la génération d'images, et l'assistant devient un support publicitaire](https://le-phare.info/chatgpt-publicite-generation-images-octobre-2026/) | TECH | publie | 2026-10-06 | OpenAI va tester fin octobre des publicités visuelles pendant la génération d'images de ChatGPT. Huit mois après l'arrivée de la publicité dans l'assistant, le modèle économique de l'IA grand public… |
+| 2026-553 | [Data centers : le Sénat américain refuse de leur faire payer le réseau, la Finlande enquête sur les forêts ra…](https://le-phare.info/data-centers-senat-ratepayer-protection-act-google-finlande/) | CLIMAT | publie | 2026-10-06 | Le 30 septembre, le Sénat américain a rejeté une loi censée faire payer aux data centers le coût du réseau ; en Finlande, Google est mis en cause pour 330 hectares abattus avant toute évaluation envi… |
+| 2026-551 | [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones…](https://le-phare.info/?p=5512) | SCIENCE | wp_draft | 2026-10-06 | Le 5 octobre 2026, le Nobel de physiologie ou médecine a récompensé Karl Deisseroth, Peter Hegemann et Georg Nagel pour l'optogénétique. Une technique née de l'étude d'une algue qui nage vers la lumi… |
+| 2026-549 | [Climat : la Cour suprême américaine doit dire si une ville peut faire payer les pétroliers](https://le-phare.info/?p=5507) | CLIMAT | wp_draft | 2026-10-06 | Le 5 octobre 2026, la Cour suprême des États-Unis a entendu l'affaire Suncor c. Boulder : un comté du Colorado demande à deux pétroliers de payer une partie de ses coûts d'adaptation au climat. Ce qu… |
 | 2026-545 | [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner…](https://le-phare.info/?p=5498) | CULTURE | wp_draft | 2026-10-05 | Fondée en 1812, l'Academy of Natural Sciences de Philadelphie a fermé son musée au public fin septembre 2026. Drexel invoque la baisse de fréquentation et les coûts ; d'anciens salariés, des élus et… |
 | 2026-543 | [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/?p=5493) | TECH | wp_draft | 2026-10-05 | Le 4 octobre 2026, Donald Trump a confié au directeur du renseignement national, Jay Clayton, la direction d'une « Super Intelligence Force ». Cinq jours plus tôt, six dirigeants de l'IA signaient un… |
 | 2026-542 | [Lycées bloqués en France : des revendications scolaires, des violences, et un mouvement difficile à lire](https://le-phare.info/?p=5491) | POL | wp_draft | 2026-10-05 | Depuis le 21 septembre 2026, des blocages de lycées se sont étendus depuis l'académie de Créteil à toute la France. Classes surchargées, bâtiments dégradés, stress de Parcoursup : les revendications… |
@@ -229,10 +245,15 @@
 | 2026-214 | [📊 Croissance en hausse, note en baisse : la France face au double regard des chiffres et des marchés](https://le-phare.info/croissance-en-hausse-note-en-baisse-la-france-face-au-double-regard-des-chiffres-et-des-marches/) | ECON | publie | 2026-04-08 | 📌 Les faits essentiels En septembre 2025, deux annonces ont secoué la perception de la situation économique française : 🔍 Comment les médias en parlent Médias économiques (ex. Reuters, Les Échos) Ils… |
 | 2026-005 | [Inflation en recul en Europe : accalmie durable ou pause fragile ?](https://le-phare.info/inflation-en-recul-en-europe-accalmie-durable-ou-pause-fragile/) | ECON | publie | 2026-04-08 | Ralentissement de l'inflation en Europe entre normalisation et risques persistants. |
 
-## Questions du Phare (2)
+## Questions du Phare (7)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-558 | [Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/) | SCIENCE | publie | 2026-10-06 | Le Nobel attribué à IceCube récompense un pari tenu vingt-cinq ans sans résultat décisif. Mais combien de projets ont tenu aussi longtemps pour rien ? La question de savoir quand s'arrêter dépasse la… |
+| 2026-556 | [Quand un service est gratuit, qui en est vraiment le client ?](https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/) | TECH | publie | 2026-10-06 | La publicité entre dans ChatGPT. Une vieille question revient : quand on ne paie pas un service, pour qui travaille-t-il ? Une lecture avec Herbert Simon et Dallas Smythe. |
+| 2026-554 | [Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit en payer le prix ?](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/) | CLIMAT | publie | 2026-10-06 | Réseau électrique, forêt, rivière : l'essor des data centers pose une question ancienne, celle du prix des ressources communes. Qui doit payer, celui qui arrive, celui qui profite, ou tout le monde ? |
+| 2026-552 | [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514) | SCIENCE | wp_draft | 2026-10-06 | L'optogénétique, Nobel de médecine 2026, est née de l'étude d'une algue. Faut-il en conclure qu'on ne doit pas juger la recherche à ses applications prévisibles ? Ce que le cas montre, ce qu'il ne pr… |
+| 2026-550 | [Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/?p=5509) | CLIMAT | wp_draft | 2026-10-06 | Une ville du Colorado demande à deux pétroliers de payer une part de ses coûts climatiques. Derrière le procès, une question qui revient pour le tabac, les accidents industriels ou les technologies :… |
 | 2026-546 | [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500) | CULTURE | wp_draft | 2026-10-05 | La fermeture du musée de l'Academy of Natural Sciences de Philadelphie, motivée par la baisse des visites, pose une question plus large : que mesure la fréquentation, et que laisse-t-elle hors champ… |
 | 2026-544 | [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495) | TECH | wp_draft | 2026-10-05 | L'accord de sécurité signé à la Maison-Blanche par six dirigeants de l'IA pose une question plus ancienne que l'IA : que vaut un contrôle organisé par ceux qu'il contrôle ? Finance, aviation, laborat… |
 
@@ -298,10 +319,11 @@
 | 2026-515 | [Briefing Slow — mercredi 10 juin 2026 : Ormuz élargi, ETS sous pression, Ukraine sans médiateur](https://le-phare.info/briefing-monde-briefing-slow-mercredi-10-juin-2026/) | MONDE | publie | 2026-06-10 | Le 10 juin 2026, frappes Ormuz élargies, bataille ETS du 15 juillet, Ukraine et 18e paquet sanctions. Briefing slow reliant les faits au graphe Le Phare. |
 | 2026-511 | [Briefing Slow — lundi 8 juin 2026 : trois calendriers qui ne coïncident pas](https://le-phare.info/briefing-monde-briefing-slow-lundi-8-juin-2026/) | MONDE | publie | 2026-06-08 | Le 8 juin 2026, trêve rompue, diplomatie ukrainienne et réponses UE ne suivent pas le même rythme. Briefing slow reliant les faits aux outils Le Phare. |
 
-## Dossiers (11)
+## Dossiers (12)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-559 | [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532) | CULTURE | wp_draft | 2026-10-06 | Sondages, scores électoraux, fréquentation d'un musée, prix d'un passeport, utilité d'une recherche : un mois d'actualité montre comment un chiffre utile finit par décider à notre place. Ce dossier r… |
 | 2026-435 | [Ormuz cessez-le-feu Iran-USA et geopolitique de l energie : une paix fragile un pouvoir durable](https://le-phare.info/?p=4092) | MONDE | wp_draft | 2026-04-09 | Ce dossier analyse le cessez-le-feu entre les Etats-Unis et l'Iran a travers le detroit d'Ormuz, la geopolitique energetique, le droit de navigation et les rapports de force regionaux. |
 | 2026-428 | [Comprendre l'inflation : livres, concepts et pistes pour aller plus loin](https://le-phare.info/?p=4084) | ECON | wp_draft | 2026-04-08 | Ressources pour approfondir le dossier inflation au-dela de l'actualite immediate. |
 | 2026-427 | [Inflation, richesse et perception : que mesurent vraiment les prix ?](https://le-phare.info/?p=4083) | ECON | wp_draft | 2026-04-08 | Questions ouvertes sur la mesure des prix et de la richesse vecue. |
@@ -314,10 +336,11 @@
 | 2026-420 | [Comprendre l'inflation : mecanismes, causes et effets](https://le-phare.info/?p=4076) | ECON | wp_draft | 2026-04-08 | Article pedagogique pour comprendre les mecanismes de l'inflation. |
 | 2026-419 | [Inflation en recul en Europe : accalmie durable ou pause fragile ?](https://le-phare.info/?p=4075) | ECON | wp_draft | 2026-04-08 | Point d'entree du dossier sur le ralentissement de l'inflation en Europe. |
 
-## Sentier — ateliers et pages (165)
+## Sentier — ateliers et pages (166)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-560 | [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/?p=5534) | SCIENCE | wp_draft | 2026-10-06 | Atelier du fondamental Statistiques, corrélations et causalité : cinq questions pour lire un indicateur avant de lui faire confiance, appliquées à deux cas d'octobre 2026, les sondages du premier tou… |
 | 2026-530 | [Construire trois niveaux de vulgarisation pour transmettre une regle IA sans la deformer (juin 2026)](https://le-phare.info/construire-trois-niveaux-vulgarisation-regle-ia/) | TECH | publie | 2026-06-25 | Atelier etape 7, fondamental 2026-149 : trois niveaux de vulgarisation — citoyen, professionnel, expert — appliques au Digital Omnibus (16 juin 2026). |
 | 2026-527 | [Cartographier trois controverses sur le problème difficile de la conscience (juin 2026)](https://le-phare.info/cartographier-controverses-probleme-difficile-conscience/) | CULTURE | publie | 2026-06-15 | Atelier étape 4, fondamental 2026-177 : trois controverses structurantes appliquées à Koch (avril 2026) et Chalmers (1995). |
 | 2026-524 | [Décoder trois niveaux de source autour du Münchhausen par procuration (juin 2026)](https://le-phare.info/decoder-trois-niveaux-source-munchhausen-procuration/) | SCIENCE | publie | 2026-06-11 | Atelier étape 2, fondamental 2026-198 : trois niveaux de source — scientifique, judiciaire, médiatique — appliqués au SMPP après le procès Daubon. |

@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Observer
 Articles lies (IDs) : 2026-533;2026-024
 Question du Phare : Quand un résultat contredit les sondages de la veille, faut-il accuser les sondages, les électeurs, ou notre manière de les lire ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-533
 Prolongement envisage : Suivre le second tour du 25 octobre et la lecture des sondages d'entre-deux-tours
 Mots-cles : Brésil;élection présidentielle;Lula;Flávio Bolsonaro;sondages;polarisation
@@ -89,6 +89,8 @@ Quand un résultat contredit les sondages de la veille, faut-il accuser les sond
 
 - [Vérité et politique – Hannah Arendt : la fragilité du jugement sous pression collective](https://le-phare.info/verite-et-politique-hannah-arendt-la-fragilite-du-jugement-sous-pression-collective/)
 - [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/?p=5473)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Observer
 Articles lies (IDs) : 2026-536;2026-476;2026-488
 Question du Phare : Une nationalité peut-elle s'acheter comme un actif, sans changer ce que signifie appartenir à une communauté politique ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-536
 Prolongement envisage : Suivre l'ouverture des candidatures, les volumes collectés et les réactions européennes au programme argentin
 Mots-cles : Argentine;citoyenneté par investissement;passeport doré;Milei;investissements étrangers;nationalité
@@ -95,6 +95,8 @@ Une nationalité peut-elle s'acheter comme un actif, sans changer ce que signifi
 - [G7 : 100 millions de barils de réserves pour calmer le diesel, un remède à court terme](https://le-phare.info/?p=5479)
 - [Hannah Arendt : l'apatridie et le droit d'avoir des droits](https://le-phare.info/hannah-arendt-apatridie-droit-avoir-des-droits-migration/)
 - [Albert Hirschman : commerce, dépendance et pouvoir de contrainte](https://le-phare.info/albert-hirschman-commerce-dependance-et-pouvoir-de-contrainte/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

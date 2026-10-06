@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Comprendre
 Articles lies (IDs) : 2026-533;2026-534;2026-540;2026-544;2026-545;2026-546;2026-547
 Question du Phare : Comment se servir d'un indicateur sans qu'il finisse par déformer ce qu'il devait observer ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) :
 Prolongement envisage :
 Mots-cles : Donald T. Campbell;Charles Goodhart;Marilyn Strathern;indicateurs;mesure;évaluation;loi de Goodhart
@@ -112,6 +112,7 @@ Comment se servir d'un indicateur sans qu'il finisse par déformer ce qu'il deva
 - [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503)
 - [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
 - [David Collingridge (1980) : le dilemme du contrôle technologique](https://le-phare.info/david-collingridge-dilemme-controle-technologique-1980/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 

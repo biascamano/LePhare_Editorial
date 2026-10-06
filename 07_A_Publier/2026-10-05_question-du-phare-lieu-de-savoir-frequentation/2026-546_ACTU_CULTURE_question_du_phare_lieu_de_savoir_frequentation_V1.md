@@ -15,7 +15,7 @@ Type Sentier :
 Posture Sentier : Comprendre
 Articles lies (IDs) : 2026-545;2026-538;2026-519
 Question du Phare : Un lieu de savoir doit-il être jugé à sa fréquentation ?
-Dossier :
+Dossier : 2026-559
 Article precedent (ID) : 2026-545
 Prolongement envisage : Chercher d'autres indicateurs de valeur d'une institution de savoir (usage scientifique des collections, prêts, publications) et suivre leur place dans les décisions publiques
 Mots-cles : musées;fréquentation;indicateurs;collections scientifiques;Bourdieu;valeur du savoir
@@ -92,6 +92,8 @@ Comment rendre visible, au moment de décider, une valeur que l'on ne peut mesur
 - [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page](https://le-phare.info/?p=5498)
 - [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/?p=5483)
 - [Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
 
 **Sur le Sentier du Savoir**
 
