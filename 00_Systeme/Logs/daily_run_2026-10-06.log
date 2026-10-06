@@ -1,0 +1,212 @@
+[2026-10-06T10:24:01] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique
+[2026-10-06T10:24:01] Selected topic label: 2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique
+[2026-10-06T10:24:01] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T10:24:01] --- WP-PUSH OUTPUT ---
+[2026-10-06T10:24:15] {
+[2026-10-06T10:24:15]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique\\2026-549_ACTU_CLIMAT_cour_supreme_suncor_boulder_responsabilite_climatique_V1.md",
+[2026-10-06T10:24:15]   "article_id": "2026-549",
+[2026-10-06T10:24:15]   "title": "Climat : la Cour suprême américaine doit dire si une ville peut faire payer les pétroliers",
+[2026-10-06T10:24:15]   "status": "draft",
+[2026-10-06T10:24:15]   "skipped": false,
+[2026-10-06T10:24:15]   "wordpress_id": 5507,
+[2026-10-06T10:24:15]   "wordpress_slug": "cour-supreme-suncor-boulder-responsabilite-climatique",
+[2026-10-06T10:24:15]   "wordpress_link": "https://le-phare.info/?p=5507",
+[2026-10-06T10:24:15]   "categories": [
+[2026-10-06T10:24:15]     "actualites"
+[2026-10-06T10:24:15]   ],
+[2026-10-06T10:24:15]   "tags": [
+[2026-10-06T10:24:15]     "environnement-climat",
+[2026-10-06T10:24:15]     "sentier-critique",
+[2026-10-06T10:24:15]     "posture-observer",
+[2026-10-06T10:24:15]     "type-actualite",
+[2026-10-06T10:24:15]     "question-du-phare",
+[2026-10-06T10:24:15]     "contentieux-climatique",
+[2026-10-06T10:24:15]     "responsabilite",
+[2026-10-06T10:24:15]     "etats-unis"
+[2026-10-06T10:24:15]   ],
+[2026-10-06T10:24:15]   "index_updated": true,
+[2026-10-06T10:24:15]   "error": "",
+[2026-10-06T10:24:15]   "featured_media_id": 2130
+[2026-10-06T10:24:15] }
+[2026-10-06T10:24:15] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T10:24:15] --- POST-LINKING OUTPUT ---
+[2026-10-06T10:24:16] {
+[2026-10-06T10:24:16]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_cour-supreme-suncor-boulder-responsabilite-climatique",
+[2026-10-06T10:24:16]   "mode": "triptyque_linking_v2",
+[2026-10-06T10:24:16]   "dry_run": false,
+[2026-10-06T10:24:16]   "total": 1,
+[2026-10-06T10:24:16]   "updated_local": 0,
+[2026-10-06T10:24:16]   "updated_wordpress": 1,
+[2026-10-06T10:24:16]   "items": [
+[2026-10-06T10:24:16]     {
+[2026-10-06T10:24:16]       "article_id": "2026-549",
+[2026-10-06T10:24:16]       "type": "ACTU",
+[2026-10-06T10:24:16]       "title": "Climat : la Cour suprême américaine doit dire si une ville peut faire payer les pétroliers",
+[2026-10-06T10:24:16]       "wordpress_id": 5507,
+[2026-10-06T10:24:16]       "wordpress_url": "https://le-phare.info/?p=5507",
+[2026-10-06T10:24:16]       "updated_paths": [],
+[2026-10-06T10:24:16]       "status": "updated",
+[2026-10-06T10:24:16]       "error": ""
+[2026-10-06T10:24:16]     }
+[2026-10-06T10:24:16]   ],
+[2026-10-06T10:24:16]   "errors": []
+[2026-10-06T10:24:16] }
+[2026-10-06T10:24:16] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-dommage-collectif-responsabilite
+[2026-10-06T10:24:16] Selected topic label: 2026-10-06_question-du-phare-dommage-collectif-responsabilite
+[2026-10-06T10:24:16] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-dommage-collectif-responsabilite --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T10:24:16] --- WP-PUSH OUTPUT ---
+[2026-10-06T10:24:30] {
+[2026-10-06T10:24:30]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_question-du-phare-dommage-collectif-responsabilite\\2026-550_ACTU_CLIMAT_question_du_phare_dommage_collectif_responsabilite_V1.md",
+[2026-10-06T10:24:30]   "article_id": "2026-550",
+[2026-10-06T10:24:30]   "title": "Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?",
+[2026-10-06T10:24:30]   "status": "draft",
+[2026-10-06T10:24:30]   "skipped": false,
+[2026-10-06T10:24:30]   "wordpress_id": 5509,
+[2026-10-06T10:24:30]   "wordpress_slug": "question-du-phare-dommage-collectif-responsabilite",
+[2026-10-06T10:24:30]   "wordpress_link": "https://le-phare.info/?p=5509",
+[2026-10-06T10:24:30]   "categories": [
+[2026-10-06T10:24:30]     "actualites"
+[2026-10-06T10:24:30]   ],
+[2026-10-06T10:24:30]   "tags": [
+[2026-10-06T10:24:30]     "environnement-climat",
+[2026-10-06T10:24:30]     "sentier-critique",
+[2026-10-06T10:24:30]     "posture-comprendre",
+[2026-10-06T10:24:30]     "type-question",
+[2026-10-06T10:24:30]     "question-du-phare",
+[2026-10-06T10:24:30]     "responsabilite",
+[2026-10-06T10:24:30]     "causalite",
+[2026-10-06T10:24:30]     "contentieux-climatique"
+[2026-10-06T10:24:30]   ],
+[2026-10-06T10:24:30]   "index_updated": true,
+[2026-10-06T10:24:30]   "error": "",
+[2026-10-06T10:24:30]   "featured_media_id": 2130
+[2026-10-06T10:24:30] }
+[2026-10-06T10:24:30] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-dommage-collectif-responsabilite --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T10:24:30] --- POST-LINKING OUTPUT ---
+[2026-10-06T10:24:31] {
+[2026-10-06T10:24:31]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_question-du-phare-dommage-collectif-responsabilite",
+[2026-10-06T10:24:31]   "mode": "triptyque_linking_v2",
+[2026-10-06T10:24:31]   "dry_run": false,
+[2026-10-06T10:24:31]   "total": 1,
+[2026-10-06T10:24:31]   "updated_local": 0,
+[2026-10-06T10:24:31]   "updated_wordpress": 1,
+[2026-10-06T10:24:31]   "items": [
+[2026-10-06T10:24:31]     {
+[2026-10-06T10:24:31]       "article_id": "2026-550",
+[2026-10-06T10:24:31]       "type": "ACTU",
+[2026-10-06T10:24:31]       "title": "Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?",
+[2026-10-06T10:24:31]       "wordpress_id": 5509,
+[2026-10-06T10:24:31]       "wordpress_url": "https://le-phare.info/?p=5509",
+[2026-10-06T10:24:31]       "updated_paths": [],
+[2026-10-06T10:24:31]       "status": "updated",
+[2026-10-06T10:24:31]       "error": ""
+[2026-10-06T10:24:31]     }
+[2026-10-06T10:24:31]   ],
+[2026-10-06T10:24:31]   "errors": []
+[2026-10-06T10:24:31] }
+[2026-10-06T11:27:38] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel
+[2026-10-06T11:27:38] Selected topic label: 2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel
+[2026-10-06T11:27:38] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T11:27:38] --- WP-PUSH OUTPUT ---
+[2026-10-06T11:27:55] {
+[2026-10-06T11:27:55]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel\\2026-551_ACTU_SCIENCE_nobel_medecine_2026_optogenetique_deisseroth_hegemann_nagel_V1.md",
+[2026-10-06T11:27:55]   "article_id": "2026-551",
+[2026-10-06T11:27:55]   "title": "Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière",
+[2026-10-06T11:27:55]   "status": "draft",
+[2026-10-06T11:27:55]   "skipped": false,
+[2026-10-06T11:27:55]   "wordpress_id": 5512,
+[2026-10-06T11:27:55]   "wordpress_slug": "nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel",
+[2026-10-06T11:27:55]   "wordpress_link": "https://le-phare.info/?p=5512",
+[2026-10-06T11:27:55]   "categories": [
+[2026-10-06T11:27:55]     "actualites"
+[2026-10-06T11:27:55]   ],
+[2026-10-06T11:27:55]   "tags": [
+[2026-10-06T11:27:55]     "science-sante",
+[2026-10-06T11:27:55]     "sentier-science",
+[2026-10-06T11:27:55]     "posture-observer",
+[2026-10-06T11:27:55]     "type-actualite",
+[2026-10-06T11:27:55]     "question-du-phare",
+[2026-10-06T11:27:55]     "prix-nobel",
+[2026-10-06T11:27:55]     "neurosciences",
+[2026-10-06T11:27:55]     "recherche-fondamentale"
+[2026-10-06T11:27:55]   ],
+[2026-10-06T11:27:55]   "index_updated": true,
+[2026-10-06T11:27:55]   "error": "",
+[2026-10-06T11:27:55]   "featured_media_id": 2060
+[2026-10-06T11:27:55] }
+[2026-10-06T11:27:55] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T11:27:55] --- POST-LINKING OUTPUT ---
+[2026-10-06T11:27:55] {
+[2026-10-06T11:27:55]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel",
+[2026-10-06T11:27:55]   "mode": "triptyque_linking_v2",
+[2026-10-06T11:27:55]   "dry_run": false,
+[2026-10-06T11:27:55]   "total": 1,
+[2026-10-06T11:27:55]   "updated_local": 0,
+[2026-10-06T11:27:55]   "updated_wordpress": 1,
+[2026-10-06T11:27:55]   "items": [
+[2026-10-06T11:27:55]     {
+[2026-10-06T11:27:55]       "article_id": "2026-551",
+[2026-10-06T11:27:55]       "type": "ACTU",
+[2026-10-06T11:27:55]       "title": "Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière",
+[2026-10-06T11:27:55]       "wordpress_id": 5512,
+[2026-10-06T11:27:55]       "wordpress_url": "https://le-phare.info/?p=5512",
+[2026-10-06T11:27:55]       "updated_paths": [],
+[2026-10-06T11:27:55]       "status": "updated",
+[2026-10-06T11:27:55]       "error": ""
+[2026-10-06T11:27:55]     }
+[2026-10-06T11:27:55]   ],
+[2026-10-06T11:27:55]   "errors": []
+[2026-10-06T11:27:55] }
+[2026-10-06T11:27:55] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-recherche-utilite-previsible
+[2026-10-06T11:27:55] Selected topic label: 2026-10-06_question-du-phare-recherche-utilite-previsible
+[2026-10-06T11:27:55] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-recherche-utilite-previsible --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-06T11:27:55] --- WP-PUSH OUTPUT ---
+[2026-10-06T11:28:10] {
+[2026-10-06T11:28:10]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_question-du-phare-recherche-utilite-previsible\\2026-552_ACTU_SCIENCE_question_du_phare_recherche_utilite_previsible_V1.md",
+[2026-10-06T11:28:10]   "article_id": "2026-552",
+[2026-10-06T11:28:10]   "title": "Peut-on juger une recherche à son utilité prévisible ?",
+[2026-10-06T11:28:10]   "status": "draft",
+[2026-10-06T11:28:10]   "skipped": false,
+[2026-10-06T11:28:10]   "wordpress_id": 5514,
+[2026-10-06T11:28:10]   "wordpress_slug": "question-du-phare-recherche-utilite-previsible",
+[2026-10-06T11:28:10]   "wordpress_link": "https://le-phare.info/?p=5514",
+[2026-10-06T11:28:10]   "categories": [
+[2026-10-06T11:28:10]     "actualites"
+[2026-10-06T11:28:10]   ],
+[2026-10-06T11:28:10]   "tags": [
+[2026-10-06T11:28:10]     "science-sante",
+[2026-10-06T11:28:10]     "sentier-critique",
+[2026-10-06T11:28:10]     "posture-comprendre",
+[2026-10-06T11:28:10]     "type-question",
+[2026-10-06T11:28:10]     "question-du-phare",
+[2026-10-06T11:28:10]     "recherche-fondamentale",
+[2026-10-06T11:28:10]     "evaluation",
+[2026-10-06T11:28:10]     "utilite"
+[2026-10-06T11:28:10]   ],
+[2026-10-06T11:28:10]   "index_updated": true,
+[2026-10-06T11:28:10]   "error": "",
+[2026-10-06T11:28:10]   "featured_media_id": 2060
+[2026-10-06T11:28:10] }
+[2026-10-06T11:28:10] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-06_question-du-phare-recherche-utilite-previsible --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-06T11:28:10] --- POST-LINKING OUTPUT ---
+[2026-10-06T11:28:11] {
+[2026-10-06T11:28:11]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-06_question-du-phare-recherche-utilite-previsible",
+[2026-10-06T11:28:11]   "mode": "triptyque_linking_v2",
+[2026-10-06T11:28:11]   "dry_run": false,
+[2026-10-06T11:28:11]   "total": 1,
+[2026-10-06T11:28:11]   "updated_local": 0,
+[2026-10-06T11:28:11]   "updated_wordpress": 1,
+[2026-10-06T11:28:11]   "items": [
+[2026-10-06T11:28:11]     {
+[2026-10-06T11:28:11]       "article_id": "2026-552",
+[2026-10-06T11:28:11]       "type": "ACTU",
+[2026-10-06T11:28:11]       "title": "Peut-on juger une recherche à son utilité prévisible ?",
+[2026-10-06T11:28:11]       "wordpress_id": 5514,
+[2026-10-06T11:28:11]       "wordpress_url": "https://le-phare.info/?p=5514",
+[2026-10-06T11:28:11]       "updated_paths": [],
+[2026-10-06T11:28:11]       "status": "updated",
+[2026-10-06T11:28:11]       "error": ""
+[2026-10-06T11:28:11]     }
+[2026-10-06T11:28:11]   ],
+[2026-10-06T11:28:11]   "errors": []
+[2026-10-06T11:28:11] }
