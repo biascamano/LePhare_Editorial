@@ -115,12 +115,12 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 *Mis à jour par la routine mensuelle. Remplacé à chaque mois (l'ancien cap passe en §5).*
 
 - **Mois :** octobre 2026
-- **Dossiers prioritaires (2 à 4) :** Mesurer ou juger — **créé le 2026-10-06** : [dossier 2026-559](https://le-phare.info/?p=5532) (`03_Dossiers/Culture/Mesurer_ou_juger_Dossier/`), membres 533, 534, 540, 545, 546, 547, 548, 552, 560 ; tout nouvel article du fil prend `Dossier : 2026-559`, puis `build_hubs.py`. Qui contrôle le contrôleur ? (537, 543, 544) — proposition, à étoffer
-- **Questions ouvertes :** Comment se servir d'un indicateur sans qu'il déforme ce qu'il observe ? Qui évalue une technologie quand ses développeurs sont juges et parties ?
-- **Penseurs susceptibles d'être utiles :** Donald T. Campbell, Charles Goodhart, Marilyn Strathern, Pierre Bourdieu, David Collingridge
+- **Dossiers prioritaires (2 à 4) :** Mesurer ou juger — **créé le 2026-10-06** : [dossier 2026-559](https://le-phare.info/?p=5532) (`03_Dossiers/Culture/Mesurer_ou_juger_Dossier/`), membres 533, 534, 540, 545, 546, 547, 548, 552, 560 ; tout nouvel article du fil prend `Dossier : 2026-559`, puis `build_hubs.py`. Qui contrôle le contrôleur ? (537, 543, 544, 561) — proposition, à étoffer. Le prix de l'invisible (549 à 558, Fil 562) — fil ouvert le 2026-10-06, candidat dossier à évaluer fin octobre
+- **Questions ouvertes :** Comment se servir d'un indicateur sans qu'il déforme ce qu'il observe ? Qui évalue une technologie quand ses développeurs sont juges et parties ? Qui doit porter le prix de ce que l'on ne voit pas encore ?
+- **Penseurs susceptibles d'être utiles :** Donald T. Campbell, Charles Goodhart, Marilyn Strathern, Pierre Bourdieu, David Collingridge, Hans Jonas (TF 455 et 111 existants), Elinor Ostrom
 - **Sentier — fondamentaux à développer :** 2026-159 Statistiques, corrélations et causalité (atelier [2026-560 « Lire un indicateur »](https://le-phare.info/?p=5534) créé le 2026-10-06) ; prochains candidats : 2026-153 Popper, 2026-199 Sophismes
-- **Actualités à surveiller :** audition du conseil municipal de Philadelphie (7 octobre) ; second tour au Brésil (25 octobre) ; coalition en Lettonie ; cas de peste suspectée à Irkoutsk ; conclusions à 120 jours de la Super Intelligence Force
-- **Catégories sous-représentées :** SCIENCE, CLIMAT
+- **Actualités à surveiller :** audition du conseil municipal de Philadelphie (7 octobre) ; second tour au Brésil (25 octobre) ; coalition en Lettonie ; cas de peste suspectée à Irkoutsk ; conclusions à 120 jours de la Super Intelligence Force ; test des publicités visuelles de ChatGPT (fin octobre) ; décision Suncor c. Boulder
+- **Catégories sous-représentées :** POL, MONDE, ECON, CULTURE (point au 2026-10-06 : octobre compte 7 SCIENCE, 4 CLIMAT, 2 TECH, 1 CULTURE ; SCIENCE et CLIMAT sont rattrapés)
 
 ---
 

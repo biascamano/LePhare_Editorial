@@ -42,7 +42,7 @@
 ## Cap du mois
 
 - **Mois** : octobre 2026
-- **Dossiers prioritaires** : Mesurer ou juger — créé le 2026-10-06 : dossier 2026-559 (`03_Dossiers/Culture/Mesurer_ou_juger_Dossier/`), membres 533, 534, 540, 545, 546, 547, 548, 552, 560 ; tout nouvel article du fil prend `Dossier : 2026-559`, puis `build_hubs.py`. Qui contrôle le contrôleur ? (537, 543, 544) — proposition, à étoffer
-- **Actualités à surveiller** : audition du conseil municipal de Philadelphie (7 octobre) ; second tour au Brésil (25 octobre) ; coalition en Lettonie ; cas de peste suspectée à Irkoutsk ; conclusions à 120 jours de la Super Intelligence Force
-- **Catégories sous-représentées** : SCIENCE, CLIMAT
+- **Dossiers prioritaires** : Mesurer ou juger — créé le 2026-10-06 : dossier 2026-559 (`03_Dossiers/Culture/Mesurer_ou_juger_Dossier/`), membres 533, 534, 540, 545, 546, 547, 548, 552, 560 ; tout nouvel article du fil prend `Dossier : 2026-559`, puis `build_hubs.py`. Qui contrôle le contrôleur ? (537, 543, 544, 561) — proposition, à étoffer. Le p…
+- **Actualités à surveiller** : audition du conseil municipal de Philadelphie (7 octobre) ; second tour au Brésil (25 octobre) ; coalition en Lettonie ; cas de peste suspectée à Irkoutsk ; conclusions à 120 jours de la Super Intelligence Force ; test des publicités visuelles de ChatGPT (fin octobre) ; décision Suncor c. Boulder
+- **Catégories sous-représentées** : POL, MONDE, ECON, CULTURE (point au 2026-10-06 : octobre compte 7 SCIENCE, 4 CLIMAT, 2 TECH, 1 CULTURE ; SCIENCE et CLIMAT sont rattrapés)
 - **Dernier Fil du Phare** : 2026-562 — Qui doit porter le prix de ce que l'on ne voit pas encore ?

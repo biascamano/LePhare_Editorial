@@ -5,15 +5,15 @@
 
 ## Vue d'ensemble
 
-- Articles indexés : 556
-- Publiés : 506 ; brouillons WordPress : 50
+- Articles indexés : 558
+- Publiés : 508 ; brouillons WordPress : 50
 
 | Niveau | Articles |
 |---|---|
 | Actualités | 60 |
-| Questions du Phare | 7 |
+| Questions du Phare | 8 |
 | Textes fondateurs | 49 |
-| Synthèses et briefings | 3 |
+| Synthèses et briefings | 4 |
 | Dossiers | 12 |
 | Sentier — ateliers et pages | 166 |
 | Fonds — fondamentaux et notions | 259 |
@@ -23,7 +23,7 @@
 | CULTURE | 209 | 13 |
 | TECH | 86 | 25 |
 | MONDE | 77 | 7 |
-| SCIENCE | 69 | 21 |
+| SCIENCE | 71 | 23 |
 | POL | 45 | 15 |
 | ECON | 40 | 14 |
 | CLIMAT | 30 | 18 |
@@ -84,6 +84,8 @@
 - 2026-557 — Suivre le financement d'IceCube-Gen2 et les prochains résultats sur les sources de neutrinos
 - 2026-558 — Comment une institution peut-elle se donner, dès le départ, les critères qui lui diront quand arrêter ?
 - 2026-559 — Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il laisse hors champ ?
+- 2026-561 — Qu'est-ce qui rend une autorité sanitaire digne de confiance avant même qu'elle ait quelque chose de certain à dire ?
+- 2026-562 — Quand on ne sait pas encore si une dépense prépare un dommage ou un bénéfice, qui doit décider de la faire ?
 
 ## Sentier — rattachements par fondamental
 
@@ -245,10 +247,11 @@
 | 2026-214 | [📊 Croissance en hausse, note en baisse : la France face au double regard des chiffres et des marchés](https://le-phare.info/croissance-en-hausse-note-en-baisse-la-france-face-au-double-regard-des-chiffres-et-des-marches/) | ECON | publie | 2026-04-08 | 📌 Les faits essentiels En septembre 2025, deux annonces ont secoué la perception de la situation économique française : 🔍 Comment les médias en parlent Médias économiques (ex. Reuters, Les Échos) Ils… |
 | 2026-005 | [Inflation en recul en Europe : accalmie durable ou pause fragile ?](https://le-phare.info/inflation-en-recul-en-europe-accalmie-durable-ou-pause-fragile/) | ECON | publie | 2026-04-08 | Ralentissement de l'inflation en Europe entre normalisation et risques persistants. |
 
-## Questions du Phare (7)
+## Questions du Phare (8)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-561 | [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/) | SCIENCE | publie | 2026-10-06 | À Irkoutsk, une technicienne d'un institut antipeste est morte d'une pneumonie que les autorités refusent de nommer. Entre le silence qui rassure et l'alerte qui affole, existe-t-il une manière honnê… |
 | 2026-558 | [Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/) | SCIENCE | publie | 2026-10-06 | Le Nobel attribué à IceCube récompense un pari tenu vingt-cinq ans sans résultat décisif. Mais combien de projets ont tenu aussi longtemps pour rien ? La question de savoir quand s'arrêter dépasse la… |
 | 2026-556 | [Quand un service est gratuit, qui en est vraiment le client ?](https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/) | TECH | publie | 2026-10-06 | La publicité entre dans ChatGPT. Une vieille question revient : quand on ne paie pas un service, pour qui travaille-t-il ? Une lecture avec Herbert Simon et Dallas Smythe. |
 | 2026-554 | [Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit en payer le prix ?](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/) | CLIMAT | publie | 2026-10-06 | Réseau électrique, forêt, rivière : l'essor des data centers pose une question ancienne, celle du prix des ressources communes. Qui doit payer, celui qui arrive, celui qui profite, ou tout le monde ? |
@@ -311,10 +314,11 @@
 | 2026-011 | [Amartya Sen - Les capabilites](https://le-phare.info/amartya-sen-les-capabilites/) | CULTURE | publie | 2026-04-08 | La liberte cognitive depend de conditions effectives et non seulement de droits. |
 | 2026-010 | [Anna Tsing - Le champignon de la fin du monde](https://le-phare.info/anna-tsing-le-champignon-de-la-fin-du-monde/) | MONDE | publie | 2026-04-08 | Penser la cognition dans des mondes abimes et incertains. |
 
-## Synthèses et briefings (3)
+## Synthèses et briefings (4)
 
 | ID | Titre | Thème | Statut | Date | Résumé |
 |---|---|---|---|---|---|
+| 2026-562 | [Le Fil du Phare — Qui doit porter le prix de ce que l'on ne voit pas encore ?](https://le-phare.info/fil-du-phare-qui-doit-porter-le-prix-de-ce-que-l-on-ne-voit-pas-encore/) | SCIENCE | publie | 2026-10-06 | Un procès climatique, des data centers, la publicité dans ChatGPT, deux Nobel, une mort suspecte à Irkoutsk : cette semaine, chaque sujet posait la même question. Qui paie pour ce dont les effets n'a… |
 | 2026-547 | [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503) | CULTURE | wp_draft | 2026-10-05 | Un sondage pris à revers, une majorité qui n'en est pas une, un passeport à prix fixe, un musée fermé faute de visiteurs, une IA qui s'évalue elle-même : seize articles de la semaine racontent la mêm… |
 | 2026-515 | [Briefing Slow — mercredi 10 juin 2026 : Ormuz élargi, ETS sous pression, Ukraine sans médiateur](https://le-phare.info/briefing-monde-briefing-slow-mercredi-10-juin-2026/) | MONDE | publie | 2026-06-10 | Le 10 juin 2026, frappes Ormuz élargies, bataille ETS du 15 juillet, Ukraine et 18e paquet sanctions. Briefing slow reliant les faits au graphe Le Phare. |
 | 2026-511 | [Briefing Slow — lundi 8 juin 2026 : trois calendriers qui ne coïncident pas](https://le-phare.info/briefing-monde-briefing-slow-lundi-8-juin-2026/) | MONDE | publie | 2026-06-08 | Le 8 juin 2026, trêve rompue, diplomatie ukrainienne et réponses UE ne suivent pas le même rythme. Briefing slow reliant les faits aux outils Le Phare. |
