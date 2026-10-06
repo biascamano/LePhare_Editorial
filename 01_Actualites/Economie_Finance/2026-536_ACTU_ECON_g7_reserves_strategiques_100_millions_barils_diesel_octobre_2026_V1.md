@@ -13,10 +13,10 @@ Fondamental lie (ID) : 2026-207
 Fondamental numero :
 Type Sentier :
 Posture Sentier : Observer
-Articles lies (IDs) : 2026-445;2026-479;2026-512
+Articles lies (IDs) : 2026-479;2026-512
 Question du Phare : Une réserve stratégique sert-elle à faire baisser les prix, ou à gagner du temps face à une crise qu'elle ne résout pas ?
 Dossier :
-Article precedent (ID) : 2026-445
+Article precedent (ID) :
 Prolongement envisage : Suivre l'effet des libérations de stocks sur les prix du diesel et l'évolution des exportations russes
 Mots-cles : G7;réserves stratégiques;diesel;pétrole;AIE;prix de l'énergie
 Resume court (500 caracteres max) : Le 2 octobre 2026, le G7 annonce la libération coordonnée de jusqu'à 100 millions de barils de diesel et de brut sur quatre mois, sous l'égide de l'AIE. Ce qu'une réserve stratégique peut faire, et ce qu'elle ne peut pas faire.
@@ -58,7 +58,7 @@ Il tient aussi au **signal**. En annonçant une action coordonnée, les grandes 
 
 Le geste du G7 révèle une tension entre deux horizons. À court terme, il s'agit de soulager les consommateurs et d'éviter que la hausse du diesel n'alimente l'inflation. À moyen terme, les causes de la tension, raffineries russes endommagées et guerre en Iran, ne disparaissent pas avec une libération de stocks.
 
-Le Phare a déjà exploré cette distinction. À propos du [blocus d'Ormuz et du rebond du pétrole](https://le-phare.info/?p=4123), nous distinguions la panique des marchés et les ruptures réelles d'approvisionnement. Avec [Susan Strange](https://le-phare.info/susan-strange-pouvoir-structurel-sanctions-petrole-maritime/), nous rappelions que le pouvoir sur l'énergie est aussi un pouvoir de structure : celui de fixer les règles et de contrôler les flux. Et à propos d'[AccelerateEU](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/), nous observions combien les plans d'urgence peinent à répondre aux causes structurelles.
+Tout se joue dans la distinction entre la panique des marchés et les ruptures réelles d'approvisionnement. Avec [Susan Strange](https://le-phare.info/susan-strange-pouvoir-structurel-sanctions-petrole-maritime/), nous rappelions que le pouvoir sur l'énergie est aussi un pouvoir de structure : celui de fixer les règles et de contrôler les flux. Et à propos d'[AccelerateEU](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/), nous observions combien les plans d'urgence peinent à répondre aux causes structurelles.
 
 ## Une autre manière de regarder
 
@@ -89,7 +89,6 @@ Une réserve stratégique sert-elle à faire baisser les prix, ou à gagner du t
 
 **Pour aller plus loin**
 
-- [Ormuz : le blocus américain fait rebondir le pétrole](https://le-phare.info/?p=4123)
 - [Susan Strange : le pouvoir structurel pour lire sanctions pétrolières et routes maritimes](https://le-phare.info/susan-strange-pouvoir-structurel-sanctions-petrole-maritime/)
 - [AccelerateEU : fiscalité de l'électricité et 44 mesures](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/)
 

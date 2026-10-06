@@ -9,8 +9,8 @@ mots locaux et WordPress, constats, action proposée :
 - Refaire : article encore utile (lié par un article récent, cité au Radar ou dans la mémoire,
   ou texte fondateur lié) → réécriture au format actuel, même ID et même URL ;
 - Remettre à niveau : navigation finale, titre, liens — sans réécriture ;
-- Trier : même URL qu'un fondamental, brouillon jamais publié, doublon possible, page rubrique,
-  post introuvable → décision humaine.
+- Trier : même URL qu'un fondamental, brouillon jamais publié, post introuvable → décision humaine.
+Pages rubriques (titre court à emoji) : hors périmètre, gardées hors flux sans `a-la-une` (lot 1).
 « Copie locale tronquée » (WordPress nettement plus long que le markdown) : resynchroniser depuis
 WordPress avant toute retouche, sinon un refresh écraserait l'article en ligne.
 Lecture seule sur les articles et WordPress (GET).
@@ -130,7 +130,8 @@ def main() -> int:
             if target:
                 refs[vp.safe_str(target.get("ID"))] += 1
 
-    scope = [r for r in rows if not vp.is_fonds(r) and family(r) != "wiki" and vp.safe_str(r.get("ID")) not in current]
+    scope = [r for r in rows if not vp.is_fonds(r) and family(r) != "wiki" and vp.safe_str(r.get("ID")) not in current
+             and vp.safe_str(r.get("Statut")) != "archive"]
     wp_words: dict[str, int] = {}
     if not a.offline and vp.CONFIG_PATH.exists():
         wp_words = fetch_wp_words([r for r in scope if vp.safe_str(r.get("Statut")) == "publie"])
@@ -151,6 +152,10 @@ def main() -> int:
             for r in members:
                 if r is not keep:
                     dupe_of[vp.safe_str(r.get("ID"))] = vp.safe_str(keep.get("ID"))
+
+    def is_hub(r: dict[str, str]) -> bool:
+        title = html.unescape(vp.safe_str(r.get("Titre")))
+        return len(title_key(title).split()) <= 2 and bool(EMOJI_RE.search(title))
 
     entries = []
     for r in scope:
@@ -182,12 +187,14 @@ def main() -> int:
         if twin:
             where = "`02_Fonds/`" if vp.is_fonds(twin) else "wiki"
             tier, action = "Trier", f"ligne d'index en double de {vp.safe_str(twin.get('ID'))} ({where}, même URL) : retirer ce doublon ?"
+        elif not published and r.get("Type") == "DOSSIER":
+            tier, action = "Refaire", "dossier jamais publié : mettre au format actuel puis publier"
         elif not published:
             tier, action = "Trier", "brouillon jamais publié : archiver ou supprimer"
         elif rid in dupe_of:
-            tier, action = "Trier", f"doublon possible de {dupe_of[rid]} : fusionner ou dépublier"
-        elif len(title_key(title).split()) <= 2 and EMOJI_RE.search(title):
-            tier, action = "Trier", "page rubrique : garder hors flux (retirer a-la-une ?)"
+            tier, action = "Refaire", f"doublon de {dupe_of[rid]} : fusionner dans l'article retenu, sans dépublier (lot 1, 2026-10-06)"
+        elif is_hub(r):
+            continue
         elif not a.offline and wp_words and wp is None:
             tier, action = "Trier", "post introuvable sur WordPress"
         elif inbound_current[rid] or refs[rid] or (r.get("Type") == "TF" and score(r) >= 3):
@@ -201,6 +208,7 @@ def main() -> int:
 
     n_fonds = sum(1 for r in rows if vp.is_fonds(r))
     n_wiki = sum(1 for r in rows if not vp.is_fonds(r) and family(r) == "wiki")
+    n_hubs = sum(1 for r in scope if is_hub(r))
     counts = defaultdict(int)
     for e in entries:
         counts[e[0]] += 1
@@ -219,6 +227,7 @@ def main() -> int:
         f"| **Trier** (décision humaine) | {counts['Trier']} |",
         f"| Hors périmètre : fondamentaux `02_Fonds/` (éditeur humain) | {n_fonds} |",
         f"| Hors périmètre : wiki du Phare (`Sentier_dedoublonnage_wiki.md`) | {n_wiki} |",
+        f"| Hors périmètre : pages rubriques (hors flux, sans `a-la-une`) | {n_hubs} |",
         "",
         "Liens entrants : `récents/autres/réf.` = articles au format actuel / autres articles / mentions Radar, mémoire, dossiers.",
         "Mots : markdown local / WordPress (`?` = non mesuré).",
@@ -238,7 +247,7 @@ def main() -> int:
             )
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"OK: {OUT.relative_to(ROOT)} — Refaire {counts['Refaire']}, Remettre à niveau {counts['Remettre à niveau']}, "
-          f"Trier {counts['Trier']}, format actuel {len(current)}, hors périmètre {n_fonds + n_wiki}")
+          f"Trier {counts['Trier']}, format actuel {len(current)}, hors périmètre {n_fonds + n_wiki + n_hubs}")
     return 0
 
 

@@ -518,7 +518,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | T12 | Compléter le socle : §5 « Place de Simone Weil » tronqué dans le docx (décision humaine) | Moyenne |
 | T9 | Commit ciblé des fichiers de la refonte | Fait — `19fd68c` + `e56e6aa` (configs locales hors suivi) |
 | T13 | Premier run quotidien V5 (D12) : vérifier arbitrage, `memoire_append`, mise à jour du Radar, `build_etat_courant` | Haute |
-| T14 | Rénovation lot 1 (tri, §19.3) : décisions humaines sur brouillons 419–447, doublons de titre, pages rubriques ; retrait des 29 lignes d'index en double | Haute |
+| T14 | ~~Rénovation lot 1 (tri, §19.3)~~ fait le 2026-10-06 ; reste : URL WP de 062 et 064 | Basse |
 | T15 | Outils de rénovation : resynchronisation WP → local (B18), remise à niveau de la navigation (B19), skill `routine-renovation` (B20) | B18 et B20 faits (v5.4) ; B19 reste (lot 2 à la main en attendant) |
 | T16 | Refresh WP des articles au `# SEO` final publiés avant v5.4 (fuite « SEO » visible en bas d'article, Rank Math vide)  : 35 articles, 2026-528 → 562 ; `wp_refresh_body.py` sur chaque fichier, puis `verify_publication.py` | Fait (v5.4) — 35/35 rafraîchis, 0 erreur ; restent les avertissements 528/529 (navigation triptyque) et 536 (lien vers le brouillon 445) |
 
@@ -702,9 +702,9 @@ Familles d'origine : `triptyque` (ère 2026-419 → 530), `import` (« Import au
 ### 19.2 Classement (règles du script, dans l'ordre)
 
 1. Même URL qu'une ligne `02_Fonds/` ou wiki → Trier (ligne d'index en double).
-2. Jamais publié → Trier (brouillon).
-3. Même début de titre qu'un autre article → Trier (doublon possible ; on garde le mieux relié).
-4. Titre court à emoji → Trier (page rubrique).
+2. Jamais publié → Refaire si DOSSIER, sinon Trier (brouillon). `Statut=archive` → hors périmètre.
+3. Même début de titre qu'un autre article → Refaire (fusion dans le mieux relié, sans dépublier).
+4. Titre court à emoji → hors périmètre (page rubrique, hors flux).
 5. Introuvable sur WP → Trier.
 6. Cité par un article actuel, OU par la mémoire, le Radar ou un dossier, OU TF de score ≥ 3 → Refaire.
 7. Sinon → Remettre à niveau.
@@ -717,14 +717,14 @@ Score de priorité = 3 × liens entrants depuis un article actuel + autres liens
 - Article marqué « copie locale tronquée » (69 dans le périmètre) : resynchroniser depuis WP (B18) avant toute retouche. Ne jamais lancer `wp_refresh_body.py` sur une copie tronquée.
 - Ne jamais toucher `02_Fonds/`.
 
-**Lot 1 — Trier (68, une session, décisions humaines).**
+**Lot 1 — Trier (68) : fait le 2026-10-06.**
 
-| Sous-lot | IDs | Proposition |
-|----------|-----|-------------|
-| Doublons d'index par URL | 29 lignes SENTIER import : 120–129, 152–160, 193–202 (doublons des lignes wiki 335–403) | Retirer la ligne import de l'index et son fichier si identique ; garder la ligne wiki |
-| Brouillons jamais publiés | 26 : 419–435, 439–447 (dont 11 DOSSIER cités 7 à 14 fois dans la mémoire et les dossiers) | DOSSIER : décider publier (après lot 3) ou archiver ; autres : archiver ou supprimer |
-| Doublons de titre | 111 ↔ 455, 005 ↔ 419, 118 ↔ 024, 078 ↔ 029, 192 ↔ 193 | Fusionner dans le mieux relié, ou dépublier l'autre |
-| Pages rubriques | 058, 059, 061–066 | Garder, mais retirer `a-la-une` (hors flux) |
+| Sous-lot | IDs | Décision appliquée |
+|----------|-----|--------------------|
+| Doublons d'index par URL | 29 paires import (120–129, 152–160, 193–202) ↔ wiki (335–344, 355–363, 394–403) | **Lignes wiki retirées** (inverse de la proposition initiale : la ligne import, rattachée au manifeste, est canonique) ; 28 fichiers wiki identiques supprimés. 394 conservé (corps différent, publié sous `/wiki-du-phare/`), sans ligne d'index |
+| Brouillons jamais publiés | 419–435, 439–447 | DOSSIER (419–428, 435) gardés en `wp_draft` → lot 3 (format actuel puis publication) ; 15 autres passés en `Statut=archive` |
+| Doublons de titre | 111 ↔ 455, 005 ↔ 419, 118 ↔ 024, 078 ↔ 029, 192 ↔ 193 | Fusion au lot 3 dans l'article retenu, **sans dépublier** (toute dépublication : accord explicite) |
+| Pages rubriques | 058, 059, 061, 063, 065, 066 | `a-la-une` retiré sur WP ; hors périmètre de l'inventaire. 062 et 064 : post introuvable sur WP (URL d'index à vérifier) |
 
 **Lot 2 — Remettre à niveau (62, par paquets de 5 à 10).**
 - Remplacer « Dans ce triptyque » par la navigation v3 (§5.4) : « La question suivante », « Pour aller plus loin », « Sur le Sentier du Savoir » (B19).
