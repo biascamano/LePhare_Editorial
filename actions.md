@@ -12,12 +12,13 @@ Toutes s'exécutent en autonomie totale jusqu'au rapport final. Déclenchement m
 
 | Prompt | Slash command | Ce que ça fait |
 |--------|---------------|----------------|
-| `routine quotidienne` | `/routine-quotidienne` | Veille 24–72 h, choix d'**un** sujet, rédaction d'une **paire** : A (Actualité, les faits) + B (Question du Phare, ce que l'événement révèle), liens croisés A ↔ B, index, publication WP, deux lignes en mémoire §1. 🔴 |
+| `routine quotidienne` | `/routine-quotidienne` | Lit l'État courant et le Radar, veille 24–72 h, 5 candidats au plus notés sur 5 critères, choix du **meilleur prochain article** puis de son type (Actualité, Question, Application, exceptionnellement TF), rédaction, publication WP, liens en retour, `memoire_append`, Radar, `build_etat_courant` (`plan.md` D12). 🔴 |
 | `routine quotidienne — sujet : …, thème TECH` | idem | Même chose avec sujet, angle et thème imposés. 🔴 |
-| `routine quotidienne — type application` / `type texte fondateur` | idem | Article seul (Application ou Texte fondateur), sans B. 🔴 |
-| `routine quotidienne — type question — sur <ID>` | idem | Article B seul, sur la question finale de l'article `<ID>` (rattrapage). 🔴 |
+| `routine quotidienne — type application` / `type texte fondateur` / `type actualite` | idem | Type imposé. 🔴 |
+| `routine quotidienne — type question — sur <ID>` | idem | Question sur la question finale de l'article `<ID>`. 🔴 |
+| `routine quotidienne — paire` | idem | Actualité + Question le même jour, liens croisés A ↔ B. 🔴 |
 | `routine quotidienne — brouillons seulement` | idem | Même chose mais les posts restent en brouillon WP (`--no-publish-final`). 🔴 |
-| `routine hebdomadaire` / `fil du phare` | `/routine-hebdomadaire` | Relit la semaine, trouve les connexions, formule une grande question, rédige **Le Fil du Phare** (`SYNTHESE`, catégorie `cycle`), audite les fils éditoriaux, prépare la semaine suivante, met à jour mémoire §2–§3. 🔴 |
+| `routine hebdomadaire` / `fil du phare` | `/routine-hebdomadaire` | Relit la semaine, trouve les connexions, formule une grande question, rédige **Le Fil du Phare** (`SYNTHESE`, catégorie `cycle`), audite les fils éditoriaux (5 actifs au plus), tient le comité du Radar (blocs 1–3), met à jour mémoire §1–§3 et régénère l'État courant. 🔴 |
 | `routine mensuelle` | `/routine-mensuelle` | Bilan du mois : phénomènes, mise à jour/création de dossiers, 0–2 textes fondateurs, 0–2 ateliers Sentier, synthèse mensuelle si justifiée, audit navigation et équilibre, rapport `06_Syntheses/Rapports_mensuels/YYYY-MM.md`, cap du mois suivant (mémoire §4–§5). 🔴 |
 | `routine triptyque` / `triptyque` | `/routine-triptyque` | **Ancienne** routine (archivée, secours) : ACTU + TF + SENTIER atelier le même jour. Accepte aussi sujet imposé et `brouillons seulement`. 🔴 |
 | `… api` (ex. `routine triptyque api`) | — | Exception : génération par LLM externe via `editorial_pipeline.py --use-api-llm`. 🔴💰 |
@@ -52,7 +53,7 @@ Point d'entrée technique des routines. À lancer depuis la racine du dépôt.
 | `python tools/wp_push_draft.py --config tools/wp_config.local.json --index index_editorial.csv <fichier\|dossier>` | Crée les brouillons WP et met à jour l'index (URL, slug). Ignore les articles déjà poussés sauf `--force`. 🔴 |
 | `… --refresh-body` | Réécrit le corps d'un post existant. Autorisé sur `05_Sentier/…`, **jamais** sur `02_Fonds/…`. 🔴 |
 | `python tools/wp_refresh_body.py "<chemin>" […] [--allow-fonds]` | Raccourci de `--refresh-body` (config et index implicites, sans demande de permission). Refuse `02_Fonds/…` sauf `--allow-fonds`. Affiche `status`, `error`, `wordpress_id`, `link`. 🔴 |
-| `python tools/index_lookup.py <ID> […]` | Affiche statut, URL et slug WP des IDs depuis l'index. 🟢 |
+| `python tools/index_lookup.py <ID> […]` | Affiche statut, URL et slug WP des IDs depuis l'index. Recherche : `--search "<texte>"`, filtres `--type`, `--theme`, `--dossier`, `--limit N`. 🟢 |
 | `… --sync-featured-media` | Met à jour l'image à la une seulement. Options : `--featured-media-map`, `--no-featured-media`. 🔴 |
 | `… --no-rank-math-meta` | Ne pousse pas les métadonnées Rank Math du bloc `# SEO`. 🔴 |
 | `python tools/post_linking.py --dry-run --index index_editorial.csv --config tools/wp_config.local.json <dossier>` | Aperçu du maillage interne d'un dossier (1 ou 3 articles). 🟢 |
@@ -78,7 +79,9 @@ Point d'entrée technique des routines. À lancer depuis la racine du dépôt.
 |----------|----------------|
 | `python tools/validate_index_editorial.py [--index …]` | Détecte les décalages de colonnes (cause de doublons WP au re-push). 🟢 |
 | `python tools/validate_index_editorial.py --ids <ID> [<ID>…]` | Contrôle v3 d'articles : type/chemin/catégorie, ≤ 8 tags dont le tag de thème, champs v3 de l'en-tête, corps rédigé, navigation finale, `Slug propose` = index, meta description, pas d'URL nue dans les Repères, liens internes connus. Les articles d'avant la v3 échouent sur les champs v3 (normal). 🟢 |
-| `python tools/build_catalogue.py` | Régénère `00_Systeme/Catalogue_editorial.md` depuis l'index (inventaire par niveau, équilibre par thème, lacunes : penseurs sans TF, fondamentaux sans article, prolongements). Lecture seule sur l'index. Lancé par la mensuelle. |
+| `python tools/build_catalogue.py` | Régénère `00_Systeme/Catalogue_editorial.md` depuis l'index (inventaire par niveau, équilibre par thème, lacunes : penseurs sans TF, fondamentaux sans article, prolongements). Lecture seule sur l'index. Lancé par la mensuelle (la quotidienne ne le lit pas). |
+| `python tools/build_etat_courant.py` | Régénère `00_Systeme/Etat_editorial_courant.md` (≤ 50 lignes) depuis la mémoire et le Radar : vue courte lue par la quotidienne. Jamais éditer ce fichier à la main (`plan.md` D13). 🟡 |
+| `python tools/memoire_append.py <ID> [--penseur "…"] [--type-label …] [--sentier <ID>] [--date YYYY-MM-DD] [--dry-run]` | Ajoute la ligne §1 de la mémoire pour un article indexé (titre, URL, type, thème, question, dossier… lus dans l'index et l'en-tête). 🟡 |
 | `python tools/build_hubs.py [--dry-run]` | Régénère `## Liens internes du dossier` des pages principales de `03_Dossiers` depuis l'index (volets du sous-dossier + en-têtes `Dossier :`). Local uniquement ; affiche les `--refresh-body` à lancer. 🟡 |
 | `index_editorial_utils.build_index_row(...)` + `append_rows_to_index(...)` (Python) | **Seule** façon autorisée d'ajouter une ligne à l'index. 🟡 |
 | `python tools/new_article.py create --type <type> --theme <THEME> --title "…" [--slug …] [--pillar …] [--fondamental-id …] [--dossier-dir …] [--dry-run]` | Crée un article déjà rangé : réserve l'ID, choisit dossier, nom de fichier, catégorie et tags (≤ 8), écrit le squelette v3 et ajoute la ligne d'index (`en_redaction`). Types : `actualite`, `question`, `application`, `texte-fondateur`, `fil-du-phare`, `synthese-mensuelle`, `dossier`, `atelier`. 🟡 |

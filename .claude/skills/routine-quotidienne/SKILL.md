@@ -1,87 +1,100 @@
 ---
 name: routine-quotidienne
-description: Routine quotidienne Le Phare — une PAIRE d'articles à partir de l'actualité du jour : A (Actualité, les faits) et B (Question du Phare, ce que l'événement révèle) ; publication WordPress puis deux lignes en mémoire éditoriale. Déclenché par « routine quotidienne » ou /routine-quotidienne. (L'ancien triptyque ACTU+TF+SENTIER = /routine-triptyque.)
+description: Routine quotidienne Le Phare (V5, pilotage éditorial adaptatif) — part de l'état éditorial (derniers articles, fils, Radar) puis de l'actualité, choisit LE meilleur prochain article et son type (Actualité, Question, Application, exceptionnellement Texte fondateur), le rédige, le publie sur WordPress, le relie et le mémorise. Déclenché par « routine quotidienne » ou /routine-quotidienne. Variante « paire » = Actualité + Question le même jour. (L'ancien triptyque = /routine-triptyque.)
 ---
 
 # Routine quotidienne — Le Phare Info
 
-**Question du jour : « Que s'est-il passé, et qu'est-ce que cela révèle ? »**
+**Question du jour : « Quel est le meilleur prochain article du Phare ? »**
 
-Le quotidien produit les briques : chaque jour, un article **A — Actualité** (« Voir ») et un article **B — Question du Phare** (« Interroger ») qui pose la question finale de A (`plan.md` D9–D11). Il ne fait PAS : restructuration des dossiers, synthèse de la semaine, architecture du Sentier, analyse du mois, création systématique de texte fondateur ou d'atelier Sentier → routines hebdomadaire / mensuelle.
+Regarder derrière (ce qu'on vient de publier), devant (le Radar), autour (l'actualité) ; choisir ; publier ; relier ; mémoriser (`plan.md` D12–D14).
+
+Le quotidien produit **un** article par jour, dont le type se décide **après** le sujet. Il ne fait PAS : restructuration des dossiers, synthèse de la semaine, architecture du Sentier, analyse du mois, atelier Sentier, tri du Radar → routines hebdomadaire / mensuelle.
 
 Référence éditoriale : `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` (ligne éditoriale) et `00_Systeme/Instructions_editoriales_officielles.md` (qualité rédactionnelle). Écart entre les deux → le signaler dans le rapport, ne pas trancher seul (D10).
 
+**Sobriété** : avant de lire un fichier, se demander s'il est nécessaire. Lectures par défaut : **trois** (État courant, Radar, veille web). Pas de `Catalogue_editorial.md`, pas de mémoire complète, pas d'index entier.
+
 ## Variantes du prompt
 
-- **Sujet imposé** (`routine quotidienne — sujet : …, thème TECH`) : respecter sujet/angle/thème ; produire la paire.
-- **Brouillons seulement** : `--no-publish-final` sur tous les runs.
-- **`type application` / `type texte fondateur`** : article **seul** (C ou D), pas de B.
-- **`type question — sur <ID>`** : article **B seul**, en rattrapage, sur la question finale de l'article `<ID>` déjà publié (étapes 6B à 9 seulement, `--previous <ID>`). Sans `<ID>` : prendre la première entrée P1 de `00_Systeme/Articles_a_creer.md` §2.
+- **Sujet imposé** (`routine quotidienne — sujet : …, thème TECH`) : respecter sujet/angle/thème ; le type reste à choisir (étape 5) sauf s'il est précisé.
+- **Brouillons seulement** : `--no-publish-final`.
+- **`type application` / `type texte fondateur` / `type actualite`** : type imposé, sujet choisi par la routine.
+- **`type question — sur <ID>`** : article Question sur la question finale de `<ID>` (`--previous <ID>`). Sans `<ID>` : première question P1 du Radar (bloc 2).
+- **`paire`** : Actualité + Question le même jour (mécanique en fin de skill). Ancienne règle D9, désormais sur demande.
 
 Autonomie totale : pas de validation du sujet, pas de confirmation intermédiaire, exécution jusqu'au rapport final.
 
-## 1. Lire la mémoire éditoriale
+## 1. Regarder derrière : l'état immédiat
 
-`00_Systeme/Memoire_editoriale.md` : §1 (15 dernières lignes), §2 fils actifs, §3 dernier Fil du Phare, §4 cap du mois. Identifier sujets récents, Questions du Phare ouvertes, dossiers actifs, penseurs récents, étapes du Sentier sollicitées, prolongements envisagés. Ne pas répéter un sujet sans raison.
+Lire `00_Systeme/Etat_editorial_courant.md` (généré, ≤ 50 lignes) : 10 derniers articles, 5 fils actifs, questions prioritaires, prochains candidats, cap du mois, dernier Fil du Phare.
 
-Puis `00_Systeme/Articles_a_creer.md` §1–§2 (liste priorisée tenue par l'hebdomadaire et la mensuelle) : repérer les entrées P1 dont l'échéance est atteinte.
+S'il manque ou date de plus de 7 jours : `python tools/build_etat_courant.py` puis le lire. Ne lire `00_Systeme/Memoire_editoriale.md` qu'en cas de besoin précis (une ligne, un fil), par section.
 
-Les deux IDs (A puis B) sont attribués à l'étape 8 par `tools/new_article.py` (ne pas les calculer à la main).
+## 2. Regarder devant : le Radar
 
-## 2. Analyser l'actualité (24–72 h)
+Lire `00_Systeme/Radar_editorial.md` (≤ 30 entrées actives). Repérer : entrées `à échéance` dont la date est atteinte, suites naturelles des derniers articles, questions en attente, connexions, structurants.
 
-Veille web (presse sérieuse, sources institutionnelles). Retenir 5 à 10 sujets ayant des conséquences réelles, compréhensibles au-delà de l'événement, ou prolongeant une question / un dossier existant, ou faisant émerger une question durable. Écarter buzz, polémique sans conséquence, fait divers isolé, sensationnel.
+## 3. Regarder autour : l'actualité (24–72 h)
 
-## 3. Choisir UN sujet
+Veille web (presse sérieuse, sources institutionnelles). **Si le Radar a déjà un candidat fort** (échéance atteinte, suite naturelle) : la veille se limite à vérifier qu'aucun événement majeur ne doit passer devant. Sinon : 5 à 10 sujets à conséquences réelles, compréhensibles au-delà de l'événement. Écarter buzz, polémique sans conséquence, fait divers isolé, sensationnel.
 
-Critères : importance, durabilité, intérêt intellectuel, originalité, connexion avec les publications précédentes. **Le potentiel de Question du Phare est décisif** : un sujet qui n'ouvre aucune question réutilisable ailleurs ne fait pas une paire. Tenir compte des catégories sous-représentées (§4 de la mémoire) sans forcer. Une entrée P1 de `00_Systeme/Articles_a_creer.md` arrivée à échéance passe en tête des candidats si l'actualité du jour la confirme ; sinon la laisser.
+Une entrée `à échéance` ne s'écrit que si les faits du jour la confirment, sur sources vérifiées ce jour-là.
 
-## 4. Déterminer la forme
+## 4. Candidats et arbitrage
 
-Par défaut : **la paire A + B**. Article seul uniquement sur demande explicite (variantes).
+Constituer **5 candidats au plus**, dont **1 à 3 issus de la veille** :
 
-| Article | Question principale | `--type` | Code index | Dossier canonique | Categorie_WP |
-|---------|---------------------|----------|------------|-------------------|--------------|
-| **A. Actualité** | Que s'est-il passé et pourquoi est-ce important ? | `actualite` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
-| **B. Question du Phare** | Qu'est-ce que cet événement révèle au-delà de lui-même ? | `question` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
-| C. Application (seul) | Une question déjà étudiée, vue sur un autre terrain | `application` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
-| D. Texte fondateur (seul) | Seulement si un concept devient nécessaire — jamais artificiel | `texte-fondateur` | `TF` | `04_Textes_fondateurs/Auteurs/` | `textes-fondateurs` |
+| Sorte | Exemple |
+|---|---|
+| A. Actualité nouvelle | un événement majeur des dernières 72 h |
+| B. Suite d'un article récent | échéance atteinte, question finale d'une actualité récente |
+| C. Connexion | relier deux articles ou un fil à un nouveau terrain |
+| D. Contenu structurant | texte fondateur ou application qui éclaire plusieurs articles |
 
-Tags de type posés par le script : `type-actualite` | `type-question` | `type-application` | `type-texte-fondateur`, + `question-du-phare`.
+Noter chaque candidat **Faible / Moyen / Fort** sur cinq critères : **importance actuelle**, **continuité** (avec ce qui vient d'être publié, les fils), **durabilité**, **valeur de compréhension**, **nouveauté** (ne pas répéter un sujet sans raison).
 
-## 5. Fiche de préparation (interne, non publiée)
+Ordre de priorité à notes proches : actualité majeure → suite naturelle → connexion → article structurant. Tenir compte des catégories sous-représentées (cap du mois) sans forcer.
 
-Sujet / titre provisoire · Pourquoi aujourd'hui (2–4 phrases) · Faits essentiels (5–10) · Certain / incertain · **Question du Phare (une seule)**, testée contre les critères du §6B · **Au moins 2 autres domaines ou situations réels** où la question se pose (articles du Phare de préférence) · Penseur/concept comme grille de lecture (si pertinent) · Connexion précédente (quel article y mène) · Dossier existant éventuel · Sentier (étape ou fondamental, via `00_Systeme/Manifests/sentier_fondamentaux.csv`, jamais `wiki-du-phare`) · Prolongement possible.
+Critère final : **« Cet article est-il le meilleur prochain article du Phare ? »**
 
-Si la question est trop faible : la **reformuler**, ne pas sauter B.
+## 5. Choisir le type (après le sujet)
 
-## 6. Rédiger
+| Type | Quand | `--type` | Code index | Dossier canonique | Categorie_WP |
+|------|-------|----------|------------|-------------------|--------------|
+| **Actualité** | Un fait nouveau à établir et contextualiser | `actualite` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
+| **Question** | La question finale d'un article récent mérite d'être développée | `question` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
+| **Application** | Une question déjà étudiée, vue sur un autre terrain (connexion) | `application` | `ACTU` | `01_Actualites/<Theme>/` | `actualites` |
+| **Texte fondateur** (exceptionnel) | Un concept devient nécessaire à plusieurs articles — jamais artificiel | `texte-fondateur` | `TF` | `04_Textes_fondateurs/Auteurs/` | `textes-fondateurs` |
 
-Commun à A et B : qualité cible `00_Systeme/Instructions_editoriales_officielles.md` (slow journalism, §3.0 titres adaptés au sujet, §3.8 si institutionnel, gras parcimonieux). Rédiger soi-même (pas d'API / Ollama). Chaque article doit pouvoir être lu seul. Micro-édition + calibrage automatiques. Aucun fait inventé.
+Le type découle du sujet, **jamais** d'un équilibrage artificiel. Pas de série rigide (pas « Actualité un jour, Question le lendemain » par principe).
 
-### 6A. Article A — Actualité (~700–1100 mots)
+## 6. Fiche de préparation (interne, non publiée)
 
-Factuel, sourcé, accessible, contextualisé, non sensationnaliste. Répond notamment à : que s'est-il passé ? que savons-nous avec certitude, que reste-t-il incertain ? quelles causes, quelles conséquences ? quels acteurs ? quelles interprétations s'opposent ?
+Sujet / titre provisoire · Type et pourquoi · Pourquoi aujourd'hui (2–4 phrases) · Faits essentiels (5–10) · Certain / incertain · **Question du Phare (une seule)** · Penseur/concept (Question, Application, TF) · Article d'origine (`--previous`) · Dossier existant éventuel · Sentier (fondamental via `00_Systeme/Manifests/sentier_fondamentaux.csv`, jamais `wiki-du-phare`) · Prolongement possible.
 
-Intertitres adaptés au sujet (pas de plan fixe). **Pas de section penseur** (elle passe dans B). Ne se termine pas sur une simple synthèse : la dernière section fait **émerger** la Question du Phare des faits.
+**Liens internes : 5 articles au plus vérifiés** avant rédaction, via `python tools/index_lookup.py <IDs>` ou `python tools/index_lookup.py --search "<mot>" [--type question] [--theme SCIENCE] [--dossier 2026-559]`.
 
-### 6B. Article B — Question du Phare (~800–1200 mots)
+## 7. Rédiger
 
-Critères de la question : claire ; ouverte ; durable ; compréhensible ; directement issue des faits ; réutilisable dans d'autres domaines ; profonde sans devenir artificiellement philosophique.
+Commun : qualité cible `00_Systeme/Instructions_editoriales_officielles.md` (slow journalism, §3.0 titres adaptés au sujet, §3.8 si institutionnel, gras parcimonieux). Rédiger soi-même (pas d'API / Ollama). L'article doit pouvoir être lu seul. Aucun fait inventé.
 
-Structure indicative (intertitres à adapter) :
+**Actualité (~700–1100 mots)** — Factuel, sourcé, accessible, contextualisé, non sensationnaliste. Que s'est-il passé ? que savons-nous avec certitude, que reste-t-il incertain ? causes, conséquences, acteurs, interprétations opposées. Intertitres adaptés au sujet. **Pas de section penseur.** La dernière section fait **émerger** la Question du Phare des faits.
 
-1. **Le point de départ** — l'actualité en **un** paragraphe, lien vers A. Pas de redite des faits au-delà.
+**Question (~800–1200 mots)** — Question claire, ouverte, durable, compréhensible, issue des faits, réutilisable ailleurs, profonde sans devenir artificiellement philosophique. Structure indicative :
+1. **Le point de départ** — l'actualité d'origine en **un** paragraphe, lien vers elle.
 2. **Pourquoi cette question** — ce que l'événement révèle au-delà de lui-même.
-3. **Ailleurs, la même question** — au moins deux autres domaines ou situations réels (URLs de l'index).
-4. **Une pensée pour regarder autrement** — si pertinent : *tester une intuition* d'un penseur, puis la confronter aux faits. Jamais d'argument d'autorité (pas « X avait raison »). Repères : `plan.md` §5.8. Lien vers un TF seulement s'il est dans l'index ; sinon nommer sans lien.
-5. **Ce qui résiste** — objections, limites, ce que la question ne permet pas de trancher.
+3. **Ailleurs, la même question** — au moins deux autres situations réelles (URLs de l'index).
+4. **Une pensée pour regarder autrement** — si pertinent : *tester* une intuition d'un penseur, la confronter aux faits ; jamais d'argument d'autorité. Repères : `plan.md` §5.8. Lien vers un TF seulement s'il est dans l'index.
+5. **Ce qui résiste** — objections, limites.
 6. **Ce que nous pouvons en retenir** — outils pour penser par soi-même.
-7. **La question laissée ouverte** — prolongement ; n'appelle pas automatiquement un nouvel article.
+7. **La question laissée ouverte**.
 
-Titre : la question elle-même ou une formulation courte qui la porte.
+**Application (~800–1100 mots)** — Une question déjà posée par Le Phare (lien vers l'article Question ou le TF), appliquée à un terrain nouveau et réel : ce que la grille éclaire, ce qu'elle ne voit pas.
 
-## 7. Navigation finale (avant `# SEO`)
+**Texte fondateur (~900–1600 mots)** — Posture Comprendre ; règles de `00_Systeme/Instructions_editoriales_officielles.md` ; liens vers les articles récents qu'il éclaire. `--routine quotidienne` obligatoire.
+
+## 8. Navigation finale (avant `# SEO`)
 
 ```markdown
 ---
@@ -92,52 +105,50 @@ Titre : la question elle-même ou une formulation courte qui la porte.
 
 **La question suivante**
 
-[A : la Question du Phare — devient un lien vers B une fois B publié (§8, étape 3)]
-[B : la question laissée ouverte, une phrase]
+[Actualité : la Question du Phare · Question/Application/TF : la question laissée ouverte, une phrase]
 
 **Pour aller plus loin**
 
-- [B : premier lien = article A](url)
-- [Titre article précédent ou dossier](url)
+- [Article d'origine](url)
+- [Titre article lié ou dossier](url)
 
 **Sur le Sentier du Savoir**
 
 - [Titre du fondamental](url_canonique)
 ```
 
-Liens Markdown obligatoires (pas d'URL nue). Liens internes : uniquement des URLs réelles lues dans `index_editorial.csv` / `sentier_fondamentaux.csv`. Pas de section `Dans ce triptyque`.
+Liens Markdown obligatoires (pas d'URL nue). Liens internes : uniquement des URLs réelles lues dans l'index / le manifeste. Pas de section `Dans ce triptyque`.
 
-## 8. Fichiers, index, WordPress
+## 9. Publier
 
-Créer **A puis B avant** de rédiger les corps (ID, dossier, nom de fichier, catégorie, tags et ligne d'index sont calculés par le script) :
 ```bash
-python tools/new_article.py create --type actualite --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "…" --previous <ID> --linked "<ID>;…" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>" [--dossier "<…>"]
-python tools/new_article.py create --type question --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "<question de A>" --previous <ID A> --linked "<ID A>;<IDs de la section 3>" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>"
+python tools/new_article.py create --type <type> --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "…" --previous <ID> --linked "<ID>;…" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>" [--dossier "<ID dossier>"]
 ```
-(Article seul C/D : un seul `create` ; `--routine quotidienne` obligatoire pour un texte fondateur.) Le script renvoie `id` et `path` : écrire le corps à la place de `[Corps de l'article à rédiger]`, compléter la navigation finale, `Sources principales` et le bloc `# SEO` (mot-clé, meta description, `Slug propose`). En-tête de B : `Type article : Question`, `Question du Phare` = la question traitée, `Article precedent (ID)` = ID de A.
 
-`python tools/new_article.py stage <ID>` copie dans `07_A_Publier/<date>_<slug>/` et lance le contrôle v3 : s'il est KO, corriger et relancer — jamais `--force` en routine. Ne jamais écrire l'index à la main ni via `csv.writer`.
+Le script renvoie `id` et `path` (ID, dossier, nom de fichier, catégorie, tags, ligne d'index calculés ; ne jamais écrire l'index à la main ni via `csv.writer`). Écrire le corps à la place de `[Corps de l'article à rédiger]`, compléter la navigation, `Sources principales` et le bloc `# SEO` (mot-clé, meta description, `Slug propose`). Pour une Question : `Question du Phare` = la question traitée, `Article precedent (ID)` = l'article d'origine.
 
-Publication de la paire (mécanique transitoire, `plan.md` §5.9 — `post_linking.py` refuse un dossier de 2 articles) :
+```bash
+python tools/new_article.py stage <ID>
+python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder [--force] [--no-publish-final]
+```
 
-1. Rédiger A ; `stage` A ;
-   `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier A>" --keep-publish-folder [--no-publish-final]`
-2. Rédiger B avec l'URL de A **lue dans l'index** (`python tools/index_lookup.py <ID A>`) ; `stage` B ;
-   `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier B>" --keep-publish-folder --force [--no-publish-final]`
-   (`--force` : le run du jour est déjà marqué réussi par A.)
-3. Dans A (copie canonique **et** copie de transit), remplacer la question nue de « La question suivante » par `[question](URL de B lue dans l'index)`, puis :
-   `python tools/wp_refresh_body.py "<chemin canonique A>"`
-   (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, la règle deny la bloque ; ne pas lire ce fichier.)
+`stage` lance le contrôle v3 : s'il est KO, corriger et relancer — jamais `--force` sur `stage` en routine. `--force` sur `daily_run` seulement si un run a déjà réussi le même jour. Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON.
 
-Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON. Si B échoue : A reste publié, l'échec est **signalé** dans le rapport (jamais livrer A seul en silence).
+**Relier en retour** : si l'article est une Question ou une Application issue d'un article récent, dans l'article d'origine (copie canonique), remplacer la question nue de « La question suivante » par `[question](URL lue dans l'index)`, puis `python tools/wp_refresh_body.py "<chemin canonique de l'origine>"` (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, ne pas lire ce fichier).
 
-Fournir dans le rapport : idée d'image, légende, texte alternatif pour A et B (pas de génération d'image).
+## 10. Mémoriser
 
-## 9. Mettre à jour la mémoire éditoriale
+```bash
+python tools/memoire_append.py <ID> --penseur "<penseur ou concept>" --sentier <ID fondamental>
+```
+(ajoute la ligne au §1 de la mémoire depuis l'en-tête et l'index ; `--dry-run` pour voir la ligne.)
 
-Ajouter **deux lignes** (A puis B) à la fin du tableau §1 de `00_Systeme/Memoire_editoriale.md` : date, ID, `[titre](url WP)`, type, catégorie/thème, Question du Phare, dossier, penseur, Sentier, article précédent, prolongement envisagé. Pour B, article précédent = A. Ne pas toucher §2–§5.
+Puis, dans `00_Systeme/Radar_editorial.md` :
+- **retirer** l'entrée réalisée (s'il y en a une) ;
+- si l'article est une Actualité : **ajouter** sa Question du Phare au bloc 2 (`| P? | Question | <question> (<THEME>) | <ID> | approfondir |`) et, si un fait est attendu, une suite au bloc 1 (`à échéance (…)`).
+Ne pas fusionner, re-prioriser ni archiver : c'est le rôle de l'hebdomadaire.
 
-Si la paire réalise une entrée de `00_Systeme/Articles_a_creer.md`, **retirer** cette entrée (pas d'ajout : réservé à l'hebdomadaire et à la mensuelle).
+En dernier : `python tools/build_etat_courant.py`.
 
 **La routine s'arrête ici.**
 
@@ -145,19 +156,29 @@ Si la paire réalise une entrée de `00_Systeme/Articles_a_creer.md`, **retirer*
 
 ```
 Routine quotidienne — [date]
-A : [titre] (ID YYYY-NNN, Actualité) — URL
-B : [titre] (ID YYYY-NNN, Question) — URL
+Candidats : 1. … (sorte, notes) · 2. … · … (5 au plus)
+Choix : [titre] (ID YYYY-NNN, <type>) — URL
+Pourquoi celui-là : 2–3 phrases (critères décisifs)
+Pourquoi ce type : 1 phrase
 Question du Phare : …
-Liens croisés : A → B ok / B → A ok
-Prolongement envisagé : …
-Images : A idée / légende / alt · B idée / légende / alt
+Liens : origine → article ok / article → origine ok (ou sans objet)
+Radar : retiré … / ajouté …
+Image : idée / légende / alt
 Écarts socle / Instructions : … (ou aucun)
 À vérifier : WordPress
 ```
 
+## Variante `paire` (Actualité + Question le même jour)
+
+`post_linking.py` refuse un dossier de 2 articles (`plan.md` §5.9) : deux dossiers de transit, deux runs.
+1. `create` + rédiger l'Actualité ; `stage` ; `daily_run --publish-existing "<dossier A>" --keep-publish-folder [--no-publish-final]`.
+2. `create --type question --previous <ID A>` ; rédiger avec l'URL de A **lue dans l'index** ; `stage` ; `daily_run … --keep-publish-folder --force [--no-publish-final]`.
+3. Relier en retour A → B (étape 9) ; `memoire_append` pour A puis B ; la question de A n'entre pas au Radar (elle est traitée).
+Si B échoue : A reste publié, l'échec est **signalé** dans le rapport.
+
 ## Économie de tokens
 
-Ne pas relire un fichier après une édition réussie. Résumer les sorties JSON. Lire la mémoire par sections, pas l'index entier (`python tools/index_lookup.py <IDs>` pour les URLs).
+Ne pas relire un fichier après une édition réussie. Résumer les sorties JSON. URLs : `index_lookup.py`, jamais l'index entier.
 
 ## Commandes sans demande de permission
 
@@ -165,8 +186,10 @@ Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `pytho
 
 ## Ne pas faire
 
-- Livrer A seul sans B (hors variante explicite) sans le signaler.
-- Répéter dans B les faits de A au-delà d'un paragraphe ; mettre un penseur dans A.
+- Choisir le type avant le sujet, ou pour « équilibrer ».
+- Lire `Catalogue_editorial.md` ou la mémoire entière en routine quotidienne.
+- Éditer `Etat_editorial_courant.md` à la main (il est régénéré).
+- Mettre un penseur dans une Actualité ; répéter dans une Question les faits de l'origine au-delà d'un paragraphe.
 - Produire un triptyque ou un atelier Sentier (→ `/routine-triptyque` ou `/routine-mensuelle`).
 - Modifier `02_Fonds/`, `03_Dossiers/`, les §2–§5 de la mémoire.
 - Inventer une URL interne ou un fait.

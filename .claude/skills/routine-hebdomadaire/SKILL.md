@@ -1,6 +1,6 @@
 ---
 name: routine-hebdomadaire
-description: Routine hebdomadaire Le Phare — relire les articles de la semaine, dégager le fil rouge, publier « Le Fil du Phare » (catégorie cycle), auditer les fils éditoriaux et préparer la semaine suivante dans la mémoire éditoriale. Déclenché par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
+description: Routine hebdomadaire Le Phare — relire les articles de la semaine, dégager le fil rouge, publier « Le Fil du Phare » (catégorie cycle), auditer les fils éditoriaux (5 actifs au plus), tenir le comité éditorial du Radar et régénérer l'état courant. Déclenché par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
 ---
 
 # Routine hebdomadaire — Le Fil du Phare
@@ -49,7 +49,7 @@ python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-pub
 
 ## 5. Auditer les fils éditoriaux
 
-Mettre à jour §2 de la mémoire :
+Mettre à jour §2 de la mémoire (**5 fils actifs au plus** : au-delà, clôturer ou mettre de côté les moins nourris) :
 - **à poursuivre** — questions assez riches pour d'autres articles (+ prochaine piste) ;
 - **à clôturer** — suffisamment traitées ;
 - **à mettre de côté** — intéressantes mais il manque de l'actualité ou de la connaissance (+ condition de reprise).
@@ -58,13 +58,21 @@ Mettre à jour §2 de la mémoire :
 
 3 à 5 pistes : articles à poursuivre, nouveaux domaines où tester les mêmes questions, textes fondateurs éventuellement nécessaires. Ne **pas** fixer un programme de sept articles : l'actualité doit pouvoir le modifier.
 
-Reporter les pistes durables dans `00_Systeme/Articles_a_creer.md` (§1 suivis datés, §2 questions en attente ; P1 réservé aux échéances fixes, sinon P2/P3) et retirer les entrées réalisées dans la semaine. Ne pas toucher aux §3–§5 de ce fichier (textes fondateurs, dossiers, Sentier → mensuelle).
+**Comité éditorial du Radar** (`00_Systeme/Radar_editorial.md`, `plan.md` D14) :
+- retirer les entrées réalisées dans la semaine ; fusionner les doublons (même question sous deux formulations) ;
+- re-prioriser blocs 1–3 (P1 réservé aux échéances fixes et aux suites naturelles fortes, sinon P2/P3) ; ajuster les statuts (`approfondir`, `relier`, `à échéance (…)`, `conserver`) ;
+- ajouter les pistes durables de la semaine (bloc 1 suites, bloc 2 questions, bloc 3 connexions) ;
+- passer en `archivé` (section Archives) ce qui a perdu sa raison d'être ; **30 entrées actives au plus** ;
+- mettre à jour la date « État au ».
+Ne pas toucher aux blocs 4–5 (textes fondateurs, dossiers, Sentier → mensuelle).
 
 ## 7. Mettre à jour la mémoire éditoriale
 
-- §1 : ajouter la ligne du Fil du Phare (type `Fil du Phare`).
+- §1 : `python tools/memoire_append.py <ID> --penseur "…"` (ligne du Fil du Phare).
 - §2 : fils (étape 5).
 - §3 : nouvelle ligne **en haut** — semaine, grande question, ID Fil du Phare, concepts apparus, dossiers renforcés, pistes.
+
+En dernier : `python tools/build_etat_courant.py` (vue courte lue par la quotidienne).
 
 Optionnel (si l'utilisateur le demande) : rétro de la routine via `00_Systeme/Retro_routine_hebdo_TEMPLATE.md`.
 
@@ -75,6 +83,7 @@ Routine hebdomadaire — semaine du … au …
 Fil du Phare : [question] — URL
 Articles reliés : N (IDs)
 Fils : +X actifs / Y clôturés / Z de côté
+Radar : N actives (retirées … / fusionnées … / archivées …)
 Pistes semaine suivante : …
 ```
 

@@ -4,9 +4,11 @@ Fichier **partagé** par les trois routines. Source de vérité sur *où en est*
 
 | Routine | Lit | Écrit |
 |---------|-----|-------|
-| Quotidienne | §1 (15 dernières lignes), §2, §3, §4 | §1 (une ligne par article) |
-| Hebdomadaire | §1 (7 derniers jours), §2, §4 | §2, §3 |
+| Quotidienne | `Etat_editorial_courant.md` (généré depuis §1–§4) + `Radar_editorial.md` — pas ce fichier en entier | §1 (une ligne par article, `tools/memoire_append.py`) |
+| Hebdomadaire | §1 (7 derniers jours), §2, §4 | §1, §2 (5 fils actifs au plus), §3 |
 | Mensuelle | §1 (mois écoulé), §2, §3, §4 | §4, §5 ; archive §1 |
+
+Après écriture : `python tools/build_etat_courant.py` (régénère la vue courte).
 
 Règles d'écriture :
 - Une ligne de journal = un article publié. Titre en lien `[titre](url)`. Champs inconnus : `—`.

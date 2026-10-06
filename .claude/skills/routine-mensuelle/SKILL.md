@@ -13,7 +13,7 @@ Autonomie : exécuter l'analyse et les productions jusqu'au rapport. Les **créa
 
 ## 1. Examiner le mois écoulé
 
-Régénérer d'abord le catalogue : `python tools/build_catalogue.py` → `00_Systeme/Catalogue_editorial.md` (inventaire, équilibre par thème, lacunes : penseurs du socle sans TF, fondamentaux sans article, prolongements). Lire aussi `00_Systeme/Articles_a_creer.md`.
+Régénérer d'abord le catalogue : `python tools/build_catalogue.py` → `00_Systeme/Catalogue_editorial.md` (inventaire, équilibre par thème, lacunes : penseurs du socle sans TF, fondamentaux sans article, prolongements). Lire aussi `00_Systeme/Radar_editorial.md` (entier, archives comprises). La vue large (catalogue) est réservée à la mensuelle : la quotidienne ne le lit pas.
 
 Mémoire §1 (lignes du mois), §2, §3 (Fils du Phare du mois), §4 (cap précédent). Pour chaque article : thème, Question du Phare, dossier, concepts, penseurs, Sentier, articles reliés.
 
@@ -31,14 +31,14 @@ Proposer un dossier seulement si plusieurs articles différents convergent vers 
 
 ## 5. Textes fondateurs
 
-Partir de `00_Systeme/Articles_a_creer.md` §3 et des lacunes du catalogue. Repérer les penseurs/concepts fréquemment nécessaires. Décider : TF existants (grep `04_Textes_fondateurs/Auteurs/` + index type `TF`), à créer, à relier aux nouveaux articles.
+Partir du Radar bloc 4 (structurants) et des lacunes du catalogue. Repérer les penseurs/concepts fréquemment nécessaires. Décider : TF existants (grep `04_Textes_fondateurs/Auteurs/` + index type `TF`), à créer, à relier aux nouveaux articles.
 Création (0 à 2 par mois) : `python tools/new_article.py create --type texte-fondateur --theme <THEME> --title "…" …` (posture Comprendre, `04_Textes_fondateurs/Auteurs/`, `textes-fondateurs`), ~900–1600 mots, liens vers les articles du mois. Règles détaillées : `00_Systeme/Instructions_editoriales_officielles.md`.
 
 ## 6. Sentier du Savoir
 
 Ne pas transformer chaque actualité en Sentier. Chercher la **compétence intellectuelle générale** que le mois révèle (crises complexes → cartographier un système ; controverses statistiques → lire des chiffres ; débats contradictoires → comparer des arguments ; problèmes de sources → hiérarchiser les sources).
 
-Partir de `00_Systeme/Articles_a_creer.md` §5. Identifier fondamentaux disponibles / à enrichir / éventuels nouveaux (à **proposer** seulement : pas de 11e fondamental sans accord humain).
+Partir du Radar bloc 5 (dossiers et Sentier). Identifier fondamentaux disponibles / à enrichir / éventuels nouveaux (à **proposer** seulement : pas de 11e fondamental sans accord humain).
 
 Atelier (0 à 2 par mois), règles de l'ancienne routine conservées (`.claude/skills/routine-triptyque/workflow.md` §2 SENTIER et §3) :
 - fondamental parent via `00_Systeme/Manifests/sentier_fondamentaux.csv` (jamais `wiki-du-phare`) ;
@@ -67,7 +67,9 @@ Répartition du mois par thème (`ECON`, `POL`, `MONDE`, `TECH`, `CLIMAT`, `SCIE
 - §1 : retirer les lignes du mois clos si le tableau dépasse ~60 lignes (elles sont condensées en §5).
 - §4 : nouveau cap — dossiers prioritaires (2–4), questions ouvertes, penseurs utiles (sans obligation), fondamentaux Sentier à développer, actualités à surveiller, catégories sous-représentées.
 
-Puis réviser `00_Systeme/Articles_a_creer.md` : retirer le réalisé, ajouter les propositions du rapport (dossiers, ateliers, TF, questions, suivis), re-prioriser (P1 = mois suivant), mettre à jour la date d'état et l'équilibre. En dernier : `python tools/build_catalogue.py`.
+§1 : lignes des productions du mois via `python tools/memoire_append.py <ID> [--penseur "…"] [--sentier <ID>]`.
+
+Puis réviser `00_Systeme/Radar_editorial.md` (`plan.md` D14) : retirer le réalisé ; tenir les blocs 4–5 (TF, applications structurantes, dossiers, ateliers proposés dans le rapport) ; **archiver** (section Archives, statut `archivé`) les entrées restées sans suite depuis plus d'un mois ou dépassées, et vider les archives de plus de trois mois ; re-prioriser (P1 = mois suivant) ; ≤ 30 entrées actives ; date « État au ». En dernier : `python tools/build_catalogue.py` puis `python tools/build_etat_courant.py`.
 
 ## Publication
 

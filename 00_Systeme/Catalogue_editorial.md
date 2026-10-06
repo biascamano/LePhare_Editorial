@@ -1,7 +1,7 @@
 # Catalogue éditorial — Le Phare Info
 
 *Généré par `tools/build_catalogue.py` depuis `index_editorial.csv` — ne pas éditer à la main.*
-*Liste priorisée des articles à créer : `00_Systeme/Articles_a_creer.md`.*
+*Possibilités ouvertes (prochains articles) : `00_Systeme/Radar_editorial.md`. Vue courte : `00_Systeme/Etat_editorial_courant.md`.*
 
 ## Vue d'ensemble
 

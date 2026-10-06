@@ -64,7 +64,7 @@ Parcours : **Actualité → Question du Phare → Pensée / Texte fondateur → 
 | Niveau | Fonction | Question principale | Produit par |
 |--------|----------|---------------------|-------------|
 | 1 Actualité | Voir | Que vient-il de se passer ? | Quotidienne (article A) |
-| 2 Question du Phare | Interroger | Qu'est-ce que cet événement révèle au-delà de lui-même ? | Quotidienne (article B, **même jour que A**) ; Fil du Phare (hebdo) |
+| 2 Question du Phare | Interroger | Qu'est-ce que cet événement révèle au-delà de lui-même ? | Quotidienne (article Question, quand c'est le meilleur prochain article — D12) ; Fil du Phare (hebdo) |
 | 3 Pensée / Texte fondateur | Regarder autrement | Quelle pensée peut nous aider à mieux comprendre ce problème ? | Mensuelle (TF) ; quotidienne occasionnelle (D) ; grille de lecture dans B |
 | 4 Dossier | — (non détaillé par le socle) | — | Mensuelle |
 | 5 Sentier du Savoir | — (non détaillé par le socle) | — | Mensuelle (ateliers) |
@@ -73,18 +73,18 @@ Parcours : **Actualité → Question du Phare → Pensée / Texte fondateur → 
 
 | Routine | Question | Rôle |
 |---------|----------|------|
-| Quotidienne | « Que s'est-il passé, et qu'est-ce que cela révèle ? » | Produire **les briques** : une paire Actualité + Question du Phare |
+| Quotidienne | « Quel est le meilleur prochain article du Phare ? » | Produire **les briques** : un article par jour, type choisi après le sujet (D12) |
 | Hebdomadaire | « Qu'est-ce que nos articles racontent ensemble ? » | Créer **les connexions** |
 | Mensuelle | « Qu'est-ce que tout cela construit durablement dans Le Phare ? » | Construire **l'architecture** |
 
 Principes transverses :
 
 1. **Une routine = une responsabilité.** Une routine ne fait pas le travail d'une autre (ex. pas d'atelier Sentier au quotidien).
-2. **Mémoire avant action.** Chaque routine lit d'abord `00_Systeme/Memoire_editoriale.md`, et l'écrit en dernier.
+2. **Mémoire avant action.** Chaque routine lit d'abord l'état éditorial, et l'écrit en dernier. La quotidienne lit la vue compressée (`Etat_editorial_courant.md` + `Radar_editorial.md`, D13–D14) ; l'hebdomadaire et la mensuelle lisent `00_Systeme/Memoire_editoriale.md`.
 3. **La mémoire pointe, l'index détaille.** `index_editorial.csv` reste la source de vérité technique (IDs, slugs, URLs, tags) ; la mémoire porte le sens (questions, fils, cap).
 4. **Autonomie totale.** Aucune question intermédiaire ; rapport final court ; vérification humaine sur WordPress.
 5. **Slow journalism.** Qualité selon `00_Systeme/Instructions_editoriales_officielles.md` ; pas de sensationnel ; l'article doit pouvoir être lu seul.
-6. **Rien d'artificiel.** Texte fondateur, dossier, atelier ou synthèse seulement si le contenu le justifie ; « 0 ce mois-ci » est une réponse valide. Exception assumée : l'article Question du Phare est **systématique** (D9) ; une question qui ne tient pas un article autonome est une mauvaise question → la reformuler selon §5.7, pas sauter l'article.
+6. **Rien d'artificiel.** Texte fondateur, dossier, atelier ou synthèse seulement si le contenu le justifie ; « 0 ce mois-ci » est une réponse valide. Le type d'article quotidien découle du sujet, jamais d'un équilibrage (D12).
 7. **Rédaction par Claude**, pas par API/Ollama (sauf demande explicite `api`).
 8. **Rétrocompatibilité.** L'ancienne routine reste disponible (`routine triptyque`).
 9. **Les penseurs sont des grilles de lecture, jamais des arguments d'autorité** (§5.8).
@@ -103,9 +103,12 @@ Principes transverses :
 | D6 | Mémoire | Un seul fichier : `00_Systeme/Memoire_editoriale.md`, sections attribuées par routine (§8). | 2026-10-05 |
 | D7 | Docs `00_Systeme/Routine_quotidienne*.md` | **Non déplacés** (trop référencés) ; bandeau « ARCHIVÉ » en tête. | 2026-10-05 |
 | D8 | Fondamentaux parents `02_Fonds/` | Inchangé : **jamais** de push WP par une routine ; mise à jour locale de `## Ateliers` uniquement, refresh WP par l'éditeur humain. | rappel |
-| D9 | Paire quotidienne | La routine quotidienne produit **deux articles le même jour** : l'actualité (A, « Voir ») **et** l'article qui développe sa Question du Phare (B, « Interroger »). B n'est plus un type au choix mais le second volet systématique. Un type C ou D imposé reste un article seul. | 2026-10-05 |
+| D9 | Paire quotidienne | ~~La routine quotidienne produit deux articles le même jour (A Actualité + B Question).~~ **Remplacée par D12** (2026-10-06) ; la paire reste disponible sur demande (`routine quotidienne — paire`). | 2026-10-05 |
 | D10 | Socle éditorial | `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` fait référence pour la ligne éditoriale (niveaux, exigences, critères de question, usage des penseurs) ; `Instructions_editoriales_officielles.md` reste la référence de qualité rédactionnelle. En cas d'écart entre les deux : signaler, ne pas trancher seul. | 2026-10-05 |
 | D11 | Partage des rôles A / B | L'actualité se recentre sur les faits (certain / incertain / causes / conséquences / acteurs / interprétations) et se termine par la question ; l'analyse réflexive et le penseur passent dans B. Pas de redite : B rappelle l'actualité en un paragraphe et renvoie vers A. | 2026-10-05 |
+| D12 | Pilotage éditorial adaptatif (V5) | **Un article par jour** : le meilleur prochain article du Phare. Ordre de lecture : état immédiat → Radar → cap → actualité. 5 candidats au plus (1–3 issus de la veille), notés Faible/Moyen/Fort sur importance actuelle, continuité, durabilité, valeur de compréhension, nouveauté ; priorité à notes proches : actualité majeure → suite naturelle → connexion → structurant. Le **type est choisi après le sujet** (Actualité, Question, Application, exceptionnellement Texte fondateur) ; pas de série rigide ni d'équilibrage artificiel. La question finale d'une Actualité entre au Radar (bloc 2). Remplace D9. | 2026-10-06 |
+| D13 | Couches de compression | `00_Systeme/Etat_editorial_courant.md` (≤ 50 lignes), **généré** par `tools/build_etat_courant.py` depuis la mémoire §1–§4 et le Radar, jamais édité à la main. La quotidienne ne lit ni le catalogue ni la mémoire entière. Sources de vérité inchangées : mémoire (sens) et index (technique). | 2026-10-06 |
+| D14 | Radar éditorial | `00_Systeme/Articles_a_creer.md` → `00_Systeme/Radar_editorial.md` : `\| P \| Type potentiel \| Sujet / Question \| Origine \| Statut \|`, ≤ 30 entrées actives ; statuts `approfondir`, `relier`, `à échéance (…)`, `conserver`, `archivé` ; blocs 1 Suites, 2 Questions, 3 Connexions, 4 Structurants, 5 Dossiers et Sentier, Archives. Quotidienne : retire le réalisé, ajoute la question finale d'une Actualité. Hebdomadaire : comité éditorial (tri, fusion, priorités, blocs 1–3). Mensuelle : blocs 4–5, archivage. | 2026-10-06 |
 
 ---
 
@@ -116,26 +119,31 @@ Principes transverses :
                  │  00_Systeme/Memoire_editoriale.md        │
                  │  §1 Journal  §2 Fils  §3 Fil du Phare    │
                  │  §4 Cap du mois  §5 Archives mensuelles  │
-                 └──────▲──────────────▲──────────────▲─────┘
-              lit §1-4  │ écrit §1     │ lit §1,2,4   │ lit §1-4
-                        │              │ écrit §1,2,3 │ écrit §1(archive),4,5
-     ┌──────────────────┴──┐  ┌────────┴──────────┐  ┌┴──────────────────────┐
-     │ QUOTIDIENNE         │  │ HEBDOMADAIRE      │  │ MENSUELLE             │
-     │ A Actualité         │  │ Le Fil du Phare   │  │ Dossiers, TF, ateliers│
-     │ + B Question (paire)│  │ SYNTHESE          │  │ synthèse, audit, cap  │
-     └─────────┬───────────┘  └────────┬──────────┘  └──────────┬────────────┘
+                 │  + 00_Systeme/Radar_editorial.md (≤ 30)  │
+                 └──────┬──────────────▲──────────────▲─────┘
+       build_etat_courant.py           │              │
+                        ▼              │              │
+     Etat_editorial_courant.md (≤ 50 l.)              │
+     lit État courant + Radar          │ lit §1,2,4   │ lit §1-4 + catalogue
+     écrit §1 (memoire_append), Radar  │ écrit §1,2,3 │ écrit §1(archive),4,5
+                                       │ + Radar 1–3  │ + Radar 4–5, archives
+     ┌───────────────────────┐  ┌──────┴────────────┐  ┌┴──────────────────────┐
+     │ QUOTIDIENNE           │  │ HEBDOMADAIRE      │  │ MENSUELLE             │
+     │ 1 article/jour, type  │  │ Fil du Phare      │  │ Dossiers, TF, ateliers│
+     │ choisi après le sujet │  │ comité du Radar   │  │ catalogue, archivage  │
+     └─────────┬─────────────┘  └────────┬──────────┘  └──────────┬────────────┘
                │ index (append_rows_to_index) + 07_A_Publier/<dossier>/
                ▼
      tools/daily_run.py --publish-existing … --keep-publish-folder [--force]
        → wp_push_draft.py → post_linking.py (1 ou 3 articles) → publication WP
-       (paire A+B : deux dossiers de transit, deux runs — §5.9)
+       (variante paire A+B : deux dossiers de transit, deux runs — §5.9)
 ```
 
 ### 4.1 Déclencheurs
 
 | Prompt | Slash command | Skill |
 |--------|---------------|-------|
-| `routine quotidienne` (+ `— sujet : …, thème X` / `— brouillons seulement` / `type application|texte fondateur` = article seul / `type question — sur <ID>` = article B seul, rattrapage d'une actualité existante) | `/routine-quotidienne` | `.claude/skills/routine-quotidienne/SKILL.md` |
+| `routine quotidienne` (+ `— sujet : …, thème X` / `— brouillons seulement` / `type actualite|application|texte fondateur` = type imposé / `type question — sur <ID>` = Question sur la question finale de `<ID>` / `paire` = Actualité + Question le même jour) | `/routine-quotidienne` | `.claude/skills/routine-quotidienne/SKILL.md` |
 | `routine hebdomadaire`, `fil du phare` | `/routine-hebdomadaire` | `.claude/skills/routine-hebdomadaire/SKILL.md` |
 | `routine mensuelle` | `/routine-mensuelle` | `.claude/skills/routine-mensuelle/SKILL.md` |
 | `routine triptyque`, `triptyque` | `/routine-triptyque` | `.claude/skills/routine-triptyque/SKILL.md` + `workflow.md` |
@@ -155,30 +163,32 @@ Skill : `.claude/skills/routine-quotidienne/SKILL.md`.
 
 ### 5.1 Périmètre
 
-- **Fait** : veille, choix d'un sujet, rédaction de **la paire** A Actualité + B Question du Phare (D9), navigation finale croisée, index, publication, deux lignes de mémoire §1.
-- **Ne fait pas** : triptyque, atelier Sentier, restructuration de dossier, synthèse de la semaine/du mois, modification de `02_Fonds/` ou `03_Dossiers/`, écriture des §2–§5 de la mémoire.
+- **Fait** : lecture de l'état (État courant, Radar), veille, candidats et arbitrage, choix du sujet **puis** du type (D12), rédaction d'**un** article, navigation, index, publication, lien retour vers l'article d'origine, ligne de mémoire §1 (`memoire_append.py`), retrait/ajout au Radar, régénération de l'État courant.
+- **Ne fait pas** : triptyque, atelier Sentier, restructuration de dossier, synthèse de la semaine/du mois, tri du Radar, lecture du catalogue ou de la mémoire entière, modification de `02_Fonds/` ou `03_Dossiers/`, écriture des §2–§5 de la mémoire.
 
 ### 5.2 Étapes
 
 | # | Étape | Détail |
 |---|-------|--------|
-| 1 | Lire la mémoire | §1 (15 dernières lignes), §2 fils actifs, §3 dernier Fil du Phare, §4 cap. Les 2 IDs sont réservés par `new_article.py` (étape 8). |
-| 2 | Analyser l'actualité | 24–72 h ; 5 à 10 sujets candidats ; écarter buzz/faits divers/sensationnel. |
-| 3 | Choisir UN sujet | Importance, durabilité, intérêt intellectuel, originalité, connexion, **potentiel de question** (décisif : le sujet doit porter un article B) ; tenir compte des catégories sous-représentées (§4). |
-| 4 | Déterminer la forme | Par défaut la paire A + B (D9). C Application / D Texte fondateur seulement si imposé ou nécessaire → article seul. |
-| 5 | Fiche de préparation (interne) | Sujet, pourquoi aujourd'hui, faits, **une** Question du Phare (critères §5.7), autres domaines où elle se pose (≥ 2), connexion précédente, dossier, penseur (grille, §5.8), Sentier, prolongement. |
-| 6 | Rédiger A | ~700–1100 mots, exigences §5.6 ; se termine par la Question du Phare. |
-| 7 | Rédiger B | ~800–1200 mots, structure §5.7 ; ne répète pas A. |
-| 8 | Fichiers, index, WP | `new_article.py create` ×2 (A `--type actualite`, B `--type question --previous <ID A>`), `stage`, publication en séquence §5.9. |
-| 9 | Navigation croisée | A : « La question suivante » = lien vers B. B : « Pour aller plus loin » commence par A. URLs réelles lues dans l'index après push. |
-| 10 | Mémoire | Deux lignes en fin de §1 (A puis B). |
+| 1 | Regarder derrière | `Etat_editorial_courant.md` (régénéré s'il a plus de 7 jours). |
+| 2 | Regarder devant | `Radar_editorial.md` : échéances atteintes, suites, questions, connexions. |
+| 3 | Regarder autour | Veille 24–72 h ; réduite à une vérification si le Radar a déjà un candidat fort. |
+| 4 | Candidats et arbitrage | ≤ 5 (A nouvelle actualité, B suite, C connexion, D structurant), notés F/M/F sur 5 critères (D12). |
+| 5 | Type | Actualité, Question, Application, exceptionnellement TF — après le sujet. |
+| 6 | Fiche de préparation | Une seule Question du Phare ; ≤ 5 articles internes vérifiés (`index_lookup.py --search/--type/--theme/--dossier`). |
+| 7 | Rédiger | §5.6 (Actualité), §5.7 (Question), Application, TF. |
+| 8 | Navigation | §5.4. |
+| 9 | Publier | `new_article.py create` / `stage`, `daily_run.py --publish-existing … --keep-publish-folder` ; lien retour dans l'article d'origine + `wp_refresh_body.py`. |
+| 10 | Mémoriser | `memoire_append.py <ID>` ; Radar (retirer le réalisé, ajouter la question d'une Actualité) ; `build_etat_courant.py`. |
+
+Indicateur de réussite : « l'article publié aujourd'hui était-il réellement le meilleur prochain article du Phare ? »
 
 ### 5.3 Correspondance des types
 
 | Type article | Code index | Dossier canonique | Catégorie WP | Tag de type |
 |--------------|-----------|-------------------|--------------|-------------|
 | Actualité | `ACTU` | `01_Actualites/<Theme>/` | `actualites` | `type-actualite` |
-| Question du Phare (B, second volet de la paire) | `ACTU` | `01_Actualites/<Theme>/` | `actualites` | `type-question` |
+| Question du Phare | `ACTU` | `01_Actualites/<Theme>/` | `actualites` | `type-question` |
 | Application | `ACTU` | `01_Actualites/<Theme>/` | `actualites` | `type-application` |
 | Texte fondateur (occasionnel) | `TF` | `04_Textes_fondateurs/Auteurs/` | `textes-fondateurs` | `type-texte-fondateur` |
 
@@ -210,7 +220,7 @@ Liens internes : uniquement des URLs réelles lues dans `index_editorial.csv` / 
 
 ### 5.5 Rapport final
 
-Pour A et B : titre, ID, type, URL ; Question du Phare ; prolongement envisagé ; idée d'image (légende + alt) ; rappel « vérifier WordPress ».
+Candidats (sorte, notes) ; choix (titre, ID, type, URL) ; pourquoi ce sujet, pourquoi ce type ; Question du Phare ; liens retour ; Radar retiré/ajouté ; idée d'image (légende + alt) ; rappel « vérifier WordPress ».
 
 ### 5.6 Article A — Actualité (« Voir »)
 
@@ -252,13 +262,13 @@ Titre : la question elle-même ou une formulation courte qui la porte. En-tête 
 - Lien vers un TF seulement s'il figure dans l'index ; sinon nommer sans lien et le proposer à la mensuelle.
 - Place particulière de Simone Weil : à compléter (socle tronqué, T12).
 
-### 5.9 Publication de la paire (mécanique transitoire)
+### 5.9 Publication de la paire (variante `paire`, mécanique transitoire)
 
 `post_linking.py` refuse un dossier de 2 articles (1 ou 3 seulement) : la paire passe par **deux** dossiers de transit et deux runs, sans changement de code.
 
 1. `new_article.py create` A puis B ; rédiger A ; `stage` A ; `daily_run.py --publish-existing <transit A> --keep-publish-folder [--no-publish-final]`.
 2. Rédiger B avec l'URL de A lue dans l'index ; `stage` B ; `daily_run.py … <transit B> --keep-publish-folder --force [--no-publish-final]`.
-3. Remplacer dans A la question nue de « La question suivante » par le lien vers B (URL lue dans l'index) ; `wp_push_draft.py --refresh-body` sur A (copie canonique + transit).
+3. Remplacer dans A la question nue de « La question suivante » par le lien vers B (URL lue dans l'index) ; `wp_refresh_body.py` sur A.
 
 Cible : mode paire intégré (B16).
 
@@ -281,9 +291,9 @@ Skill : `.claude/skills/routine-hebdomadaire/SKILL.md`.
 | 2 | Connexions | Questions récurrentes, tensions, phénomène commun, contradictions, thèmes émergents. |
 | 3 | Grande question | Une seule. |
 | 4 | Le Fil du Phare | ~900–1400 mots ; sections : Cette semaine / Le lien invisible / La grande question / Un penseur pour regarder autrement (si pertinent) / Ce que ces événements nous apprennent / Ce que nous ne savons pas encore / Où poursuivre ? |
-| 5 | Audit des fils | À poursuivre / à clôturer / à mettre de côté (+ condition de reprise). |
-| 6 | Semaine suivante | 3 à 5 pistes, **pas** de programme fixe. |
-| 7 | Mémoire | §1 (ligne Fil du Phare), §2, §3 (nouvelle ligne en haut). Rétro optionnelle via `00_Systeme/Retro_routine_hebdo_TEMPLATE.md`. |
+| 5 | Audit des fils | À poursuivre / à clôturer / à mettre de côté (+ condition de reprise) ; **5 fils actifs au plus**. |
+| 6 | Semaine suivante — comité éditorial | 3 à 5 pistes, **pas** de programme fixe ; Radar blocs 1–3 : retirer le réalisé, fusionner, re-prioriser, archiver, ≤ 30 actives (D14). |
+| 7 | Mémoire | §1 (`memoire_append.py`), §2, §3 (nouvelle ligne en haut) ; puis `build_etat_courant.py`. Rétro optionnelle via `00_Systeme/Retro_routine_hebdo_TEMPLATE.md`. |
 
 ### 6.3 Métadonnées du Fil du Phare
 
@@ -315,7 +325,7 @@ Skill : `.claude/skills/routine-mensuelle/SKILL.md`.
 
 | # | Étape | Sortie |
 |---|-------|--------|
-| 1 | Examiner le mois | Mémoire §1–§4. |
+| 1 | Examiner le mois | `build_catalogue.py` ; Radar entier ; mémoire §1–§4. |
 | 2 | Grands phénomènes | Liste ; un dossier = plusieurs événements **réellement différents** autour d'un même problème. |
 | 3 | Dossiers existants | Mise à jour `03_Dossiers/<Theme>/` ; `--refresh-body` si la page WP existe. |
 | 4 | Nouveaux dossiers | Création (`DOSSIER`, catégorie `dossier-hebdomadaire`) ou proposition dans le rapport. |
@@ -324,7 +334,7 @@ Skill : `.claude/skills/routine-mensuelle/SKILL.md`.
 | 7 | Synthèse mensuelle | `Ce que l'actualité du mois nous a appris sur [thème]` ; `SYNTHESE`, `06_Syntheses/Mensuelles/`, catégorie `cycle`, tags `synthese-mensuelle`, `question-du-phare`. |
 | 8 | Audit navigation | Articles isolés, liens manquants (proposés ; correction seulement si évidente). |
 | 9 | Équilibre éditorial | Répartition par thème via l'index ; sous-représentés. |
-| 10 | Mois suivant | Mémoire §5 (condensé + lien rapport), §1 (purge si > ~60 lignes), §4 (nouveau cap). |
+| 10 | Mois suivant | Mémoire §5 (condensé + lien rapport), §1 (purge si > ~60 lignes), §4 (nouveau cap) ; Radar blocs 4–5 + archivage ; `build_catalogue.py` puis `build_etat_courant.py`. |
 
 Rapport : `06_Syntheses/Rapports_mensuels/YYYY-MM.md` + résumé à l'utilisateur (publiés, propositions en attente, cap, actions manuelles dont refresh des `02_Fonds/` modifiés).
 
@@ -344,6 +354,8 @@ Fichier : `00_Systeme/Memoire_editoriale.md`.
 | §4 Cap du mois | Dossiers prioritaires, questions ouvertes, penseurs, fondamentaux, actualités à surveiller, sous-représentés | M | Q, H, M |
 | §5 Archives mensuelles | 5–10 lignes par mois + lien rapport | M | M |
 
+Couches dérivées (D13–D14) : `Etat_editorial_courant.md` (généré, lu par Q) ; `Radar_editorial.md` (écrit par Q — retrait, ajout de questions —, H — blocs 1–3, tri —, M — blocs 4–5, archives).
+
 ### 8.2 Colonnes du §1
 
 `Date | ID | Titre | Type | Catégorie / Thème | Question du Phare | Dossier | Penseur / concept | Sentier | Article précédent | Prolongement envisagé`
@@ -355,7 +367,7 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 - Titre en lien `[titre](url)` ; champ inconnu = `—`.
 - Ne jamais recopier le contenu des articles.
 - Une routine n'écrit **que** ses sections.
-- La quotidienne écrit deux lignes par jour (A `Actualité`, puis B `Question` dont « Article précédent » = A).
+- La quotidienne écrit une ligne par article via `tools/memoire_append.py` (deux en variante `paire`).
 - Taille cible : §1 ≤ ~60 lignes (purge mensuelle).
 - Amorçage : 8 triptyques (2026-505 → 2026-528), fil actif « Souveraineté technologique européenne », cap TECH/CULTURE sous-représentés.
 
@@ -431,7 +443,10 @@ Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`
 | `tools/daily_run.py` | Orchestration publication (`--publish-existing`, `--keep-publish-folder`, `--no-publish-final`, `--force`) | Aucun. Garde `00_Systeme/Logs/daily_run_YYYY-MM-DD.json` → `--force` pour un 2e run le même jour. |
 | `tools/wp_push_draft.py` | Création brouillons WP, `--refresh-body` | `_slug_from_filename` reconnaît `ACTU, TF, SENTIER, FOND, DOSSIER, SYNTHESE`. |
 | `tools/wp_refresh_body.py` | `wp_push_draft --refresh-body` avec la config locale résolue par le script ; refuse `02_Fonds/` sauf `--allow-fonds` (triptyque archivé) | v3.10 : le chemin `tools/*.local.json` n'apparaît plus dans une commande (bloquée par la règle deny). |
-| `tools/index_lookup.py` | `ID Statut URL Slug` pour une liste d'IDs | v3.10 : lecture d'URL sans `python -c` ni filtre shell. |
+| `tools/index_lookup.py` | `ID Type Theme Statut URL Titre` pour une liste d'IDs ou une recherche | v3.10 : lecture d'URL sans `python -c` ni filtre shell. v5 : `--search`, `--type`, `--theme`, `--dossier`, `--limit`. |
+| `tools/memoire_append.py` | Ajoute la ligne d'un article au §1 de la mémoire depuis l'en-tête + l'index (+ manifeste Sentier) ; `--penseur`, `--sentier`, `--type-label`, `--dry-run` ; refuse un doublon | v5 (B3 partiel). |
+| `tools/build_etat_courant.py` | Génère `Etat_editorial_courant.md` (≤ 50 lignes) depuis la mémoire §1–§4 et le Radar | v5 (D13). |
+| `tools/build_catalogue.py` | Génère `Catalogue_editorial.md` (vue large, mensuelle) | v5 : renvoi vers le Radar et l'État courant. |
 | `tools/post_linking.py` | Maillage + publication | Accepte **1** article (sans contrainte de type, sans injection de bloc) ou **3** (triptyque). `update_index_notes` seulement si > 1 article. |
 | `tools/post_seo_enrich.py` | Enrichissement SEO optionnel | Exige 3 IDs (`daily_run.py` ~l.322) → inactif hors triptyque (voir B4). |
 | `tools/index_editorial_utils.py` | `build_index_row`, `append_rows_to_index` | Aucun. |
@@ -459,7 +474,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 10. Économie de tokens : pas de relecture après édition réussie ; lecture ciblée (tail/filtres) de l'index et de la mémoire ; sorties JSON résumées (`status`, `error`, `wordpress_id`, `link`).
 11. Git : jamais `push --force`, pas d'amend, pas de commit sans accord.
 12. Penseurs : grille de lecture, jamais argument d'autorité (§5.8).
-13. La quotidienne livre A **et** B ; si B échoue (publication, validation), le signaler au rapport plutôt que livrer A seul en silence.
+13. Variante `paire` : si B échoue (publication, validation), le signaler au rapport plutôt que livrer A seul en silence.
 14. Sans demande de permission : une commande Bash simple par appel (pas de `&&`, `;`, `|`, `python -c` multiligne), Read/Grep/Edit plutôt que `cat`/`grep`/`sed`, jamais le chemin d'un `tools/*.local.json` dans une commande (`wp_refresh_body.py`, `index_lookup.py`).
 
 ---
@@ -494,6 +509,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | T11 | Rattrapage optionnel : articles B pour les actualités 2026-533 → 542 (`type question — sur <ID>`) | Moyenne |
 | T12 | Compléter le socle : §5 « Place de Simone Weil » tronqué dans le docx (décision humaine) | Moyenne |
 | T9 | Commit ciblé des fichiers de la refonte | Fait — `19fd68c` + `e56e6aa` (configs locales hors suivi) |
+| T13 | Premier run quotidien V5 (D12) : vérifier arbitrage, `memoire_append`, mise à jour du Radar, `build_etat_courant` | Haute |
 
 ---
 
@@ -512,6 +528,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-05 | v3.8 | T10 : skill quotidien réécrit pour la paire (§4 forme, §6A/§6B, §7 navigation croisée, §8 séquence de publication §5.9, §9 deux lignes) ; variantes `type application` / `type texte fondateur` = article seul, `type question — sur <ID>` = B seul ; commande, `CLAUDE.md`, `actions.md` alignés ; renvoi au socle dans les Instructions §1. Premier run paire en brouillons : 2026-543 (A, ?p=5493) + 2026-544 (B, ?p=5495), liens croisés ok ; `wp_push_draft --refresh-body` exige `--config tools/wp_config.local.json` (ajouté au §8 du skill) | `.claude/skills/routine-quotidienne/SKILL.md`, `.claude/commands/routine-quotidienne.md`, `CLAUDE.md`, `actions.md`, `00_Systeme/Instructions_editoriales_officielles.md`, `plan.md` |
 | 2026-10-05 | v3.9 | Base éditoriale : `tools/build_catalogue.py` génère `00_Systeme/Catalogue_editorial.md` (inventaire depuis l'index, équilibre, lacunes) ; `00_Systeme/Articles_a_creer.md` = liste priorisée P1–P3 par niveau du parcours. Branchés : quotidienne (pioche P1, retire le réalisé), hebdomadaire (ajoute suivis/questions), mensuelle (régénère, révise) | `tools/build_catalogue.py`, `00_Systeme/Catalogue_editorial.md`, `00_Systeme/Articles_a_creer.md`, skills des 3 routines, `actions.md`, `plan.md` |
 | 2026-10-06 | v3.10 | Routines sans demande de permission : `tools/wp_refresh_body.py` (refresh WP sans chemin de config dans la commande, garde `02_Fonds/`) et `tools/index_lookup.py` (URLs d'index) ; `build_hubs.py` imprime la nouvelle commande ; règle « une commande Bash simple par appel » dans les skills | `tools/wp_refresh_body.py`, `tools/index_lookup.py`, `tools/build_hubs.py`, skills des 4 routines, `plan.md` |
+
+| 2026-10-06 | v5.0 | Pilotage éditorial adaptatif (`planV5.docx`) : D12 (un article par jour, type après le sujet, remplace D9), D13 (État courant généré), D14 (Radar). Phases 1, 2, 4 ; phase 3 « Relations » reportée (B17). `Articles_a_creer.md` → `Radar_editorial.md` (réécrit en 5 blocs) ; nouveaux `memoire_append.py`, `build_etat_courant.py` ; `index_lookup.py` (recherche) ; skill quotidien réécrit (lectures : État courant, Radar, veille ; arbitrage noté ; variante `paire`) ; hebdo = comité du Radar + 5 fils actifs ; mensuelle = blocs 4–5, archivage, catalogue | `plan.md`, `CLAUDE.md`, `actions.md`, skills et commande quotidienne, `00_Systeme/Radar_editorial.md`, `00_Systeme/Etat_editorial_courant.md`, `00_Systeme/Memoire_editoriale.md`, `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py`, `tools/build_catalogue.py` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -553,8 +571,10 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | Routine qui écrit hors de ses sections | Perte d'information | Règle §8.3 ; contrôle au rapport |
 | Questions du Phare artificielles | Baisse de qualité | Une seule question, critères §5.7 ; pas de question rhétorique |
 | Redite entre A et B | Contenu dupliqué | D11 : A = faits, B = sens ; B résume A en un paragraphe |
-| Coût doublé de la quotidienne | Tokens, temps | Accepté (D9) ; A plus court ; mode paire intégré (B16) |
-| Paire incomplète (B non publié) | Question orpheline | Règle §11.13 ; `type question — sur <ID>` pour rattraper |
+| Question finale jamais développée | Question orpheline | Elle entre au Radar bloc 2 (D12) ; l'hebdo la priorise ou l'archive |
+| État courant périmé | Choix sur une vue fausse | Régénéré par chaque routine ; la quotidienne le régénère s'il a > 7 jours |
+| Radar qui gonfle | Lecture coûteuse, priorités floues | ≤ 30 actives ; tri hebdo, archivage mensuel |
+| Type choisi par habitude | Retour d'une série rigide | Arbitrage noté (D12), justification du type au rapport |
 | Penseur plaqué | Argument d'autorité | §5.8 : tester une intuition, confronter aux faits |
 | TF / ateliers forcés en mensuelle | Retour de l'artificiel | Plafond 0–2, « 0 » valide |
 | Docs `00_Systeme/` encore orientés triptyque | Consignes contradictoires | Bandeaux v3 posés (T7) ; les skills v3 font foi |
@@ -570,7 +590,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 |----|-----------|--------|
 | B1 | Utiliser la catégorie existante `cycle` (id 97) pour le Fil du Phare au lieu de `syntheses` | Fait — Fil du Phare et synthèse mensuelle dans `cycle` ; pas de catégorie `syntheses` |
 | B2 | Déclenchement planifié (cron / RemoteTrigger) | Écarté (D4), réévaluable |
-| B3 | Script `tools/memoire_editoriale.py` (ajout ligne §1, purge, lecture N dernières lignes) pour fiabiliser et économiser des tokens | Idée |
+| B3 | Script `tools/memoire_editoriale.py` (ajout ligne §1, purge, lecture N dernières lignes) pour fiabiliser et économiser des tokens | Partiel (v5) — ajout §1 : `memoire_append.py` ; lecture : `build_etat_courant.py` ; purge restante |
 | B4 | `post_seo_enrich` compatible article unique (lever la contrainte 3 IDs dans `daily_run.py`) | Idée |
 | B5 | Page WordPress « Les questions du Phare » (agrégation des Questions du Phare via tag) | Idée |
 | B6 | Lien automatique « Pour aller plus loin » vers le dernier Fil du Phare | Idée |
@@ -583,7 +603,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | B13 | `tools/new_article.py` : création déterministe d'un article (type + thème + slug) — réserve l'ID, calcule chemin canonique, nom de fichier, catégorie et tags WP, écrit le squelette v3, ajoute la ligne d'index, prépare le dossier de transit `07_A_Publier/` (sous-commande `stage`) | Fait — branché dans les 3 skills |
 | B14 | Validateur étendu : cohérence type/chemin/catégorie, ≤ 8 tags dont le tag de thème, champs v3 présents, liens internes existants dans l'index ; lancé par les routines avant publication | Fait — `validate_index_editorial.py --ids`, appelé automatiquement par `new_article.py stage` |
 | B15 | `tools/build_hubs.py` : sections « Articles de ce dossier » générées depuis l'index + `--refresh-body` des hubs (jamais `02_Fonds`) | Fait — hub = plus petit ID du sous-dossier ; section `## Liens internes du dossier` remplacée ; refresh WP affiché, pas lancé |
-| B16 | Mode paire intégré : `post_linking.py` accepte 2 articles (A ACTU + B `type-question`), injecte les liens croisés et publie en un seul `daily_run` | Idée — supprime la mécanique transitoire §5.9 |
+| B16 | Mode paire intégré : `post_linking.py` accepte 2 articles (A ACTU + B `type-question`), injecte les liens croisés et publie en un seul `daily_run` | Idée, moins urgente depuis D12 (paire = variante) |
+| B17 | Champ d'en-tête « Relations » (phase 3 de la V5) : relations typées entre articles (suite de, applique, répond à…) | Reporté (décision 2026-10-06) |
 
 ---
 
@@ -613,8 +634,11 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `.claude/commands/routine-*.md` | Slash commands (4) |
 | `00_Systeme/Memoire_editoriale.md` | Mémoire partagée |
 | `00_Systeme/Instructions_editoriales_officielles.md` | Qualité rédactionnelle |
-| `00_Systeme/Catalogue_editorial.md` | Inventaire généré (`tools/build_catalogue.py`) : articles, équilibre, lacunes |
-| `00_Systeme/Articles_a_creer.md` | Liste priorisée des articles à créer (P1–P3) |
+| `00_Systeme/Catalogue_editorial.md` | Inventaire généré (`tools/build_catalogue.py`) : articles, équilibre, lacunes — lu par la mensuelle seulement |
+| `00_Systeme/Radar_editorial.md` | Radar éditorial (D14), ex-`Articles_a_creer.md` |
+| `00_Systeme/Etat_editorial_courant.md` | Vue courte générée (D13), lue par la quotidienne |
+| `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py` | Outils V5 (mémoire §1, état courant, recherche d'index) |
+| `planV5.docx` | Source de la V5 (pilotage éditorial adaptatif) |
 | `00_Systeme/Modele_Entete_Article.md` | En-tête v3 |
 | `00_Systeme/Taxonomie_WordPress_le-phare_info.md` | Catégories/tags |
 | `00_Systeme/Manifests/sentier_fondamentaux.csv` | Fondamentaux parents |
