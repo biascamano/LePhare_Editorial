@@ -26,6 +26,7 @@
 16. Backlog des évolutions envisagées
 17. Procédure pour faire évoluer le système
 18. Index des fichiers concernés
+19. Rénovation du stock ancien
 
 ---
 
@@ -111,6 +112,7 @@ Principes transverses :
 | D14 | Radar éditorial | `00_Systeme/Articles_a_creer.md` → `00_Systeme/Radar_editorial.md` : `\| P \| Type potentiel \| Sujet / Question \| Origine \| Statut \|`, ≤ 30 entrées actives ; statuts `approfondir`, `relier`, `à échéance (…)`, `conserver`, `archivé` ; blocs 1 Suites, 2 Questions, 3 Connexions, 4 Structurants, 5 Dossiers et Sentier, Archives. Quotidienne : retire le réalisé, ajoute la question finale d'une Actualité. Hebdomadaire : comité éditorial (tri, fusion, priorités, blocs 1–3). Mensuelle : blocs 4–5, archivage. | 2026-10-06 |
 | D15 | Vérification de fin de routine et visibilité | Chaque routine se termine par `tools/verify_publication.py` (articles des 7 derniers jours) : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une`. **Un article publié sans le tag `a-la-une` est invisible sur le site** : `new_article.py` l'ajoute à `Tags_WP` (hors quota de 8 tags), `wp_push_draft.py` le force à chaque push. `--fix` corrige tag et liens `?p=` ; `--publish-drafts` ne publie que des brouillons désignés ou récents, jamais un ancien brouillon par défaut. | 2026-10-06 |
 | D16 | Préfixe de titre par type | `new_article.py` préfixe le titre de tout type **sauf** l'Actualité : « Question du Phare - », « Application du Phare - », « Texte fondateur - », « Le Fil du Phare - », « Synthèse du mois - », « Dossier du Phare - », « Sentier du Savoir - ». Tiret court plutôt que deux-points (beaucoup de titres en contiennent déjà) ; préfixe déjà présent normalisé, jamais doublé. Slug sans préfixe (sauf Fil du Phare, historique). Appliqué rétroactivement aux 8 articles non-Actualité de 2026-531…552, 559, 560 (`wp_refresh_body.py --title`) ; les plus anciens gardent leur titre. | 2026-10-06 |
+| D17 | Rénovation du stock ancien | Pas de réécriture globale : tri en trois niveaux (Trier / Remettre à niveau / Refaire) calculé par `tools/build_inventaire_renovation.py` (§19). Un article rénové garde **son ID et son URL**. Hors périmètre : `02_Fonds/` (éditeur humain), pages `wiki-du-phare`, articles déjà au format actuel. Toute copie locale marquée « tronquée » est **resynchronisée depuis WordPress avant retouche** : un refresh depuis le local écraserait la version en ligne, plus longue. Rénovation en sessions dédiées, jamais dans une routine éditoriale. | 2026-10-06 |
 
 ---
 
@@ -515,6 +517,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | T12 | Compléter le socle : §5 « Place de Simone Weil » tronqué dans le docx (décision humaine) | Moyenne |
 | T9 | Commit ciblé des fichiers de la refonte | Fait — `19fd68c` + `e56e6aa` (configs locales hors suivi) |
 | T13 | Premier run quotidien V5 (D12) : vérifier arbitrage, `memoire_append`, mise à jour du Radar, `build_etat_courant` | Haute |
+| T14 | Rénovation lot 1 (tri, §19.3) : décisions humaines sur brouillons 419–447, doublons de titre, pages rubriques ; retrait des 29 lignes d'index en double | Haute |
+| T15 | Outils de rénovation : resynchronisation WP → local (B18), remise à niveau de la navigation (B19), skill `routine-renovation` (B20) | Moyenne |
 
 ---
 
@@ -537,6 +541,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-06 | v5.0 | Pilotage éditorial adaptatif (`planV5.docx`) : D12 (un article par jour, type après le sujet, remplace D9), D13 (État courant généré), D14 (Radar). Phases 1, 2, 4 ; phase 3 « Relations » reportée (B17). `Articles_a_creer.md` → `Radar_editorial.md` (réécrit en 5 blocs) ; nouveaux `memoire_append.py`, `build_etat_courant.py` ; `index_lookup.py` (recherche) ; skill quotidien réécrit (lectures : État courant, Radar, veille ; arbitrage noté ; variante `paire`) ; hebdo = comité du Radar + 5 fils actifs ; mensuelle = blocs 4–5, archivage, catalogue | `plan.md`, `CLAUDE.md`, `actions.md`, skills et commande quotidienne, `00_Systeme/Radar_editorial.md`, `00_Systeme/Etat_editorial_courant.md`, `00_Systeme/Memoire_editoriale.md`, `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py`, `tools/build_catalogue.py` |
 | 2026-10-06 | v5.1 | D15 : vérification de fin de routine (`verify_publication.py`) et tag `a-la-une` obligatoire (`new_article.py`, `wp_push_draft.py`, validateur hors quota). Publication des brouillons 531–552, 559, 560 ; tag ajouté à 553–558, 561, 562 ; liens `?p=` réécrits | `tools/verify_publication.py`, `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/validate_index_editorial.py`, skills des 3 routines, `plan.md`, `CLAUDE.md` |
 | 2026-10-06 | v5.2 | D16 : préfixe de titre par type (sauf Actualité), tiret court ; `wp_refresh_body.py --title` ; préfixe appliqué à 544, 546, 547, 548, 550, 552, 559, 560 | `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, skills des 3 routines, `plan.md`, 8 articles, index |
+| 2026-10-06 | v5.3 | D17 : inventaire de rénovation du stock ancien (lecture seule, GET WP) et plan en lots (§19) ; contenus de démo 414–418 retirés | `tools/build_inventaire_renovation.py`, `00_Systeme/Inventaire_renovation.md`, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -588,6 +593,9 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `post_seo_enrich` inactif hors triptyque | SEO moins riche | Accepté ; B4 |
 | Pas de `rm` | `07_A_Publier/` s'accumule | Ménage manuel périodique |
 | Injection via veille web | Actions non voulues | Pas de `rm`, deny sur secrets, publication seulement via scripts |
+| Copie locale tronquée (~70 anciens articles : WP bien plus long que le `.md`) | Un refresh depuis le local écrase la version en ligne | D17 : resynchroniser depuis WP avant toute retouche (B18) ; marqueur « tronquée » dans l'inventaire |
+| Lignes d'index en double (même URL) | Article compté deux fois, maillage ambigu | Lot 1 de la rénovation (§19.3) |
+| Liens `?p=` vers des posts absents de l'index | Liens fragiles, `--fix` impuissant | Résolus à la main pendant la remise à niveau (lot 2) |
 
 ---
 
@@ -612,6 +620,9 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | B15 | `tools/build_hubs.py` : sections « Articles de ce dossier » générées depuis l'index + `--refresh-body` des hubs (jamais `02_Fonds`) | Fait — hub = plus petit ID du sous-dossier ; section `## Liens internes du dossier` remplacée ; refresh WP affiché, pas lancé |
 | B16 | Mode paire intégré : `post_linking.py` accepte 2 articles (A ACTU + B `type-question`), injecte les liens croisés et publie en un seul `daily_run` | Idée, moins urgente depuis D12 (paire = variante) |
 | B17 | Champ d'en-tête « Relations » (phase 3 de la V5) : relations typées entre articles (suite de, applique, répond à…) | Reporté (décision 2026-10-06) |
+| B18 | `tools/wp_pull_body.py <ID>` : remplace le corps local par la version WP (HTML → Markdown, à partir de `crude_html_to_markdown` de `import_wp_posts.py`), en gardant l'en-tête local ; `--dry-run` affiche l'écart de mots | Idée — prérequis des lots 2 et 3 pour les articles tronqués |
+| B19 | `tools/renovate_nav.py <ID>` : navigation v3 semi-automatique (« Dans ce triptyque » → « Pour aller plus loin », squelette « La question suivante » et « Sur le Sentier du Savoir » depuis le manifeste, liens `?p=` signalés) ; texte de la question rédigé à la main | Idée — lot 2 |
+| B20 | Skill `routine-renovation` (§19.4) | À créer après validation de §19 |
 
 ---
 
@@ -645,6 +656,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `00_Systeme/Radar_editorial.md` | Radar éditorial (D14), ex-`Articles_a_creer.md` |
 | `00_Systeme/Etat_editorial_courant.md` | Vue courte générée (D13), lue par la quotidienne |
 | `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py` | Outils V5 (mémoire §1, état courant, recherche d'index) |
+| `tools/verify_publication.py` | Vérification de fin de routine (D15) |
+| `tools/build_inventaire_renovation.py`, `00_Systeme/Inventaire_renovation.md` | Inventaire de rénovation du stock ancien (D17, §19), généré |
 | `planV5.docx` | Source de la V5 (pilotage éditorial adaptatif) |
 | `00_Systeme/Modele_Entete_Article.md` | En-tête v3 |
 | `00_Systeme/Taxonomie_WordPress_le-phare_info.md` | Catégories/tags |
@@ -659,3 +672,76 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `tools/daily_run.py`, `wp_push_draft.py`, `post_linking.py`, `index_editorial_utils.py`, `validate_index_editorial.py` | Chaîne technique |
 | `ROUTINE QUOTIDIENNE.docx`, `ROUTINE HEBDOMADAIRE.docx`, `ROUTINE MENSUELLE.docx` | Sources de la refonte |
 | `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` | Socle éditorial (D10) — tronqué au §5 |
+
+---
+
+## 19. Rénovation du stock ancien
+
+Décision D17. Inventaire : `python tools/build_inventaire_renovation.py` (avec `--offline` : sans WordPress) → `00_Systeme/Inventaire_renovation.md`. Le script est en lecture seule et se relance après chaque session.
+
+### 19.1 Périmètre (état au 2026-10-06, 553 lignes d'index)
+
+| Groupe | Nombre | Traitement |
+|--------|--------|------------|
+| Hors périmètre : `02_Fonds/` | 259 | Éditeur humain, jamais de push |
+| Hors périmètre : pages `wiki-du-phare` | 79 | Aucun |
+| Format actuel (routines v3/V5) | 32 | Aucun |
+| **Trier** | 68 | Lot 1 : décision humaine, puis action technique |
+| **Remettre à niveau** | 62 | Lot 2 : navigation et titre, sans réécriture |
+| **Refaire** | 53 | Lot 3 : réécriture au format actuel |
+
+Familles d'origine : `triptyque` (ère 2026-419 → 530), `import` (« Import auto » depuis WP).
+
+### 19.2 Classement (règles du script, dans l'ordre)
+
+1. Même URL qu'une ligne `02_Fonds/` ou wiki → Trier (ligne d'index en double).
+2. Jamais publié → Trier (brouillon).
+3. Même début de titre qu'un autre article → Trier (doublon possible ; on garde le mieux relié).
+4. Titre court à emoji → Trier (page rubrique).
+5. Introuvable sur WP → Trier.
+6. Cité par un article actuel, OU par la mémoire, le Radar ou un dossier, OU TF de score ≥ 3 → Refaire.
+7. Sinon → Remettre à niveau.
+
+Score de priorité = 3 × liens entrants depuis un article actuel + autres liens entrants + 2 × références (mémoire, Radar, dossiers) + 2 si TF. Dans chaque niveau, l'inventaire est trié par score décroissant.
+
+### 19.3 Lots
+
+**Lot 0 — garde-fous (avant tout).**
+- Article marqué « copie locale tronquée » (69 dans le périmètre) : resynchroniser depuis WP (B18) avant toute retouche. Ne jamais lancer `wp_refresh_body.py` sur une copie tronquée.
+- Ne jamais toucher `02_Fonds/`.
+
+**Lot 1 — Trier (68, une session, décisions humaines).**
+
+| Sous-lot | IDs | Proposition |
+|----------|-----|-------------|
+| Doublons d'index par URL | 29 lignes SENTIER import : 120–129, 152–160, 193–202 (doublons des lignes wiki 335–403) | Retirer la ligne import de l'index et son fichier si identique ; garder la ligne wiki |
+| Brouillons jamais publiés | 26 : 419–435, 439–447 (dont 11 DOSSIER cités 7 à 14 fois dans la mémoire et les dossiers) | DOSSIER : décider publier (après lot 3) ou archiver ; autres : archiver ou supprimer |
+| Doublons de titre | 111 ↔ 455, 005 ↔ 419, 118 ↔ 024, 078 ↔ 029, 192 ↔ 193 | Fusionner dans le mieux relié, ou dépublier l'autre |
+| Pages rubriques | 058, 059, 061–066 | Garder, mais retirer `a-la-une` (hors flux) |
+
+**Lot 2 — Remettre à niveau (62, par paquets de 5 à 10).**
+- Remplacer « Dans ce triptyque » par la navigation v3 (§5.4) : « La question suivante », « Pour aller plus loin », « Sur le Sentier du Savoir » (B19).
+- Titre : retirer l'emoji. Le préfixe D16 n'est pas rétroactif au-delà des articles déjà traités.
+- Liens `?p=` : remplacer par l'URL de l'index, ou retirer.
+- Puis `wp_refresh_body.py`, et `verify_publication.py <IDs>`.
+
+**Lot 3 — Refaire (53, 1 à 3 par session, par score décroissant).**
+- Réécriture complète au format du type actuel (Actualité / Question / Application / TF ; SENTIER → atelier d'un fondamental existant), selon les Instructions et le socle.
+- **Même ID, même URL, même slug** ; en-tête complété au format v3 ; `Remarques` de l'index : `Rénové (Routine rénovation) YYYY-MM-DD`.
+- Faits d'actualité anciens : les garder datés, sans les « actualiser » artificiellement ; ajouter si besoin un encadré « Depuis » sourcé.
+- Pas de ligne en mémoire §1 (ce n'est pas une publication nouvelle) ; noter le lot en §5 de la mémoire lors de la mensuelle.
+
+### 19.4 Rythme et routine
+
+La rénovation **ne se mêle pas** aux routines éditoriales : une session dédiée, déclenchée à la main (`routine renovation`, skill B20), par exemple 1 à 2 fois par semaine, en dehors des jours chargés.
+
+Une session :
+1. régénérer l'inventaire ;
+2. prendre le lot ouvert le plus bas : lot 1 jusqu'à épuisement, puis lot 2 (5 à 10 articles) et lot 3 (1 à 3 articles) en alternance ;
+3. resynchroniser les copies tronquées, traiter, rafraîchir sur WP ;
+4. lancer `verify_publication.py <IDs>` ;
+5. régénérer l'inventaire, puis rapporter ce qui est fait et ce qui reste par niveau.
+
+Le Radar peut signaler qu'un ancien article mérite d'être refait (statut `relier`). La quotidienne ne rénove pas ; elle crée un **nouvel** article qui renvoie à l'ancien.
+
+Ordre de grandeur : lot 1 en 1 session ; lot 2 en 6 à 8 sessions ; lot 3 en 20 à 30 sessions.
