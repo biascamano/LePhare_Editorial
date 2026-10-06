@@ -77,8 +77,8 @@ Le Sentier du Savoir invite ici à une posture de `Relier`. Relier les prix à d
 ## Dans ce triptyque
 
 Pour relier cette mise en perspective à ses deux autres dimensions :
-- [Revenir à l'actualité : Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe](https://le-phare.info/?p=4099)
-- [Approfondir avec le texte fondateur : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/?p=4100)
+- [Revenir à l'actualité : Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe](https://le-phare.info/?p=4136)
+- [Approfondir avec le texte fondateur : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/?p=4137)
 
 ## Bloc image WordPress
 Suggestion image : Un tableau ou un croquis montrant trois couches superposées - événement, structure, transition - appliquées à l'énergie, style infographie sobre.

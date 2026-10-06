@@ -70,8 +70,8 @@ Pour Le Phare, ce texte fondateur sert de boussole. Il invite à juger les polit
 ## Dans ce triptyque
 
 Pour voir comment cette grille de lecture éclaire le sujet du jour :
-- [Revenir à l'actualité : Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe](https://le-phare.info/?p=4099)
-- [Prolonger avec le Sentier du Savoir : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/?p=4101)
+- [Revenir à l'actualité : Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe](https://le-phare.info/?p=4136)
+- [Prolonger avec le Sentier du Savoir : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/?p=4138)
 
 ## Bloc image WordPress
 Suggestion image : Carte ancienne de réseaux électriques superposée à un paysage contemporain d'éoliennes, lignes haute tension et usines, style documentaire.

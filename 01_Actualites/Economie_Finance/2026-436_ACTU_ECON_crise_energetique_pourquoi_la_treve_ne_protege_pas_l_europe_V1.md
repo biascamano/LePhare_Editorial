@@ -73,8 +73,8 @@ Le vrai sujet n'est donc pas seulement la reprise des flux, mais la capacité à
 ## Dans ce triptyque
 
 Pour replacer cette actualité dans un cadre plus durable :
-- [Approfondir avec le texte fondateur : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/?p=4100)
-- [Prolonger avec le Sentier du Savoir : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/?p=4101)
+- [Approfondir avec le texte fondateur : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/?p=4137)
+- [Prolonger avec le Sentier du Savoir : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/?p=4138)
 
 ## Bloc image WordPress
 Suggestion image : Terminal méthanier européen et lignes électriques haute tension sous un ciel de crise, style sobre, sans texte.
