@@ -124,7 +124,7 @@ def build(root: Path, index_path: Path, dry_run: bool) -> int:
         print("\nHubs déjà sur WordPress — à rafraîchir :")
         for h in pushable:
             rel = f"{h['Chemin_dossier'].strip()}/{h['Nom_fichier'].strip()}"
-            print(f'python tools/wp_push_draft.py --refresh-body --config tools/wp_config.local.json --index index_editorial.csv "{rel}"')
+            print(f'python tools/wp_refresh_body.py "{rel}"')
     return 0
 
 

@@ -39,7 +39,7 @@ Copier mentalement cette liste et cocher chaque étape avant de conclure.
 
 - [ ] Fondamental parent choisi dans `00_Systeme/Manifests/sentier_fondamentaux.csv` (pas wiki-du-phare).
 - [ ] Métadonnées SENTIER : `Type Sentier : atelier`, fondamental lié.
-- [ ] Ligne ajoutée dans `## Ateliers` du fondamental parent canonique, puis `wp_push_draft.py --refresh-body --config tools/wp_config.local.json --index index_editorial.csv` sur ce fichier `02_Fonds/…` (PATCH du corps WP existant — autorisé, voir « Ne pas faire »).
+- [ ] Ligne ajoutée dans `## Ateliers` du fondamental parent canonique, puis `python tools/wp_refresh_body.py "<chemin 02_Fonds/…>" --allow-fonds` sur ce fichier `02_Fonds/…` (PATCH du corps WP existant — autorisé, voir « Ne pas faire »).
 
 ### Phase D — Fichiers
 
@@ -53,7 +53,7 @@ Copier mentalement cette liste et cocher chaque étape avant de conclure.
 ### Phase E — Publication
 
 - [ ] `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder` (+ options si demandées). `--keep-publish-folder` est systématique (pas de `rm` autorisé) ; ménage manuel occasionnel du dossier `07_A_Publier/`.
-- [ ] Refresh SENTIER atelier WP si corps post-maillage modifié (`wp_push_draft.py --refresh-body`).
+- [ ] Refresh SENTIER atelier WP si corps post-maillage modifié (`python tools/wp_refresh_body.py "<chemin>"`).
 - [ ] Rapport final à l'utilisateur : URLs WP, doublons wiki si slugs -2/-3.
 
 ## Rapport final (format)

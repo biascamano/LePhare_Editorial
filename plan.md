@@ -430,6 +430,8 @@ Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`
 |--------|------|---------------|
 | `tools/daily_run.py` | Orchestration publication (`--publish-existing`, `--keep-publish-folder`, `--no-publish-final`, `--force`) | Aucun. Garde `00_Systeme/Logs/daily_run_YYYY-MM-DD.json` → `--force` pour un 2e run le même jour. |
 | `tools/wp_push_draft.py` | Création brouillons WP, `--refresh-body` | `_slug_from_filename` reconnaît `ACTU, TF, SENTIER, FOND, DOSSIER, SYNTHESE`. |
+| `tools/wp_refresh_body.py` | `wp_push_draft --refresh-body` avec la config locale résolue par le script ; refuse `02_Fonds/` sauf `--allow-fonds` (triptyque archivé) | v3.10 : le chemin `tools/*.local.json` n'apparaît plus dans une commande (bloquée par la règle deny). |
+| `tools/index_lookup.py` | `ID Statut URL Slug` pour une liste d'IDs | v3.10 : lecture d'URL sans `python -c` ni filtre shell. |
 | `tools/post_linking.py` | Maillage + publication | Accepte **1** article (sans contrainte de type, sans injection de bloc) ou **3** (triptyque). `update_index_notes` seulement si > 1 article. |
 | `tools/post_seo_enrich.py` | Enrichissement SEO optionnel | Exige 3 IDs (`daily_run.py` ~l.322) → inactif hors triptyque (voir B4). |
 | `tools/index_editorial_utils.py` | `build_index_row`, `append_rows_to_index` | Aucun. |
@@ -458,6 +460,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 11. Git : jamais `push --force`, pas d'amend, pas de commit sans accord.
 12. Penseurs : grille de lecture, jamais argument d'autorité (§5.8).
 13. La quotidienne livre A **et** B ; si B échoue (publication, validation), le signaler au rapport plutôt que livrer A seul en silence.
+14. Sans demande de permission : une commande Bash simple par appel (pas de `&&`, `;`, `|`, `python -c` multiligne), Read/Grep/Edit plutôt que `cat`/`grep`/`sed`, jamais le chemin d'un `tools/*.local.json` dans une commande (`wp_refresh_body.py`, `index_lookup.py`).
 
 ---
 
@@ -508,6 +511,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-05 | v3.7 | Socle éditorial consolidé intégré ; paire quotidienne Actualité + Question du Phare (D9–D11) — plan seulement, skills à aligner (T10) | `plan.md` |
 | 2026-10-05 | v3.8 | T10 : skill quotidien réécrit pour la paire (§4 forme, §6A/§6B, §7 navigation croisée, §8 séquence de publication §5.9, §9 deux lignes) ; variantes `type application` / `type texte fondateur` = article seul, `type question — sur <ID>` = B seul ; commande, `CLAUDE.md`, `actions.md` alignés ; renvoi au socle dans les Instructions §1. Premier run paire en brouillons : 2026-543 (A, ?p=5493) + 2026-544 (B, ?p=5495), liens croisés ok ; `wp_push_draft --refresh-body` exige `--config tools/wp_config.local.json` (ajouté au §8 du skill) | `.claude/skills/routine-quotidienne/SKILL.md`, `.claude/commands/routine-quotidienne.md`, `CLAUDE.md`, `actions.md`, `00_Systeme/Instructions_editoriales_officielles.md`, `plan.md` |
 | 2026-10-05 | v3.9 | Base éditoriale : `tools/build_catalogue.py` génère `00_Systeme/Catalogue_editorial.md` (inventaire depuis l'index, équilibre, lacunes) ; `00_Systeme/Articles_a_creer.md` = liste priorisée P1–P3 par niveau du parcours. Branchés : quotidienne (pioche P1, retire le réalisé), hebdomadaire (ajoute suivis/questions), mensuelle (régénère, révise) | `tools/build_catalogue.py`, `00_Systeme/Catalogue_editorial.md`, `00_Systeme/Articles_a_creer.md`, skills des 3 routines, `actions.md`, `plan.md` |
+| 2026-10-06 | v3.10 | Routines sans demande de permission : `tools/wp_refresh_body.py` (refresh WP sans chemin de config dans la commande, garde `02_Fonds/`) et `tools/index_lookup.py` (URLs d'index) ; `build_hubs.py` imprime la nouvelle commande ; règle « une commande Bash simple par appel » dans les skills | `tools/wp_refresh_body.py`, `tools/index_lookup.py`, `tools/build_hubs.py`, skills des 4 routines, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 

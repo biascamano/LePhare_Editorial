@@ -122,12 +122,12 @@ Publication de la paire (mécanique transitoire, `plan.md` §5.9 — `post_linki
 
 1. Rédiger A ; `stage` A ;
    `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier A>" --keep-publish-folder [--no-publish-final]`
-2. Rédiger B avec l'URL de A **lue dans l'index** ; `stage` B ;
+2. Rédiger B avec l'URL de A **lue dans l'index** (`python tools/index_lookup.py <ID A>`) ; `stage` B ;
    `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier B>" --keep-publish-folder --force [--no-publish-final]`
    (`--force` : le run du jour est déjà marqué réussi par A.)
 3. Dans A (copie canonique **et** copie de transit), remplacer la question nue de « La question suivante » par `[question](URL de B lue dans l'index)`, puis :
-   `python tools/wp_push_draft.py "<chemin canonique A>" --index index_editorial.csv --refresh-body --config tools/wp_config.local.json`
-   (`--config` obligatoire hors `daily_run.py` ; ne pas lire ce fichier.)
+   `python tools/wp_refresh_body.py "<chemin canonique A>"`
+   (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, la règle deny la bloque ; ne pas lire ce fichier.)
 
 Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON. Si B échoue : A reste publié, l'échec est **signalé** dans le rapport (jamais livrer A seul en silence).
 
@@ -157,7 +157,11 @@ Images : A idée / légende / alt · B idée / légende / alt
 
 ## Économie de tokens
 
-Ne pas relire un fichier après une édition réussie. Résumer les sorties JSON. Lire la mémoire par sections, pas l'index entier (utiliser `tail` / filtres Python).
+Ne pas relire un fichier après une édition réussie. Résumer les sorties JSON. Lire la mémoire par sections, pas l'index entier (`python tools/index_lookup.py <IDs>` pour les URLs).
+
+## Commandes sans demande de permission
+
+Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `python -c` multiligne (chaque segment est vérifié séparément et déclenche une demande). Lire / chercher / éditer avec Read, Grep, Edit plutôt qu'avec `cat`, `grep`, `sed`. Ne jamais écrire le chemin d'un `tools/*.local.json` dans une commande.
 
 ## Ne pas faire
 

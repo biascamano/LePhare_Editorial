@@ -51,6 +51,8 @@ Point d'entrée technique des routines. À lancer depuis la racine du dépôt.
 | `python tools/wp_push_draft.py --dry-run --config tools/wp_config.example.json --index index_editorial.csv <fichier.md>` | Aperçu JSON (titre, slug, catégorie, tags, HTML) sans rien envoyer. 🟢 |
 | `python tools/wp_push_draft.py --config tools/wp_config.local.json --index index_editorial.csv <fichier\|dossier>` | Crée les brouillons WP et met à jour l'index (URL, slug). Ignore les articles déjà poussés sauf `--force`. 🔴 |
 | `… --refresh-body` | Réécrit le corps d'un post existant. Autorisé sur `05_Sentier/…`, **jamais** sur `02_Fonds/…`. 🔴 |
+| `python tools/wp_refresh_body.py "<chemin>" […] [--allow-fonds]` | Raccourci de `--refresh-body` (config et index implicites, sans demande de permission). Refuse `02_Fonds/…` sauf `--allow-fonds`. Affiche `status`, `error`, `wordpress_id`, `link`. 🔴 |
+| `python tools/index_lookup.py <ID> […]` | Affiche statut, URL et slug WP des IDs depuis l'index. 🟢 |
 | `… --sync-featured-media` | Met à jour l'image à la une seulement. Options : `--featured-media-map`, `--no-featured-media`. 🔴 |
 | `… --no-rank-math-meta` | Ne pousse pas les métadonnées Rank Math du bloc `# SEO`. 🔴 |
 | `python tools/post_linking.py --dry-run --index index_editorial.csv --config tools/wp_config.local.json <dossier>` | Aperçu du maillage interne d'un dossier (1 ou 3 articles). 🟢 |

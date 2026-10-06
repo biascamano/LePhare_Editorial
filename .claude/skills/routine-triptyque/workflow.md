@@ -122,7 +122,7 @@ python tools/daily_run.py --publish-existing "<dossier>" --skip-wp-push
 
 - `wp_push_draft --refresh-body` sur le **SENTIER atelier** (`05_Sentier/…`) si corps modifié après maillage :
   ```bash
-  python tools/wp_push_draft.py --refresh-body --index index_editorial.csv --config tools/wp_config.local.json "<chemin_sentier>"
+  python tools/wp_refresh_body.py "<chemin_sentier>"
   ```
 - **Ne jamais** push `02_Fonds/…` (fondamental parent).
 - Lire `00_Systeme/Logs/daily_run_YYYY-MM-DD.json` → `parent_refresh_reminder`.

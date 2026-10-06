@@ -23,7 +23,7 @@ Sujets revenus plusieurs fois (dépendance, attention, accélération, travail, 
 
 ## 3. Mettre à jour les dossiers existants (`03_Dossiers/<Theme>/`)
 
-Pour chaque dossier touché : question centrale encore pertinente ? articles associés à ajouter, sous-thèmes à réorganiser, manques, page principale à créer/mettre à jour ? Modifier les `.md` locaux, puis `python tools/build_hubs.py` : régénère `## Liens internes du dossier` de chaque page principale (plus petit ID du sous-dossier) depuis l'index — autres volets du sous-dossier + articles dont l'en-tête `Dossier :` vise ce dossier. Traiter les avertissements `!` (dossier inconnu, chemin hors `03_Dossiers`). Le script affiche les commandes `wp_push_draft.py --refresh-body` des pages déjà sur WP : les lancer.
+Pour chaque dossier touché : question centrale encore pertinente ? articles associés à ajouter, sous-thèmes à réorganiser, manques, page principale à créer/mettre à jour ? Modifier les `.md` locaux, puis `python tools/build_hubs.py` : régénère `## Liens internes du dossier` de chaque page principale (plus petit ID du sous-dossier) depuis l'index — autres volets du sous-dossier + articles dont l'en-tête `Dossier :` vise ce dossier. Traiter les avertissements `!` (dossier inconnu, chemin hors `03_Dossiers`). Le script affiche les commandes `python tools/wp_refresh_body.py "<chemin>"` des pages déjà sur WP : les lancer.
 
 ## 4. Évaluer les nouveaux dossiers
 
@@ -46,7 +46,7 @@ Atelier (0 à 2 par mois), règles de l'ancienne routine conservées (`.claude/s
 - mini-cas ancré sur des articles **réels** du mois, ≥ 2 sources nommées, chaque item de grille appliqué ;
 - rotation d'étape + diversité de titre ;
 - ligne dans `## Ateliers` du fondamental parent (`02_Fonds/…`) en local uniquement — **jamais** de push WP sur `02_Fonds/` (refresh réservé à l'éditeur, à signaler dans le rapport) ;
-- `--refresh-body` autorisé seulement sur l'atelier `05_Sentier/…`.
+- refresh WP (`python tools/wp_refresh_body.py "<chemin>"`) autorisé seulement sur l'atelier `05_Sentier/…`.
 
 ## 7. Synthèse mensuelle (si le mois la justifie)
 
@@ -55,7 +55,7 @@ Création : `python tools/new_article.py create --type synthese-mensuelle --them
 
 ## 8. Auditer la navigation
 
-Pour les articles du mois (et ceux reliés) : liens vers article précédent, question suivante, dossier, texte fondateur, Sentier. Repérer les articles isolés. **Proposer** les liens à ajouter dans le rapport ; ne modifier un article publié que pour ajouter un lien manquant évident, puis `--refresh-body`.
+Pour les articles du mois (et ceux reliés) : liens vers article précédent, question suivante, dossier, texte fondateur, Sentier. Repérer les articles isolés. **Proposer** les liens à ajouter dans le rapport ; ne modifier un article publié que pour ajouter un lien manquant évident, puis `python tools/wp_refresh_body.py "<chemin>"`.
 
 ## 9. Équilibre éditorial
 
@@ -75,6 +75,10 @@ Chaque production (synthèse, TF, atelier, dossier) est créée par `new_article
 ```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force
 ```
+
+## Commandes sans demande de permission
+
+Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `python -c` multiligne. Read / Grep / Edit plutôt que `cat` / `grep` / `sed`. URLs de l'index : `python tools/index_lookup.py <IDs>`. Refresh WP : `python tools/wp_refresh_body.py "<chemin>"` ; ne jamais écrire le chemin d'un `tools/*.local.json` dans une commande.
 
 ## Rapport mensuel
 

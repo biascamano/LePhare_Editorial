@@ -78,6 +78,10 @@ Fils : +X actifs / Y clôturés / Z de côté
 Pistes semaine suivante : …
 ```
 
+## Commandes sans demande de permission
+
+Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `python -c` multiligne. Read / Grep / Edit plutôt que `cat` / `grep` / `sed`. URLs de l'index : `python tools/index_lookup.py <IDs>`. Refresh WP : `python tools/wp_refresh_body.py "<chemin>"` ; ne jamais écrire le chemin d'un `tools/*.local.json` dans une commande.
+
 ## Ne pas faire
 
 - Chercher le sujet d'actualité du jour.
