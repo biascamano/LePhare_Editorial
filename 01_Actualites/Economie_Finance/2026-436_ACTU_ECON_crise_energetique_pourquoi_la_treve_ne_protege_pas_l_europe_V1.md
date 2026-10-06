@@ -62,7 +62,9 @@ La trêve au Moyen-Orient est une bonne nouvelle diplomatique, mais une protecti
 
 Le vrai sujet n'est donc pas seulement la reprise des flux, mais la capacité à réduire durablement la dépendance. Le lien avec le Sentier est ici central : penser juste, c'est distinguer l'accalmie conjoncturelle de la transformation structurelle. La question de fond devient alors celle-ci : l'Europe utilisera-t-elle cette crise pour transformer ses usages, ou seulement pour s'offrir quelques mois de répit ?
 
-## Reperes de sources
+---
+
+**Repères de sources**
 
 - [France 24 - La crise au Moyen-Orient, une incitation à la transition énergétique en France](https://www.france24.com/fr/%C3%A9co-tech/20260409-crise-moyen-orient-incitation-transition-%C3%A9nerg%C3%A9tique-france-electrique-renouvelable) : retour de la transition énergétique dans le débat français, dépendance persistante aux fossiles, grand plan d'électrification.
 - [Deutsche Welle - Comment l'Europe se prépare à la crise énergétique](https://www.dw.com/fr/energies-union-europenne-moyen-orient/a-76713045) : coût de la crise pour l'Union européenne, concurrence Europe-Asie sur le GNL, vulnérabilité des secteurs énergivores.
@@ -70,11 +72,18 @@ Le vrai sujet n'est donc pas seulement la reprise des flux, mais la capacité à
 - [IEA - Executive Summary: The Future of Heat Pumps](https://www.iea.org/reports/the-future-of-heat-pumps/executive-summary) : effet des pompes à chaleur sur la demande de gaz et l'électrification.
 - [Commission européenne - REPowerEU, 3 years on](https://energy.ec.europa.eu/topics/markets-and-consumers/actions-and-measures-energy-prices/repowereu-3-years_en) : baisse de la demande gazière et montée en puissance des outils de résilience.
 
-## Dans ce triptyque
+**La question suivante**
 
-Pour replacer cette actualité dans un cadre plus durable :
-- [Approfondir avec le texte fondateur : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/?p=4137)
-- [Prolonger avec le Sentier du Savoir : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/?p=4138)
+L'Europe utilisera-t-elle cette crise pour transformer ses usages énergétiques, ou seulement pour s'offrir quelques mois de répit ?
+
+**Pour aller plus loin**
+
+- [Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies](https://le-phare.info/vaclav-smil-transitions-energetiques-2/)
+- [Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle](https://le-phare.info/penser-crise-energetique-court-terme-2/)
+
+**Sur le Sentier du Savoir**
+
+- [Économie pour non-économistes](https://le-phare.info/economie-pour-non-economistes/)
 
 ## Bloc image WordPress
 Suggestion image : Terminal méthanier européen et lignes électriques haute tension sous un ciel de crise, style sobre, sans texte.

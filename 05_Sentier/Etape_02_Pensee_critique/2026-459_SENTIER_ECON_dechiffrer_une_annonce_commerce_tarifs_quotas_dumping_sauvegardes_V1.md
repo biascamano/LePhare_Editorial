@@ -73,11 +73,27 @@ Le commerce international n'est lisible que si l'on accepte la **lourdeur des ca
 
 ---
 
-## Dans ce triptyque
+**Repères de sources**
 
-Pour relier cette mise en perspective à ses deux autres dimensions :
-- [Revenir à l'actualité : Europe, acier et surcapacité mondiale : vers une défense commerciale plus dure après juin 2026](https://le-phare.info/europe-acier-surcapacite-defense-commerciale-2026/)
-- [Approfondir avec le texte fondateur : Friedrich List : le « système national » entre libre-échange et forces productives](https://le-phare.info/friedrich-list-systeme-national-forces-productives/)
+- [OMC — Anti-dumping (article VI du GATT 1994)](https://www.wto.org/english/tratop_e/adp_e/adp_e.htm)
+- [OMC — Sauvegardes](https://www.wto.org/english/tratop_e/safeg_e/safeg_e.htm)
+- [Commission européenne — Défense commerciale](https://policy.trade.ec.europa.eu/enforcement-and-protection/trade-defence_en)
+- [Parlement européen — Nouvelles mesures pour protéger le marché européen de l'acier (avril 2026)](https://www.europarl.europa.eu/news/en/press-room/20260413IPR40607/new-measures-to-protect-eu-steel-market-from-global-overcapacity)
+
+**La question suivante**
+
+Comment juger une mesure de protection commerciale quand ceux qui en profitent et ceux qui la paient ne sont pas les mêmes ?
+
+**Pour aller plus loin**
+
+- [Europe, acier et surcapacité mondiale : vers une défense commerciale plus dure après juin 2026](https://le-phare.info/europe-acier-surcapacite-defense-commerciale-2026/)
+- [Friedrich List : le « système national » entre libre-échange et forces productives](https://le-phare.info/friedrich-list-systeme-national-forces-productives/)
+- [Lire une annonce sur le climat sans confondre météo, tendance, attribution et politique](https://le-phare.info/lire-annonce-climat-meteo-attribution/)
+- [Lire une annonce médicale sans confondre individu et population](https://le-phare.info/lire-annonce-medicale-population-individu/)
+
+**Sur le Sentier du Savoir**
+
+- [La pensée critique en action](https://le-phare.info/la-pensee-critique-en-action-decryptage-de-lactualite-des-discours-et-des-pubs/)
 
 ## Bloc publication
 Statut publication : publie
@@ -85,17 +101,3 @@ Slug propose : dechiffrer-annonce-commerce-tarifs-dumping-quotas
 
 ## Bloc image WordPress
 Suggestion : tableau ou schéma « flux » sobre (import / douane / usine / consommation), sans surcharge textuelle. Image à la une assurée par le tag `economie-finance` (ID 4142).
-
----
-
-## Repères de sources
-
-- OMC, accord sur l'application de l'article VI du GATT 1994 (anti-dumping) — page d'accueil matière : [https://www.wto.org/english/tratop_e/adp_e/adp_e.htm](https://www.wto.org/english/tratop_e/adp_e/adp_e.htm)
-- OMC, sauvegardes : [https://www.wto.org/english/tratop_e/safeg_e/safeg_e.htm](https://www.wto.org/english/tratop_e/safeg_e/safeg_e.htm)
-- Commission européenne, politique de défense commerciale : [https://policy.trade.ec.europa.eu/enforcement-and-protection/trade-defence_en](https://policy.trade.ec.europa.eu/enforcement-and-protection/trade-defence_en)
-- Parlement européen, dossier acier avril 2026 : [https://www.europarl.europa.eu/news/en/press-room/20260413IPR40607/new-measures-to-protect-eu-steel-market-from-global-overcapacity](https://www.europarl.europa.eu/news/en/press-room/20260413IPR40607/new-measures-to-protect-eu-steel-market-from-global-overcapacity)
-
-## Liens internes (graphe)
-
-- [Lire une annonce sur le climat sans confondre météo, tendance, attribution et politique](https://le-phare.info/lire-annonce-climat-meteo-attribution/) (Sentier, 2026 — même posture méthodologique)
-- [Lire une annonce médicale sans confondre individu et population](https://le-phare.info/lire-annonce-medicale-population-individu/) (Sentier, 2026)

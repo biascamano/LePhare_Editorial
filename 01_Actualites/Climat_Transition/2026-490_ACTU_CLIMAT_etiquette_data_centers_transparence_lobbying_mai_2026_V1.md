@@ -83,11 +83,11 @@ L'étiquette PUE/WUE est présentée comme un **levier de marché** (comparer, c
 
 En mai 2026, l'Europe ne débat pas seulement de **kWh** : elle débat de **qui voit quoi** quand l'infrastructure numérique devient stratégique. L'étiquette data center est à la fois un **outil de lecture** et un **terrain de pouvoir** — d'où la polémique du 27 mai.
 
-Pour approfondir la philosophie de la mesure et du politique, voir le texte fondateur du jour. Pour transmettre le dossier sans simplifier, le Sentier propose une grille de vulgarisation ancrée sur ces sources.
+Pour approfondir la philosophie de la mesure et du politique, voir le texte fondateur consacré à Bruno Latour. Pour transmettre le dossier sans simplifier, le Sentier propose une grille de vulgarisation ancrée sur ces sources.
 
 ---
 
-## Repères de sources
+**Repères de sources**
 
 - Directive efficacité énergétique : [Directive (UE) 2023/1791](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023L1791)
 - Reporting data centers : [Règlement délégué (UE) 2024/1364](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1364)
@@ -96,11 +96,19 @@ Pour approfondir la philosophie de la mesure et du politique, voir le texte fond
 - Philip Lee LLP : [EU draft mandatory sustainability rating scheme for data centres](https://www.philiplee.ie/eu-publishes-draft-mandatory-sustainability-rating-scheme-for-data-centres/)
 - Taylor Wessing : [The AI Boom Meets Regulation: Mandatory EU Labeling for Data Centers](https://www.taylorwessing.com/en/insights-and-events/insights/2026/05/ki-boom-trifft-regulierung)
 
-## Dans ce triptyque
+**La question suivante**
 
-Pour replacer cette actualité dans un cadre plus durable :
-- [Approfondir avec le texte fondateur : Bruno Latour : quand l'étiquette ne clôt pas le débat — politiques de la nature et data centers](https://le-phare.info/?p=4613)
-- [Prolonger avec le Sentier du Savoir : Rendre lisible l'étiquette data center : PUE, WUE et limites de la vulgarisation](https://le-phare.info/?p=4614)
+Quand une infrastructure devient stratégique, la transparence sur ses impacts doit-elle passer avant le secret des affaires de ceux qui l'exploitent ?
+
+**Pour aller plus loin**
+
+- [Bruno Latour : quand l'étiquette ne clôt pas le débat — politiques de la nature et data centers](https://le-phare.info/bruno-latour-etiquette-data-centers-politiques-nature/)
+- [Rendre lisible l'étiquette data center : PUE, WUE et limites de la vulgarisation](https://le-phare.info/rendre-lisible-etiquette-data-center-pue-wue-vulgarisation/)
+- [Feuille de route énergie-IA : ce que Bruxelles engage le 3 juin 2026](https://le-phare.info/feuille-route-energie-ia-adoption-3-juin-2026/)
+
+**Sur le Sentier du Savoir**
+
+- [Science et société](https://le-phare.info/science-et-societe/)
 
 ## Bloc publication
 Statut publication : pret_a_publier

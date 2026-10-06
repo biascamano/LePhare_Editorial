@@ -65,17 +65,27 @@ En général : **rien de direct** sur la facture du mois suivant. Indirectement 
 
 Lors d'un débat, notez sur un papier : **statut / périmètre / auteur / texte / date / effet**. Si deux cases restent vides, refusez de partager le titre tel quel — retournez au [document Commission](https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1044) ou à une synthèse juridique spécialisée.
 
-## Repères de sources
+---
+
+**Repères de sources**
 
 - Commission européenne — ETS : [EU Emissions Trading System](https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en)
 - Proposition benchmarks (mai 2026) : [IP/26/1044](https://ec.europa.eu/commission/presscorner/detail/fr/ip_26_1044)
 - Stern Review (coût différé de l'inaction) : [sternreview.org.uk](https://www.sternreview.org.uk/)
 
-## Dans ce triptyque
+**La question suivante**
 
-Pour relier cette mise en perspective à ses deux autres dimensions :
-- Revenir à l'actualité : [Marché carbone UE : pourquoi la réforme des benchmarks de mai 2026 divise climat et industrie](https://le-phare.info/ets-benchmarks-mai-2026-marche-carbone-ue/)
-- Approfondir avec le texte fondateur : [Nicholas Stern et l'économie du changement climatique : relire le prix du carbone](https://le-phare.info/nicholas-stern-economie-climat-prix-carbone/)
+Quand une règle technique fixe qui paie le carbone, comment un citoyen peut-il en débattre sans dépendre des slogans des deux camps ?
+
+**Pour aller plus loin**
+
+- [Marché carbone UE : pourquoi la réforme des benchmarks de mai 2026 divise climat et industrie](https://le-phare.info/ets-benchmarks-mai-2026-marche-carbone-ue/)
+- [Nicholas Stern et l'économie du changement climatique : relire le prix du carbone](https://le-phare.info/nicholas-stern-economie-climat-prix-carbone/)
+- [Déchiffrer une annonce sur le commerce international : tarifs, quotas, dumping et sauvegardes](https://le-phare.info/dechiffrer-annonce-commerce-tarifs-dumping-quotas/)
+
+**Sur le Sentier du Savoir**
+
+- [Faits, opinions, croyances : apprendre à distinguer](https://le-phare.info/faits-opinions-croyances-apprendre-a-distinguer/)
 
 ## Bloc publication
 Statut publication : pret_a_publier

@@ -64,11 +64,26 @@ Gardez la grille sur un coin d’écran lors d’un débat télévisé ou d’un
 
 ---
 
-## Dans ce triptyque
+**Repères de sources**
 
-Pour relier cette mise en perspective à ses deux autres dimensions :
-- [Revenir à l'actualité : EHDS : l'Europe veut faire circuler les données de santé sans livrer les patients](https://le-phare.info/espace-europeen-donnees-sante-ehds-calendrier-2026/)
-- [Approfondir avec le texte fondateur : Foucault, la Naissance de la clinique : du regard médical au dossier — ce que l’histoire éclaire sur nos données de santé](https://le-phare.info/foucault-clinique-donnees-sante-ehds/)
+- [Commission européenne — Espace européen des données de santé (EHDS)](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en)
+- [Commission européenne — Mes droits sur mes données de santé (usage primaire)](https://health.ec.europa.eu/ehealth-digital-health-and-care/my-rights-over-my-health-data_en)
+- [Commission européenne — Réutilisation des données de santé (usage secondaire)](https://health.ec.europa.eu/ehealth-digital-health-and-care/reuse-health-data_en)
+
+**La question suivante**
+
+Un droit d'opposition que peu de gens connaissent suffit-il à rendre légitime la réutilisation de nos données de santé ?
+
+**Pour aller plus loin**
+
+- [EHDS : l'Europe veut faire circuler les données de santé sans livrer les patients](https://le-phare.info/espace-europeen-donnees-sante-ehds-calendrier-2026/)
+- [Foucault, la Naissance de la clinique : du regard médical au dossier — ce que l'histoire éclaire sur nos données de santé](https://le-phare.info/foucault-clinique-donnees-sante-ehds/)
+- [Lire une annonce médicale sans confondre individu et population](https://le-phare.info/lire-annonce-medicale-population-individu/)
+- [Déchiffrer une annonce sur le commerce international : tarifs, quotas, dumping et sauvegardes](https://le-phare.info/dechiffrer-annonce-commerce-tarifs-dumping-quotas/)
+
+**Sur le Sentier du Savoir**
+
+- [Lire une source avec discernement](https://le-phare.info/lire-une-source-avec-discernement/)
 
 ## Bloc publication
 Statut publication : publie
@@ -76,16 +91,3 @@ Slug propose : lire-annonce-donnees-sante-ehds-opt-out
 
 ## Bloc image WordPress
 Suggestion : schéma « patient — dossier — chercheur » minimaliste, sans visage identifiable. Image à la une assurée par le tag `science-sante` (ID 2060).
-
----
-
-## Repères de sources
-
-- Commission européenne — EHDS : [https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en](https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en)
-- Droits sur les données de santé (primary use) : [https://health.ec.europa.eu/ehealth-digital-health-and-care/my-rights-over-my-health-data_en](https://health.ec.europa.eu/ehealth-digital-health-and-care/my-rights-over-my-health-data_en)
-- Réutilisation (secondary use) : [https://health.ec.europa.eu/ehealth-digital-health-and-care/reuse-health-data_en](https://health.ec.europa.eu/ehealth-digital-health-and-care/reuse-health-data_en)
-
-## Liens internes (graphe)
-
-- [Lire une annonce médicale sans confondre individu et population](https://le-phare.info/lire-annonce-medicale-population-individu/) (Sentier, 2026)
-- [Déchiffrer une annonce sur le commerce international](https://le-phare.info/dechiffrer-annonce-commerce-tarifs-dumping-quotas/) (Sentier ECON — même discipline de lecture)
