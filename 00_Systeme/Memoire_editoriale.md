@@ -62,6 +62,7 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 | 2026-10-06 | 2026-559 | [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532) | Dossier (mensuelle) | dossier-hebdomadaire / CULTURE | Comment se servir d'un indicateur sans le laisser décider à notre place ? | 2026-559 (hub) | Donald T. Campbell ; Charles Goodhart | [Etape 06 — Statistiques, corrélations et causalité](https://le-phare.info/statistiques-correlations-et-causalite/) (2026-159) | — | Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il laisse hors champ ? |
 | 2026-10-06 | 2026-560 | [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/?p=5534) | Atelier Sentier (mensuelle) | sentier-du-savoir / SCIENCE | Comment savoir ce qu'un chiffre mesure vraiment avant de décider sur sa base ? | 2026-559 | Donald T. Campbell ; Charles Goodhart | [Etape 06 — Statistiques, corrélations et causalité](https://le-phare.info/statistiques-correlations-et-causalite/) (2026-159) | — | — |
 | 2026-10-06 | 2026-561 | [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/) | Question | actualites / SCIENCE | Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé, sans minimiser ni affoler ? | — | Onora O'Neill (A Question of Trust, Reith Lectures 2002) | [Etape 06 — Biais cognitifs et illusions de savoir](https://le-phare.info/biais-cognitifs-et-illusions-de-savoir/) (2026-158) | 2026-537 | Qu'est-ce qui rend une autorité sanitaire digne de confiance avant même qu'elle ait quelque chose de certain à dire ? |
+| 2026-10-06 | 2026-562 | [Le Fil du Phare — Qui doit porter le prix de ce que l'on ne voit pas encore ?](https://le-phare.info/fil-du-phare-qui-doit-porter-le-prix-de-ce-que-l-on-ne-voit-pas-encore/) | Fil du Phare | cycle / SCIENCE | Qui doit porter le prix de ce que l'on ne voit pas encore ? | — | Hans Jonas (Le Principe responsabilité, 1979) | — | 2026-547 | Quand on ne sait pas encore si une dépense prépare un dommage ou un bénéfice, qui doit décider de la faire ? |
 
 > Lignes ci-dessus amorcées le 2026-10-05 depuis l'ère triptyque (ACTU + TF + SENTIER) : Question du Phare et prolongements non renseignés à l'époque.
 
@@ -75,10 +76,10 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 
 | Fil (question) | Ouvert le | Articles (IDs) | Prochaine piste |
 |----------------|-----------|----------------|-----------------|
-| Souveraineté technologique européenne : réguler, produire ou dépendre ? | 2026-06-08 | 2026-508, 2026-528 | Angle mort militaire de l'AI Act (exclusion défense) à partir de 2026-531 |
-| Capacités proclamées ou démontrées : que vaut une puissance qu'on ne peut pas vérifier ? | 2026-10-05 | 2026-516, 2026-517, 2026-531 | Prochaine annonce d'arme « autonome » ou débat ONU sur les systèmes d'armes létaux autonomes |
-| Mesurer ou juger : que laisse hors champ un indicateur ? | 2026-10-05 | 2026-533, 2026-534, 2026-540, 2026-545, 2026-546 | Audition du conseil municipal de Philadelphie (7 octobre) ; second tour brésilien (25 octobre) et lecture des sondages |
-| Qui contrôle le contrôleur ? | 2026-10-05 | 2026-537, 2026-543, 2026-544 | Désignation des auditeurs de l'accord du 29 septembre ; confirmation du diagnostic d'Irkoutsk et sécurité des laboratoires |
+| Le prix de l'invisible : qui paie ce que l'on ne voit pas encore ? | 2026-10-06 | 2026-549, 2026-550, 2026-551, 2026-552, 2026-553, 2026-554, 2026-555, 2026-556, 2026-557, 2026-558, 2026-562 | Décision de la Cour suprême dans Suncor c. Boulder ; test des publicités visuelles de ChatGPT (fin octobre) ; appliquer la distinction dommage différé / bénéfice différé à un nouveau terrain (ECON : dette publique, retraites) |
+| Capacités proclamées ou démontrées : que vaut une puissance qu'on ne peut pas vérifier ? | 2026-10-05 | 2026-516, 2026-517, 2026-531 | Prochaine annonce d'arme « autonome » ou débat ONU sur les systèmes d'armes létaux autonomes ; Question 531 (capacité ou message) |
+| Mesurer ou juger : que laisse hors champ un indicateur ? | 2026-10-05 | 2026-533, 2026-534, 2026-540, 2026-545, 2026-546, 2026-547, 2026-548, 2026-552, 2026-559, 2026-560 | Audition du conseil municipal de Philadelphie (7 octobre) ; second tour brésilien (25 octobre) et lecture des sondages ; tester en TECH ou ECON (classements, notations) |
+| Qui contrôle le contrôleur ? | 2026-10-05 | 2026-537, 2026-543, 2026-544, 2026-561 | Désignation des auditeurs de l'accord du 29 septembre ; confirmation du diagnostic d'Irkoutsk ; qu'est-ce qui rend une autorité digne de confiance avant qu'elle sache (question de 561) |
 | Héritages : à qui appartient ce qu'on conserve ? | 2026-10-05 | 2026-519, 2026-532, 2026-538, 2026-545 | Restitutions d'objets et de restes humains entre pays européens ; sort des collections de Philadelphie |
 
 ### Fils à mettre de côté
@@ -88,6 +89,7 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 | Lignes ère triptyque (2026-505 à 2026-525) hors fils actifs | Pas de Question du Phare renseignée, actualité de juin datée | Nouvelle actualité sur le même sujet |
 | Guerres et récits concurrents (2026-535, 2026-541) | Sources indépendantes rares sur le Tigré ; Bosnie en attente des résultats définitifs | Accès humanitaire ou presse indépendante au Tigré ; formation des gouvernements bosniens |
 | Réserves stratégiques et prix (2026-536, 2026-540) | Effet des libérations de stocks pas encore mesurable | Données de prix du diesel sur plusieurs semaines |
+| Souveraineté technologique européenne : réguler, produire ou dépendre ? (2026-508, 2026-528) | Aucun article depuis juin ; place libérée pour le fil Le prix de l'invisible (2026-10-06) | Actualité européenne sur l'AI Act et l'exclusion défense, ou décision industrielle (puces, cloud souverain) |
 
 ### Fils clôturés
 
@@ -102,6 +104,7 @@ Types : `Actualité` | `Question` | `Application` | `Texte fondateur` | `Fil du 
 
 | Semaine | Grande question | Article Fil du Phare (ID) | Concepts apparus | Dossiers renforcés | Pistes pour la semaine suivante |
 |---------|-----------------|---------------------------|------------------|--------------------|---------------------------------|
+| 2026-09-30 → 2026-10-06 | Qui doit porter le prix de ce que l'on ne voit pas encore ? | 2026-562 | dommage différé / bénéfice différé, coûts déplacés, responsabilité diffuse, patience de la recherche, confiance dans l'incertitude (Hans Jonas) | Mesurer ou juger (2026-559) | Décision Suncor c. Boulder ; publicités visuelles ChatGPT (fin oct.) ; audition de Philadelphie (7 oct.) ; diagnostic d'Irkoutsk ; tester « prix de l'invisible » en ECON (dette, retraites) ; combler POL, MONDE, CULTURE |
 | 2026-09-29 → 2026-10-05 (2e passage) | Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ? | 2026-547 | indicateur et valeur, loi de Campbell, auto-évaluation, héritage et durée | — | Audition de Philadelphie (7 oct.) ; coalition lettone ; confirmation du diagnostic d'Irkoutsk ; tester « mesurer ou juger » en TECH ou ECON (classements, notations) ; texte fondateur Campbell / Goodhart (→ mensuelle) |
 | 2026-09-29 → 2026-10-05 | — (1 article : pas de Fil du Phare) | — | signal stratégique, invérifiabilité, propagation d'une affirmation | — | Suites de l'essai nord-coréen ou autre annonce d'IA militaire ; AI Act et exclusion défense ; tester « capacité ou message » hors militaire (annonces tech d'entreprises) ; combler CULTURE |
 

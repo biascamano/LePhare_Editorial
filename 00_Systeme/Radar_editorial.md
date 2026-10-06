@@ -1,6 +1,6 @@
 # Radar éditorial — Le Phare Info
 
-*Les possibilités ouvertes : ce qui peut devenir un prochain article. État au 2026-10-06.*
+*Les possibilités ouvertes : ce qui peut devenir un prochain article. État au 2026-10-06 (comité hebdomadaire).*
 *La quotidienne y pioche ; l'hebdomadaire trie (fusionne, élimine, re-priorise) ; la mensuelle archive. Vue courte : `00_Systeme/Etat_editorial_courant.md` (généré). Inventaire complet : `00_Systeme/Catalogue_editorial.md` (généré, mensuelle seulement).*
 
 ## Règles
@@ -19,12 +19,13 @@
 | P1 | Actualité | Audition du conseil municipal de Philadelphie sur le musée de l'Academy ; réponse de Drexel à la William Penn Foundation (CULTURE) | 545, 546 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (après le 7 oct.) |
 | P1 | Actualité | Second tour de la présidentielle au Brésil : résultat, et écart avec les sondages d'entre-deux-tours (MONDE) | 534 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (après le 25 oct.) |
 | P1 | Actualité | Formation de la coalition en Lettonie (MONDE) | 533 ; fil Mesurer ou juger | à échéance (dès annonce) |
-| P1 | Actualité | Diagnostic à Irkoutsk et sécurité des laboratoires de haut confinement (SCIENCE) | 537 ; fil Qui contrôle le contrôleur ? | à échéance (dès confirmation) |
+| P1 | Actualité | Diagnostic à Irkoutsk et sécurité des laboratoires de haut confinement ; qu'est-ce qui rend une autorité digne de confiance avant qu'elle sache ? (SCIENCE) | 537, 561 ; fil Qui contrôle le contrôleur ? | à échéance (dès confirmation) |
+| P1 | Actualité | Publicité dans les assistants : premiers retours du test des publicités visuelles de ChatGPT, concurrents, réponse des régulateurs européens (TECH) | 555, 556 ; fil Le prix de l'invisible | à échéance (fin octobre) |
+| P2 | Actualité | Décision de la Cour suprême dans Suncor c. Boulder : compétence des tribunaux d'État et suite des contentieux climatiques (CLIMAT) | 549, 550 ; fil Le prix de l'invisible | à échéance (décision, d'ici juin 2027) |
 | P2 | Actualité | Conclusions de la Super Intelligence Force ; désignation des auditeurs prévus par l'accord du 29 septembre (TECH) | 543, 544 ; fil Qui contrôle le contrôleur ? | à échéance (à 120 jours) |
-| P2 | Actualité | Publicité dans les assistants : test des publicités visuelles, concurrents, réponse des régulateurs européens (TECH) | 555, 556 | approfondir |
 | P2 | Actualité | Effet des libérations de réserves du G7 sur le prix du diesel (ECON) | 536 ; fil (de côté) Réserves stratégiques et prix | à échéance (données sur plusieurs semaines) |
-| P2 | Actualité | Situation humanitaire au Tigré et médiations régionales (MONDE) | 535 ; fil (de côté) Guerres et récits concurrents | conserver |
-| P2 | Actualité | Bosnie-Herzégovine : résultats définitifs et formation des gouvernements (POL) | 541 ; fil (de côté) Guerres et récits concurrents | à échéance (résultats définitifs) |
+| P3 | Actualité | Situation humanitaire au Tigré et médiations régionales (MONDE) | 535 ; fil (de côté) Guerres et récits concurrents | conserver |
+| P3 | Actualité | Bosnie-Herzégovine : résultats définitifs et formation des gouvernements (POL) | 541 ; fil (de côté) Guerres et récits concurrents | à échéance (résultats définitifs) |
 
 ## 2. Questions en attente
 
@@ -32,11 +33,11 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 
 | P | Type potentiel | Sujet / Question | Origine | Statut |
 |---|---|---|---|---|
-| P1 | Question | Quand un paysage familier disparaît, faut-il y voir une perte, un signal climatique, ou simplement le temps de la Terre qui devient visible ? (CLIMAT ; Ruskin, TF existant) | 539 | approfondir |
+| P2 | Question | Quand un paysage familier disparaît, faut-il y voir une perte, un signal climatique, ou simplement le temps de la Terre qui devient visible ? (CLIMAT ; Ruskin, TF existant) | 539 | approfondir |
 | P2 | Question | Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) | 531 ; fil Capacités proclamées | approfondir |
 | P2 | Question | Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) | 535 | approfondir |
 | P2 | Question | Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer) | 533 | approfondir |
-| P2 | Question | Comment entendre les revendications d'un mouvement quand les images de violence occupent tout l'espace du récit ? (POL) | 542 | approfondir |
+| P3 | Question | Comment entendre les revendications d'un mouvement quand les images de violence occupent tout l'espace du récit ? (POL) | 542 | conserver |
 | P3 | Question | Une réserve stratégique sert-elle à faire baisser les prix, ou à gagner du temps ? (ECON) | 536 | conserver |
 | P3 | Question | À qui appartient un roi mort il y a mille ans ? (CULTURE ; Ruskin) | 538 ; fil Héritages | conserver |
 
@@ -47,7 +48,7 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P | Type potentiel | Sujet / Question | Origine | Statut |
 |---|---|---|---|---|
 | P2 | Application | Tester « mesurer ou juger » en TECH ou ECON : classements, notations, scores | Fil 547 ; dossier 2026-559 ; TF 548 | relier |
-| P2 | Application | Qui paie ce que tout le monde partage, et qui répond d'un dommage aux mille auteurs : le réseau électrique, le climat, d'autres communs | 549, 550, 553, 554 | relier |
+| P2 | Application | Le prix de l'invisible sur un terrain nouveau (ECON : dette publique, retraites, infrastructures) : dommage différé ou bénéfice différé, et qui décide de la dépense quand on ne sait pas encore lequel ? | Fil 562 ; 549, 550, 552, 553, 554 ; fil Le prix de l'invisible | relier |
 | P3 | Application | Capacité ou message, hors du militaire : les annonces technologiques d'entreprises | 531 ; fil Capacités proclamées | relier |
 
 ## 4. Structurants : textes fondateurs et applications
