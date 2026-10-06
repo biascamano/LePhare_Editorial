@@ -4,3 +4,5 @@
 **/.env
 **/*credentials*
 __pycache__/
+index_editorial.merged.csv
+infoTransfertCuersorVerClaudeCode.txt
