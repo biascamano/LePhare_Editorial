@@ -1,0 +1,140 @@
+[2026-06-03T07:32:55] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-03_feuille-route-energie-ia
+[2026-06-03T07:32:55] Selected topic label: 2026-06-03_feuille-route-energie-ia
+[2026-06-03T07:32:55] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-03_feuille-route-energie-ia --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-03T07:32:55] --- WP-PUSH OUTPUT ---
+[2026-06-03T07:33:33] {
+[2026-06-03T07:33:33]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia",
+[2026-06-03T07:33:33]   "total": 3,
+[2026-06-03T07:33:33]   "created": 3,
+[2026-06-03T07:33:33]   "skipped": 0,
+[2026-06-03T07:33:33]   "failed": 0,
+[2026-06-03T07:33:33]   "items": [
+[2026-06-03T07:33:33]     {
+[2026-06-03T07:33:33]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-499_ACTU_TECH_feuille_route_energie_ia_adoption_3_juin_2026_V1.md",
+[2026-06-03T07:33:33]       "article_id": "2026-499",
+[2026-06-03T07:33:33]       "title": "Feuille de route énergie-IA : ce que Bruxelles engage le 3 juin 2026 — et ce qu'il reste à cartographier",
+[2026-06-03T07:33:33]       "status": "draft",
+[2026-06-03T07:33:33]       "wordpress_id": 4688,
+[2026-06-03T07:33:33]       "slug": "feuille-route-energie-ia-adoption-3-juin-2026",
+[2026-06-03T07:33:33]       "link": "https://le-phare.info/?p=4688",
+[2026-06-03T07:33:33]       "categories": [
+[2026-06-03T07:33:33]         "actualites"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "tags": [
+[2026-06-03T07:33:33]         "technologie-ia",
+[2026-06-03T07:33:33]         "sentier-approfondissement",
+[2026-06-03T07:33:33]         "energie-ia",
+[2026-06-03T07:33:33]         "data-centers",
+[2026-06-03T07:33:33]         "ai-grids",
+[2026-06-03T07:33:33]         "posture-observer",
+[2026-06-03T07:33:33]         "triptyque"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "index_updated": true,
+[2026-06-03T07:33:33]       "featured_media": 2133,
+[2026-06-03T07:33:33]       "error": ""
+[2026-06-03T07:33:33]     },
+[2026-06-03T07:33:33]     {
+[2026-06-03T07:33:33]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-500_TF_CLIMAT_timothy_mitchell_carbon_democracy_infrastructures_energie_ia_V1.md",
+[2026-06-03T07:33:33]       "article_id": "2026-500",
+[2026-06-03T07:33:33]       "title": "Timothy Mitchell : infrastructures énergétiques et démocratie du carbone — lire la feuille de route énergie-IA",
+[2026-06-03T07:33:33]       "status": "draft",
+[2026-06-03T07:33:33]       "wordpress_id": 4689,
+[2026-06-03T07:33:33]       "slug": "timothy-mitchell-carbon-democracy-infrastructures-energie-ia",
+[2026-06-03T07:33:33]       "link": "https://le-phare.info/?p=4689",
+[2026-06-03T07:33:33]       "categories": [
+[2026-06-03T07:33:33]         "textes-fondateurs"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "tags": [
+[2026-06-03T07:33:33]         "environnement-climat",
+[2026-06-03T07:33:33]         "sentier-approfondissement",
+[2026-06-03T07:33:33]         "timothy-mitchell",
+[2026-06-03T07:33:33]         "carbon-democracy",
+[2026-06-03T07:33:33]         "infrastructures-energetiques",
+[2026-06-03T07:33:33]         "triptyque"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "index_updated": true,
+[2026-06-03T07:33:33]       "featured_media": 2130,
+[2026-06-03T07:33:33]       "error": ""
+[2026-06-03T07:33:33]     },
+[2026-06-03T07:33:33]     {
+[2026-06-03T07:33:33]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-501_SENTIER_TECH_cartographier_feuille_route_energie_ia_six_reperes_V1.md",
+[2026-06-03T07:33:33]       "article_id": "2026-501",
+[2026-06-03T07:33:33]       "title": "Cartographier la feuille de route énergie-IA du 3 juin : six repères pour AI.grids et l'intégration des data centers",
+[2026-06-03T07:33:33]       "status": "draft",
+[2026-06-03T07:33:33]       "wordpress_id": 4690,
+[2026-06-03T07:33:33]       "slug": "cartographier-feuille-route-energie-ia-six-reperes",
+[2026-06-03T07:33:33]       "link": "https://le-phare.info/?p=4690",
+[2026-06-03T07:33:33]       "categories": [
+[2026-06-03T07:33:33]         "sentier-du-savoir"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "tags": [
+[2026-06-03T07:33:33]         "technologie-ia",
+[2026-06-03T07:33:33]         "sentier-approfondissement",
+[2026-06-03T07:33:33]         "cartographie",
+[2026-06-03T07:33:33]         "energie-ia",
+[2026-06-03T07:33:33]         "data-centers",
+[2026-06-03T07:33:33]         "atelier-sentier",
+[2026-06-03T07:33:33]         "fondamental-2026-178",
+[2026-06-03T07:33:33]         "posture-comprendre",
+[2026-06-03T07:33:33]         "triptyque"
+[2026-06-03T07:33:33]       ],
+[2026-06-03T07:33:33]       "index_updated": true,
+[2026-06-03T07:33:33]       "featured_media": 2133,
+[2026-06-03T07:33:33]       "error": ""
+[2026-06-03T07:33:33]     }
+[2026-06-03T07:33:33]   ]
+[2026-06-03T07:33:33] }
+[2026-06-03T07:33:33] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-03_feuille-route-energie-ia --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-03T07:33:33] --- POST-LINKING OUTPUT ---
+[2026-06-03T07:33:36] {
+[2026-06-03T07:33:36]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia",
+[2026-06-03T07:33:36]   "mode": "triptyque_linking_v2",
+[2026-06-03T07:33:36]   "dry_run": false,
+[2026-06-03T07:33:36]   "total": 3,
+[2026-06-03T07:33:36]   "updated_local": 3,
+[2026-06-03T07:33:36]   "updated_wordpress": 3,
+[2026-06-03T07:33:36]   "items": [
+[2026-06-03T07:33:36]     {
+[2026-06-03T07:33:36]       "article_id": "2026-499",
+[2026-06-03T07:33:36]       "type": "ACTU",
+[2026-06-03T07:33:36]       "title": "Feuille de route énergie-IA : ce que Bruxelles engage le 3 juin 2026 — et ce qu'il reste à cartographier",
+[2026-06-03T07:33:36]       "wordpress_id": 4688,
+[2026-06-03T07:33:36]       "wordpress_url": "https://le-phare.info/?p=4688",
+[2026-06-03T07:33:36]       "updated_paths": [
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-499_ACTU_TECH_feuille_route_energie_ia_adoption_3_juin_2026_V1.md",
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-499_ACTU_TECH_feuille_route_energie_ia_adoption_3_juin_2026_V1.md"
+[2026-06-03T07:33:36]       ],
+[2026-06-03T07:33:36]       "status": "updated",
+[2026-06-03T07:33:36]       "error": ""
+[2026-06-03T07:33:36]     },
+[2026-06-03T07:33:36]     {
+[2026-06-03T07:33:36]       "article_id": "2026-500",
+[2026-06-03T07:33:36]       "type": "TF",
+[2026-06-03T07:33:36]       "title": "Timothy Mitchell : infrastructures énergétiques et démocratie du carbone — lire la feuille de route énergie-IA",
+[2026-06-03T07:33:36]       "wordpress_id": 4689,
+[2026-06-03T07:33:36]       "wordpress_url": "https://le-phare.info/?p=4689",
+[2026-06-03T07:33:36]       "updated_paths": [
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-500_TF_CLIMAT_timothy_mitchell_carbon_democracy_infrastructures_energie_ia_V1.md",
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-500_TF_CLIMAT_timothy_mitchell_carbon_democracy_infrastructures_energie_ia_V1.md"
+[2026-06-03T07:33:36]       ],
+[2026-06-03T07:33:36]       "status": "updated",
+[2026-06-03T07:33:36]       "error": ""
+[2026-06-03T07:33:36]     },
+[2026-06-03T07:33:36]     {
+[2026-06-03T07:33:36]       "article_id": "2026-501",
+[2026-06-03T07:33:36]       "type": "SENTIER",
+[2026-06-03T07:33:36]       "title": "Cartographier la feuille de route énergie-IA du 3 juin : six repères pour AI.grids et l'intégration des data centers",
+[2026-06-03T07:33:36]       "wordpress_id": 4690,
+[2026-06-03T07:33:36]       "wordpress_url": "https://le-phare.info/?p=4690",
+[2026-06-03T07:33:36]       "updated_paths": [
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-03_feuille-route-energie-ia\\2026-501_SENTIER_TECH_cartographier_feuille_route_energie_ia_six_reperes_V1.md",
+[2026-06-03T07:33:36]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_04_Expertise\\2026-501_SENTIER_TECH_cartographier_feuille_route_energie_ia_six_reperes_V1.md"
+[2026-06-03T07:33:36]       ],
+[2026-06-03T07:33:36]       "status": "updated",
+[2026-06-03T07:33:36]       "error": ""
+[2026-06-03T07:33:36]     }
+[2026-06-03T07:33:36]   ],
+[2026-06-03T07:33:36]   "errors": []
+[2026-06-03T07:33:36] }
+[2026-06-03T07:33:36] [V2] Rappel fondamental parent : fondamental-2026-178 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-03T07:33:36] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-03_feuille-route-energie-ia

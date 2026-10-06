@@ -1,0 +1,274 @@
+[2026-05-13T08:35:11] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_europe-acier-defense-commerciale_triptyque
+[2026-05-13T08:35:11] Selected topic label: 2026-05-13_europe-acier-defense-commerciale_triptyque
+[2026-05-13T08:35:11] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_europe-acier-defense-commerciale_triptyque --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-13T08:35:11] --- WP-PUSH OUTPUT ---
+[2026-05-13T08:35:34] {
+[2026-05-13T08:35:34]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque",
+[2026-05-13T08:35:34]   "total": 3,
+[2026-05-13T08:35:34]   "created": 3,
+[2026-05-13T08:35:34]   "skipped": 0,
+[2026-05-13T08:35:34]   "failed": 0,
+[2026-05-13T08:35:34]   "items": [
+[2026-05-13T08:35:34]     {
+[2026-05-13T08:35:34]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-457_ACTU_ECON_europe_acier_surcapacite_mondiale_et_nouvelle_defense_commerciale_V1.md",
+[2026-05-13T08:35:34]       "article_id": "2026-457",
+[2026-05-13T08:35:34]       "title": "Europe, acier et surcapacité mondiale : vers une défense commerciale plus dure après juin 2026",
+[2026-05-13T08:35:34]       "status": "draft",
+[2026-05-13T08:35:34]       "wordpress_id": 4179,
+[2026-05-13T08:35:34]       "slug": "europe-acier-surcapacite-defense-commerciale-2026",
+[2026-05-13T08:35:34]       "link": "https://le-phare.info/?p=4179",
+[2026-05-13T08:35:34]       "categories": [
+[2026-05-13T08:35:34]         "actualites"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "tags": [
+[2026-05-13T08:35:34]         "economie-finance",
+[2026-05-13T08:35:34]         "sentier-critique",
+[2026-05-13T08:35:34]         "acier",
+[2026-05-13T08:35:34]         "surcapacite-mondiale",
+[2026-05-13T08:35:34]         "defense-commerciale",
+[2026-05-13T08:35:34]         "posture-observer",
+[2026-05-13T08:35:34]         "triptyque"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "index_updated": true,
+[2026-05-13T08:35:34]       "featured_media": 4142,
+[2026-05-13T08:35:34]       "error": ""
+[2026-05-13T08:35:34]     },
+[2026-05-13T08:35:34]     {
+[2026-05-13T08:35:34]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-458_TF_ECON_friedrich_list_systeme_national_et_forces_productives_V1.md",
+[2026-05-13T08:35:34]       "article_id": "2026-458",
+[2026-05-13T08:35:34]       "title": "Friedrich List : le « système national » entre libre-échange et forces productives",
+[2026-05-13T08:35:34]       "status": "draft",
+[2026-05-13T08:35:34]       "wordpress_id": 4180,
+[2026-05-13T08:35:34]       "slug": "friedrich-list-systeme-national-forces-productives",
+[2026-05-13T08:35:34]       "link": "https://le-phare.info/?p=4180",
+[2026-05-13T08:35:34]       "categories": [
+[2026-05-13T08:35:34]         "textes-fondateurs"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "tags": [
+[2026-05-13T08:35:34]         "economie-finance",
+[2026-05-13T08:35:34]         "sentier-approfondissement",
+[2026-05-13T08:35:34]         "friedrich-list",
+[2026-05-13T08:35:34]         "systeme-national",
+[2026-05-13T08:35:34]         "protection-douaniere",
+[2026-05-13T08:35:34]         "triptyque"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "index_updated": true,
+[2026-05-13T08:35:34]       "featured_media": 4142,
+[2026-05-13T08:35:34]       "error": ""
+[2026-05-13T08:35:34]     },
+[2026-05-13T08:35:34]     {
+[2026-05-13T08:35:34]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-459_SENTIER_ECON_dechiffrer_une_annonce_commerce_tarifs_quotas_dumping_sauvegardes_V1.md",
+[2026-05-13T08:35:34]       "article_id": "2026-459",
+[2026-05-13T08:35:34]       "title": "Déchiffrer une annonce sur le commerce international : tarifs, quotas, dumping et sauvegardes",
+[2026-05-13T08:35:34]       "status": "draft",
+[2026-05-13T08:35:34]       "wordpress_id": 4181,
+[2026-05-13T08:35:34]       "slug": "dechiffrer-annonce-commerce-tarifs-dumping-quotas",
+[2026-05-13T08:35:34]       "link": "https://le-phare.info/?p=4181",
+[2026-05-13T08:35:34]       "categories": [
+[2026-05-13T08:35:34]         "sentier-du-savoir"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "tags": [
+[2026-05-13T08:35:34]         "economie-finance",
+[2026-05-13T08:35:34]         "sentier-critique",
+[2026-05-13T08:35:34]         "pensee-critique",
+[2026-05-13T08:35:34]         "commerce-international",
+[2026-05-13T08:35:34]         "instruments-commerciaux",
+[2026-05-13T08:35:34]         "posture-comprendre",
+[2026-05-13T08:35:34]         "triptyque"
+[2026-05-13T08:35:34]       ],
+[2026-05-13T08:35:34]       "index_updated": true,
+[2026-05-13T08:35:34]       "featured_media": 4142,
+[2026-05-13T08:35:34]       "error": ""
+[2026-05-13T08:35:34]     }
+[2026-05-13T08:35:34]   ]
+[2026-05-13T08:35:34] }
+[2026-05-13T08:35:34] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_europe-acier-defense-commerciale_triptyque --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-13T08:35:34] --- POST-LINKING OUTPUT ---
+[2026-05-13T08:35:38] {
+[2026-05-13T08:35:38]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque",
+[2026-05-13T08:35:38]   "mode": "triptyque_linking_v2",
+[2026-05-13T08:35:38]   "dry_run": false,
+[2026-05-13T08:35:38]   "total": 3,
+[2026-05-13T08:35:38]   "updated_local": 3,
+[2026-05-13T08:35:38]   "updated_wordpress": 3,
+[2026-05-13T08:35:38]   "items": [
+[2026-05-13T08:35:38]     {
+[2026-05-13T08:35:38]       "article_id": "2026-457",
+[2026-05-13T08:35:38]       "type": "ACTU",
+[2026-05-13T08:35:38]       "title": "Europe, acier et surcapacité mondiale : vers une défense commerciale plus dure après juin 2026",
+[2026-05-13T08:35:38]       "wordpress_id": 4179,
+[2026-05-13T08:35:38]       "wordpress_url": "https://le-phare.info/?p=4179",
+[2026-05-13T08:35:38]       "updated_paths": [
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-457_ACTU_ECON_europe_acier_surcapacite_mondiale_et_nouvelle_defense_commerciale_V1.md",
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-457_ACTU_ECON_europe_acier_surcapacite_mondiale_et_nouvelle_defense_commerciale_V1.md"
+[2026-05-13T08:35:38]       ],
+[2026-05-13T08:35:38]       "status": "updated",
+[2026-05-13T08:35:38]       "error": ""
+[2026-05-13T08:35:38]     },
+[2026-05-13T08:35:38]     {
+[2026-05-13T08:35:38]       "article_id": "2026-458",
+[2026-05-13T08:35:38]       "type": "TF",
+[2026-05-13T08:35:38]       "title": "Friedrich List : le « système national » entre libre-échange et forces productives",
+[2026-05-13T08:35:38]       "wordpress_id": 4180,
+[2026-05-13T08:35:38]       "wordpress_url": "https://le-phare.info/?p=4180",
+[2026-05-13T08:35:38]       "updated_paths": [
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-458_TF_ECON_friedrich_list_systeme_national_et_forces_productives_V1.md",
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-458_TF_ECON_friedrich_list_systeme_national_et_forces_productives_V1.md"
+[2026-05-13T08:35:38]       ],
+[2026-05-13T08:35:38]       "status": "updated",
+[2026-05-13T08:35:38]       "error": ""
+[2026-05-13T08:35:38]     },
+[2026-05-13T08:35:38]     {
+[2026-05-13T08:35:38]       "article_id": "2026-459",
+[2026-05-13T08:35:38]       "type": "SENTIER",
+[2026-05-13T08:35:38]       "title": "Déchiffrer une annonce sur le commerce international : tarifs, quotas, dumping et sauvegardes",
+[2026-05-13T08:35:38]       "wordpress_id": 4181,
+[2026-05-13T08:35:38]       "wordpress_url": "https://le-phare.info/?p=4181",
+[2026-05-13T08:35:38]       "updated_paths": [
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_europe-acier-defense-commerciale_triptyque\\2026-459_SENTIER_ECON_dechiffrer_une_annonce_commerce_tarifs_quotas_dumping_sauvegardes_V1.md",
+[2026-05-13T08:35:38]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_02_Pensee_critique\\2026-459_SENTIER_ECON_dechiffrer_une_annonce_commerce_tarifs_quotas_dumping_sauvegardes_V1.md"
+[2026-05-13T08:35:38]       ],
+[2026-05-13T08:35:38]       "status": "updated",
+[2026-05-13T08:35:38]       "error": ""
+[2026-05-13T08:35:38]     }
+[2026-05-13T08:35:38]   ],
+[2026-05-13T08:35:38]   "errors": []
+[2026-05-13T08:35:38] }
+[2026-05-13T08:35:38] Staging folder removed: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_europe-acier-defense-commerciale_triptyque
+[2026-05-13T13:31:12] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_ehds-donnees-sante_triptyque
+[2026-05-13T13:31:12] Selected topic label: 2026-05-13_ehds-donnees-sante_triptyque
+[2026-05-13T13:31:12] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_ehds-donnees-sante_triptyque --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-13T13:31:12] --- WP-PUSH OUTPUT ---
+[2026-05-13T13:31:30] {
+[2026-05-13T13:31:30]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque",
+[2026-05-13T13:31:30]   "total": 3,
+[2026-05-13T13:31:30]   "created": 3,
+[2026-05-13T13:31:30]   "skipped": 0,
+[2026-05-13T13:31:30]   "failed": 0,
+[2026-05-13T13:31:30]   "items": [
+[2026-05-13T13:31:30]     {
+[2026-05-13T13:31:30]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-460_ACTU_SCIENCE_espace_europeen_donnees_sante_entre_loi_et_calendrier_2029_V1.md",
+[2026-05-13T13:31:30]       "article_id": "2026-460",
+[2026-05-13T13:31:30]       "title": "Espace européen des données de santé : entre promesse transfrontière et calendrier encore lointain",
+[2026-05-13T13:31:30]       "status": "draft",
+[2026-05-13T13:31:30]       "wordpress_id": 4186,
+[2026-05-13T13:31:30]       "slug": "espace-europeen-donnees-sante-ehds-calendrier-2026",
+[2026-05-13T13:31:30]       "link": "https://le-phare.info/?p=4186",
+[2026-05-13T13:31:30]       "categories": [
+[2026-05-13T13:31:30]         "actualites"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "tags": [
+[2026-05-13T13:31:30]         "science-sante",
+[2026-05-13T13:31:30]         "sentier-science",
+[2026-05-13T13:31:30]         "donnees-sante",
+[2026-05-13T13:31:30]         "ehds",
+[2026-05-13T13:31:30]         "interoperabilite",
+[2026-05-13T13:31:30]         "posture-observer",
+[2026-05-13T13:31:30]         "triptyque"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "index_updated": true,
+[2026-05-13T13:31:30]       "featured_media": 2060,
+[2026-05-13T13:31:30]       "error": ""
+[2026-05-13T13:31:30]     },
+[2026-05-13T13:31:30]     {
+[2026-05-13T13:31:30]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-461_TF_SCIENCE_foucault_naissance_de_la_clinique_regard_medical_et_donnees_V1.md",
+[2026-05-13T13:31:30]       "article_id": "2026-461",
+[2026-05-13T13:31:30]       "title": "Foucault, la Naissance de la clinique : du regard médical au dossier — ce que l’histoire éclaire sur nos données de santé",
+[2026-05-13T13:31:30]       "status": "draft",
+[2026-05-13T13:31:30]       "wordpress_id": 4187,
+[2026-05-13T13:31:30]       "slug": "foucault-clinique-donnees-sante-ehds",
+[2026-05-13T13:31:30]       "link": "https://le-phare.info/?p=4187",
+[2026-05-13T13:31:30]       "categories": [
+[2026-05-13T13:31:30]         "textes-fondateurs"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "tags": [
+[2026-05-13T13:31:30]         "science-sante",
+[2026-05-13T13:31:30]         "sentier-approfondissement",
+[2026-05-13T13:31:30]         "foucault",
+[2026-05-13T13:31:30]         "medecine",
+[2026-05-13T13:31:30]         "donnees-sante",
+[2026-05-13T13:31:30]         "triptyque"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "index_updated": true,
+[2026-05-13T13:31:30]       "featured_media": 2060,
+[2026-05-13T13:31:30]       "error": ""
+[2026-05-13T13:31:30]     },
+[2026-05-13T13:31:30]     {
+[2026-05-13T13:31:30]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-462_SENTIER_SCIENCE_lire_une_annonce_donnees_sante_opt_out_pilote_et_effet_clinique_V1.md",
+[2026-05-13T13:31:30]       "article_id": "2026-462",
+[2026-05-13T13:31:30]       "title": "Lire une annonce « données de santé » sans confondre opt-out, pilote et effet clinique",
+[2026-05-13T13:31:30]       "status": "draft",
+[2026-05-13T13:31:30]       "wordpress_id": 4188,
+[2026-05-13T13:31:30]       "slug": "lire-annonce-donnees-sante-ehds-opt-out",
+[2026-05-13T13:31:30]       "link": "https://le-phare.info/?p=4188",
+[2026-05-13T13:31:30]       "categories": [
+[2026-05-13T13:31:30]         "sentier-du-savoir"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "tags": [
+[2026-05-13T13:31:30]         "science-sante",
+[2026-05-13T13:31:30]         "sentier-critique",
+[2026-05-13T13:31:30]         "pensee-critique",
+[2026-05-13T13:31:30]         "donnees-sante",
+[2026-05-13T13:31:30]         "ehds",
+[2026-05-13T13:31:30]         "posture-comprendre",
+[2026-05-13T13:31:30]         "triptyque"
+[2026-05-13T13:31:30]       ],
+[2026-05-13T13:31:30]       "index_updated": true,
+[2026-05-13T13:31:30]       "featured_media": 2060,
+[2026-05-13T13:31:30]       "error": ""
+[2026-05-13T13:31:30]     }
+[2026-05-13T13:31:30]   ]
+[2026-05-13T13:31:30] }
+[2026-05-13T13:31:30] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_ehds-donnees-sante_triptyque --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-13T13:31:30] --- POST-LINKING OUTPUT ---
+[2026-05-13T13:31:33] {
+[2026-05-13T13:31:33]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque",
+[2026-05-13T13:31:33]   "mode": "triptyque_linking_v2",
+[2026-05-13T13:31:33]   "dry_run": false,
+[2026-05-13T13:31:33]   "total": 3,
+[2026-05-13T13:31:33]   "updated_local": 3,
+[2026-05-13T13:31:33]   "updated_wordpress": 3,
+[2026-05-13T13:31:33]   "items": [
+[2026-05-13T13:31:33]     {
+[2026-05-13T13:31:33]       "article_id": "2026-460",
+[2026-05-13T13:31:33]       "type": "ACTU",
+[2026-05-13T13:31:33]       "title": "Espace européen des données de santé : entre promesse transfrontière et calendrier encore lointain",
+[2026-05-13T13:31:33]       "wordpress_id": 4186,
+[2026-05-13T13:31:33]       "wordpress_url": "https://le-phare.info/?p=4186",
+[2026-05-13T13:31:33]       "updated_paths": [
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-460_ACTU_SCIENCE_espace_europeen_donnees_sante_entre_loi_et_calendrier_2029_V1.md",
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Science_Sante\\2026-460_ACTU_SCIENCE_espace_europeen_donnees_sante_entre_loi_et_calendrier_2029_V1.md"
+[2026-05-13T13:31:33]       ],
+[2026-05-13T13:31:33]       "status": "updated",
+[2026-05-13T13:31:33]       "error": ""
+[2026-05-13T13:31:33]     },
+[2026-05-13T13:31:33]     {
+[2026-05-13T13:31:33]       "article_id": "2026-461",
+[2026-05-13T13:31:33]       "type": "TF",
+[2026-05-13T13:31:33]       "title": "Foucault, la Naissance de la clinique : du regard médical au dossier — ce que l’histoire éclaire sur nos données de santé",
+[2026-05-13T13:31:33]       "wordpress_id": 4187,
+[2026-05-13T13:31:33]       "wordpress_url": "https://le-phare.info/?p=4187",
+[2026-05-13T13:31:33]       "updated_paths": [
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-461_TF_SCIENCE_foucault_naissance_de_la_clinique_regard_medical_et_donnees_V1.md",
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-461_TF_SCIENCE_foucault_naissance_de_la_clinique_regard_medical_et_donnees_V1.md"
+[2026-05-13T13:31:33]       ],
+[2026-05-13T13:31:33]       "status": "updated",
+[2026-05-13T13:31:33]       "error": ""
+[2026-05-13T13:31:33]     },
+[2026-05-13T13:31:33]     {
+[2026-05-13T13:31:33]       "article_id": "2026-462",
+[2026-05-13T13:31:33]       "type": "SENTIER",
+[2026-05-13T13:31:33]       "title": "Lire une annonce « données de santé » sans confondre opt-out, pilote et effet clinique",
+[2026-05-13T13:31:33]       "wordpress_id": 4188,
+[2026-05-13T13:31:33]       "wordpress_url": "https://le-phare.info/?p=4188",
+[2026-05-13T13:31:33]       "updated_paths": [
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-13_ehds-donnees-sante_triptyque\\2026-462_SENTIER_SCIENCE_lire_une_annonce_donnees_sante_opt_out_pilote_et_effet_clinique_V1.md",
+[2026-05-13T13:31:33]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_02_Pensee_critique\\2026-462_SENTIER_SCIENCE_lire_une_annonce_donnees_sante_opt_out_pilote_et_effet_clinique_V1.md"
+[2026-05-13T13:31:33]       ],
+[2026-05-13T13:31:33]       "status": "updated",
+[2026-05-13T13:31:33]       "error": ""
+[2026-05-13T13:31:33]     }
+[2026-05-13T13:31:33]   ],
+[2026-05-13T13:31:33]   "errors": []
+[2026-05-13T13:31:33] }
+[2026-05-13T13:31:33] Staging folder removed: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-13_ehds-donnees-sante_triptyque

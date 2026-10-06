@@ -1,0 +1,140 @@
+[2026-06-04T11:08:32] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-04_agoraeu-habermas-traduction
+[2026-06-04T11:08:32] Selected topic label: 2026-06-04_agoraeu-habermas-traduction
+[2026-06-04T11:08:32] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-04_agoraeu-habermas-traduction --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-04T11:08:32] --- WP-PUSH OUTPUT ---
+[2026-06-04T11:09:09] {
+[2026-06-04T11:09:09]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction",
+[2026-06-04T11:09:09]   "total": 3,
+[2026-06-04T11:09:09]   "created": 3,
+[2026-06-04T11:09:09]   "skipped": 0,
+[2026-06-04T11:09:09]   "failed": 0,
+[2026-06-04T11:09:09]   "items": [
+[2026-06-04T11:09:09]     {
+[2026-06-04T11:09:09]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-502_ACTU_CULTURE_agoraeu_mandat_partiel_conseil_parlement_juin_2026_V1.md",
+[2026-06-04T11:09:09]       "article_id": "2026-502",
+[2026-06-04T11:09:09]       "title": "AgoraEU : mandat partiel du Conseil, session du Parlement — et ce que juin 2026 change (ou pas) pour la culture et les médias",
+[2026-06-04T11:09:09]       "status": "draft",
+[2026-06-04T11:09:09]       "wordpress_id": 4731,
+[2026-06-04T11:09:09]       "slug": "agoraeu-mandat-partiel-conseil-parlement-juin-2026",
+[2026-06-04T11:09:09]       "link": "https://le-phare.info/?p=4731",
+[2026-06-04T11:09:09]       "categories": [
+[2026-06-04T11:09:09]         "actualites"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "tags": [
+[2026-06-04T11:09:09]         "culture-philosophie",
+[2026-06-04T11:09:09]         "sentier-langues",
+[2026-06-04T11:09:09]         "agoraeu",
+[2026-06-04T11:09:09]         "creative-europe",
+[2026-06-04T11:09:09]         "medias",
+[2026-06-04T11:09:09]         "mandat-partiel",
+[2026-06-04T11:09:09]         "posture-observer",
+[2026-06-04T11:09:09]         "triptyque"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "index_updated": true,
+[2026-06-04T11:09:09]       "featured_media": null,
+[2026-06-04T11:09:09]       "error": ""
+[2026-06-04T11:09:09]     },
+[2026-06-04T11:09:09]     {
+[2026-06-04T11:09:09]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-503_TF_CULTURE_jurgen_habermas_sphere_publique_agoraeu_medias_V1.md",
+[2026-06-04T11:09:09]       "article_id": "2026-503",
+[2026-06-04T11:09:09]       "title": "Jürgen Habermas : sphère publique, médias et démocratie — lire AgoraEU sans réduire l'espace public à un budget",
+[2026-06-04T11:09:09]       "status": "draft",
+[2026-06-04T11:09:09]       "wordpress_id": 4732,
+[2026-06-04T11:09:09]       "slug": "jurgen-habermas-sphere-publique-agoraeu-medias",
+[2026-06-04T11:09:09]       "link": "https://le-phare.info/?p=4732",
+[2026-06-04T11:09:09]       "categories": [
+[2026-06-04T11:09:09]         "textes-fondateurs"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "tags": [
+[2026-06-04T11:09:09]         "culture-philosophie",
+[2026-06-04T11:09:09]         "sentier-langues",
+[2026-06-04T11:09:09]         "jurgen-habermas",
+[2026-06-04T11:09:09]         "sphere-publique",
+[2026-06-04T11:09:09]         "medias",
+[2026-06-04T11:09:09]         "triptyque"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "index_updated": true,
+[2026-06-04T11:09:09]       "featured_media": null,
+[2026-06-04T11:09:09]       "error": ""
+[2026-06-04T11:09:09]     },
+[2026-06-04T11:09:09]     {
+[2026-06-04T11:09:09]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-504_SENTIER_CULTURE_naviguer_mandat_partiel_agoraeu_traduction_institutionnelle_V1.md",
+[2026-06-04T11:09:09]       "article_id": "2026-504",
+[2026-06-04T11:09:09]       "title": "Naviguer entre mandat partiel, budget et trois fils AgoraEU : traduire le dossier de juin 2026",
+[2026-06-04T11:09:09]       "status": "draft",
+[2026-06-04T11:09:09]       "wordpress_id": 4733,
+[2026-06-04T11:09:09]       "slug": "naviguer-mandat-partiel-agoraeu-traduction-institutionnelle",
+[2026-06-04T11:09:09]       "link": "https://le-phare.info/?p=4733",
+[2026-06-04T11:09:09]       "categories": [
+[2026-06-04T11:09:09]         "sentier-du-savoir"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "tags": [
+[2026-06-04T11:09:09]         "culture-philosophie",
+[2026-06-04T11:09:09]         "sentier-langues",
+[2026-06-04T11:09:09]         "agoraeu",
+[2026-06-04T11:09:09]         "traduction-institutionnelle",
+[2026-06-04T11:09:09]         "atelier-sentier",
+[2026-06-04T11:09:09]         "fondamental-2026-164",
+[2026-06-04T11:09:09]         "posture-comprendre",
+[2026-06-04T11:09:09]         "triptyque"
+[2026-06-04T11:09:09]       ],
+[2026-06-04T11:09:09]       "index_updated": true,
+[2026-06-04T11:09:09]       "featured_media": null,
+[2026-06-04T11:09:09]       "error": ""
+[2026-06-04T11:09:09]     }
+[2026-06-04T11:09:09]   ]
+[2026-06-04T11:09:09] }
+[2026-06-04T11:09:09] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-04_agoraeu-habermas-traduction --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-04T11:09:09] --- POST-LINKING OUTPUT ---
+[2026-06-04T11:09:13] {
+[2026-06-04T11:09:13]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction",
+[2026-06-04T11:09:13]   "mode": "triptyque_linking_v2",
+[2026-06-04T11:09:13]   "dry_run": false,
+[2026-06-04T11:09:13]   "total": 3,
+[2026-06-04T11:09:13]   "updated_local": 3,
+[2026-06-04T11:09:13]   "updated_wordpress": 3,
+[2026-06-04T11:09:13]   "items": [
+[2026-06-04T11:09:13]     {
+[2026-06-04T11:09:13]       "article_id": "2026-502",
+[2026-06-04T11:09:13]       "type": "ACTU",
+[2026-06-04T11:09:13]       "title": "AgoraEU : mandat partiel du Conseil, session du Parlement — et ce que juin 2026 change (ou pas) pour la culture et les médias",
+[2026-06-04T11:09:13]       "wordpress_id": 4731,
+[2026-06-04T11:09:13]       "wordpress_url": "https://le-phare.info/?p=4731",
+[2026-06-04T11:09:13]       "updated_paths": [
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-502_ACTU_CULTURE_agoraeu_mandat_partiel_conseil_parlement_juin_2026_V1.md",
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Culture\\2026-502_ACTU_CULTURE_agoraeu_mandat_partiel_conseil_parlement_juin_2026_V1.md"
+[2026-06-04T11:09:13]       ],
+[2026-06-04T11:09:13]       "status": "updated",
+[2026-06-04T11:09:13]       "error": ""
+[2026-06-04T11:09:13]     },
+[2026-06-04T11:09:13]     {
+[2026-06-04T11:09:13]       "article_id": "2026-503",
+[2026-06-04T11:09:13]       "type": "TF",
+[2026-06-04T11:09:13]       "title": "Jürgen Habermas : sphère publique, médias et démocratie — lire AgoraEU sans réduire l'espace public à un budget",
+[2026-06-04T11:09:13]       "wordpress_id": 4732,
+[2026-06-04T11:09:13]       "wordpress_url": "https://le-phare.info/?p=4732",
+[2026-06-04T11:09:13]       "updated_paths": [
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-503_TF_CULTURE_jurgen_habermas_sphere_publique_agoraeu_medias_V1.md",
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-503_TF_CULTURE_jurgen_habermas_sphere_publique_agoraeu_medias_V1.md"
+[2026-06-04T11:09:13]       ],
+[2026-06-04T11:09:13]       "status": "updated",
+[2026-06-04T11:09:13]       "error": ""
+[2026-06-04T11:09:13]     },
+[2026-06-04T11:09:13]     {
+[2026-06-04T11:09:13]       "article_id": "2026-504",
+[2026-06-04T11:09:13]       "type": "SENTIER",
+[2026-06-04T11:09:13]       "title": "Naviguer entre mandat partiel, budget et trois fils AgoraEU : traduire le dossier de juin 2026",
+[2026-06-04T11:09:13]       "wordpress_id": 4733,
+[2026-06-04T11:09:13]       "wordpress_url": "https://le-phare.info/?p=4733",
+[2026-06-04T11:09:13]       "updated_paths": [
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-04_agoraeu-habermas-traduction\\2026-504_SENTIER_CULTURE_naviguer_mandat_partiel_agoraeu_traduction_institutionnelle_V1.md",
+[2026-06-04T11:09:13]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_05_Polyglotte\\2026-504_SENTIER_CULTURE_naviguer_mandat_partiel_agoraeu_traduction_institutionnelle_V1.md"
+[2026-06-04T11:09:13]       ],
+[2026-06-04T11:09:13]       "status": "updated",
+[2026-06-04T11:09:13]       "error": ""
+[2026-06-04T11:09:13]     }
+[2026-06-04T11:09:13]   ],
+[2026-06-04T11:09:13]   "errors": []
+[2026-06-04T11:09:13] }
+[2026-06-04T11:09:13] [V2] Rappel fondamental parent : fondamental-2026-164 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-04T11:09:13] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-04_agoraeu-habermas-traduction

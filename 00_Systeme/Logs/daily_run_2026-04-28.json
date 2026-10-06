@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-28",
+  "status": "error",
+  "topic": "🔴 En direct - Guerre au Moyen-Orient : Israël n'a «aucune visée territoriale» sur le Liban",
+  "theme": "MONDE",
+  "source": "CNews",
+  "source_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2JleTYwZEhlYUZXcGc5N2p5a21WZ3lkelNFY0pFbzdsVXg4ZUFXczVoWU1RaEI1azVsQTRVSmE2RUxTU1VRbjhGM0N1ZDZiOUkxWEo2RW95eDJnZndhM0djUW9RQ1Y5MFdoWndDWmk0X0F4aUZkenJWWHk4VThxeWY5d25EaGZqWmMzQlY5aUExUTFjSEpnRUZyaURCbFdfTTlsQTk2RG1mbHdPRFB2WXc4SlRNWEps?oc=5",
+  "publish_drafts": true,
+  "publish_dir": "",
+  "stdout": "Generating manifest for mode=architecture_editoriale, output_profile=triptyque_minimal...\nEditorial pipeline error: LLM API error 429: {\n    \"error\": {\n        \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n        \"type\": \"insufficient_quota\",\n        \"param\": null,\n        \"code\": \"insufficient_quota\"\n    }\n}\n\n",
+  "stderr": "",
+  "linking_stdout": "",
+  "linking_stderr": "",
+  "returncode": 1,
+  "completed_at": "2026-04-28T17:12:58"
+}

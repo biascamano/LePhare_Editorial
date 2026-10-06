@@ -1,0 +1,392 @@
+[2026-05-05T10:40:57] Selected topic: Guerre au Moyen-Orient : ce que l'on sait des six bateaux iraniens détruits par l'armée américaine ce lundi
+[2026-05-05T10:40:57] Source: Actu.fr | https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUlJCQ1JBY3B1czR5cUJ0ZExQT3FnVENGZnNCd05NbDhlMHBmMWZkRmxtQmlrY1dHRjZUZmdiQ1VrTVBxSHQ3N1Nmai1Ka1lvX01fTnYydjdZdDlSZmdyQ0dSVFVDbElDWjM3REV1YUt1b0ZHY01ySFlCZGRjZkttZ2V4VXBBQ0liTjBud0RCSUZjVGxnZWVCRDFjUjlXRU5XVEZFZnVCOUtEODg0NzZTT3lJeEFySnBBQUw4OHZheVloM2pJb29Ed0NZbm1DQUlDd0Y3X3hMSkM?oc=5
+[2026-05-05T10:40:57] Theme: MONDE
+[2026-05-05T10:40:57] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\editorial_pipeline.py Guerre au Moyen-Orient : ce que l'on sait des six bateaux iraniens détruits par l'armée américaine ce lundi --mode architecture_editoriale --output-profile triptyque_minimal --config D:\workspaces\LePhare_Editorial\tools\editorial_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv --theme MONDE --publish-drafts --wp-config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json
+[2026-05-05T10:40:57] --- PIPELINE OUTPUT ---
+[2026-05-05T10:40:58] Editorial pipeline error: API LLM generation is disabled by default in this project. Use the GPT-5.4 agent for default editorial writing, or pass --use-api-llm for explicit API generation.
+[2026-05-05T10:41:03] Selected topic: Guerre au Moyen-Orient : ce que l'on sait des six bateaux iraniens détruits par l'armée américaine ce lundi
+[2026-05-05T10:41:03] Source: Actu.fr | https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUlJCQ1JBY3B1czR5cUJ0ZExQT3FnVENGZnNCd05NbDhlMHBmMWZkRmxtQmlrY1dHRjZUZmdiQ1VrTVBxSHQ3N1Nmai1Ka1lvX01fTnYydjdZdDlSZmdyQ0dSVFVDbElDWjM3REV1YUt1b0ZHY01ySFlCZGRjZkttZ2V4VXBBQ0liTjBud0RCSUZjVGxnZWVCRDFjUjlXRU5XVEZFZnVCOUtEODg0NzZTT3lJeEFySnBBQUw4OHZheVloM2pJb29Ed0NZbm1DQUlDd0Y3X3hMSkM?oc=5
+[2026-05-05T10:41:03] Theme: MONDE
+[2026-05-05T10:41:03] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\editorial_pipeline.py Guerre au Moyen-Orient : ce que l'on sait des six bateaux iraniens détruits par l'armée américaine ce lundi --mode architecture_editoriale --output-profile triptyque_minimal --config D:\workspaces\LePhare_Editorial\tools\editorial_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv --use-api-llm --theme MONDE --publish-drafts --wp-config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json
+[2026-05-05T10:41:03] --- PIPELINE OUTPUT ---
+[2026-05-05T10:41:03] Editorial pipeline error: Missing LLM config value(s): api_key
+[2026-05-05T11:04:22] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-04-10_crise-energetique-electrification_triptyque
+[2026-05-05T11:04:22] Selected topic label: 2026-04-10_crise-energetique-electrification_triptyque
+[2026-05-05T11:04:22] Unhandled error: Dossier introuvable : D:\workspaces\LePhare_Editorial\07_A_Publier\nope_inexistant
+[2026-05-05T11:23:24] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie
+[2026-05-05T11:23:24] Selected topic label: test_routine_triptyque_crise_energie
+[2026-05-05T11:23:24] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-05T11:23:24] --- WP-PUSH OUTPUT ---
+[2026-05-05T11:23:24] {
+[2026-05-05T11:23:24]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T11:23:24]   "total": 3,
+[2026-05-05T11:23:24]   "created": 0,
+[2026-05-05T11:23:24]   "skipped": 3,
+[2026-05-05T11:23:24]   "failed": 0,
+[2026-05-05T11:23:24]   "items": [
+[2026-05-05T11:23:24]     {
+[2026-05-05T11:23:24]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T11:23:24]       "article_id": "2026-436",
+[2026-05-05T11:23:24]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T11:23:24]       "status": "skipped",
+[2026-05-05T11:23:24]       "wordpress_id": null,
+[2026-05-05T11:23:24]       "slug": "crise-energetique-europe-electrification",
+[2026-05-05T11:23:24]       "link": "https://le-phare.info/?p=4099",
+[2026-05-05T11:23:24]       "categories": [
+[2026-05-05T11:23:24]         "Economie",
+[2026-05-05T11:23:24]         "Actualites"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "tags": [
+[2026-05-05T11:23:24]         "crise-energetique",
+[2026-05-05T11:23:24]         "europe",
+[2026-05-05T11:23:24]         "electrification"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "index_updated": false,
+[2026-05-05T11:23:24]       "error": ""
+[2026-05-05T11:23:24]     },
+[2026-05-05T11:23:24]     {
+[2026-05-05T11:23:24]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T11:23:24]       "article_id": "2026-437",
+[2026-05-05T11:23:24]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T11:23:24]       "status": "skipped",
+[2026-05-05T11:23:24]       "wordpress_id": null,
+[2026-05-05T11:23:24]       "slug": "vaclav-smil-transitions-energetiques",
+[2026-05-05T11:23:24]       "link": "https://le-phare.info/?p=4100",
+[2026-05-05T11:23:24]       "categories": [
+[2026-05-05T11:23:24]         "Textes_fondateurs",
+[2026-05-05T11:23:24]         "Economie"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "tags": [
+[2026-05-05T11:23:24]         "vaclav-smil",
+[2026-05-05T11:23:24]         "transition-energetique",
+[2026-05-05T11:23:24]         "electrification"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "index_updated": false,
+[2026-05-05T11:23:24]       "error": ""
+[2026-05-05T11:23:24]     },
+[2026-05-05T11:23:24]     {
+[2026-05-05T11:23:24]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T11:23:24]       "article_id": "2026-438",
+[2026-05-05T11:23:24]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T11:23:24]       "status": "skipped",
+[2026-05-05T11:23:24]       "wordpress_id": null,
+[2026-05-05T11:23:24]       "slug": "penser-crise-energetique-court-terme",
+[2026-05-05T11:23:24]       "link": "https://le-phare.info/?p=4101",
+[2026-05-05T11:23:24]       "categories": [
+[2026-05-05T11:23:24]         "Sentier",
+[2026-05-05T11:23:24]         "Economie"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "tags": [
+[2026-05-05T11:23:24]         "pensee-critique",
+[2026-05-05T11:23:24]         "crise-energetique",
+[2026-05-05T11:23:24]         "court-terme"
+[2026-05-05T11:23:24]       ],
+[2026-05-05T11:23:24]       "index_updated": false,
+[2026-05-05T11:23:24]       "error": ""
+[2026-05-05T11:23:24]     }
+[2026-05-05T11:23:24]   ]
+[2026-05-05T11:23:24] }
+[2026-05-05T11:23:24] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json
+[2026-05-05T11:23:24] --- POST-LINKING OUTPUT ---
+[2026-05-05T11:23:26] {
+[2026-05-05T11:23:26]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T11:23:26]   "mode": "triptyque_linking_v2",
+[2026-05-05T11:23:26]   "dry_run": false,
+[2026-05-05T11:23:26]   "total": 3,
+[2026-05-05T11:23:26]   "updated_local": 3,
+[2026-05-05T11:23:26]   "updated_wordpress": 3,
+[2026-05-05T11:23:26]   "items": [
+[2026-05-05T11:23:26]     {
+[2026-05-05T11:23:26]       "article_id": "2026-436",
+[2026-05-05T11:23:26]       "type": "ACTU",
+[2026-05-05T11:23:26]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T11:23:26]       "wordpress_id": 4099,
+[2026-05-05T11:23:26]       "wordpress_url": "https://le-phare.info/?p=4099",
+[2026-05-05T11:23:26]       "updated_paths": [
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md"
+[2026-05-05T11:23:26]       ],
+[2026-05-05T11:23:26]       "status": "updated",
+[2026-05-05T11:23:26]       "error": ""
+[2026-05-05T11:23:26]     },
+[2026-05-05T11:23:26]     {
+[2026-05-05T11:23:26]       "article_id": "2026-437",
+[2026-05-05T11:23:26]       "type": "TF",
+[2026-05-05T11:23:26]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T11:23:26]       "wordpress_id": 4100,
+[2026-05-05T11:23:26]       "wordpress_url": "https://le-phare.info/?p=4100",
+[2026-05-05T11:23:26]       "updated_paths": [
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md"
+[2026-05-05T11:23:26]       ],
+[2026-05-05T11:23:26]       "status": "updated",
+[2026-05-05T11:23:26]       "error": ""
+[2026-05-05T11:23:26]     },
+[2026-05-05T11:23:26]     {
+[2026-05-05T11:23:26]       "article_id": "2026-438",
+[2026-05-05T11:23:26]       "type": "SENTIER",
+[2026-05-05T11:23:26]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T11:23:26]       "wordpress_id": 4101,
+[2026-05-05T11:23:26]       "wordpress_url": "https://le-phare.info/?p=4101",
+[2026-05-05T11:23:26]       "updated_paths": [
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T11:23:26]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_08_Relier_savoirs_et_experience\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md"
+[2026-05-05T11:23:26]       ],
+[2026-05-05T11:23:26]       "status": "updated",
+[2026-05-05T11:23:26]       "error": ""
+[2026-05-05T11:23:26]     }
+[2026-05-05T11:23:26]   ],
+[2026-05-05T11:23:26]   "errors": []
+[2026-05-05T11:23:26] }
+[2026-05-05T11:35:21] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie
+[2026-05-05T11:35:21] Selected topic label: test_routine_triptyque_crise_energie
+[2026-05-05T11:35:21] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-05T11:35:21] --- WP-PUSH OUTPUT ---
+[2026-05-05T11:35:21] {
+[2026-05-05T11:35:21]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T11:35:21]   "total": 3,
+[2026-05-05T11:35:21]   "created": 0,
+[2026-05-05T11:35:21]   "skipped": 3,
+[2026-05-05T11:35:21]   "failed": 0,
+[2026-05-05T11:35:21]   "items": [
+[2026-05-05T11:35:21]     {
+[2026-05-05T11:35:21]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T11:35:21]       "article_id": "2026-436",
+[2026-05-05T11:35:21]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T11:35:21]       "status": "skipped",
+[2026-05-05T11:35:21]       "wordpress_id": null,
+[2026-05-05T11:35:21]       "slug": "crise-energetique-europe-electrification",
+[2026-05-05T11:35:21]       "link": "https://le-phare.info/?p=4099",
+[2026-05-05T11:35:21]       "categories": [
+[2026-05-05T11:35:21]         "Economie",
+[2026-05-05T11:35:21]         "Actualites"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "tags": [
+[2026-05-05T11:35:21]         "crise-energetique",
+[2026-05-05T11:35:21]         "europe",
+[2026-05-05T11:35:21]         "electrification"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "index_updated": false,
+[2026-05-05T11:35:21]       "error": ""
+[2026-05-05T11:35:21]     },
+[2026-05-05T11:35:21]     {
+[2026-05-05T11:35:21]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T11:35:21]       "article_id": "2026-437",
+[2026-05-05T11:35:21]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T11:35:21]       "status": "skipped",
+[2026-05-05T11:35:21]       "wordpress_id": null,
+[2026-05-05T11:35:21]       "slug": "vaclav-smil-transitions-energetiques",
+[2026-05-05T11:35:21]       "link": "https://le-phare.info/?p=4100",
+[2026-05-05T11:35:21]       "categories": [
+[2026-05-05T11:35:21]         "Textes_fondateurs",
+[2026-05-05T11:35:21]         "Economie"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "tags": [
+[2026-05-05T11:35:21]         "vaclav-smil",
+[2026-05-05T11:35:21]         "transition-energetique",
+[2026-05-05T11:35:21]         "electrification"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "index_updated": false,
+[2026-05-05T11:35:21]       "error": ""
+[2026-05-05T11:35:21]     },
+[2026-05-05T11:35:21]     {
+[2026-05-05T11:35:21]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T11:35:21]       "article_id": "2026-438",
+[2026-05-05T11:35:21]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T11:35:21]       "status": "skipped",
+[2026-05-05T11:35:21]       "wordpress_id": null,
+[2026-05-05T11:35:21]       "slug": "penser-crise-energetique-court-terme",
+[2026-05-05T11:35:21]       "link": "https://le-phare.info/?p=4101",
+[2026-05-05T11:35:21]       "categories": [
+[2026-05-05T11:35:21]         "Sentier",
+[2026-05-05T11:35:21]         "Economie"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "tags": [
+[2026-05-05T11:35:21]         "pensee-critique",
+[2026-05-05T11:35:21]         "crise-energetique",
+[2026-05-05T11:35:21]         "court-terme"
+[2026-05-05T11:35:21]       ],
+[2026-05-05T11:35:21]       "index_updated": false,
+[2026-05-05T11:35:21]       "error": ""
+[2026-05-05T11:35:21]     }
+[2026-05-05T11:35:21]   ]
+[2026-05-05T11:35:21] }
+[2026-05-05T11:35:21] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-05T11:35:21] --- POST-LINKING OUTPUT ---
+[2026-05-05T11:35:22] {
+[2026-05-05T11:35:22]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T11:35:22]   "mode": "triptyque_linking_v2",
+[2026-05-05T11:35:22]   "dry_run": false,
+[2026-05-05T11:35:22]   "total": 3,
+[2026-05-05T11:35:22]   "updated_local": 3,
+[2026-05-05T11:35:22]   "updated_wordpress": 3,
+[2026-05-05T11:35:22]   "items": [
+[2026-05-05T11:35:22]     {
+[2026-05-05T11:35:22]       "article_id": "2026-436",
+[2026-05-05T11:35:22]       "type": "ACTU",
+[2026-05-05T11:35:22]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T11:35:22]       "wordpress_id": 4099,
+[2026-05-05T11:35:22]       "wordpress_url": "https://le-phare.info/?p=4099",
+[2026-05-05T11:35:22]       "updated_paths": [
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md"
+[2026-05-05T11:35:22]       ],
+[2026-05-05T11:35:22]       "status": "updated",
+[2026-05-05T11:35:22]       "error": ""
+[2026-05-05T11:35:22]     },
+[2026-05-05T11:35:22]     {
+[2026-05-05T11:35:22]       "article_id": "2026-437",
+[2026-05-05T11:35:22]       "type": "TF",
+[2026-05-05T11:35:22]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T11:35:22]       "wordpress_id": 4100,
+[2026-05-05T11:35:22]       "wordpress_url": "https://le-phare.info/?p=4100",
+[2026-05-05T11:35:22]       "updated_paths": [
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md"
+[2026-05-05T11:35:22]       ],
+[2026-05-05T11:35:22]       "status": "updated",
+[2026-05-05T11:35:22]       "error": ""
+[2026-05-05T11:35:22]     },
+[2026-05-05T11:35:22]     {
+[2026-05-05T11:35:22]       "article_id": "2026-438",
+[2026-05-05T11:35:22]       "type": "SENTIER",
+[2026-05-05T11:35:22]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T11:35:22]       "wordpress_id": 4101,
+[2026-05-05T11:35:22]       "wordpress_url": "https://le-phare.info/?p=4101",
+[2026-05-05T11:35:22]       "updated_paths": [
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T11:35:22]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_08_Relier_savoirs_et_experience\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md"
+[2026-05-05T11:35:22]       ],
+[2026-05-05T11:35:22]       "status": "updated",
+[2026-05-05T11:35:22]       "error": ""
+[2026-05-05T11:35:22]     }
+[2026-05-05T11:35:22]   ],
+[2026-05-05T11:35:22]   "errors": []
+[2026-05-05T11:35:22] }
+[2026-05-05T12:01:56] Daily routine already completed today for topic: test_routine_triptyque_crise_energie
+[2026-05-05T12:02:01] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie
+[2026-05-05T12:02:01] Selected topic label: test_routine_triptyque_crise_energie
+[2026-05-05T12:02:01] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-05T12:02:01] --- WP-PUSH OUTPUT ---
+[2026-05-05T12:02:05] {
+[2026-05-05T12:02:05]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T12:02:05]   "total": 3,
+[2026-05-05T12:02:05]   "created": 3,
+[2026-05-05T12:02:05]   "skipped": 0,
+[2026-05-05T12:02:05]   "failed": 0,
+[2026-05-05T12:02:05]   "items": [
+[2026-05-05T12:02:05]     {
+[2026-05-05T12:02:05]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T12:02:05]       "article_id": "2026-436",
+[2026-05-05T12:02:05]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T12:02:05]       "status": "draft",
+[2026-05-05T12:02:05]       "wordpress_id": 4136,
+[2026-05-05T12:02:05]       "slug": "crise-energetique-europe-electrification-2",
+[2026-05-05T12:02:05]       "link": "https://le-phare.info/?p=4136",
+[2026-05-05T12:02:05]       "categories": [
+[2026-05-05T12:02:05]         "Economie",
+[2026-05-05T12:02:05]         "Actualites"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "tags": [
+[2026-05-05T12:02:05]         "crise-energetique",
+[2026-05-05T12:02:05]         "europe",
+[2026-05-05T12:02:05]         "electrification"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "index_updated": true,
+[2026-05-05T12:02:05]       "error": ""
+[2026-05-05T12:02:05]     },
+[2026-05-05T12:02:05]     {
+[2026-05-05T12:02:05]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T12:02:05]       "article_id": "2026-437",
+[2026-05-05T12:02:05]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T12:02:05]       "status": "draft",
+[2026-05-05T12:02:05]       "wordpress_id": 4137,
+[2026-05-05T12:02:05]       "slug": "vaclav-smil-transitions-energetiques-2",
+[2026-05-05T12:02:05]       "link": "https://le-phare.info/?p=4137",
+[2026-05-05T12:02:05]       "categories": [
+[2026-05-05T12:02:05]         "Textes_fondateurs",
+[2026-05-05T12:02:05]         "Economie"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "tags": [
+[2026-05-05T12:02:05]         "vaclav-smil",
+[2026-05-05T12:02:05]         "transition-energetique",
+[2026-05-05T12:02:05]         "electrification"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "index_updated": true,
+[2026-05-05T12:02:05]       "error": ""
+[2026-05-05T12:02:05]     },
+[2026-05-05T12:02:05]     {
+[2026-05-05T12:02:05]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T12:02:05]       "article_id": "2026-438",
+[2026-05-05T12:02:05]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T12:02:05]       "status": "draft",
+[2026-05-05T12:02:05]       "wordpress_id": 4138,
+[2026-05-05T12:02:05]       "slug": "penser-crise-energetique-court-terme-2",
+[2026-05-05T12:02:05]       "link": "https://le-phare.info/?p=4138",
+[2026-05-05T12:02:05]       "categories": [
+[2026-05-05T12:02:05]         "Sentier",
+[2026-05-05T12:02:05]         "Economie"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "tags": [
+[2026-05-05T12:02:05]         "pensee-critique",
+[2026-05-05T12:02:05]         "crise-energetique",
+[2026-05-05T12:02:05]         "court-terme"
+[2026-05-05T12:02:05]       ],
+[2026-05-05T12:02:05]       "index_updated": true,
+[2026-05-05T12:02:05]       "error": ""
+[2026-05-05T12:02:05]     }
+[2026-05-05T12:02:05]   ]
+[2026-05-05T12:02:05] }
+[2026-05-05T12:02:05] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-05T12:02:05] --- POST-LINKING OUTPUT ---
+[2026-05-05T12:02:06] {
+[2026-05-05T12:02:06]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie",
+[2026-05-05T12:02:06]   "mode": "triptyque_linking_v2",
+[2026-05-05T12:02:06]   "dry_run": false,
+[2026-05-05T12:02:06]   "total": 3,
+[2026-05-05T12:02:06]   "updated_local": 3,
+[2026-05-05T12:02:06]   "updated_wordpress": 3,
+[2026-05-05T12:02:06]   "items": [
+[2026-05-05T12:02:06]     {
+[2026-05-05T12:02:06]       "article_id": "2026-436",
+[2026-05-05T12:02:06]       "type": "ACTU",
+[2026-05-05T12:02:06]       "title": "Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe",
+[2026-05-05T12:02:06]       "wordpress_id": 4136,
+[2026-05-05T12:02:06]       "wordpress_url": "https://le-phare.info/?p=4136",
+[2026-05-05T12:02:06]       "updated_paths": [
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md",
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-436_ACTU_ECON_crise_energetique_pourquoi_la_treve_ne_protege_pas_l_europe_V1.md"
+[2026-05-05T12:02:06]       ],
+[2026-05-05T12:02:06]       "status": "updated",
+[2026-05-05T12:02:06]       "error": ""
+[2026-05-05T12:02:06]     },
+[2026-05-05T12:02:06]     {
+[2026-05-05T12:02:06]       "article_id": "2026-437",
+[2026-05-05T12:02:06]       "type": "TF",
+[2026-05-05T12:02:06]       "title": "Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies",
+[2026-05-05T12:02:06]       "wordpress_id": 4137,
+[2026-05-05T12:02:06]       "wordpress_url": "https://le-phare.info/?p=4137",
+[2026-05-05T12:02:06]       "updated_paths": [
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md",
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-437_TF_ECON_vaclav_smil_et_la_lenteur_des_transitions_energetiques_V1.md"
+[2026-05-05T12:02:06]       ],
+[2026-05-05T12:02:06]       "status": "updated",
+[2026-05-05T12:02:06]       "error": ""
+[2026-05-05T12:02:06]     },
+[2026-05-05T12:02:06]     {
+[2026-05-05T12:02:06]       "article_id": "2026-438",
+[2026-05-05T12:02:06]       "type": "SENTIER",
+[2026-05-05T12:02:06]       "title": "Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle",
+[2026-05-05T12:02:06]       "wordpress_id": 4138,
+[2026-05-05T12:02:06]       "wordpress_url": "https://le-phare.info/?p=4138",
+[2026-05-05T12:02:06]       "updated_paths": [
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\test_routine_triptyque_crise_energie\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md",
+[2026-05-05T12:02:06]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_08_Relier_savoirs_et_experience\\2026-438_SENTIER_ECON_penser_une_crise_energetique_sans_ceder_au_court_terme_V1.md"
+[2026-05-05T12:02:06]       ],
+[2026-05-05T12:02:06]       "status": "updated",
+[2026-05-05T12:02:06]       "error": ""
+[2026-05-05T12:02:06]     }
+[2026-05-05T12:02:06]   ],
+[2026-05-05T12:02:06]   "errors": []
+[2026-05-05T12:02:06] }
+[2026-05-05T12:02:06] Staging folder removed: D:\workspaces\LePhare_Editorial\07_A_Publier\test_routine_triptyque_crise_energie

@@ -1,0 +1,137 @@
+[2026-05-20T07:29:39] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-20_ets-stern-lecture-source_triptyque
+[2026-05-20T07:29:39] Selected topic label: 2026-05-20_ets-stern-lecture-source_triptyque
+[2026-05-20T07:29:39] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-20_ets-stern-lecture-source_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-20T07:29:39] --- WP-PUSH OUTPUT ---
+[2026-05-20T07:29:56] {
+[2026-05-20T07:29:56]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque",
+[2026-05-20T07:29:56]   "total": 3,
+[2026-05-20T07:29:56]   "created": 3,
+[2026-05-20T07:29:56]   "skipped": 0,
+[2026-05-20T07:29:56]   "failed": 0,
+[2026-05-20T07:29:56]   "items": [
+[2026-05-20T07:29:56]     {
+[2026-05-20T07:29:56]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-469_ACTU_CLIMAT_ets_benchmarks_mai_2026_climat_industrie_et_quatre_milliards_V1.md",
+[2026-05-20T07:29:56]       "article_id": "2026-469",
+[2026-05-20T07:29:56]       "title": "Marché carbone UE : pourquoi la réforme des benchmarks de mai 2026 divise climat et industrie",
+[2026-05-20T07:29:56]       "status": "draft",
+[2026-05-20T07:29:56]       "wordpress_id": 4322,
+[2026-05-20T07:29:56]       "slug": "ets-benchmarks-mai-2026-marche-carbone-ue",
+[2026-05-20T07:29:56]       "link": "https://le-phare.info/?p=4322",
+[2026-05-20T07:29:56]       "categories": [
+[2026-05-20T07:29:56]         "actualites"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "tags": [
+[2026-05-20T07:29:56]         "environnement-climat",
+[2026-05-20T07:29:56]         "sentier-critique",
+[2026-05-20T07:29:56]         "marche-carbone",
+[2026-05-20T07:29:56]         "ets",
+[2026-05-20T07:29:56]         "benchmarks",
+[2026-05-20T07:29:56]         "posture-observer",
+[2026-05-20T07:29:56]         "triptyque"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "index_updated": true,
+[2026-05-20T07:29:56]       "featured_media": 2130,
+[2026-05-20T07:29:56]       "error": ""
+[2026-05-20T07:29:56]     },
+[2026-05-20T07:29:56]     {
+[2026-05-20T07:29:56]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-470_TF_CLIMAT_nicholas_stern_economie_changement_climatique_prix_carbone_V1.md",
+[2026-05-20T07:29:56]       "article_id": "2026-470",
+[2026-05-20T07:29:56]       "title": "Nicholas Stern et l'économie du changement climatique : relire le prix du carbone",
+[2026-05-20T07:29:56]       "status": "draft",
+[2026-05-20T07:29:56]       "wordpress_id": 4323,
+[2026-05-20T07:29:56]       "slug": "nicholas-stern-economie-climat-prix-carbone",
+[2026-05-20T07:29:56]       "link": "https://le-phare.info/?p=4323",
+[2026-05-20T07:29:56]       "categories": [
+[2026-05-20T07:29:56]         "textes-fondateurs"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "tags": [
+[2026-05-20T07:29:56]         "environnement-climat",
+[2026-05-20T07:29:56]         "sentier-science",
+[2026-05-20T07:29:56]         "nicholas-stern",
+[2026-05-20T07:29:56]         "marche-carbone",
+[2026-05-20T07:29:56]         "triptyque"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "index_updated": true,
+[2026-05-20T07:29:56]       "featured_media": 2130,
+[2026-05-20T07:29:56]       "error": ""
+[2026-05-20T07:29:56]     },
+[2026-05-20T07:29:56]     {
+[2026-05-20T07:29:56]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-471_SENTIER_CLIMAT_lire_dossier_ets_sans_confondre_proposition_consultation_et_chiffre_V1.md",
+[2026-05-20T07:29:56]       "article_id": "2026-471",
+[2026-05-20T07:29:56]       "title": "Lire un dossier ETS sans confondre proposition, consultation et chiffre médiatique",
+[2026-05-20T07:29:56]       "status": "draft",
+[2026-05-20T07:29:56]       "wordpress_id": 4324,
+[2026-05-20T07:29:56]       "slug": "lire-dossier-ets-proposition-consultation-chiffre",
+[2026-05-20T07:29:56]       "link": "https://le-phare.info/?p=4324",
+[2026-05-20T07:29:56]       "categories": [
+[2026-05-20T07:29:56]         "sentier-du-savoir"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "tags": [
+[2026-05-20T07:29:56]         "environnement-climat",
+[2026-05-20T07:29:56]         "sentier-critique",
+[2026-05-20T07:29:56]         "pensee-critique",
+[2026-05-20T07:29:56]         "ets",
+[2026-05-20T07:29:56]         "atelier-sentier",
+[2026-05-20T07:29:56]         "fondamental-2026-198",
+[2026-05-20T07:29:56]         "posture-comprendre",
+[2026-05-20T07:29:56]         "triptyque"
+[2026-05-20T07:29:56]       ],
+[2026-05-20T07:29:56]       "index_updated": true,
+[2026-05-20T07:29:56]       "featured_media": 2130,
+[2026-05-20T07:29:56]       "error": ""
+[2026-05-20T07:29:56]     }
+[2026-05-20T07:29:56]   ]
+[2026-05-20T07:29:56] }
+[2026-05-20T07:29:56] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-20_ets-stern-lecture-source_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-20T07:29:56] --- POST-LINKING OUTPUT ---
+[2026-05-20T07:30:00] {
+[2026-05-20T07:30:00]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque",
+[2026-05-20T07:30:00]   "mode": "triptyque_linking_v2",
+[2026-05-20T07:30:00]   "dry_run": false,
+[2026-05-20T07:30:00]   "total": 3,
+[2026-05-20T07:30:00]   "updated_local": 3,
+[2026-05-20T07:30:00]   "updated_wordpress": 3,
+[2026-05-20T07:30:00]   "items": [
+[2026-05-20T07:30:00]     {
+[2026-05-20T07:30:00]       "article_id": "2026-469",
+[2026-05-20T07:30:00]       "type": "ACTU",
+[2026-05-20T07:30:00]       "title": "Marché carbone UE : pourquoi la réforme des benchmarks de mai 2026 divise climat et industrie",
+[2026-05-20T07:30:00]       "wordpress_id": 4322,
+[2026-05-20T07:30:00]       "wordpress_url": "https://le-phare.info/?p=4322",
+[2026-05-20T07:30:00]       "updated_paths": [
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-469_ACTU_CLIMAT_ets_benchmarks_mai_2026_climat_industrie_et_quatre_milliards_V1.md",
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Climat_Transition\\2026-469_ACTU_CLIMAT_ets_benchmarks_mai_2026_climat_industrie_et_quatre_milliards_V1.md"
+[2026-05-20T07:30:00]       ],
+[2026-05-20T07:30:00]       "status": "updated",
+[2026-05-20T07:30:00]       "error": ""
+[2026-05-20T07:30:00]     },
+[2026-05-20T07:30:00]     {
+[2026-05-20T07:30:00]       "article_id": "2026-470",
+[2026-05-20T07:30:00]       "type": "TF",
+[2026-05-20T07:30:00]       "title": "Nicholas Stern et l'économie du changement climatique : relire le prix du carbone",
+[2026-05-20T07:30:00]       "wordpress_id": 4323,
+[2026-05-20T07:30:00]       "wordpress_url": "https://le-phare.info/?p=4323",
+[2026-05-20T07:30:00]       "updated_paths": [
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-470_TF_CLIMAT_nicholas_stern_economie_changement_climatique_prix_carbone_V1.md",
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-470_TF_CLIMAT_nicholas_stern_economie_changement_climatique_prix_carbone_V1.md"
+[2026-05-20T07:30:00]       ],
+[2026-05-20T07:30:00]       "status": "updated",
+[2026-05-20T07:30:00]       "error": ""
+[2026-05-20T07:30:00]     },
+[2026-05-20T07:30:00]     {
+[2026-05-20T07:30:00]       "article_id": "2026-471",
+[2026-05-20T07:30:00]       "type": "SENTIER",
+[2026-05-20T07:30:00]       "title": "Lire un dossier ETS sans confondre proposition, consultation et chiffre médiatique",
+[2026-05-20T07:30:00]       "wordpress_id": 4324,
+[2026-05-20T07:30:00]       "wordpress_url": "https://le-phare.info/?p=4324",
+[2026-05-20T07:30:00]       "updated_paths": [
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-20_ets-stern-lecture-source_triptyque\\2026-471_SENTIER_CLIMAT_lire_dossier_ets_sans_confondre_proposition_consultation_et_chiffre_V1.md",
+[2026-05-20T07:30:00]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_02_Pensee_critique\\2026-471_SENTIER_CLIMAT_lire_dossier_ets_sans_confondre_proposition_consultation_et_chiffre_V1.md"
+[2026-05-20T07:30:00]       ],
+[2026-05-20T07:30:00]       "status": "updated",
+[2026-05-20T07:30:00]       "error": ""
+[2026-05-20T07:30:00]     }
+[2026-05-20T07:30:00]   ],
+[2026-05-20T07:30:00]   "errors": []
+[2026-05-20T07:30:00] }
+[2026-05-20T07:30:00] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-20_ets-stern-lecture-source_triptyque

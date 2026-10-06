@@ -1,0 +1,276 @@
+[2026-06-11T09:21:01] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_cathedrale-angers-kengo-kuma
+[2026-06-11T09:21:01] Selected topic label: 2026-06-11_cathedrale-angers-kengo-kuma
+[2026-06-11T09:21:01] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_cathedrale-angers-kengo-kuma --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-11T09:21:01] --- WP-PUSH OUTPUT ---
+[2026-06-11T09:21:40] {
+[2026-06-11T09:21:40]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma",
+[2026-06-11T09:21:40]   "total": 3,
+[2026-06-11T09:21:40]   "created": 3,
+[2026-06-11T09:21:40]   "skipped": 0,
+[2026-06-11T09:21:40]   "failed": 0,
+[2026-06-11T09:21:40]   "items": [
+[2026-06-11T09:21:40]     {
+[2026-06-11T09:21:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-519_ACTU_CULTURE_cathedrale_angers_galerie_kengo_kuma_V1.md",
+[2026-06-11T09:21:40]       "article_id": "2026-519",
+[2026-06-11T09:21:40]       "title": "Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas",
+[2026-06-11T09:21:40]       "status": "draft",
+[2026-06-11T09:21:40]       "wordpress_id": 4892,
+[2026-06-11T09:21:40]       "slug": "cathedrale-angers-galerie-kengo-kuma",
+[2026-06-11T09:21:40]       "link": "https://le-phare.info/?p=4892",
+[2026-06-11T09:21:40]       "categories": [
+[2026-06-11T09:21:40]         "actualites"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "tags": [
+[2026-06-11T09:21:40]         "culture-philosophie",
+[2026-06-11T09:21:40]         "sentier-critique",
+[2026-06-11T09:21:40]         "posture-observer",
+[2026-06-11T09:21:40]         "triptyque",
+[2026-06-11T09:21:40]         "patrimoine",
+[2026-06-11T09:21:40]         "architecture-contemporaine",
+[2026-06-11T09:21:40]         "kengo-kuma"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "index_updated": true,
+[2026-06-11T09:21:40]       "featured_media": 4738,
+[2026-06-11T09:21:40]       "error": ""
+[2026-06-11T09:21:40]     },
+[2026-06-11T09:21:40]     {
+[2026-06-11T09:21:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-520_TF_CULTURE_john_ruskin_lampe_memoire_restaurer_preserver_angers_V1.md",
+[2026-06-11T09:21:40]       "article_id": "2026-520",
+[2026-06-11T09:21:40]       "title": "John Ruskin : restaurer, préserver — et lire Angers sans faux dilemme",
+[2026-06-11T09:21:40]       "status": "draft",
+[2026-06-11T09:21:40]       "wordpress_id": 4893,
+[2026-06-11T09:21:40]       "slug": "john-ruskin-lampe-memoire-restaurer-preserver-angers",
+[2026-06-11T09:21:40]       "link": "https://le-phare.info/?p=4893",
+[2026-06-11T09:21:40]       "categories": [
+[2026-06-11T09:21:40]         "textes-fondateurs"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "tags": [
+[2026-06-11T09:21:40]         "culture-philosophie",
+[2026-06-11T09:21:40]         "sentier-approfondissement",
+[2026-06-11T09:21:40]         "posture-comprendre",
+[2026-06-11T09:21:40]         "triptyque",
+[2026-06-11T09:21:40]         "john-ruskin",
+[2026-06-11T09:21:40]         "patrimoine"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "index_updated": true,
+[2026-06-11T09:21:40]       "featured_media": 4738,
+[2026-06-11T09:21:40]       "error": ""
+[2026-06-11T09:21:40]     },
+[2026-06-11T09:21:40]     {
+[2026-06-11T09:21:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-521_SENTIER_CULTURE_ce_que_galerie_angers_revele_lectures_art_patrimoine_V1.md",
+[2026-06-11T09:21:40]       "article_id": "2026-521",
+[2026-06-11T09:21:40]       "title": "Ce que la galerie d'Angers révèle sur nos lectures de l'art (juin 2026)",
+[2026-06-11T09:21:40]       "status": "draft",
+[2026-06-11T09:21:40]       "wordpress_id": 4894,
+[2026-06-11T09:21:40]       "slug": "ce-que-galerie-angers-revele-lectures-art-patrimoine",
+[2026-06-11T09:21:40]       "link": "https://le-phare.info/?p=4894",
+[2026-06-11T09:21:40]       "categories": [
+[2026-06-11T09:21:40]         "sentier-du-savoir"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "tags": [
+[2026-06-11T09:21:40]         "culture-philosophie",
+[2026-06-11T09:21:40]         "sentier-culture",
+[2026-06-11T09:21:40]         "posture-comprendre",
+[2026-06-11T09:21:40]         "triptyque",
+[2026-06-11T09:21:40]         "atelier-sentier",
+[2026-06-11T09:21:40]         "fondamental-2026-206",
+[2026-06-11T09:21:40]         "patrimoine"
+[2026-06-11T09:21:40]       ],
+[2026-06-11T09:21:40]       "index_updated": true,
+[2026-06-11T09:21:40]       "featured_media": 4738,
+[2026-06-11T09:21:40]       "error": ""
+[2026-06-11T09:21:40]     }
+[2026-06-11T09:21:40]   ]
+[2026-06-11T09:21:40] }
+[2026-06-11T09:21:40] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_cathedrale-angers-kengo-kuma --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-11T09:21:40] --- POST-LINKING OUTPUT ---
+[2026-06-11T09:21:44] {
+[2026-06-11T09:21:44]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma",
+[2026-06-11T09:21:44]   "mode": "triptyque_linking_v2",
+[2026-06-11T09:21:44]   "dry_run": false,
+[2026-06-11T09:21:44]   "total": 3,
+[2026-06-11T09:21:44]   "updated_local": 3,
+[2026-06-11T09:21:44]   "updated_wordpress": 3,
+[2026-06-11T09:21:44]   "items": [
+[2026-06-11T09:21:44]     {
+[2026-06-11T09:21:44]       "article_id": "2026-519",
+[2026-06-11T09:21:44]       "type": "ACTU",
+[2026-06-11T09:21:44]       "title": "Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas",
+[2026-06-11T09:21:44]       "wordpress_id": 4892,
+[2026-06-11T09:21:44]       "wordpress_url": "https://le-phare.info/?p=4892",
+[2026-06-11T09:21:44]       "updated_paths": [
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-519_ACTU_CULTURE_cathedrale_angers_galerie_kengo_kuma_V1.md",
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Culture\\2026-519_ACTU_CULTURE_cathedrale_angers_galerie_kengo_kuma_V1.md"
+[2026-06-11T09:21:44]       ],
+[2026-06-11T09:21:44]       "status": "updated",
+[2026-06-11T09:21:44]       "error": ""
+[2026-06-11T09:21:44]     },
+[2026-06-11T09:21:44]     {
+[2026-06-11T09:21:44]       "article_id": "2026-520",
+[2026-06-11T09:21:44]       "type": "TF",
+[2026-06-11T09:21:44]       "title": "John Ruskin : restaurer, préserver — et lire Angers sans faux dilemme",
+[2026-06-11T09:21:44]       "wordpress_id": 4893,
+[2026-06-11T09:21:44]       "wordpress_url": "https://le-phare.info/?p=4893",
+[2026-06-11T09:21:44]       "updated_paths": [
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-520_TF_CULTURE_john_ruskin_lampe_memoire_restaurer_preserver_angers_V1.md",
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-520_TF_CULTURE_john_ruskin_lampe_memoire_restaurer_preserver_angers_V1.md"
+[2026-06-11T09:21:44]       ],
+[2026-06-11T09:21:44]       "status": "updated",
+[2026-06-11T09:21:44]       "error": ""
+[2026-06-11T09:21:44]     },
+[2026-06-11T09:21:44]     {
+[2026-06-11T09:21:44]       "article_id": "2026-521",
+[2026-06-11T09:21:44]       "type": "SENTIER",
+[2026-06-11T09:21:44]       "title": "Ce que la galerie d'Angers révèle sur nos lectures de l'art (juin 2026)",
+[2026-06-11T09:21:44]       "wordpress_id": 4894,
+[2026-06-11T09:21:44]       "wordpress_url": "https://le-phare.info/?p=4894",
+[2026-06-11T09:21:44]       "updated_paths": [
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_cathedrale-angers-kengo-kuma\\2026-521_SENTIER_CULTURE_ce_que_galerie_angers_revele_lectures_art_patrimoine_V1.md",
+[2026-06-11T09:21:44]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_01_Culture_generale\\2026-521_SENTIER_CULTURE_ce_que_galerie_angers_revele_lectures_art_patrimoine_V1.md"
+[2026-06-11T09:21:44]       ],
+[2026-06-11T09:21:44]       "status": "updated",
+[2026-06-11T09:21:44]       "error": ""
+[2026-06-11T09:21:44]     }
+[2026-06-11T09:21:44]   ],
+[2026-06-11T09:21:44]   "errors": []
+[2026-06-11T09:21:44] }
+[2026-06-11T09:21:44] [V2] Rappel fondamental parent : fondamental-2026-206 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-11T09:21:44] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_cathedrale-angers-kengo-kuma
+[2026-06-11T09:28:54] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_munchhausen-par-procuration
+[2026-06-11T09:28:54] Selected topic label: 2026-06-11_munchhausen-par-procuration
+[2026-06-11T09:28:54] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_munchhausen-par-procuration --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-11T09:28:54] --- WP-PUSH OUTPUT ---
+[2026-06-11T09:29:31] {
+[2026-06-11T09:29:31]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration",
+[2026-06-11T09:29:31]   "total": 3,
+[2026-06-11T09:29:31]   "created": 3,
+[2026-06-11T09:29:31]   "skipped": 0,
+[2026-06-11T09:29:31]   "failed": 0,
+[2026-06-11T09:29:31]   "items": [
+[2026-06-11T09:29:31]     {
+[2026-06-11T09:29:31]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-522_ACTU_SCIENCE_munchhausen_par_procuration_lecture_critique_juin_2026_V1.md",
+[2026-06-11T09:29:31]       "article_id": "2026-522",
+[2026-06-11T09:29:31]       "title": "Münchhausen par procuration : six mois après le procès Daubon, ce qu'un diagnostic rare change — et ce qu'il ne prouve pas",
+[2026-06-11T09:29:31]       "status": "draft",
+[2026-06-11T09:29:31]       "wordpress_id": 4898,
+[2026-06-11T09:29:31]       "slug": "munchhausen-par-procuration-lecture-critique-juin-2026",
+[2026-06-11T09:29:31]       "link": "https://le-phare.info/?p=4898",
+[2026-06-11T09:29:31]       "categories": [
+[2026-06-11T09:29:31]         "actualites"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "tags": [
+[2026-06-11T09:29:31]         "science-sante",
+[2026-06-11T09:29:31]         "sentier-critique",
+[2026-06-11T09:29:31]         "posture-observer",
+[2026-06-11T09:29:31]         "triptyque",
+[2026-06-11T09:29:31]         "munchhausen-par-procuration",
+[2026-06-11T09:29:31]         "maltraitance-enfance",
+[2026-06-11T09:29:31]         "diagnostic"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "index_updated": true,
+[2026-06-11T09:29:31]       "featured_media": 2060,
+[2026-06-11T09:29:31]       "error": ""
+[2026-06-11T09:29:31]     },
+[2026-06-11T09:29:31]     {
+[2026-06-11T09:29:31]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-523_TF_SCIENCE_roy_meadow_munchhausen_par_procuration_1977_grille_V1.md",
+[2026-06-11T09:29:31]       "article_id": "2026-523",
+[2026-06-11T09:29:31]       "title": "Roy Meadow (1977) : nommer le Münchhausen par procuration — et connaître les limites de la grille",
+[2026-06-11T09:29:31]       "status": "draft",
+[2026-06-11T09:29:31]       "wordpress_id": 4899,
+[2026-06-11T09:29:31]       "slug": "roy-meadow-munchhausen-par-procuration-1977-grille",
+[2026-06-11T09:29:31]       "link": "https://le-phare.info/?p=4899",
+[2026-06-11T09:29:31]       "categories": [
+[2026-06-11T09:29:31]         "textes-fondateurs"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "tags": [
+[2026-06-11T09:29:31]         "science-sante",
+[2026-06-11T09:29:31]         "sentier-approfondissement",
+[2026-06-11T09:29:31]         "posture-comprendre",
+[2026-06-11T09:29:31]         "triptyque",
+[2026-06-11T09:29:31]         "roy-meadow",
+[2026-06-11T09:29:31]         "trouble-factice"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "index_updated": true,
+[2026-06-11T09:29:31]       "featured_media": 2060,
+[2026-06-11T09:29:31]       "error": ""
+[2026-06-11T09:29:31]     },
+[2026-06-11T09:29:31]     {
+[2026-06-11T09:29:31]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-524_SENTIER_SCIENCE_decoder_trois_niveaux_source_munchhausen_procuration_V1.md",
+[2026-06-11T09:29:31]       "article_id": "2026-524",
+[2026-06-11T09:29:31]       "title": "Décoder trois niveaux de source autour du Münchhausen par procuration (juin 2026)",
+[2026-06-11T09:29:31]       "status": "draft",
+[2026-06-11T09:29:31]       "wordpress_id": 4900,
+[2026-06-11T09:29:31]       "slug": "decoder-trois-niveaux-source-munchhausen-procuration",
+[2026-06-11T09:29:31]       "link": "https://le-phare.info/?p=4900",
+[2026-06-11T09:29:31]       "categories": [
+[2026-06-11T09:29:31]         "sentier-du-savoir"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "tags": [
+[2026-06-11T09:29:31]         "science-sante",
+[2026-06-11T09:29:31]         "sentier-critique",
+[2026-06-11T09:29:31]         "posture-comprendre",
+[2026-06-11T09:29:31]         "triptyque",
+[2026-06-11T09:29:31]         "atelier-sentier",
+[2026-06-11T09:29:31]         "fondamental-2026-198",
+[2026-06-11T09:29:31]         "lecture-des-sources"
+[2026-06-11T09:29:31]       ],
+[2026-06-11T09:29:31]       "index_updated": true,
+[2026-06-11T09:29:31]       "featured_media": 2060,
+[2026-06-11T09:29:31]       "error": ""
+[2026-06-11T09:29:31]     }
+[2026-06-11T09:29:31]   ]
+[2026-06-11T09:29:31] }
+[2026-06-11T09:29:31] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_munchhausen-par-procuration --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-11T09:29:31] --- POST-LINKING OUTPUT ---
+[2026-06-11T09:29:35] {
+[2026-06-11T09:29:35]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration",
+[2026-06-11T09:29:35]   "mode": "triptyque_linking_v2",
+[2026-06-11T09:29:35]   "dry_run": false,
+[2026-06-11T09:29:35]   "total": 3,
+[2026-06-11T09:29:35]   "updated_local": 3,
+[2026-06-11T09:29:35]   "updated_wordpress": 3,
+[2026-06-11T09:29:35]   "items": [
+[2026-06-11T09:29:35]     {
+[2026-06-11T09:29:35]       "article_id": "2026-522",
+[2026-06-11T09:29:35]       "type": "ACTU",
+[2026-06-11T09:29:35]       "title": "Münchhausen par procuration : six mois après le procès Daubon, ce qu'un diagnostic rare change — et ce qu'il ne prouve pas",
+[2026-06-11T09:29:35]       "wordpress_id": 4898,
+[2026-06-11T09:29:35]       "wordpress_url": "https://le-phare.info/?p=4898",
+[2026-06-11T09:29:35]       "updated_paths": [
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-522_ACTU_SCIENCE_munchhausen_par_procuration_lecture_critique_juin_2026_V1.md",
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Science_Sante\\2026-522_ACTU_SCIENCE_munchhausen_par_procuration_lecture_critique_juin_2026_V1.md"
+[2026-06-11T09:29:35]       ],
+[2026-06-11T09:29:35]       "status": "updated",
+[2026-06-11T09:29:35]       "error": ""
+[2026-06-11T09:29:35]     },
+[2026-06-11T09:29:35]     {
+[2026-06-11T09:29:35]       "article_id": "2026-523",
+[2026-06-11T09:29:35]       "type": "TF",
+[2026-06-11T09:29:35]       "title": "Roy Meadow (1977) : nommer le Münchhausen par procuration — et connaître les limites de la grille",
+[2026-06-11T09:29:35]       "wordpress_id": 4899,
+[2026-06-11T09:29:35]       "wordpress_url": "https://le-phare.info/?p=4899",
+[2026-06-11T09:29:35]       "updated_paths": [
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-523_TF_SCIENCE_roy_meadow_munchhausen_par_procuration_1977_grille_V1.md",
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-523_TF_SCIENCE_roy_meadow_munchhausen_par_procuration_1977_grille_V1.md"
+[2026-06-11T09:29:35]       ],
+[2026-06-11T09:29:35]       "status": "updated",
+[2026-06-11T09:29:35]       "error": ""
+[2026-06-11T09:29:35]     },
+[2026-06-11T09:29:35]     {
+[2026-06-11T09:29:35]       "article_id": "2026-524",
+[2026-06-11T09:29:35]       "type": "SENTIER",
+[2026-06-11T09:29:35]       "title": "Décoder trois niveaux de source autour du Münchhausen par procuration (juin 2026)",
+[2026-06-11T09:29:35]       "wordpress_id": 4900,
+[2026-06-11T09:29:35]       "wordpress_url": "https://le-phare.info/?p=4900",
+[2026-06-11T09:29:35]       "updated_paths": [
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-11_munchhausen-par-procuration\\2026-524_SENTIER_SCIENCE_decoder_trois_niveaux_source_munchhausen_procuration_V1.md",
+[2026-06-11T09:29:35]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_02_Pensee_critique\\2026-524_SENTIER_SCIENCE_decoder_trois_niveaux_source_munchhausen_procuration_V1.md"
+[2026-06-11T09:29:35]       ],
+[2026-06-11T09:29:35]       "status": "updated",
+[2026-06-11T09:29:35]       "error": ""
+[2026-06-11T09:29:35]     }
+[2026-06-11T09:29:35]   ],
+[2026-06-11T09:29:35]   "errors": []
+[2026-06-11T09:29:35] }
+[2026-06-11T09:29:35] [V2] Rappel fondamental parent : fondamental-2026-198 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-11T09:29:35] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-11_munchhausen-par-procuration

@@ -1,0 +1,139 @@
+[2026-06-25T09:41:28] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-25_digital-omnibus-ai-act
+[2026-06-25T09:41:28] Selected topic label: 2026-06-25_digital-omnibus-ai-act
+[2026-06-25T09:41:28] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-25_digital-omnibus-ai-act --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-25T09:41:28] --- WP-PUSH OUTPUT ---
+[2026-06-25T09:41:54] {
+[2026-06-25T09:41:54]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act",
+[2026-06-25T09:41:54]   "total": 3,
+[2026-06-25T09:41:54]   "created": 3,
+[2026-06-25T09:41:54]   "skipped": 0,
+[2026-06-25T09:41:54]   "failed": 0,
+[2026-06-25T09:41:54]   "items": [
+[2026-06-25T09:41:54]     {
+[2026-06-25T09:41:54]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-528_ACTU_TECH_digital_omnibus_ai_act_report_conformite_2027_V1.md",
+[2026-06-25T09:41:54]       "article_id": "2026-528",
+[2026-06-25T09:41:54]       "title": "Le Digital Omnibus retouche l'AI Act : ce que le report au 2 décembre 2027 change — et ce qui ne bouge pas",
+[2026-06-25T09:41:54]       "status": "draft",
+[2026-06-25T09:41:54]       "wordpress_id": 4995,
+[2026-06-25T09:41:54]       "slug": "digital-omnibus-ai-act-report-conformite-2027",
+[2026-06-25T09:41:54]       "link": "https://le-phare.info/?p=4995",
+[2026-06-25T09:41:54]       "categories": [
+[2026-06-25T09:41:54]         "actualites"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "tags": [
+[2026-06-25T09:41:54]         "technologie-ia",
+[2026-06-25T09:41:54]         "sentier-transmission",
+[2026-06-25T09:41:54]         "posture-observer",
+[2026-06-25T09:41:54]         "triptyque",
+[2026-06-25T09:41:54]         "digital-omnibus",
+[2026-06-25T09:41:54]         "ai-act",
+[2026-06-25T09:41:54]         "regulation-ia"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "index_updated": true,
+[2026-06-25T09:41:54]       "featured_media": 2133,
+[2026-06-25T09:41:54]       "error": ""
+[2026-06-25T09:41:54]     },
+[2026-06-25T09:41:54]     {
+[2026-06-25T09:41:54]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-529_TF_TECH_david_collingridge_dilemme_controle_technologique_1980_V1.md",
+[2026-06-25T09:41:54]       "article_id": "2026-529",
+[2026-06-25T09:41:54]       "title": "David Collingridge (1980) : le dilemme du contrôle technologique — réguler tôt sans comprendre ou comprendre tard sans pouvoir réguler",
+[2026-06-25T09:41:54]       "status": "draft",
+[2026-06-25T09:41:54]       "wordpress_id": 4996,
+[2026-06-25T09:41:54]       "slug": "david-collingridge-dilemme-controle-technologique-1980",
+[2026-06-25T09:41:54]       "link": "https://le-phare.info/?p=4996",
+[2026-06-25T09:41:54]       "categories": [
+[2026-06-25T09:41:54]         "textes-fondateurs"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "tags": [
+[2026-06-25T09:41:54]         "technologie-ia",
+[2026-06-25T09:41:54]         "sentier-transmission",
+[2026-06-25T09:41:54]         "posture-comprendre",
+[2026-06-25T09:41:54]         "triptyque",
+[2026-06-25T09:41:54]         "david-collingridge",
+[2026-06-25T09:41:54]         "dilemme-collingridge",
+[2026-06-25T09:41:54]         "regulation-ia"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "index_updated": true,
+[2026-06-25T09:41:54]       "featured_media": 2133,
+[2026-06-25T09:41:54]       "error": ""
+[2026-06-25T09:41:54]     },
+[2026-06-25T09:41:54]     {
+[2026-06-25T09:41:54]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-530_SENTIER_TECH_construire_trois_niveaux_vulgarisation_regle_ia_V1.md",
+[2026-06-25T09:41:54]       "article_id": "2026-530",
+[2026-06-25T09:41:54]       "title": "Construire trois niveaux de vulgarisation pour transmettre une règle IA sans la déformer (juin 2026)",
+[2026-06-25T09:41:54]       "status": "draft",
+[2026-06-25T09:41:54]       "wordpress_id": 4997,
+[2026-06-25T09:41:54]       "slug": "construire-trois-niveaux-vulgarisation-regle-ia",
+[2026-06-25T09:41:54]       "link": "https://le-phare.info/?p=4997",
+[2026-06-25T09:41:54]       "categories": [
+[2026-06-25T09:41:54]         "sentier-du-savoir"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "tags": [
+[2026-06-25T09:41:54]         "technologie-ia",
+[2026-06-25T09:41:54]         "sentier-transmission",
+[2026-06-25T09:41:54]         "posture-comprendre",
+[2026-06-25T09:41:54]         "triptyque",
+[2026-06-25T09:41:54]         "atelier-sentier",
+[2026-06-25T09:41:54]         "fondamental-2026-149",
+[2026-06-25T09:41:54]         "vulgarisation",
+[2026-06-25T09:41:54]         "ai-act"
+[2026-06-25T09:41:54]       ],
+[2026-06-25T09:41:54]       "index_updated": true,
+[2026-06-25T09:41:54]       "featured_media": 2133,
+[2026-06-25T09:41:54]       "error": ""
+[2026-06-25T09:41:54]     }
+[2026-06-25T09:41:54]   ]
+[2026-06-25T09:41:54] }
+[2026-06-25T09:41:54] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-25_digital-omnibus-ai-act --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-25T09:41:54] --- POST-LINKING OUTPUT ---
+[2026-06-25T09:41:58] {
+[2026-06-25T09:41:58]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act",
+[2026-06-25T09:41:58]   "mode": "triptyque_linking_v2",
+[2026-06-25T09:41:58]   "dry_run": false,
+[2026-06-25T09:41:58]   "total": 3,
+[2026-06-25T09:41:58]   "updated_local": 3,
+[2026-06-25T09:41:58]   "updated_wordpress": 3,
+[2026-06-25T09:41:58]   "items": [
+[2026-06-25T09:41:58]     {
+[2026-06-25T09:41:58]       "article_id": "2026-528",
+[2026-06-25T09:41:58]       "type": "ACTU",
+[2026-06-25T09:41:58]       "title": "Le Digital Omnibus retouche l'AI Act : ce que le report au 2 décembre 2027 change — et ce qui ne bouge pas",
+[2026-06-25T09:41:58]       "wordpress_id": 4995,
+[2026-06-25T09:41:58]       "wordpress_url": "https://le-phare.info/?p=4995",
+[2026-06-25T09:41:58]       "updated_paths": [
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-528_ACTU_TECH_digital_omnibus_ai_act_report_conformite_2027_V1.md",
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-528_ACTU_TECH_digital_omnibus_ai_act_report_conformite_2027_V1.md"
+[2026-06-25T09:41:58]       ],
+[2026-06-25T09:41:58]       "status": "updated",
+[2026-06-25T09:41:58]       "error": ""
+[2026-06-25T09:41:58]     },
+[2026-06-25T09:41:58]     {
+[2026-06-25T09:41:58]       "article_id": "2026-529",
+[2026-06-25T09:41:58]       "type": "TF",
+[2026-06-25T09:41:58]       "title": "David Collingridge (1980) : le dilemme du contrôle technologique — réguler tôt sans comprendre ou comprendre tard sans pouvoir réguler",
+[2026-06-25T09:41:58]       "wordpress_id": 4996,
+[2026-06-25T09:41:58]       "wordpress_url": "https://le-phare.info/?p=4996",
+[2026-06-25T09:41:58]       "updated_paths": [
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-529_TF_TECH_david_collingridge_dilemme_controle_technologique_1980_V1.md",
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-529_TF_TECH_david_collingridge_dilemme_controle_technologique_1980_V1.md"
+[2026-06-25T09:41:58]       ],
+[2026-06-25T09:41:58]       "status": "updated",
+[2026-06-25T09:41:58]       "error": ""
+[2026-06-25T09:41:58]     },
+[2026-06-25T09:41:58]     {
+[2026-06-25T09:41:58]       "article_id": "2026-530",
+[2026-06-25T09:41:58]       "type": "SENTIER",
+[2026-06-25T09:41:58]       "title": "Construire trois niveaux de vulgarisation pour transmettre une règle IA sans la déformer (juin 2026)",
+[2026-06-25T09:41:58]       "wordpress_id": 4997,
+[2026-06-25T09:41:58]       "wordpress_url": "https://le-phare.info/?p=4997",
+[2026-06-25T09:41:58]       "updated_paths": [
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-25_digital-omnibus-ai-act\\2026-530_SENTIER_TECH_construire_trois_niveaux_vulgarisation_regle_ia_V1.md",
+[2026-06-25T09:41:58]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_07_Transmission\\2026-530_SENTIER_TECH_construire_trois_niveaux_vulgarisation_regle_ia_V1.md"
+[2026-06-25T09:41:58]       ],
+[2026-06-25T09:41:58]       "status": "updated",
+[2026-06-25T09:41:58]       "error": ""
+[2026-06-25T09:41:58]     }
+[2026-06-25T09:41:58]   ],
+[2026-06-25T09:41:58]   "errors": []
+[2026-06-25T09:41:58] }
+[2026-06-25T09:41:58] [V2] Rappel fondamental parent : fondamental-2026-149 — rafraîchir WP manuellement pour afficher ## Ateliers.

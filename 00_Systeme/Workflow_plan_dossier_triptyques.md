@@ -91,6 +91,16 @@ A chaque nouveau triptyque, rappeler :
 - ce que les triptyques **deja rediges** ont couvert
 - ce que **ce** triptyque doit **seul** porter
 
+### Etape 3 bis - Ancrage atelier (chaque triptyque)
+
+Apres redaction du SENTIER :
+
+- choisir le fondamental parent dans `00_Systeme/Manifests/sentier_fondamentaux.csv`
+- marquer le SENTIER comme **atelier** (en-tete + Instructions 3.9)
+- ajouter une ligne dans `## Ateliers (applications sur l'actualite)` en fin du fichier du fondamental parent
+
+Voir `00_Systeme/Sentier_fondamentaux_referentiel.md`.
+
 ### Etape 4 - Integration
 
 - IDs uniques dans `index_editorial.csv`

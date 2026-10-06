@@ -1,0 +1,956 @@
+[2026-10-05T15:03:52] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026
+[2026-10-05T15:03:52] Selected topic label: 2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026
+[2026-10-05T15:03:52] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:03:52] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:04:03] {
+[2026-10-05T15:04:03]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026\\2026-531_ACTU_TECH_missile_ia_coree_du_nord_essai_3_octobre_2026_V1.md",
+[2026-10-05T15:04:03]   "article_id": "2026-531",
+[2026-10-05T15:04:03]   "title": "Le missile Â« Ã  IA Â» de Pyongyang : ce que l'essai du 3 octobre montre â€” et ce qu'un mot suffit Ã  faire croire",
+[2026-10-05T15:04:03]   "status": "draft",
+[2026-10-05T15:04:03]   "skipped": false,
+[2026-10-05T15:04:03]   "wordpress_id": 5469,
+[2026-10-05T15:04:03]   "wordpress_slug": "missile-ia-coree-du-nord-essai-3-octobre-2026",
+[2026-10-05T15:04:03]   "wordpress_link": "https://le-phare.info/?p=5469",
+[2026-10-05T15:04:03]   "categories": [
+[2026-10-05T15:04:03]     "actualites"
+[2026-10-05T15:04:03]   ],
+[2026-10-05T15:04:03]   "tags": [
+[2026-10-05T15:04:03]     "technologie-ia",
+[2026-10-05T15:04:03]     "sentier-critique",
+[2026-10-05T15:04:03]     "posture-distance",
+[2026-10-05T15:04:03]     "type-actualite",
+[2026-10-05T15:04:03]     "question-du-phare",
+[2026-10-05T15:04:03]     "intelligence-artificielle",
+[2026-10-05T15:04:03]     "coree-du-nord",
+[2026-10-05T15:04:03]     "dissuasion"
+[2026-10-05T15:04:03]   ],
+[2026-10-05T15:04:03]   "index_updated": true,
+[2026-10-05T15:04:03]   "error": "",
+[2026-10-05T15:04:03]   "featured_media_id": 2133
+[2026-10-05T15:04:03] }
+[2026-10-05T15:04:03] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:04:03] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:04:03] {
+[2026-10-05T15:04:03]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_missile-ia-coree-du-nord-essai-3-octobre-2026",
+[2026-10-05T15:04:03]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:04:03]   "dry_run": false,
+[2026-10-05T15:04:03]   "total": 1,
+[2026-10-05T15:04:03]   "updated_local": 0,
+[2026-10-05T15:04:03]   "updated_wordpress": 1,
+[2026-10-05T15:04:03]   "items": [
+[2026-10-05T15:04:03]     {
+[2026-10-05T15:04:03]       "article_id": "2026-531",
+[2026-10-05T15:04:03]       "type": "ACTU",
+[2026-10-05T15:04:03]       "title": "Le missile Â« Ã  IA Â» de Pyongyang : ce que l'essai du 3 octobre montre â€” et ce qu'un mot suffit Ã  faire croire",
+[2026-10-05T15:04:03]       "wordpress_id": 5469,
+[2026-10-05T15:04:03]       "wordpress_url": "https://le-phare.info/?p=5469",
+[2026-10-05T15:04:03]       "updated_paths": [],
+[2026-10-05T15:04:03]       "status": "updated",
+[2026-10-05T15:04:03]       "error": ""
+[2026-10-05T15:04:03]     }
+[2026-10-05T15:04:03]   ],
+[2026-10-05T15:04:03]   "errors": []
+[2026-10-05T15:04:03] }
+[2026-10-05T15:15:17] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie
+[2026-10-05T15:15:17] Selected topic label: 2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie
+[2026-10-05T15:15:17] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:15:17] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:15:33] {
+[2026-10-05T15:15:33]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie\\2026-532_ACTU_CULTURE_saint_francois_assise_800_ans_4_octobre_ferie_italie_V1.md",
+[2026-10-05T15:15:33]   "article_id": "2026-532",
+[2026-10-05T15:15:33]   "title": "Saint FranÃ§ois, 800 ans aprÃ¨s : ce que l'Italie cÃ©lÃ¨bre en refaisant du 4 octobre un jour fÃ©riÃ©",
+[2026-10-05T15:15:33]   "status": "draft",
+[2026-10-05T15:15:33]   "skipped": false,
+[2026-10-05T15:15:33]   "wordpress_id": 5471,
+[2026-10-05T15:15:33]   "wordpress_slug": "saint-francois-assise-800-ans-4-octobre-ferie-italie",
+[2026-10-05T15:15:33]   "wordpress_link": "https://le-phare.info/?p=5471",
+[2026-10-05T15:15:33]   "categories": [
+[2026-10-05T15:15:33]     "actualites"
+[2026-10-05T15:15:33]   ],
+[2026-10-05T15:15:33]   "tags": [
+[2026-10-05T15:15:33]     "culture-philosophie",
+[2026-10-05T15:15:33]     "sentier-culture",
+[2026-10-05T15:15:33]     "posture-observer",
+[2026-10-05T15:15:33]     "type-actualite",
+[2026-10-05T15:15:33]     "question-du-phare",
+[2026-10-05T15:15:33]     "saint-francois-d-assise",
+[2026-10-05T15:15:33]     "patrimoine",
+[2026-10-05T15:15:33]     "secularisation"
+[2026-10-05T15:15:33]   ],
+[2026-10-05T15:15:33]   "index_updated": true,
+[2026-10-05T15:15:33]   "error": "",
+[2026-10-05T15:15:33]   "featured_media_id": 4738
+[2026-10-05T15:15:33] }
+[2026-10-05T15:15:33] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:15:33] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:15:34] {
+[2026-10-05T15:15:34]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_saint-francois-assise-800-ans-4-octobre-ferie-italie",
+[2026-10-05T15:15:34]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:15:34]   "dry_run": false,
+[2026-10-05T15:15:34]   "total": 1,
+[2026-10-05T15:15:34]   "updated_local": 0,
+[2026-10-05T15:15:34]   "updated_wordpress": 1,
+[2026-10-05T15:15:34]   "items": [
+[2026-10-05T15:15:34]     {
+[2026-10-05T15:15:34]       "article_id": "2026-532",
+[2026-10-05T15:15:34]       "type": "ACTU",
+[2026-10-05T15:15:34]       "title": "Saint FranÃ§ois, 800 ans aprÃ¨s : ce que l'Italie cÃ©lÃ¨bre en refaisant du 4 octobre un jour fÃ©riÃ©",
+[2026-10-05T15:15:34]       "wordpress_id": 5471,
+[2026-10-05T15:15:34]       "wordpress_url": "https://le-phare.info/?p=5471",
+[2026-10-05T15:15:34]       "updated_paths": [],
+[2026-10-05T15:15:34]       "status": "updated",
+[2026-10-05T15:15:34]       "error": ""
+[2026-10-05T15:15:34]     }
+[2026-10-05T15:15:34]   ],
+[2026-10-05T15:15:34]   "errors": []
+[2026-10-05T15:15:34] }
+[2026-10-05T15:42:42] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs
+[2026-10-05T15:42:42] Selected topic label: 2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs
+[2026-10-05T15:42:42] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:42:42] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:42:58] {
+[2026-10-05T15:42:58]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs\\2026-533_ACTU_POL_lettonie_legislatives_3_octobre_2026_kulbergs_V1.md",
+[2026-10-05T15:42:58]   "article_id": "2026-533",
+[2026-10-05T15:42:58]   "title": "Lettonie : Andris Kulbergs gagne les lÃ©gislatives, mais une victoire n'est pas une majoritÃ©",
+[2026-10-05T15:42:58]   "status": "draft",
+[2026-10-05T15:42:58]   "skipped": false,
+[2026-10-05T15:42:58]   "wordpress_id": 5473,
+[2026-10-05T15:42:58]   "wordpress_slug": "lettonie-legislatives-3-octobre-2026-kulbergs",
+[2026-10-05T15:42:58]   "wordpress_link": "https://le-phare.info/?p=5473",
+[2026-10-05T15:42:58]   "categories": [
+[2026-10-05T15:42:58]     "actualites"
+[2026-10-05T15:42:58]   ],
+[2026-10-05T15:42:58]   "tags": [
+[2026-10-05T15:42:58]     "politique-societe",
+[2026-10-05T15:42:58]     "sentier-critique",
+[2026-10-05T15:42:58]     "posture-observer",
+[2026-10-05T15:42:58]     "type-actualite",
+[2026-10-05T15:42:58]     "question-du-phare",
+[2026-10-05T15:42:58]     "lettonie",
+[2026-10-05T15:42:58]     "elections",
+[2026-10-05T15:42:58]     "pays-baltes"
+[2026-10-05T15:42:58]   ],
+[2026-10-05T15:42:58]   "index_updated": true,
+[2026-10-05T15:42:58]   "error": "",
+[2026-10-05T15:42:58]   "featured_media_id": 2117
+[2026-10-05T15:42:58] }
+[2026-10-05T15:42:58] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:42:58] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:42:59] {
+[2026-10-05T15:42:59]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_lettonie-legislatives-3-octobre-2026-kulbergs",
+[2026-10-05T15:42:59]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:42:59]   "dry_run": false,
+[2026-10-05T15:42:59]   "total": 1,
+[2026-10-05T15:42:59]   "updated_local": 0,
+[2026-10-05T15:42:59]   "updated_wordpress": 1,
+[2026-10-05T15:42:59]   "items": [
+[2026-10-05T15:42:59]     {
+[2026-10-05T15:42:59]       "article_id": "2026-533",
+[2026-10-05T15:42:59]       "type": "ACTU",
+[2026-10-05T15:42:59]       "title": "Lettonie : Andris Kulbergs gagne les lÃ©gislatives, mais une victoire n'est pas une majoritÃ©",
+[2026-10-05T15:42:59]       "wordpress_id": 5473,
+[2026-10-05T15:42:59]       "wordpress_url": "https://le-phare.info/?p=5473",
+[2026-10-05T15:42:59]       "updated_paths": [],
+[2026-10-05T15:42:59]       "status": "updated",
+[2026-10-05T15:42:59]       "error": ""
+[2026-10-05T15:42:59]     }
+[2026-10-05T15:42:59]   ],
+[2026-10-05T15:42:59]   "errors": []
+[2026-10-05T15:42:59] }
+[2026-10-05T15:43:46] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro
+[2026-10-05T15:43:46] Selected topic label: 2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro
+[2026-10-05T15:43:46] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:43:46] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:44:01] {
+[2026-10-05T15:44:01]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro\\2026-534_ACTU_MONDE_bresil_presidentielle_premier_tour_4_octobre_2026_lula_flavio_bolsonaro_V1.md",
+[2026-10-05T15:44:01]   "article_id": "2026-534",
+[2026-10-05T15:44:01]   "title": "BrÃ©sil : FlÃ¡vio Bolsonaro devant Lula au premier tour, et des sondages pris Ã  revers",
+[2026-10-05T15:44:01]   "status": "draft",
+[2026-10-05T15:44:01]   "skipped": false,
+[2026-10-05T15:44:01]   "wordpress_id": 5475,
+[2026-10-05T15:44:01]   "wordpress_slug": "bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro",
+[2026-10-05T15:44:01]   "wordpress_link": "https://le-phare.info/?p=5475",
+[2026-10-05T15:44:01]   "categories": [
+[2026-10-05T15:44:01]     "actualites"
+[2026-10-05T15:44:01]   ],
+[2026-10-05T15:44:01]   "tags": [
+[2026-10-05T15:44:01]     "monde",
+[2026-10-05T15:44:01]     "sentier-critique",
+[2026-10-05T15:44:01]     "posture-observer",
+[2026-10-05T15:44:01]     "type-actualite",
+[2026-10-05T15:44:01]     "question-du-phare",
+[2026-10-05T15:44:01]     "bresil",
+[2026-10-05T15:44:01]     "elections",
+[2026-10-05T15:44:01]     "sondages"
+[2026-10-05T15:44:01]   ],
+[2026-10-05T15:44:01]   "index_updated": true,
+[2026-10-05T15:44:01]   "error": "",
+[2026-10-05T15:44:01]   "featured_media_id": 2112
+[2026-10-05T15:44:01] }
+[2026-10-05T15:44:01] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:44:01] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:44:01] {
+[2026-10-05T15:44:01]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro",
+[2026-10-05T15:44:01]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:44:01]   "dry_run": false,
+[2026-10-05T15:44:01]   "total": 1,
+[2026-10-05T15:44:01]   "updated_local": 0,
+[2026-10-05T15:44:01]   "updated_wordpress": 1,
+[2026-10-05T15:44:01]   "items": [
+[2026-10-05T15:44:01]     {
+[2026-10-05T15:44:01]       "article_id": "2026-534",
+[2026-10-05T15:44:01]       "type": "ACTU",
+[2026-10-05T15:44:01]       "title": "BrÃ©sil : FlÃ¡vio Bolsonaro devant Lula au premier tour, et des sondages pris Ã  revers",
+[2026-10-05T15:44:01]       "wordpress_id": 5475,
+[2026-10-05T15:44:01]       "wordpress_url": "https://le-phare.info/?p=5475",
+[2026-10-05T15:44:01]       "updated_paths": [],
+[2026-10-05T15:44:01]       "status": "updated",
+[2026-10-05T15:44:01]       "error": ""
+[2026-10-05T15:44:01]     }
+[2026-10-05T15:44:01]   ],
+[2026-10-05T15:44:01]   "errors": []
+[2026-10-05T15:44:01] }
+[2026-10-05T15:44:42] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026
+[2026-10-05T15:44:42] Selected topic label: 2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026
+[2026-10-05T15:44:42] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:44:42] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:44:51] {
+[2026-10-05T15:44:51]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026\\2026-535_ACTU_MONDE_ethiopie_tigre_mekelle_reprise_armee_federale_octobre_2026_V1.md",
+[2026-10-05T15:44:51]   "article_id": "2026-535",
+[2026-10-05T15:44:51]   "title": "Ã‰thiopie : l'armÃ©e fÃ©dÃ©rale reprend Mekelle, et chaque camp raconte une autre guerre",
+[2026-10-05T15:44:51]   "status": "draft",
+[2026-10-05T15:44:51]   "skipped": false,
+[2026-10-05T15:44:51]   "wordpress_id": 5477,
+[2026-10-05T15:44:51]   "wordpress_slug": "ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026",
+[2026-10-05T15:44:51]   "wordpress_link": "https://le-phare.info/?p=5477",
+[2026-10-05T15:44:51]   "categories": [
+[2026-10-05T15:44:51]     "actualites"
+[2026-10-05T15:44:51]   ],
+[2026-10-05T15:44:51]   "tags": [
+[2026-10-05T15:44:51]     "monde",
+[2026-10-05T15:44:51]     "sentier-critique",
+[2026-10-05T15:44:51]     "posture-observer",
+[2026-10-05T15:44:51]     "type-actualite",
+[2026-10-05T15:44:51]     "question-du-phare",
+[2026-10-05T15:44:51]     "ethiopie",
+[2026-10-05T15:44:51]     "tigre",
+[2026-10-05T15:44:51]     "conflits-armes"
+[2026-10-05T15:44:51]   ],
+[2026-10-05T15:44:51]   "index_updated": true,
+[2026-10-05T15:44:51]   "error": "",
+[2026-10-05T15:44:51]   "featured_media_id": 2112
+[2026-10-05T15:44:51] }
+[2026-10-05T15:44:51] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:44:51] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:44:51] {
+[2026-10-05T15:44:51]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026",
+[2026-10-05T15:44:51]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:44:51]   "dry_run": false,
+[2026-10-05T15:44:51]   "total": 1,
+[2026-10-05T15:44:51]   "updated_local": 0,
+[2026-10-05T15:44:51]   "updated_wordpress": 1,
+[2026-10-05T15:44:51]   "items": [
+[2026-10-05T15:44:51]     {
+[2026-10-05T15:44:51]       "article_id": "2026-535",
+[2026-10-05T15:44:51]       "type": "ACTU",
+[2026-10-05T15:44:51]       "title": "Ã‰thiopie : l'armÃ©e fÃ©dÃ©rale reprend Mekelle, et chaque camp raconte une autre guerre",
+[2026-10-05T15:44:51]       "wordpress_id": 5477,
+[2026-10-05T15:44:51]       "wordpress_url": "https://le-phare.info/?p=5477",
+[2026-10-05T15:44:51]       "updated_paths": [],
+[2026-10-05T15:44:51]       "status": "updated",
+[2026-10-05T15:44:51]       "error": ""
+[2026-10-05T15:44:51]     }
+[2026-10-05T15:44:51]   ],
+[2026-10-05T15:44:51]   "errors": []
+[2026-10-05T15:44:51] }
+[2026-10-05T15:45:42] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026
+[2026-10-05T15:45:42] Selected topic label: 2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026
+[2026-10-05T15:45:42] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:45:42] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:45:51] {
+[2026-10-05T15:45:51]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026\\2026-536_ACTU_ECON_g7_reserves_strategiques_100_millions_barils_diesel_octobre_2026_V1.md",
+[2026-10-05T15:45:51]   "article_id": "2026-536",
+[2026-10-05T15:45:51]   "title": "G7 : 100 millions de barils de rÃ©serves pour calmer le diesel, un remÃ¨de Ã  court terme",
+[2026-10-05T15:45:51]   "status": "draft",
+[2026-10-05T15:45:51]   "skipped": false,
+[2026-10-05T15:45:51]   "wordpress_id": 5479,
+[2026-10-05T15:45:51]   "wordpress_slug": "g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026",
+[2026-10-05T15:45:51]   "wordpress_link": "https://le-phare.info/?p=5479",
+[2026-10-05T15:45:51]   "categories": [
+[2026-10-05T15:45:51]     "actualites"
+[2026-10-05T15:45:51]   ],
+[2026-10-05T15:45:51]   "tags": [
+[2026-10-05T15:45:51]     "economie-finance",
+[2026-10-05T15:45:51]     "sentier-approfondissement",
+[2026-10-05T15:45:51]     "posture-observer",
+[2026-10-05T15:45:51]     "type-actualite",
+[2026-10-05T15:45:51]     "question-du-phare",
+[2026-10-05T15:45:51]     "petrole",
+[2026-10-05T15:45:51]     "diesel",
+[2026-10-05T15:45:51]     "g7"
+[2026-10-05T15:45:51]   ],
+[2026-10-05T15:45:51]   "index_updated": true,
+[2026-10-05T15:45:51]   "error": "",
+[2026-10-05T15:45:51]   "featured_media_id": 4142
+[2026-10-05T15:45:51] }
+[2026-10-05T15:45:51] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:45:51] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:45:51] {
+[2026-10-05T15:45:51]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026",
+[2026-10-05T15:45:51]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:45:51]   "dry_run": false,
+[2026-10-05T15:45:51]   "total": 1,
+[2026-10-05T15:45:51]   "updated_local": 0,
+[2026-10-05T15:45:51]   "updated_wordpress": 1,
+[2026-10-05T15:45:51]   "items": [
+[2026-10-05T15:45:51]     {
+[2026-10-05T15:45:51]       "article_id": "2026-536",
+[2026-10-05T15:45:51]       "type": "ACTU",
+[2026-10-05T15:45:51]       "title": "G7 : 100 millions de barils de rÃ©serves pour calmer le diesel, un remÃ¨de Ã  court terme",
+[2026-10-05T15:45:51]       "wordpress_id": 5479,
+[2026-10-05T15:45:51]       "wordpress_url": "https://le-phare.info/?p=5479",
+[2026-10-05T15:45:51]       "updated_paths": [],
+[2026-10-05T15:45:51]       "status": "updated",
+[2026-10-05T15:45:51]       "error": ""
+[2026-10-05T15:45:51]     }
+[2026-10-05T15:45:51]   ],
+[2026-10-05T15:45:51]   "errors": []
+[2026-10-05T15:45:51] }
+[2026-10-05T15:49:54] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026
+[2026-10-05T15:49:54] Selected topic label: 2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026
+[2026-10-05T15:49:54] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:49:54] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:50:02] {
+[2026-10-05T15:50:02]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026\\2026-537_ACTU_SCIENCE_irkoutsk_peste_suspectee_technicienne_laboratoire_octobre_2026_V1.md",
+[2026-10-05T15:50:02]   "article_id": "2026-537",
+[2026-10-05T15:50:02]   "title": "Irkoutsk : une technicienne morte d'une peste suspectÃ©e, et la question du risque en laboratoire",
+[2026-10-05T15:50:02]   "status": "draft",
+[2026-10-05T15:50:02]   "skipped": false,
+[2026-10-05T15:50:02]   "wordpress_id": 5481,
+[2026-10-05T15:50:02]   "wordpress_slug": "irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026",
+[2026-10-05T15:50:02]   "wordpress_link": "https://le-phare.info/?p=5481",
+[2026-10-05T15:50:02]   "categories": [
+[2026-10-05T15:50:02]     "actualites"
+[2026-10-05T15:50:02]   ],
+[2026-10-05T15:50:02]   "tags": [
+[2026-10-05T15:50:02]     "science-sante",
+[2026-10-05T15:50:02]     "sentier-science",
+[2026-10-05T15:50:02]     "posture-observer",
+[2026-10-05T15:50:02]     "type-actualite",
+[2026-10-05T15:50:02]     "question-du-phare",
+[2026-10-05T15:50:02]     "peste",
+[2026-10-05T15:50:02]     "biosecurite",
+[2026-10-05T15:50:02]     "russie"
+[2026-10-05T15:50:02]   ],
+[2026-10-05T15:50:02]   "index_updated": true,
+[2026-10-05T15:50:02]   "error": "",
+[2026-10-05T15:50:02]   "featured_media_id": 2060
+[2026-10-05T15:50:02] }
+[2026-10-05T15:50:02] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:50:02] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:50:03] {
+[2026-10-05T15:50:03]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026",
+[2026-10-05T15:50:03]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:50:03]   "dry_run": false,
+[2026-10-05T15:50:03]   "total": 1,
+[2026-10-05T15:50:03]   "updated_local": 0,
+[2026-10-05T15:50:03]   "updated_wordpress": 1,
+[2026-10-05T15:50:03]   "items": [
+[2026-10-05T15:50:03]     {
+[2026-10-05T15:50:03]       "article_id": "2026-537",
+[2026-10-05T15:50:03]       "type": "ACTU",
+[2026-10-05T15:50:03]       "title": "Irkoutsk : une technicienne morte d'une peste suspectÃ©e, et la question du risque en laboratoire",
+[2026-10-05T15:50:03]       "wordpress_id": 5481,
+[2026-10-05T15:50:03]       "wordpress_url": "https://le-phare.info/?p=5481",
+[2026-10-05T15:50:03]       "updated_paths": [],
+[2026-10-05T15:50:03]       "status": "updated",
+[2026-10-05T15:50:03]       "error": ""
+[2026-10-05T15:50:03]     }
+[2026-10-05T15:50:03]   ],
+[2026-10-05T15:50:03]   "errors": []
+[2026-10-05T15:50:03] }
+[2026-10-05T15:56:15] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026
+[2026-10-05T15:56:15] Selected topic label: 2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026
+[2026-10-05T15:56:15] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:56:15] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:56:24] {
+[2026-10-05T15:56:24]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026\\2026-538_ACTU_CULTURE_tsar_samuel_restes_grece_bulgarie_thessalonique_3_octobre_2026_V1.md",
+[2026-10-05T15:56:24]   "article_id": "2026-538",
+[2026-10-05T15:56:24]   "title": "Tsar Samuel : la GrÃ¨ce remet Ã  la Bulgarie des restes mÃ©diÃ©vaux, et deux mÃ©moires se croisent",
+[2026-10-05T15:56:24]   "status": "draft",
+[2026-10-05T15:56:24]   "skipped": false,
+[2026-10-05T15:56:24]   "wordpress_id": 5483,
+[2026-10-05T15:56:24]   "wordpress_slug": "tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026",
+[2026-10-05T15:56:24]   "wordpress_link": "https://le-phare.info/?p=5483",
+[2026-10-05T15:56:24]   "categories": [
+[2026-10-05T15:56:24]     "actualites"
+[2026-10-05T15:56:24]   ],
+[2026-10-05T15:56:24]   "tags": [
+[2026-10-05T15:56:24]     "culture-philosophie",
+[2026-10-05T15:56:24]     "sentier-culture",
+[2026-10-05T15:56:24]     "posture-observer",
+[2026-10-05T15:56:24]     "type-actualite",
+[2026-10-05T15:56:24]     "question-du-phare",
+[2026-10-05T15:56:24]     "bulgarie",
+[2026-10-05T15:56:24]     "grece",
+[2026-10-05T15:56:24]     "restitution"
+[2026-10-05T15:56:24]   ],
+[2026-10-05T15:56:24]   "index_updated": true,
+[2026-10-05T15:56:24]   "error": "",
+[2026-10-05T15:56:24]   "featured_media_id": 4738
+[2026-10-05T15:56:24] }
+[2026-10-05T15:56:24] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T15:56:24] --- POST-LINKING OUTPUT ---
+[2026-10-05T15:56:25] {
+[2026-10-05T15:56:25]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026",
+[2026-10-05T15:56:25]   "mode": "triptyque_linking_v2",
+[2026-10-05T15:56:25]   "dry_run": false,
+[2026-10-05T15:56:25]   "total": 1,
+[2026-10-05T15:56:25]   "updated_local": 0,
+[2026-10-05T15:56:25]   "updated_wordpress": 1,
+[2026-10-05T15:56:25]   "items": [
+[2026-10-05T15:56:25]     {
+[2026-10-05T15:56:25]       "article_id": "2026-538",
+[2026-10-05T15:56:25]       "type": "ACTU",
+[2026-10-05T15:56:25]       "title": "Tsar Samuel : la GrÃ¨ce remet Ã  la Bulgarie des restes mÃ©diÃ©vaux, et deux mÃ©moires se croisent",
+[2026-10-05T15:56:25]       "wordpress_id": 5483,
+[2026-10-05T15:56:25]       "wordpress_url": "https://le-phare.info/?p=5483",
+[2026-10-05T15:56:25]       "updated_paths": [],
+[2026-10-05T15:56:25]       "status": "updated",
+[2026-10-05T15:56:25]       "error": ""
+[2026-10-05T15:56:25]     }
+[2026-10-05T15:56:25]   ],
+[2026-10-05T15:56:25]   "errors": []
+[2026-10-05T15:56:25] }
+[2026-10-05T15:58:32] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026
+[2026-10-05T15:58:32] Selected topic label: 2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026
+[2026-10-05T15:58:32] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T15:58:32] --- WP-PUSH OUTPUT ---
+[2026-10-05T15:58:41] Unhandled error: 'charmap' codec can't decode byte 0x8d in position 292: character maps to <undefined>
+[2026-10-05T16:02:42] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026
+[2026-10-05T16:02:42] Selected topic label: 2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026
+[2026-10-05T16:02:42] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:02:42] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:02:42] {
+[2026-10-05T16:02:42]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026\\2026-539_ACTU_CLIMAT_hawaii_arche_holei_effondrement_kilauea_octobre_2026_V1.md",
+[2026-10-05T16:02:42]   "article_id": "2026-539",
+[2026-10-05T16:02:42]   "title": "Hawaï : l'arche de Hōlei s'effondre, et le paysage rappelle qu'il n'est jamais immobile",
+[2026-10-05T16:02:42]   "status": "skipped",
+[2026-10-05T16:02:42]   "skipped": true,
+[2026-10-05T16:02:42]   "wordpress_id": 5485,
+[2026-10-05T16:02:42]   "wordpress_slug": "hawaii-arche-holei-effondrement-kilauea-octobre-2026",
+[2026-10-05T16:02:42]   "wordpress_link": "https://le-phare.info/?p=5485",
+[2026-10-05T16:02:42]   "categories": [
+[2026-10-05T16:02:42]     "actualites"
+[2026-10-05T16:02:42]   ],
+[2026-10-05T16:02:42]   "tags": [
+[2026-10-05T16:02:42]     "environnement-climat",
+[2026-10-05T16:02:42]     "sentier-vision",
+[2026-10-05T16:02:42]     "posture-observer",
+[2026-10-05T16:02:42]     "type-actualite",
+[2026-10-05T16:02:42]     "question-du-phare",
+[2026-10-05T16:02:42]     "hawaii",
+[2026-10-05T16:02:42]     "erosion",
+[2026-10-05T16:02:42]     "volcans"
+[2026-10-05T16:02:42]   ],
+[2026-10-05T16:02:42]   "index_updated": false,
+[2026-10-05T16:02:42]   "error": "",
+[2026-10-05T16:02:42]   "featured_media_id": 2130
+[2026-10-05T16:02:42] }
+[2026-10-05T16:02:42] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:02:42] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:02:43] {
+[2026-10-05T16:02:43]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_hawaii-arche-holei-effondrement-kilauea-octobre-2026",
+[2026-10-05T16:02:43]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:02:43]   "dry_run": false,
+[2026-10-05T16:02:43]   "total": 1,
+[2026-10-05T16:02:43]   "updated_local": 0,
+[2026-10-05T16:02:43]   "updated_wordpress": 1,
+[2026-10-05T16:02:43]   "items": [
+[2026-10-05T16:02:43]     {
+[2026-10-05T16:02:43]       "article_id": "2026-539",
+[2026-10-05T16:02:43]       "type": "ACTU",
+[2026-10-05T16:02:43]       "title": "Hawaï : l'arche de Hōlei s'effondre, et le paysage rappelle qu'il n'est jamais immobile",
+[2026-10-05T16:02:43]       "wordpress_id": 5485,
+[2026-10-05T16:02:43]       "wordpress_url": "https://le-phare.info/?p=5485",
+[2026-10-05T16:02:43]       "updated_paths": [],
+[2026-10-05T16:02:43]       "status": "updated",
+[2026-10-05T16:02:43]       "error": ""
+[2026-10-05T16:02:43]     }
+[2026-10-05T16:02:43]   ],
+[2026-10-05T16:02:43]   "errors": []
+[2026-10-05T16:02:43] }
+[2026-10-05T16:03:26] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026
+[2026-10-05T16:03:26] Selected topic label: 2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026
+[2026-10-05T16:03:26] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:03:26] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:03:36] {
+[2026-10-05T16:03:36]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026\\2026-540_ACTU_ECON_argentine_citoyennete_par_investissement_milei_octobre_2026_V1.md",
+[2026-10-05T16:03:36]   "article_id": "2026-540",
+[2026-10-05T16:03:36]   "title": "Argentine : un passeport contre 350 000 dollars, ou ce que vaut une citoyenneté",
+[2026-10-05T16:03:36]   "status": "draft",
+[2026-10-05T16:03:36]   "skipped": false,
+[2026-10-05T16:03:36]   "wordpress_id": 5487,
+[2026-10-05T16:03:36]   "wordpress_slug": "argentine-citoyennete-par-investissement-milei-octobre-2026",
+[2026-10-05T16:03:36]   "wordpress_link": "https://le-phare.info/?p=5487",
+[2026-10-05T16:03:36]   "categories": [
+[2026-10-05T16:03:36]     "actualites"
+[2026-10-05T16:03:36]   ],
+[2026-10-05T16:03:36]   "tags": [
+[2026-10-05T16:03:36]     "economie-finance",
+[2026-10-05T16:03:36]     "sentier-approfondissement",
+[2026-10-05T16:03:36]     "posture-observer",
+[2026-10-05T16:03:36]     "type-actualite",
+[2026-10-05T16:03:36]     "question-du-phare",
+[2026-10-05T16:03:36]     "argentine",
+[2026-10-05T16:03:36]     "citoyennete",
+[2026-10-05T16:03:36]     "investissements"
+[2026-10-05T16:03:36]   ],
+[2026-10-05T16:03:36]   "index_updated": true,
+[2026-10-05T16:03:36]   "error": "",
+[2026-10-05T16:03:36]   "featured_media_id": 4142
+[2026-10-05T16:03:36] }
+[2026-10-05T16:03:36] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:03:36] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:03:37] {
+[2026-10-05T16:03:37]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_argentine-citoyennete-par-investissement-milei-octobre-2026",
+[2026-10-05T16:03:37]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:03:37]   "dry_run": false,
+[2026-10-05T16:03:37]   "total": 1,
+[2026-10-05T16:03:37]   "updated_local": 0,
+[2026-10-05T16:03:37]   "updated_wordpress": 1,
+[2026-10-05T16:03:37]   "items": [
+[2026-10-05T16:03:37]     {
+[2026-10-05T16:03:37]       "article_id": "2026-540",
+[2026-10-05T16:03:37]       "type": "ACTU",
+[2026-10-05T16:03:37]       "title": "Argentine : un passeport contre 350 000 dollars, ou ce que vaut une citoyenneté",
+[2026-10-05T16:03:37]       "wordpress_id": 5487,
+[2026-10-05T16:03:37]       "wordpress_url": "https://le-phare.info/?p=5487",
+[2026-10-05T16:03:37]       "updated_paths": [],
+[2026-10-05T16:03:37]       "status": "updated",
+[2026-10-05T16:03:37]       "error": ""
+[2026-10-05T16:03:37]     }
+[2026-10-05T16:03:37]   ],
+[2026-10-05T16:03:37]   "errors": []
+[2026-10-05T16:03:37] }
+[2026-10-05T16:04:33] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026
+[2026-10-05T16:04:33] Selected topic label: 2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026
+[2026-10-05T16:04:33] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:04:33] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:04:42] {
+[2026-10-05T16:04:42]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026\\2026-541_ACTU_POL_bosnie_herzegovine_elections_generales_4_octobre_2026_V1.md",
+[2026-10-05T16:04:42]   "article_id": "2026-541",
+[2026-10-05T16:04:42]   "title": "Bosnie-Herzégovine : trois présidents élus le même soir, et un pays qui vote par communautés",
+[2026-10-05T16:04:42]   "status": "draft",
+[2026-10-05T16:04:42]   "skipped": false,
+[2026-10-05T16:04:42]   "wordpress_id": 5489,
+[2026-10-05T16:04:42]   "wordpress_slug": "bosnie-herzegovine-elections-generales-4-octobre-2026",
+[2026-10-05T16:04:42]   "wordpress_link": "https://le-phare.info/?p=5489",
+[2026-10-05T16:04:42]   "categories": [
+[2026-10-05T16:04:42]     "actualites"
+[2026-10-05T16:04:42]   ],
+[2026-10-05T16:04:42]   "tags": [
+[2026-10-05T16:04:42]     "politique-societe",
+[2026-10-05T16:04:42]     "sentier-critique",
+[2026-10-05T16:04:42]     "posture-observer",
+[2026-10-05T16:04:42]     "type-actualite",
+[2026-10-05T16:04:42]     "question-du-phare",
+[2026-10-05T16:04:42]     "bosnie-herzegovine",
+[2026-10-05T16:04:42]     "elections",
+[2026-10-05T16:04:42]     "balkans"
+[2026-10-05T16:04:42]   ],
+[2026-10-05T16:04:42]   "index_updated": true,
+[2026-10-05T16:04:42]   "error": "",
+[2026-10-05T16:04:42]   "featured_media_id": 2117
+[2026-10-05T16:04:42] }
+[2026-10-05T16:04:42] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:04:42] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:04:42] {
+[2026-10-05T16:04:42]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_bosnie-herzegovine-elections-generales-4-octobre-2026",
+[2026-10-05T16:04:42]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:04:42]   "dry_run": false,
+[2026-10-05T16:04:42]   "total": 1,
+[2026-10-05T16:04:42]   "updated_local": 0,
+[2026-10-05T16:04:42]   "updated_wordpress": 1,
+[2026-10-05T16:04:42]   "items": [
+[2026-10-05T16:04:42]     {
+[2026-10-05T16:04:42]       "article_id": "2026-541",
+[2026-10-05T16:04:42]       "type": "ACTU",
+[2026-10-05T16:04:42]       "title": "Bosnie-Herzégovine : trois présidents élus le même soir, et un pays qui vote par communautés",
+[2026-10-05T16:04:42]       "wordpress_id": 5489,
+[2026-10-05T16:04:42]       "wordpress_url": "https://le-phare.info/?p=5489",
+[2026-10-05T16:04:42]       "updated_paths": [],
+[2026-10-05T16:04:42]       "status": "updated",
+[2026-10-05T16:04:42]       "error": ""
+[2026-10-05T16:04:42]     }
+[2026-10-05T16:04:42]   ],
+[2026-10-05T16:04:42]   "errors": []
+[2026-10-05T16:04:42] }
+[2026-10-05T16:05:55] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026
+[2026-10-05T16:05:55] Selected topic label: 2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026
+[2026-10-05T16:05:55] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:05:55] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:06:04] {
+[2026-10-05T16:06:04]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026\\2026-542_ACTU_POL_france_blocages_lycees_mouvement_lyceen_octobre_2026_V1.md",
+[2026-10-05T16:06:04]   "article_id": "2026-542",
+[2026-10-05T16:06:04]   "title": "Lycées bloqués en France : des revendications scolaires, des violences, et un mouvement difficile à lire",
+[2026-10-05T16:06:04]   "status": "draft",
+[2026-10-05T16:06:04]   "skipped": false,
+[2026-10-05T16:06:04]   "wordpress_id": 5491,
+[2026-10-05T16:06:04]   "wordpress_slug": "france-blocages-lycees-mouvement-lyceen-octobre-2026",
+[2026-10-05T16:06:04]   "wordpress_link": "https://le-phare.info/?p=5491",
+[2026-10-05T16:06:04]   "categories": [
+[2026-10-05T16:06:04]     "actualites"
+[2026-10-05T16:06:04]   ],
+[2026-10-05T16:06:04]   "tags": [
+[2026-10-05T16:06:04]     "politique-societe",
+[2026-10-05T16:06:04]     "sentier-critique",
+[2026-10-05T16:06:04]     "posture-observer",
+[2026-10-05T16:06:04]     "type-actualite",
+[2026-10-05T16:06:04]     "question-du-phare",
+[2026-10-05T16:06:04]     "education",
+[2026-10-05T16:06:04]     "lycees",
+[2026-10-05T16:06:04]     "mouvements-sociaux"
+[2026-10-05T16:06:04]   ],
+[2026-10-05T16:06:04]   "index_updated": true,
+[2026-10-05T16:06:04]   "error": "",
+[2026-10-05T16:06:04]   "featured_media_id": 2117
+[2026-10-05T16:06:04] }
+[2026-10-05T16:06:04] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:06:04] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:06:04] {
+[2026-10-05T16:06:04]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_france-blocages-lycees-mouvement-lyceen-octobre-2026",
+[2026-10-05T16:06:04]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:06:04]   "dry_run": false,
+[2026-10-05T16:06:04]   "total": 1,
+[2026-10-05T16:06:04]   "updated_local": 0,
+[2026-10-05T16:06:04]   "updated_wordpress": 1,
+[2026-10-05T16:06:04]   "items": [
+[2026-10-05T16:06:04]     {
+[2026-10-05T16:06:04]       "article_id": "2026-542",
+[2026-10-05T16:06:04]       "type": "ACTU",
+[2026-10-05T16:06:04]       "title": "Lycées bloqués en France : des revendications scolaires, des violences, et un mouvement difficile à lire",
+[2026-10-05T16:06:04]       "wordpress_id": 5491,
+[2026-10-05T16:06:04]       "wordpress_url": "https://le-phare.info/?p=5491",
+[2026-10-05T16:06:04]       "updated_paths": [],
+[2026-10-05T16:06:04]       "status": "updated",
+[2026-10-05T16:06:04]       "error": ""
+[2026-10-05T16:06:04]     }
+[2026-10-05T16:06:04]   ],
+[2026-10-05T16:06:04]   "errors": []
+[2026-10-05T16:06:04] }
+[2026-10-05T16:41:18] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026
+[2026-10-05T16:41:18] Selected topic label: 2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026
+[2026-10-05T16:41:18] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:41:18] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:41:26] {
+[2026-10-05T16:41:26]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026\\2026-543_ACTU_TECH_etats_unis_super_intelligence_force_jay_clayton_octobre_2026_V1.md",
+[2026-10-05T16:41:26]   "article_id": "2026-543",
+[2026-10-05T16:41:26]   "title": "Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle",
+[2026-10-05T16:41:26]   "status": "draft",
+[2026-10-05T16:41:26]   "skipped": false,
+[2026-10-05T16:41:26]   "wordpress_id": 5493,
+[2026-10-05T16:41:26]   "wordpress_slug": "etats-unis-super-intelligence-force-jay-clayton-octobre-2026",
+[2026-10-05T16:41:26]   "wordpress_link": "https://le-phare.info/?p=5493",
+[2026-10-05T16:41:26]   "categories": [
+[2026-10-05T16:41:26]     "actualites"
+[2026-10-05T16:41:26]   ],
+[2026-10-05T16:41:26]   "tags": [
+[2026-10-05T16:41:26]     "technologie-ia",
+[2026-10-05T16:41:26]     "sentier-critique",
+[2026-10-05T16:41:26]     "posture-observer",
+[2026-10-05T16:41:26]     "type-actualite",
+[2026-10-05T16:41:26]     "question-du-phare",
+[2026-10-05T16:41:26]     "intelligence-artificielle",
+[2026-10-05T16:41:26]     "gouvernance-ia",
+[2026-10-05T16:41:26]     "etats-unis"
+[2026-10-05T16:41:26]   ],
+[2026-10-05T16:41:26]   "index_updated": true,
+[2026-10-05T16:41:26]   "error": "",
+[2026-10-05T16:41:26]   "featured_media_id": 2133
+[2026-10-05T16:41:26] }
+[2026-10-05T16:41:26] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:41:26] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:41:27] {
+[2026-10-05T16:41:27]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_etats-unis-super-intelligence-force-jay-clayton-octobre-2026",
+[2026-10-05T16:41:27]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:41:27]   "dry_run": false,
+[2026-10-05T16:41:27]   "total": 1,
+[2026-10-05T16:41:27]   "updated_local": 0,
+[2026-10-05T16:41:27]   "updated_wordpress": 1,
+[2026-10-05T16:41:27]   "items": [
+[2026-10-05T16:41:27]     {
+[2026-10-05T16:41:27]       "article_id": "2026-543",
+[2026-10-05T16:41:27]       "type": "ACTU",
+[2026-10-05T16:41:27]       "title": "Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle",
+[2026-10-05T16:41:27]       "wordpress_id": 5493,
+[2026-10-05T16:41:27]       "wordpress_url": "https://le-phare.info/?p=5493",
+[2026-10-05T16:41:27]       "updated_paths": [],
+[2026-10-05T16:41:27]       "status": "updated",
+[2026-10-05T16:41:27]       "error": ""
+[2026-10-05T16:41:27]     }
+[2026-10-05T16:41:27]   ],
+[2026-10-05T16:41:27]   "errors": []
+[2026-10-05T16:41:27] }
+[2026-10-05T16:41:27] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-autoregulation-securite-technologie
+[2026-10-05T16:41:27] Selected topic label: 2026-10-05_question-du-phare-autoregulation-securite-technologie
+[2026-10-05T16:41:27] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-autoregulation-securite-technologie --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:41:27] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:41:44] {
+[2026-10-05T16:41:44]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_question-du-phare-autoregulation-securite-technologie\\2026-544_ACTU_TECH_question_du_phare_autoregulation_securite_technologie_V1.md",
+[2026-10-05T16:41:44]   "article_id": "2026-544",
+[2026-10-05T16:41:44]   "title": "Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?",
+[2026-10-05T16:41:44]   "status": "draft",
+[2026-10-05T16:41:44]   "skipped": false,
+[2026-10-05T16:41:44]   "wordpress_id": 5495,
+[2026-10-05T16:41:44]   "wordpress_slug": "question-du-phare-autoregulation-securite-technologie",
+[2026-10-05T16:41:44]   "wordpress_link": "https://le-phare.info/?p=5495",
+[2026-10-05T16:41:44]   "categories": [
+[2026-10-05T16:41:44]     "actualites"
+[2026-10-05T16:41:44]   ],
+[2026-10-05T16:41:44]   "tags": [
+[2026-10-05T16:41:44]     "technologie-ia",
+[2026-10-05T16:41:44]     "sentier-critique",
+[2026-10-05T16:41:44]     "posture-comprendre",
+[2026-10-05T16:41:44]     "type-question",
+[2026-10-05T16:41:44]     "question-du-phare",
+[2026-10-05T16:41:44]     "autoregulation",
+[2026-10-05T16:41:44]     "conflit-d-interets",
+[2026-10-05T16:41:44]     "gouvernance-ia"
+[2026-10-05T16:41:44]   ],
+[2026-10-05T16:41:44]   "index_updated": true,
+[2026-10-05T16:41:44]   "error": "",
+[2026-10-05T16:41:44]   "featured_media_id": 2133
+[2026-10-05T16:41:44] }
+[2026-10-05T16:41:44] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-autoregulation-securite-technologie --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:41:44] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:41:45] {
+[2026-10-05T16:41:45]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_question-du-phare-autoregulation-securite-technologie",
+[2026-10-05T16:41:45]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:41:45]   "dry_run": false,
+[2026-10-05T16:41:45]   "total": 1,
+[2026-10-05T16:41:45]   "updated_local": 0,
+[2026-10-05T16:41:45]   "updated_wordpress": 1,
+[2026-10-05T16:41:45]   "items": [
+[2026-10-05T16:41:45]     {
+[2026-10-05T16:41:45]       "article_id": "2026-544",
+[2026-10-05T16:41:45]       "type": "ACTU",
+[2026-10-05T16:41:45]       "title": "Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?",
+[2026-10-05T16:41:45]       "wordpress_id": 5495,
+[2026-10-05T16:41:45]       "wordpress_url": "https://le-phare.info/?p=5495",
+[2026-10-05T16:41:45]       "updated_paths": [],
+[2026-10-05T16:41:45]       "status": "updated",
+[2026-10-05T16:41:45]       "error": ""
+[2026-10-05T16:41:45]     }
+[2026-10-05T16:41:45]   ],
+[2026-10-05T16:41:45]   "errors": []
+[2026-10-05T16:41:45] }
+[2026-10-05T16:58:30] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel
+[2026-10-05T16:58:30] Selected topic label: 2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel
+[2026-10-05T16:58:30] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:58:30] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:58:46] {
+[2026-10-05T16:58:46]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel\\2026-545_ACTU_CULTURE_philadelphie_academy_of_natural_sciences_fermeture_drexel_V1.md",
+[2026-10-05T16:58:46]   "article_id": "2026-545",
+[2026-10-05T16:58:46]   "title": "Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page",
+[2026-10-05T16:58:46]   "status": "draft",
+[2026-10-05T16:58:46]   "skipped": false,
+[2026-10-05T16:58:46]   "wordpress_id": 5498,
+[2026-10-05T16:58:46]   "wordpress_slug": "philadelphie-academy-of-natural-sciences-fermeture-drexel",
+[2026-10-05T16:58:46]   "wordpress_link": "https://le-phare.info/?p=5498",
+[2026-10-05T16:58:46]   "categories": [
+[2026-10-05T16:58:46]     "actualites"
+[2026-10-05T16:58:46]   ],
+[2026-10-05T16:58:46]   "tags": [
+[2026-10-05T16:58:46]     "culture-philosophie",
+[2026-10-05T16:58:46]     "sentier-science",
+[2026-10-05T16:58:46]     "posture-observer",
+[2026-10-05T16:58:46]     "type-actualite",
+[2026-10-05T16:58:46]     "question-du-phare",
+[2026-10-05T16:58:46]     "musees",
+[2026-10-05T16:58:46]     "patrimoine-scientifique",
+[2026-10-05T16:58:46]     "etats-unis"
+[2026-10-05T16:58:46]   ],
+[2026-10-05T16:58:46]   "index_updated": true,
+[2026-10-05T16:58:46]   "error": "",
+[2026-10-05T16:58:46]   "featured_media_id": 4738
+[2026-10-05T16:58:46] }
+[2026-10-05T16:58:46] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:58:46] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:58:46] {
+[2026-10-05T16:58:46]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_philadelphie-academy-of-natural-sciences-fermeture-drexel",
+[2026-10-05T16:58:46]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:58:46]   "dry_run": false,
+[2026-10-05T16:58:46]   "total": 1,
+[2026-10-05T16:58:46]   "updated_local": 0,
+[2026-10-05T16:58:46]   "updated_wordpress": 1,
+[2026-10-05T16:58:46]   "items": [
+[2026-10-05T16:58:46]     {
+[2026-10-05T16:58:46]       "article_id": "2026-545",
+[2026-10-05T16:58:46]       "type": "ACTU",
+[2026-10-05T16:58:46]       "title": "Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page",
+[2026-10-05T16:58:46]       "wordpress_id": 5498,
+[2026-10-05T16:58:46]       "wordpress_url": "https://le-phare.info/?p=5498",
+[2026-10-05T16:58:46]       "updated_paths": [],
+[2026-10-05T16:58:46]       "status": "updated",
+[2026-10-05T16:58:46]       "error": ""
+[2026-10-05T16:58:46]     }
+[2026-10-05T16:58:46]   ],
+[2026-10-05T16:58:46]   "errors": []
+[2026-10-05T16:58:46] }
+[2026-10-05T16:58:47] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-lieu-de-savoir-frequentation
+[2026-10-05T16:58:47] Selected topic label: 2026-10-05_question-du-phare-lieu-de-savoir-frequentation
+[2026-10-05T16:58:47] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-lieu-de-savoir-frequentation --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T16:58:47] --- WP-PUSH OUTPUT ---
+[2026-10-05T16:59:00] {
+[2026-10-05T16:59:00]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_question-du-phare-lieu-de-savoir-frequentation\\2026-546_ACTU_CULTURE_question_du_phare_lieu_de_savoir_frequentation_V1.md",
+[2026-10-05T16:59:00]   "article_id": "2026-546",
+[2026-10-05T16:59:00]   "title": "Un lieu de savoir doit-il être jugé à sa fréquentation ?",
+[2026-10-05T16:59:00]   "status": "draft",
+[2026-10-05T16:59:00]   "skipped": false,
+[2026-10-05T16:59:00]   "wordpress_id": 5500,
+[2026-10-05T16:59:00]   "wordpress_slug": "question-du-phare-lieu-de-savoir-frequentation",
+[2026-10-05T16:59:00]   "wordpress_link": "https://le-phare.info/?p=5500",
+[2026-10-05T16:59:00]   "categories": [
+[2026-10-05T16:59:00]     "actualites"
+[2026-10-05T16:59:00]   ],
+[2026-10-05T16:59:00]   "tags": [
+[2026-10-05T16:59:00]     "culture-philosophie",
+[2026-10-05T16:59:00]     "sentier-science",
+[2026-10-05T16:59:00]     "posture-comprendre",
+[2026-10-05T16:59:00]     "type-question",
+[2026-10-05T16:59:00]     "question-du-phare",
+[2026-10-05T16:59:00]     "musees",
+[2026-10-05T16:59:00]     "indicateurs",
+[2026-10-05T16:59:00]     "patrimoine-scientifique"
+[2026-10-05T16:59:00]   ],
+[2026-10-05T16:59:00]   "index_updated": true,
+[2026-10-05T16:59:00]   "error": "",
+[2026-10-05T16:59:00]   "featured_media_id": 4738
+[2026-10-05T16:59:00] }
+[2026-10-05T16:59:00] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_question-du-phare-lieu-de-savoir-frequentation --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T16:59:00] --- POST-LINKING OUTPUT ---
+[2026-10-05T16:59:01] {
+[2026-10-05T16:59:01]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_question-du-phare-lieu-de-savoir-frequentation",
+[2026-10-05T16:59:01]   "mode": "triptyque_linking_v2",
+[2026-10-05T16:59:01]   "dry_run": false,
+[2026-10-05T16:59:01]   "total": 1,
+[2026-10-05T16:59:01]   "updated_local": 0,
+[2026-10-05T16:59:01]   "updated_wordpress": 1,
+[2026-10-05T16:59:01]   "items": [
+[2026-10-05T16:59:01]     {
+[2026-10-05T16:59:01]       "article_id": "2026-546",
+[2026-10-05T16:59:01]       "type": "ACTU",
+[2026-10-05T16:59:01]       "title": "Un lieu de savoir doit-il être jugé à sa fréquentation ?",
+[2026-10-05T16:59:01]       "wordpress_id": 5500,
+[2026-10-05T16:59:01]       "wordpress_url": "https://le-phare.info/?p=5500",
+[2026-10-05T16:59:01]       "updated_paths": [],
+[2026-10-05T16:59:01]       "status": "updated",
+[2026-10-05T16:59:01]       "error": ""
+[2026-10-05T16:59:01]     }
+[2026-10-05T16:59:01]   ],
+[2026-10-05T16:59:01]   "errors": []
+[2026-10-05T16:59:01] }
+[2026-10-05T17:04:36] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_fil-du-phare-mesurer-ce-qui-compte
+[2026-10-05T17:04:36] Selected topic label: 2026-10-05_fil-du-phare-mesurer-ce-qui-compte
+[2026-10-05T17:04:36] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_fil-du-phare-mesurer-ce-qui-compte --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T17:04:36] --- WP-PUSH OUTPUT ---
+[2026-10-05T17:04:52] {
+[2026-10-05T17:04:52]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_fil-du-phare-mesurer-ce-qui-compte\\2026-547_SYNTHESE_CULTURE_fil_du_phare_mesurer_ce_qui_compte_V1.md",
+[2026-10-05T17:04:52]   "article_id": "2026-547",
+[2026-10-05T17:04:52]   "title": "Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?",
+[2026-10-05T17:04:52]   "status": "draft",
+[2026-10-05T17:04:52]   "skipped": false,
+[2026-10-05T17:04:52]   "wordpress_id": 5503,
+[2026-10-05T17:04:52]   "wordpress_slug": "fil-du-phare-mesurer-ce-qui-compte",
+[2026-10-05T17:04:52]   "wordpress_link": "https://le-phare.info/?p=5503",
+[2026-10-05T17:04:52]   "categories": [
+[2026-10-05T17:04:52]     "cycle"
+[2026-10-05T17:04:52]   ],
+[2026-10-05T17:04:52]   "tags": [
+[2026-10-05T17:04:52]     "culture-philosophie",
+[2026-10-05T17:04:52]     "posture-relier",
+[2026-10-05T17:04:52]     "fil-du-phare",
+[2026-10-05T17:04:52]     "question-du-phare",
+[2026-10-05T17:04:52]     "synthese-hebdomadaire",
+[2026-10-05T17:04:52]     "indicateurs",
+[2026-10-05T17:04:52]     "esprit-critique"
+[2026-10-05T17:04:52]   ],
+[2026-10-05T17:04:52]   "index_updated": true,
+[2026-10-05T17:04:52]   "error": "",
+[2026-10-05T17:04:52]   "featured_media_id": 4738
+[2026-10-05T17:04:52] }
+[2026-10-05T17:04:52] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_fil-du-phare-mesurer-ce-qui-compte --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T17:04:52] --- POST-LINKING OUTPUT ---
+[2026-10-05T17:04:53] {
+[2026-10-05T17:04:53]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_fil-du-phare-mesurer-ce-qui-compte",
+[2026-10-05T17:04:53]   "mode": "triptyque_linking_v2",
+[2026-10-05T17:04:53]   "dry_run": false,
+[2026-10-05T17:04:53]   "total": 1,
+[2026-10-05T17:04:53]   "updated_local": 0,
+[2026-10-05T17:04:53]   "updated_wordpress": 1,
+[2026-10-05T17:04:53]   "items": [
+[2026-10-05T17:04:53]     {
+[2026-10-05T17:04:53]       "article_id": "2026-547",
+[2026-10-05T17:04:53]       "type": "SYNTHESE",
+[2026-10-05T17:04:53]       "title": "Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?",
+[2026-10-05T17:04:53]       "wordpress_id": 5503,
+[2026-10-05T17:04:53]       "wordpress_url": "https://le-phare.info/?p=5503",
+[2026-10-05T17:04:53]       "updated_paths": [],
+[2026-10-05T17:04:53]       "status": "updated",
+[2026-10-05T17:04:53]       "error": ""
+[2026-10-05T17:04:53]     }
+[2026-10-05T17:04:53]   ],
+[2026-10-05T17:04:53]   "errors": []
+[2026-10-05T17:04:53] }
+[2026-10-05T17:20:38] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible
+[2026-10-05T17:20:38] Selected topic label: 2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible
+[2026-10-05T17:20:38] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-05T17:20:38] --- WP-PUSH OUTPUT ---
+[2026-10-05T17:20:53] {
+[2026-10-05T17:20:53]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible\\2026-548_TF_SCIENCE_campbell_goodhart_quand_une_mesure_devient_une_cible_V1.md",
+[2026-10-05T17:20:53]   "article_id": "2026-548",
+[2026-10-05T17:20:53]   "title": "Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer",
+[2026-10-05T17:20:53]   "status": "draft",
+[2026-10-05T17:20:53]   "skipped": false,
+[2026-10-05T17:20:53]   "wordpress_id": 5505,
+[2026-10-05T17:20:53]   "wordpress_slug": "campbell-goodhart-quand-une-mesure-devient-une-cible",
+[2026-10-05T17:20:53]   "wordpress_link": "https://le-phare.info/?p=5505",
+[2026-10-05T17:20:53]   "categories": [
+[2026-10-05T17:20:53]     "textes-fondateurs"
+[2026-10-05T17:20:53]   ],
+[2026-10-05T17:20:53]   "tags": [
+[2026-10-05T17:20:53]     "science-sante",
+[2026-10-05T17:20:53]     "sentier-critique",
+[2026-10-05T17:20:53]     "posture-comprendre",
+[2026-10-05T17:20:53]     "type-texte-fondateur",
+[2026-10-05T17:20:53]     "indicateurs",
+[2026-10-05T17:20:53]     "evaluation"
+[2026-10-05T17:20:53]   ],
+[2026-10-05T17:20:53]   "index_updated": true,
+[2026-10-05T17:20:53]   "error": "",
+[2026-10-05T17:20:53]   "featured_media_id": 2060
+[2026-10-05T17:20:53] }
+[2026-10-05T17:20:53] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-05T17:20:53] --- POST-LINKING OUTPUT ---
+[2026-10-05T17:20:54] {
+[2026-10-05T17:20:54]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible",
+[2026-10-05T17:20:54]   "mode": "triptyque_linking_v2",
+[2026-10-05T17:20:54]   "dry_run": false,
+[2026-10-05T17:20:54]   "total": 1,
+[2026-10-05T17:20:54]   "updated_local": 0,
+[2026-10-05T17:20:54]   "updated_wordpress": 1,
+[2026-10-05T17:20:54]   "items": [
+[2026-10-05T17:20:54]     {
+[2026-10-05T17:20:54]       "article_id": "2026-548",
+[2026-10-05T17:20:54]       "type": "TF",
+[2026-10-05T17:20:54]       "title": "Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer",
+[2026-10-05T17:20:54]       "wordpress_id": 5505,
+[2026-10-05T17:20:54]       "wordpress_url": "https://le-phare.info/?p=5505",
+[2026-10-05T17:20:54]       "updated_paths": [],
+[2026-10-05T17:20:54]       "status": "updated",
+[2026-10-05T17:20:54]       "error": ""
+[2026-10-05T17:20:54]     }
+[2026-10-05T17:20:54]   ],
+[2026-10-05T17:20:54]   "errors": []
+[2026-10-05T17:20:54] }

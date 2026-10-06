@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-06",
+  "status": "success",
+  "topic": "_sync_featured_sci_amr",
+  "theme": "",
+  "source": "agent_written",
+  "source_link": "",
+  "publish_drafts": true,
+  "publish_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\_sync_featured_sci_amr",
+  "stdout": "{\n  \"source\": \"D:\\\\workspaces\\\\LePhare_Editorial\\\\07_A_Publier\\\\_sync_featured_sci_amr\",\n  \"total\": 3,\n  \"created\": 0,\n  \"skipped\": 0,\n  \"failed\": 0,\n  \"items\": [\n    {\n      \"path\": \"D:\\\\workspaces\\\\LePhare_Editorial\\\\07_A_Publier\\\\_sync_featured_sci_amr\\\\2026-448_ACTU_SCIENCE_resistance_aux_antimicrobiens_l_europe_entre_alerte_et_usages_V1.md\",\n      \"article_id\": \"2026-448\",\n      \"title\": \"Résistance aux antimicrobiens : l’Europe entre nouvelles alertes et usages encore trop irrationnels\",\n      \"status\": \"publish\",\n      \"wordpress_id\": 4147,\n      \"slug\": \"resistance-antimicrobiens-europe-usages-2026\",\n      \"link\": \"https://le-phare.info/resistance-antimicrobiens-europe-usages-2026/\",\n      \"categories\": [\n        \"actualites\"\n      ],\n      \"tags\": [\n        \"science-sante\",\n        \"sentier-science\",\n        \"resistance-antimicrobienne\",\n        \"surveillance-sante\",\n        \"triptyque\"\n      ],\n      \"index_updated\": false,\n      \"featured_media\": 2060,\n      \"error\": \"\"\n    },\n    {\n      \"path\": \"D:\\\\workspaces\\\\LePhare_Editorial\\\\07_A_Publier\\\\_sync_featured_sci_amr\\\\2026-449_TF_SCIENCE_alexandre_fleming_et_la_lecon_du_discours_nobel_sur_la_penicilline_V1.md\",\n      \"article_id\": \"2026-449\",\n      \"title\": \"Alexandre Fleming et la leçon du discours Nobel sur la pénicilline\",\n      \"status\": \"publish\",\n      \"wordpress_id\": 4148,\n      \"slug\": \"fleming-discours-nobel-penicilline-prudence\",\n      \"link\": \"https://le-phare.info/fleming-discours-nobel-penicilline-prudence/\",\n      \"categories\": [\n        \"textes-fondateurs\"\n      ],\n      \"tags\": [\n        \"science-sante\",\n        \"sentier-science\",\n        \"alexandre-fleming\",\n        \"sante-publique\",\n        \"triptyque\"\n      ],\n      \"index_updated\": false,\n      \"featured_media\": 2060,\n      \"error\": \"\"\n    },\n    {\n      \"path\": \"D:\\\\workspaces\\\\LePhare_Editorial\\\\07_A_Publier\\\\_sync_featured_sci_amr\\\\2026-450_SENTIER_SCIENCE_lire_une_annonce_medicale_sans_confondre_individu_et_population_V1.md\",\n      \"article_id\": \"2026-450\",\n      \"title\": \"Lire une annonce médicale sans confondre individu et population\",\n      \"status\": \"publish\",\n      \"wordpress_id\": 4149,\n      \"slug\": \"lire-annonce-medicale-population-individu\",\n      \"link\": \"https://le-phare.info/lire-annonce-medicale-population-individu/\",\n      \"categories\": [\n        \"sentier-du-savoir\"\n      ],\n      \"tags\": [\n        \"science-sante\",\n        \"sentier-science\",\n        \"pensee-critique\",\n        \"essais-cliniques\",\n        \"posture-comprendre\",\n        \"triptyque\"\n      ],\n      \"index_updated\": false,\n      \"featured_media\": 2060,\n      \"error\": \"\"\n    }\n  ]\n}\n",
+  "stderr": "",
+  "linking_stdout": "",
+  "linking_stderr": "",
+  "returncode": 0,
+  "workflow": "publish_existing",
+  "completed_at": "2026-05-06T09:25:38"
+}

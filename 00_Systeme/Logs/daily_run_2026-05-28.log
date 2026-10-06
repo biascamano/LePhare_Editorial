@@ -1,0 +1,135 @@
+[2026-05-28T09:08:02] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-28_sanctions-maritimes-hirschman_triptyque
+[2026-05-28T09:08:02] Selected topic label: 2026-05-28_sanctions-maritimes-hirschman_triptyque
+[2026-05-28T09:08:02] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-28_sanctions-maritimes-hirschman_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-28T09:08:02] --- WP-PUSH OUTPUT ---
+[2026-05-28T09:08:40] {
+[2026-05-28T09:08:40]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque",
+[2026-05-28T09:08:40]   "total": 3,
+[2026-05-28T09:08:40]   "created": 3,
+[2026-05-28T09:08:40]   "skipped": 0,
+[2026-05-28T09:08:40]   "failed": 0,
+[2026-05-28T09:08:40]   "items": [
+[2026-05-28T09:08:40]     {
+[2026-05-28T09:08:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-487_ACTU_ECON_licences_britanniques_petrole_russe_entre_sanctions_et_dependances_maritimes_V1.md",
+[2026-05-28T09:08:40]       "article_id": "2026-487",
+[2026-05-28T09:08:40]       "title": "Licences britanniques et pétrole russe : l'Europe durcit le ton, mais la chaîne maritime reste dépendante",
+[2026-05-28T09:08:40]       "status": "draft",
+[2026-05-28T09:08:40]       "wordpress_id": 4599,
+[2026-05-28T09:08:40]       "slug": "licences-britanniques-petrole-russe-entre-sanctions-et-dependances-maritimes",
+[2026-05-28T09:08:40]       "link": "https://le-phare.info/?p=4599",
+[2026-05-28T09:08:40]       "categories": [
+[2026-05-28T09:08:40]         "actualites"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "tags": [
+[2026-05-28T09:08:40]         "economie",
+[2026-05-28T09:08:40]         "sanctions",
+[2026-05-28T09:08:40]         "petrole",
+[2026-05-28T09:08:40]         "commerce-maritime",
+[2026-05-28T09:08:40]         "posture-argumenter",
+[2026-05-28T09:08:40]         "triptyque"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "index_updated": true,
+[2026-05-28T09:08:40]       "featured_media": null,
+[2026-05-28T09:08:40]       "error": ""
+[2026-05-28T09:08:40]     },
+[2026-05-28T09:08:40]     {
+[2026-05-28T09:08:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-488_TF_ECON_albert_hirschman_commerce_dependance_et_pouvoir_de_contrainte_V1.md",
+[2026-05-28T09:08:40]       "article_id": "2026-488",
+[2026-05-28T09:08:40]       "title": "Albert Hirschman : commerce, dépendance et pouvoir de contrainte",
+[2026-05-28T09:08:40]       "status": "draft",
+[2026-05-28T09:08:40]       "wordpress_id": 4600,
+[2026-05-28T09:08:40]       "slug": "albert-hirschman-commerce-dependance-et-pouvoir-de-contrainte",
+[2026-05-28T09:08:40]       "link": "https://le-phare.info/?p=4600",
+[2026-05-28T09:08:40]       "categories": [
+[2026-05-28T09:08:40]         "textes-fondateurs"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "tags": [
+[2026-05-28T09:08:40]         "economie",
+[2026-05-28T09:08:40]         "commerce-international",
+[2026-05-28T09:08:40]         "albert-hirschman",
+[2026-05-28T09:08:40]         "sanctions",
+[2026-05-28T09:08:40]         "triptyque"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "index_updated": true,
+[2026-05-28T09:08:40]       "featured_media": null,
+[2026-05-28T09:08:40]       "error": ""
+[2026-05-28T09:08:40]     },
+[2026-05-28T09:08:40]     {
+[2026-05-28T09:08:40]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-489_SENTIER_ECON_argumenter_sanctions_maritimes_sans_simplifier_le_reel_V1.md",
+[2026-05-28T09:08:40]       "article_id": "2026-489",
+[2026-05-28T09:08:40]       "title": "Argumenter sur des sanctions maritimes sans simplifier le réel",
+[2026-05-28T09:08:40]       "status": "draft",
+[2026-05-28T09:08:40]       "wordpress_id": 4601,
+[2026-05-28T09:08:40]       "slug": "argumenter-sanctions-maritimes-sans-simplifier-le-reel",
+[2026-05-28T09:08:40]       "link": "https://le-phare.info/?p=4601",
+[2026-05-28T09:08:40]       "categories": [
+[2026-05-28T09:08:40]         "sentier-du-savoir"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "tags": [
+[2026-05-28T09:08:40]         "economie",
+[2026-05-28T09:08:40]         "sentier-argumentation",
+[2026-05-28T09:08:40]         "atelier-sentier",
+[2026-05-28T09:08:40]         "fondamental-2026-182",
+[2026-05-28T09:08:40]         "sanctions",
+[2026-05-28T09:08:40]         "triptyque"
+[2026-05-28T09:08:40]       ],
+[2026-05-28T09:08:40]       "index_updated": true,
+[2026-05-28T09:08:40]       "featured_media": null,
+[2026-05-28T09:08:40]       "error": ""
+[2026-05-28T09:08:40]     }
+[2026-05-28T09:08:40]   ]
+[2026-05-28T09:08:40] }
+[2026-05-28T09:08:40] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-28_sanctions-maritimes-hirschman_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-28T09:08:40] --- POST-LINKING OUTPUT ---
+[2026-05-28T09:08:43] {
+[2026-05-28T09:08:43]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque",
+[2026-05-28T09:08:43]   "mode": "triptyque_linking_v2",
+[2026-05-28T09:08:43]   "dry_run": false,
+[2026-05-28T09:08:43]   "total": 3,
+[2026-05-28T09:08:43]   "updated_local": 3,
+[2026-05-28T09:08:43]   "updated_wordpress": 3,
+[2026-05-28T09:08:43]   "items": [
+[2026-05-28T09:08:43]     {
+[2026-05-28T09:08:43]       "article_id": "2026-487",
+[2026-05-28T09:08:43]       "type": "ACTU",
+[2026-05-28T09:08:43]       "title": "Licences britanniques et pétrole russe : l'Europe durcit le ton, mais la chaîne maritime reste dépendante",
+[2026-05-28T09:08:43]       "wordpress_id": 4599,
+[2026-05-28T09:08:43]       "wordpress_url": "https://le-phare.info/?p=4599",
+[2026-05-28T09:08:43]       "updated_paths": [
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-487_ACTU_ECON_licences_britanniques_petrole_russe_entre_sanctions_et_dependances_maritimes_V1.md",
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-487_ACTU_ECON_licences_britanniques_petrole_russe_entre_sanctions_et_dependances_maritimes_V1.md"
+[2026-05-28T09:08:43]       ],
+[2026-05-28T09:08:43]       "status": "updated",
+[2026-05-28T09:08:43]       "error": ""
+[2026-05-28T09:08:43]     },
+[2026-05-28T09:08:43]     {
+[2026-05-28T09:08:43]       "article_id": "2026-488",
+[2026-05-28T09:08:43]       "type": "TF",
+[2026-05-28T09:08:43]       "title": "Albert Hirschman : commerce, dépendance et pouvoir de contrainte",
+[2026-05-28T09:08:43]       "wordpress_id": 4600,
+[2026-05-28T09:08:43]       "wordpress_url": "https://le-phare.info/?p=4600",
+[2026-05-28T09:08:43]       "updated_paths": [
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-488_TF_ECON_albert_hirschman_commerce_dependance_et_pouvoir_de_contrainte_V1.md",
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-488_TF_ECON_albert_hirschman_commerce_dependance_et_pouvoir_de_contrainte_V1.md"
+[2026-05-28T09:08:43]       ],
+[2026-05-28T09:08:43]       "status": "updated",
+[2026-05-28T09:08:43]       "error": ""
+[2026-05-28T09:08:43]     },
+[2026-05-28T09:08:43]     {
+[2026-05-28T09:08:43]       "article_id": "2026-489",
+[2026-05-28T09:08:43]       "type": "SENTIER",
+[2026-05-28T09:08:43]       "title": "Argumenter sur des sanctions maritimes sans simplifier le réel",
+[2026-05-28T09:08:43]       "wordpress_id": 4601,
+[2026-05-28T09:08:43]       "wordpress_url": "https://le-phare.info/?p=4601",
+[2026-05-28T09:08:43]       "updated_paths": [
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-28_sanctions-maritimes-hirschman_triptyque\\2026-489_SENTIER_ECON_argumenter_sanctions_maritimes_sans_simplifier_le_reel_V1.md",
+[2026-05-28T09:08:43]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_03_Argumentation\\2026-489_SENTIER_ECON_argumenter_sanctions_maritimes_sans_simplifier_le_reel_V1.md"
+[2026-05-28T09:08:43]       ],
+[2026-05-28T09:08:43]       "status": "updated",
+[2026-05-28T09:08:43]       "error": ""
+[2026-05-28T09:08:43]     }
+[2026-05-28T09:08:43]   ],
+[2026-05-28T09:08:43]   "errors": []
+[2026-05-28T09:08:43] }
+[2026-05-28T09:08:43] [V2] Rappel fondamental parent : fondamental-2026-182 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-05-28T09:08:43] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-28_sanctions-maritimes-hirschman_triptyque

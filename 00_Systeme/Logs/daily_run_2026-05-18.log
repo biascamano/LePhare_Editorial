@@ -1,0 +1,137 @@
+[2026-05-18T07:32:13] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-18_digital-omnibus-ai-act_triptyque
+[2026-05-18T07:32:13] Selected topic label: 2026-05-18_digital-omnibus-ai-act_triptyque
+[2026-05-18T07:32:13] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-18_digital-omnibus-ai-act_triptyque --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-18T07:32:13] --- WP-PUSH OUTPUT ---
+[2026-05-18T07:32:33] {
+[2026-05-18T07:32:33]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque",
+[2026-05-18T07:32:33]   "total": 3,
+[2026-05-18T07:32:33]   "created": 3,
+[2026-05-18T07:32:33]   "skipped": 0,
+[2026-05-18T07:32:33]   "failed": 0,
+[2026-05-18T07:32:33]   "items": [
+[2026-05-18T07:32:33]     {
+[2026-05-18T07:32:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-463_ACTU_TECH_digital_omnibus_ai_act_calendriers_et_allegements_mai_2026_V1.md",
+[2026-05-18T07:32:33]       "article_id": "2026-463",
+[2026-05-18T07:32:33]       "title": "Digital Omnibus : l'Europe recale l'AI Act sans l'abandonner — ce qui change en mai 2026",
+[2026-05-18T07:32:33]       "status": "draft",
+[2026-05-18T07:32:33]       "wordpress_id": 4195,
+[2026-05-18T07:32:33]       "slug": "digital-omnibus-ai-act-europe-mai-2026",
+[2026-05-18T07:32:33]       "link": "https://le-phare.info/?p=4195",
+[2026-05-18T07:32:33]       "categories": [
+[2026-05-18T07:32:33]         "actualites"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "tags": [
+[2026-05-18T07:32:33]         "technologie-ia",
+[2026-05-18T07:32:33]         "sentier-critique",
+[2026-05-18T07:32:33]         "ai-act",
+[2026-05-18T07:32:33]         "digital-omnibus",
+[2026-05-18T07:32:33]         "regulation-ia",
+[2026-05-18T07:32:33]         "posture-observer",
+[2026-05-18T07:32:33]         "triptyque"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "index_updated": true,
+[2026-05-18T07:32:33]       "featured_media": 2133,
+[2026-05-18T07:32:33]       "error": ""
+[2026-05-18T07:32:33]     },
+[2026-05-18T07:32:33]     {
+[2026-05-18T07:32:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-464_TF_TECH_langdon_winner_do_artifacts_have_politics_regulation_ia_V1.md",
+[2026-05-18T07:32:33]       "article_id": "2026-464",
+[2026-05-18T07:32:33]       "title": "Langdon Winner : les artefacts ont-ils une politique ? — lire l'AI Act autrement",
+[2026-05-18T07:32:33]       "status": "draft",
+[2026-05-18T07:32:33]       "wordpress_id": 4196,
+[2026-05-18T07:32:33]       "slug": "langdon-winner-artefacts-politique-regulation-ia",
+[2026-05-18T07:32:33]       "link": "https://le-phare.info/?p=4196",
+[2026-05-18T07:32:33]       "categories": [
+[2026-05-18T07:32:33]         "textes-fondateurs"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "tags": [
+[2026-05-18T07:32:33]         "technologie-ia",
+[2026-05-18T07:32:33]         "sentier-approfondissement",
+[2026-05-18T07:32:33]         "langdon-winner",
+[2026-05-18T07:32:33]         "philosophie-technique",
+[2026-05-18T07:32:33]         "ai-act",
+[2026-05-18T07:32:33]         "triptyque"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "index_updated": true,
+[2026-05-18T07:32:33]       "featured_media": 2133,
+[2026-05-18T07:32:33]       "error": ""
+[2026-05-18T07:32:33]     },
+[2026-05-18T07:32:33]     {
+[2026-05-18T07:32:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-465_SENTIER_TECH_lire_annonce_regulation_ia_sans_confondre_delai_portee_et_abandon_V1.md",
+[2026-05-18T07:32:33]       "article_id": "2026-465",
+[2026-05-18T07:32:33]       "title": "Lire une annonce « IA réglementée » sans confondre délai, portée et abandon",
+[2026-05-18T07:32:33]       "status": "draft",
+[2026-05-18T07:32:33]       "wordpress_id": 4197,
+[2026-05-18T07:32:33]       "slug": "lire-annonce-regulation-ia-delai-portee",
+[2026-05-18T07:32:33]       "link": "https://le-phare.info/?p=4197",
+[2026-05-18T07:32:33]       "categories": [
+[2026-05-18T07:32:33]         "sentier-du-savoir"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "tags": [
+[2026-05-18T07:32:33]         "technologie-ia",
+[2026-05-18T07:32:33]         "sentier-critique",
+[2026-05-18T07:32:33]         "pensee-critique",
+[2026-05-18T07:32:33]         "ai-act",
+[2026-05-18T07:32:33]         "regulation-ia",
+[2026-05-18T07:32:33]         "posture-distance",
+[2026-05-18T07:32:33]         "triptyque"
+[2026-05-18T07:32:33]       ],
+[2026-05-18T07:32:33]       "index_updated": true,
+[2026-05-18T07:32:33]       "featured_media": 2133,
+[2026-05-18T07:32:33]       "error": ""
+[2026-05-18T07:32:33]     }
+[2026-05-18T07:32:33]   ]
+[2026-05-18T07:32:33] }
+[2026-05-18T07:32:33] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-18_digital-omnibus-ai-act_triptyque --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-18T07:32:33] --- POST-LINKING OUTPUT ---
+[2026-05-18T07:32:36] {
+[2026-05-18T07:32:36]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque",
+[2026-05-18T07:32:36]   "mode": "triptyque_linking_v2",
+[2026-05-18T07:32:36]   "dry_run": false,
+[2026-05-18T07:32:36]   "total": 3,
+[2026-05-18T07:32:36]   "updated_local": 3,
+[2026-05-18T07:32:36]   "updated_wordpress": 3,
+[2026-05-18T07:32:36]   "items": [
+[2026-05-18T07:32:36]     {
+[2026-05-18T07:32:36]       "article_id": "2026-463",
+[2026-05-18T07:32:36]       "type": "ACTU",
+[2026-05-18T07:32:36]       "title": "Digital Omnibus : l'Europe recale l'AI Act sans l'abandonner — ce qui change en mai 2026",
+[2026-05-18T07:32:36]       "wordpress_id": 4195,
+[2026-05-18T07:32:36]       "wordpress_url": "https://le-phare.info/?p=4195",
+[2026-05-18T07:32:36]       "updated_paths": [
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-463_ACTU_TECH_digital_omnibus_ai_act_calendriers_et_allegements_mai_2026_V1.md",
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-463_ACTU_TECH_digital_omnibus_ai_act_calendriers_et_allegements_mai_2026_V1.md"
+[2026-05-18T07:32:36]       ],
+[2026-05-18T07:32:36]       "status": "updated",
+[2026-05-18T07:32:36]       "error": ""
+[2026-05-18T07:32:36]     },
+[2026-05-18T07:32:36]     {
+[2026-05-18T07:32:36]       "article_id": "2026-464",
+[2026-05-18T07:32:36]       "type": "TF",
+[2026-05-18T07:32:36]       "title": "Langdon Winner : les artefacts ont-ils une politique ? — lire l'AI Act autrement",
+[2026-05-18T07:32:36]       "wordpress_id": 4196,
+[2026-05-18T07:32:36]       "wordpress_url": "https://le-phare.info/?p=4196",
+[2026-05-18T07:32:36]       "updated_paths": [
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-464_TF_TECH_langdon_winner_do_artifacts_have_politics_regulation_ia_V1.md",
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-464_TF_TECH_langdon_winner_do_artifacts_have_politics_regulation_ia_V1.md"
+[2026-05-18T07:32:36]       ],
+[2026-05-18T07:32:36]       "status": "updated",
+[2026-05-18T07:32:36]       "error": ""
+[2026-05-18T07:32:36]     },
+[2026-05-18T07:32:36]     {
+[2026-05-18T07:32:36]       "article_id": "2026-465",
+[2026-05-18T07:32:36]       "type": "SENTIER",
+[2026-05-18T07:32:36]       "title": "Lire une annonce « IA réglementée » sans confondre délai, portée et abandon",
+[2026-05-18T07:32:36]       "wordpress_id": 4197,
+[2026-05-18T07:32:36]       "wordpress_url": "https://le-phare.info/?p=4197",
+[2026-05-18T07:32:36]       "updated_paths": [
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-18_digital-omnibus-ai-act_triptyque\\2026-465_SENTIER_TECH_lire_annonce_regulation_ia_sans_confondre_delai_portee_et_abandon_V1.md",
+[2026-05-18T07:32:36]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Critique_Analyse\\2026-465_SENTIER_TECH_lire_annonce_regulation_ia_sans_confondre_delai_portee_et_abandon_V1.md"
+[2026-05-18T07:32:36]       ],
+[2026-05-18T07:32:36]       "status": "updated",
+[2026-05-18T07:32:36]       "error": ""
+[2026-05-18T07:32:36]     }
+[2026-05-18T07:32:36]   ],
+[2026-05-18T07:32:36]   "errors": []
+[2026-05-18T07:32:36] }
+[2026-05-18T07:32:36] Staging folder removed: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-18_digital-omnibus-ai-act_triptyque

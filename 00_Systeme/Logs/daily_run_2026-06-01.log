@@ -1,0 +1,138 @@
+[2026-06-01T07:44:13] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-01_gpai-code-collingridge_triptyque
+[2026-06-01T07:44:13] Selected topic label: 2026-06-01_gpai-code-collingridge_triptyque
+[2026-06-01T07:44:13] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-01_gpai-code-collingridge_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-01T07:44:13] --- WP-PUSH OUTPUT ---
+[2026-06-01T07:44:47] {
+[2026-06-01T07:44:47]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque",
+[2026-06-01T07:44:47]   "total": 3,
+[2026-06-01T07:44:47]   "created": 3,
+[2026-06-01T07:44:47]   "skipped": 0,
+[2026-06-01T07:44:47]   "failed": 0,
+[2026-06-01T07:44:47]   "items": [
+[2026-06-01T07:44:47]     {
+[2026-06-01T07:44:47]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-493_ACTU_TECH_code_practice_gpai_europe_compte_a_rebours_2_aout_2026_V1.md",
+[2026-06-01T07:44:47]       "article_id": "2026-493",
+[2026-06-01T07:44:47]       "title": "Code of Practice GPAI : l'Europe entre signature volontaire et compte à rebours du 2 août 2026",
+[2026-06-01T07:44:47]       "status": "draft",
+[2026-06-01T07:44:47]       "wordpress_id": 4624,
+[2026-06-01T07:44:47]       "slug": "code-practice-gpai-europe-compte-a-rebours-2-aout-2026",
+[2026-06-01T07:44:47]       "link": "https://le-phare.info/?p=4624",
+[2026-06-01T07:44:47]       "categories": [
+[2026-06-01T07:44:47]         "actualites"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "tags": [
+[2026-06-01T07:44:47]         "technologie-ia",
+[2026-06-01T07:44:47]         "sentier-science",
+[2026-06-01T07:44:47]         "ai-act",
+[2026-06-01T07:44:47]         "gpai",
+[2026-06-01T07:44:47]         "code-of-practice",
+[2026-06-01T07:44:47]         "posture-observer",
+[2026-06-01T07:44:47]         "triptyque"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "index_updated": true,
+[2026-06-01T07:44:47]       "featured_media": 2133,
+[2026-06-01T07:44:47]       "error": ""
+[2026-06-01T07:44:47]     },
+[2026-06-01T07:44:47]     {
+[2026-06-01T07:44:47]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-494_TF_TECH_david_collingridge_dilemme_regulation_gpai_code_practice_V1.md",
+[2026-06-01T07:44:47]       "article_id": "2026-494",
+[2026-06-01T07:44:47]       "title": "David Collingridge : réguler tôt ou tard — le dilemme du Code GPAI",
+[2026-06-01T07:44:47]       "status": "draft",
+[2026-06-01T07:44:47]       "wordpress_id": 4625,
+[2026-06-01T07:44:47]       "slug": "david-collingridge-dilemme-regulation-gpai-code-practice",
+[2026-06-01T07:44:47]       "link": "https://le-phare.info/?p=4625",
+[2026-06-01T07:44:47]       "categories": [
+[2026-06-01T07:44:47]         "textes-fondateurs"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "tags": [
+[2026-06-01T07:44:47]         "technologie-ia",
+[2026-06-01T07:44:47]         "sentier-science",
+[2026-06-01T07:44:47]         "david-collingridge",
+[2026-06-01T07:44:47]         "regulation-technologique",
+[2026-06-01T07:44:47]         "triptyque"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "index_updated": true,
+[2026-06-01T07:44:47]       "featured_media": 2133,
+[2026-06-01T07:44:47]       "error": ""
+[2026-06-01T07:44:47]     },
+[2026-06-01T07:44:47]     {
+[2026-06-01T07:44:47]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-495_SENTIER_TECH_tester_preuves_dossier_gpai_methode_six_etapes_V1.md",
+[2026-06-01T07:44:47]       "article_id": "2026-495",
+[2026-06-01T07:44:47]       "title": "Tester les preuves d'un dossier GPAI : méthode en six étapes",
+[2026-06-01T07:44:47]       "status": "draft",
+[2026-06-01T07:44:47]       "wordpress_id": 4626,
+[2026-06-01T07:44:47]       "slug": "tester-preuves-dossier-gpai-methode-six-etapes",
+[2026-06-01T07:44:47]       "link": "https://le-phare.info/?p=4626",
+[2026-06-01T07:44:47]       "categories": [
+[2026-06-01T07:44:47]         "sentier-du-savoir"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "tags": [
+[2026-06-01T07:44:47]         "technologie-ia",
+[2026-06-01T07:44:47]         "sentier-science",
+[2026-06-01T07:44:47]         "gpai",
+[2026-06-01T07:44:47]         "code-of-practice",
+[2026-06-01T07:44:47]         "atelier-sentier",
+[2026-06-01T07:44:47]         "fondamental-2026-157",
+[2026-06-01T07:44:47]         "posture-comprendre",
+[2026-06-01T07:44:47]         "triptyque"
+[2026-06-01T07:44:47]       ],
+[2026-06-01T07:44:47]       "index_updated": true,
+[2026-06-01T07:44:47]       "featured_media": 2133,
+[2026-06-01T07:44:47]       "error": ""
+[2026-06-01T07:44:47]     }
+[2026-06-01T07:44:47]   ]
+[2026-06-01T07:44:47] }
+[2026-06-01T07:44:47] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-01_gpai-code-collingridge_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-01T07:44:47] --- POST-LINKING OUTPUT ---
+[2026-06-01T07:44:51] {
+[2026-06-01T07:44:51]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque",
+[2026-06-01T07:44:51]   "mode": "triptyque_linking_v2",
+[2026-06-01T07:44:51]   "dry_run": false,
+[2026-06-01T07:44:51]   "total": 3,
+[2026-06-01T07:44:51]   "updated_local": 3,
+[2026-06-01T07:44:51]   "updated_wordpress": 3,
+[2026-06-01T07:44:51]   "items": [
+[2026-06-01T07:44:51]     {
+[2026-06-01T07:44:51]       "article_id": "2026-493",
+[2026-06-01T07:44:51]       "type": "ACTU",
+[2026-06-01T07:44:51]       "title": "Code of Practice GPAI : l'Europe entre signature volontaire et compte à rebours du 2 août 2026",
+[2026-06-01T07:44:51]       "wordpress_id": 4624,
+[2026-06-01T07:44:51]       "wordpress_url": "https://le-phare.info/?p=4624",
+[2026-06-01T07:44:51]       "updated_paths": [
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-493_ACTU_TECH_code_practice_gpai_europe_compte_a_rebours_2_aout_2026_V1.md",
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-493_ACTU_TECH_code_practice_gpai_europe_compte_a_rebours_2_aout_2026_V1.md"
+[2026-06-01T07:44:51]       ],
+[2026-06-01T07:44:51]       "status": "updated",
+[2026-06-01T07:44:51]       "error": ""
+[2026-06-01T07:44:51]     },
+[2026-06-01T07:44:51]     {
+[2026-06-01T07:44:51]       "article_id": "2026-494",
+[2026-06-01T07:44:51]       "type": "TF",
+[2026-06-01T07:44:51]       "title": "David Collingridge : réguler tôt ou tard — le dilemme du Code GPAI",
+[2026-06-01T07:44:51]       "wordpress_id": 4625,
+[2026-06-01T07:44:51]       "wordpress_url": "https://le-phare.info/?p=4625",
+[2026-06-01T07:44:51]       "updated_paths": [
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-494_TF_TECH_david_collingridge_dilemme_regulation_gpai_code_practice_V1.md",
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-494_TF_TECH_david_collingridge_dilemme_regulation_gpai_code_practice_V1.md"
+[2026-06-01T07:44:51]       ],
+[2026-06-01T07:44:51]       "status": "updated",
+[2026-06-01T07:44:51]       "error": ""
+[2026-06-01T07:44:51]     },
+[2026-06-01T07:44:51]     {
+[2026-06-01T07:44:51]       "article_id": "2026-495",
+[2026-06-01T07:44:51]       "type": "SENTIER",
+[2026-06-01T07:44:51]       "title": "Tester les preuves d'un dossier GPAI : méthode en six étapes",
+[2026-06-01T07:44:51]       "wordpress_id": 4626,
+[2026-06-01T07:44:51]       "wordpress_url": "https://le-phare.info/?p=4626",
+[2026-06-01T07:44:51]       "updated_paths": [
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-01_gpai-code-collingridge_triptyque\\2026-495_SENTIER_TECH_tester_preuves_dossier_gpai_methode_six_etapes_V1.md",
+[2026-06-01T07:44:51]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_06_Methode_scientifique\\2026-495_SENTIER_TECH_tester_preuves_dossier_gpai_methode_six_etapes_V1.md"
+[2026-06-01T07:44:51]       ],
+[2026-06-01T07:44:51]       "status": "updated",
+[2026-06-01T07:44:51]       "error": ""
+[2026-06-01T07:44:51]     }
+[2026-06-01T07:44:51]   ],
+[2026-06-01T07:44:51]   "errors": []
+[2026-06-01T07:44:51] }
+[2026-06-01T07:44:51] [V2] Rappel fondamental parent : fondamental-2026-157 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-01T07:44:51] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-01_gpai-code-collingridge_triptyque

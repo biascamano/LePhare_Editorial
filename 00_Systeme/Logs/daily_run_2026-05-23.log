@@ -1,0 +1,196 @@
+[2026-05-23T15:29:23] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque
+[2026-05-23T15:29:23] Selected topic label: 2026-05-23_sanctions-petrole-russe-strange_triptyque
+[2026-05-23T15:29:23] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-23T15:29:23] --- WP-PUSH OUTPUT ---
+[2026-05-23T15:29:23] {
+[2026-05-23T15:29:23]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque",
+[2026-05-23T15:29:23]   "total": 3,
+[2026-05-23T15:29:23]   "created": 0,
+[2026-05-23T15:29:23]   "skipped": 0,
+[2026-05-23T15:29:23]   "failed": 3,
+[2026-05-23T15:29:23]   "items": [
+[2026-05-23T15:29:23]     {
+[2026-05-23T15:29:23]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-478_ACTU_ECON_licences_britanniques_petrole_russe_ue_ligne_ferme_mai_2026_V1.md",
+[2026-05-23T15:29:23]       "article_id": "",
+[2026-05-23T15:29:23]       "title": "2026-478_ACTU_ECON_licences_britanniques_petrole_russe_ue_ligne_ferme_mai_2026_V1.md",
+[2026-05-23T15:29:23]       "status": "error",
+[2026-05-23T15:29:23]       "wordpress_id": null,
+[2026-05-23T15:29:23]       "slug": "",
+[2026-05-23T15:29:23]       "link": "",
+[2026-05-23T15:29:23]       "categories": [],
+[2026-05-23T15:29:23]       "tags": [],
+[2026-05-23T15:29:23]       "index_updated": false,
+[2026-05-23T15:29:23]       "featured_media": null,
+[2026-05-23T15:29:23]       "error": "Missing required field: Slug propose"
+[2026-05-23T15:29:23]     },
+[2026-05-23T15:29:23]     {
+[2026-05-23T15:29:23]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-479_TF_ECON_susan_strange_pouvoir_structurel_sanctions_petrole_maritime_V1.md",
+[2026-05-23T15:29:23]       "article_id": "",
+[2026-05-23T15:29:23]       "title": "2026-479_TF_ECON_susan_strange_pouvoir_structurel_sanctions_petrole_maritime_V1.md",
+[2026-05-23T15:29:23]       "status": "error",
+[2026-05-23T15:29:23]       "wordpress_id": null,
+[2026-05-23T15:29:23]       "slug": "",
+[2026-05-23T15:29:23]       "link": "",
+[2026-05-23T15:29:23]       "categories": [],
+[2026-05-23T15:29:23]       "tags": [],
+[2026-05-23T15:29:23]       "index_updated": false,
+[2026-05-23T15:29:23]       "featured_media": null,
+[2026-05-23T15:29:23]       "error": "Missing required field: Slug propose"
+[2026-05-23T15:29:23]     },
+[2026-05-23T15:29:23]     {
+[2026-05-23T15:29:23]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-480_SENTIER_ECON_cartographier_crise_energetico_sanctions_sans_coupable_unique_V1.md",
+[2026-05-23T15:29:23]       "article_id": "",
+[2026-05-23T15:29:23]       "title": "2026-480_SENTIER_ECON_cartographier_crise_energetico_sanctions_sans_coupable_unique_V1.md",
+[2026-05-23T15:29:23]       "status": "error",
+[2026-05-23T15:29:23]       "wordpress_id": null,
+[2026-05-23T15:29:23]       "slug": "",
+[2026-05-23T15:29:23]       "link": "",
+[2026-05-23T15:29:23]       "categories": [],
+[2026-05-23T15:29:23]       "tags": [],
+[2026-05-23T15:29:23]       "index_updated": false,
+[2026-05-23T15:29:23]       "featured_media": null,
+[2026-05-23T15:29:23]       "error": "Missing required field: Slug propose"
+[2026-05-23T15:29:23]     }
+[2026-05-23T15:29:23]   ]
+[2026-05-23T15:29:23] }
+[2026-05-23T15:36:46] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque
+[2026-05-23T15:36:46] Selected topic label: 2026-05-23_sanctions-petrole-russe-strange_triptyque
+[2026-05-23T15:36:46] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-23T15:36:46] --- WP-PUSH OUTPUT ---
+[2026-05-23T15:37:10] {
+[2026-05-23T15:37:10]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque",
+[2026-05-23T15:37:10]   "total": 3,
+[2026-05-23T15:37:10]   "created": 3,
+[2026-05-23T15:37:10]   "skipped": 0,
+[2026-05-23T15:37:10]   "failed": 0,
+[2026-05-23T15:37:10]   "items": [
+[2026-05-23T15:37:10]     {
+[2026-05-23T15:37:10]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-478_ACTU_ECON_licences_britanniques_petrole_russe_ue_ligne_ferme_mai_2026_V1.md",
+[2026-05-23T15:37:10]       "article_id": "2026-478",
+[2026-05-23T15:37:10]       "title": "Licences britanniques sur le pétrole russe : pourquoi Londres parle d'approvisionnement et Bruxelles de « mauvais moment »",
+[2026-05-23T15:37:10]       "status": "draft",
+[2026-05-23T15:37:10]       "wordpress_id": 4527,
+[2026-05-23T15:37:10]       "slug": "licences-britanniques-petrole-russe-ue-mai-2026",
+[2026-05-23T15:37:10]       "link": "https://le-phare.info/?p=4527",
+[2026-05-23T15:37:10]       "categories": [
+[2026-05-23T15:37:10]         "actualites"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "tags": [
+[2026-05-23T15:37:10]         "economie-finance",
+[2026-05-23T15:37:10]         "sentier-vision",
+[2026-05-23T15:37:10]         "sanctions-russes",
+[2026-05-23T15:37:10]         "petrole-russe",
+[2026-05-23T15:37:10]         "securite-energetique",
+[2026-05-23T15:37:10]         "price-cap",
+[2026-05-23T15:37:10]         "posture-observer",
+[2026-05-23T15:37:10]         "triptyque"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "index_updated": true,
+[2026-05-23T15:37:10]       "featured_media": 4142,
+[2026-05-23T15:37:10]       "error": ""
+[2026-05-23T15:37:10]     },
+[2026-05-23T15:37:10]     {
+[2026-05-23T15:37:10]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-479_TF_ECON_susan_strange_pouvoir_structurel_sanctions_petrole_maritime_V1.md",
+[2026-05-23T15:37:10]       "article_id": "2026-479",
+[2026-05-23T15:37:10]       "title": "Susan Strange : le pouvoir structurel pour lire sanctions pétrolières et services maritimes",
+[2026-05-23T15:37:10]       "status": "draft",
+[2026-05-23T15:37:10]       "wordpress_id": 4528,
+[2026-05-23T15:37:10]       "slug": "susan-strange-pouvoir-structurel-sanctions-petrole-maritime",
+[2026-05-23T15:37:10]       "link": "https://le-phare.info/?p=4528",
+[2026-05-23T15:37:10]       "categories": [
+[2026-05-23T15:37:10]         "textes-fondateurs"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "tags": [
+[2026-05-23T15:37:10]         "economie-finance",
+[2026-05-23T15:37:10]         "sentier-vision",
+[2026-05-23T15:37:10]         "susan-strange",
+[2026-05-23T15:37:10]         "pouvoir-structurel",
+[2026-05-23T15:37:10]         "sanctions-russes",
+[2026-05-23T15:37:10]         "petrole-russe",
+[2026-05-23T15:37:10]         "triptyque"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "index_updated": true,
+[2026-05-23T15:37:10]       "featured_media": 4142,
+[2026-05-23T15:37:10]       "error": ""
+[2026-05-23T15:37:10]     },
+[2026-05-23T15:37:10]     {
+[2026-05-23T15:37:10]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-480_SENTIER_ECON_cartographier_crise_energetico_sanctions_sans_coupable_unique_V1.md",
+[2026-05-23T15:37:10]       "article_id": "2026-480",
+[2026-05-23T15:37:10]       "title": "Cartographier une crise énergético-sanctions sans réduire le débat à un coupable",
+[2026-05-23T15:37:10]       "status": "draft",
+[2026-05-23T15:37:10]       "wordpress_id": 4529,
+[2026-05-23T15:37:10]       "slug": "cartographier-crise-energetico-sanctions-pensee-systemique",
+[2026-05-23T15:37:10]       "link": "https://le-phare.info/?p=4529",
+[2026-05-23T15:37:10]       "categories": [
+[2026-05-23T15:37:10]         "sentier-du-savoir"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "tags": [
+[2026-05-23T15:37:10]         "economie-finance",
+[2026-05-23T15:37:10]         "sentier-vision",
+[2026-05-23T15:37:10]         "pensee-systemique",
+[2026-05-23T15:37:10]         "sanctions-russes",
+[2026-05-23T15:37:10]         "petrole-russe",
+[2026-05-23T15:37:10]         "atelier-sentier",
+[2026-05-23T15:37:10]         "fondamental-2026-136",
+[2026-05-23T15:37:10]         "posture-relier",
+[2026-05-23T15:37:10]         "triptyque"
+[2026-05-23T15:37:10]       ],
+[2026-05-23T15:37:10]       "index_updated": true,
+[2026-05-23T15:37:10]       "featured_media": 4142,
+[2026-05-23T15:37:10]       "error": ""
+[2026-05-23T15:37:10]     }
+[2026-05-23T15:37:10]   ]
+[2026-05-23T15:37:10] }
+[2026-05-23T15:37:10] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-23T15:37:10] --- POST-LINKING OUTPUT ---
+[2026-05-23T15:37:12] {
+[2026-05-23T15:37:12]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque",
+[2026-05-23T15:37:12]   "mode": "triptyque_linking_v2",
+[2026-05-23T15:37:12]   "dry_run": false,
+[2026-05-23T15:37:12]   "total": 3,
+[2026-05-23T15:37:12]   "updated_local": 3,
+[2026-05-23T15:37:12]   "updated_wordpress": 3,
+[2026-05-23T15:37:12]   "items": [
+[2026-05-23T15:37:12]     {
+[2026-05-23T15:37:12]       "article_id": "2026-478",
+[2026-05-23T15:37:12]       "type": "ACTU",
+[2026-05-23T15:37:12]       "title": "Licences britanniques sur le pétrole russe : pourquoi Londres parle d'approvisionnement et Bruxelles de « mauvais moment »",
+[2026-05-23T15:37:12]       "wordpress_id": 4527,
+[2026-05-23T15:37:12]       "wordpress_url": "https://le-phare.info/?p=4527",
+[2026-05-23T15:37:12]       "updated_paths": [
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-478_ACTU_ECON_licences_britanniques_petrole_russe_ue_ligne_ferme_mai_2026_V1.md",
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Economie_Finance\\2026-478_ACTU_ECON_licences_britanniques_petrole_russe_ue_ligne_ferme_mai_2026_V1.md"
+[2026-05-23T15:37:12]       ],
+[2026-05-23T15:37:12]       "status": "updated",
+[2026-05-23T15:37:12]       "error": ""
+[2026-05-23T15:37:12]     },
+[2026-05-23T15:37:12]     {
+[2026-05-23T15:37:12]       "article_id": "2026-479",
+[2026-05-23T15:37:12]       "type": "TF",
+[2026-05-23T15:37:12]       "title": "Susan Strange : le pouvoir structurel pour lire sanctions pétrolières et services maritimes",
+[2026-05-23T15:37:12]       "wordpress_id": 4528,
+[2026-05-23T15:37:12]       "wordpress_url": "https://le-phare.info/?p=4528",
+[2026-05-23T15:37:12]       "updated_paths": [
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-479_TF_ECON_susan_strange_pouvoir_structurel_sanctions_petrole_maritime_V1.md",
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-479_TF_ECON_susan_strange_pouvoir_structurel_sanctions_petrole_maritime_V1.md"
+[2026-05-23T15:37:12]       ],
+[2026-05-23T15:37:12]       "status": "updated",
+[2026-05-23T15:37:12]       "error": ""
+[2026-05-23T15:37:12]     },
+[2026-05-23T15:37:12]     {
+[2026-05-23T15:37:12]       "article_id": "2026-480",
+[2026-05-23T15:37:12]       "type": "SENTIER",
+[2026-05-23T15:37:12]       "title": "Cartographier une crise énergético-sanctions sans réduire le débat à un coupable",
+[2026-05-23T15:37:12]       "wordpress_id": 4529,
+[2026-05-23T15:37:12]       "wordpress_url": "https://le-phare.info/?p=4529",
+[2026-05-23T15:37:12]       "updated_paths": [
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-23_sanctions-petrole-russe-strange_triptyque\\2026-480_SENTIER_ECON_cartographier_crise_energetico_sanctions_sans_coupable_unique_V1.md",
+[2026-05-23T15:37:12]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_08_Relier_savoirs_et_experience\\2026-480_SENTIER_ECON_cartographier_crise_energetico_sanctions_sans_coupable_unique_V1.md"
+[2026-05-23T15:37:12]       ],
+[2026-05-23T15:37:12]       "status": "updated",
+[2026-05-23T15:37:12]       "error": ""
+[2026-05-23T15:37:12]     }
+[2026-05-23T15:37:12]   ],
+[2026-05-23T15:37:12]   "errors": []
+[2026-05-23T15:37:12] }
+[2026-05-23T15:37:12] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-23_sanctions-petrole-russe-strange_triptyque

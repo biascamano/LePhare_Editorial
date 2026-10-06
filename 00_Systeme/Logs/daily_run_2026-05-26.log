@@ -1,0 +1,193 @@
+[2026-05-26T08:06:51] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque
+[2026-05-26T08:06:51] Selected topic label: 2026-05-26_canicule-mai-sante-climat_haines_triptyque
+[2026-05-26T08:06:51] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-26T08:06:51] --- WP-PUSH OUTPUT ---
+[2026-05-26T08:07:14] {
+[2026-05-26T08:07:14]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque",
+[2026-05-26T08:07:14]   "total": 3,
+[2026-05-26T08:07:14]   "created": 0,
+[2026-05-26T08:07:14]   "skipped": 0,
+[2026-05-26T08:07:14]   "failed": 3,
+[2026-05-26T08:07:14]   "items": [
+[2026-05-26T08:07:14]     {
+[2026-05-26T08:07:14]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-481_ACTU_SCIENCE_canicule_mai_2026_quand_la_chaleur_precipite_le_debat_sanitaire_V1.md",
+[2026-05-26T08:07:14]       "article_id": "",
+[2026-05-26T08:07:14]       "title": "2026-481_ACTU_SCIENCE_canicule_mai_2026_quand_la_chaleur_precipite_le_debat_sanitaire_V1.md",
+[2026-05-26T08:07:14]       "status": "error",
+[2026-05-26T08:07:14]       "wordpress_id": null,
+[2026-05-26T08:07:14]       "slug": "",
+[2026-05-26T08:07:14]       "link": "",
+[2026-05-26T08:07:14]       "categories": [],
+[2026-05-26T08:07:14]       "tags": [],
+[2026-05-26T08:07:14]       "index_updated": false,
+[2026-05-26T08:07:14]       "featured_media": null,
+[2026-05-26T08:07:14]       "error": "'NoneType' object has no attribute 'strip'"
+[2026-05-26T08:07:14]     },
+[2026-05-26T08:07:14]     {
+[2026-05-26T08:07:14]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-482_TF_SCIENCE_andrew_haines_climat_sante_cobenefices_et_urgence_V1.md",
+[2026-05-26T08:07:14]       "article_id": "",
+[2026-05-26T08:07:14]       "title": "2026-482_TF_SCIENCE_andrew_haines_climat_sante_cobenefices_et_urgence_V1.md",
+[2026-05-26T08:07:14]       "status": "error",
+[2026-05-26T08:07:14]       "wordpress_id": null,
+[2026-05-26T08:07:14]       "slug": "",
+[2026-05-26T08:07:14]       "link": "",
+[2026-05-26T08:07:14]       "categories": [],
+[2026-05-26T08:07:14]       "tags": [],
+[2026-05-26T08:07:14]       "index_updated": false,
+[2026-05-26T08:07:14]       "featured_media": null,
+[2026-05-26T08:07:14]       "error": "'NoneType' object has no attribute 'strip'"
+[2026-05-26T08:07:14]     },
+[2026-05-26T08:07:14]     {
+[2026-05-26T08:07:14]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-483_SENTIER_SCIENCE_lire_alerte_canicule_sans_confondre_vigilance_attribution_et_appel_oms_V1.md",
+[2026-05-26T08:07:14]       "article_id": "",
+[2026-05-26T08:07:14]       "title": "2026-483_SENTIER_SCIENCE_lire_alerte_canicule_sans_confondre_vigilance_attribution_et_appel_oms_V1.md",
+[2026-05-26T08:07:14]       "status": "error",
+[2026-05-26T08:07:14]       "wordpress_id": null,
+[2026-05-26T08:07:14]       "slug": "",
+[2026-05-26T08:07:14]       "link": "",
+[2026-05-26T08:07:14]       "categories": [],
+[2026-05-26T08:07:14]       "tags": [],
+[2026-05-26T08:07:14]       "index_updated": false,
+[2026-05-26T08:07:14]       "featured_media": null,
+[2026-05-26T08:07:14]       "error": "'NoneType' object has no attribute 'strip'"
+[2026-05-26T08:07:14]     }
+[2026-05-26T08:07:14]   ]
+[2026-05-26T08:07:14] }
+[2026-05-26T08:08:41] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque
+[2026-05-26T08:08:41] Selected topic label: 2026-05-26_canicule-mai-sante-climat_haines_triptyque
+[2026-05-26T08:08:41] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-26T08:08:41] --- WP-PUSH OUTPUT ---
+[2026-05-26T08:08:58] {
+[2026-05-26T08:08:58]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque",
+[2026-05-26T08:08:58]   "total": 3,
+[2026-05-26T08:08:58]   "created": 3,
+[2026-05-26T08:08:58]   "skipped": 0,
+[2026-05-26T08:08:58]   "failed": 0,
+[2026-05-26T08:08:58]   "items": [
+[2026-05-26T08:08:58]     {
+[2026-05-26T08:08:58]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-481_ACTU_SCIENCE_canicule_mai_2026_quand_la_chaleur_precipite_le_debat_sanitaire_V1.md",
+[2026-05-26T08:08:58]       "article_id": "2026-481",
+[2026-05-26T08:08:58]       "title": "Canicule de mai 2026 : quand la chaleur précipite un débat sanitaire européen",
+[2026-05-26T08:08:58]       "status": "draft",
+[2026-05-26T08:08:58]       "wordpress_id": 4545,
+[2026-05-26T08:08:58]       "slug": "canicule-mai-2026-europe-sante-oms-4",
+[2026-05-26T08:08:58]       "link": "https://le-phare.info/?p=4545",
+[2026-05-26T08:08:58]       "categories": [
+[2026-05-26T08:08:58]         "actualites"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "tags": [
+[2026-05-26T08:08:58]         "science-sante",
+[2026-05-26T08:08:58]         "sentier-science",
+[2026-05-26T08:08:58]         "canicule-europe",
+[2026-05-26T08:08:58]         "sante-publique",
+[2026-05-26T08:08:58]         "changement-climatique",
+[2026-05-26T08:08:58]         "posture-observer",
+[2026-05-26T08:08:58]         "triptyque"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "index_updated": true,
+[2026-05-26T08:08:58]       "featured_media": 2060,
+[2026-05-26T08:08:58]       "error": ""
+[2026-05-26T08:08:58]     },
+[2026-05-26T08:08:58]     {
+[2026-05-26T08:08:58]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-482_TF_SCIENCE_andrew_haines_climat_sante_cobenefices_et_urgence_V1.md",
+[2026-05-26T08:08:58]       "article_id": "2026-482",
+[2026-05-26T08:08:58]       "title": "Andrew Haines : le climat comme enjeu de santé publique et la logique des co-bénéfices",
+[2026-05-26T08:08:58]       "status": "draft",
+[2026-05-26T08:08:58]       "wordpress_id": 4546,
+[2026-05-26T08:08:58]       "slug": "andrew-haines-climat-sante-cobenefices-urgence-2",
+[2026-05-26T08:08:58]       "link": "https://le-phare.info/?p=4546",
+[2026-05-26T08:08:58]       "categories": [
+[2026-05-26T08:08:58]         "textes-fondateurs"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "tags": [
+[2026-05-26T08:08:58]         "science-sante",
+[2026-05-26T08:08:58]         "sentier-science",
+[2026-05-26T08:08:58]         "andrew-haines",
+[2026-05-26T08:08:58]         "sante-publique",
+[2026-05-26T08:08:58]         "changement-climatique",
+[2026-05-26T08:08:58]         "triptyque"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "index_updated": true,
+[2026-05-26T08:08:58]       "featured_media": 2060,
+[2026-05-26T08:08:58]       "error": ""
+[2026-05-26T08:08:58]     },
+[2026-05-26T08:08:58]     {
+[2026-05-26T08:08:58]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-483_SENTIER_SCIENCE_lire_alerte_canicule_sans_confondre_vigilance_attribution_et_appel_oms_V1.md",
+[2026-05-26T08:08:58]       "article_id": "2026-483",
+[2026-05-26T08:08:58]       "title": "Lire une alerte canicule sans confondre vigilance, attribution et appel politique",
+[2026-05-26T08:08:58]       "status": "draft",
+[2026-05-26T08:08:58]       "wordpress_id": 4547,
+[2026-05-26T08:08:58]       "slug": "lire-alerte-canicule-vigilance-attribution-oms-2",
+[2026-05-26T08:08:58]       "link": "https://le-phare.info/?p=4547",
+[2026-05-26T08:08:58]       "categories": [
+[2026-05-26T08:08:58]         "sentier-du-savoir"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "tags": [
+[2026-05-26T08:08:58]         "science-sante",
+[2026-05-26T08:08:58]         "sentier-science",
+[2026-05-26T08:08:58]         "canicule-europe",
+[2026-05-26T08:08:58]         "pensee-critique",
+[2026-05-26T08:08:58]         "atelier-sentier",
+[2026-05-26T08:08:58]         "fondamental-2026-154",
+[2026-05-26T08:08:58]         "posture-observer",
+[2026-05-26T08:08:58]         "triptyque"
+[2026-05-26T08:08:58]       ],
+[2026-05-26T08:08:58]       "index_updated": true,
+[2026-05-26T08:08:58]       "featured_media": 2060,
+[2026-05-26T08:08:58]       "error": ""
+[2026-05-26T08:08:58]     }
+[2026-05-26T08:08:58]   ]
+[2026-05-26T08:08:58] }
+[2026-05-26T08:08:58] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-26T08:08:58] --- POST-LINKING OUTPUT ---
+[2026-05-26T08:09:01] {
+[2026-05-26T08:09:01]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque",
+[2026-05-26T08:09:01]   "mode": "triptyque_linking_v2",
+[2026-05-26T08:09:01]   "dry_run": false,
+[2026-05-26T08:09:01]   "total": 3,
+[2026-05-26T08:09:01]   "updated_local": 3,
+[2026-05-26T08:09:01]   "updated_wordpress": 3,
+[2026-05-26T08:09:01]   "items": [
+[2026-05-26T08:09:01]     {
+[2026-05-26T08:09:01]       "article_id": "2026-481",
+[2026-05-26T08:09:01]       "type": "ACTU",
+[2026-05-26T08:09:01]       "title": "Canicule de mai 2026 : quand la chaleur précipite un débat sanitaire européen",
+[2026-05-26T08:09:01]       "wordpress_id": 4545,
+[2026-05-26T08:09:01]       "wordpress_url": "https://le-phare.info/?p=4545",
+[2026-05-26T08:09:01]       "updated_paths": [
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-481_ACTU_SCIENCE_canicule_mai_2026_quand_la_chaleur_precipite_le_debat_sanitaire_V1.md",
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Science_Sante\\2026-481_ACTU_SCIENCE_canicule_mai_2026_quand_la_chaleur_precipite_le_debat_sanitaire_V1.md"
+[2026-05-26T08:09:01]       ],
+[2026-05-26T08:09:01]       "status": "updated",
+[2026-05-26T08:09:01]       "error": ""
+[2026-05-26T08:09:01]     },
+[2026-05-26T08:09:01]     {
+[2026-05-26T08:09:01]       "article_id": "2026-482",
+[2026-05-26T08:09:01]       "type": "TF",
+[2026-05-26T08:09:01]       "title": "Andrew Haines : le climat comme enjeu de santé publique et la logique des co-bénéfices",
+[2026-05-26T08:09:01]       "wordpress_id": 4546,
+[2026-05-26T08:09:01]       "wordpress_url": "https://le-phare.info/?p=4546",
+[2026-05-26T08:09:01]       "updated_paths": [
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-482_TF_SCIENCE_andrew_haines_climat_sante_cobenefices_et_urgence_V1.md",
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-482_TF_SCIENCE_andrew_haines_climat_sante_cobenefices_et_urgence_V1.md"
+[2026-05-26T08:09:01]       ],
+[2026-05-26T08:09:01]       "status": "updated",
+[2026-05-26T08:09:01]       "error": ""
+[2026-05-26T08:09:01]     },
+[2026-05-26T08:09:01]     {
+[2026-05-26T08:09:01]       "article_id": "2026-483",
+[2026-05-26T08:09:01]       "type": "SENTIER",
+[2026-05-26T08:09:01]       "title": "Lire une alerte canicule sans confondre vigilance, attribution et appel politique",
+[2026-05-26T08:09:01]       "wordpress_id": 4547,
+[2026-05-26T08:09:01]       "wordpress_url": "https://le-phare.info/?p=4547",
+[2026-05-26T08:09:01]       "updated_paths": [
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-26_canicule-mai-sante-climat_haines_triptyque\\2026-483_SENTIER_SCIENCE_lire_alerte_canicule_sans_confondre_vigilance_attribution_et_appel_oms_V1.md",
+[2026-05-26T08:09:01]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Science\\2026-483_SENTIER_SCIENCE_lire_alerte_canicule_sans_confondre_vigilance_attribution_et_appel_oms_V1.md"
+[2026-05-26T08:09:01]       ],
+[2026-05-26T08:09:01]       "status": "updated",
+[2026-05-26T08:09:01]       "error": ""
+[2026-05-26T08:09:01]     }
+[2026-05-26T08:09:01]   ],
+[2026-05-26T08:09:01]   "errors": []
+[2026-05-26T08:09:01] }
+[2026-05-26T08:09:01] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-26_canicule-mai-sante-climat_haines_triptyque

@@ -1,0 +1,140 @@
+[2026-06-02T08:46:27] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-02_iran-usa-negociation
+[2026-06-02T08:46:27] Selected topic label: 2026-06-02_iran-usa-negociation
+[2026-06-02T08:46:27] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-02_iran-usa-negociation --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-02T08:46:27] --- WP-PUSH OUTPUT ---
+[2026-06-02T08:47:03] {
+[2026-06-02T08:47:03]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation",
+[2026-06-02T08:47:03]   "total": 3,
+[2026-06-02T08:47:03]   "created": 3,
+[2026-06-02T08:47:03]   "skipped": 0,
+[2026-06-02T08:47:03]   "failed": 0,
+[2026-06-02T08:47:03]   "items": [
+[2026-06-02T08:47:03]     {
+[2026-06-02T08:47:03]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-496_ACTU_POL_iran_usa_negociations_rythme_rapide_juin_2026_V1.md",
+[2026-06-02T08:47:03]       "article_id": "2026-496",
+[2026-06-02T08:47:03]       "title": "Négociations Etats-Unis-Iran : que signifie vraiment un \"rythme rapide\" en juin 2026 ?",
+[2026-06-02T08:47:03]       "status": "draft",
+[2026-06-02T08:47:03]       "wordpress_id": 4651,
+[2026-06-02T08:47:03]       "slug": "iran-usa-negociations-rythme-rapide-juin-2026",
+[2026-06-02T08:47:03]       "link": "https://le-phare.info/?p=4651",
+[2026-06-02T08:47:03]       "categories": [
+[2026-06-02T08:47:03]         "actualites"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "tags": [
+[2026-06-02T08:47:03]         "politique-societe",
+[2026-06-02T08:47:03]         "sentier-approfondissement",
+[2026-06-02T08:47:03]         "iran",
+[2026-06-02T08:47:03]         "etats-unis",
+[2026-06-02T08:47:03]         "negociation-diplomatique",
+[2026-06-02T08:47:03]         "posture-observer",
+[2026-06-02T08:47:03]         "triptyque"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "index_updated": true,
+[2026-06-02T08:47:03]       "featured_media": 2117,
+[2026-06-02T08:47:03]       "error": ""
+[2026-06-02T08:47:03]     },
+[2026-06-02T08:47:03]     {
+[2026-06-02T08:47:03]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-497_TF_POL_thomas_schelling_negocier_sous_menace_sans_confondre_fermete_et_escalade_V1.md",
+[2026-06-02T08:47:03]       "article_id": "2026-497",
+[2026-06-02T08:47:03]       "title": "Thomas Schelling : negocier sous menace sans confondre fermete et escalade",
+[2026-06-02T08:47:03]       "status": "draft",
+[2026-06-02T08:47:03]       "wordpress_id": 4652,
+[2026-06-02T08:47:03]       "slug": "thomas-schelling-negocier-sous-menace-sans-confondre-fermete-et-escalade",
+[2026-06-02T08:47:03]       "link": "https://le-phare.info/?p=4652",
+[2026-06-02T08:47:03]       "categories": [
+[2026-06-02T08:47:03]         "textes-fondateurs"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "tags": [
+[2026-06-02T08:47:03]         "politique-societe",
+[2026-06-02T08:47:03]         "sentier-approfondissement",
+[2026-06-02T08:47:03]         "thomas-schelling",
+[2026-06-02T08:47:03]         "coercition",
+[2026-06-02T08:47:03]         "negociation",
+[2026-06-02T08:47:03]         "triptyque"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "index_updated": true,
+[2026-06-02T08:47:03]       "featured_media": 2117,
+[2026-06-02T08:47:03]       "error": ""
+[2026-06-02T08:47:03]     },
+[2026-06-02T08:47:03]     {
+[2026-06-02T08:47:03]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-498_SENTIER_POL_argumenter_crise_iran_usa_sans_confondre_signal_position_resultat_V1.md",
+[2026-06-02T08:47:03]       "article_id": "2026-498",
+[2026-06-02T08:47:03]       "title": "Argumenter sur une crise Iran-Etats-Unis sans confondre signal, position et resultat",
+[2026-06-02T08:47:03]       "status": "draft",
+[2026-06-02T08:47:03]       "wordpress_id": 4653,
+[2026-06-02T08:47:03]       "slug": "argumenter-crise-iran-usa-sans-confondre-signal-position-resultat",
+[2026-06-02T08:47:03]       "link": "https://le-phare.info/?p=4653",
+[2026-06-02T08:47:03]       "categories": [
+[2026-06-02T08:47:03]         "sentier-du-savoir"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "tags": [
+[2026-06-02T08:47:03]         "politique-societe",
+[2026-06-02T08:47:03]         "sentier-approfondissement",
+[2026-06-02T08:47:03]         "argumentation",
+[2026-06-02T08:47:03]         "iran",
+[2026-06-02T08:47:03]         "etats-unis",
+[2026-06-02T08:47:03]         "atelier-sentier",
+[2026-06-02T08:47:03]         "fondamental-2026-182",
+[2026-06-02T08:47:03]         "posture-comprendre",
+[2026-06-02T08:47:03]         "triptyque"
+[2026-06-02T08:47:03]       ],
+[2026-06-02T08:47:03]       "index_updated": true,
+[2026-06-02T08:47:03]       "featured_media": 2117,
+[2026-06-02T08:47:03]       "error": ""
+[2026-06-02T08:47:03]     }
+[2026-06-02T08:47:03]   ]
+[2026-06-02T08:47:03] }
+[2026-06-02T08:47:03] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-02_iran-usa-negociation --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-02T08:47:03] --- POST-LINKING OUTPUT ---
+[2026-06-02T08:47:06] {
+[2026-06-02T08:47:06]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation",
+[2026-06-02T08:47:06]   "mode": "triptyque_linking_v2",
+[2026-06-02T08:47:06]   "dry_run": false,
+[2026-06-02T08:47:06]   "total": 3,
+[2026-06-02T08:47:06]   "updated_local": 3,
+[2026-06-02T08:47:06]   "updated_wordpress": 3,
+[2026-06-02T08:47:06]   "items": [
+[2026-06-02T08:47:06]     {
+[2026-06-02T08:47:06]       "article_id": "2026-496",
+[2026-06-02T08:47:06]       "type": "ACTU",
+[2026-06-02T08:47:06]       "title": "Négociations Etats-Unis-Iran : que signifie vraiment un \"rythme rapide\" en juin 2026 ?",
+[2026-06-02T08:47:06]       "wordpress_id": 4651,
+[2026-06-02T08:47:06]       "wordpress_url": "https://le-phare.info/?p=4651",
+[2026-06-02T08:47:06]       "updated_paths": [
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-496_ACTU_POL_iran_usa_negociations_rythme_rapide_juin_2026_V1.md",
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Politique_Societe\\2026-496_ACTU_POL_iran_usa_negociations_rythme_rapide_juin_2026_V1.md"
+[2026-06-02T08:47:06]       ],
+[2026-06-02T08:47:06]       "status": "updated",
+[2026-06-02T08:47:06]       "error": ""
+[2026-06-02T08:47:06]     },
+[2026-06-02T08:47:06]     {
+[2026-06-02T08:47:06]       "article_id": "2026-497",
+[2026-06-02T08:47:06]       "type": "TF",
+[2026-06-02T08:47:06]       "title": "Thomas Schelling : negocier sous menace sans confondre fermete et escalade",
+[2026-06-02T08:47:06]       "wordpress_id": 4652,
+[2026-06-02T08:47:06]       "wordpress_url": "https://le-phare.info/?p=4652",
+[2026-06-02T08:47:06]       "updated_paths": [
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-497_TF_POL_thomas_schelling_negocier_sous_menace_sans_confondre_fermete_et_escalade_V1.md",
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-497_TF_POL_thomas_schelling_negocier_sous_menace_sans_confondre_fermete_et_escalade_V1.md"
+[2026-06-02T08:47:06]       ],
+[2026-06-02T08:47:06]       "status": "updated",
+[2026-06-02T08:47:06]       "error": ""
+[2026-06-02T08:47:06]     },
+[2026-06-02T08:47:06]     {
+[2026-06-02T08:47:06]       "article_id": "2026-498",
+[2026-06-02T08:47:06]       "type": "SENTIER",
+[2026-06-02T08:47:06]       "title": "Argumenter sur une crise Iran-Etats-Unis sans confondre signal, position et resultat",
+[2026-06-02T08:47:06]       "wordpress_id": 4653,
+[2026-06-02T08:47:06]       "wordpress_url": "https://le-phare.info/?p=4653",
+[2026-06-02T08:47:06]       "updated_paths": [
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-02_iran-usa-negociation\\2026-498_SENTIER_POL_argumenter_crise_iran_usa_sans_confondre_signal_position_resultat_V1.md",
+[2026-06-02T08:47:06]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_03_Argumentation\\2026-498_SENTIER_POL_argumenter_crise_iran_usa_sans_confondre_signal_position_resultat_V1.md"
+[2026-06-02T08:47:06]       ],
+[2026-06-02T08:47:06]       "status": "updated",
+[2026-06-02T08:47:06]       "error": ""
+[2026-06-02T08:47:06]     }
+[2026-06-02T08:47:06]   ],
+[2026-06-02T08:47:06]   "errors": []
+[2026-06-02T08:47:06] }
+[2026-06-02T08:47:06] [V2] Rappel fondamental parent : fondamental-2026-182 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-02T08:47:06] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-02_iran-usa-negociation

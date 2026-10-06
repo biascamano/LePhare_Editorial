@@ -1,0 +1,248 @@
+[2026-05-19T07:36:20] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:20] Selected topic label: 2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:20] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-19T07:36:20] --- WP-PUSH OUTPUT ---
+[2026-05-19T07:36:20] {
+[2026-05-19T07:36:20]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque",
+[2026-05-19T07:36:20]   "total": 3,
+[2026-05-19T07:36:20]   "created": 0,
+[2026-05-19T07:36:20]   "skipped": 0,
+[2026-05-19T07:36:20]   "failed": 3,
+[2026-05-19T07:36:20]   "items": [
+[2026-05-19T07:36:20]     {
+[2026-05-19T07:36:20]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:36:20]       "article_id": "",
+[2026-05-19T07:36:20]       "title": "2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:36:20]       "status": "error",
+[2026-05-19T07:36:20]       "wordpress_id": null,
+[2026-05-19T07:36:20]       "slug": "",
+[2026-05-19T07:36:20]       "link": "",
+[2026-05-19T07:36:20]       "categories": [],
+[2026-05-19T07:36:20]       "tags": [],
+[2026-05-19T07:36:20]       "index_updated": false,
+[2026-05-19T07:36:20]       "featured_media": null,
+[2026-05-19T07:36:20]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:20]     },
+[2026-05-19T07:36:20]     {
+[2026-05-19T07:36:20]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:36:20]       "article_id": "",
+[2026-05-19T07:36:20]       "title": "2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:36:20]       "status": "error",
+[2026-05-19T07:36:20]       "wordpress_id": null,
+[2026-05-19T07:36:20]       "slug": "",
+[2026-05-19T07:36:20]       "link": "",
+[2026-05-19T07:36:20]       "categories": [],
+[2026-05-19T07:36:20]       "tags": [],
+[2026-05-19T07:36:20]       "index_updated": false,
+[2026-05-19T07:36:20]       "featured_media": null,
+[2026-05-19T07:36:20]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:20]     },
+[2026-05-19T07:36:20]     {
+[2026-05-19T07:36:20]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:36:20]       "article_id": "",
+[2026-05-19T07:36:20]       "title": "2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:36:20]       "status": "error",
+[2026-05-19T07:36:20]       "wordpress_id": null,
+[2026-05-19T07:36:20]       "slug": "",
+[2026-05-19T07:36:20]       "link": "",
+[2026-05-19T07:36:20]       "categories": [],
+[2026-05-19T07:36:20]       "tags": [],
+[2026-05-19T07:36:20]       "index_updated": false,
+[2026-05-19T07:36:20]       "featured_media": null,
+[2026-05-19T07:36:20]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:20]     }
+[2026-05-19T07:36:20]   ]
+[2026-05-19T07:36:20] }
+[2026-05-19T07:36:34] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:34] Selected topic label: 2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:34] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-19T07:36:34] --- WP-PUSH OUTPUT ---
+[2026-05-19T07:36:34] {
+[2026-05-19T07:36:34]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque",
+[2026-05-19T07:36:34]   "total": 3,
+[2026-05-19T07:36:34]   "created": 0,
+[2026-05-19T07:36:34]   "skipped": 0,
+[2026-05-19T07:36:34]   "failed": 3,
+[2026-05-19T07:36:34]   "items": [
+[2026-05-19T07:36:34]     {
+[2026-05-19T07:36:34]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:36:34]       "article_id": "",
+[2026-05-19T07:36:34]       "title": "2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:36:34]       "status": "error",
+[2026-05-19T07:36:34]       "wordpress_id": null,
+[2026-05-19T07:36:34]       "slug": "",
+[2026-05-19T07:36:34]       "link": "",
+[2026-05-19T07:36:34]       "categories": [],
+[2026-05-19T07:36:34]       "tags": [],
+[2026-05-19T07:36:34]       "index_updated": false,
+[2026-05-19T07:36:34]       "featured_media": null,
+[2026-05-19T07:36:34]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:34]     },
+[2026-05-19T07:36:34]     {
+[2026-05-19T07:36:34]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:36:34]       "article_id": "",
+[2026-05-19T07:36:34]       "title": "2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:36:34]       "status": "error",
+[2026-05-19T07:36:34]       "wordpress_id": null,
+[2026-05-19T07:36:34]       "slug": "",
+[2026-05-19T07:36:34]       "link": "",
+[2026-05-19T07:36:34]       "categories": [],
+[2026-05-19T07:36:34]       "tags": [],
+[2026-05-19T07:36:34]       "index_updated": false,
+[2026-05-19T07:36:34]       "featured_media": null,
+[2026-05-19T07:36:34]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:34]     },
+[2026-05-19T07:36:34]     {
+[2026-05-19T07:36:34]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:36:34]       "article_id": "",
+[2026-05-19T07:36:34]       "title": "2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:36:34]       "status": "error",
+[2026-05-19T07:36:34]       "wordpress_id": null,
+[2026-05-19T07:36:34]       "slug": "",
+[2026-05-19T07:36:34]       "link": "",
+[2026-05-19T07:36:34]       "categories": [],
+[2026-05-19T07:36:34]       "tags": [],
+[2026-05-19T07:36:34]       "index_updated": false,
+[2026-05-19T07:36:34]       "featured_media": null,
+[2026-05-19T07:36:34]       "error": "Missing required field: Slug propose"
+[2026-05-19T07:36:34]     }
+[2026-05-19T07:36:34]   ]
+[2026-05-19T07:36:34] }
+[2026-05-19T07:36:55] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:55] Selected topic label: 2026-05-19_budget-ue-scharpf-argumentation_triptyque
+[2026-05-19T07:36:55] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-19T07:36:55] --- WP-PUSH OUTPUT ---
+[2026-05-19T07:37:17] {
+[2026-05-19T07:37:17]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque",
+[2026-05-19T07:37:17]   "total": 3,
+[2026-05-19T07:37:17]   "created": 3,
+[2026-05-19T07:37:17]   "skipped": 0,
+[2026-05-19T07:37:17]   "failed": 0,
+[2026-05-19T07:37:17]   "items": [
+[2026-05-19T07:37:17]     {
+[2026-05-19T07:37:17]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:37:17]       "article_id": "2026-466",
+[2026-05-19T07:37:17]       "title": "Budget européen 2026 et cadre 2028-2034 : pourquoi les chiffres ne disent pas la même chose selon qui parle",
+[2026-05-19T07:37:17]       "status": "draft",
+[2026-05-19T07:37:17]       "wordpress_id": 4234,
+[2026-05-19T07:37:17]       "slug": "budget-ue-2026-cadre-financier-2028-defense",
+[2026-05-19T07:37:17]       "link": "https://le-phare.info/?p=4234",
+[2026-05-19T07:37:17]       "categories": [
+[2026-05-19T07:37:17]         "actualites"
+[2026-05-19T07:37:17]       ],
+[2026-05-19T07:37:17]       "tags": [
+[2026-05-19T07:37:17]         "politique-societe",
+[2026-05-19T07:37:17]         "sentier-approfondissement",
+[2026-05-19T07:37:17]         "budget-ue",
+[2026-05-19T07:37:17]         "defense-europeenne",
+[2026-05-19T07:37:17]         "cadre-financier-pluriannuel",
+[2026-05-19T07:37:17]         "posture-observer",
+[2026-05-19T07:37:17]         "triptyque"
+[2026-05-19T07:37:17]       ],
+[2026-05-19T07:37:17]       "index_updated": true,
+[2026-05-19T07:37:17]       "featured_media": 2117,
+[2026-05-19T07:37:17]       "error": ""
+[2026-05-19T07:37:17]     },
+[2026-05-19T07:37:17]     {
+[2026-05-19T07:37:17]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:37:17]       "article_id": "2026-467",
+[2026-05-19T07:37:17]       "title": "Fritz Scharpf : le « piège des décisions conjointes » et les impasses du budget européen",
+[2026-05-19T07:37:17]       "status": "draft",
+[2026-05-19T07:37:17]       "wordpress_id": 4235,
+[2026-05-19T07:37:17]       "slug": "fritz-scharpf-piege-decisions-conjointes-budget-europe",
+[2026-05-19T07:37:17]       "link": "https://le-phare.info/?p=4235",
+[2026-05-19T07:37:17]       "categories": [
+[2026-05-19T07:37:17]         "textes-fondateurs"
+[2026-05-19T07:37:17]       ],
+[2026-05-19T07:37:17]       "tags": [
+[2026-05-19T07:37:17]         "politique-societe",
+[2026-05-19T07:37:17]         "sentier-approfondissement",
+[2026-05-19T07:37:17]         "fritz-scharpf",
+[2026-05-19T07:37:17]         "gouvernance-europeenne",
+[2026-05-19T07:37:17]         "budget-ue",
+[2026-05-19T07:37:17]         "triptyque"
+[2026-05-19T07:37:17]       ],
+[2026-05-19T07:37:17]       "index_updated": true,
+[2026-05-19T07:37:17]       "featured_media": 2117,
+[2026-05-19T07:37:17]       "error": ""
+[2026-05-19T07:37:17]     },
+[2026-05-19T07:37:17]     {
+[2026-05-19T07:37:17]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:37:17]       "article_id": "2026-468",
+[2026-05-19T07:37:17]       "title": "Argumenter sur un budget européen sans se laisser enfermer dans les faux totaux",
+[2026-05-19T07:37:18]       "status": "draft",
+[2026-05-19T07:37:18]       "wordpress_id": 4236,
+[2026-05-19T07:37:18]       "slug": "argumenter-budget-europeen-sans-faux-totaux",
+[2026-05-19T07:37:18]       "link": "https://le-phare.info/?p=4236",
+[2026-05-19T07:37:18]       "categories": [
+[2026-05-19T07:37:18]         "sentier-du-savoir"
+[2026-05-19T07:37:18]       ],
+[2026-05-19T07:37:18]       "tags": [
+[2026-05-19T07:37:18]         "politique-societe",
+[2026-05-19T07:37:18]         "sentier-approfondissement",
+[2026-05-19T07:37:18]         "argumentation",
+[2026-05-19T07:37:18]         "budget-ue",
+[2026-05-19T07:37:18]         "atelier-sentier",
+[2026-05-19T07:37:18]         "fondamental-2026-384",
+[2026-05-19T07:37:18]         "posture-comprendre",
+[2026-05-19T07:37:18]         "triptyque"
+[2026-05-19T07:37:18]       ],
+[2026-05-19T07:37:18]       "index_updated": true,
+[2026-05-19T07:37:18]       "featured_media": 2117,
+[2026-05-19T07:37:18]       "error": ""
+[2026-05-19T07:37:18]     }
+[2026-05-19T07:37:18]   ]
+[2026-05-19T07:37:18] }
+[2026-05-19T07:37:18] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-19T07:37:18] --- POST-LINKING OUTPUT ---
+[2026-05-19T07:37:21] {
+[2026-05-19T07:37:21]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque",
+[2026-05-19T07:37:21]   "mode": "triptyque_linking_v2",
+[2026-05-19T07:37:21]   "dry_run": false,
+[2026-05-19T07:37:21]   "total": 3,
+[2026-05-19T07:37:21]   "updated_local": 3,
+[2026-05-19T07:37:21]   "updated_wordpress": 3,
+[2026-05-19T07:37:21]   "items": [
+[2026-05-19T07:37:21]     {
+[2026-05-19T07:37:21]       "article_id": "2026-466",
+[2026-05-19T07:37:21]       "type": "ACTU",
+[2026-05-19T07:37:21]       "title": "Budget européen 2026 et cadre 2028-2034 : pourquoi les chiffres ne disent pas la même chose selon qui parle",
+[2026-05-19T07:37:21]       "wordpress_id": 4234,
+[2026-05-19T07:37:21]       "wordpress_url": "https://le-phare.info/?p=4234",
+[2026-05-19T07:37:21]       "updated_paths": [
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md",
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Politique_Societe\\2026-466_ACTU_POL_budget_ue_2026_et_cadre_pluriannuel_2028_defense_V1.md"
+[2026-05-19T07:37:21]       ],
+[2026-05-19T07:37:21]       "status": "updated",
+[2026-05-19T07:37:21]       "error": ""
+[2026-05-19T07:37:21]     },
+[2026-05-19T07:37:21]     {
+[2026-05-19T07:37:21]       "article_id": "2026-467",
+[2026-05-19T07:37:21]       "type": "TF",
+[2026-05-19T07:37:21]       "title": "Fritz Scharpf : le « piège des décisions conjointes » et les impasses du budget européen",
+[2026-05-19T07:37:21]       "wordpress_id": 4235,
+[2026-05-19T07:37:21]       "wordpress_url": "https://le-phare.info/?p=4235",
+[2026-05-19T07:37:21]       "updated_paths": [
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md",
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-467_TF_POL_fritz_scharpf_piege_decisions_conjointes_budget_europe_V1.md"
+[2026-05-19T07:37:21]       ],
+[2026-05-19T07:37:21]       "status": "updated",
+[2026-05-19T07:37:21]       "error": ""
+[2026-05-19T07:37:21]     },
+[2026-05-19T07:37:21]     {
+[2026-05-19T07:37:21]       "article_id": "2026-468",
+[2026-05-19T07:37:21]       "type": "SENTIER",
+[2026-05-19T07:37:21]       "title": "Argumenter sur un budget européen sans se laisser enfermer dans les faux totaux",
+[2026-05-19T07:37:21]       "wordpress_id": 4236,
+[2026-05-19T07:37:21]       "wordpress_url": "https://le-phare.info/?p=4236",
+[2026-05-19T07:37:21]       "updated_paths": [
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-19_budget-ue-scharpf-argumentation_triptyque\\2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md",
+[2026-05-19T07:37:21]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_03_Argumentation\\2026-468_SENTIER_POL_argumenter_budget_europeen_sans_faux_totaux_V1.md"
+[2026-05-19T07:37:21]       ],
+[2026-05-19T07:37:21]       "status": "updated",
+[2026-05-19T07:37:21]       "error": ""
+[2026-05-19T07:37:21]     }
+[2026-05-19T07:37:21]   ],
+[2026-05-19T07:37:21]   "errors": []
+[2026-05-19T07:37:21] }
+[2026-05-19T07:37:21] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-19_budget-ue-scharpf-argumentation_triptyque

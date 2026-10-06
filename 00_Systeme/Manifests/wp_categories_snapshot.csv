@@ -1,0 +1,74 @@
+id,count,parent,slug,name
+1,18,0,non-classe,Non classé
+3,15,91,politique-societe,🏛️ Politique & Société
+4,13,91,geopolitique-relations-internationales,🌍 Géopolitique & Relations Internationales
+5,8,91,economie-finance,📊 Économie & Finance
+6,13,91,technologie-intelligence-artificielle,🤖 Technologie & Intelligence Artificielle
+7,10,91,environnement-climat,🌱 Environnement & Climat
+8,17,91,science-sante,🧠 Science & Santé
+25,0,0,uncategorized,Uncategorized
+30,26,0,le-phare-info,Le phare info
+31,2,0,analyse-approfondie,Analyse approfondie
+32,0,0,decryptage,Décryptage
+33,1,0,dossier-special,Dossier spécial
+35,7,33,slow-journalism,Slow Journalism
+36,1,33,transition-energetique,Transition énergétique
+37,2,6,biais-ia,Biais de l' intelligence artificielle
+39,1,0,projet,Projet
+40,2,33,bases-du-journalisme,Bases du journalisme
+48,3,0,cours-anglais,Cours d'anglais
+51,1,0,revue-de-presse,Revue de presse
+53,0,0,culture-medias,Culture & Médias
+54,0,0,histoire-memoire,Histoire & Mémoire
+55,0,0,innovations-futur,Innovations & Futur
+56,0,0,societes-minorites,Sociétés & Minorités
+72,2,0,formation-curateur,Formation curateur
+73,9,91,sentier-du-savoir,sentier du savoir
+74,20,73,culture-generale-solide,Culture générale solide
+75,1,76,azure-devops,Azure DevOps
+76,2,6,cloud-services-numeriques,Cloud & Services numériques
+77,5,0,physique-de-information,physique de l'information
+78,0,0,ecologie-des-savoir,Ecologie des savoir
+79,23,73,pensee-critique,Pensée critique
+80,11,73,domaines-dexpertise,Domaines d’expertise
+81,11,73,polyglotte-et-cosmopolite,Polyglotte et cosmopolite
+82,12,73,ecrire-et-transmettre,Ecrire et transmettre
+83,15,73,methode-scientifique-et-experimenter,Méthode scientifique et expérimenter
+84,19,73,relier-les-savoirs,Relier les savoirs
+85,14,73,prendre-soin-de-son-corps-et-de-son-esprit,Prendre soin de son corps et de son esprit
+86,0,8,sante,Santé
+87,1,86,pediatrie,Pédiatrie
+88,1,83,cas-pratique,Cas pratique
+89,13,73,argumenter-et-convaincre,Argumenter et convaincre
+91,0,0,all,Tous nos articles
+94,6,0,description-categories,Description catégories
+95,1,73,devenir-eclaireur,devenir eclaireur
+96,4,0,home,Home
+97,2,91,cycle,Dossier hebdomadaire - Notre fil rouge
+98,6,97,observer,Observer
+99,6,97,comprendre,Comprendre
+100,5,97,relier,Relier
+101,5,97,mettre-a-distance,Mettre à distance
+102,5,97,transmettre,Transmettre
+103,0,97,architecture,Architecture
+106,1,91,memoire,Mémoire
+107,1,106,cycles-aboutis,Cycles aboutis
+108,12,106,textes-fondateurs,Textes fondateurs
+109,1,106,articles-de-fond,Articles de fond
+110,1,106,reperes-transversaux,Repères transversaux
+125,0,0,dossier-hebdomadaire,dossier-hebdomadaire
+140,0,0,actualites-politique-societe,actualites-politique-societe
+141,0,0,geopolitique,geopolitique
+145,0,0,textes-fondateurs-auteurs,textes-fondateurs-auteurs
+146,0,0,diplomatie,diplomatie
+150,0,0,step-08-relier-savoirs-et-experience,step-08-relier-savoirs-et-experience
+151,0,0,histoire-mondiale,histoire-mondiale
+154,0,0,01-actualites-politique-societe,01-actualites-politique-societe
+158,0,0,04-textes-fondateurs-auteurs,04-textes-fondateurs-auteurs
+162,0,0,05-sentier-etape-08-rlier-savoirs-et-experience,05-sentier-etape-08-rlier-savoirs-et-experience
+165,2,0,actualites,actualites
+169,0,0,monde,Monde
+173,6,0,economie,Economie
+178,2,0,sentier,Sentier
+188,0,0,05-sentier-etape-06-methode-scientifique,05-sentier-etape-06-methode-scientifique
+192,0,0,lire-un-choc-energetique,lire-un-choc-energetique

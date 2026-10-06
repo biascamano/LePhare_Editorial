@@ -1,0 +1,139 @@
+[2026-05-27T07:35:23] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-27_nis2-templates-perrow_triptyque
+[2026-05-27T07:35:23] Selected topic label: 2026-05-27_nis2-templates-perrow_triptyque
+[2026-05-27T07:35:23] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-27_nis2-templates-perrow_triptyque --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-05-27T07:35:23] --- WP-PUSH OUTPUT ---
+[2026-05-27T07:35:53] {
+[2026-05-27T07:35:53]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque",
+[2026-05-27T07:35:53]   "total": 3,
+[2026-05-27T07:35:53]   "created": 3,
+[2026-05-27T07:35:53]   "skipped": 0,
+[2026-05-27T07:35:53]   "failed": 0,
+[2026-05-27T07:35:53]   "items": [
+[2026-05-27T07:35:53]     {
+[2026-05-27T07:35:53]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-484_ACTU_TECH_nis2_modeles_declaration_incident_mai_2026_simplification_et_contrainte_V1.md",
+[2026-05-27T07:35:53]       "article_id": "2026-484",
+[2026-05-27T07:35:53]       "title": "NIS2 : quand Bruxelles harmonise les déclarations d'incident cyber — et que la contrainte se durcit au printemps 2026",
+[2026-05-27T07:35:53]       "status": "draft",
+[2026-05-27T07:35:53]       "wordpress_id": 4585,
+[2026-05-27T07:35:53]       "slug": "nis2-modeles-declaration-incident-mai-2026-simplification-et-contrainte",
+[2026-05-27T07:35:53]       "link": "https://le-phare.info/?p=4585",
+[2026-05-27T07:35:53]       "categories": [
+[2026-05-27T07:35:53]         "actualites"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "tags": [
+[2026-05-27T07:35:53]         "technologie-ia",
+[2026-05-27T07:35:53]         "sentier-langues",
+[2026-05-27T07:35:53]         "nis2",
+[2026-05-27T07:35:53]         "cybersecurite",
+[2026-05-27T07:35:53]         "incident-reporting",
+[2026-05-27T07:35:53]         "posture-observer",
+[2026-05-27T07:35:53]         "triptyque"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "index_updated": true,
+[2026-05-27T07:35:53]       "featured_media": 2133,
+[2026-05-27T07:35:53]       "error": ""
+[2026-05-27T07:35:53]     },
+[2026-05-27T07:35:53]     {
+[2026-05-27T07:35:53]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-485_TF_TECH_charles_perrow_accidents_normaux_systemes_complexes_nis2_V1.md",
+[2026-05-27T07:35:53]       "article_id": "2026-485",
+[2026-05-27T07:35:53]       "title": "Charles Perrow : les « accidents normaux » dans les systèmes complexes — lire NIS2 autrement",
+[2026-05-27T07:35:53]       "status": "draft",
+[2026-05-27T07:35:53]       "wordpress_id": 4586,
+[2026-05-27T07:35:53]       "slug": "charles-perrow-accidents-normaux-systemes-complexes-nis2",
+[2026-05-27T07:35:53]       "link": "https://le-phare.info/?p=4586",
+[2026-05-27T07:35:53]       "categories": [
+[2026-05-27T07:35:53]         "textes-fondateurs"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "tags": [
+[2026-05-27T07:35:53]         "technologie-ia",
+[2026-05-27T07:35:53]         "sentier-approfondissement",
+[2026-05-27T07:35:53]         "charles-perrow",
+[2026-05-27T07:35:53]         "systemes-complexes",
+[2026-05-27T07:35:53]         "cybersecurite",
+[2026-05-27T07:35:53]         "triptyque"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "index_updated": true,
+[2026-05-27T07:35:53]       "featured_media": 2133,
+[2026-05-27T07:35:53]       "error": ""
+[2026-05-27T07:35:53]     },
+[2026-05-27T07:35:53]     {
+[2026-05-27T07:35:53]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-486_SENTIER_TECH_decoder_formulaire_declaration_cyber_europeen_delais_champs_vocabulaire_V1.md",
+[2026-05-27T07:35:53]       "article_id": "2026-486",
+[2026-05-27T07:35:53]       "title": "Décoder un formulaire de déclaration cyber européen : délais, champs et vocabulaire institutionnel",
+[2026-05-27T07:35:53]       "status": "draft",
+[2026-05-27T07:35:53]       "wordpress_id": 4587,
+[2026-05-27T07:35:53]       "slug": "decoder-formulaire-declaration-cyber-europeen-delais-champs-vocabulaire",
+[2026-05-27T07:35:53]       "link": "https://le-phare.info/?p=4587",
+[2026-05-27T07:35:53]       "categories": [
+[2026-05-27T07:35:53]         "sentier-du-savoir"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "tags": [
+[2026-05-27T07:35:53]         "technologie-ia",
+[2026-05-27T07:35:53]         "sentier-langues",
+[2026-05-27T07:35:53]         "nis2",
+[2026-05-27T07:35:53]         "cybersecurite",
+[2026-05-27T07:35:53]         "atelier-sentier",
+[2026-05-27T07:35:53]         "fondamental-2026-164",
+[2026-05-27T07:35:53]         "posture-comprendre",
+[2026-05-27T07:35:53]         "triptyque"
+[2026-05-27T07:35:53]       ],
+[2026-05-27T07:35:53]       "index_updated": true,
+[2026-05-27T07:35:53]       "featured_media": 2133,
+[2026-05-27T07:35:53]       "error": ""
+[2026-05-27T07:35:53]     }
+[2026-05-27T07:35:53]   ]
+[2026-05-27T07:35:53] }
+[2026-05-27T07:35:53] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-27_nis2-templates-perrow_triptyque --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-27T07:35:53] --- POST-LINKING OUTPUT ---
+[2026-05-27T07:35:56] {
+[2026-05-27T07:35:56]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque",
+[2026-05-27T07:35:56]   "mode": "triptyque_linking_v2",
+[2026-05-27T07:35:56]   "dry_run": false,
+[2026-05-27T07:35:56]   "total": 3,
+[2026-05-27T07:35:56]   "updated_local": 3,
+[2026-05-27T07:35:56]   "updated_wordpress": 3,
+[2026-05-27T07:35:56]   "items": [
+[2026-05-27T07:35:56]     {
+[2026-05-27T07:35:56]       "article_id": "2026-484",
+[2026-05-27T07:35:56]       "type": "ACTU",
+[2026-05-27T07:35:56]       "title": "NIS2 : quand Bruxelles harmonise les déclarations d'incident cyber — et que la contrainte se durcit au printemps 2026",
+[2026-05-27T07:35:56]       "wordpress_id": 4585,
+[2026-05-27T07:35:56]       "wordpress_url": "https://le-phare.info/?p=4585",
+[2026-05-27T07:35:56]       "updated_paths": [
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-484_ACTU_TECH_nis2_modeles_declaration_incident_mai_2026_simplification_et_contrainte_V1.md",
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-484_ACTU_TECH_nis2_modeles_declaration_incident_mai_2026_simplification_et_contrainte_V1.md"
+[2026-05-27T07:35:56]       ],
+[2026-05-27T07:35:56]       "status": "updated",
+[2026-05-27T07:35:56]       "error": ""
+[2026-05-27T07:35:56]     },
+[2026-05-27T07:35:56]     {
+[2026-05-27T07:35:56]       "article_id": "2026-485",
+[2026-05-27T07:35:56]       "type": "TF",
+[2026-05-27T07:35:56]       "title": "Charles Perrow : les « accidents normaux » dans les systèmes complexes — lire NIS2 autrement",
+[2026-05-27T07:35:56]       "wordpress_id": 4586,
+[2026-05-27T07:35:56]       "wordpress_url": "https://le-phare.info/?p=4586",
+[2026-05-27T07:35:56]       "updated_paths": [
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-485_TF_TECH_charles_perrow_accidents_normaux_systemes_complexes_nis2_V1.md",
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-485_TF_TECH_charles_perrow_accidents_normaux_systemes_complexes_nis2_V1.md"
+[2026-05-27T07:35:56]       ],
+[2026-05-27T07:35:56]       "status": "updated",
+[2026-05-27T07:35:56]       "error": ""
+[2026-05-27T07:35:56]     },
+[2026-05-27T07:35:56]     {
+[2026-05-27T07:35:56]       "article_id": "2026-486",
+[2026-05-27T07:35:56]       "type": "SENTIER",
+[2026-05-27T07:35:56]       "title": "Décoder un formulaire de déclaration cyber européen : délais, champs et vocabulaire institutionnel",
+[2026-05-27T07:35:56]       "wordpress_id": 4587,
+[2026-05-27T07:35:56]       "wordpress_url": "https://le-phare.info/?p=4587",
+[2026-05-27T07:35:56]       "updated_paths": [
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-05-27_nis2-templates-perrow_triptyque\\2026-486_SENTIER_TECH_decoder_formulaire_declaration_cyber_europeen_delais_champs_vocabulaire_V1.md",
+[2026-05-27T07:35:56]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_05_Polyglotte\\2026-486_SENTIER_TECH_decoder_formulaire_declaration_cyber_europeen_delais_champs_vocabulaire_V1.md"
+[2026-05-27T07:35:56]       ],
+[2026-05-27T07:35:56]       "status": "updated",
+[2026-05-27T07:35:56]       "error": ""
+[2026-05-27T07:35:56]     }
+[2026-05-27T07:35:56]   ],
+[2026-05-27T07:35:56]   "errors": []
+[2026-05-27T07:35:56] }
+[2026-05-27T07:35:56] [V2] Rappel fondamental parent : fondamental-2026-164 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-05-27T07:35:56] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-05-27_nis2-templates-perrow_triptyque

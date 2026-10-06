@@ -1,0 +1,137 @@
+[2026-06-15T08:45:13] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-15_conscience_probleme_difficile
+[2026-06-15T08:45:13] Selected topic label: 2026-06-15_conscience_probleme_difficile
+[2026-06-15T08:45:13] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-15_conscience_probleme_difficile --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-15T08:45:13] --- WP-PUSH OUTPUT ---
+[2026-06-15T08:45:52] {
+[2026-06-15T08:45:52]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile",
+[2026-06-15T08:45:52]   "total": 3,
+[2026-06-15T08:45:52]   "created": 3,
+[2026-06-15T08:45:52]   "skipped": 0,
+[2026-06-15T08:45:52]   "failed": 0,
+[2026-06-15T08:45:52]   "items": [
+[2026-06-15T08:45:52]     {
+[2026-06-15T08:45:52]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-525_ACTU_SCIENCE_probleme_difficile_conscience_koch_chalmers_juin_2026_V1.md",
+[2026-06-15T08:45:52]       "article_id": "2026-525",
+[2026-06-15T08:45:52]       "title": "Le « problème difficile » de la conscience : ce que Christof Koch remet en jeu — et ce que la neuroscience ne résout pas encore",
+[2026-06-15T08:45:52]       "status": "draft",
+[2026-06-15T08:45:52]       "wordpress_id": 4946,
+[2026-06-15T08:45:52]       "slug": "probleme-difficile-conscience-koch-chalmers-juin-2026",
+[2026-06-15T08:45:52]       "link": "https://le-phare.info/?p=4946",
+[2026-06-15T08:45:52]       "categories": [
+[2026-06-15T08:45:52]         "actualites"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "tags": [
+[2026-06-15T08:45:52]         "science-sante",
+[2026-06-15T08:45:52]         "sentier-critique",
+[2026-06-15T08:45:52]         "posture-observer",
+[2026-06-15T08:45:52]         "triptyque",
+[2026-06-15T08:45:52]         "probleme-difficile-conscience",
+[2026-06-15T08:45:52]         "christof-koch",
+[2026-06-15T08:45:52]         "david-chalmers"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "index_updated": true,
+[2026-06-15T08:45:52]       "featured_media": 2060,
+[2026-06-15T08:45:52]       "error": ""
+[2026-06-15T08:45:52]     },
+[2026-06-15T08:45:52]     {
+[2026-06-15T08:45:52]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-526_TF_SCIENCE_david_chalmers_probleme_difficile_conscience_1995_grille_V1.md",
+[2026-06-15T08:45:52]       "article_id": "2026-526",
+[2026-06-15T08:45:52]       "title": "David Chalmers (1995) : nommer le « problème difficile » — et ne pas le confondre avec les « faciles »",
+[2026-06-15T08:45:52]       "status": "draft",
+[2026-06-15T08:45:52]       "wordpress_id": 4947,
+[2026-06-15T08:45:52]       "slug": "david-chalmers-probleme-difficile-conscience-1995-grille",
+[2026-06-15T08:45:52]       "link": "https://le-phare.info/?p=4947",
+[2026-06-15T08:45:52]       "categories": [
+[2026-06-15T08:45:52]         "textes-fondateurs"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "tags": [
+[2026-06-15T08:45:52]         "science-sante",
+[2026-06-15T08:45:52]         "sentier-approfondissement",
+[2026-06-15T08:45:52]         "posture-comprendre",
+[2026-06-15T08:45:52]         "triptyque",
+[2026-06-15T08:45:52]         "david-chalmers",
+[2026-06-15T08:45:52]         "probleme-difficile-conscience"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "index_updated": true,
+[2026-06-15T08:45:52]       "featured_media": 2060,
+[2026-06-15T08:45:52]       "error": ""
+[2026-06-15T08:45:52]     },
+[2026-06-15T08:45:52]     {
+[2026-06-15T08:45:52]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-527_SENTIER_CULTURE_cartographier_controverses_probleme_difficile_conscience_V1.md",
+[2026-06-15T08:45:52]       "article_id": "2026-527",
+[2026-06-15T08:45:52]       "title": "Cartographier trois controverses sur le problème difficile de la conscience (juin 2026)",
+[2026-06-15T08:45:52]       "status": "draft",
+[2026-06-15T08:45:52]       "wordpress_id": 4948,
+[2026-06-15T08:45:52]       "slug": "cartographier-controverses-probleme-difficile-conscience",
+[2026-06-15T08:45:52]       "link": "https://le-phare.info/?p=4948",
+[2026-06-15T08:45:52]       "categories": [
+[2026-06-15T08:45:52]         "sentier-du-savoir"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "tags": [
+[2026-06-15T08:45:52]         "culture-philosophie",
+[2026-06-15T08:45:52]         "sentier-approfondissement",
+[2026-06-15T08:45:52]         "posture-comprendre",
+[2026-06-15T08:45:52]         "triptyque",
+[2026-06-15T08:45:52]         "atelier-sentier",
+[2026-06-15T08:45:52]         "fondamental-2026-177",
+[2026-06-15T08:45:52]         "probleme-difficile-conscience"
+[2026-06-15T08:45:52]       ],
+[2026-06-15T08:45:52]       "index_updated": true,
+[2026-06-15T08:45:52]       "featured_media": 4738,
+[2026-06-15T08:45:52]       "error": ""
+[2026-06-15T08:45:52]     }
+[2026-06-15T08:45:52]   ]
+[2026-06-15T08:45:52] }
+[2026-06-15T08:45:52] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-15_conscience_probleme_difficile --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-15T08:45:52] --- POST-LINKING OUTPUT ---
+[2026-06-15T08:45:55] {
+[2026-06-15T08:45:55]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile",
+[2026-06-15T08:45:55]   "mode": "triptyque_linking_v2",
+[2026-06-15T08:45:55]   "dry_run": false,
+[2026-06-15T08:45:55]   "total": 3,
+[2026-06-15T08:45:55]   "updated_local": 3,
+[2026-06-15T08:45:55]   "updated_wordpress": 3,
+[2026-06-15T08:45:55]   "items": [
+[2026-06-15T08:45:55]     {
+[2026-06-15T08:45:55]       "article_id": "2026-525",
+[2026-06-15T08:45:55]       "type": "ACTU",
+[2026-06-15T08:45:55]       "title": "Le « problème difficile » de la conscience : ce que Christof Koch remet en jeu — et ce que la neuroscience ne résout pas encore",
+[2026-06-15T08:45:55]       "wordpress_id": 4946,
+[2026-06-15T08:45:55]       "wordpress_url": "https://le-phare.info/?p=4946",
+[2026-06-15T08:45:55]       "updated_paths": [
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-525_ACTU_SCIENCE_probleme_difficile_conscience_koch_chalmers_juin_2026_V1.md",
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Science_Sante\\2026-525_ACTU_SCIENCE_probleme_difficile_conscience_koch_chalmers_juin_2026_V1.md"
+[2026-06-15T08:45:55]       ],
+[2026-06-15T08:45:55]       "status": "updated",
+[2026-06-15T08:45:55]       "error": ""
+[2026-06-15T08:45:55]     },
+[2026-06-15T08:45:55]     {
+[2026-06-15T08:45:55]       "article_id": "2026-526",
+[2026-06-15T08:45:55]       "type": "TF",
+[2026-06-15T08:45:55]       "title": "David Chalmers (1995) : nommer le « problème difficile » — et ne pas le confondre avec les « faciles »",
+[2026-06-15T08:45:55]       "wordpress_id": 4947,
+[2026-06-15T08:45:55]       "wordpress_url": "https://le-phare.info/?p=4947",
+[2026-06-15T08:45:55]       "updated_paths": [
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-526_TF_SCIENCE_david_chalmers_probleme_difficile_conscience_1995_grille_V1.md",
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-526_TF_SCIENCE_david_chalmers_probleme_difficile_conscience_1995_grille_V1.md"
+[2026-06-15T08:45:55]       ],
+[2026-06-15T08:45:55]       "status": "updated",
+[2026-06-15T08:45:55]       "error": ""
+[2026-06-15T08:45:55]     },
+[2026-06-15T08:45:55]     {
+[2026-06-15T08:45:55]       "article_id": "2026-527",
+[2026-06-15T08:45:55]       "type": "SENTIER",
+[2026-06-15T08:45:55]       "title": "Cartographier trois controverses sur le problème difficile de la conscience (juin 2026)",
+[2026-06-15T08:45:55]       "wordpress_id": 4948,
+[2026-06-15T08:45:55]       "wordpress_url": "https://le-phare.info/?p=4948",
+[2026-06-15T08:45:55]       "updated_paths": [
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-15_conscience_probleme_difficile\\2026-527_SENTIER_CULTURE_cartographier_controverses_probleme_difficile_conscience_V1.md",
+[2026-06-15T08:45:55]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_04_Expertise\\2026-527_SENTIER_CULTURE_cartographier_controverses_probleme_difficile_conscience_V1.md"
+[2026-06-15T08:45:55]       ],
+[2026-06-15T08:45:55]       "status": "updated",
+[2026-06-15T08:45:55]       "error": ""
+[2026-06-15T08:45:55]     }
+[2026-06-15T08:45:55]   ],
+[2026-06-15T08:45:55]   "errors": []
+[2026-06-15T08:45:55] }
+[2026-06-15T08:45:55] [V2] Rappel fondamental parent : fondamental-2026-177 — rafraîchir WP manuellement pour afficher ## Ateliers.

@@ -1,0 +1,165 @@
+[2026-06-10T07:33:25] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_briefing-slow
+[2026-06-10T07:33:25] Selected topic label: 2026-06-10_briefing-slow
+[2026-06-10T07:33:25] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_briefing-slow --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-10T07:33:25] --- WP-PUSH OUTPUT ---
+[2026-06-10T07:33:32] {
+[2026-06-10T07:33:32]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_briefing-slow\\2026-515_BRIEFING_MONDE_briefing_slow_mercredi_10_juin_2026_V1.md",
+[2026-06-10T07:33:32]   "article_id": "2026-515",
+[2026-06-10T07:33:32]   "title": "Briefing Slow — mercredi 10 juin 2026 : Ormuz élargi, ETS sous pression, Ukraine sans médiateur",
+[2026-06-10T07:33:32]   "status": "draft",
+[2026-06-10T07:33:32]   "skipped": false,
+[2026-06-10T07:33:32]   "wordpress_id": 4876,
+[2026-06-10T07:33:32]   "wordpress_slug": "briefing-monde-briefing-slow-mercredi-10-juin-2026",
+[2026-06-10T07:33:32]   "wordpress_link": "https://le-phare.info/?p=4876",
+[2026-06-10T07:33:32]   "categories": [
+[2026-06-10T07:33:32]     "actualites",
+[2026-06-10T07:33:32]     "revue-de-presse"
+[2026-06-10T07:33:32]   ],
+[2026-06-10T07:33:32]   "tags": [
+[2026-06-10T07:33:32]     "politique-societe",
+[2026-06-10T07:33:32]     "sentier-critique",
+[2026-06-10T07:33:32]     "briefing-slow",
+[2026-06-10T07:33:32]     "slow-journalism",
+[2026-06-10T07:33:32]     "posture-observer",
+[2026-06-10T07:33:32]     "revue-de-presse"
+[2026-06-10T07:33:32]   ],
+[2026-06-10T07:33:32]   "index_updated": true,
+[2026-06-10T07:33:32]   "error": "",
+[2026-06-10T07:33:32]   "featured_media_id": 2117
+[2026-06-10T07:33:32] }
+[2026-06-10T07:33:32] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_briefing-slow --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-10T07:33:32] --- POST-LINKING OUTPUT ---
+[2026-06-10T07:33:32] Triptych linking error: Expected exactly 3 markdown files in triptych directory, found 1
+[2026-06-10T08:50:06] Statut précédent : error — relance autorisée sans --force.
+[2026-06-10T08:50:06] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_depenses-nucleaires-sophismes
+[2026-06-10T08:50:06] Selected topic label: 2026-06-10_depenses-nucleaires-sophismes
+[2026-06-10T08:50:06] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_depenses-nucleaires-sophismes --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-10T08:50:06] --- WP-PUSH OUTPUT ---
+[2026-06-10T08:50:36] {
+[2026-06-10T08:50:36]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes",
+[2026-06-10T08:50:36]   "total": 3,
+[2026-06-10T08:50:36]   "created": 3,
+[2026-06-10T08:50:36]   "skipped": 0,
+[2026-06-10T08:50:36]   "failed": 0,
+[2026-06-10T08:50:36]   "items": [
+[2026-06-10T08:50:36]     {
+[2026-06-10T08:50:36]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-516_ACTU_MONDE_depenses_nucleaires_119_milliards_juin_2026_V1.md",
+[2026-06-10T08:50:36]       "article_id": "2026-516",
+[2026-06-10T08:50:36]       "title": "Dépenses nucléaires mondiales : 119 milliards de dollars en 2025, et trois chiffres français à ne pas confondre",
+[2026-06-10T08:50:36]       "status": "draft",
+[2026-06-10T08:50:36]       "wordpress_id": 4878,
+[2026-06-10T08:50:36]       "slug": "depenses-nucleaires-mondiales-119-milliards-2026",
+[2026-06-10T08:50:36]       "link": "https://le-phare.info/?p=4878",
+[2026-06-10T08:50:36]       "categories": [
+[2026-06-10T08:50:36]         "actualites"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "tags": [
+[2026-06-10T08:50:36]         "monde",
+[2026-06-10T08:50:36]         "sentier-critique",
+[2026-06-10T08:50:36]         "posture-observer",
+[2026-06-10T08:50:36]         "triptyque"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "index_updated": true,
+[2026-06-10T08:50:36]       "featured_media": 2112,
+[2026-06-10T08:50:36]       "error": ""
+[2026-06-10T08:50:36]     },
+[2026-06-10T08:50:36]     {
+[2026-06-10T08:50:36]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-517_TF_MONDE_thomas_schelling_dissuasion_nucleaire_V1.md",
+[2026-06-10T08:50:36]       "article_id": "2026-517",
+[2026-06-10T08:50:36]       "title": "Thomas Schelling : pourquoi un budget nucléaire est aussi un message",
+[2026-06-10T08:50:36]       "status": "draft",
+[2026-06-10T08:50:36]       "wordpress_id": 4879,
+[2026-06-10T08:50:36]       "slug": "thomas-schelling-budget-nucleaire-message-credibilite",
+[2026-06-10T08:50:36]       "link": "https://le-phare.info/?p=4879",
+[2026-06-10T08:50:36]       "categories": [
+[2026-06-10T08:50:36]         "textes-fondateurs"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "tags": [
+[2026-06-10T08:50:36]         "monde",
+[2026-06-10T08:50:36]         "sentier-approfondissement",
+[2026-06-10T08:50:36]         "posture-comprendre",
+[2026-06-10T08:50:36]         "triptyque"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "index_updated": true,
+[2026-06-10T08:50:36]       "featured_media": 2112,
+[2026-06-10T08:50:36]       "error": ""
+[2026-06-10T08:50:36]     },
+[2026-06-10T08:50:36]     {
+[2026-06-10T08:50:36]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-518_SENTIER_MONDE_reperer_sophismes_chiffres_chocs_nucleaire_V1.md",
+[2026-06-10T08:50:36]       "article_id": "2026-518",
+[2026-06-10T08:50:36]       "title": "Repérer les sophismes derrière les chiffres-chocs du nucléaire militaire (juin 2026)",
+[2026-06-10T08:50:36]       "status": "draft",
+[2026-06-10T08:50:36]       "wordpress_id": 4880,
+[2026-06-10T08:50:36]       "slug": "reperer-sophismes-chiffres-chocs-nucleaire-militaire",
+[2026-06-10T08:50:36]       "link": "https://le-phare.info/?p=4880",
+[2026-06-10T08:50:36]       "categories": [
+[2026-06-10T08:50:36]         "sentier-du-savoir"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "tags": [
+[2026-06-10T08:50:36]         "monde",
+[2026-06-10T08:50:36]         "sentier-approfondissement",
+[2026-06-10T08:50:36]         "posture-comprendre",
+[2026-06-10T08:50:36]         "triptyque",
+[2026-06-10T08:50:36]         "atelier-sentier",
+[2026-06-10T08:50:36]         "fondamental-2026-188"
+[2026-06-10T08:50:36]       ],
+[2026-06-10T08:50:36]       "index_updated": true,
+[2026-06-10T08:50:36]       "featured_media": 2112,
+[2026-06-10T08:50:36]       "error": ""
+[2026-06-10T08:50:36]     }
+[2026-06-10T08:50:36]   ]
+[2026-06-10T08:50:36] }
+[2026-06-10T08:50:36] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_depenses-nucleaires-sophismes --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-10T08:50:36] --- POST-LINKING OUTPUT ---
+[2026-06-10T08:50:40] {
+[2026-06-10T08:50:40]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes",
+[2026-06-10T08:50:40]   "mode": "triptyque_linking_v2",
+[2026-06-10T08:50:40]   "dry_run": false,
+[2026-06-10T08:50:40]   "total": 3,
+[2026-06-10T08:50:40]   "updated_local": 3,
+[2026-06-10T08:50:40]   "updated_wordpress": 3,
+[2026-06-10T08:50:40]   "items": [
+[2026-06-10T08:50:40]     {
+[2026-06-10T08:50:40]       "article_id": "2026-516",
+[2026-06-10T08:50:40]       "type": "ACTU",
+[2026-06-10T08:50:40]       "title": "Dépenses nucléaires mondiales : 119 milliards de dollars en 2025, et trois chiffres français à ne pas confondre",
+[2026-06-10T08:50:40]       "wordpress_id": 4878,
+[2026-06-10T08:50:40]       "wordpress_url": "https://le-phare.info/?p=4878",
+[2026-06-10T08:50:40]       "updated_paths": [
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-516_ACTU_MONDE_depenses_nucleaires_119_milliards_juin_2026_V1.md",
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Politique_Societe\\2026-516_ACTU_MONDE_depenses_nucleaires_119_milliards_juin_2026_V1.md"
+[2026-06-10T08:50:40]       ],
+[2026-06-10T08:50:40]       "status": "updated",
+[2026-06-10T08:50:40]       "error": ""
+[2026-06-10T08:50:40]     },
+[2026-06-10T08:50:40]     {
+[2026-06-10T08:50:40]       "article_id": "2026-517",
+[2026-06-10T08:50:40]       "type": "TF",
+[2026-06-10T08:50:40]       "title": "Thomas Schelling : pourquoi un budget nucléaire est aussi un message",
+[2026-06-10T08:50:40]       "wordpress_id": 4879,
+[2026-06-10T08:50:40]       "wordpress_url": "https://le-phare.info/?p=4879",
+[2026-06-10T08:50:40]       "updated_paths": [
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-517_TF_MONDE_thomas_schelling_dissuasion_nucleaire_V1.md",
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-517_TF_MONDE_thomas_schelling_dissuasion_nucleaire_V1.md"
+[2026-06-10T08:50:40]       ],
+[2026-06-10T08:50:40]       "status": "updated",
+[2026-06-10T08:50:40]       "error": ""
+[2026-06-10T08:50:40]     },
+[2026-06-10T08:50:40]     {
+[2026-06-10T08:50:40]       "article_id": "2026-518",
+[2026-06-10T08:50:40]       "type": "SENTIER",
+[2026-06-10T08:50:40]       "title": "Repérer les sophismes derrière les chiffres-chocs du nucléaire militaire (juin 2026)",
+[2026-06-10T08:50:40]       "wordpress_id": 4880,
+[2026-06-10T08:50:40]       "wordpress_url": "https://le-phare.info/?p=4880",
+[2026-06-10T08:50:40]       "updated_paths": [
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-10_depenses-nucleaires-sophismes\\2026-518_SENTIER_MONDE_reperer_sophismes_chiffres_chocs_nucleaire_V1.md",
+[2026-06-10T08:50:40]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_03_Argumentation\\2026-518_SENTIER_MONDE_reperer_sophismes_chiffres_chocs_nucleaire_V1.md"
+[2026-06-10T08:50:40]       ],
+[2026-06-10T08:50:40]       "status": "updated",
+[2026-06-10T08:50:40]       "error": ""
+[2026-06-10T08:50:40]     }
+[2026-06-10T08:50:40]   ],
+[2026-06-10T08:50:40]   "errors": []
+[2026-06-10T08:50:40] }
+[2026-06-10T08:50:40] [V2] Rappel fondamental parent : fondamental-2026-188 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-10T08:50:40] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-10_depenses-nucleaires-sophismes

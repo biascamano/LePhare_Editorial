@@ -1,0 +1,140 @@
+[2026-06-09T07:59:27] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-09_accelerateeu-fiscalite-electricite
+[2026-06-09T07:59:27] Selected topic label: 2026-06-09_accelerateeu-fiscalite-electricite
+[2026-06-09T07:59:27] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-09_accelerateeu-fiscalite-electricite --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-06-09T07:59:27] --- WP-PUSH OUTPUT ---
+[2026-06-09T08:00:04] {
+[2026-06-09T08:00:04]   "source": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite",
+[2026-06-09T08:00:04]   "total": 3,
+[2026-06-09T08:00:04]   "created": 3,
+[2026-06-09T08:00:04]   "skipped": 0,
+[2026-06-09T08:00:04]   "failed": 0,
+[2026-06-09T08:00:04]   "items": [
+[2026-06-09T08:00:04]     {
+[2026-06-09T08:00:04]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-512_ACTU_CLIMAT_accelerateeu_fiscalite_electricite_choc_juin_2026_V1.md",
+[2026-06-09T08:00:04]       "article_id": "2026-512",
+[2026-06-09T08:00:04]       "title": "AccelerateEU : fiscalité électricité, 44 mesures et ce que la deuxième vague de choc change en juin 2026",
+[2026-06-09T08:00:04]       "status": "draft",
+[2026-06-09T08:00:04]       "wordpress_id": 4863,
+[2026-06-09T08:00:04]       "slug": "accelerateeu-fiscalite-electricite-choc-juin-2026",
+[2026-06-09T08:00:04]       "link": "https://le-phare.info/?p=4863",
+[2026-06-09T08:00:04]       "categories": [
+[2026-06-09T08:00:04]         "actualites"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "tags": [
+[2026-06-09T08:00:04]         "environnement-climat",
+[2026-06-09T08:00:04]         "sentier-critique",
+[2026-06-09T08:00:04]         "accelerateeu",
+[2026-06-09T08:00:04]         "fiscalite-energetique",
+[2026-06-09T08:00:04]         "electrification",
+[2026-06-09T08:00:04]         "transition-energetique",
+[2026-06-09T08:00:04]         "posture-observer",
+[2026-06-09T08:00:04]         "triptyque"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "index_updated": true,
+[2026-06-09T08:00:04]       "featured_media": 2130,
+[2026-06-09T08:00:04]       "error": ""
+[2026-06-09T08:00:04]     },
+[2026-06-09T08:00:04]     {
+[2026-06-09T08:00:04]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-513_TF_CLIMAT_vaclav_smil_accelerateeu_lenteur_transitions_V1.md",
+[2026-06-09T08:00:04]       "article_id": "2026-513",
+[2026-06-09T08:00:04]       "title": "Vaclav Smil et AccelerateEU : lire une stratégie d'urgence à la vitesse réelle des infrastructures",
+[2026-06-09T08:00:04]       "status": "draft",
+[2026-06-09T08:00:04]       "wordpress_id": 4864,
+[2026-06-09T08:00:04]       "slug": "vaclav-smil-accelerateeu-lenteur-transitions",
+[2026-06-09T08:00:04]       "link": "https://le-phare.info/?p=4864",
+[2026-06-09T08:00:04]       "categories": [
+[2026-06-09T08:00:04]         "textes-fondateurs"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "tags": [
+[2026-06-09T08:00:04]         "environnement-climat",
+[2026-06-09T08:00:04]         "sentier-approfondissement",
+[2026-06-09T08:00:04]         "vaclav-smil",
+[2026-06-09T08:00:04]         "accelerateeu",
+[2026-06-09T08:00:04]         "transitions-energetiques",
+[2026-06-09T08:00:04]         "triptyque"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "index_updated": true,
+[2026-06-09T08:00:04]       "featured_media": 2130,
+[2026-06-09T08:00:04]       "error": ""
+[2026-06-09T08:00:04]     },
+[2026-06-09T08:00:04]     {
+[2026-06-09T08:00:04]       "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-514_SENTIER_CLIMAT_distinguer_urgence_structure_fiscalite_accelerateeu_V1.md",
+[2026-06-09T08:00:04]       "article_id": "2026-514",
+[2026-06-09T08:00:04]       "title": "Distinguer urgence, structure et fiscalité : sept repères dans AccelerateEU (juin 2026)",
+[2026-06-09T08:00:04]       "status": "draft",
+[2026-06-09T08:00:04]       "wordpress_id": 4865,
+[2026-06-09T08:00:04]       "slug": "distinguer-urgence-structure-fiscalite-accelerateeu",
+[2026-06-09T08:00:04]       "link": "https://le-phare.info/?p=4865",
+[2026-06-09T08:00:04]       "categories": [
+[2026-06-09T08:00:04]         "sentier-du-savoir"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "tags": [
+[2026-06-09T08:00:04]         "environnement-climat",
+[2026-06-09T08:00:04]         "sentier-approfondissement",
+[2026-06-09T08:00:04]         "accelerateeu",
+[2026-06-09T08:00:04]         "cartographie",
+[2026-06-09T08:00:04]         "atelier-sentier",
+[2026-06-09T08:00:04]         "fondamental-2026-178",
+[2026-06-09T08:00:04]         "posture-comprendre",
+[2026-06-09T08:00:04]         "triptyque"
+[2026-06-09T08:00:04]       ],
+[2026-06-09T08:00:04]       "index_updated": true,
+[2026-06-09T08:00:04]       "featured_media": 2130,
+[2026-06-09T08:00:04]       "error": ""
+[2026-06-09T08:00:04]     }
+[2026-06-09T08:00:04]   ]
+[2026-06-09T08:00:04] }
+[2026-06-09T08:00:04] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-09_accelerateeu-fiscalite-electricite --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-06-09T08:00:04] --- POST-LINKING OUTPUT ---
+[2026-06-09T08:00:07] {
+[2026-06-09T08:00:07]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite",
+[2026-06-09T08:00:07]   "mode": "triptyque_linking_v2",
+[2026-06-09T08:00:07]   "dry_run": false,
+[2026-06-09T08:00:07]   "total": 3,
+[2026-06-09T08:00:07]   "updated_local": 3,
+[2026-06-09T08:00:07]   "updated_wordpress": 3,
+[2026-06-09T08:00:07]   "items": [
+[2026-06-09T08:00:07]     {
+[2026-06-09T08:00:07]       "article_id": "2026-512",
+[2026-06-09T08:00:07]       "type": "ACTU",
+[2026-06-09T08:00:07]       "title": "AccelerateEU : fiscalité électricité, 44 mesures et ce que la deuxième vague de choc change en juin 2026",
+[2026-06-09T08:00:07]       "wordpress_id": 4863,
+[2026-06-09T08:00:07]       "wordpress_url": "https://le-phare.info/?p=4863",
+[2026-06-09T08:00:07]       "updated_paths": [
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-512_ACTU_CLIMAT_accelerateeu_fiscalite_electricite_choc_juin_2026_V1.md",
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\01_Actualites\\Climat_Transition\\2026-512_ACTU_CLIMAT_accelerateeu_fiscalite_electricite_choc_juin_2026_V1.md"
+[2026-06-09T08:00:07]       ],
+[2026-06-09T08:00:07]       "status": "updated",
+[2026-06-09T08:00:07]       "error": ""
+[2026-06-09T08:00:07]     },
+[2026-06-09T08:00:07]     {
+[2026-06-09T08:00:07]       "article_id": "2026-513",
+[2026-06-09T08:00:07]       "type": "TF",
+[2026-06-09T08:00:07]       "title": "Vaclav Smil et AccelerateEU : lire une stratégie d'urgence à la vitesse réelle des infrastructures",
+[2026-06-09T08:00:07]       "wordpress_id": 4864,
+[2026-06-09T08:00:07]       "wordpress_url": "https://le-phare.info/?p=4864",
+[2026-06-09T08:00:07]       "updated_paths": [
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-513_TF_CLIMAT_vaclav_smil_accelerateeu_lenteur_transitions_V1.md",
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-513_TF_CLIMAT_vaclav_smil_accelerateeu_lenteur_transitions_V1.md"
+[2026-06-09T08:00:07]       ],
+[2026-06-09T08:00:07]       "status": "updated",
+[2026-06-09T08:00:07]       "error": ""
+[2026-06-09T08:00:07]     },
+[2026-06-09T08:00:07]     {
+[2026-06-09T08:00:07]       "article_id": "2026-514",
+[2026-06-09T08:00:07]       "type": "SENTIER",
+[2026-06-09T08:00:07]       "title": "Distinguer urgence, structure et fiscalité : sept repères dans AccelerateEU (juin 2026)",
+[2026-06-09T08:00:07]       "wordpress_id": 4865,
+[2026-06-09T08:00:07]       "wordpress_url": "https://le-phare.info/?p=4865",
+[2026-06-09T08:00:07]       "updated_paths": [
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-06-09_accelerateeu-fiscalite-electricite\\2026-514_SENTIER_CLIMAT_distinguer_urgence_structure_fiscalite_accelerateeu_V1.md",
+[2026-06-09T08:00:07]         "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\05_Sentier\\Etape_04_Expertise\\2026-514_SENTIER_CLIMAT_distinguer_urgence_structure_fiscalite_accelerateeu_V1.md"
+[2026-06-09T08:00:07]       ],
+[2026-06-09T08:00:07]       "status": "updated",
+[2026-06-09T08:00:07]       "error": ""
+[2026-06-09T08:00:07]     }
+[2026-06-09T08:00:07]   ],
+[2026-06-09T08:00:07]   "errors": []
+[2026-06-09T08:00:07] }
+[2026-06-09T08:00:07] [V2] Rappel fondamental parent : fondamental-2026-178 — rafraîchir WP manuellement pour afficher ## Ateliers.
+[2026-06-09T08:00:07] Staging folder removed: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-06-09_accelerateeu-fiscalite-electricite

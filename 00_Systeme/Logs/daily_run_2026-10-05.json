@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05",
+  "status": "success",
+  "topic": "2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible",
+  "theme": "",
+  "source": "agent_written",
+  "source_link": "",
+  "publish_drafts": true,
+  "publish_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible",
+  "stdout": "{\n  \"path\": \"D:\\\\workspaces\\\\Nexus des mondes\\\\LePhare_Editorial\\\\07_A_Publier\\\\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible\\\\2026-548_TF_SCIENCE_campbell_goodhart_quand_une_mesure_devient_une_cible_V1.md\",\n  \"article_id\": \"2026-548\",\n  \"title\": \"Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer\",\n  \"status\": \"draft\",\n  \"skipped\": false,\n  \"wordpress_id\": 5505,\n  \"wordpress_slug\": \"campbell-goodhart-quand-une-mesure-devient-une-cible\",\n  \"wordpress_link\": \"https://le-phare.info/?p=5505\",\n  \"categories\": [\n    \"textes-fondateurs\"\n  ],\n  \"tags\": [\n    \"science-sante\",\n    \"sentier-critique\",\n    \"posture-comprendre\",\n    \"type-texte-fondateur\",\n    \"indicateurs\",\n    \"evaluation\"\n  ],\n  \"index_updated\": true,\n  \"error\": \"\",\n  \"featured_media_id\": 2060\n}\n",
+  "stderr": "",
+  "linking_stdout": "{\n  \"triptych_dir\": \"D:\\\\workspaces\\\\Nexus des mondes\\\\LePhare_Editorial\\\\07_A_Publier\\\\2026-10-05_campbell-goodhart-quand-une-mesure-devient-une-cible\",\n  \"mode\": \"triptyque_linking_v2\",\n  \"dry_run\": false,\n  \"total\": 1,\n  \"updated_local\": 0,\n  \"updated_wordpress\": 1,\n  \"items\": [\n    {\n      \"article_id\": \"2026-548\",\n      \"type\": \"TF\",\n      \"title\": \"Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer\",\n      \"wordpress_id\": 5505,\n      \"wordpress_url\": \"https://le-phare.info/?p=5505\",\n      \"updated_paths\": [],\n      \"status\": \"updated\",\n      \"error\": \"\"\n    }\n  ],\n  \"errors\": []\n}\n",
+  "linking_stderr": "",
+  "returncode": 0,
+  "workflow": "publish_existing",
+  "completed_at": "2026-10-05T17:20:54",
+  "seo_enrich_after_link": false,
+  "seo_phase_ok": true,
+  "parent_refresh_reminder": {
+    "needed": false
+  }
+}

@@ -1,0 +1,191 @@
+[2026-05-07T08:33:33] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque
+[2026-05-07T08:33:33] Selected topic label: 2026-05-07_ia-generative-emploi-qualifie_triptyque
+[2026-05-07T08:33:33] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-07T08:33:33] --- WP-PUSH OUTPUT ---
+[2026-05-07T08:33:33] {
+[2026-05-07T08:33:33]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque",
+[2026-05-07T08:33:33]   "total": 3,
+[2026-05-07T08:33:33]   "created": 0,
+[2026-05-07T08:33:33]   "skipped": 0,
+[2026-05-07T08:33:33]   "failed": 3,
+[2026-05-07T08:33:33]   "items": [
+[2026-05-07T08:33:33]     {
+[2026-05-07T08:33:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-451_ACTU_TECH_ia_generative_et_emplois_qualifies_premiers_signaux_V1.md",
+[2026-05-07T08:33:33]       "article_id": "",
+[2026-05-07T08:33:33]       "title": "2026-451_ACTU_TECH_ia_generative_et_emplois_qualifies_premiers_signaux_V1.md",
+[2026-05-07T08:33:33]       "status": "error",
+[2026-05-07T08:33:33]       "wordpress_id": null,
+[2026-05-07T08:33:33]       "slug": "",
+[2026-05-07T08:33:33]       "link": "",
+[2026-05-07T08:33:33]       "categories": [],
+[2026-05-07T08:33:33]       "tags": [],
+[2026-05-07T08:33:33]       "index_updated": false,
+[2026-05-07T08:33:33]       "featured_media": null,
+[2026-05-07T08:33:33]       "error": "Missing required field: Slug propose"
+[2026-05-07T08:33:33]     },
+[2026-05-07T08:33:33]     {
+[2026-05-07T08:33:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-452_TF_TECH_acemoglu_johnson_power_and_progress_technologie_sans_partage_V1.md",
+[2026-05-07T08:33:33]       "article_id": "",
+[2026-05-07T08:33:33]       "title": "2026-452_TF_TECH_acemoglu_johnson_power_and_progress_technologie_sans_partage_V1.md",
+[2026-05-07T08:33:33]       "status": "error",
+[2026-05-07T08:33:33]       "wordpress_id": null,
+[2026-05-07T08:33:33]       "slug": "",
+[2026-05-07T08:33:33]       "link": "",
+[2026-05-07T08:33:33]       "categories": [],
+[2026-05-07T08:33:33]       "tags": [],
+[2026-05-07T08:33:33]       "index_updated": false,
+[2026-05-07T08:33:33]       "featured_media": null,
+[2026-05-07T08:33:33]       "error": "Missing required field: Slug propose"
+[2026-05-07T08:33:33]     },
+[2026-05-07T08:33:33]     {
+[2026-05-07T08:33:33]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-453_SENTIER_TECH_construire_expertise_durable_ere_ia_ce_que_l_automatisation_ne_peut_effacer_V1.md",
+[2026-05-07T08:33:33]       "article_id": "",
+[2026-05-07T08:33:33]       "title": "2026-453_SENTIER_TECH_construire_expertise_durable_ere_ia_ce_que_l_automatisation_ne_peut_effacer_V1.md",
+[2026-05-07T08:33:33]       "status": "error",
+[2026-05-07T08:33:33]       "wordpress_id": null,
+[2026-05-07T08:33:33]       "slug": "",
+[2026-05-07T08:33:33]       "link": "",
+[2026-05-07T08:33:33]       "categories": [],
+[2026-05-07T08:33:33]       "tags": [],
+[2026-05-07T08:33:33]       "index_updated": false,
+[2026-05-07T08:33:33]       "featured_media": null,
+[2026-05-07T08:33:33]       "error": "Missing required field: Slug propose"
+[2026-05-07T08:33:33]     }
+[2026-05-07T08:33:33]   ]
+[2026-05-07T08:33:33] }
+[2026-05-07T08:34:50] Publish-existing folder: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque
+[2026-05-07T08:34:50] Selected topic label: 2026-05-07_ia-generative-emploi-qualifie_triptyque
+[2026-05-07T08:34:50] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\LePhare_Editorial\index_editorial.csv
+[2026-05-07T08:34:50] --- WP-PUSH OUTPUT ---
+[2026-05-07T08:34:59] {
+[2026-05-07T08:34:59]   "source": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque",
+[2026-05-07T08:34:59]   "total": 3,
+[2026-05-07T08:34:59]   "created": 3,
+[2026-05-07T08:34:59]   "skipped": 0,
+[2026-05-07T08:34:59]   "failed": 0,
+[2026-05-07T08:34:59]   "items": [
+[2026-05-07T08:34:59]     {
+[2026-05-07T08:34:59]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-451_ACTU_TECH_ia_generative_et_emplois_qualifies_premiers_signaux_V1.md",
+[2026-05-07T08:34:59]       "article_id": "2026-451",
+[2026-05-07T08:34:59]       "title": "IA générative et emplois qualifiés : que disent les premières données ?",
+[2026-05-07T08:34:59]       "status": "draft",
+[2026-05-07T08:34:59]       "wordpress_id": 4161,
+[2026-05-07T08:34:59]       "slug": "ia-generative-emploi-qualifie-premieres-donnees",
+[2026-05-07T08:34:59]       "link": "https://le-phare.info/?p=4161",
+[2026-05-07T08:34:59]       "categories": [
+[2026-05-07T08:34:59]         "actualites"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "tags": [
+[2026-05-07T08:34:59]         "technologie-ia",
+[2026-05-07T08:34:59]         "sentier-approfondissement",
+[2026-05-07T08:34:59]         "intelligence-artificielle",
+[2026-05-07T08:34:59]         "marche-du-travail",
+[2026-05-07T08:34:59]         "automation",
+[2026-05-07T08:34:59]         "triptyque"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "index_updated": true,
+[2026-05-07T08:34:59]       "featured_media": 2133,
+[2026-05-07T08:34:59]       "error": ""
+[2026-05-07T08:34:59]     },
+[2026-05-07T08:34:59]     {
+[2026-05-07T08:34:59]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-452_TF_TECH_acemoglu_johnson_power_and_progress_technologie_sans_partage_V1.md",
+[2026-05-07T08:34:59]       "article_id": "2026-452",
+[2026-05-07T08:34:59]       "title": "Acemoglu et Johnson : la technologie ne partage pas la prospérité sans choix politiques",
+[2026-05-07T08:34:59]       "status": "draft",
+[2026-05-07T08:34:59]       "wordpress_id": 4162,
+[2026-05-07T08:34:59]       "slug": "acemoglu-johnson-power-progress-technologie-prosperite",
+[2026-05-07T08:34:59]       "link": "https://le-phare.info/?p=4162",
+[2026-05-07T08:34:59]       "categories": [
+[2026-05-07T08:34:59]         "textes-fondateurs"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "tags": [
+[2026-05-07T08:34:59]         "technologie-ia",
+[2026-05-07T08:34:59]         "sentier-approfondissement",
+[2026-05-07T08:34:59]         "acemoglu-johnson",
+[2026-05-07T08:34:59]         "power-and-progress",
+[2026-05-07T08:34:59]         "automation",
+[2026-05-07T08:34:59]         "triptyque"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "index_updated": true,
+[2026-05-07T08:34:59]       "featured_media": 2133,
+[2026-05-07T08:34:59]       "error": ""
+[2026-05-07T08:34:59]     },
+[2026-05-07T08:34:59]     {
+[2026-05-07T08:34:59]       "path": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-453_SENTIER_TECH_construire_expertise_durable_ere_ia_ce_que_l_automatisation_ne_peut_effacer_V1.md",
+[2026-05-07T08:34:59]       "article_id": "2026-453",
+[2026-05-07T08:34:59]       "title": "Construire une expertise durable à l'ère de l'IA : ce que l'automatisation ne peut pas effacer",
+[2026-05-07T08:34:59]       "status": "draft",
+[2026-05-07T08:34:59]       "wordpress_id": 4163,
+[2026-05-07T08:34:59]       "slug": "expertise-durable-ere-ia-automatisation",
+[2026-05-07T08:34:59]       "link": "https://le-phare.info/?p=4163",
+[2026-05-07T08:34:59]       "categories": [
+[2026-05-07T08:34:59]         "sentier-du-savoir"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "tags": [
+[2026-05-07T08:34:59]         "technologie-ia",
+[2026-05-07T08:34:59]         "sentier-approfondissement",
+[2026-05-07T08:34:59]         "intelligence-artificielle",
+[2026-05-07T08:34:59]         "expertise",
+[2026-05-07T08:34:59]         "automation",
+[2026-05-07T08:34:59]         "posture-comprendre",
+[2026-05-07T08:34:59]         "triptyque"
+[2026-05-07T08:34:59]       ],
+[2026-05-07T08:34:59]       "index_updated": true,
+[2026-05-07T08:34:59]       "featured_media": 2133,
+[2026-05-07T08:34:59]       "error": ""
+[2026-05-07T08:34:59]     }
+[2026-05-07T08:34:59]   ]
+[2026-05-07T08:34:59] }
+[2026-05-07T08:34:59] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\LePhare_Editorial\tools\post_linking.py D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque --index D:\workspaces\LePhare_Editorial\index_editorial.csv --config D:\workspaces\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-05-07T08:34:59] --- POST-LINKING OUTPUT ---
+[2026-05-07T08:35:02] {
+[2026-05-07T08:35:02]   "triptych_dir": "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque",
+[2026-05-07T08:35:02]   "mode": "triptyque_linking_v2",
+[2026-05-07T08:35:02]   "dry_run": false,
+[2026-05-07T08:35:02]   "total": 3,
+[2026-05-07T08:35:02]   "updated_local": 3,
+[2026-05-07T08:35:02]   "updated_wordpress": 3,
+[2026-05-07T08:35:02]   "items": [
+[2026-05-07T08:35:02]     {
+[2026-05-07T08:35:02]       "article_id": "2026-451",
+[2026-05-07T08:35:02]       "type": "ACTU",
+[2026-05-07T08:35:02]       "title": "IA générative et emplois qualifiés : que disent les premières données ?",
+[2026-05-07T08:35:02]       "wordpress_id": 4161,
+[2026-05-07T08:35:02]       "wordpress_url": "https://le-phare.info/?p=4161",
+[2026-05-07T08:35:02]       "updated_paths": [
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-451_ACTU_TECH_ia_generative_et_emplois_qualifies_premiers_signaux_V1.md",
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\01_Actualites\\Technologie_IA\\2026-451_ACTU_TECH_ia_generative_et_emplois_qualifies_premiers_signaux_V1.md"
+[2026-05-07T08:35:02]       ],
+[2026-05-07T08:35:02]       "status": "updated",
+[2026-05-07T08:35:02]       "error": ""
+[2026-05-07T08:35:02]     },
+[2026-05-07T08:35:02]     {
+[2026-05-07T08:35:02]       "article_id": "2026-452",
+[2026-05-07T08:35:02]       "type": "TF",
+[2026-05-07T08:35:02]       "title": "Acemoglu et Johnson : la technologie ne partage pas la prospérité sans choix politiques",
+[2026-05-07T08:35:02]       "wordpress_id": 4162,
+[2026-05-07T08:35:02]       "wordpress_url": "https://le-phare.info/?p=4162",
+[2026-05-07T08:35:02]       "updated_paths": [
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-452_TF_TECH_acemoglu_johnson_power_and_progress_technologie_sans_partage_V1.md",
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\04_Textes_fondateurs\\Auteurs\\2026-452_TF_TECH_acemoglu_johnson_power_and_progress_technologie_sans_partage_V1.md"
+[2026-05-07T08:35:02]       ],
+[2026-05-07T08:35:02]       "status": "updated",
+[2026-05-07T08:35:02]       "error": ""
+[2026-05-07T08:35:02]     },
+[2026-05-07T08:35:02]     {
+[2026-05-07T08:35:02]       "article_id": "2026-453",
+[2026-05-07T08:35:02]       "type": "SENTIER",
+[2026-05-07T08:35:02]       "title": "Construire une expertise durable à l'ère de l'IA : ce que l'automatisation ne peut pas effacer",
+[2026-05-07T08:35:02]       "wordpress_id": 4163,
+[2026-05-07T08:35:02]       "wordpress_url": "https://le-phare.info/?p=4163",
+[2026-05-07T08:35:02]       "updated_paths": [
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\07_A_Publier\\2026-05-07_ia-generative-emploi-qualifie_triptyque\\2026-453_SENTIER_TECH_construire_expertise_durable_ere_ia_ce_que_l_automatisation_ne_peut_effacer_V1.md",
+[2026-05-07T08:35:02]         "D:\\workspaces\\LePhare_Editorial\\05_Sentier\\Etape_04_Expertise\\2026-453_SENTIER_TECH_construire_expertise_durable_ere_ia_ce_que_l_automatisation_ne_peut_effacer_V1.md"
+[2026-05-07T08:35:02]       ],
+[2026-05-07T08:35:02]       "status": "updated",
+[2026-05-07T08:35:02]       "error": ""
+[2026-05-07T08:35:02]     }
+[2026-05-07T08:35:02]   ],
+[2026-05-07T08:35:02]   "errors": []
+[2026-05-07T08:35:02] }
+[2026-05-07T08:35:02] Staging folder removed: D:\workspaces\LePhare_Editorial\07_A_Publier\2026-05-07_ia-generative-emploi-qualifie_triptyque
