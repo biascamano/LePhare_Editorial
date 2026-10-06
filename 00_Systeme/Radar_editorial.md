@@ -32,7 +32,6 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 
 | P | Type potentiel | Sujet / Question | Origine | Statut |
 |---|---|---|---|---|
-| P1 | Question | Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé, sans minimiser ni affoler ? (SCIENCE ; grille : fondamental 2026-158) | 537 ; fil Qui contrôle le contrôleur ? | approfondir |
 | P1 | Question | Quand un paysage familier disparaît, faut-il y voir une perte, un signal climatique, ou simplement le temps de la Terre qui devient visible ? (CLIMAT ; Ruskin, TF existant) | 539 | approfondir |
 | P2 | Question | Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) | 531 ; fil Capacités proclamées | approfondir |
 | P2 | Question | Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) | 535 | approfondir |

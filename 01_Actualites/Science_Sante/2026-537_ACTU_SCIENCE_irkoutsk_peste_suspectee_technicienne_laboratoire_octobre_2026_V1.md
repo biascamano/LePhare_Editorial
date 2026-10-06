@@ -81,7 +81,7 @@ L'enquête dira ce qui s'est passé à Irkoutsk. Elle ne répondra pas à la que
 
 **La question suivante**
 
-Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé, sans minimiser ni affoler ?
+[Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé, sans minimiser ni affoler ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/)
 
 **Pour aller plus loin**
 

@@ -4,6 +4,7 @@
 
 ## Derniers articles
 
+- 2026-561 · 10-06 · Question · SCIENCE — [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/) · Onora O'Neill (A Question of Trust, Reith Lectures 2002)
 - 2026-560 · 10-06 · Atelier Sentier (mensuelle) · SCIENCE — [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/?p=5534) · Q : Comment savoir ce qu'un chiffre mesure vraiment avant de décider sur sa base ? · Donald T. Campbell ; Charles Goodhart
 - 2026-559 · 10-06 · Dossier (mensuelle) · CULTURE — [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532) · Q : Comment se servir d'un indicateur sans le laisser décider à notre place ? · Donald T. Campbell ; Charles Goodhart
 - 2026-558 · 10-06 · Question · SCIENCE — [Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/) · Imre Lakatos (programmes de recherche, années 1970)
@@ -13,7 +14,6 @@
 - 2026-554 · 10-06 · Question · CLIMAT — [Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit e…](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/) · Elinor Ostrom (Governing the Commons, 1990) ; Garrett Hardi…
 - 2026-553 · 10-06 · Actualité · CLIMAT — [Data centers : le Sénat américain refuse de leur faire payer le réseau, la Finlande enquê…](https://le-phare.info/data-centers-senat-ratepayer-protection-act-google-finlande/) · Q : Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit en payer le prix ?
 - 2026-552 · 10-06 · Question · SCIENCE — [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514) · Abraham Flexner (The Usefulness of Useless Knowledge, 1939)
-- 2026-551 · 10-06 · Actualité · SCIENCE — [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à…](https://le-phare.info/?p=5512) · Q : Peut-on juger une recherche à son utilité prévisible ?
 
 ## Fils actifs
 
@@ -25,11 +25,11 @@
 
 ## Questions prioritaires (Radar)
 
-- P1 · Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé, sans minimiser ni affoler ? (SCIENCE ; grille : fondamental 2026-158) — 537 ; fil Qui contrôle le contrôleur ?
 - P1 · Quand un paysage familier disparaît, faut-il y voir une perte, un signal climatique, ou simplement le temps de la Terre qui devient visible ? (CLIMAT ; Ruskin, TF exista… — 539
 - P2 · Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) — 531 ; fil Capacités proclamées
 - P2 · Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) — 535
 - P2 · Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer) — 533
+- P2 · Comment entendre les revendications d'un mouvement quand les images de violence occupent tout l'espace du récit ? (POL) — 542
 
 ## Prochains candidats (Radar)
 
