@@ -81,9 +81,9 @@ Ce qui se joue n'est donc pas seulement la présence d'un bandeau de plus dans u
 
 **Pour aller plus loin**
 
-- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/?p=5493)
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
 
 **Sur le Sentier du Savoir**
 

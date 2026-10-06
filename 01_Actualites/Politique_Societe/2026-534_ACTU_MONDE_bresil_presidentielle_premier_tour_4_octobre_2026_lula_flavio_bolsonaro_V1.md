@@ -56,7 +56,7 @@ Un sondage n'est pas une prédiction : c'est une mesure, à une date donnée, en
 
 Notre esprit, lui, préfère les récits nets. Le **biais de confirmation** pousse chacun à lire l'écart dans le sens de ses convictions : pour les uns, la preuve d'une remontée spectaculaire ; pour les autres, celle de sondeurs biaisés ; pour d'autres encore, le soupçon d'une fraude. Aucune de ces lectures ne découle directement des chiffres.
 
-Le Phare a déjà rencontré cette difficulté. Avec [Hannah Arendt](https://le-phare.info/verite-et-politique-hannah-arendt-la-fragilite-du-jugement-sous-pression-collective/), nous rappelions combien le jugement devient fragile quand la pression collective pousse chacun à choisir son camp avant de regarder les faits. Et à propos des [législatives lettones](https://le-phare.info/?p=5473), nous distinguions déjà voix, sièges et participation.
+Le Phare a déjà rencontré cette difficulté. Avec [Hannah Arendt](https://le-phare.info/verite-et-politique-hannah-arendt-la-fragilite-du-jugement-sous-pression-collective/), nous rappelions combien le jugement devient fragile quand la pression collective pousse chacun à choisir son camp avant de regarder les faits. Et à propos des [législatives lettones](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/), nous distinguions déjà voix, sièges et participation.
 
 ## Une autre manière de regarder
 
@@ -88,9 +88,9 @@ Quand un résultat contredit les sondages de la veille, faut-il accuser les sond
 **Pour aller plus loin**
 
 - [Vérité et politique – Hannah Arendt : la fragilité du jugement sous pression collective](https://le-phare.info/verite-et-politique-hannah-arendt-la-fragilite-du-jugement-sous-pression-collective/)
-- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/?p=5473)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

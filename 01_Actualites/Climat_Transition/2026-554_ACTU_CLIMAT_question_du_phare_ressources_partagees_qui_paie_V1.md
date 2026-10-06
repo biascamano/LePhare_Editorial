@@ -40,9 +40,9 @@ La question n'est donc pas « pour ou contre l'intelligence artificielle ». Ell
 
 ## Ailleurs, la même question
 
-Le Phare a croisé cette question sous d'autres formes. À propos de [l'affaire Suncor c. Boulder](https://le-phare.info/?p=5507), nous nous sommes demandé [si l'on peut tenir quelques acteurs responsables d'un dommage aux millions d'auteurs](https://le-phare.info/?p=5509) : c'est la même question vue après coup, une fois la ressource commune, ici le climat, abîmée. Pour les data centers, elle se pose avant : on peut encore décider de la règle.
+Le Phare a croisé cette question sous d'autres formes. À propos de [l'affaire Suncor c. Boulder](https://le-phare.info/cour-supreme-suncor-boulder-responsabilite-climatique/), nous nous sommes demandé [si l'on peut tenir quelques acteurs responsables d'un dommage aux millions d'auteurs](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/) : c'est la même question vue après coup, une fois la ressource commune, ici le climat, abîmée. Pour les data centers, elle se pose avant : on peut encore décider de la règle.
 
-Elle se pose aussi dans la manière dont l'Europe répartit le coût de l'électricité entre taxes, réseaux et factures, que nous examinions avec [le plan AccelerateEU](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/). Et elle se retourne dans [les réserves stratégiques de pétrole du G7](https://le-phare.info/?p=5479) : un stock payé par tous, puis mis sur le marché pour amortir un choc qui touche certains plus que d'autres.
+Elle se pose aussi dans la manière dont l'Europe répartit le coût de l'électricité entre taxes, réseaux et factures, que nous examinions avec [le plan AccelerateEU](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/). Et elle se retourne dans [les réserves stratégiques de pétrole du G7](https://le-phare.info/g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026/) : un stock payé par tous, puis mis sur le marché pour amortir un choc qui touche certains plus que d'autres.
 
 Hors du Phare, l'exemple le plus proche est celui de l'eau. En France, les retenues d'eau agricoles contestées dans les Deux-Sèvres soulèvent exactement ce problème : une ressource commune, la nappe, et un usage qui profite à quelques exploitations. L'histoire en offre d'autres : le chemin de fer au XIXe siècle, l'électrification des campagnes au XXe, chaque fois avec la même hésitation sur qui paie le raccordement.
 
@@ -92,8 +92,8 @@ Si celui qui arrive doit payer sa part d'une ressource commune, comment mesurer 
 **Pour aller plus loin**
 
 - [Data centers : le Sénat américain refuse de leur faire payer le réseau, la Finlande enquête sur les forêts rasées par Google](https://le-phare.info/data-centers-senat-ratepayer-protection-act-google-finlande/)
-- [Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/?p=5509)
-- [G7 : 100 millions de barils de réserves pour calmer le diesel, un remède à court terme](https://le-phare.info/?p=5479)
+- [Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/)
+- [G7 : 100 millions de barils de réserves pour calmer le diesel, un remède à court terme](https://le-phare.info/g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

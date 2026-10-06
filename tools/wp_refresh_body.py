@@ -5,7 +5,8 @@ Builds the local config path itself so that it never appears in a shell command:
 the Claude Code deny rule on tools/*.local.json also rejects Bash commands that contain it.
 Prints only status / error / wordpress_id / link for each article.
 
-Usage: python tools/wp_refresh_body.py "<chemin canonique>" ["<chemin>" ...] [--allow-fonds]
+Usage: python tools/wp_refresh_body.py "<chemin canonique>" ["<chemin>" ...] [--title] [--allow-fonds]
+(--title : met aussi à jour le titre WP depuis l'en-tête « Titre : ».)
 (--allow-fonds : PATCH du fondamental parent 02_Fonds/, réservé à la routine triptyque archivée.)
 """
 
@@ -24,7 +25,8 @@ CONFIG_PATH = TOOLS_DIR / ("wp_config" + ".local.json")
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     allow_fonds = "--allow-fonds" in sys.argv[1:]
-    paths = [a for a in sys.argv[1:] if a != "--allow-fonds"]
+    extra = ["--refresh-title"] if "--title" in sys.argv[1:] else []
+    paths = [a for a in sys.argv[1:] if a not in ("--allow-fonds", "--title")]
     if not paths:
         print(__doc__)
         return 2
@@ -39,7 +41,7 @@ def main() -> int:
             continue
         out = subprocess.run(
             [sys.executable, str(TOOLS_DIR / "wp_push_draft.py"), path,
-             "--index", "index_editorial.csv", "--refresh-body", "--config", str(CONFIG_PATH)],
+             "--index", "index_editorial.csv", "--refresh-body", *extra, "--config", str(CONFIG_PATH)],
             cwd=ROOT_DIR, capture_output=True, text=True, encoding="utf-8", errors="replace",
         )
         try:

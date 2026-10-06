@@ -95,8 +95,8 @@ Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l
 
 - [Crise du régime et désarroi démocratique : ce que nous enseignent Hannah Arendt et Raymond Aron](https://le-phare.info/crise-du-regime-et-desarroi-democratique-ce-que-nous-enseigne-hannah-arendt-et-raymond-aron/)
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

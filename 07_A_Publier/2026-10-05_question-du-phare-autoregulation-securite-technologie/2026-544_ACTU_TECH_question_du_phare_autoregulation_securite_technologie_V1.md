@@ -1,5 +1,5 @@
 ID article : 2026-544
-Titre : Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
+Titre : Question du Phare - Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
 Type : ACTU
 Type article : Question
 Theme : TECH
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
+# Question du Phare - Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
 
 *Le 29 septembre, six dirigeants de l'intelligence artificielle ont signé à la Maison-Blanche un accord de sécurité volontaire ; le 4 octobre, Washington a créé une instance de coordination sans pouvoir de règle connu. Derrière l'actualité, une question plus ancienne que l'IA : que vaut un contrôle organisé par ceux qu'il contrôle ?*
 

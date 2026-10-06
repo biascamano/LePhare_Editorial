@@ -125,7 +125,7 @@ Liens Markdown obligatoires (pas d'URL nue). Liens internes : uniquement des URL
 python tools/new_article.py create --type <type> --theme <THEME> --title "…" --slug <kebab-case> --pillar <pilier> --question "…" --previous <ID> --linked "<ID>;…" --prolongement "…" --keywords "…;…" --summary "…" --objective "…" --tags "<concept>;<concept>" [--dossier "<ID dossier>"]
 ```
 
-Le script renvoie `id` et `path` (ID, dossier, nom de fichier, catégorie, tags, ligne d'index calculés ; ne jamais écrire l'index à la main ni via `csv.writer`). Écrire le corps à la place de `[Corps de l'article à rédiger]`, compléter la navigation, `Sources principales` et le bloc `# SEO` (mot-clé, meta description, `Slug propose`). Pour une Question : `Question du Phare` = la question traitée, `Article precedent (ID)` = l'article d'origine.
+`--title` sans préfixe : le script ajoute « Question du Phare - », « Application du Phare - » ou « Texte fondateur - » (aucun préfixe pour une Actualité, `plan.md` D16). Le script renvoie `id`, `path` et `title` (ID, dossier, nom de fichier, catégorie, tags, ligne d'index calculés ; ne jamais écrire l'index à la main ni via `csv.writer`). Écrire le corps à la place de `[Corps de l'article à rédiger]`, compléter la navigation, `Sources principales` et le bloc `# SEO` (mot-clé, meta description, `Slug propose`). Pour une Question : `Question du Phare` = la question traitée, `Article precedent (ID)` = l'article d'origine.
 
 ```bash
 python tools/new_article.py stage <ID>
@@ -148,6 +148,17 @@ Puis, dans `00_Systeme/Radar_editorial.md` :
 - si l'article est une Actualité : **ajouter** sa Question du Phare au bloc 2 (`| P? | Question | <question> (<THEME>) | <ID> | approfondir |`) et, si un fait est attendu, une suite au bloc 1 (`à échéance (…)`).
 Ne pas fusionner, re-prioriser ni archiver : c'est le rôle de l'hebdomadaire.
 
+## 11. Vérifier (`plan.md` D15)
+
+```bash
+python tools/verify_publication.py
+```
+Contrôle les articles des 7 derniers jours : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une` (**sans ce tag, l'article est invisible sur le site**).
+- Erreur de tag `a-la-une` ou lien `?p=` vers un article publié → `python tools/verify_publication.py --fix`, puis relancer sans option.
+- Autre erreur → corriger le fichier canonique, puis `python tools/wp_refresh_body.py "<chemin>"`.
+- Avertissement « lien vers un brouillon » : normal en mode `brouillons seulement`, à signaler.
+- Ne jamais lancer `--publish-drafts` sans demande.
+
 En dernier : `python tools/build_etat_courant.py`.
 
 **La routine s'arrête ici.**
@@ -165,6 +176,7 @@ Liens : origine → article ok / article → origine ok (ou sans objet)
 Radar : retiré … / ajouté …
 Image : idée / légende / alt
 Écarts socle / Instructions : … (ou aucun)
+Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
 À vérifier : WordPress
 ```
 

@@ -1,5 +1,5 @@
 ID article : 2026-544
-Titre : Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
+Titre : Question du Phare - Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
 Type : ACTU
 Type article : Question
 Theme : TECH
@@ -26,13 +26,13 @@ URL WordPress (si publie) :
 
 ---
 
-# Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
+# Question du Phare - Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?
 
 *Le 29 septembre, six dirigeants de l'intelligence artificielle ont signé à la Maison-Blanche un accord de sécurité volontaire ; le 4 octobre, Washington a créé une instance de coordination sans pouvoir de règle connu. Derrière l'actualité, une question plus ancienne que l'IA : que vaut un contrôle organisé par ceux qu'il contrôle ?*
 
 ## Le point de départ
 
-Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/?p=5493), Donald Trump a confié à Jay Clayton, directeur du renseignement national, la tête d'une « Super Intelligence Force » chargée de coordonner l'action fédérale sur l'IA. Cinq jours plus tôt, Anthropic, OpenAI, Google, Meta, xAI et Nvidia s'étaient engagés, sans obligation juridique, à mettre en place des contrôles internes, des équipes de vérification et des audits externes « indépendants ». Le président a résumé la philosophie de l'ensemble : beaucoup d'autorégulation.
+Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/), Donald Trump a confié à Jay Clayton, directeur du renseignement national, la tête d'une « Super Intelligence Force » chargée de coordonner l'action fédérale sur l'IA. Cinq jours plus tôt, Anthropic, OpenAI, Google, Meta, xAI et Nvidia s'étaient engagés, sans obligation juridique, à mettre en place des contrôles internes, des équipes de vérification et des audits externes « indépendants ». Le président a résumé la philosophie de l'ensemble : beaucoup d'autorégulation.
 
 ## Pourquoi cette question
 
@@ -46,7 +46,7 @@ Ce choix n'est pas absurde. Ceux qui construisent une technologie sont souvent l
 
 **Dans l'aviation.** Aux États-Unis, l'administration de l'aviation civile délègue depuis longtemps une partie de la certification des avions à des employés des constructeurs eux-mêmes, faute de pouvoir tout vérifier seule. Après les deux accidents du Boeing 737 MAX, en 2018 et 2019, qui ont fait 346 morts, la commission des Transports de la Chambre des représentants a conclu en 2020 que ce système de délégation avait contribué à laisser passer une défaillance de conception.
 
-**Dans les laboratoires.** La mort d'une technicienne de l'Institut antipeste d'Irkoutsk, que Le Phare a [suivie avec prudence](https://le-phare.info/?p=5481), rappelle que la sûreté des laboratoires manipulant des agents dangereux est, dans bien des pays, attestée d'abord par l'institution elle-même ou par l'administration dont elle dépend. Quand l'information vient de ceux qui sont responsables du risque, le public ne peut que la croire ou s'en méfier.
+**Dans les laboratoires.** La mort d'une technicienne de l'Institut antipeste d'Irkoutsk, que Le Phare a [suivie avec prudence](https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/), rappelle que la sûreté des laboratoires manipulant des agents dangereux est, dans bien des pays, attestée d'abord par l'institution elle-même ou par l'administration dont elle dépend. Quand l'information vient de ceux qui sont responsables du risque, le public ne peut que la croire ou s'en méfier.
 
 **Et en Europe, pour l'IA.** Le [Code de bonnes pratiques européen](https://le-phare.info/code-practice-gpai-europe-compte-a-rebours-2-aout-2026/) est lui aussi volontaire. Mais il sert de manière de se conformer à une loi, et un office public en contrôle l'application. Le volontariat y est un chemin, pas une destination.
 
@@ -89,10 +89,10 @@ La finance et l'aviation ont fini par renforcer les contrôles extérieurs, mais
 
 **Pour aller plus loin**
 
-- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/?p=5493)
+- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/)
 - [Code of Practice GPAI : l'Europe entre signature volontaire et compte à rebours du 2 août 2026](https://le-phare.info/code-practice-gpai-europe-compte-a-rebours-2-aout-2026/)
 - [David Collingridge (1980) : le dilemme du contrôle technologique — réguler tôt sans comprendre ou comprendre tard sans pouvoir réguler](https://le-phare.info/david-collingridge-dilemme-controle-technologique-1980/)
-- [Irkoutsk : une technicienne morte d'une peste suspectée, et la question du risque en laboratoire](https://le-phare.info/?p=5481)
+- [Irkoutsk : une technicienne morte d'une peste suspectée, et la question du risque en laboratoire](https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

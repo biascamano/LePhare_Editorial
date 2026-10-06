@@ -1,5 +1,5 @@
 ID article : 2026-548
-Titre : Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
+Titre : Texte fondateur - Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
 Type : TF
 Type article : Texte fondateur
 Theme : SCIENCE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
+# Texte fondateur - Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
 
 ## La thèse en une phrase
 
@@ -77,12 +77,12 @@ Trois nuances comptent :
 
 Plusieurs articles du Phare touchent ce problème.
 
-- **La fréquentation d'un musée.** À Philadelphie, [le musée de l'Academy of Natural Sciences a fermé](https://le-phare.info/?p=5498) au nom de la baisse des visites. D'anciens salariés estiment que des choix de gestion y ont contribué : un indicateur peut juger ce qu'il a lui-même contribué à orienter. Nous avons posé la question en général : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
-- **L'auto-évaluation.** Quand [ceux qui développent une technologie jugent seuls de sa sécurité](https://le-phare.info/?p=5495), ils sont à la fois mesurés et mesureurs : c'est la situation où, selon Campbell, la pression sur l'indicateur est la plus forte.
-- **Le prix d'une appartenance.** [L'Argentine propose un passeport contre 350 000 dollars](https://le-phare.info/?p=5487) : un montant fixe tient lieu de critère d'admission dans une communauté politique.
-- **Les chiffres électoraux.** En [Lettonie](https://le-phare.info/?p=5473), un score n'est pas une majorité ; au [Brésil](https://le-phare.info/?p=5475), un sondage n'est pas un vote. Ici, le chiffre n'est pas corrompu, mais il est lu au-delà de ce qu'il dit.
+- **La fréquentation d'un musée.** À Philadelphie, [le musée de l'Academy of Natural Sciences a fermé](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/) au nom de la baisse des visites. D'anciens salariés estiment que des choix de gestion y ont contribué : un indicateur peut juger ce qu'il a lui-même contribué à orienter. Nous avons posé la question en général : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
+- **L'auto-évaluation.** Quand [ceux qui développent une technologie jugent seuls de sa sécurité](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/), ils sont à la fois mesurés et mesureurs : c'est la situation où, selon Campbell, la pression sur l'indicateur est la plus forte.
+- **Le prix d'une appartenance.** [L'Argentine propose un passeport contre 350 000 dollars](https://le-phare.info/argentine-citoyennete-par-investissement-milei-octobre-2026/) : un montant fixe tient lieu de critère d'admission dans une communauté politique.
+- **Les chiffres électoraux.** En [Lettonie](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/), un score n'est pas une majorité ; au [Brésil](https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/), un sondage n'est pas un vote. Ici, le chiffre n'est pas corrompu, mais il est lu au-delà de ce qu'il dit.
 
-Le [Fil du Phare de la semaine](https://le-phare.info/?p=5503) relie ces cas autour d'une question : sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
+Le [Fil du Phare de la semaine](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/) relie ces cas autour d'une question : sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
 
 ## Une grille en cinq questions
 
@@ -109,10 +109,10 @@ Comment se servir d'un indicateur sans qu'il finisse par déformer ce qu'il deva
 
 **Pour aller plus loin**
 
-- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 - [David Collingridge (1980) : le dilemme du contrôle technologique](https://le-phare.info/david-collingridge-dilemme-controle-technologique-1980/)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

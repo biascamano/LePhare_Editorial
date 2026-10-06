@@ -1,5 +1,5 @@
 ID article : 2026-559
-Titre : Mesurer ou juger : ce qu'un indicateur laisse hors champ
+Titre : Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ
 Type : DOSSIER
 Type article : Dossier
 Theme : CULTURE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Mesurer ou juger : ce qu'un indicateur laisse hors champ
+# Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ
 
 *Un sondage contredit par les urnes, un parti arrivé en tête sans majorité, un musée fermé faute de visiteurs, une nationalité affichée à prix fixe, une recherche qu'on voudrait juger à son utilité. Ces histoires d'octobre 2026 n'ont rien en commun, sauf une chose : à chaque fois, un chiffre est en train de prendre la place d'un jugement.*
 

@@ -1,5 +1,5 @@
 ID article : 2026-552
-Titre : Peut-on juger une recherche à son utilité prévisible ?
+Titre : Question du Phare - Peut-on juger une recherche à son utilité prévisible ?
 Type : ACTU
 Type article : Question
 Theme : SCIENCE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Peut-on juger une recherche à son utilité prévisible ?
+# Question du Phare - Peut-on juger une recherche à son utilité prévisible ?
 
 *Le Nobel de médecine 2026 récompense un outil devenu central en neurosciences, né de travaux sur une algue qui nage vers la lumière. L'histoire est belle, et elle est souvent racontée pour défendre la recherche « libre ». Mais que prouve-t-elle exactement ?*
 

@@ -30,7 +30,7 @@ URL WordPress (si publie) :
 
 ## Le point de départ
 
-Fin septembre 2026, Darya Shipilova, technicienne de 28 ans à l'Institut antipeste d'Irkoutsk, en Sibérie, a été hospitalisée puis est morte deux jours plus tard. [Le Phare a rapporté l'affaire](https://le-phare.info/?p=5481) : l'agence sanitaire russe, Rospotrebnadzor, parle d'une « pneumonie d'étiologie inconnue », affirme qu'aucun micro-organisme lié à son travail n'a été détecté et qu'aucun accident n'a eu lieu à l'institut. Dans le même temps, un dirigeant régional a d'abord parlé de peste avant de corriger en « peut-être la peste », des médias locaux évoquent un tube cassé au laboratoire, près de 200 personnes sont placées sous observation, trois services hospitaliers sont mis en quarantaine, et Washington annonce suivre le cas avec attention.
+Fin septembre 2026, Darya Shipilova, technicienne de 28 ans à l'Institut antipeste d'Irkoutsk, en Sibérie, a été hospitalisée puis est morte deux jours plus tard. [Le Phare a rapporté l'affaire](https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/) : l'agence sanitaire russe, Rospotrebnadzor, parle d'une « pneumonie d'étiologie inconnue », affirme qu'aucun micro-organisme lié à son travail n'a été détecté et qu'aucun accident n'a eu lieu à l'institut. Dans le même temps, un dirigeant régional a d'abord parlé de peste avant de corriger en « peut-être la peste », des médias locaux évoquent un tube cassé au laboratoire, près de 200 personnes sont placées sous observation, trois services hospitaliers sont mis en quarantaine, et Washington annonce suivre le cas avec attention.
 
 ## Pourquoi cette question
 
@@ -66,7 +66,7 @@ D'abord, l'alerte a un coût. Parler de peste dans une ville d'un demi-million d
 
 Ensuite, notre esprit lit mal l'incertitude. [Les biais cognitifs](https://le-phare.info/biais-cognitifs-et-illusions-de-savoir/) jouent dans les deux sens : un mot comme « peste » frappe l'imagination bien au-delà de la probabilité réelle du danger ; à l'inverse, une phrase rassurante peut endormir la vigilance de ceux qui devraient surveiller leurs symptômes.
 
-Enfin, la question rejoint une autre, déjà posée par Le Phare : [peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495) Un institut chargé de lutter contre la peste qui enquête sur un accident survenu chez lui est à la fois juge et partie. Même sincère, sa parole reste difficile à croire sans contrôle extérieur.
+Enfin, la question rejoint une autre, déjà posée par Le Phare : [peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/) Un institut chargé de lutter contre la peste qui enquête sur un accident survenu chez lui est à la fois juge et partie. Même sincère, sa parole reste difficile à croire sans contrôle extérieur.
 
 ## Ce que nous pouvons en retenir
 
@@ -100,8 +100,8 @@ Qu'est-ce qui rend une autorité sanitaire digne de confiance avant même qu'ell
 
 **Pour aller plus loin**
 
-- [Irkoutsk : une technicienne morte d'une peste suspectée, et la question du risque en laboratoire](https://le-phare.info/?p=5481)
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
+- [Irkoutsk : une technicienne morte d'une peste suspectée, et la question du risque en laboratoire](https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 - [Lire une alerte canicule sans confondre vigilance, attribution et appel politique](https://le-phare.info/lire-alerte-canicule-vigilance-attribution-oms-2/)
 
 **Sur le Sentier du Savoir**

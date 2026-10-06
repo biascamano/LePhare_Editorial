@@ -81,8 +81,8 @@ La même hésitation se retrouve ailleurs, chaque fois qu'une activité nouvelle
 
 **Pour aller plus loin**
 
-- [Climat : la Cour suprême américaine doit dire si une ville peut faire payer les pétroliers](https://le-phare.info/?p=5507)
-- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/?p=5493)
+- [Climat : la Cour suprême américaine doit dire si une ville peut faire payer les pétroliers](https://le-phare.info/cour-supreme-suncor-boulder-responsabilite-climatique/)
+- [Washington crée une « Super Intelligence Force » : un tsar de l'IA, mais toujours pas de règle](https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/)
 - [AccelerateEU : fiscalité de l'électricité, 44 mesures et ce que la deuxième vague de choc change](https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/)
 
 **Sur le Sentier du Savoir**

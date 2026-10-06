@@ -87,11 +87,11 @@ Derrière le débat juridique sur la compétence des tribunaux se pose une quest
 
 **La question suivante**
 
-[Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/?p=5509)
+[Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/)
 
 **Pour aller plus loin**
 
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 - [Lire une annonce sur le climat sans confondre météo, tendance, attribution et politique](https://le-phare.info/lire-annonce-climat-meteo-attribution/)
 
 **Sur le Sentier du Savoir**

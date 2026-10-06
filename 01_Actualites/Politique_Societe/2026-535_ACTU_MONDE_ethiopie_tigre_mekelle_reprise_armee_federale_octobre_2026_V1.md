@@ -93,7 +93,7 @@ Dans une guerre où chaque camp publie sa version, comment distinguer un fait mi
 
 - [Thomas Schelling : négocier sous menace sans confondre fermeté et escalade](https://le-phare.info/thomas-schelling-negocier-sous-menace-sans-confondre-fermete-et-escalade/)
 - [Négociations États-Unis–Iran : que signifie vraiment un rythme rapide ?](https://le-phare.info/iran-usa-negociations-rythme-rapide-juin-2026/)
-- [Bosnie-Herzégovine : trois présidents élus le même soir, et un pays qui vote par communautés](https://le-phare.info/?p=5489)
+- [Bosnie-Herzégovine : trois présidents élus le même soir, et un pays qui vote par communautés](https://le-phare.info/bosnie-herzegovine-elections-generales-4-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

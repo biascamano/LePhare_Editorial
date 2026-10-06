@@ -1,5 +1,5 @@
 ID article : 2026-548
-Titre : Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
+Titre : Texte fondateur - Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
 Type : TF
 Type article : Texte fondateur
 Theme : SCIENCE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
+# Texte fondateur - Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer
 
 ## La thèse en une phrase
 

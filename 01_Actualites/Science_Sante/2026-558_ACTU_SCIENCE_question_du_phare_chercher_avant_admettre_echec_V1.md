@@ -42,9 +42,9 @@ C'est ce que l'événement révèle au-delà de la physique : la persévérance 
 
 La même difficulté traverse toute la recherche. Les ondes gravitationnelles, prédites par Einstein en 1916, ont fait l'objet de projets de détecteurs dès les années 1970. L'observatoire américain LIGO a fonctionné une première fois, de 2002 à 2010, sans rien détecter. Il a été amélioré plutôt qu'abandonné, et la première détection a eu lieu en septembre 2015. À l'inverse, des décennies de recherche de certaines particules de matière noire n'ont, à ce jour, rien trouvé, et la communauté débat de la part de crédits qu'il faut encore leur consacrer.
 
-Le Phare a déjà rencontré cette question sous une autre forme. [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514) demandait si l'on peut savoir à l'avance ce qu'une recherche rapportera. La réponse était déjà prudente : les retombées les plus importantes sont souvent celles que personne n'avait prévues. La question d'aujourd'hui en est le pendant dans le temps : même lorsqu'on a choisi de chercher, quand faut-il cesser ?
+Le Phare a déjà rencontré cette question sous une autre forme. [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/) demandait si l'on peut savoir à l'avance ce qu'une recherche rapportera. La réponse était déjà prudente : les retombées les plus importantes sont souvent celles que personne n'avait prévues. La question d'aujourd'hui en est le pendant dans le temps : même lorsqu'on a choisi de chercher, quand faut-il cesser ?
 
-Elle se pose aussi hors de la science. [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500) montrait la tentation de mesurer une institution sur un indicateur immédiat, au risque de fermer ce qui ne paie qu'à long terme. Et l'histoire industrielle offre l'exemple inverse : l'avion supersonique Concorde, poursuivi par la France et le Royaume-Uni alors que son échec commercial devenait prévisible. Les économistes parlent d'« effet Concorde » ou de piège des coûts irrécupérables : on continue parce qu'on a déjà beaucoup dépensé, et non parce que la suite a des chances de réussir.
+Elle se pose aussi hors de la science. [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/) montrait la tentation de mesurer une institution sur un indicateur immédiat, au risque de fermer ce qui ne paie qu'à long terme. Et l'histoire industrielle offre l'exemple inverse : l'avion supersonique Concorde, poursuivi par la France et le Royaume-Uni alors que son échec commercial devenait prévisible. Les économistes parlent d'« effet Concorde » ou de piège des coûts irrécupérables : on continue parce qu'on a déjà beaucoup dépensé, et non parce que la suite a des chances de réussir.
 
 ## Une pensée pour regarder autrement
 
@@ -95,8 +95,8 @@ Comment une institution peut-elle se donner, dès le départ, les critères qui 
 **Pour aller plus loin**
 
 - [Nobel de physique 2026 : Francis Halzen et IceCube, ou trente-huit ans pour entendre les neutrinos du cosmos](https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/)
-- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 
 **Sur le Sentier du Savoir**
 

@@ -1,5 +1,5 @@
 ID article : 2026-550
-Titre : Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?
+Titre : Question du Phare - Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?
 Type : ACTU
 Type article : Question
 Theme : CLIMAT
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?
+# Question du Phare - Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?
 
 *Une ville du Colorado demande à deux compagnies pétrolières de payer une partie de ses dépenses climatiques. La Cour suprême des États-Unis doit dire si ce procès peut avoir lieu. Derrière la question juridique, une autre, plus ancienne : quand un dommage est l'œuvre de tous, peut-on en faire répondre quelques-uns ?*
 

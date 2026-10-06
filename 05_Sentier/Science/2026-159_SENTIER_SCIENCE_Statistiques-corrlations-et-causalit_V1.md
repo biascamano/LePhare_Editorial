@@ -23,4 +23,4 @@ URL WordPress (si publie) : https://le-phare.info/statistiques-correlations-et-c
 
 | Date | Triptyque | Atelier (SENTIER) |
 |------|-----------|-------------------|
-| 2026-10-06 | Routine mensuelle — dossier Mesurer ou juger | [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/?p=5534) (`2026-560`) |
+| 2026-10-06 | Routine mensuelle — dossier Mesurer ou juger | [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre/) (`2026-560`) |

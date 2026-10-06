@@ -58,7 +58,7 @@ Dans ce contexte, un échange négocié entre deux États membres de l'Union eur
 
 L'échange est remarquablement symétrique : des restes humains contre des objets sacrés. Chacun des deux pays récupère ce qu'il considère comme une part de lui-même. Ce n'est pas un don, c'est une réparation croisée.
 
-Il révèle aussi ce qu'une nation attend d'un mort. Des ossements anonymes n'auraient pas suscité de cérémonie d'État. C'est le nom, et le récit qui l'accompagne, qui transforment des restes en relique nationale. Le Phare observait la même chose à propos de [saint François d'Assise](https://le-phare.info/?p=5471) : une figure ancienne devient le support de valeurs que le présent veut célébrer. Et avec [John Ruskin](https://le-phare.info/john-ruskin-lampe-memoire-restaurer-preserver-angers/), nous rappelions qu'on ne conserve pas une mémoire sans la transformer.
+Il révèle aussi ce qu'une nation attend d'un mort. Des ossements anonymes n'auraient pas suscité de cérémonie d'État. C'est le nom, et le récit qui l'accompagne, qui transforment des restes en relique nationale. Le Phare observait la même chose à propos de [saint François d'Assise](https://le-phare.info/saint-francois-assise-800-ans-4-octobre-ferie-italie/) : une figure ancienne devient le support de valeurs que le présent veut célébrer. Et avec [John Ruskin](https://le-phare.info/john-ruskin-lampe-memoire-restaurer-preserver-angers/), nous rappelions qu'on ne conserve pas une mémoire sans la transformer.
 
 ## Une autre manière de regarder
 
@@ -89,7 +89,7 @@ Samuel est revenu à Sofia mille ans après sa mort. La Bulgarie y voit la répa
 
 **Pour aller plus loin**
 
-- [Saint François, 800 ans après : ce que l'Italie célèbre en refaisant du 4 octobre un jour férié](https://le-phare.info/?p=5471)
+- [Saint François, 800 ans après : ce que l'Italie célèbre en refaisant du 4 octobre un jour férié](https://le-phare.info/saint-francois-assise-800-ans-4-octobre-ferie-italie/)
 - [John Ruskin : restaurer, préserver — et lire Angers sans faux dilemme](https://le-phare.info/john-ruskin-lampe-memoire-restaurer-preserver-angers/)
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
 

@@ -25,7 +25,7 @@ Une seule question qui résume la semaine (ex. « Sommes-nous devenus plus libre
 
 ## 4. Rédiger Le Fil du Phare
 
-Titre : `Le Fil du Phare — [question]`. ~900–1400 mots. Sections :
+Titre : `Le Fil du Phare - [question]` (passer `--title "[question]"` : `new_article.py` ajoute le préfixe, `plan.md` D16). ~900–1400 mots. Sections :
 
 - **Cette semaine** — présentation très courte des événements (liens vers chaque article).
 - **Le lien invisible** — ce qu'ils ont en commun.
@@ -72,6 +72,10 @@ Ne pas toucher aux blocs 4–5 (textes fondateurs, dossiers, Sentier → mensuel
 - §2 : fils (étape 5).
 - §3 : nouvelle ligne **en haut** — semaine, grande question, ID Fil du Phare, concepts apparus, dossiers renforcés, pistes.
 
+## 8. Vérifier (`plan.md` D15)
+
+`python tools/verify_publication.py` (articles des 7 derniers jours : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une` — **sans ce tag, l'article est invisible sur le site**). Erreur de tag ou lien `?p=` vers un article publié → `python tools/verify_publication.py --fix`, puis relancer sans option. Autre erreur → corriger le fichier canonique, puis `python tools/wp_refresh_body.py "<chemin>"`. Brouillons restés dans la semaine (avertissements) : les signaler, ne pas lancer `--publish-drafts` sans demande.
+
 En dernier : `python tools/build_etat_courant.py` (vue courte lue par la quotidienne).
 
 Optionnel (si l'utilisateur le demande) : rétro de la routine via `00_Systeme/Retro_routine_hebdo_TEMPLATE.md`.
@@ -85,6 +89,7 @@ Articles reliés : N (IDs)
 Fils : +X actifs / Y clôturés / Z de côté
 Radar : N actives (retirées … / fusionnées … / archivées …)
 Pistes semaine suivante : …
+Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
 ```
 
 ## Commandes sans demande de permission

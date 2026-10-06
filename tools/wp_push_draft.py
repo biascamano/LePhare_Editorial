@@ -42,6 +42,7 @@ FEATURED_MEDIA_MAP_DEFAULT = TOOLS_DIR / "wp_featured_media.local.json"
 from index_editorial_utils import read_index, safe_str, write_index  # noqa: E402
 
 
+VISIBILITY_TAG = "a-la-une"
 META_LINE_RE = re.compile(r"^(?P<key>[^:\n]+)\s*:\s*(?P<value>.*)$")
 
 
@@ -121,6 +122,11 @@ def parse_args() -> argparse.Namespace:
         "--refresh-body",
         action="store_true",
         help="PATCH post content HTML from markdown for existing post in index (fixes stale body); pair with --sync-featured-media if needed",
+    )
+    parser.add_argument(
+        "--refresh-title",
+        action="store_true",
+        help="With --refresh-body: also PATCH the post title from the 'Titre :' header",
     )
     parser.add_argument(
         "--no-rank-math-meta",
@@ -639,10 +645,15 @@ def load_index_record(index_path: Path, article_id: str) -> IndexRecord:
                     wordpress_url=safe_str(row.get("URL_WordPress")),
                     wordpress_slug=safe_str(row.get("Slug_WordPress")),
                     categories=split_multi_value_field(row.get("Categorie_WP")),
-                    tags=split_multi_value_field(row.get("Tags_WP")),
+                    tags=with_visibility_tag(split_multi_value_field(row.get("Tags_WP"))),
                 )
 
     raise ValueError(f"Article ID not found in index: {article_id}")
+
+
+def with_visibility_tag(tags: list[str]) -> list[str]:
+    # Un update WP remplace la liste de tags : sans « a-la-une », le thème masque l'article.
+    return tags if VISIBILITY_TAG in tags else [*tags, VISIBILITY_TAG]
 
 
 def split_multi_value_field(raw_value: str | None) -> list[str]:
@@ -769,9 +780,12 @@ def patch_post_partial(
     return wordpress_request_json(config, endpoint, method="POST", payload=payload)
 
 
-def patch_post_content(config: Config, post_id: int, html_content: str) -> dict:
+def patch_post_content(config: Config, post_id: int, html_content: str, title: str | None = None) -> dict:
     endpoint = f"{config.site_url}/wp-json/wp/v2/posts/{post_id}"
-    return wordpress_request_json(config, endpoint, method="POST", payload={"content": html_content})
+    payload: dict[str, object] = {"content": html_content}
+    if title:
+        payload["title"] = title
+    return wordpress_request_json(config, endpoint, method="POST", payload=payload)
 
 
 def _coerce_positive_media_id(val: object) -> int | None:
@@ -1080,7 +1094,8 @@ def process_article(
             )
         wp_result: dict = {}
         if refresh_body:
-            wp_result = patch_post_content(config, post_id, article.body_html)
+            title = article.title if getattr(args, "refresh_title", False) else None
+            wp_result = patch_post_content(config, post_id, article.body_html, title=title)
         if sync_fm:
             wp_result = patch_post_partial(config, post_id, featured_media_id=fm_id)
         if rm_payload:

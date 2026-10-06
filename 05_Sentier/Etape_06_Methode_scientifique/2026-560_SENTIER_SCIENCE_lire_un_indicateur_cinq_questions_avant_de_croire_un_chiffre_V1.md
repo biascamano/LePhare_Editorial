@@ -1,5 +1,5 @@
 ID article : 2026-560
-Titre : Lire un indicateur : cinq questions avant de croire un chiffre
+Titre : Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre
 Type : SENTIER
 Type article : Atelier Sentier
 Theme : SCIENCE
@@ -26,13 +26,13 @@ URL WordPress (si publie) :
 
 ---
 
-# Lire un indicateur : cinq questions avant de croire un chiffre
+# Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre
 
 *Atelier du fondamental [Statistiques, corrélations et causalité](https://le-phare.info/statistiques-correlations-et-causalite/). Le fondamental apprend à ne pas confondre une corrélation avec une cause. Cet atelier applique la même prudence à un objet plus quotidien : l'indicateur, ce chiffre unique qu'on choisit parce qu'il est corrélé à ce qui compte, puis qu'on finit par prendre pour la chose elle-même.*
 
 ## Pourquoi un atelier sur les indicateurs
 
-Un indicateur est une corrélation qu'on a décidé de faire travailler. Les intentions de vote sont censées suivre le vote. Les entrées d'un musée sont censées suivre son utilité. Le chiffre est commode : il se compare, se publie, se transforme en courbe. Mais il hérite de toutes les fragilités d'une corrélation, et il en ajoute une : dès qu'on attache une décision au chiffre, celui-ci peut se déformer. L'économiste Charles Goodhart (1975) et le méthodologue Donald T. Campbell (1976) l'ont décrit, chacun dans sa discipline ; notre texte fondateur [Campbell et Goodhart : quand une mesure devient une cible](https://le-phare.info/?p=5505) présente leurs arguments.
+Un indicateur est une corrélation qu'on a décidé de faire travailler. Les intentions de vote sont censées suivre le vote. Les entrées d'un musée sont censées suivre son utilité. Le chiffre est commode : il se compare, se publie, se transforme en courbe. Mais il hérite de toutes les fragilités d'une corrélation, et il en ajoute une : dès qu'on attache une décision au chiffre, celui-ci peut se déformer. L'économiste Charles Goodhart (1975) et le méthodologue Donald T. Campbell (1976) l'ont décrit, chacun dans sa discipline ; notre texte fondateur [Campbell et Goodhart : quand une mesure devient une cible](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/) présente leurs arguments.
 
 D'où une grille en cinq questions, à poser avant de croire un chiffre, et surtout avant de décider sur sa base.
 
@@ -48,9 +48,9 @@ D'où une grille en cinq questions, à poser avant de croire un chiffre, et surt
 
 Deux actualités récentes du Phare servent de terrain.
 
-**Premier chiffre : les sondages brésiliens.** Le 4 octobre 2026, [Flávio Bolsonaro est arrivé devant Lula au premier tour de la présidentielle](https://le-phare.info/?p=5475), avec environ 47 % des voix contre 45 %, selon CNN et NPR, alors que les sondages de la veille plaçaient Lula légèrement en tête. Ce que ces sources disent : le résultat, l'écart d'environ deux points, l'inversion de l'ordre attendu. Ce qu'elles ne disent pas : la marge d'erreur de chaque enquête, ni si l'écart dépasse cette marge.
+**Premier chiffre : les sondages brésiliens.** Le 4 octobre 2026, [Flávio Bolsonaro est arrivé devant Lula au premier tour de la présidentielle](https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/), avec environ 47 % des voix contre 45 %, selon CNN et NPR, alors que les sondages de la veille plaçaient Lula légèrement en tête. Ce que ces sources disent : le résultat, l'écart d'environ deux points, l'inversion de l'ordre attendu. Ce qu'elles ne disent pas : la marge d'erreur de chaque enquête, ni si l'écart dépasse cette marge.
 
-**Second chiffre : la fréquentation d'un musée.** Le 30 septembre 2026, [le musée de l'Academy of Natural Sciences de Philadelphie a fermé](https://le-phare.info/?p=5498). Selon 6abc et la lettre de l'université Drexel citée par la presse locale, les « habitudes de visite » depuis la pandémie ne permettaient plus de couvrir des coûts croissants. Selon WHYY, d'anciens salariés affirment que la fréquentation baissait avant 2020 et l'attribuent à des choix de gestion. Ce que ces sources disent : le motif invoqué et sa contestation. Ce qu'elles ne disent pas : les chiffres précis de fréquentation et de déficit, qu'aucune ne publie.
+**Second chiffre : la fréquentation d'un musée.** Le 30 septembre 2026, [le musée de l'Academy of Natural Sciences de Philadelphie a fermé](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/). Selon 6abc et la lettre de l'université Drexel citée par la presse locale, les « habitudes de visite » depuis la pandémie ne permettaient plus de couvrir des coûts croissants. Selon WHYY, d'anciens salariés affirment que la fréquentation baissait avant 2020 et l'attribuent à des choix de gestion. Ce que ces sources disent : le motif invoqué et sa contestation. Ce qu'elles ne disent pas : les chiffres précis de fréquentation et de déficit, qu'aucune ne publie.
 
 ## La grille appliquée
 
@@ -82,7 +82,7 @@ Deux actualités récentes du Phare servent de terrain.
 
 **Brésil.** Le lien entre intention déclarée et vote dépend du taux de réponse aux enquêtes et de la participation. S'il s'est affaibli, il faudra le voir au second tour, le 25 octobre.
 
-**Philadelphie.** On choisit la fréquentation parce qu'elle est censée suivre l'utilité d'un musée. Mais si, comme l'affirment d'anciens salariés, les visites ont baissé parce qu'on a réduit les programmes pour les familles, le chiffre mesure aussi les décisions passées de la direction. Il juge en partie ce qu'il a contribué à produire. Notre Question du Phare [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500) développe ce point avec d'autres cas, des œufs de rapaces conservés au XIXe siècle à la banque de semences du Svalbard.
+**Philadelphie.** On choisit la fréquentation parce qu'elle est censée suivre l'utilité d'un musée. Mais si, comme l'affirment d'anciens salariés, les visites ont baissé parce qu'on a réduit les programmes pour les familles, le chiffre mesure aussi les décisions passées de la direction. Il juge en partie ce qu'il a contribué à produire. Notre Question du Phare [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/) développe ce point avec d'autres cas, des œufs de rapaces conservés au XIXe siècle à la banque de semences du Svalbard.
 
 ## Ce que la grille ne fait pas
 
@@ -95,7 +95,7 @@ Elle ne dit pas qu'il faut ignorer les chiffres. Sans sondages, on ne saurait ri
 - Quand celui qui produit le chiffre en est aussi juge, demander un second regard.
 - Un chiffre peut mesurer, en partie, les décisions passées de ceux qui s'en servent.
 
-Pour la vue d'ensemble des cas du mois, voir le dossier [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532).
+Pour la vue d'ensemble des cas du mois, voir le dossier [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/).
 
 ---
 
@@ -113,9 +113,9 @@ Comment savoir ce qu'un chiffre mesure vraiment avant de décider sur sa base ?
 
 **Pour aller plus loin**
 
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 
 **Sur le Sentier du Savoir**
 

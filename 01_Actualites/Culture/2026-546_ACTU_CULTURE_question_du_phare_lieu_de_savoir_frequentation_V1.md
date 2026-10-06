@@ -1,5 +1,5 @@
 ID article : 2026-546
-Titre : Un lieu de savoir doit-il être jugé à sa fréquentation ?
+Titre : Question du Phare - Un lieu de savoir doit-il être jugé à sa fréquentation ?
 Type : ACTU
 Type article : Question
 Theme : CULTURE
@@ -26,13 +26,13 @@ URL WordPress (si publie) :
 
 ---
 
-# Un lieu de savoir doit-il être jugé à sa fréquentation ?
+# Question du Phare - Un lieu de savoir doit-il être jugé à sa fréquentation ?
 
 *Fin septembre, le musée de l'Academy of Natural Sciences de Philadelphie, fondé en 1812, a fermé ses portes au public. Raison invoquée : la baisse de la fréquentation face à des coûts croissants. Derrière cette décision, une question qui concerne bien d'autres lieux : que dit le nombre de visiteurs de la valeur d'une institution de savoir ?*
 
 ## Le point de départ
 
-Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/?p=5498), l'université Drexel, propriétaire de l'Academy, a annoncé le 1er septembre la fermeture du musée, qui conserve environ 19 millions de spécimens. Elle invoque des habitudes de visite qui ne couvrent plus les coûts. D'anciens salariés affirment que le déclin avait commencé avant la pandémie et tenait à des choix de gestion. Une fondation propose de financer un an de fonctionnement ; la ville en débat le 7 octobre.
+Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/), l'université Drexel, propriétaire de l'Academy, a annoncé le 1er septembre la fermeture du musée, qui conserve environ 19 millions de spécimens. Elle invoque des habitudes de visite qui ne couvrent plus les coûts. D'anciens salariés affirment que le déclin avait commencé avant la pandémie et tenait à des choix de gestion. Une fondation propose de financer un an de fonctionnement ; la ville en débat le 7 octobre.
 
 ## Pourquoi cette question
 
@@ -46,7 +46,7 @@ Mais l'indicateur a deux limites. Il mesure ce qui se passe aux guichets, pas ce
 
 **Une banque de semences sans visiteurs.** La réserve mondiale de semences du Svalbard, en Norvège, ouverte en 2008, n'accueille pas le public. Elle conserve des doubles de semences confiées par des banques de gènes du monde entier. En 2015, le centre de recherche agricole ICARDA, qui avait dû quitter Alep en raison de la guerre en Syrie, y a effectué le premier retrait de son histoire pour reconstituer ses collections. Sa valeur ne s'est jamais mesurée en entrées, mais en ce qu'elle permet de reconstruire.
 
-**Des objets qui reprennent sens.** Le Phare a raconté [la remise par la Grèce à la Bulgarie des restes attribués au tsar Samuel](https://le-phare.info/?p=5483), découverts en 1965, en échange de 48 objets emportés pendant la Première Guerre mondiale. Des restes et des objets longtemps conservés à l'écart du public sont devenus, un siècle plus tard, l'enjeu d'une réconciliation entre deux pays.
+**Des objets qui reprennent sens.** Le Phare a raconté [la remise par la Grèce à la Bulgarie des restes attribués au tsar Samuel](https://le-phare.info/tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026/), découverts en 1965, en échange de 48 objets emportés pendant la Première Guerre mondiale. Des restes et des objets longtemps conservés à l'écart du public sont devenus, un siècle plus tard, l'enjeu d'une réconciliation entre deux pays.
 
 **Un patrimoine protégé pour lui-même.** À Angers, l'État a financé à hauteur de 4,4 millions d'euros [une galerie destinée à protéger le portail de la cathédrale](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/). Ce type de dépense ne se justifie pas d'abord par un nombre de visiteurs, mais par ce que l'on estime devoir transmettre.
 
@@ -89,11 +89,11 @@ Comment rendre visible, au moment de décider, une valeur que l'on ne peut mesur
 
 **Pour aller plus loin**
 
-- [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page](https://le-phare.info/?p=5498)
-- [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/?p=5483)
+- [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/)
+- [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026/)
 - [Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

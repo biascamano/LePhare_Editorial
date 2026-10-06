@@ -109,6 +109,8 @@ Principes transverses :
 | D12 | Pilotage éditorial adaptatif (V5) | **Un article par jour** : le meilleur prochain article du Phare. Ordre de lecture : état immédiat → Radar → cap → actualité. 5 candidats au plus (1–3 issus de la veille), notés Faible/Moyen/Fort sur importance actuelle, continuité, durabilité, valeur de compréhension, nouveauté ; priorité à notes proches : actualité majeure → suite naturelle → connexion → structurant. Le **type est choisi après le sujet** (Actualité, Question, Application, exceptionnellement Texte fondateur) ; pas de série rigide ni d'équilibrage artificiel. La question finale d'une Actualité entre au Radar (bloc 2). Remplace D9. | 2026-10-06 |
 | D13 | Couches de compression | `00_Systeme/Etat_editorial_courant.md` (≤ 50 lignes), **généré** par `tools/build_etat_courant.py` depuis la mémoire §1–§4 et le Radar, jamais édité à la main. La quotidienne ne lit ni le catalogue ni la mémoire entière. Sources de vérité inchangées : mémoire (sens) et index (technique). | 2026-10-06 |
 | D14 | Radar éditorial | `00_Systeme/Articles_a_creer.md` → `00_Systeme/Radar_editorial.md` : `\| P \| Type potentiel \| Sujet / Question \| Origine \| Statut \|`, ≤ 30 entrées actives ; statuts `approfondir`, `relier`, `à échéance (…)`, `conserver`, `archivé` ; blocs 1 Suites, 2 Questions, 3 Connexions, 4 Structurants, 5 Dossiers et Sentier, Archives. Quotidienne : retire le réalisé, ajoute la question finale d'une Actualité. Hebdomadaire : comité éditorial (tri, fusion, priorités, blocs 1–3). Mensuelle : blocs 4–5, archivage. | 2026-10-06 |
+| D15 | Vérification de fin de routine et visibilité | Chaque routine se termine par `tools/verify_publication.py` (articles des 7 derniers jours) : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une`. **Un article publié sans le tag `a-la-une` est invisible sur le site** : `new_article.py` l'ajoute à `Tags_WP` (hors quota de 8 tags), `wp_push_draft.py` le force à chaque push. `--fix` corrige tag et liens `?p=` ; `--publish-drafts` ne publie que des brouillons désignés ou récents, jamais un ancien brouillon par défaut. | 2026-10-06 |
+| D16 | Préfixe de titre par type | `new_article.py` préfixe le titre de tout type **sauf** l'Actualité : « Question du Phare - », « Application du Phare - », « Texte fondateur - », « Le Fil du Phare - », « Synthèse du mois - », « Dossier du Phare - », « Sentier du Savoir - ». Tiret court plutôt que deux-points (beaucoup de titres en contiennent déjà) ; préfixe déjà présent normalisé, jamais doublé. Slug sans préfixe (sauf Fil du Phare, historique). Appliqué rétroactivement aux 8 articles non-Actualité de 2026-531…552, 559, 560 (`wp_refresh_body.py --title`) ; les plus anciens gardent leur titre. | 2026-10-06 |
 
 ---
 
@@ -299,7 +301,7 @@ Skill : `.claude/skills/routine-hebdomadaire/SKILL.md`.
 
 | Champ | Valeur |
 |-------|--------|
-| Titre | `Le Fil du Phare — [question]` |
+| Titre | `Le Fil du Phare - [question]` (préfixe ajouté par `new_article.py`, D16) |
 | Type index | `SYNTHESE` |
 | Theme | thème dominant de la semaine |
 | Type article | `Fil du Phare` |
@@ -432,6 +434,8 @@ Fin de fichier : bloc `# SEO` (Mot-clé principal, Meta description, `Slug propo
 | `le-phare` | pages institutionnelles |
 | `cycle` (id 97) | existante, « Dossier hebdomadaire - Notre fil rouge » — Fil du Phare, synthèse mensuelle (B1) |
 
+Tag de visibilité : `a-la-une` sur **tout** article publié (sans lui, le thème n'affiche pas l'article — D15).
+
 Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`, `environnement-climat`, `science-sante`, `culture-philosophie`. Nouveaux tags : `question-du-phare`, `type-actualite`, `type-question`, `type-application`, `type-texte-fondateur`, `fil-du-phare`, `synthese-hebdomadaire`, `synthese-mensuelle`.
 
 ---
@@ -442,10 +446,11 @@ Tags thème : `monde`, `politique-societe`, `economie-finance`, `technologie-ia`
 |--------|------|---------------|
 | `tools/daily_run.py` | Orchestration publication (`--publish-existing`, `--keep-publish-folder`, `--no-publish-final`, `--force`) | Aucun. Garde `00_Systeme/Logs/daily_run_YYYY-MM-DD.json` → `--force` pour un 2e run le même jour. |
 | `tools/wp_push_draft.py` | Création brouillons WP, `--refresh-body` | `_slug_from_filename` reconnaît `ACTU, TF, SENTIER, FOND, DOSSIER, SYNTHESE`. |
-| `tools/wp_refresh_body.py` | `wp_push_draft --refresh-body` avec la config locale résolue par le script ; refuse `02_Fonds/` sauf `--allow-fonds` (triptyque archivé) | v3.10 : le chemin `tools/*.local.json` n'apparaît plus dans une commande (bloquée par la règle deny). |
+| `tools/wp_refresh_body.py` | `wp_push_draft --refresh-body` avec la config locale résolue par le script ; refuse `02_Fonds/` sauf `--allow-fonds` (triptyque archivé) ; `--title` met aussi à jour le titre WP depuis l'en-tête `Titre :` | v3.10 : le chemin `tools/*.local.json` n'apparaît plus dans une commande (bloquée par la règle deny). |
 | `tools/index_lookup.py` | `ID Type Theme Statut URL Titre` pour une liste d'IDs ou une recherche | v3.10 : lecture d'URL sans `python -c` ni filtre shell. v5 : `--search`, `--type`, `--theme`, `--dossier`, `--limit`. |
 | `tools/memoire_append.py` | Ajoute la ligne d'un article au §1 de la mémoire depuis l'en-tête + l'index (+ manifeste Sentier) ; `--penseur`, `--sentier`, `--type-label`, `--dry-run` ; refuse un doublon | v5 (B3 partiel). |
 | `tools/build_etat_courant.py` | Génère `Etat_editorial_courant.md` (≤ 50 lignes) depuis la mémoire §1–§4 et le Radar | v5 (D13). |
+| `tools/verify_publication.py` | Contrôle de fin de routine (D15) : liens, maillage, navigation, statut WP, tag `a-la-une` ; `[IDs…]`, `--days`, `--offline`, `--fix`, `--publish-drafts` ; réécrit les liens `?p=` en permaliens et rafraîchit les corps | v5.1. |
 | `tools/build_catalogue.py` | Génère `Catalogue_editorial.md` (vue large, mensuelle) | v5 : renvoi vers le Radar et l'État courant. |
 | `tools/post_linking.py` | Maillage + publication | Accepte **1** article (sans contrainte de type, sans injection de bloc) ou **3** (triptyque). `update_index_notes` seulement si > 1 article. |
 | `tools/post_seo_enrich.py` | Enrichissement SEO optionnel | Exige 3 IDs (`daily_run.py` ~l.322) → inactif hors triptyque (voir B4). |
@@ -530,6 +535,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-06 | v3.10 | Routines sans demande de permission : `tools/wp_refresh_body.py` (refresh WP sans chemin de config dans la commande, garde `02_Fonds/`) et `tools/index_lookup.py` (URLs d'index) ; `build_hubs.py` imprime la nouvelle commande ; règle « une commande Bash simple par appel » dans les skills | `tools/wp_refresh_body.py`, `tools/index_lookup.py`, `tools/build_hubs.py`, skills des 4 routines, `plan.md` |
 
 | 2026-10-06 | v5.0 | Pilotage éditorial adaptatif (`planV5.docx`) : D12 (un article par jour, type après le sujet, remplace D9), D13 (État courant généré), D14 (Radar). Phases 1, 2, 4 ; phase 3 « Relations » reportée (B17). `Articles_a_creer.md` → `Radar_editorial.md` (réécrit en 5 blocs) ; nouveaux `memoire_append.py`, `build_etat_courant.py` ; `index_lookup.py` (recherche) ; skill quotidien réécrit (lectures : État courant, Radar, veille ; arbitrage noté ; variante `paire`) ; hebdo = comité du Radar + 5 fils actifs ; mensuelle = blocs 4–5, archivage, catalogue | `plan.md`, `CLAUDE.md`, `actions.md`, skills et commande quotidienne, `00_Systeme/Radar_editorial.md`, `00_Systeme/Etat_editorial_courant.md`, `00_Systeme/Memoire_editoriale.md`, `tools/memoire_append.py`, `tools/build_etat_courant.py`, `tools/index_lookup.py`, `tools/build_catalogue.py` |
+| 2026-10-06 | v5.1 | D15 : vérification de fin de routine (`verify_publication.py`) et tag `a-la-une` obligatoire (`new_article.py`, `wp_push_draft.py`, validateur hors quota). Publication des brouillons 531–552, 559, 560 ; tag ajouté à 553–558, 561, 562 ; liens `?p=` réécrits | `tools/verify_publication.py`, `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/validate_index_editorial.py`, skills des 3 routines, `plan.md`, `CLAUDE.md` |
+| 2026-10-06 | v5.2 | D16 : préfixe de titre par type (sauf Actualité), tiret court ; `wp_refresh_body.py --title` ; préfixe appliqué à 544, 546, 547, 548, 550, 552, 559, 560 | `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, skills des 3 routines, `plan.md`, 8 articles, index |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 

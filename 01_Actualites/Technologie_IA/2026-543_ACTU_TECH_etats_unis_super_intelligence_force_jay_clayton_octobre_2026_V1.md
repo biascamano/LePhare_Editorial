@@ -54,7 +54,7 @@ On sait qui compose la Super Intelligence Force, à qui elle rend compte et de c
 
 On ignore en revanche presque tout du reste. Le groupe aura-t-il un budget, du personnel, un pouvoir de contrainte ? Ses conclusions déboucheront-elles sur des règles, ou sur de nouveaux engagements volontaires ? Qui choisira les auditeurs « indépendants » de l'accord, qui les paiera, et qui lira leurs rapports ? Aucune des sources consultées ne répond à ces questions.
 
-Le vocabulaire lui-même mérite attention. Le texte parle de « super-intelligence », là où la plupart des documents publics parlaient jusqu'ici d'« intelligence artificielle ». À propos du [missile nord-coréen dit « à IA »](https://le-phare.info/?p=5469), Le Phare relevait combien un mot peut porter un message à lui seul. Ici, le terme installe l'idée d'une course dont l'enjeu serait le premier rang mondial.
+Le vocabulaire lui-même mérite attention. Le texte parle de « super-intelligence », là où la plupart des documents publics parlaient jusqu'ici d'« intelligence artificielle ». À propos du [missile nord-coréen dit « à IA »](https://le-phare.info/missile-ia-coree-du-nord-essai-3-octobre-2026/), Le Phare relevait combien un mot peut porter un message à lui seul. Ici, le terme installe l'idée d'une course dont l'enjeu serait le premier rang mondial.
 
 ## Deux lectures qui s'opposent
 
@@ -83,13 +83,13 @@ D'où une question qui dépasse l'IA et cette semaine d'octobre : peut-on laisse
 
 **La question suivante**
 
-[Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
+[Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 
 **Pour aller plus loin**
 
 - [Code of Practice GPAI : l'Europe entre signature volontaire et compte à rebours du 2 août 2026](https://le-phare.info/code-practice-gpai-europe-compte-a-rebours-2-aout-2026/)
 - [Le Digital Omnibus retouche l'AI Act : ce que le report au 2 décembre 2027 change — et ce qui ne bouge pas](https://le-phare.info/digital-omnibus-ai-act-report-conformite-2027/)
-- [Le missile « à IA » de Pyongyang : ce que l'essai du 3 octobre montre — et ce qu'un mot suffit à faire croire](https://le-phare.info/?p=5469)
+- [Le missile « à IA » de Pyongyang : ce que l'essai du 3 octobre montre — et ce qu'un mot suffit à faire croire](https://le-phare.info/missile-ia-coree-du-nord-essai-3-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

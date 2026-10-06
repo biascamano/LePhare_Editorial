@@ -92,11 +92,11 @@ Une nationalité peut-elle s'acheter comme un actif, sans changer ce que signifi
 
 **Pour aller plus loin**
 
-- [G7 : 100 millions de barils de réserves pour calmer le diesel, un remède à court terme](https://le-phare.info/?p=5479)
+- [G7 : 100 millions de barils de réserves pour calmer le diesel, un remède à court terme](https://le-phare.info/g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026/)
 - [Hannah Arendt : l'apatridie et le droit d'avoir des droits](https://le-phare.info/hannah-arendt-apatridie-droit-avoir-des-droits-migration/)
 - [Albert Hirschman : commerce, dépendance et pouvoir de contrainte](https://le-phare.info/albert-hirschman-commerce-dependance-et-pouvoir-de-contrainte/)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

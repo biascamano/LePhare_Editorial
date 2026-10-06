@@ -18,6 +18,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SENTIER_CSV = Path("00_Systeme") / "Manifests" / "sentier_fondamentaux.csv"
 STAGING_DIR = Path("07_A_Publier")
 MAX_TAGS = 8
+# Sans ce tag, le thème WordPress n'affiche pas l'article ; hors quota MAX_TAGS.
+VISIBILITY_TAG = "a-la-une"
 
 THEMES = {
     "MONDE": ("Politique_Societe", "monde"),
@@ -43,6 +45,17 @@ TYPES: dict[str, dict] = {
     "atelier": {"code": "SENTIER", "label": "Atelier Sentier", "category": "sentier-du-savoir", "tags": ["atelier-sentier"], "posture": "Transmettre", "routine": "mensuelle"},
 }
 
+TITLE_PREFIXES = {
+    "question": "Question du Phare",
+    "application": "Application du Phare",
+    "texte-fondateur": "Texte fondateur",
+    "fil-du-phare": "Le Fil du Phare",
+    "synthese-mensuelle": "Synthèse du mois",
+    "dossier": "Dossier du Phare",
+    "atelier": "Sentier du Savoir",
+}
+TITLE_SEPARATOR = " - "
+
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 ID_RE = re.compile(r"^(\d{4})-(\d{3,})$")
 
@@ -50,6 +63,15 @@ ID_RE = re.compile(r"^(\d{4})-(\d{3,})$")
 def slugify(text: str) -> str:
     ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode("ascii").lower()
     return re.sub(r"[^a-z0-9]+", "-", ascii_text).strip("-")
+
+
+def prefixed_title(article_type: str, title: str) -> str:
+    prefix = TITLE_PREFIXES.get(article_type)
+    if not prefix:
+        return title
+    if title.startswith(prefix):
+        title = title[len(prefix):].lstrip(" -–—:")
+    return f"{prefix}{TITLE_SEPARATOR}{title}"
 
 
 def split_list(value: str | None) -> list[str]:
@@ -108,10 +130,10 @@ def build_tags(args: argparse.Namespace, spec: dict, posture: str, fondamental: 
     if fondamental:
         tags.append(f"fondamental-{fondamental['fondamental_id']}")
     tags.extend(split_list(args.tags))
-    unique = list(dict.fromkeys(tags))
+    unique = [t for t in dict.fromkeys(tags) if t != VISIBILITY_TAG]
     if len(unique) > MAX_TAGS:
         raise SystemExit(f"{len(unique)} tags > {MAX_TAGS} : {';'.join(unique)}")
-    return unique
+    return [VISIBILITY_TAG, *unique]
 
 
 def render_skeleton(meta: list[tuple[str, str]], title: str, slug: str, keyword: str) -> str:
@@ -169,6 +191,7 @@ def cmd_create(args: argparse.Namespace) -> dict:
         if ref not in known_ids:
             raise SystemExit(f"ID lié absent de l'index : {ref}")
 
+    title = prefixed_title(args.type, args.title)
     posture = args.posture or spec["posture"]
     relative_folder, fondamental = resolve_location(args, spec)
     tags = build_tags(args, spec, posture, fondamental)
@@ -186,7 +209,7 @@ def cmd_create(args: argparse.Namespace) -> dict:
 
     meta = [
         ("ID article", article_id),
-        ("Titre", args.title),
+        ("Titre", title),
         ("Type", spec["code"]),
         ("Type article", spec["label"]),
         ("Theme", args.theme),
@@ -222,7 +245,7 @@ def cmd_create(args: argparse.Namespace) -> dict:
 
     row = build_index_row(
         article_id=article_id,
-        title=args.title,
+        title=title,
         type_code=spec["code"],
         theme_code=args.theme,
         etape_sentier=etape,
@@ -243,6 +266,7 @@ def cmd_create(args: argparse.Namespace) -> dict:
     result = {
         "id": article_id,
         "path": str(target.relative_to(ROOT)).replace("\\", "/"),
+        "title": title,
         "slug": wp_slug,
         "category": spec["category"],
         "tags": tags,
@@ -252,7 +276,7 @@ def cmd_create(args: argparse.Namespace) -> dict:
         return result
 
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(render_skeleton(meta, args.title, wp_slug, keywords[0] if keywords else ""), encoding="utf-8", newline="\n")
+    target.write_text(render_skeleton(meta, title, wp_slug, keywords[0] if keywords else ""), encoding="utf-8", newline="\n")
     append_rows_to_index(index_path, [row])
     return result
 

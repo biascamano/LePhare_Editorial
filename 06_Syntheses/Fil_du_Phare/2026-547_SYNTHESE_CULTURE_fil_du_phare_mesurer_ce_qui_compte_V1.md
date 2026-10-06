@@ -1,5 +1,5 @@
 ID article : 2026-547
-Titre : Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
+Titre : Le Fil du Phare - Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
 Type : SYNTHESE
 Type article : Fil du Phare
 Theme : CULTURE
@@ -26,19 +26,19 @@ URL WordPress (si publie) :
 
 ---
 
-# Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
+# Le Fil du Phare - Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
 
 *Seize articles cette semaine, des législatives lettones à un musée de Philadelphie. Des sujets sans rapport apparent. Pourtant, presque tous butent sur le même problème : un chiffre, un score ou une étiquette qu'on prend pour la chose elle-même.*
 
 ## Cette semaine
 
-En **Lettonie**, Andris Kulbergs a [gagné les législatives sans obtenir de majorité](https://le-phare.info/?p=5473). Au **Brésil**, Flávio Bolsonaro est [arrivé devant Lula au premier tour, contre les sondages de la veille](https://le-phare.info/?p=5475). En **Bosnie-Herzégovine**, [trois présidents ont été élus le même soir](https://le-phare.info/?p=5489), par un système qui fait voter chaque communauté séparément.
+En **Lettonie**, Andris Kulbergs a [gagné les législatives sans obtenir de majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/). Au **Brésil**, Flávio Bolsonaro est [arrivé devant Lula au premier tour, contre les sondages de la veille](https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/). En **Bosnie-Herzégovine**, [trois présidents ont été élus le même soir](https://le-phare.info/bosnie-herzegovine-elections-generales-4-octobre-2026/), par un système qui fait voter chaque communauté séparément.
 
-En **Éthiopie**, l'armée fédérale a [repris Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/?p=5477). En **Corée du Nord**, Pyongyang a présenté [un missile « à IA »](https://le-phare.info/?p=5469) sans qu'on puisse vérifier ce que recouvre le mot. À **Washington**, l'administration a créé [une « Super Intelligence Force »](https://le-phare.info/?p=5493), sans règle contraignante, ce qui nous a conduits à demander [si l'on peut laisser ceux qui développent une technologie juger seuls de sa sécurité](https://le-phare.info/?p=5495).
+En **Éthiopie**, l'armée fédérale a [repris Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026/). En **Corée du Nord**, Pyongyang a présenté [un missile « à IA »](https://le-phare.info/missile-ia-coree-du-nord-essai-3-octobre-2026/) sans qu'on puisse vérifier ce que recouvre le mot. À **Washington**, l'administration a créé [une « Super Intelligence Force »](https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/), sans règle contraignante, ce qui nous a conduits à demander [si l'on peut laisser ceux qui développent une technologie juger seuls de sa sécurité](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/).
 
-Le **G7** a libéré [100 millions de barils de réserves pour calmer le prix du diesel](https://le-phare.info/?p=5479). L'**Argentine** propose [un passeport contre 350 000 dollars](https://le-phare.info/?p=5487). À **Irkoutsk**, [une technicienne de laboratoire est morte d'une peste suspectée](https://le-phare.info/?p=5481), sans diagnostic confirmé. En **France**, des [lycées bloqués](https://le-phare.info/?p=5491) portent des revendications que les images de violence recouvrent.
+Le **G7** a libéré [100 millions de barils de réserves pour calmer le prix du diesel](https://le-phare.info/g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026/). L'**Argentine** propose [un passeport contre 350 000 dollars](https://le-phare.info/argentine-citoyennete-par-investissement-milei-octobre-2026/). À **Irkoutsk**, [une technicienne de laboratoire est morte d'une peste suspectée](https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/), sans diagnostic confirmé. En **France**, des [lycées bloqués](https://le-phare.info/france-blocages-lycees-mouvement-lyceen-octobre-2026/) portent des revendications que les images de violence recouvrent.
 
-Côté mémoire, l'**Italie** a refait du 4 octobre [un jour férié pour saint François](https://le-phare.info/?p=5471), la **Grèce** a remis à la Bulgarie [les restes attribués au tsar Samuel](https://le-phare.info/?p=5483), l'arche de Hōlei, à **Hawaï**, [s'est effondrée](https://le-phare.info/?p=5485), et le musée de l'Academy of Natural Sciences de **Philadelphie**, fondé en 1812, [a fermé faute de visiteurs](https://le-phare.info/?p=5498), ce qui nous a fait demander [si un lieu de savoir doit être jugé à sa fréquentation](https://le-phare.info/?p=5500).
+Côté mémoire, l'**Italie** a refait du 4 octobre [un jour férié pour saint François](https://le-phare.info/saint-francois-assise-800-ans-4-octobre-ferie-italie/), la **Grèce** a remis à la Bulgarie [les restes attribués au tsar Samuel](https://le-phare.info/tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026/), l'arche de Hōlei, à **Hawaï**, [s'est effondrée](https://le-phare.info/hawaii-arche-holei-effondrement-kilauea-octobre-2026/), et le musée de l'Academy of Natural Sciences de **Philadelphie**, fondé en 1812, [a fermé faute de visiteurs](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/), ce qui nous a fait demander [si un lieu de savoir doit être jugé à sa fréquentation](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/).
 
 ## Le lien invisible
 
@@ -94,9 +94,9 @@ Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il lais
 
 **Pour aller plus loin**
 
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

@@ -46,7 +46,7 @@ La télévision commerciale l'a posée la première, à grande échelle. En 1973
 
 Les moteurs de recherche et les réseaux sociaux ont ensuite porté ce modèle à une autre échelle. La recherche gratuite est financée par les annonces qui l'entourent ; le fil d'actualité gratuit, par le temps qu'on y passe. Plus on connaît l'utilisateur, plus son attention se vend cher. C'est ce mécanisme qui a fait de la collecte de données personnelles une industrie.
 
-Le Phare a déjà rencontré cette question sous d'autres formes. Quand OpenAI promet que les publicités n'influencent pas les réponses, elle est seule à pouvoir le vérifier : c'est le problème de l'entreprise [juge et partie de sa propre conduite](https://le-phare.info/?p=5495). Quand la régie promet aux annonceurs de mesurer les achats déclenchés par leurs annonces, le danger décrit par [la loi de Goodhart](https://le-phare.info/?p=5505) n'est pas loin : un service optimisé pour produire des conversions finit par servir ce chiffre plutôt que ses utilisateurs. Et quand une ressource que tout le monde utilise doit être financée, la question de [qui paie le prix](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/) ne disparaît jamais : elle se déplace.
+Le Phare a déjà rencontré cette question sous d'autres formes. Quand OpenAI promet que les publicités n'influencent pas les réponses, elle est seule à pouvoir le vérifier : c'est le problème de l'entreprise [juge et partie de sa propre conduite](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/). Quand la régie promet aux annonceurs de mesurer les achats déclenchés par leurs annonces, le danger décrit par [la loi de Goodhart](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/) n'est pas loin : un service optimisé pour produire des conversions finit par servir ce chiffre plutôt que ses utilisateurs. Et quand une ressource que tout le monde utilise doit être financée, la question de [qui paie le prix](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/) ne disparaît jamais : elle se déplace.
 
 ## Une pensée pour regarder autrement
 
@@ -96,8 +96,8 @@ Faut-il des règles particulières pour la publicité dans des services qui nous
 **Pour aller plus loin**
 
 - [ChatGPT : la publicité arrive dans la génération d'images, et l'assistant devient un support publicitaire](https://le-phare.info/chatgpt-publicite-generation-images-octobre-2026/)
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
 - [Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit en payer le prix ?](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/)
 
 **Sur le Sentier du Savoir**

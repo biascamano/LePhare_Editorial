@@ -66,7 +66,7 @@ Le système de Dayton a atteint son premier objectif : la guerre ne s'est pas ra
 
 Le politiste [Ernst Haas](https://le-phare.info/ernst-haas-neofonctionnalisme-spillover-elargissement-balkans/), que Le Phare a présenté, pensait que la coopération concrète entre États, dans des domaines techniques, pouvait progressivement créer des solidarités politiques. Appliquée à l'intérieur d'un pays, l'idée pose une question : des institutions communes peuvent-elles produire une identité commune, si les électeurs ne votent jamais ensemble ?
 
-À propos des [législatives lettones](https://le-phare.info/?p=5473), nous rappelions qu'une victoire électorale n'est pas une majorité. En Bosnie-Herzégovine, la règle est encore plus nette : gagner un siège ne suffit pas, il faut ensuite gouverner avec ceux qu'on n'a pas affrontés.
+À propos des [législatives lettones](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/), nous rappelions qu'une victoire électorale n'est pas une majorité. En Bosnie-Herzégovine, la règle est encore plus nette : gagner un siège ne suffit pas, il faut ensuite gouverner avec ceux qu'on n'a pas affrontés.
 
 ## Une autre manière de regarder
 
@@ -97,8 +97,8 @@ Un système conçu pour garantir la paix entre communautés peut-il aussi permet
 
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
 - [Ernst Haas : le néofonctionnalisme et l'élargissement aux Balkans](https://le-phare.info/ernst-haas-neofonctionnalisme-spillover-elargissement-balkans/)
-- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/?p=5473)
-- [Éthiopie : l'armée fédérale reprend Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/?p=5477)
+- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/)
+- [Éthiopie : l'armée fédérale reprend Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

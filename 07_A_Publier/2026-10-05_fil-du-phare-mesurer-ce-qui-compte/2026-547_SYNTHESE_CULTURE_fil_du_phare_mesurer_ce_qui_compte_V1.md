@@ -1,5 +1,5 @@
 ID article : 2026-547
-Titre : Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
+Titre : Le Fil du Phare - Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
 Type : SYNTHESE
 Type article : Fil du Phare
 Theme : CULTURE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
+# Le Fil du Phare - Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?
 
 *Seize articles cette semaine, des législatives lettones à un musée de Philadelphie. Des sujets sans rapport apparent. Pourtant, presque tous butent sur le même problème : un chiffre, un score ou une étiquette qu'on prend pour la chose elle-même.*
 

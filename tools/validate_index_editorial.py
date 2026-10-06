@@ -71,7 +71,7 @@ def check_article(row: dict[str, str], rows: list[dict[str, str]], root: Path = 
     categories = [c.strip() for c in row["Categorie_WP"].split(";") if c.strip()]
     if type_code in TYPE_CATEGORY and categories != [TYPE_CATEGORY[type_code]]:
         errors.append(f"Categorie_WP {row['Categorie_WP']!r} ≠ {TYPE_CATEGORY[type_code]}")
-    tags = [t.strip() for t in row["Tags_WP"].split(";") if t.strip()]
+    tags = [t.strip() for t in row["Tags_WP"].split(";") if t.strip() and t.strip() != "a-la-une"]
     if len(tags) > MAX_TAGS:
         errors.append(f"{len(tags)} tags > {MAX_TAGS}")
     if theme in THEME_TAGS and THEME_TAGS[theme] not in tags:

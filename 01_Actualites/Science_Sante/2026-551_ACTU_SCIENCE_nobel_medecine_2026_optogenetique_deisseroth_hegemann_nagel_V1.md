@@ -78,11 +78,11 @@ La recherche publique est de plus en plus orientée vers des objectifs : appels 
 
 **La question suivante**
 
-[Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514)
+[Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/)
 
 **Pour aller plus loin**
 
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 - [Alexander Fleming et la leçon du discours Nobel sur la pénicilline](https://le-phare.info/fleming-discours-nobel-penicilline-prudence/)
 
 **Sur le Sentier du Savoir**

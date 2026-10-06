@@ -1,5 +1,5 @@
 ID article : 2026-559
-Titre : Mesurer ou juger : ce qu'un indicateur laisse hors champ
+Titre : Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ
 Type : DOSSIER
 Type article : Dossier
 Theme : CULTURE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Mesurer ou juger : ce qu'un indicateur laisse hors champ
+# Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ
 
 *Un sondage contredit par les urnes, un parti arrivé en tête sans majorité, un musée fermé faute de visiteurs, une nationalité affichée à prix fixe, une recherche qu'on voudrait juger à son utilité. Ces histoires d'octobre 2026 n'ont rien en commun, sauf une chose : à chaque fois, un chiffre est en train de prendre la place d'un jugement.*
 
@@ -42,29 +42,29 @@ Le problème commence plus tard, quand l'indicateur cesse d'éclairer une décis
 
 Certains chiffres ne sont pas faux. Ils sont lus de travers.
 
-En Lettonie, [la Liste unie d'Andris Kulbergs est arrivée en tête des législatives sans obtenir de majorité](https://le-phare.info/?p=5473). Arriver premier n'est pas gouverner : dans un régime parlementaire, c'est la coalition qui compte, et le score du vainqueur ne dit rien de celle qui se formera.
+En Lettonie, [la Liste unie d'Andris Kulbergs est arrivée en tête des législatives sans obtenir de majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/). Arriver premier n'est pas gouverner : dans un régime parlementaire, c'est la coalition qui compte, et le score du vainqueur ne dit rien de celle qui se formera.
 
-Au Brésil, [Flávio Bolsonaro est arrivé devant Lula au premier tour, contre les sondages de la veille](https://le-phare.info/?p=5475). L'écart interroge les instituts, mais aussi les lecteurs : un sondage décrit des intentions à une date donnée, avec une marge d'erreur. Il n'annonce pas un résultat. Le second tour, le 25 octobre, dira si les enquêtes ont corrigé leur méthode.
+Au Brésil, [Flávio Bolsonaro est arrivé devant Lula au premier tour, contre les sondages de la veille](https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/). L'écart interroge les instituts, mais aussi les lecteurs : un sondage décrit des intentions à une date donnée, avec une marge d'erreur. Il n'annonce pas un résultat. Le second tour, le 25 octobre, dira si les enquêtes ont corrigé leur méthode.
 
 Dans ces deux cas, l'indicateur n'est pas corrompu. C'est notre lecture qui lui fait porter plus qu'il ne peut.
 
 ## Deuxième volet : le chiffre qui juge une institution
 
-Le cas le plus net du mois vient de Philadelphie. [Le musée de l'Academy of Natural Sciences, fondé en 1812, a fermé](https://le-phare.info/?p=5498), l'université Drexel invoquant la baisse de la fréquentation. Derrière les salles d'exposition, l'institution conserve pourtant des collections de près de 19 millions de spécimens, dont la valeur scientifique ne se mesure pas en billets vendus.
+Le cas le plus net du mois vient de Philadelphie. [Le musée de l'Academy of Natural Sciences, fondé en 1812, a fermé](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/), l'université Drexel invoquant la baisse de la fréquentation. Derrière les salles d'exposition, l'institution conserve pourtant des collections de près de 19 millions de spécimens, dont la valeur scientifique ne se mesure pas en billets vendus.
 
-Nous en avons tiré une question générale : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500) Des œufs de rapaces conservés depuis le XIXe siècle ont permis, des décennies plus tard, de démontrer les effets du DDT. La banque de semences du Svalbard ne reçoit presque aucun visiteur. Un indicateur immédiat juge mal ce qui ne sert qu'à long terme.
+Nous en avons tiré une question générale : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/) Des œufs de rapaces conservés depuis le XIXe siècle ont permis, des décennies plus tard, de démontrer les effets du DDT. La banque de semences du Svalbard ne reçoit presque aucun visiteur. Un indicateur immédiat juge mal ce qui ne sert qu'à long terme.
 
-Le même problème se pose pour la recherche. [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514) L'optogénétique, récompensée par le Nobel de médecine 2026, est née de l'étude d'une algue : aucun indicateur d'utilité ne l'aurait repérée au départ. Et le Nobel de physique attribué à Francis Halzen pour IceCube a rappelé qu'un projet peut rester vingt-cinq ans sans découverte décisive avant d'aboutir, ce qui pose une autre question : [combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/)
+Le même problème se pose pour la recherche. [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/) L'optogénétique, récompensée par le Nobel de médecine 2026, est née de l'étude d'une algue : aucun indicateur d'utilité ne l'aurait repérée au départ. Et le Nobel de physique attribué à Francis Halzen pour IceCube a rappelé qu'un projet peut rester vingt-cinq ans sans découverte décisive avant d'aboutir, ce qui pose une autre question : [combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/)
 
 ## Troisième volet : le chiffre qui tient lieu de critère
 
-Parfois, un montant remplace une définition. [L'Argentine propose la citoyenneté contre une contribution de 350 000 dollars](https://le-phare.info/?p=5487), ou 800 000 dollars d'obligations. Le chiffre est simple, vérifiable, impartial en apparence. Mais il répond à une question (« combien ? ») à la place d'une autre (« qu'est-ce qu'appartenir à une communauté politique ? »), que la loi n'a pas besoin de poser pour s'appliquer.
+Parfois, un montant remplace une définition. [L'Argentine propose la citoyenneté contre une contribution de 350 000 dollars](https://le-phare.info/argentine-citoyennete-par-investissement-milei-octobre-2026/), ou 800 000 dollars d'obligations. Le chiffre est simple, vérifiable, impartial en apparence. Mais il répond à une question (« combien ? ») à la place d'une autre (« qu'est-ce qu'appartenir à une communauté politique ? »), que la loi n'a pas besoin de poser pour s'appliquer.
 
 C'est une forme particulière du problème : l'indicateur ne mesure pas mal, il dispense de juger.
 
 ## La grille : Campbell et Goodhart
 
-Deux auteurs ont formulé, presque en même temps, l'observation qui relie ces cas. En 1975, l'économiste Charles Goodhart constate qu'une régularité statistique tend à s'effondrer dès qu'on s'en sert pour piloter. En 1976, le méthodologue Donald T. Campbell écrit que plus un indicateur social sert à prendre des décisions, plus il subit de pressions qui le déforment, et plus il risque de déformer ce qu'il devait observer. Notre texte fondateur, [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505), présente leurs textes et leurs limites.
+Deux auteurs ont formulé, presque en même temps, l'observation qui relie ces cas. En 1975, l'économiste Charles Goodhart constate qu'une régularité statistique tend à s'effondrer dès qu'on s'en sert pour piloter. En 1976, le méthodologue Donald T. Campbell écrit que plus un indicateur social sert à prendre des décisions, plus il subit de pressions qui le déforment, et plus il risque de déformer ce qu'il devait observer. Notre texte fondateur, [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/), présente leurs textes et leurs limites.
 
 Il en tire cinq questions, à poser devant toute décision fondée sur un chiffre :
 
@@ -82,18 +82,18 @@ Campbell et Goodhart sont souvent cités pour disqualifier toute mesure. Ce sera
 
 Plusieurs questions restent ouvertes. Qui doit décider de ce qu'un indicateur laisse hors champ : ceux qui le produisent, ceux qui le subissent, ou un tiers ? Comment une institution peut-elle fixer à l'avance les critères qui lui diront quand arrêter, sans que ces critères deviennent à leur tour des cibles ? Et que faire quand le jugement humain, qu'on oppose volontiers au chiffre, est lui-même plus partial que lui ?
 
-Le [Fil du Phare du 5 octobre](https://le-phare.info/?p=5503) le reconnaissait : relier des événements par une seule question force les rapprochements. Ce dossier est une grille de lecture, pas une loi. Il sera complété au fil des articles qui la mettent à l'épreuve.
+Le [Fil du Phare du 5 octobre](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/) le reconnaissait : relier des événements par une seule question force les rapprochements. Ce dossier est une grille de lecture, pas une loi. Il sera complété au fil des articles qui la mettent à l'épreuve.
 
 ## Liens internes du dossier
-- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/?p=5473)
-- [Brésil : Flávio Bolsonaro devant Lula au premier tour, et des sondages pris à revers](https://le-phare.info/?p=5475)
-- [Argentine : un passeport contre 350 000 dollars, ou ce que vaut une citoyenneté](https://le-phare.info/?p=5487)
-- [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page](https://le-phare.info/?p=5498)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
-- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514)
-- [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/?p=5534)
+- [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/)
+- [Brésil : Flávio Bolsonaro devant Lula au premier tour, et des sondages pris à revers](https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/)
+- [Argentine : un passeport contre 350 000 dollars, ou ce que vaut une citoyenneté](https://le-phare.info/argentine-citoyennete-par-investissement-milei-octobre-2026/)
+- [Philadelphie : le plus ancien musée d'histoire naturelle des Amériques ferme, et une ville refuse de tourner la page](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
+- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/)
+- [Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre/)
 
 ---
 
@@ -110,9 +110,9 @@ Quand un indicateur est utile mais incomplet, qui doit décider de ce qu'il lais
 
 **Pour aller plus loin**
 
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Le Fil du Phare — Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 
 **Sur le Sentier du Savoir**
 

@@ -32,10 +32,10 @@ URL WordPress (si publie) :
 
 Une ville du Colorado devant la Cour suprême des États-Unis, des data centers qui réclament de l'électricité et de la forêt, de la publicité qui s'installe dans un assistant conversationnel, deux prix Nobel scientifiques et une mort inexpliquée dans un laboratoire sibérien. À première vue, rien ne relie ces sujets. Ils ont pourtant posé, chacun à sa manière, la même question.
 
-- Le 5 octobre, la Cour suprême a entendu l'affaire [Suncor c. Boulder](https://le-phare.info/?p=5507) : le comté et la ville de Boulder demandent à Suncor et à Exxon Mobil de payer une partie de leurs coûts d'adaptation au climat. Nous en avons tiré une question : [quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/?p=5509)
+- Le 5 octobre, la Cour suprême a entendu l'affaire [Suncor c. Boulder](https://le-phare.info/cour-supreme-suncor-boulder-responsabilite-climatique/) : le comté et la ville de Boulder demandent à Suncor et à Exxon Mobil de payer une partie de leurs coûts d'adaptation au climat. Nous en avons tiré une question : [quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/)
 - Le 30 septembre, le Sénat américain a rejeté une loi qui devait faire payer aux [data centers](https://le-phare.info/data-centers-senat-ratepayer-protection-act-google-finlande/) le coût du réseau électrique, tandis qu'en Finlande Google est mis en cause pour 330 hectares de forêt abattus avant toute évaluation environnementale. D'où une seconde question : [qui doit payer les ressources que tout le monde partage ?](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/)
 - OpenAI va tester des [publicités visuelles dans la génération d'images de ChatGPT](https://le-phare.info/chatgpt-publicite-generation-images-octobre-2026/), ce qui ramène une vieille interrogation : [quand un service est gratuit, qui en est vraiment le client ?](https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/)
-- Le Nobel de médecine a récompensé [l'optogénétique](https://le-phare.info/?p=5512), née de l'étude d'une algue qui nage vers la lumière. Nous nous sommes demandé si l'on peut [juger une recherche à son utilité prévisible](https://le-phare.info/?p=5514).
+- Le Nobel de médecine a récompensé [l'optogénétique](https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/), née de l'étude d'une algue qui nage vers la lumière. Nous nous sommes demandé si l'on peut [juger une recherche à son utilité prévisible](https://le-phare.info/question-du-phare-recherche-utilite-previsible/).
 - Le Nobel de physique a couronné Francis Halzen et [IceCube](https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/), un détecteur proposé en 1988 qui a mis vingt-cinq ans à produire sa première découverte. Question : [combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/)
 - À Irkoutsk, une technicienne d'un institut antipeste est morte d'une pneumonie que les autorités refusent de nommer. Nous avons cherché [comment informer quand le diagnostic n'est pas confirmé](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/).
 
@@ -53,7 +53,7 @@ Le point commun n'est donc pas un thème, climat, technologie ou science. C'est 
 
 La question n'a pas une seule réponse, parce que « ce qu'on ne voit pas encore » recouvre deux choses opposées.
 
-Il y a d'abord les **dommages différés**. Le procès de Boulder, la loi rejetée au Sénat et les forêts finlandaises relèvent de cette catégorie : une activité profite à quelques-uns aujourd'hui, et ses coûts se dispersent dans le temps et dans l'espace. Ici, la réponse intuitive est que celui qui profite doit payer. Mais l'article sur la [responsabilité collective](https://le-phare.info/?p=5509) montrait la difficulté : quand des millions d'acteurs ont contribué au dommage, désigner quelques payeurs ressemble autant à un choix politique qu'à un constat.
+Il y a d'abord les **dommages différés**. Le procès de Boulder, la loi rejetée au Sénat et les forêts finlandaises relèvent de cette catégorie : une activité profite à quelques-uns aujourd'hui, et ses coûts se dispersent dans le temps et dans l'espace. Ici, la réponse intuitive est que celui qui profite doit payer. Mais l'article sur la [responsabilité collective](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/) montrait la difficulté : quand des millions d'acteurs ont contribué au dommage, désigner quelques payeurs ressemble autant à un choix politique qu'à un constat.
 
 Il y a ensuite les **bénéfices différés**. L'optogénétique et IceCube sont l'inverse exact : des dépenses engagées longtemps sans résultat, dont la valeur n'est apparue qu'après coup. Ici, l'intuition s'inverse. Si l'on avait exigé de ces recherches qu'elles prouvent d'avance leur utilité, elles n'auraient sans doute pas existé. Le prix de l'invisible, dans ce cas, c'est la patience, et ce sont les contribuables qui la financent.
 
@@ -76,7 +76,7 @@ Mis ensemble, les articles de la semaine dessinent quelques repères.
 - **Regarder qui décide et qui paie.** Les cas les plus contestés de la semaine sont ceux où ce ne sont pas les mêmes : les pétroliers et les habitants de Boulder, les opérateurs de data centers et les abonnés, les annonceurs et les utilisateurs.
 - **Exiger une date.** Comme pour l'incertitude d'Irkoutsk, un pari sur l'avenir gagne en légitimité quand il dit à quel moment on saura s'il a réussi.
 
-Ces repères rejoignent le dossier [Mesurer ou juger](https://le-phare.info/?p=5532) : ce qu'un indicateur laisse hors champ, c'est souvent ce qui n'arrivera que plus tard.
+Ces repères rejoignent le dossier [Mesurer ou juger](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/) : ce qu'un indicateur laisse hors champ, c'est souvent ce qui n'arrivera que plus tard.
 
 ## Ce que nous ne savons pas encore
 
@@ -86,9 +86,9 @@ Surtout, la frontière entre dommage et bénéfice différés n'est pas toujours
 
 ## Où poursuivre ?
 
-- Le dossier [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- Le dossier [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 - Le texte fondateur [Hans Jonas et le principe de responsabilité : un cadre éthique pour l'horizon écologique](https://le-phare.info/hans-jonas-principe-responsabilite-climat/)
-- Le Fil du Phare précédent : [Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/?p=5503)
+- Le Fil du Phare précédent : [Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/)
 - Sur le Sentier : [Science et société](https://le-phare.info/science-et-societe/) et [La pensée systémique](https://le-phare.info/la-pensee-systemique/)
 
 ---
@@ -104,9 +104,9 @@ Quand on ne sait pas encore si une dépense prépare un dommage ou un bénéfice
 
 **Pour aller plus loin**
 
-- [Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/?p=5509)
+- [Quand un dommage a des millions d'auteurs, peut-on en tenir quelques-uns pour responsables ?](https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/)
 - [Quand une industrie nouvelle a besoin de ressources que tout le monde partage, qui doit en payer le prix ?](https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/)
-- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514)
+- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/)
 - [Hans Jonas – Le Principe Responsabilité : fonder une éthique pour la civilisation technologique](https://le-phare.info/hans-jonas-le-principe-responsabilite-fonder-une-ethique-pour-la-civilisation-technologique/)
 
 **Sur le Sentier du Savoir**

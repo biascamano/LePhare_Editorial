@@ -1,5 +1,5 @@
 ID article : 2026-552
-Titre : Peut-on juger une recherche à son utilité prévisible ?
+Titre : Question du Phare - Peut-on juger une recherche à son utilité prévisible ?
 Type : ACTU
 Type article : Question
 Theme : SCIENCE
@@ -26,13 +26,13 @@ URL WordPress (si publie) :
 
 ---
 
-# Peut-on juger une recherche à son utilité prévisible ?
+# Question du Phare - Peut-on juger une recherche à son utilité prévisible ?
 
 *Le Nobel de médecine 2026 récompense un outil devenu central en neurosciences, né de travaux sur une algue qui nage vers la lumière. L'histoire est belle, et elle est souvent racontée pour défendre la recherche « libre ». Mais que prouve-t-elle exactement ?*
 
 ## Le point de départ
 
-Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/?p=5512), le prix Nobel de physiologie ou médecine a été attribué le 5 octobre 2026 à Karl Deisseroth, Peter Hegemann et Georg Nagel pour l'optogénétique, une technique qui permet de commander des neurones par la lumière. Elle repose sur des protéines découvertes au début des années 2000 chez une algue unicellulaire, étudiées pour comprendre comment cet organisme s'oriente. Ce n'est qu'ensuite que l'idée est venue de les introduire dans des neurones.
+Comme nous l'avons [raconté dans notre article d'actualité](https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/), le prix Nobel de physiologie ou médecine a été attribué le 5 octobre 2026 à Karl Deisseroth, Peter Hegemann et Georg Nagel pour l'optogénétique, une technique qui permet de commander des neurones par la lumière. Elle repose sur des protéines découvertes au début des années 2000 chez une algue unicellulaire, étudiées pour comprendre comment cet organisme s'oriente. Ce n'est qu'ensuite que l'idée est venue de les introduire dans des neurones.
 
 ## Pourquoi cette question
 
@@ -44,11 +44,11 @@ La question dépasse la biologie. Elle se pose chaque fois qu'on doit décider d
 
 ## Ailleurs, la même question
 
-**Les collections d'un musée.** À Philadelphie, [le plus ancien musée d'histoire naturelle des Amériques a fermé ses salles au public](https://le-phare.info/?p=5498). Ses collections, des millions de spécimens accumulés pendant deux siècles, servent à des études que leurs collecteurs n'imaginaient pas. Nous avions posé la question : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500) C'est la même difficulté, transposée : on mesure ce qui se voit aujourd'hui, pas ce qui servira demain.
+**Les collections d'un musée.** À Philadelphie, [le plus ancien musée d'histoire naturelle des Amériques a fermé ses salles au public](https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/). Ses collections, des millions de spécimens accumulés pendant deux siècles, servent à des études que leurs collecteurs n'imaginaient pas. Nous avions posé la question : [un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/) C'est la même difficulté, transposée : on mesure ce qui se voit aujourd'hui, pas ce qui servira demain.
 
 **La pénicilline.** Alexander Fleming a remarqué en 1928 qu'une moisissure tombée par hasard dans une de ses cultures empêchait les bactéries de pousser. Il ne cherchait pas d'antibiotique. Le Phare a consacré un texte fondateur à [la leçon de son discours Nobel](https://le-phare.info/fleming-discours-nobel-penicilline-prudence/), où il mettait aussi en garde contre le mauvais usage de sa découverte. La part du hasard n'enlève rien au travail : il fallait un laboratoire, une culture, et un chercheur capable de remarquer l'anomalie.
 
-**Les indicateurs.** Nous avons présenté [la loi de Goodhart et l'avertissement de Campbell](https://le-phare.info/?p=5505) : quand une mesure devient une cible, elle cesse de bien mesurer. Une recherche jugée sur ses impacts annoncés risque d'apprendre à annoncer des impacts plutôt qu'à chercher.
+**Les indicateurs.** Nous avons présenté [la loi de Goodhart et l'avertissement de Campbell](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/) : quand une mesure devient une cible, elle cesse de bien mesurer. Une recherche jugée sur ses impacts annoncés risque d'apprendre à annoncer des impacts plutôt qu'à chercher.
 
 ## Une pensée pour regarder autrement
 
@@ -96,10 +96,10 @@ Comment une société qui exige des comptes peut-elle garder une place pour ce q
 
 **Pour aller plus loin**
 
-- [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière](https://le-phare.info/?p=5512)
-- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
-- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/?p=5505)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière](https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/)
+- [Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
+- [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

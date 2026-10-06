@@ -62,7 +62,8 @@ Convention nom de fichier : `YYYY-NNN_TYPE_THEME_slug_descriptif_V1.md` (TYPE �
 3. Index : **uniquement** via `tools/index_editorial_utils.append_rows_to_index` (jamais `csv.writer` brut).
 4. `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder` (`--force` si un run a déjà réussi le même jour).
 5. Mettre à jour `00_Systeme/Memoire_editoriale.md`.
-6. Signaler à l'utilisateur : vérifier sur WordPress ; refresh **manuel** de tout fondamental parent (`02_Fonds/…`) modifié.
+6. Vérifier : `python tools/verify_publication.py` (`--fix` si tag ou lien `?p=` en erreur). **Tout article publié doit porter le tag `a-la-une`, sinon il est invisible sur le site** (`plan.md` D15).
+7. Signaler à l'utilisateur : vérifier sur WordPress ; refresh **manuel** de tout fondamental parent (`02_Fonds/…`) modifié.
 
 ## Prérequis locaux (non versionnés)
 
@@ -82,6 +83,11 @@ python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>"
 python tools/daily_run.py --publish-existing "<dossier>" --no-publish-final
 python tools/daily_run.py --publish-existing "<dossier>" --force
 python tools/validate_index_editorial.py
+
+# Vérification de fin de routine (7 derniers jours, ou IDs donnés)
+python tools/verify_publication.py [IDs…] [--days 31] [--offline]
+python tools/verify_publication.py --fix                       # ajoute a-la-une, réécrit les liens ?p=
+python tools/verify_publication.py --publish-drafts <IDs…>     # publie des brouillons désignés
 ```
 
 ## Docs de référence (lire au besoin)

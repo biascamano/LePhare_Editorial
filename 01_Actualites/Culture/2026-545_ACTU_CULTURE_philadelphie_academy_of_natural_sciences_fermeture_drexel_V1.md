@@ -81,13 +81,13 @@ D'où une question qui dépasse ce musée et cette ville : un lieu de savoir doi
 
 **La question suivante**
 
-[Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/?p=5500)
+[Un lieu de savoir doit-il être jugé à sa fréquentation ?](https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/)
 
 **Pour aller plus loin**
 
-- [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/?p=5483)
+- [Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et deux mémoires se croisent](https://le-phare.info/tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026/)
 - [Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/)
-- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/?p=5532)
+- [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 
 **Sur le Sentier du Savoir**
 

@@ -30,7 +30,7 @@ URL WordPress (si publie) :
 
 Le 6 octobre 2026, l'Académie royale des sciences de Suède a attribué le prix Nobel de physique à un seul chercheur : Francis Halzen, 82 ans, professeur à l'université du Wisconsin à Madison. Le comité le récompense « pour ses contributions décisives à l'observatoire de neutrinos IceCube et pour la découverte de neutrinos de haute énergie d'origine astrophysique ». Le prix, doté de 12 millions de couronnes suédoises, lui sera remis à Stockholm le 10 décembre.
 
-Au lendemain d'un Nobel de médecine qui récompensait [l'optogénétique, née de l'étude d'une algue](https://le-phare.info/?p=5512), le prix de physique distingue une autre recherche au long cours. Ce n'est pas une équation ni une particule nouvelle : c'est un instrument, et la patience qu'il a fallu pour le faire parler.
+Au lendemain d'un Nobel de médecine qui récompensait [l'optogénétique, née de l'étude d'une algue](https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/), le prix de physique distingue une autre recherche au long cours. Ce n'est pas une équation ni une particule nouvelle : c'est un instrument, et la patience qu'il a fallu pour le faire parler.
 
 ## Un kilomètre cube de glace pour voir l'invisible
 
@@ -78,8 +78,8 @@ Sur quoi décider, alors, de continuer ou d'arrêter ? La question dépasse les 
 
 **Pour aller plus loin**
 
-- [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière](https://le-phare.info/?p=5512)
-- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/?p=5514)
+- [Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appris aux chercheurs à piloter des neurones par la lumière](https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/)
+- [Peut-on juger une recherche à son utilité prévisible ?](https://le-phare.info/question-du-phare-recherche-utilite-previsible/)
 
 **Sur le Sentier du Savoir**
 

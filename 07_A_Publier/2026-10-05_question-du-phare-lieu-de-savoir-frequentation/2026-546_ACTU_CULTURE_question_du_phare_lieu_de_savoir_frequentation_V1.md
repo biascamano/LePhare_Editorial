@@ -1,5 +1,5 @@
 ID article : 2026-546
-Titre : Un lieu de savoir doit-il être jugé à sa fréquentation ?
+Titre : Question du Phare - Un lieu de savoir doit-il être jugé à sa fréquentation ?
 Type : ACTU
 Type article : Question
 Theme : CULTURE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Un lieu de savoir doit-il être jugé à sa fréquentation ?
+# Question du Phare - Un lieu de savoir doit-il être jugé à sa fréquentation ?
 
 *Fin septembre, le musée de l'Academy of Natural Sciences de Philadelphie, fondé en 1812, a fermé ses portes au public. Raison invoquée : la baisse de la fréquentation face à des coûts croissants. Derrière cette décision, une question qui concerne bien d'autres lieux : que dit le nombre de visiteurs de la valeur d'une institution de savoir ?*
 

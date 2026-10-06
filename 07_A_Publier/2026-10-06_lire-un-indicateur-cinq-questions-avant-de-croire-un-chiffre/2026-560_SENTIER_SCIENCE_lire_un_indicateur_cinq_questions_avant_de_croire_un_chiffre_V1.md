@@ -1,5 +1,5 @@
 ID article : 2026-560
-Titre : Lire un indicateur : cinq questions avant de croire un chiffre
+Titre : Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre
 Type : SENTIER
 Type article : Atelier Sentier
 Theme : SCIENCE
@@ -26,7 +26,7 @@ URL WordPress (si publie) :
 
 ---
 
-# Lire un indicateur : cinq questions avant de croire un chiffre
+# Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre
 
 *Atelier du fondamental [Statistiques, corrélations et causalité](https://le-phare.info/statistiques-correlations-et-causalite/). Le fondamental apprend à ne pas confondre une corrélation avec une cause. Cet atelier applique la même prudence à un objet plus quotidien : l'indicateur, ce chiffre unique qu'on choisit parce qu'il est corrélé à ce qui compte, puis qu'on finit par prendre pour la chose elle-même.*
 

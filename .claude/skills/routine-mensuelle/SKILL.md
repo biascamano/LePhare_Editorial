@@ -69,9 +69,15 @@ Répartition du mois par thème (`ECON`, `POL`, `MONDE`, `TECH`, `CLIMAT`, `SCIE
 
 §1 : lignes des productions du mois via `python tools/memoire_append.py <ID> [--penseur "…"] [--sentier <ID>]`.
 
-Puis réviser `00_Systeme/Radar_editorial.md` (`plan.md` D14) : retirer le réalisé ; tenir les blocs 4–5 (TF, applications structurantes, dossiers, ateliers proposés dans le rapport) ; **archiver** (section Archives, statut `archivé`) les entrées restées sans suite depuis plus d'un mois ou dépassées, et vider les archives de plus de trois mois ; re-prioriser (P1 = mois suivant) ; ≤ 30 entrées actives ; date « État au ». En dernier : `python tools/build_catalogue.py` puis `python tools/build_etat_courant.py`.
+Puis réviser `00_Systeme/Radar_editorial.md` (`plan.md` D14) : retirer le réalisé ; tenir les blocs 4–5 (TF, applications structurantes, dossiers, ateliers proposés dans le rapport) ; **archiver** (section Archives, statut `archivé`) les entrées restées sans suite depuis plus d'un mois ou dépassées, et vider les archives de plus de trois mois ; re-prioriser (P1 = mois suivant) ; ≤ 30 entrées actives ; date « État au ».
+
+**Vérifier** (`plan.md` D15) : `python tools/verify_publication.py --days 31` (articles du mois : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une` — **sans ce tag, l'article est invisible sur le site**). Erreur de tag ou lien `?p=` vers un article publié → même commande avec `--fix`, puis relancer sans option. Autre erreur → corriger le fichier canonique, puis `python tools/wp_refresh_body.py "<chemin>"` (jamais sur `02_Fonds/` : refresh éditeur, à signaler). Brouillons du mois restés non publiés : les lister dans le rapport, pas de `--publish-drafts` sans demande.
+
+En dernier : `python tools/build_catalogue.py` puis `python tools/build_etat_courant.py`.
 
 ## Publication
+
+Titres : passer `--title` sans préfixe ; `new_article.py` ajoute « Dossier du Phare - », « Texte fondateur - », « Sentier du Savoir - » ou « Synthèse du mois - » (`plan.md` D16).
 
 Chaque production (synthèse, TF, atelier, dossier) est créée par `new_article.py create` (ID + ligne d'index, jamais d'écriture manuelle de l'index), rédigée, puis `python tools/new_article.py stage <ID>` (un dossier `07_A_Publier/<date>_<slug>/` **par article** ; `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine.), puis
 ```bash
@@ -91,6 +97,7 @@ Routine mensuelle — [mois]
 Publiés : synthèse / TF / ateliers / dossiers (URLs)
 Propositions en attente : nouveaux dossiers, nouveaux fondamentaux, liens internes
 Cap du mois suivant : …
+Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
 À faire manuellement : vérifier WP
 ```
 

@@ -88,7 +88,7 @@ L'enquête dira ce qui s'est passé à Irkoutsk. Elle ne répondra pas à la que
 - [Charles Perrow : les « accidents normaux » dans les systèmes complexes](https://le-phare.info/charles-perrow-accidents-normaux-systemes-complexes-nis2/)
 - [Lire une annonce médicale sans confondre individu et population](https://le-phare.info/lire-annonce-medicale-population-individu/)
 - [Résistance aux antimicrobiens : l'Europe entre nouvelles alertes et usages](https://le-phare.info/resistance-antimicrobiens-europe-usages-2026/)
-- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/?p=5495)
+- [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 
 **Sur le Sentier du Savoir**
 
