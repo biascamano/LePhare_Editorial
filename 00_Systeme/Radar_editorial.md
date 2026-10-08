@@ -16,7 +16,7 @@
 
 | P | Type potentiel | Sujet / Question | Origine | Statut |
 |---|---|---|---|---|
-| P1 | Actualité | Audition du conseil municipal de Philadelphie sur le musée de l'Academy ; réponse de Drexel à la William Penn Foundation (CULTURE) | 545, 546 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (après le 7 oct.) |
+| P1 | Actualité | Audition du conseil municipal de Philadelphie sur le musée de l'Academy ; réponse de Drexel à la William Penn Foundation (CULTURE) | 545, 546 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (audition reportée au 26 oct.) |
 | P1 | Actualité | Second tour de la présidentielle au Brésil : résultat, et écart avec les sondages d'entre-deux-tours (MONDE) | 534 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (après le 25 oct.) |
 | P1 | Actualité | Formation de la coalition en Lettonie (MONDE) | 533 ; fil Mesurer ou juger | à échéance (dès annonce) |
 | P1 | Actualité | Diagnostic à Irkoutsk et sécurité des laboratoires de haut confinement ; qu'est-ce qui rend une autorité digne de confiance avant qu'elle sache ? (SCIENCE) | 537, 561 ; fil Qui contrôle le contrôleur ? | à échéance (dès confirmation) |
@@ -24,6 +24,8 @@
 | P2 | Actualité | Décision de la Cour suprême dans Suncor c. Boulder : compétence des tribunaux d'État et suite des contentieux climatiques (CLIMAT) | 549, 550 ; fil Le prix de l'invisible | à échéance (décision, d'ici juin 2027) |
 | P2 | Actualité | Conclusions de la Super Intelligence Force ; désignation des auditeurs prévus par l'accord du 29 septembre (TECH) | 543, 544 ; fil Qui contrôle le contrôleur ? | à échéance (à 120 jours) |
 | P2 | Actualité | Effet des libérations de réserves du G7 sur le prix du diesel (ECON) | 536 ; fil (de côté) Réserves stratégiques et prix | à échéance (données sur plusieurs semaines) |
+| P2 | Actualité | Paramount–Warner : constitution du comité d'indépendance éditoriale de CBS News et CNN ; nom et prix de la plateforme HBO Max + Paramount+ (ECON) | 563 ; fil Qui contrôle le contrôleur ? | à échéance (sous 180 jours) |
+| P2 | Actualité | Ebola : fin de la surveillance des contacts au Kenya ; extension ou recul de l'épidémie (Bundibugyo) ; premiers résultats vaccinaux (SCIENCE) | 564 ; fil Le prix de l'invisible | à échéance (fin octobre, 21 jours) |
 | P3 | Actualité | Situation humanitaire au Tigré et médiations régionales (MONDE) | 535 ; fil (de côté) Guerres et récits concurrents | conserver |
 | P3 | Actualité | Bosnie-Herzégovine : résultats définitifs et formation des gouvernements (POL) | 541 ; fil (de côté) Guerres et récits concurrents | à échéance (résultats définitifs) |
 
@@ -37,6 +39,8 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P2 | Question | Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) | 531 ; fil Capacités proclamées | approfondir |
 | P2 | Question | Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) | 535 | approfondir |
 | P2 | Question | Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer) | 533 | approfondir |
+| P2 | Question | Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur échéance passée ? (ECON) | 563 ; fil Qui contrôle le contrôleur ? | approfondir |
+| P2 | Question | Quand une épidémie lointaine franchit une frontière malgré les contrôles, qu'est-ce qui protège vraiment : le filtre à l'arrivée, ou l'effort là où elle naît ? (SCIENCE) | 564 ; fil Le prix de l'invisible | approfondir |
 | P3 | Question | Comment entendre les revendications d'un mouvement quand les images de violence occupent tout l'espace du récit ? (POL) | 542 | conserver |
 | P3 | Question | Une réserve stratégique sert-elle à faire baisser les prix, ou à gagner du temps ? (ECON) | 536 | conserver |
 | P3 | Question | À qui appartient un roi mort il y a mille ans ? (CULTURE ; Ruskin) | 538 ; fil Héritages | conserver |

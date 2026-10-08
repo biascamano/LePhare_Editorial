@@ -1,0 +1,107 @@
+[2026-10-08T11:24:40] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_paramount-warner-fusion-skydance-octobre-2026
+[2026-10-08T11:24:40] Selected topic label: 2026-10-08_paramount-warner-fusion-skydance-octobre-2026
+[2026-10-08T11:24:40] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_paramount-warner-fusion-skydance-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-08T11:24:40] --- WP-PUSH OUTPUT ---
+[2026-10-08T11:24:49] {
+[2026-10-08T11:24:49]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-08_paramount-warner-fusion-skydance-octobre-2026\\2026-563_ACTU_ECON_paramount_warner_fusion_skydance_octobre_2026_V1.md",
+[2026-10-08T11:24:49]   "article_id": "2026-563",
+[2026-10-08T11:24:49]   "title": "Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, et pour combien de temps",
+[2026-10-08T11:24:49]   "status": "draft",
+[2026-10-08T11:24:49]   "skipped": false,
+[2026-10-08T11:24:49]   "wordpress_id": 5647,
+[2026-10-08T11:24:49]   "wordpress_slug": "paramount-warner-fusion-skydance-octobre-2026",
+[2026-10-08T11:24:49]   "wordpress_link": "https://le-phare.info/?p=5647",
+[2026-10-08T11:24:49]   "categories": [
+[2026-10-08T11:24:49]     "actualites"
+[2026-10-08T11:24:49]   ],
+[2026-10-08T11:24:49]   "tags": [
+[2026-10-08T11:24:49]     "a-la-une",
+[2026-10-08T11:24:49]     "economie-finance",
+[2026-10-08T11:24:49]     "sentier-critique",
+[2026-10-08T11:24:49]     "posture-observer",
+[2026-10-08T11:24:49]     "type-actualite",
+[2026-10-08T11:24:49]     "question-du-phare",
+[2026-10-08T11:24:49]     "concentration-des-medias",
+[2026-10-08T11:24:49]     "fusions-acquisitions",
+[2026-10-08T11:24:49]     "pluralisme"
+[2026-10-08T11:24:49]   ],
+[2026-10-08T11:24:49]   "index_updated": true,
+[2026-10-08T11:24:49]   "error": "",
+[2026-10-08T11:24:49]   "featured_media_id": 4142
+[2026-10-08T11:24:49] }
+[2026-10-08T11:24:49] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_paramount-warner-fusion-skydance-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-10-08T11:24:49] --- POST-LINKING OUTPUT ---
+[2026-10-08T11:24:50] {
+[2026-10-08T11:24:50]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-08_paramount-warner-fusion-skydance-octobre-2026",
+[2026-10-08T11:24:50]   "mode": "triptyque_linking_v2",
+[2026-10-08T11:24:50]   "dry_run": false,
+[2026-10-08T11:24:50]   "total": 1,
+[2026-10-08T11:24:50]   "updated_local": 0,
+[2026-10-08T11:24:50]   "updated_wordpress": 1,
+[2026-10-08T11:24:50]   "items": [
+[2026-10-08T11:24:50]     {
+[2026-10-08T11:24:50]       "article_id": "2026-563",
+[2026-10-08T11:24:50]       "type": "ACTU",
+[2026-10-08T11:24:50]       "title": "Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, et pour combien de temps",
+[2026-10-08T11:24:50]       "wordpress_id": 5647,
+[2026-10-08T11:24:50]       "wordpress_url": "https://le-phare.info/?p=5647",
+[2026-10-08T11:24:50]       "updated_paths": [],
+[2026-10-08T11:24:50]       "status": "updated",
+[2026-10-08T11:24:50]       "error": ""
+[2026-10-08T11:24:50]     }
+[2026-10-08T11:24:50]   ],
+[2026-10-08T11:24:50]   "errors": []
+[2026-10-08T11:24:50] }
+[2026-10-08T16:14:11] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026
+[2026-10-08T16:14:11] Selected topic label: 2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026
+[2026-10-08T16:14:11] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026 --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-08T16:14:11] --- WP-PUSH OUTPUT ---
+[2026-10-08T16:14:19] {
+[2026-10-08T16:14:19]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026\\2026-564_ACTU_SCIENCE_ebola_kenya_premier_cas_epidemie_congo_octobre_2026_V1.md",
+[2026-10-08T16:14:19]   "article_id": "2026-564",
+[2026-10-08T16:14:19]   "title": "Ebola atteint le Kenya : ce que dit un premier cas sur une épidémie qu'on ne parvient pas à contenir",
+[2026-10-08T16:14:19]   "status": "draft",
+[2026-10-08T16:14:19]   "skipped": false,
+[2026-10-08T16:14:19]   "wordpress_id": 5649,
+[2026-10-08T16:14:19]   "wordpress_slug": "ebola-kenya-premier-cas-epidemie-congo-octobre-2026",
+[2026-10-08T16:14:19]   "wordpress_link": "https://le-phare.info/?p=5649",
+[2026-10-08T16:14:19]   "categories": [
+[2026-10-08T16:14:19]     "actualites"
+[2026-10-08T16:14:19]   ],
+[2026-10-08T16:14:19]   "tags": [
+[2026-10-08T16:14:19]     "a-la-une",
+[2026-10-08T16:14:19]     "science-sante",
+[2026-10-08T16:14:19]     "sentier-science",
+[2026-10-08T16:14:19]     "posture-observer",
+[2026-10-08T16:14:19]     "type-actualite",
+[2026-10-08T16:14:19]     "question-du-phare",
+[2026-10-08T16:14:19]     "ebola",
+[2026-10-08T16:14:19]     "epidemie"
+[2026-10-08T16:14:19]   ],
+[2026-10-08T16:14:19]   "index_updated": true,
+[2026-10-08T16:14:19]   "error": "",
+[2026-10-08T16:14:19]   "featured_media_id": 2060
+[2026-10-08T16:14:19] }
+[2026-10-08T16:14:19] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026 --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --publish-final
+[2026-10-08T16:14:19] --- POST-LINKING OUTPUT ---
+[2026-10-08T16:14:20] {
+[2026-10-08T16:14:20]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-08_ebola-kenya-premier-cas-epidemie-congo-octobre-2026",
+[2026-10-08T16:14:20]   "mode": "triptyque_linking_v2",
+[2026-10-08T16:14:20]   "dry_run": false,
+[2026-10-08T16:14:20]   "total": 1,
+[2026-10-08T16:14:20]   "updated_local": 0,
+[2026-10-08T16:14:20]   "updated_wordpress": 1,
+[2026-10-08T16:14:20]   "items": [
+[2026-10-08T16:14:20]     {
+[2026-10-08T16:14:20]       "article_id": "2026-564",
+[2026-10-08T16:14:20]       "type": "ACTU",
+[2026-10-08T16:14:20]       "title": "Ebola atteint le Kenya : ce que dit un premier cas sur une épidémie qu'on ne parvient pas à contenir",
+[2026-10-08T16:14:20]       "wordpress_id": 5649,
+[2026-10-08T16:14:20]       "wordpress_url": "https://le-phare.info/?p=5649",
+[2026-10-08T16:14:20]       "updated_paths": [],
+[2026-10-08T16:14:20]       "status": "updated",
+[2026-10-08T16:14:20]       "error": ""
+[2026-10-08T16:14:20]     }
+[2026-10-08T16:14:20]   ],
+[2026-10-08T16:14:20]   "errors": []
+[2026-10-08T16:14:20] }
