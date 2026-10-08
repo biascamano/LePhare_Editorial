@@ -30,7 +30,7 @@ Ce document fixe la **meilleure structure pour l'objectif** : construire petit a
 | 5 | **cycle** (id 97, « Dossier hebdomadaire - Notre fil rouge ») | SYNTHESE : Fil du Phare (routine hebdomadaire), synthese mensuelle (routine mensuelle). Categorie existante, aucune creation. |
 | 6 | **le-phare** | Pages institutionnelles, charte, methode (rarement des articles de fond). |
 
-Libelles a renommer (slug et id inchanges) : `cycle` → « Le Fil du Phare », `dossier-hebdomadaire` → « Dossiers » (`plan.md` B21, `00_Systeme/Page_accueil_V5.md` §9).
+Libelles a renommer (slug et id inchanges) : `cycle` → « Le Fil du Phare », `dossier-hebdomadaire` → « Dossiers » (`plan.md` B21, `00_Systeme/Page_accueil_V5.md` §7).
 
 Aucune categorie `syntheses` n'est creee : les syntheses vont dans `cycle` (decision B1, `plan.md`).
 
