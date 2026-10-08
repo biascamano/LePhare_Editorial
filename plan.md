@@ -545,6 +545,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-06 | v5.2 | D16 : préfixe de titre par type (sauf Actualité), tiret court ; `wp_refresh_body.py --title` ; préfixe appliqué à 544, 546, 547, 548, 550, 552, 559, 560 | `tools/new_article.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, skills des 3 routines, `plan.md`, 8 articles, index |
 | 2026-10-06 | v5.3 | D17 : inventaire de rénovation du stock ancien (lecture seule, GET WP) et plan en lots (§19) ; contenus de démo 414–418 retirés | `tools/build_inventaire_renovation.py`, `00_Systeme/Inventaire_renovation.md`, `plan.md` |
 | 2026-10-06 | v5.4 | B18 : `wp_pull_body.py` (resynchronisation WP → local, contrôle d'aller-retour) ; B20 : skill et commande `routine-renovation`. Bug corrigé dans `wp_push_draft.extract_seo_and_body` : un bloc `# SEO` **final** (format v3) était publié dans le corps (`<h1>SEO</h1>` + paragraphe) et Rank Math ne recevait ni mot-clé ni description ; clés « Meta description » / « Meta-description » acceptées. T16 : refresh WP des 35 articles 528 → 562. `wp_refresh_body.py` force `PYTHONUTF8` dans le sous-processus (échec cp1252 sur « Hōlei ») | `tools/wp_pull_body.py`, `tools/wp_push_draft.py`, `tools/wp_refresh_body.py`, `.claude/skills/routine-renovation/SKILL.md`, `.claude/commands/routine-renovation.md`, `CLAUDE.md`, `plan.md` |
+| 2026-10-07 | v5.5 | B21 : textes de la page d'accueil V5 (blocs, requêtes, menu, renommage des libellés de catégories) ; à appliquer à la main dans WordPress | `00_Systeme/Page_accueil_V5.md`, `00_Systeme/Taxonomie_WordPress_le-phare_info.md`, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -628,6 +629,7 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | B18 | `tools/wp_pull_body.py <ID>` : remplace le corps local par la version WP (HTML → Markdown relu par `wp_push_draft`), en gardant l'en-tête, le titre et le bloc `# SEO` ; à blanc par défaut (mots local / WP / aller-retour, pertes), `--apply` pour écrire ; refuse `02_Fonds/` | Fait (v5.4) — aller-retour exact sur 497, 010, 531, 499, 153, 250 |
 | B19 | `tools/renovate_nav.py <ID>` : navigation v3 semi-automatique (« Dans ce triptyque » → « Pour aller plus loin », squelette « La question suivante » et « Sur le Sentier du Savoir » depuis le manifeste, liens `?p=` signalés) ; texte de la question rédigé à la main | Idée — lot 2 |
 | B20 | Skill `routine-renovation` (§19.4) | Fait (v5.4) — `.claude/skills/routine-renovation/SKILL.md` + `/routine-renovation` |
+| B21 | Page d'accueil alignée sur la V5 : un seul flux « Derniers articles » (tag `a-la-une`, tous types, badge par type), « pour aller plus loin », « comment lire le Phare » ; retrait du bloc « À venir » et du rythme triptyque ; libellés `cycle` → « Le Fil du Phare », `dossier-hebdomadaire` → « Dossiers » (slugs inchangés) | Textes rédigés (v5.5) — `00_Systeme/Page_accueil_V5.md` ; mise en place WP par l'éditeur humain |
 
 ---
 
