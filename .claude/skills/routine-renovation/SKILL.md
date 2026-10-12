@@ -25,6 +25,8 @@ python tools/build_inventaire_renovation.py
 ```
 Lire `00_Systeme/Inventaire_renovation.md`, en commençant par l'en-tête (compteurs par niveau), puis seulement la section du lot traité. Colonnes utiles : score, liens entrants, marqueur « copie locale tronquée », action proposée.
 
+Lire aussi la section « Signalés » (reprise de `00_Systeme/Signalements_renovation.md`) : articles repérés par les autres routines. Ils passent en tête du lot qui leur correspond. Un fondamental `02_Fonds/` signalé : rédiger une **proposition** de réécriture et la présenter à l'utilisateur, sans rien écrire dans `02_Fonds/` ni pull ni refresh ; l'éditeur humain valide et pousse. Une fois traité, déplacer la ligne dans « Traités » (date, suite donnée).
+
 ## 2. Choisir le lot
 
 Lot 1 jusqu'à épuisement. Ensuite, alterner d'une session à l'autre : lot 2 (5 à 10 articles), puis lot 3 (1 à 3 articles). Pour savoir quel lot a été traité en dernier, regarder la colonne `Remarques` de l'index (`Rénové (Routine rénovation) …`) ou le dernier commit de rénovation. Dans un lot, prendre les articles par score décroissant.

@@ -13,6 +13,8 @@ mots locaux et WordPress, constats, action proposée :
 Pages rubriques (titre court à emoji) : hors périmètre, gardées hors flux sans `a-la-une` (lot 1).
 « Copie locale tronquée » (WordPress nettement plus long que le markdown) : resynchroniser depuis
 WordPress avant toute retouche, sinon un refresh écraserait l'article en ligne.
+Section « Signalés » : table « Ouverts » de `00_Systeme/Signalements_renovation.md` (fichier manuel
+alimenté par les routines), reprise telle quelle, fondamentaux `02_Fonds/` compris.
 Lecture seule sur les articles et WordPress (GET).
 """
 from __future__ import annotations
@@ -33,10 +35,22 @@ from wp_push_draft import load_config, wordpress_request_json
 ROOT = vp.ROOT
 OUT = ROOT / "00_Systeme" / "Inventaire_renovation.md"
 REF_FILES = [ROOT / "00_Systeme" / "Radar_editorial.md", ROOT / "00_Systeme" / "Memoire_editoriale.md"]
+SIGNALEMENTS = ROOT / "00_Systeme" / "Signalements_renovation.md"
 EMOJI_RE = re.compile("[←-⯿☀-➿\U0001F000-\U0001FAFF️]")
 ID_RE = re.compile(r"\b2026-\d{3}\b")
 CURRENT_MARKERS = ("Routine quotidienne v3", "Routine hebdomadaire", "Routine mensuelle")
 TRUNCATED_RATIO = 1.5
+
+
+def open_signalements() -> list[str]:
+    """Lignes de la table « Ouverts » de Signalements_renovation.md (en-tête compris)."""
+    if not SIGNALEMENTS.exists():
+        return []
+    section = SIGNALEMENTS.read_text(encoding="utf-8").split("## Ouverts", 1)
+    if len(section) < 2:
+        return []
+    body = section[1].split("\n## ", 1)[0]
+    return [line for line in body.splitlines() if line.startswith("|")]
 
 
 def words(text: str) -> int:
@@ -212,6 +226,8 @@ def main() -> int:
     counts = defaultdict(int)
     for e in entries:
         counts[e[0]] += 1
+    signalements = open_signalements()
+    n_signales = max(len(signalements) - 2, 0)
 
     lines = [
         "# Inventaire de rénovation",
@@ -225,6 +241,7 @@ def main() -> int:
         f"| **Refaire** | {counts['Refaire']} |",
         f"| **Remettre à niveau** | {counts['Remettre à niveau']} |",
         f"| **Trier** (décision humaine) | {counts['Trier']} |",
+        f"| **Signalés** par les routines (`Signalements_renovation.md`) | {n_signales} |",
         f"| Hors périmètre : fondamentaux `02_Fonds/` (éditeur humain) | {n_fonds} |",
         f"| Hors périmètre : wiki du Phare (`Sentier_dedoublonnage_wiki.md`) | {n_wiki} |",
         f"| Hors périmètre : pages rubriques (hors flux, sans `a-la-une`) | {n_hubs} |",
@@ -245,9 +262,13 @@ def main() -> int:
                 f"{len(inbound_current[rid])}/{len(inbound_other[rid])}/{refs[rid]} | {local}/{wp if wp is not None else '?'} | "
                 f"{', '.join(notes)} | {action} |"
             )
+    if n_signales:
+        lines += ["", "## Signalés", "", "Repris de `00_Systeme/Signalements_renovation.md` (à éditer là-bas). "
+                  "Un fondamental `02_Fonds/` : proposition seulement, validation et push par l'éditeur humain.", ""]
+        lines += signalements
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"OK: {OUT.relative_to(ROOT)} — Refaire {counts['Refaire']}, Remettre à niveau {counts['Remettre à niveau']}, "
-          f"Trier {counts['Trier']}, format actuel {len(current)}, hors périmètre {n_fonds + n_wiki + n_hubs}")
+          f"Trier {counts['Trier']}, signalés {n_signales}, format actuel {len(current)}, hors périmètre {n_fonds + n_wiki + n_hubs}")
     return 0
 
 

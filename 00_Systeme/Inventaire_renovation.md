@@ -1,14 +1,15 @@
 # Inventaire de rénovation
 
-> Généré par `tools/build_inventaire_renovation.py` le 2026-10-06 — ne pas éditer à la main.
+> Généré par `tools/build_inventaire_renovation.py` le 2026-10-12 — ne pas éditer à la main.
 > Plan d'action : `plan.md` §19.
 
 | Catégorie | Articles |
 |---|---|
-| Format actuel (rien à faire) | 42 |
+| Format actuel (rien à faire) | 46 |
 | **Refaire** | 88 |
 | **Remettre à niveau** | 62 |
 | **Trier** (décision humaine) | 0 |
+| **Signalés** par les routines (`Signalements_renovation.md`) | 1 |
 | Hors périmètre : fondamentaux `02_Fonds/` (éditeur humain) | 259 |
 | Hors périmètre : wiki du Phare (`Sentier_dedoublonnage_wiki.md`) | 50 |
 | Hors périmètre : pages rubriques (hors flux, sans `a-la-une`) | 8 |
@@ -20,8 +21,8 @@ Mots : markdown local / WordPress (`?` = non mesuré).
 
 | ID | Titre | Type | Famille | Liens entrants | Mots | Constats | Action |
 |---|---|---|---|---|---|---|---|
-| 2026-159 | Statistiques, corrélations et causalité | [SENTIER](https://le-phare.info/statistiques-correlations-et-causalite/) | import | 7/0/18 | 688/674 | navigation incomplète, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
-| 2026-198 | Lire une source avec discernement | [SENTIER](https://le-phare.info/lire-une-source-avec-discernement/) | import | 6/3/4 | 773/2682 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
+| 2026-159 | Statistiques, corrélations et causalité | [SENTIER](https://le-phare.info/statistiques-correlations-et-causalite/) | import | 8/0/20 | 688/674 | navigation incomplète, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
+| 2026-198 | Lire une source avec discernement | [SENTIER](https://le-phare.info/lire-une-source-avec-discernement/) | import | 7/3/6 | 773/2682 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
 | 2026-420 | Comprendre l'inflation : mecanismes, causes et effets | [DOSSIER](https://le-phare.info/?p=4076) | triptyque | 0/1/14 | 1057/? | navigation incomplète | dossier jamais publié : mettre au format actuel puis publier |
 | 2026-154 | Science et société | [SENTIER](https://le-phare.info/science-et-societe/) | import | 6/1/4 | 669/2483 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
 | 2026-194 | La pensée critique en action : décryptage de l’actualité, des discour… | [SENTIER](https://le-phare.info/la-pensee-critique-en-action-decryptage-de-lactualite-des-discours-et-des-pubs/) | import | 4/0/6 | 605/2782 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
@@ -180,3 +181,11 @@ Mots : markdown local / WordPress (`?` = non mesuré).
 
 | ID | Titre | Type | Famille | Liens entrants | Mots | Constats | Action |
 |---|---|---|---|---|---|---|---|
+
+## Signalés
+
+Repris de `00_Systeme/Signalements_renovation.md` (à éditer là-bas). Un fondamental `02_Fonds/` : proposition seulement, validation et push par l'éditeur humain.
+
+| Date | ID | Titre | Signalé par | Constat | Suite proposée |
+|---|---|---|---|---|---|
+| 2026-10-12 | 2026-177 | [Repérer les controverses structurantes](https://le-phare.info/reperer-les-controverses-structurantes-comprendre-un-domaine-par-ses-debats/) | quotidienne 2026-566 | Fondamental `02_Fonds/` en import brut : en-tête vide, texte en un bloc avec émojis, sans navigation v3. Lien depuis 566 jugé faible (controverses savantes ≠ conflit de pouvoir) : le Sentier n'a pas de fondamental sur institutions, droit ou pouvoir | Proposition de réécriture au format actuel (éditeur humain) ; lacune institutions / droit à traiter en mensuelle comme atelier d'un fondamental existant |

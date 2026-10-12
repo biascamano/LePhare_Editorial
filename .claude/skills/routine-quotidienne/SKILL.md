@@ -136,6 +136,8 @@ python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-pub
 
 **Relier en retour** : si l'article est une Question ou une Application issue d'un article récent, dans l'article d'origine (copie canonique), remplacer la question nue de « La question suivante » par `[question](URL lue dans l'index)`, puis `python tools/wp_refresh_body.py "<chemin canonique de l'origine>"` (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, ne pas lire ce fichier).
 
+**Signaler sans rénover** (`plan.md` §19.4) : un article lié (Pour aller plus loin, Sentier) qui est sous le standard (import brut, sans navigation v3, texte en bloc) OU dont le lien est jugé faible ne se modifie pas pendant la quotidienne. L'inscrire en une ligne dans la table « Ouverts » de `00_Systeme/Signalements_renovation.md` (date, ID, titre lié, `quotidienne <ID>`, constat, suite proposée ; compléter la ligne s'il y est déjà), et le mentionner au rapport. Fondamental `02_Fonds/` : proposition seulement, l'éditeur humain valide et pousse.
+
 ## 10. Mémoriser
 
 ```bash
@@ -174,6 +176,7 @@ Pourquoi ce type : 1 phrase
 Question du Phare : …
 Liens : origine → article ok / article → origine ok (ou sans objet)
 Radar : retiré … / ajouté …
+Signalés : <ID> — constat en une ligne (ou aucun)
 Image : idée / légende / alt
 Écarts socle / Instructions : … (ou aucun)
 Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
