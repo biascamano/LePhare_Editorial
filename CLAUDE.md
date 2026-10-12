@@ -18,7 +18,9 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 | `routine quotidienne — brouillons seulement` | `--no-publish-final` | idem |
 | `routine hebdomadaire` / `fil du phare` | Le Fil du Phare (`SYNTHESE`, catégorie WP `cycle`) + fils éditoriaux + comité du Radar | `.claude/skills/routine-hebdomadaire/SKILL.md` |
 | `routine mensuelle` | Dossiers, TF, ateliers Sentier, audit, synthèse mensuelle, cap du mois | `.claude/skills/routine-mensuelle/SKILL.md` |
+| `routine quotidienne — generale` / `— curiosite` / `— question` | Activités du pilote : regard général, regard curiosité (Radar bloc 6), Question autonome (`plan.md` D18) | `.claude/skills/routine-quotidienne/SKILL.md` |
 | `routine renovation` (+ `— lot 2` / `— <IDs>` / `— à blanc`) | Rénovation du stock ancien, même ID/URL/slug (`plan.md` D17, §19) | `.claude/skills/routine-renovation/SKILL.md` |
+| `routine renovation — rattrapage` | **Une** action de patrimoine (dont note « Depuis ») | idem |
 | `routine triptyque` / `triptyque` | **Ancienne** routine ACTU+TF+SENTIER (archivée, secours) | `.claude/skills/routine-triptyque/` |
 | `… api` | **Exception** : `editorial_pipeline.py --use-api-llm` | — |
 
@@ -100,6 +102,8 @@ python tools/wp_pull_body.py <ID…> [--apply]                   # resynchronise
 | Fichier | Contenu |
 |---------|---------|
 | `00_Systeme/Instructions_editoriales_officielles.md` | Ton, calibrage §3.7–3.10, ancrage §3.9 |
+| `00_Systeme/Controle_prepublication.md` | Grille A–D, décision PUBLIER / CORRIGER / BROUILLON ; agent `relecteur-prepublication` (`plan.md` D20) |
+| `06_Syntheses/Retros/` | Traces de séance et rétros, internes, jamais publiées (`plan.md` D21) |
 | `00_Systeme/Memoire_editoriale.md` | Mémoire partagée des 3 routines |
 | `00_Systeme/Routine_quotidienne_V2.md` | (archivé) workflow triptyque V2 |
 | `00_Systeme/Strategie_routine_quotidienne_graphe_taxonomie_WP.md` | Choix de sujet, graphe éditorial |

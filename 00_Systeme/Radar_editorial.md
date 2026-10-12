@@ -5,12 +5,12 @@
 
 ## Règles
 
-- **Format** : `| P | Type potentiel | Sujet / Question | Origine | Statut |`. **30 entrées actives au plus** ; au-delà, l'hebdomadaire fusionne ou archive.
-- **Priorité** : **P1** = ce mois-ci ou à une date fixe ; **P2** = dans les 2 mois ; **P3** = réserve.
+- **Format** : `| P | Type potentiel | Sujet / Question | Origine | Statut |`. **30 entrées actives au plus** (blocs 1 à 5, `P?` compris ; le bloc 6 Curiosités est hors plafond). `tools/build_etat_courant.py` les compte et affiche une alerte au-delà de 30 ; l'hebdomadaire fusionne ou archive alors.
+- **Priorité** : **P1** = ce mois-ci ou à une date fixe ; **P2** = dans les 2 mois ; **P3** = réserve. **Nouvelles entrées : P1 ou P2 seulement** (`plan.md` D19). Une piste P3 durable va au bloc 6 Curiosités si elle touche un centre d'intérêt, sinon aux Archives (raison : « P3, réserve ») ; les P3 déjà présentes restent jusqu'au tri de l'hebdomadaire.
 - **Type potentiel** : Actualité, Question, Application, Texte fondateur, Dossier, Atelier. Indicatif : le type se décide le jour de l'écriture, après le sujet (`plan.md` D12).
 - **Origine** : article(s) ou fil d'où vient l'entrée. On n'ajoute rien qui ne prolonge pas un article, un fil actif, ou une lacune du catalogue.
 - **Statut** : `approfondir` (une suite naturelle) · `relier` (une connexion entre articles) · `à échéance (…)` (attendre un fait daté ; jamais écrire avant, sources vérifiées ce jour-là) · `conserver` (réserve) · `archivé` (section Archives).
-- **Qui écrit** : la quotidienne **ajoute** la question finale de son article (bloc 2) et **retire** l'entrée qu'elle réalise ; l'hebdomadaire trie ; la mensuelle archive et ajoute les structurants. Dossiers et ateliers restent des propositions jusqu'à validation humaine.
+- **Qui écrit** : la quotidienne **ajoute** la question finale de son article (bloc 2) **si elle est P1 ou P2**, et **retire** l'entrée qu'elle réalise ; l'hebdomadaire trie ; la mensuelle archive et ajoute les structurants. Dossiers et ateliers restent des propositions jusqu'à validation humaine. Le fondateur fait évoluer le bloc 6 à volonté.
 
 ## 1. Suites d'articles récents
 
@@ -76,6 +76,26 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P3 | Atelier | Les récits fondateurs à l'épreuve de l'actualité (fondamental 2026-137, étape 08) | 532, 538 | conserver |
 
 *Réalisés : dossier Mesurer ou juger → 2026-559 ; atelier Lire un indicateur → 2026-560 sous 2026-159 (2026-10-06). Les suites marquées « dossier 2026-559 » prennent `Dossier : 2026-559` dans leur en-tête.*
+
+## 6. Curiosités (hors plafond, 12 au plus)
+
+Questions exploratoires tirées des centres d'intérêt du fondateur (`plan.md` D18). Des **suggestions**, pas des obligations : la variante `curiosite` de la quotidienne y cherche une question qu'un fait récent et vérifiable permet d'ancrer ; sans ancrage, rien ne s'écrit. Le fondateur ajoute, reformule ou retire librement.
+
+| C | Champ | Question exploratoire | Ancrages possibles (à vérifier le jour même) | Statut |
+|---|---|---|---|---|
+| C | Philosophie, histoire des idées | Une idée ancienne peut-elle encore trancher un problème neuf, ou ne fait-elle que le nommer ? | Une décision publique justifiée par un principe classique (utilité, dignité, précaution) | ouverte |
+| C | Confrontation des courants | Quand deux écoles de pensée s'opposent sur un fait, désaccord sur les faits ou sur ce qui compte ? | Un débat d'experts publié (économie, santé, climat) | ouverte |
+| C | Pensée critique, épistémologie | À partir de quand une découverte scientifique devient-elle un savoir établi ? | Une réplication réussie ou ratée, une rétractation, un consensus révisé | ouverte |
+| C | IA et technologies | Qu'apprend-on de l'intelligence humaine en observant ce que les machines réussissent, et ce qu'elles ratent ? | Une évaluation publiée d'un modèle d'IA, un échec documenté | ouverte |
+| C | Sciences | Qu'est-ce qu'une mesure ne dit jamais de ce qu'elle mesure ? | Un nouvel instrument, une révision d'unité ou de constante, une donnée corrigée | ouverte |
+| C | Autonomie individuelle et collective | Une communauté peut-elle décider seule de ce qui la concerne quand ses choix engagent d'autres qu'elle ? | Un référendum local, une coopérative, un conflit de compétences | ouverte |
+| C | Institutions | Pourquoi des institutions qui fonctionnent mal durent-elles parfois plus longtemps que celles qui fonctionnent bien ? | Une réforme institutionnelle avortée ou un rapport d'évaluation | ouverte |
+| C | Liberté et démocratie | La liberté d'expression protège-t-elle d'abord celui qui parle ou celui qui écoute ? | Une décision de justice, une régulation des plateformes | ouverte |
+| C | Connaissance de soi | Se connaître : affaire d'introspection, ou de regard des autres et de mesures ? | Une étude sur l'auto-évaluation, les objets connectés de suivi de soi | ouverte |
+| C | Sens de la vie | Une société qui vit plus longtemps change-t-elle ce qu'elle attend d'une vie ? | Une donnée démographique, un débat sur la fin de vie ou la retraite | ouverte |
+| C | Évolution des sociétés | Qu'est-ce qui fait qu'un changement de mœurs devient irréversible ? | Une enquête de valeurs publiée, un revirement législatif | ouverte |
+
+*Statut : `ouverte` · `explorée (<ID>)` (un article l'a ancrée ; elle peut l'être de nouveau) · `retirée (date)`.*
 
 ## Archives
 

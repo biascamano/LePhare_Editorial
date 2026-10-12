@@ -3,7 +3,8 @@
 Usage : python tools/build_etat_courant.py
 
 Sources : mémoire éditoriale §1 (10 derniers articles), §2 (fils actifs), §3 (dernier
-Fil du Phare), §4 (cap du mois) ; Radar éditorial (questions et candidats prioritaires).
+Fil du Phare), §4 (cap du mois) ; Radar éditorial (questions et candidats prioritaires,
+compteur d'entrées actives et alerte au-delà de 30, bloc Curiosités exclu).
 Lecture seule sur les sources ; 50 lignes au plus.
 """
 from __future__ import annotations
@@ -17,6 +18,7 @@ MEMOIRE = ROOT / "00_Systeme" / "Memoire_editoriale.md"
 RADAR = ROOT / "00_Systeme" / "Radar_editorial.md"
 OUT = ROOT / "00_Systeme" / "Etat_editorial_courant.md"
 MAX_LINES = 50
+RADAR_MAX = 30
 
 STATUT_ORDER = ("à échéance", "approfondir", "relier", "conserver")
 CAP_KEYS = ("Mois", "Dossiers prioritaires", "Actualités à surveiller", "Catégories sous-représentées")
@@ -110,14 +112,40 @@ def radar() -> tuple[list[str], list[str]]:
     return [t for _, t in sorted(questions)[:5]], [t for _, t in sorted(candidats)[:5]]
 
 
+def radar_compteur() -> tuple[int, list[tuple[str, int]]]:
+    """Entrées actives par bloc, P? compris ; Curiosités et Archives hors plafond."""
+    counts: dict[str, int] = {}
+    block = None
+    for l in RADAR.read_text(encoding="utf-8").splitlines():
+        if l.startswith("## "):
+            m = re.match(r"## (\d+)\. (.*)", l)
+            block = m.group(1) if m and not m.group(2).startswith("Curiosités") else None
+            if block:
+                counts[block] = 0
+            continue
+        if block and re.match(r"\| P[123?] \|", l):
+            counts[block] += 1
+    return sum(counts.values()), list(counts.items())
+
+
+def ligne_compteur() -> tuple[str, bool]:
+    total, counts = radar_compteur()
+    detail = " · ".join(f"bloc {b} : {n}" for b, n in counts)
+    alerte = total > RADAR_MAX
+    tete = "ATTENTION : plafond dépassé, l'hebdomadaire fusionne ou archive" if alerte else "sous le plafond"
+    return f"**Radar** : {total} entrées actives / {RADAR_MAX} ({detail}) — {tete}.", alerte
+
+
 def main() -> None:
     mem = MEMOIRE.read_text(encoding="utf-8").splitlines()
     questions, candidats = radar()
+    compteur, alerte = ligne_compteur()
     L = [
         "# État éditorial courant — Le Phare",
         "",
         f"*Généré par `tools/build_etat_courant.py` le {dt.date.today().isoformat()} — ne pas éditer. "
         "Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*",
+        compteur,
         "",
         "## Derniers articles",
         "",
@@ -143,6 +171,8 @@ def main() -> None:
     OUT.write_bytes(("\n".join(L) + "\n").encode("utf-8"))
     status = "OK" if len(L) <= MAX_LINES else "ATTENTION"
     print(f"{status}: {OUT.relative_to(ROOT).as_posix()} ({len(L)} lignes, max {MAX_LINES})")
+    if alerte:
+        print(compteur.replace("**", ""))
 
 
 if __name__ == "__main__":

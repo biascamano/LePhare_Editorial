@@ -1,6 +1,7 @@
 # État éditorial courant — Le Phare
 
 *Généré par `tools/build_etat_courant.py` le 2026-10-12 — ne pas éditer. Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*
+**Radar** : 34 entrées actives / 30 (bloc 1 : 13 · bloc 2 : 9 · bloc 3 : 3 · bloc 4 : 4 · bloc 5 : 5) — ATTENTION : plafond dépassé, l'hebdomadaire fusionne ou archive.
 
 ## Derniers articles
 

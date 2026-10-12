@@ -9,7 +9,7 @@ description: Routine quotidienne Le Phare (V5, pilotage éditorial adaptatif) �
 
 Regarder derrière (ce qu'on vient de publier), devant (le Radar), autour (l'actualité) ; choisir ; publier ; relier ; mémoriser (`plan.md` D12–D14).
 
-Le quotidien produit **un** article par jour, dont le type se décide **après** le sujet. Il ne fait PAS : restructuration des dossiers, synthèse de la semaine, architecture du Sentier, analyse du mois, atelier Sentier, tri du Radar → routines hebdomadaire / mensuelle.
+Le quotidien produit **un** article par séance, dont le type se décide **après** le sujet. Il ne fait PAS : restructuration des dossiers, synthèse de la semaine, architecture du Sentier, analyse du mois, atelier Sentier, tri du Radar → routines hebdomadaire / mensuelle.
 
 Référence éditoriale : `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` (ligne éditoriale) et `00_Systeme/Instructions_editoriales_officielles.md` (qualité rédactionnelle). Écart entre les deux → le signaler dans le rapport, ne pas trancher seul (D10).
 
@@ -23,13 +23,19 @@ Référence éditoriale : `SOCLE ÉDITORIAL CONSOLIDÉ — LE PHARE INFO.docx` (
 - **`type question — sur <ID>`** : article Question sur la question finale de `<ID>` (`--previous <ID>`). Sans `<ID>` : première question P1 du Radar (bloc 2).
 - **`paire`** : Actualité + Question le même jour (mécanique en fin de skill). Ancienne règle D9, désormais sur demande.
 
+**Activités** (`plan.md` D18) — une par séance, plusieurs séances possibles le même jour (conversations distinctes) :
+- **`generale`** : regard général. Veille **toujours complète** (étape 3, 5 à 10 sujets) ; le Radar ne fournit que des candidats parmi d'autres.
+- **`curiosite`** : regard curiosité. Partir du bloc 6 du Radar (questions `ouverte`), puis veille ciblée sur ces champs. Un **ancrage vérifiable** du jour (fait, publication, décision, découverte sourcée) est obligatoire : sans ancrage, une autre question du bloc ; si aucune n'en a, la séance s'arrête sans article et le trace. Type Actualité par défaut (Question/Application si le sujet l'appelle). `memoire_append --type-label "Actualité — curiosité"` (ou « Question — curiosité »…). Ligne du bloc 6 → `explorée (<ID>)`.
+- **`question`** : Question autonome, d'origine libre (question finale d'un article ancien, bloc 2 du Radar, dossier). Sans doublon avec l'index (`index_lookup.py --search`) ni avec les articles du jour.
+- Sans activité précisée : comportement d'origine (meilleur prochain article).
+
+Toute séance relit l'état courant **régénéré** (il liste les articles déjà publiés le jour même) pour éviter un doublon.
+
 Autonomie totale : pas de validation du sujet, pas de confirmation intermédiaire, exécution jusqu'au rapport final.
 
 ## 1. Regarder derrière : l'état immédiat
 
-Lire `00_Systeme/Etat_editorial_courant.md` (généré, ≤ 50 lignes) : 10 derniers articles, 5 fils actifs, questions prioritaires, prochains candidats, cap du mois, dernier Fil du Phare.
-
-S'il manque ou date de plus de 7 jours : `python tools/build_etat_courant.py` puis le lire. Ne lire `00_Systeme/Memoire_editoriale.md` qu'en cas de besoin précis (une ligne, un fil), par section.
+Lancer `python tools/build_etat_courant.py`, puis lire `00_Systeme/Etat_editorial_courant.md` (≤ 50 lignes) : compteur du Radar, 10 derniers articles, 5 fils actifs, questions prioritaires, prochains candidats, cap du mois, dernier Fil du Phare. Ne lire `00_Systeme/Memoire_editoriale.md` qu'en cas de besoin précis (une ligne, un fil), par section.
 
 ## 2. Regarder devant : le Radar
 
@@ -129,10 +135,20 @@ python tools/new_article.py create --type <type> --theme <THEME> --title "…" -
 
 ```bash
 python tools/new_article.py stage <ID>
+```
+
+`stage` lance le contrôle v3 : s'il est KO, corriger et relancer — jamais `--force` sur `stage` en routine.
+
+**Contrôle prépublication** (`plan.md` D20, grille `00_Systeme/Controle_prepublication.md`, lue à ce moment-là) :
+1. **Auto-contrôle** : chaque point A–D avec sa preuve ; ouvrir chaque lien externe.
+2. **Relecture indépendante** (pilote : tous les articles) : lancer l'agent `relecteur-prepublication` avec pour seul prompt le chemin du fichier canonique (ni fiche, ni candidats, ni raisonnement).
+3. **Décision** : PUBLIER → `daily_run` ; CORRIGER → corriger, `stage`, refaire 1 puis 2 (2 cycles au plus) ; BROUILLON → `daily_run … --no-publish-final`, puis étapes 10–11, trace, et **la séance s'arrête** (pas d'autre sujet).
+
+```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder [--force] [--no-publish-final]
 ```
 
-`stage` lance le contrôle v3 : s'il est KO, corriger et relancer — jamais `--force` sur `stage` en routine. `--force` sur `daily_run` seulement si un run a déjà réussi le même jour. Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON.
+`--force` sur `daily_run` dès qu'un run a déjà réussi le même jour (deuxième séance du jour et suivantes). Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON.
 
 **Relier en retour** : si l'article est une Question ou une Application issue d'un article récent, dans l'article d'origine (copie canonique), remplacer la question nue de « La question suivante » par `[question](URL lue dans l'index)`, puis `python tools/wp_refresh_body.py "<chemin canonique de l'origine>"` (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, ne pas lire ce fichier).
 
@@ -143,12 +159,15 @@ python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-pub
 ```bash
 python tools/memoire_append.py <ID> --penseur "<penseur ou concept>" --sentier <ID fondamental>
 ```
-(ajoute la ligne au §1 de la mémoire depuis l'en-tête et l'index ; `--dry-run` pour voir la ligne.)
+(ajoute la ligne au §1 de la mémoire depuis l'en-tête et l'index ; `--dry-run` pour voir la ligne. Activité curiosité : `--type-label "Actualité — curiosité"`. Brouillon : pas de ligne §1, la trace suffit.)
 
-Puis, dans `00_Systeme/Radar_editorial.md` :
-- **retirer** l'entrée réalisée (s'il y en a une) ;
-- si l'article est une Actualité : **ajouter** sa Question du Phare au bloc 2 (`| P? | Question | <question> (<THEME>) | <ID> | approfondir |`) et, si un fait est attendu, une suite au bloc 1 (`à échéance (…)`).
-Ne pas fusionner, re-prioriser ni archiver : c'est le rôle de l'hebdomadaire.
+Puis, dans `00_Systeme/Radar_editorial.md` (`plan.md` D19) :
+- **retirer** l'entrée réalisée (s'il y en a une) ; curiosité : statut du bloc 6 → `explorée (<ID>)` ;
+- si l'article est une Actualité : **ajouter** sa Question du Phare au bloc 2 **seulement si elle est P1 ou P2** (`| P1 | Question | <question> (<THEME>) | <ID> | approfondir |`) et, si un fait est attendu, une suite au bloc 1 (`à échéance (…)`) ; une piste P3 durable → bloc 6 si elle touche un centre d'intérêt, sinon Archives (« P3, réserve ») ;
+- compteur au-dessus de 30 (état courant) : ne rien archiver soi-même, le noter dans la trace.
+Ne pas fusionner, re-prioriser ni archiver les entrées existantes : c'est le rôle de l'hebdomadaire.
+
+**Trace de séance** (`plan.md` D21) : ajouter un bloc à `06_Syntheses/Retros/YYYY-Snn.md` (semaine ISO ; créer le fichier depuis le gabarit de `06_Syntheses/Retros/README.md` s'il manque). Aussi en cas de BROUILLON ou de séance sans article.
 
 ## 11. Vérifier (`plan.md` D15)
 
@@ -168,18 +187,20 @@ En dernier : `python tools/build_etat_courant.py`.
 ## Rapport final
 
 ```
-Routine quotidienne — [date]
+Routine quotidienne — [date] — activité : générale | curiosité | question | (défaut)
 Candidats : 1. … (sorte, notes) · 2. … · … (5 au plus)
 Choix : [titre] (ID YYYY-NNN, <type>) — URL
 Pourquoi celui-là : 2–3 phrases (critères décisifs)
 Pourquoi ce type : 1 phrase
 Question du Phare : …
+Contrôle : auto (codes relevés) · relecteur (codes, verdict) · divergences · cycles · décision
 Liens : origine → article ok / article → origine ok (ou sans objet)
 Radar : retiré … / ajouté …
 Signalés : <ID> — constat en une ligne (ou aucun)
 Image : idée / légende / alt
 Écarts socle / Instructions : … (ou aucun)
 Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
+Trace : 06_Syntheses/Retros/YYYY-Snn.md
 À vérifier : WordPress
 ```
 
@@ -208,4 +229,7 @@ Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `pytho
 - Produire un triptyque ou un atelier Sentier (→ `/routine-triptyque` ou `/routine-mensuelle`).
 - Modifier `02_Fonds/`, `03_Dossiers/`, les §2–§5 de la mémoire.
 - Inventer une URL interne ou un fait.
+- Publier sans contrôle prépublication, ou transmettre au relecteur autre chose que le chemin du fichier.
+- Chercher un autre sujet après un BROUILLON dans la même séance.
+- Ajouter une entrée P3 au Radar actif.
 - `editorial_pipeline.py` sans demande explicite `api`.

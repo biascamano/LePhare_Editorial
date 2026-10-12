@@ -17,6 +17,15 @@ Autonomie : lots 2 et 3 jusqu'au rapport, sans confirmation intermédiaire. **Lo
 - `routine renovation — lot 2` / `lot 3` : lot imposé.
 - `routine renovation — <ID> [<ID> …]` : articles imposés (le niveau de l'inventaire décide du traitement).
 - `routine renovation — à blanc` : inventaire et proposition seulement, aucune écriture.
+- `routine renovation — rattrapage` : **une** action de patrimoine, quotidienne possible (`plan.md` D18) — voir « Variante rattrapage ».
+
+## Variante rattrapage
+
+Une seule action par séance, choisie dans cet ordre : 1. un signalement ouvert (`Signalements_renovation.md`) ; 2. un article ancien cité par une publication des 7 derniers jours (`verify_publication.py` ou « Pour aller plus loin » des derniers articles de l'état courant) ; 3. le premier article du lot ouvert.
+
+Actions possibles : remise à niveau (lot 2), réécriture (lot 3), ou **Contextualiser** : ajouter en fin de corps, avant la navigation, une courte section « Depuis » (datée, sourcée par la veille du jour) qui dit ce qui a changé, sans toucher au reste du texte. Toute réécriture ou note « Depuis » passe le **contrôle prépublication** (`00_Systeme/Controle_prepublication.md`, auto-contrôle + agent `relecteur-prepublication`) **avant** `wp_refresh_body.py` ; en cas de BROUILLON, ne pas rafraîchir WP et arrêter la séance.
+
+Trace : bloc `rattrapage` dans `06_Syntheses/Retros/YYYY-Snn.md` (gabarit `06_Syntheses/Retros/README.md`). Interdits inchangés : suppression, fusion, dépublication, `02_Fonds/`.
 
 ## 1. Régénérer l'inventaire
 
