@@ -25,7 +25,7 @@ python tools/build_inventaire_renovation.py
 ```
 Lire `00_Systeme/Inventaire_renovation.md`, en commençant par l'en-tête (compteurs par niveau), puis seulement la section du lot traité. Colonnes utiles : score, liens entrants, marqueur « copie locale tronquée », action proposée.
 
-Lire aussi la section « Signalés » (reprise de `00_Systeme/Signalements_renovation.md`) : articles repérés par les autres routines. Ils passent en tête du lot qui leur correspond. Un fondamental `02_Fonds/` signalé : rédiger une **proposition** de réécriture et la présenter à l'utilisateur, sans rien écrire dans `02_Fonds/` ni pull ni refresh ; l'éditeur humain valide et pousse. Une fois traité, déplacer la ligne dans « Traités » (date, suite donnée).
+Lire aussi la section « Signalés » (reprise de `00_Systeme/Signalements_renovation.md`) : articles repérés par les autres routines. Ils passent en tête du lot qui leur correspond. Un fondamental `02_Fonds/` signalé : rédiger une **proposition** de réécriture au format v3 complet dans `00_Systeme/Propositions_fonds/<ID>_proposition_<YYYY-MM-DD>.md` (voir le `README.md` du dossier) et la présenter à l'utilisateur, sans rien écrire dans `02_Fonds/` ni pull ni refresh ; l'éditeur humain compare avec WP, valide et pousse. Une fois traité, déplacer la ligne dans « Traités » (date, suite donnée).
 
 ## 2. Choisir le lot
 
