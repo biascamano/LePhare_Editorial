@@ -10,9 +10,9 @@
 
 | Date | ID | Titre | Signalé par | Constat | Suite proposée |
 |---|---|---|---|---|---|
-| 2026-10-12 | 2026-177 | [Repérer les controverses structurantes](https://le-phare.info/reperer-les-controverses-structurantes-comprendre-un-domaine-par-ses-debats/) | quotidienne 2026-566 | Fondamental `02_Fonds/` en import brut : en-tête vide, texte en un bloc avec émojis, sans navigation v3. Lien depuis 566 jugé faible (controverses savantes ≠ conflit de pouvoir) : le Sentier n'a pas de fondamental sur institutions, droit ou pouvoir | Proposition de réécriture au format actuel (éditeur humain) ; lacune institutions / droit à traiter en mensuelle comme atelier d'un fondamental existant |
 
 ## Traités
 
 | Date | ID | Suite donnée |
 |---|---|---|
+| 2026-10-12 | 2026-177 | Proposition de réécriture au format v3 remise à l'éditeur (routine rénovation, lot 3) ; à comparer avec la version WP avant push. Lacune institutions / droit : reste à traiter en mensuelle |
