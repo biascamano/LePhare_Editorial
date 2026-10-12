@@ -8,6 +8,7 @@ Prints only status / error / wordpress_id / link for each article.
 Usage: python tools/wp_refresh_body.py "<chemin canonique>" ["<chemin>" ...] [--title] [--allow-fonds]
 (--title : met aussi à jour le titre WP depuis l'en-tête « Titre : ».)
 (--allow-fonds : PATCH du fondamental parent 02_Fonds/, réservé à la routine triptyque archivée.)
+(--hors-pilote : refresh décidé par le fondateur alors que 00_Systeme/Mode_brouillons.md existe.)
 """
 
 from __future__ import annotations
@@ -21,15 +22,20 @@ from pathlib import Path
 TOOLS_DIR = Path(__file__).resolve().parent
 ROOT_DIR = TOOLS_DIR.parent
 CONFIG_PATH = TOOLS_DIR / ("wp_config" + ".local.json")
+MODE_BROUILLONS = ROOT_DIR / "00_Systeme" / "Mode_brouillons.md"
 
 
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     allow_fonds = "--allow-fonds" in sys.argv[1:]
     extra = ["--refresh-title"] if "--title" in sys.argv[1:] else []
-    paths = [a for a in sys.argv[1:] if a not in ("--allow-fonds", "--title")]
+    paths = [a for a in sys.argv[1:] if a not in ("--allow-fonds", "--title", "--hors-pilote")]
     if not paths:
         print(__doc__)
+        return 2
+    if MODE_BROUILLONS.exists() and "--hors-pilote" not in sys.argv[1:]:
+        print("Refusé : mode brouillons actif (00_Systeme/Mode_brouillons.md), aucun article en ligne n'est "
+              "modifié. Refresh validé par le fondateur : --hors-pilote.")
         return 2
     if not CONFIG_PATH.exists():
         print("Config WordPress locale absente (copier tools/wp_config.example.json).")

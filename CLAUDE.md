@@ -10,6 +10,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 
 | Prompt | Action | Skill |
 |--------|--------|-------|
+| `routine phare` (+ `— état` / `— reprendre` / `— reporter <act> : <motif>` / `— à blanc` / `— bilan pilote`) | **Commande unique** (`plan.md` D22) : `tools/phare.py next` décide la prochaine activité (rétro hebdo/mensuelle, consolidation, Fil, générale, curiosité, question, rattrapage), une par séance, tracée dans `00_Systeme/Journal_phare.csv`. Les déclencheurs ci-dessous restent en secours. **Tant que `00_Systeme/Mode_brouillons.md` existe : rien n'est publié ni modifié en ligne** (pilote ; seul le fondateur supprime ce fichier) | `.claude/skills/routine-phare/SKILL.md` |
 | `routine quotidienne` | **Un** article : le meilleur prochain article du Phare, type choisi après le sujet (Actualité, Question, Application, exceptionnellement TF) — `plan.md` D12 | `.claude/skills/routine-quotidienne/SKILL.md` |
 | `routine quotidienne — sujet : …, thème TECH` | Même routine, sujet imposé | idem |
 | `routine quotidienne — type application` / `type texte fondateur` / `type actualite` | Type imposé | idem |
@@ -43,7 +44,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 04_Textes_fondateurs/Auteurs/ → TF
 05_Sentier/Etape_XX_.../   → SENTIER (atelier)
 03_Dossiers/<Theme>/       → DOSSIER (routine mensuelle)
-06_Syntheses/              → SYNTHESE : Fil_du_Phare/, Mensuelles/, Rapports_mensuels/
+06_Syntheses/              → SYNTHESE : Fil_du_Phare/, Mensuelles/, Retros/ (interne : traces, rétros hebdo/mensuelles), Rapports_mensuels/ (jusqu'à 2026-09)
 07_A_Publier/<dossier>/    → transit avant publication (supprimé après succès)
 index_editorial.csv        → registre canonique (IDs, slugs, URLs WP)
 tools/                     → scripts Python (daily_run, wp_push_draft, post_linking)

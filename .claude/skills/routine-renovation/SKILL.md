@@ -27,6 +27,13 @@ Actions possibles : remise à niveau (lot 2), réécriture (lot 3), ou **Context
 
 Trace : bloc `rattrapage` dans `06_Syntheses/Retros/YYYY-Snn.md` (gabarit `06_Syntheses/Retros/README.md`). Interdits inchangés : suppression, fusion, dépublication, `02_Fonds/`.
 
+**Sous l'orchestrateur** (`routine phare`, activité `rattrapage`) : signaler `etape redaction`, `controle_ok`, `wp` comme la quotidienne. Clôture :
+- refresh WP fait (l'article reste `publie` dans l'index) → `close rattrapage --statut publie --ids <ID>` ;
+- aucune cible, ou contrôle non satisfait (WP non rafraîchi, la version en ligne reste en place) → `close rattrapage --statut termine_sans_publication --ids <ID> --note "<motif, « contrôle : … » le cas échéant>"`.
+- **mode brouillons** (`00_Systeme/Mode_brouillons.md` présent) : le contrôle complet (auto + `relecteur-prepublication`) porte sur une copie révisée déposée dans `07_A_Publier/<YYYY-MM-DD>_rattrapage_<ID>/` ; canonique et WP restent intacts, pas de refresh (le script le refuse). Clôture `termine_sans_publication --ids <ID> --note "pilote : refresh en attente du fondateur ; contrôle : <décision>"`. Le fondateur applique en recopiant la version vers le canonique puis `wp_refresh_body.py "<chemin>" --hors-pilote`.
+
+En reprise, avant tout refresh : `python tools/wp_pull_body.py <ID>` (à blanc, sans `--apply`) pour savoir si WP a déjà reçu la nouvelle version ; ne jamais rafraîchir deux fois sans cette comparaison.
+
 ## 1. Régénérer l'inventaire
 
 ```bash

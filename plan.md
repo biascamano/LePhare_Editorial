@@ -117,6 +117,7 @@ Principes transverses :
 | D19 | Radar : P1/P2 seulement, compteur | Nouvelles entrées au Radar actif : P1 ou P2 seulement. Une piste P3 durable va au bloc 6 (si centre d'intérêt) ou aux Archives (« P3, réserve ») ; les P3 existantes attendent le tri hebdomadaire. Plafond de 30 sur les blocs 1–5 (`P?` compris) ; `build_etat_courant.py` affiche le compteur en tête de l'état courant et une alerte au-delà de 30 (l'hebdomadaire fusionne ou archive, la quotidienne le trace seulement). | 2026-10-12 |
 | D20 | Contrôle prépublication | Entre `stage` et `daily_run` (et avant tout refresh d'un rattrapage) : auto-contrôle avec preuves, puis **relecture indépendante** par l'agent `.claude/agents/relecteur-prepublication.md` (pilote : tous les articles), qui ne reçoit que le chemin du fichier et la grille `00_Systeme/Controle_prepublication.md` et vérifie les affirmations une à une contre leurs sources. Décision PUBLIER / CORRIGER (2 cycles au plus) / BROUILLON (`--no-publish-final`, **arrêt de la séance**, pas d'autre sujet, difficulté tracée). La rétro décide si la relecture devient permanente ou ciblée. | 2026-10-12 |
 | D21 | Traces et rétros | `06_Syntheses/Retros/`, interne, jamais publié. Un fichier par semaine ISO (`YYYY-Snn.md`) : « Traces de la semaine » (un bloc par séance : sujet et raisons, regard, contrôles, corrections, décision, Radar, questions ouvertes, à revoir, durée/coût) puis « Rétro » (hebdomadaire). Pas de nouvelle colonne en mémoire §1 (une ligne = un article publié) : le regard passe par `--type-label`. Rétro hebdomadaire distincte du Fil ; rétro mensuelle (progression, qualité, patrimoine, évolution intellectuelle) ; chaque rétro reprend les décisions antérieures et vérifie ce qui a changé — routines hebdomadaire et mensuelle adaptées au lot 2. | 2026-10-12 |
+| D22 | Orchestrateur du Phare | **Une commande** (`routine phare`), un orchestrateur déterministe (`tools/phare.py`), des routines spécialisées réutilisées, un journal compact (`00_Systeme/Journal_phare.csv`). Une activité par exécution. Ordre de `next` : verrou (séance en cours depuis < 3 h → arrêt) → incidents et séances interrompues (reprise contrôlée, sans double création ni double publication ; intervention humaine après 2 tentatives ; un incident n'est jamais tenu pour résolu) → rétro hebdomadaire due (lundi, semaine précédente ; première le 19 octobre 2026 sur 2026-S42) → rétro mensuelle due (première début novembre 2026 sur octobre) → décision **bloquante** ouverte (suspend la production) → consolidation mensuelle → Fil (vendredi–dimanche, ≥ 4 articles depuis le Fil précédent : condition minimale, pas justification suffisante) → quotidiennes du pilote (générale, curiosité, question, rattrapage) → rien. Fusions : comité Radar et audit des fils dans la rétro hebdomadaire ; rapport mensuel et cap dans la rétro mensuelle ; le Fil reste distinct de la rétro. Statuts distingués : `brouillon` (contrôle non satisfait), `incident` (technique), `reporte` (volontaire), `termine_sans_publication`. Pas de sujet de remplacement après un blocage éditorial. Pas de reconstitution des périodes antérieures au 2026-10-12. Arbitrages : `00_Systeme/Alignement/09_…` et `10_…`. **Mode brouillons** (message 11, `00_Systeme/Alignement/11_…`) : tant que `00_Systeme/Mode_brouillons.md` existe, les scripts refusent toute mise en ligne (`post_linking --publish-final`, `wp_refresh_body` sauf `--hors-pilote` du fondateur, `daily_run --refresh-body`) ; relecteur obligatoire pour chaque article ; rattrapage déposé dans `07_A_Publier/` ; bilan de pilote quotidien (`06_Syntheses/Retros/<jour>_bilan_pilote.md`) distinct de la rétro ; passage en production = suppression du fichier par le fondateur seul. | 2026-10-12 |
 
 ---
 
@@ -287,6 +288,8 @@ Cible : mode paire intégré (B16).
 
 Skill : `.claude/skills/routine-hebdomadaire/SKILL.md`.
 
+> **Depuis D22** : deux activités distinctes de l'orchestrateur — A. Fil du Phare (vendredi–dimanche, ≥ 4 articles), B. rétro hebdomadaire (lundi ; audit des fils et comité du Radar y sont intégrés, table de décisions). Le skill fait foi ; le détail ci-dessous décrit la version v5.
+
 ### 6.1 Périmètre
 
 - **Fait** : relecture de la semaine, connexions, **une** grande question, article « Le Fil du Phare », audit des fils, pistes de la semaine suivante, mise à jour §1/§2/§3.
@@ -324,6 +327,8 @@ Skill : `.claude/skills/routine-hebdomadaire/SKILL.md`.
 ## 7. Routine mensuelle
 
 Skill : `.claude/skills/routine-mensuelle/SKILL.md`.
+
+> **Depuis D22** : deux activités de l'orchestrateur — A. rétro mensuelle (`06_Syntheses/Retros/YYYY-MM_retro_mensuelle.md`, qui remplace `Rapports_mensuels/` et porte le cap du mois suivant), B. consolidation (dossiers, TF, ateliers, synthèse). Le skill fait foi ; le détail ci-dessous décrit la version v5.
 
 ### 7.1 Périmètre
 
@@ -553,6 +558,8 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | 2026-10-12 | v5.6 | §19.4 : signalement sans rénovation. Les routines inscrivent les anciens articles sous le standard dans un fichier manuel, repris dans l'inventaire (section « Signalés », fondamentaux compris) ; premier signalement : 2026-177 | `00_Systeme/Signalements_renovation.md`, `tools/build_inventaire_renovation.py`, skills `routine-quotidienne` et `routine-renovation`, `plan.md` |
 | 2026-10-12 | v5.7 | §19.4 : les propositions de réécriture d'un fondamental `02_Fonds/` sont versionnées dans `00_Systeme/Propositions_fonds/` (au lieu du seul rapport de session) ; première : 2026-177 | `00_Systeme/Propositions_fonds/`, `00_Systeme/Signalements_renovation.md`, skill `routine-renovation`, `plan.md` |
 | 2026-10-12 | v5.8 | Pilote, lot 1 (arbitrages du 2026-10-12, `00_Systeme/Alignement/08_…`) : D18 quatre activités et bloc Curiosités ; D19 Radar P1/P2, compteur et alerte à 30 ; D20 contrôle prépublication avec relecteur indépendant ; D21 traces de séance dans `06_Syntheses/Retros/`. Rétros hebdomadaire et mensuelle : lot 2 | `tools/build_etat_courant.py`, `00_Systeme/Radar_editorial.md`, `00_Systeme/Controle_prepublication.md`, `.claude/agents/relecteur-prepublication.md`, `06_Syntheses/Retros/README.md`, skills `routine-quotidienne` et `routine-renovation`, `CLAUDE.md`, `plan.md` |
+| 2026-10-12 | v5.9 | D22 : Orchestrateur du Phare (`routine phare`). `tools/phare.py` (`next`, `start`, `etape`, `close`, `reporter`, `contexte`), journal `00_Systeme/Journal_phare.csv` (amorcé avec 2026-566), 31 tests hors ligne. Hebdomadaire réécrite (A. Fil, B. rétro avec audit des fils et comité Radar) ; mensuelle réécrite (A. rétro mensuelle avec cap, B. consolidation) ; quotidienne et rénovation : signaux et clôture sous l'orchestrateur ; contrôle prépublication étendu au Fil et à la consolidation. Pilote en brouillons avant toute publication réelle | `tools/phare.py`, `tools/tests/test_phare.py`, `00_Systeme/Journal_phare.csv`, `.claude/skills/routine-phare/SKILL.md`, skills des 4 routines, `00_Systeme/Controle_prepublication.md`, `06_Syntheses/Retros/README.md`, `00_Systeme/Alignement/09_…`, `10_…`, `CLAUDE.md`, `actions.md`, `plan.md` |
+| 2026-10-12 | v5.10 | D22, message 11 (validation conditionnelle du pilote) : sentinelle `00_Systeme/Mode_brouillons.md` respectée par `post_linking.py`, `wp_refresh_body.py` (`--hors-pilote`) et `daily_run.py` ; `phare.py` : ligne MODE BROUILLONS, bilan de pilote dû, `contexte bilan_pilote` (tentatives, durée, « publié ensuite par le fondateur ») ; 36 tests. Skills : relecteur obligatoire, trace Autocontrôle / Relecteur, rattrapage en transit, relier en retour différé, bilan de pilote lu par la rétro S42 | `00_Systeme/Mode_brouillons.md`, `tools/post_linking.py`, `tools/wp_refresh_body.py`, `tools/daily_run.py`, `tools/phare.py`, `tools/tests/test_phare.py`, skills `routine-phare`, `routine-quotidienne`, `routine-renovation`, `routine-hebdomadaire`, `06_Syntheses/Retros/README.md`, `00_Systeme/Alignement/11_…`, `actions.md`, `CLAUDE.md`, `plan.md` |
 
 *(Ajouter une ligne par évolution, la plus récente en bas.)*
 
@@ -659,12 +666,13 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `plan.md` | Ce document |
 | `CLAUDE.md` | Instructions projet chargées à chaque session |
 | `.claude/settings.json` | Permissions |
+| `.claude/skills/routine-phare/SKILL.md`, `tools/phare.py`, `00_Systeme/Journal_phare.csv` | Orchestrateur du Phare : commande unique, décision, journal (D22) |
 | `.claude/skills/routine-quotidienne/SKILL.md` | Routine quotidienne |
 | `.claude/skills/routine-hebdomadaire/SKILL.md` | Routine hebdomadaire |
 | `.claude/skills/routine-mensuelle/SKILL.md` | Routine mensuelle |
 | `.claude/skills/routine-renovation/SKILL.md` | Routine de rénovation du stock ancien (D17, §19) |
 | `.claude/skills/routine-triptyque/SKILL.md`, `workflow.md` | Ancienne routine (archivée) |
-| `.claude/commands/routine-*.md` | Slash commands (5) |
+| `.claude/commands/routine-*.md` | Slash commands (6) |
 | `00_Systeme/Memoire_editoriale.md` | Mémoire partagée |
 | `00_Systeme/Instructions_editoriales_officielles.md` | Qualité rédactionnelle |
 | `00_Systeme/Catalogue_editorial.md` | Inventaire généré (`tools/build_catalogue.py`) : articles, équilibre, lacunes — lu par la mensuelle seulement |
@@ -679,9 +687,9 @@ Permissions (`.claude/settings.json`) : Bash python/mkdir/cp/curl/ls/find, WebFe
 | `00_Systeme/Taxonomie_WordPress_le-phare_info.md` | Catégories/tags |
 | `00_Systeme/Manifests/sentier_fondamentaux.csv` | Fondamentaux parents |
 | `00_Systeme/Sentier_fondamentaux_referentiel.md` | Règles ateliers |
-| `00_Systeme/Retro_routine_hebdo_TEMPLATE.md` | Rétro hebdo (ancien gabarit, à reprendre au lot 2 dans `06_Syntheses/Retros/`) |
+| `00_Systeme/Retro_routine_hebdo_TEMPLATE.md` | Rétro hebdo, ancien gabarit, remplacé par `06_Syntheses/Retros/README.md` (D22) |
 | `00_Systeme/Controle_prepublication.md`, `.claude/agents/relecteur-prepublication.md` | Contrôle prépublication et relecteur indépendant (D20) |
-| `06_Syntheses/Retros/` (`README.md`, `YYYY-Snn.md`) | Traces de séance et rétros, internes (D21) |
+| `06_Syntheses/Retros/` (`README.md`, `YYYY-Snn.md`, `YYYY-MM_retro_mensuelle.md`) | Traces de séance, rétros hebdomadaires et mensuelles, internes (D21, D22) |
 | `00_Systeme/Routine_quotidienne.md`, `Routine_quotidienne_V2.md` | Archivés (bandeau) |
 | `00_Systeme/Strategie_routine_quotidienne_graphe_taxonomie_WP.md`, `Checklist_publication.md` | Alignés v3 (bandeau) |
 | `.cursor/rules/editorial-assisted-writing.mdc` | Règle Cursor (bandeau v3) |

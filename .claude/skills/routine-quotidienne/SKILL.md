@@ -33,6 +33,8 @@ Toute séance relit l'état courant **régénéré** (il liste les articles déj
 
 Autonomie totale : pas de validation du sujet, pas de confirmation intermédiaire, exécution jusqu'au rapport final.
 
+**Sous l'orchestrateur** (`routine phare`, `plan.md` D22) : l'activité est imposée par `tools/phare.py`. Signaux `phare.py etape` après `create` (`--etape redaction --ids <ID>`), à la décision PUBLIER (`controle_ok`) et avant `daily_run` (`wp`), puis `close` : `publie`, `brouillon` (contrôle non satisfait), `termine_sans_publication` (curiosité sans ancrage, aucun sujet qui mérite publication) ou `incident` (échec technique). En reprise : même ID et même dossier de transit, jamais de nouveau `create`.
+
 ## 1. Regarder derrière : l'état immédiat
 
 Lancer `python tools/build_etat_courant.py`, puis lire `00_Systeme/Etat_editorial_courant.md` (≤ 50 lignes) : compteur du Radar, 10 derniers articles, 5 fils actifs, questions prioritaires, prochains candidats, cap du mois, dernier Fil du Phare. Ne lire `00_Systeme/Memoire_editoriale.md` qu'en cas de besoin précis (une ligne, un fil), par section.
@@ -150,7 +152,7 @@ python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-pub
 
 `--force` sur `daily_run` dès qu'un run a déjà réussi le même jour (deuxième séance du jour et suivantes). Extraire seulement `status`, `error`, `wordpress_id`, `link` des sorties JSON.
 
-**Relier en retour** : si l'article est une Question ou une Application issue d'un article récent, dans l'article d'origine (copie canonique), remplacer la question nue de « La question suivante » par `[question](URL lue dans l'index)`, puis `python tools/wp_refresh_body.py "<chemin canonique de l'origine>"` (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, ne pas lire ce fichier).
+**Relier en retour** : si l'article est une Question ou une Application issue d'un article récent, dans l'article d'origine (copie canonique), remplacer la question nue de « La question suivante » par `[question](URL lue dans l'index)`, puis `python tools/wp_refresh_body.py "<chemin canonique de l'origine>"` (le script trouve seul la config WP locale : ne jamais écrire son chemin dans une commande, ne pas lire ce fichier). **Mode brouillons** (`00_Systeme/Mode_brouillons.md` présent) : ne pas toucher l'origine, noter « relier en retour à faire après publication » dans la trace.
 
 **Signaler sans rénover** (`plan.md` §19.4) : un article lié (Pour aller plus loin, Sentier) qui est sous le standard (import brut, sans navigation v3, texte en bloc) OU dont le lien est jugé faible ne se modifie pas pendant la quotidienne. L'inscrire en une ligne dans la table « Ouverts » de `00_Systeme/Signalements_renovation.md` (date, ID, titre lié, `quotidienne <ID>`, constat, suite proposée ; compléter la ligne s'il y est déjà), et le mentionner au rapport. Fondamental `02_Fonds/` : proposition seulement, l'éditeur humain valide et pousse.
 

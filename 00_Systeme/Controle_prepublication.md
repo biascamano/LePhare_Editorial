@@ -1,6 +1,6 @@
 # Contrôle prépublication — Le Phare Info
 
-Lu **au moment du contrôle seulement** : quotidienne (étape 9, entre `stage` et `daily_run`) et rattrapage (toute réécriture ou note « Depuis »). `plan.md` D20 ; grille issue du cadrage consolidé §3.1–3.5.
+Lu **au moment du contrôle seulement** : quotidienne (étape 9, entre `stage` et `daily_run`), rattrapage (toute réécriture ou note « Depuis »), Fil du Phare (hebdomadaire A5) et productions de consolidation (mensuelle B6). Rien n'est publié sans décision PUBLIER. `plan.md` D20 ; grille issue du cadrage consolidé §3.1–3.5.
 
 **Sur quoi** : le texte rédactionnel final, après `stage` OK. Le maillage ajouté ensuite (`post_linking`, « relier en retour ») est déterministe et couvert par `verify_publication.py`.
 
@@ -8,6 +8,8 @@ Lu **au moment du contrôle seulement** : quotidienne (étape 9, entre `stage` e
 
 - **a. Auto-contrôle** (le rédacteur) : chaque point de la grille, avec sa **preuve** (« vérifié dans [source] », « reformulé », « sans objet : … »). Un point sans preuve compte comme non vérifié.
 - **b. Relecture indépendante** (agent `relecteur-prepublication`) : **pilote = tous les articles**. Il reçoit le chemin du fichier final et cette grille, rien d'autre (ni fiche, ni candidats, ni raisonnement du rédacteur), et examine les affirmations une à une contre leurs sources.
+
+En mode brouillons (`00_Systeme/Mode_brouillons.md`), les deux niveaux restent obligatoires pour chaque article et chaque rattrapage : le fait que rien ne soit publié n'allège pas le contrôle. Une validation de forme ne suffit pas (faits, sources ouvertes, citations, liens, droits humains, risques discriminatoires). La trace et le bilan de pilote séparent ce qu'a trouvé le rédacteur et ce qu'a trouvé le relecteur.
 
 ## Grille
 
@@ -45,7 +47,7 @@ Lu **au moment du contrôle seulement** : quotidienne (étape 9, entre `stage` e
 |---|---|---|
 | **PUBLIER** | a et b sans défaut bloquant | `daily_run` normal |
 | **CORRIGER** | Défaut remédiable | Corriger, relancer `stage`, refaire a **puis** b sur le texte corrigé. **2 cycles au plus** |
-| **BROUILLON** | Risque important, vérification essentielle non résolue, ou 3ᵉ cycle nécessaire | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
+| **BROUILLON** | Risque important, vérification essentielle non résolue, ou 3ᵉ cycle nécessaire | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
 
 **Désaccord a / b** : une réserve de b se traite comme CORRIGER, sauf si le rédacteur la réfute **par la source** (passage cité dans la trace). Toute divergence est tracée : la rétro décidera si la relecture b devient permanente ou ciblée (personnes mises en cause, chiffre central à source unique).
 

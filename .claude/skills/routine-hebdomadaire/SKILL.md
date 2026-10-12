@@ -1,29 +1,36 @@
 ---
 name: routine-hebdomadaire
-description: Routine hebdomadaire Le Phare — relire les articles de la semaine, dégager le fil rouge, publier « Le Fil du Phare » (catégorie cycle), auditer les fils éditoriaux (5 actifs au plus), tenir le comité éditorial du Radar et régénérer l'état courant. Déclenché par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
+description: Routine hebdomadaire Le Phare, en deux parties lancées séparément par l'orchestrateur — A. « Le Fil du Phare » (catégorie cycle, publié si au moins 4 articles et une connexion sérieuse) ; B. rétro hebdomadaire interne (décisions, audit des fils, comité du Radar). Déclenché par « routine phare » (via tools/phare.py), ou en secours par « routine hebdomadaire », « fil du phare » ou /routine-hebdomadaire.
 ---
 
-# Routine hebdomadaire — Le Fil du Phare
+# Routine hebdomadaire — le Fil et la rétro
 
-**Question de la semaine : « Qu'est-ce que nos articles racontent ensemble ? »**
+**A. Fil du Phare** : « Qu'est-ce que nos articles racontent ensemble ? » (public).
+**B. Rétro hebdomadaire** : « Qu'avons-nous décidé, fait, appris, et que changeons-nous ? » (interne, jamais publiée).
 
-L'hebdomadaire crée les connexions. Il ne cherche pas de nouveaux sujets d'actualité et ne restructure ni dossiers ni Sentier (→ mensuelle).
+Deux activités distinctes de l'orchestrateur (`plan.md` D22) : `fil` (vendredi–dimanche, semaine en cours) et `retro_hebdo` (lundi, semaine précédente). Une seule par séance. En secours, sans orchestrateur : `routine hebdomadaire` = B puis A, `fil du phare` = A.
 
-Autonomie totale, comme la quotidienne : pas de confirmation intermédiaire. Variante `brouillons seulement` → `--no-publish-final`.
+L'hebdomadaire crée les connexions. Elle ne cherche pas de sujet d'actualité et ne restructure ni dossiers ni Sentier (→ mensuelle). Autonomie totale. `brouillons seulement` → `--no-publish-final`.
 
-## 1. Relire les publications de la semaine
+---
 
-`00_Systeme/Memoire_editoriale.md` §1 : lignes des 7 derniers jours (+ §2, §4). Pour chaque article (fichier canonique via `index_editorial.csv`) : sujet, type, Question du Phare, concepts, dossier, Sentier, penseurs. Si moins de 3 articles dans la semaine : ne pas publier de Fil du Phare, faire seulement les étapes 5 à 7.
+## A. Le Fil du Phare
 
-## 2. Chercher les connexions
+### A1. Relire les publications depuis le dernier Fil
+
+L'orchestrateur a vérifié la condition minimale (≥ 4 articles publiés depuis le dernier Fil). Mémoire §1 : lignes depuis le dernier Fil (+ §2, §4). Pour chaque article (fichier canonique via `index_lookup.py`) : sujet, type, Question du Phare, concepts, dossier, Sentier, penseurs.
+
+### A2. Chercher les connexions
 
 Questions récurrentes, tensions communes, événements différents qui parlent du même phénomène, contradictions, thèmes émergents.
 
-## 3. Formuler UNE grande question
+**Le seuil n'est pas une justification.** Si aucune connexion intellectuelle sérieuse n'apparaît (seulement des thèmes voisins ou un mot commun), **ne pas forcer** : pas de Fil cette semaine. Clore `termine_sans_publication` avec le motif (et l'ajouter à la trace de semaine) ; la rétro en jugera.
 
-Une seule question qui résume la semaine (ex. « Sommes-nous devenus plus libres ou simplement plus dépendants ? »).
+### A3. Formuler UNE grande question
 
-## 4. Rédiger Le Fil du Phare
+Une seule question qui résume la période (ex. « Sommes-nous devenus plus libres ou simplement plus dépendants ? »).
+
+### A4. Rédiger
 
 Titre : `Le Fil du Phare - [question]` (passer `--title "[question]"` : `new_article.py` ajoute le préfixe, `plan.md` D16). ~900–1400 mots. Sections :
 
@@ -35,61 +42,98 @@ Titre : `Le Fil du Phare - [question]` (passer `--title "[question]"` : `new_art
 - **Ce que nous ne savons pas encore** — limites, questions ouvertes.
 - **Où poursuivre ?** — dossier, textes fondateurs, Sentier (URLs réelles de l'index / `sentier_fondamentaux.csv`).
 
-Métadonnées :
 ```bash
-python tools/new_article.py create --type fil-du-phare --theme <THEME dominant> --title "…" --slug <kebab-case> --question "…" --linked "<IDs de la semaine>" --keywords "…" --summary "…" --objective "…" --tags "<concept>;…"
+python tools/new_article.py create --type fil-du-phare --theme <THEME dominant> --title "…" --slug <kebab-case> --question "…" --linked "<IDs de la période>" --keywords "…" --summary "…" --objective "…" --tags "<concept>;…"
 ```
-Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, catégorie `cycle`, tags `fil-du-phare`/`question-du-phare`/`synthese-hebdomadaire`, slug `fil-du-phare-<slug>` et la ligne d'index. Rédiger le corps dans le `path` renvoyé, compléter navigation et `# SEO`. Sources en `[libellé](url)`.
+Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, catégorie `cycle`, tags, slug `fil-du-phare-<slug>` et la ligne d'index. Rédiger le corps dans le `path` renvoyé, compléter navigation et `# SEO`. Sources en `[libellé](url)`.
 
-Puis `python tools/new_article.py stage <ID>`. `stage` lance le contrôle v3 (`validate_index_editorial.py --ids`) : s'il est KO, corriger le fichier ou la ligne d'index et relancer — jamais `--force` en routine. Ensuite :
+### A5. Contrôler et publier
+
+`python tools/new_article.py stage <ID>` (KO → corriger et relancer, jamais `--force` sur `stage`).
+
+**Contrôle prépublication** (`00_Systeme/Controle_prepublication.md`) : auto-contrôle puis agent `relecteur-prepublication`. Pour un Fil, B porte surtout sur la fidélité aux articles reliés (aucun fait nouveau non sourcé, aucune affirmation qu'ils ne contiennent pas). PUBLIER → `daily_run` ; CORRIGER → 2 cycles au plus ; BROUILLON → `--no-publish-final`, clore `brouillon`.
+
 ```bash
-python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force
+python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force [--no-publish-final]
 ```
-(`--force` car `daily_run` refuse un second run réussi le même jour.)
 
-## 5. Auditer les fils éditoriaux
+### A6. Mémoire, vérification
 
-Mettre à jour §2 de la mémoire (**5 fils actifs au plus** : au-delà, clôturer ou mettre de côté les moins nourris) :
-- **à poursuivre** — questions assez riches pour d'autres articles (+ prochaine piste) ;
-- **à clôturer** — suffisamment traitées ;
-- **à mettre de côté** — intéressantes mais il manque de l'actualité ou de la connaissance (+ condition de reprise).
+- §1 : `python tools/memoire_append.py <ID> --penseur "…"`.
+- §3 : nouvelle ligne **en haut** — semaine, grande question, ID du Fil, concepts apparus, dossiers renforcés, pistes.
+- `python tools/verify_publication.py` (erreur de tag ou lien `?p=` → `--fix`, puis relancer sans option), puis `python tools/build_etat_courant.py`.
+- Trace : bloc `fil` dans `06_Syntheses/Retros/YYYY-Snn.md` (gabarit `06_Syntheses/Retros/README.md`).
 
-## 6. Préparer la semaine suivante
+---
 
-3 à 5 pistes : articles à poursuivre, nouveaux domaines où tester les mêmes questions, textes fondateurs éventuellement nécessaires. Ne **pas** fixer un programme de sept articles : l'actualité doit pouvoir le modifier.
+## B. Rétro hebdomadaire
 
-**Comité éditorial du Radar** (`00_Systeme/Radar_editorial.md`, `plan.md` D14) :
-- retirer les entrées réalisées dans la semaine ; fusionner les doublons (même question sous deux formulations) ;
-- re-prioriser blocs 1–3 (P1 réservé aux échéances fixes et aux suites naturelles fortes, sinon P2/P3) ; ajuster les statuts (`approfondir`, `relier`, `à échéance (…)`, `conserver`) ;
-- ajouter les pistes durables de la semaine (bloc 1 suites, bloc 2 questions, bloc 3 connexions) ;
-- passer en `archivé` (section Archives) ce qui a perdu sa raison d'être ; **30 entrées actives au plus** ;
-- mettre à jour la date « État au ».
-Ne pas toucher aux blocs 4–5 (textes fondateurs, dossiers, Sentier → mensuelle).
+Fichier : `06_Syntheses/Retros/<YYYY-Snn>.md` de la semaine examinée (le créer depuis le gabarit s'il manque). La rétro remplit `## Rétro` ; elle **ne recopie pas** les traces, elle les juge.
 
-## 7. Mettre à jour la mémoire éditoriale
+### B1. Rassembler
 
-- §1 : `python tools/memoire_append.py <ID> --penseur "…"` (ligne du Fil du Phare).
-- §2 : fils (étape 5).
-- §3 : nouvelle ligne **en haut** — semaine, grande question, ID Fil du Phare, concepts apparus, dossiers renforcés, pistes.
+```bash
+python tools/phare.py contexte retro_hebdo --periode <YYYY-Snn>
+```
+Séances (statut final), publications et brouillons de l'index, décisions de la rétro précédente. Puis lire les traces de la semaine (`## Traces de la semaine`) et les **bilans de pilote** de la semaine (`06_Syntheses/Retros/<jour>_bilan_pilote.md`) : leurs enseignements nourrissent les points 3–5, leurs recommandations deviennent des lignes de la table « Décisions » (retenues, ajournées ou écartées, avec motif). Le passage en production reste une décision du fondateur : la rétro peut la recommander, pas la prendre. Rien d'autre sauf besoin précis.
 
-## 8. Vérifier (`plan.md` D15)
+### B2. Les six points (sous-sections de `## Rétro`)
 
-`python tools/verify_publication.py` (articles des 7 derniers jours : liens internes, maillage aller-retour, navigation, URL nues, statut WP, tag `a-la-une` — **sans ce tag, l'article est invisible sur le site**). Erreur de tag ou lien `?p=` vers un article publié → `python tools/verify_publication.py --fix`, puis relancer sans option. Autre erreur → corriger le fichier canonique, puis `python tools/wp_refresh_body.py "<chemin>"`. Brouillons restés dans la semaine (avertissements) : les signaler, ne pas lancer `--publish-drafts` sans demande.
+1. **Décisions précédentes** — reprendre chaque décision ouverte de la rétro précédente (table « Décisions »).
+2. **Mise en œuvre** — pour chacune : faite, en cours, pas commencée ; preuve (ID, trace, commit, fichier).
+3. **Résultats** — objectifs quotidiens tenus / non tenus par jour ; publiés, brouillons (motifs), incidents, reports ; contrôle prépublication (divergences a/b, cycles) ; soutenabilité du rythme ; ce que les décisions ont réellement changé.
+4. **Problèmes et angles morts** — ce qui se répète, ce que personne ne regarde (thèmes absents, types jamais choisis, sources toujours les mêmes, articles sans suite).
+5. **Ajustements proposés** — peu, concrets, vérifiables.
+6. **Décisions** — table ci-dessous (les ouvertes reportées avec leur état à jour, puis les nouvelles).
 
-En dernier : `python tools/build_etat_courant.py` (vue courte lue par la quotidienne).
+### B3. Audit des fils éditoriaux
 
-Optionnel (si l'utilisateur le demande) : rétro de la routine via `00_Systeme/Retro_routine_hebdo_TEMPLATE.md`.
+Mémoire §2 (**5 fils actifs au plus**) : à poursuivre (+ prochaine piste), à clôturer, à mettre de côté (+ condition de reprise). Une ligne de synthèse dans la rétro (point 3 ou 4).
 
-## Rapport final
+### B4. Comité éditorial du Radar
+
+`00_Systeme/Radar_editorial.md` (`plan.md` D14) :
+- retirer le réalisé ; fusionner les doublons ;
+- re-prioriser les blocs 1–3 (P1 = échéances fixes et suites naturelles fortes, sinon P2/P3) ; statuts (`approfondir`, `relier`, `à échéance (…)`, `conserver`) ;
+- 3 à 5 pistes pour la semaine suivante (suites, nouveaux terrains pour les mêmes questions, TF nécessaires) — pas de programme de sept articles ;
+- archiver ce qui a perdu sa raison d'être ; **30 entrées actives au plus** ; date « État au ».
+Blocs 4–5 : mensuelle. Une ligne de synthèse dans la rétro.
+
+### B5. Décisions
+
+Dernière sous-section de `## Rétro` :
+```markdown
+### Décisions
+
+| N° | Décision | Priorité | Échéance | État |
+|---|---|---|---|---|
+| D-2026-S42-1 | … | bloquante / importante / normale | AAAA-MM-JJ ou « prochaine rétro » | à faire / en cours / faite / abandonnée |
+```
+- Les décisions encore ouvertes de la rétro précédente sont **reportées** avec leur N° d'origine et leur état mis à jour ; une décision faite ou abandonnée n'apparaît qu'une fois, avec cet état.
+- **bloquante** : suspend toute production (`phare.py next` → ARRÊT) jusqu'à ce que son état passe à « faite » — réservée à un problème qui rendrait la publication fautive (erreur de fait répétée, faille de contrôle, maillage cassé).
+- **importante** : affichée par `next` à chaque séance, jusqu'à « faite ».
+- Une semaine sans décision nouvelle : une ligne « normale — Ras » suffit.
+
+### B6. Clore
+
+`python tools/verify_publication.py` (signaler, ne pas publier les brouillons), `python tools/build_etat_courant.py`, puis `close retro_hebdo --statut termine` : `phare.py` refuse si `## Rétro` est vide ou la table absente.
+
+---
+
+## Rapports
 
 ```
-Routine hebdomadaire — semaine du … au …
-Fil du Phare : [question] — URL
-Articles reliés : N (IDs)
-Fils : +X actifs / Y clôturés / Z de côté
-Radar : N actives (retirées … / fusionnées … / archivées …)
-Pistes semaine suivante : …
-Vérification : N articles, X erreurs (corrigées : …), Y avertissements (…)
+Fil du Phare — semaine …
+Fil : [question] — URL (ou : pas de Fil, motif)
+Articles reliés : N (IDs) · Contrôle : a … / b … · cycles N
+Vérification : N articles, X erreurs, Y avertissements
+```
+```
+Rétro hebdomadaire — semaine … (fichier)
+Décisions précédentes : N faites / N en cours / N non commencées
+Objectifs : publiés N · brouillons N · incidents N · reports N · sans publication N
+Fils : +X / Y clôturés / Z de côté · Radar : N actives
+Nouvelles décisions : … (bloquantes : …)
 ```
 
 ## Commandes sans demande de permission
@@ -98,6 +142,7 @@ Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `pytho
 
 ## Ne pas faire
 
-- Chercher le sujet d'actualité du jour.
-- Créer/réorganiser un dossier, un texte fondateur ou un atelier Sentier (→ mensuelle).
-- Résumé chronologique sans lien invisible.
+- Publier un Fil parce que le seuil est atteint, sans lien invisible réel ; résumé chronologique.
+- Publier la rétro, ou y recopier les traces.
+- Chercher le sujet d'actualité du jour ; créer un dossier, un TF ou un atelier (→ mensuelle).
+- Marquer une décision « faite » sans preuve.

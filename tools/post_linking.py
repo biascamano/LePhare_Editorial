@@ -110,8 +110,15 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+MODE_BROUILLONS = Path(__file__).resolve().parent.parent / "00_Systeme" / "Mode_brouillons.md"
+
+
 def main() -> int:
     args = parse_args()
+    if args.publish_final and MODE_BROUILLONS.exists():
+        print("Triptych linking error: mode brouillons actif (00_Systeme/Mode_brouillons.md) : "
+              "--publish-final refusé, les articles restent en brouillon WP.", file=sys.stderr)
+        return 2
 
     # Load config early (before collect) so we can resolve post IDs via WP API
     # when URL is a permalink slug/ (already published) rather than ?p=ID.

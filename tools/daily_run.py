@@ -55,6 +55,7 @@ EDITORIAL_CONFIG = TOOLS_DIR / "editorial_config.local.json"
 WP_CONFIG = TOOLS_DIR / "wp_config.local.json"
 INDEX_PATH = ROOT_DIR / "index_editorial.csv"
 PUBLISH_ROOT = ROOT_DIR / "07_A_Publier"
+MODE_BROUILLONS = SYSTEM_DIR / "Mode_brouillons.md"
 
 GOOGLE_NEWS_RSS = "https://news.google.com/rss?hl=fr&gl=FR&ceid=FR:fr"
 CONTENT_MODES = ("architecture_editoriale", "triptyque", "mini_encyclopedie")
@@ -227,6 +228,15 @@ def main() -> int:
     if args.seo_enrich_after_link and not args.publish_existing:
         print("Erreur: --seo-enrich-after-link requiert --publish-existing DIR.", file=sys.stderr)
         return 2
+    if MODE_BROUILLONS.exists():
+        if args.refresh_body:
+            print("Refusé : mode brouillons actif (00_Systeme/Mode_brouillons.md), --refresh-body modifierait des articles en ligne.", file=sys.stderr)
+            return 2
+        if not args.no_publish_final:
+            args.no_publish_final = True
+            msg = "Mode brouillons actif (00_Systeme/Mode_brouillons.md) : --no-publish-final appliqué."
+            write_log(log_path, msg)
+            print(msg)
     if args.cleanup_publish_folder and args.publish_existing:
         write_log(
             log_path,
