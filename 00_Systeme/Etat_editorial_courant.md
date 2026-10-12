@@ -1,9 +1,11 @@
 # État éditorial courant — Le Phare
 
-*Généré par `tools/build_etat_courant.py` le 2026-10-08 — ne pas éditer. Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*
+*Généré par `tools/build_etat_courant.py` le 2026-10-12 — ne pas éditer. Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*
 
 ## Derniers articles
 
+- 2026-566 · 10-12 · Actualité · MONDE — [Sanctions contre la Cour pénale internationale : Washington vise désormais l'institution,…](https://le-phare.info/cour-penale-internationale-sanctions-americaines-octobre-2026/) · Q : Une justice internationale peut-elle juger les puissants quand elle dépend, pour fonctionner, des services de ceux qu'elle pourra… · aucun (Actualité)
+- 2026-565 · 10-09 · Actualité · TECH — [Influence : OpenAI dit avoir démasqué des campagnes russe et iranienne, et reste seule à…](https://le-phare.info/openai-operations-influence-russie-iran-octobre-2026/) · Q : Quand l'entreprise qui fournit l'outil est seule à voir comment on l'a détourné, qui peut vérifier ce qu'elle en dit ? · aucun (Actualité)
 - 2026-564 · 10-08 · Actualité · SCIENCE — [Ebola atteint le Kenya : ce que dit un premier cas sur une épidémie qu'on ne parvient pas…](https://le-phare.info/ebola-kenya-premier-cas-epidemie-congo-octobre-2026/) · Q : Quand une épidémie lointaine franchit une frontière malgré les contrôles, qu'est-ce qui protège vraiment : le filtre à l'arrivée,… · aucun (Actualité)
 - 2026-563 · 10-08 · Actualité · ECON — [Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, et pour combien d…](https://le-phare.info/paramount-warner-fusion-skydance-octobre-2026/) · Q : Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur éc… · aucun (Actualité)
 - 2026-562 · 10-06 · Fil du Phare · SCIENCE — [Le Fil du Phare — Qui doit porter le prix de ce que l'on ne voit pas encore ?](https://le-phare.info/fil-du-phare-qui-doit-porter-le-prix-de-ce-que-l-on-ne-voit-pas-encore/) · Q : Qui doit porter le prix de ce que l'on ne voit pas encore ? · Hans Jonas (Le Principe responsabilité, 1979)
@@ -12,15 +14,13 @@
 - 2026-559 · 10-06 · Dossier (mensuelle) · CULTURE — [Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/) · Q : Comment se servir d'un indicateur sans le laisser décider à notre place ? · Donald T. Campbell ; Charles Goodhart
 - 2026-558 · 10-06 · Question · SCIENCE — [Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/) · Imre Lakatos (programmes de recherche, années 1970)
 - 2026-557 · 10-06 · Actualité · SCIENCE — [Nobel de physique 2026 : Francis Halzen et IceCube, ou trente-huit ans pour entendre les…](https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/) · Q : Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?
-- 2026-556 · 10-06 · Question · TECH — [Quand un service est gratuit, qui en est vraiment le client ?](https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/) · Herbert Simon (1971) ; Dallas Smythe (marchandise audience,…
-- 2026-555 · 10-06 · Actualité · TECH — [ChatGPT : la publicité arrive dans la génération d'images, et l'assistant devient un supp…](https://le-phare.info/chatgpt-publicite-generation-images-octobre-2026/) · Q : Quand un service est gratuit, qui en est vraiment le client ?
 
 ## Fils actifs
 
-- Le prix de l'invisible : qui paie ce que l'on ne voit pas encore ? (2026-549, 2026-550, 2026-551, 2026-552, 2026-553, 2026-554, 2026-555, 2026-556, 2026-557, 2026-558, 2026-562) → Décision de la Cour suprême dans Suncor c. Boulder ; test des publicités visuelles de ChatGPT (fin octobre) ; appliquer la distinction domm…
+- Le prix de l'invisible : qui paie ce que l'on ne voit pas encore ? (2026-549, 2026-550, 2026-551, 2026-552, 2026-553, 2026-554, 2026-555, 2026-556, 2026-557, 2026-558, 2026-562, 2026-564) → Fin de la surveillance des contacts Ebola au Kenya (fin octobre) et question 564 (filtre à l'arrivée ou effort à la source) ; test des publ…
 - Capacités proclamées ou démontrées : que vaut une puissance qu'on ne peut pas vérifier ? (2026-516, 2026-517, 2026-531) → Prochaine annonce d'arme « autonome » ou débat ONU sur les systèmes d'armes létaux autonomes ; Question 531 (capacité ou message)
-- Mesurer ou juger : que laisse hors champ un indicateur ? (2026-533, 2026-534, 2026-540, 2026-545, 2026-546, 2026-547, 2026-548, 2026-552, 2026-559, 2026-560) → Audition du conseil municipal de Philadelphie (7 octobre) ; second tour brésilien (25 octobre) et lecture des sondages ; tester en TECH ou…
-- Qui contrôle le contrôleur ? (2026-537, 2026-543, 2026-544, 2026-561) → Désignation des auditeurs de l'accord du 29 septembre ; confirmation du diagnostic d'Irkoutsk ; qu'est-ce qui rend une autorité digne de co…
+- Mesurer ou juger : que laisse hors champ un indicateur ? (2026-533, 2026-534, 2026-540, 2026-545, 2026-546, 2026-547, 2026-548, 2026-552, 2026-559, 2026-560) → Audition du conseil municipal de Philadelphie (reportée au 26 octobre) ; second tour brésilien (25 octobre) et lecture des sondages ; teste…
+- Qui contrôle le contrôleur ? (2026-537, 2026-543, 2026-544, 2026-561, 2026-563) → Question 563 (qui vérifie les engagements d'une fusion, et après leur échéance ?) — ECON, écrivable sans attendre ; désignation des auditeu…
 - Héritages : à qui appartient ce qu'on conserve ? (2026-519, 2026-532, 2026-538, 2026-545) → Restitutions d'objets et de restes humains entre pays européens ; sort des collections de Philadelphie
 
 ## Questions prioritaires (Radar)
