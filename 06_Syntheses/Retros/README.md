@@ -44,7 +44,7 @@ Le **journal** des séances (statuts, étapes, reprises) est `00_Systeme/Journal
 
 - **Sujet et raisons** : … (candidats écartés : …)
 - **Regard** : général | curiosité (bloc 6, ligne …)
-- **Contrôle** : autocontrôle : codes relevés · relecteur : codes relevés, verdict · trouvé par le relecteur seul : … · cycles : N
+- **Contrôle** : autocontrôle : codes relevés (B/m) · relecteur : codes relevés (B/m), verdict · trouvé par le relecteur seul : … · introduits par une correction : … · cycles : N
 - **Corrections importantes** : …
 - **Décision** : publié | brouillon (motif ; pilote : « contrôle PUBLIER, retenu par le mode ») | rattrapage : action, IDs
 - **Relier en retour** : fait | à faire après publication : <origine> → <ID> | —

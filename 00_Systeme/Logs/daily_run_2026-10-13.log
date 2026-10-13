@@ -1,0 +1,162 @@
+[2026-10-13T09:42:51] Mode brouillons actif (00_Systeme/Mode_brouillons.md) : --no-publish-final appliqué.
+[2026-10-13T09:42:51] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed
+[2026-10-13T09:42:51] Selected topic label: 2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed
+[2026-10-13T09:42:51] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-13T09:42:51] --- WP-PUSH OUTPUT ---
+[2026-10-13T09:43:08] {
+[2026-10-13T09:43:08]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed\\2026-568_ACTU_ECON_nobel_economie_2026_hall_woodford_guidance_fed_V1.md",
+[2026-10-13T09:43:08]   "article_id": "2026-568",
+[2026-10-13T09:43:08]   "title": "Nobel d'économie 2026 : Hall et Woodford récompensés pour une théorie des anticipations, quand la Fed renonce à annoncer sa politique",
+[2026-10-13T09:43:08]   "status": "draft",
+[2026-10-13T09:43:08]   "skipped": false,
+[2026-10-13T09:43:08]   "wordpress_id": 5660,
+[2026-10-13T09:43:08]   "wordpress_slug": "nobel-economie-2026-hall-woodford-guidance-fed",
+[2026-10-13T09:43:08]   "wordpress_link": "https://le-phare.info/?p=5660",
+[2026-10-13T09:43:08]   "categories": [
+[2026-10-13T09:43:08]     "actualites"
+[2026-10-13T09:43:08]   ],
+[2026-10-13T09:43:08]   "tags": [
+[2026-10-13T09:43:08]     "a-la-une",
+[2026-10-13T09:43:08]     "economie-finance",
+[2026-10-13T09:43:08]     "sentier-approfondissement",
+[2026-10-13T09:43:08]     "posture-observer",
+[2026-10-13T09:43:08]     "type-actualite",
+[2026-10-13T09:43:08]     "question-du-phare",
+[2026-10-13T09:43:08]     "banques centrales",
+[2026-10-13T09:43:08]     "anticipations"
+[2026-10-13T09:43:08]   ],
+[2026-10-13T09:43:08]   "index_updated": true,
+[2026-10-13T09:43:08]   "error": "",
+[2026-10-13T09:43:08]   "featured_media_id": 4142
+[2026-10-13T09:43:08] }
+[2026-10-13T09:43:08] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-13T09:43:08] --- POST-LINKING OUTPUT ---
+[2026-10-13T09:43:08] {
+[2026-10-13T09:43:08]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_nobel-economie-2026-hall-woodford-guidance-fed",
+[2026-10-13T09:43:08]   "mode": "triptyque_linking_v2",
+[2026-10-13T09:43:08]   "dry_run": false,
+[2026-10-13T09:43:08]   "total": 1,
+[2026-10-13T09:43:08]   "updated_local": 0,
+[2026-10-13T09:43:08]   "updated_wordpress": 1,
+[2026-10-13T09:43:08]   "items": [
+[2026-10-13T09:43:08]     {
+[2026-10-13T09:43:08]       "article_id": "2026-568",
+[2026-10-13T09:43:08]       "type": "ACTU",
+[2026-10-13T09:43:08]       "title": "Nobel d'économie 2026 : Hall et Woodford récompensés pour une théorie des anticipations, quand la Fed renonce à annoncer sa politique",
+[2026-10-13T09:43:08]       "wordpress_id": 5660,
+[2026-10-13T09:43:08]       "wordpress_url": "https://le-phare.info/?p=5660",
+[2026-10-13T09:43:08]       "updated_paths": [],
+[2026-10-13T09:43:08]       "status": "updated",
+[2026-10-13T09:43:08]       "error": ""
+[2026-10-13T09:43:08]     }
+[2026-10-13T09:43:08]   ],
+[2026-10-13T09:43:08]   "errors": []
+[2026-10-13T09:43:08] }
+[2026-10-13T09:58:31] Mode brouillons actif (00_Systeme/Mode_brouillons.md) : --no-publish-final appliqué.
+[2026-10-13T09:58:31] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc
+[2026-10-13T09:58:31] Selected topic label: 2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc
+[2026-10-13T09:58:31] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-13T09:58:31] --- WP-PUSH OUTPUT ---
+[2026-10-13T09:58:46] {
+[2026-10-13T09:58:46]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc\\2026-569_ACTU_SCIENCE_cgpm_2026_fin_seconde_intercalaire_utc_V1.md",
+[2026-10-13T09:58:46]   "article_id": "2026-569",
+[2026-10-13T09:58:46]   "title": "Seconde intercalaire : à Versailles, la CGPM vote sur la fin du raccord entre l'heure officielle et la rotation de la Terre",
+[2026-10-13T09:58:46]   "status": "draft",
+[2026-10-13T09:58:46]   "skipped": false,
+[2026-10-13T09:58:46]   "wordpress_id": 5662,
+[2026-10-13T09:58:46]   "wordpress_slug": "cgpm-2026-fin-seconde-intercalaire-utc",
+[2026-10-13T09:58:46]   "wordpress_link": "https://le-phare.info/?p=5662",
+[2026-10-13T09:58:46]   "categories": [
+[2026-10-13T09:58:46]     "actualites"
+[2026-10-13T09:58:46]   ],
+[2026-10-13T09:58:46]   "tags": [
+[2026-10-13T09:58:46]     "a-la-une",
+[2026-10-13T09:58:46]     "science-sante",
+[2026-10-13T09:58:46]     "sentier-science",
+[2026-10-13T09:58:46]     "posture-observer",
+[2026-10-13T09:58:46]     "type-actualite",
+[2026-10-13T09:58:46]     "question-du-phare",
+[2026-10-13T09:58:46]     "mesure",
+[2026-10-13T09:58:46]     "temps"
+[2026-10-13T09:58:46]   ],
+[2026-10-13T09:58:46]   "index_updated": true,
+[2026-10-13T09:58:46]   "error": "",
+[2026-10-13T09:58:46]   "featured_media_id": 2060
+[2026-10-13T09:58:46] }
+[2026-10-13T09:58:46] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-13T09:58:46] --- POST-LINKING OUTPUT ---
+[2026-10-13T09:58:46] {
+[2026-10-13T09:58:46]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_cgpm-2026-fin-seconde-intercalaire-utc",
+[2026-10-13T09:58:46]   "mode": "triptyque_linking_v2",
+[2026-10-13T09:58:46]   "dry_run": false,
+[2026-10-13T09:58:46]   "total": 1,
+[2026-10-13T09:58:46]   "updated_local": 0,
+[2026-10-13T09:58:46]   "updated_wordpress": 1,
+[2026-10-13T09:58:46]   "items": [
+[2026-10-13T09:58:46]     {
+[2026-10-13T09:58:46]       "article_id": "2026-569",
+[2026-10-13T09:58:46]       "type": "ACTU",
+[2026-10-13T09:58:46]       "title": "Seconde intercalaire : à Versailles, la CGPM vote sur la fin du raccord entre l'heure officielle et la rotation de la Terre",
+[2026-10-13T09:58:46]       "wordpress_id": 5662,
+[2026-10-13T09:58:46]       "wordpress_url": "https://le-phare.info/?p=5662",
+[2026-10-13T09:58:46]       "updated_paths": [],
+[2026-10-13T09:58:46]       "status": "updated",
+[2026-10-13T09:58:46]       "error": ""
+[2026-10-13T09:58:46]     }
+[2026-10-13T09:58:46]   ],
+[2026-10-13T09:58:46]   "errors": []
+[2026-10-13T09:58:46] }
+[2026-10-13T10:21:25] Mode brouillons actif (00_Systeme/Mode_brouillons.md) : --no-publish-final appliqué.
+[2026-10-13T10:21:25] Publish-existing folder: D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_question-du-phare-fusion-promesses-qui-verifie
+[2026-10-13T10:21:25] Selected topic label: 2026-10-13_question-du-phare-fusion-promesses-qui-verifie
+[2026-10-13T10:21:25] Running command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_push_draft.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_question-du-phare-fusion-promesses-qui-verifie --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv
+[2026-10-13T10:21:25] --- WP-PUSH OUTPUT ---
+[2026-10-13T10:21:41] {
+[2026-10-13T10:21:41]   "path": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_question-du-phare-fusion-promesses-qui-verifie\\2026-570_ACTU_ECON_question_du_phare_fusion_promesses_qui_verifie_V1.md",
+[2026-10-13T10:21:41]   "article_id": "2026-570",
+[2026-10-13T10:21:41]   "title": "Question du Phare - Quand une fusion s'achète par des promesses, qui vérifie qu'elles sont tenues ?",
+[2026-10-13T10:21:41]   "status": "draft",
+[2026-10-13T10:21:41]   "skipped": false,
+[2026-10-13T10:21:41]   "wordpress_id": 5664,
+[2026-10-13T10:21:41]   "wordpress_slug": "question-du-phare-fusion-promesses-qui-verifie",
+[2026-10-13T10:21:41]   "wordpress_link": "https://le-phare.info/?p=5664",
+[2026-10-13T10:21:41]   "categories": [
+[2026-10-13T10:21:41]     "actualites"
+[2026-10-13T10:21:41]   ],
+[2026-10-13T10:21:41]   "tags": [
+[2026-10-13T10:21:41]     "a-la-une",
+[2026-10-13T10:21:41]     "economie-finance",
+[2026-10-13T10:21:41]     "sentier-critique",
+[2026-10-13T10:21:41]     "posture-distance",
+[2026-10-13T10:21:41]     "type-question",
+[2026-10-13T10:21:41]     "question-du-phare",
+[2026-10-13T10:21:41]     "concurrence",
+[2026-10-13T10:21:41]     "concentration des médias"
+[2026-10-13T10:21:41]   ],
+[2026-10-13T10:21:41]   "index_updated": true,
+[2026-10-13T10:21:41]   "error": "",
+[2026-10-13T10:21:41]   "featured_media_id": 4142
+[2026-10-13T10:21:41] }
+[2026-10-13T10:21:41] Running post-linking command: C:\Users\gbiascamano\AppData\Local\Programs\Python\Python314\python.exe D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\post_linking.py D:\workspaces\Nexus des mondes\LePhare_Editorial\07_A_Publier\2026-10-13_question-du-phare-fusion-promesses-qui-verifie --index D:\workspaces\Nexus des mondes\LePhare_Editorial\index_editorial.csv --config D:\workspaces\Nexus des mondes\LePhare_Editorial\tools\wp_config.local.json
+[2026-10-13T10:21:41] --- POST-LINKING OUTPUT ---
+[2026-10-13T10:21:42] {
+[2026-10-13T10:21:42]   "triptych_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_question-du-phare-fusion-promesses-qui-verifie",
+[2026-10-13T10:21:42]   "mode": "triptyque_linking_v2",
+[2026-10-13T10:21:42]   "dry_run": false,
+[2026-10-13T10:21:42]   "total": 1,
+[2026-10-13T10:21:42]   "updated_local": 0,
+[2026-10-13T10:21:42]   "updated_wordpress": 1,
+[2026-10-13T10:21:42]   "items": [
+[2026-10-13T10:21:42]     {
+[2026-10-13T10:21:42]       "article_id": "2026-570",
+[2026-10-13T10:21:42]       "type": "ACTU",
+[2026-10-13T10:21:42]       "title": "Question du Phare - Quand une fusion s'achète par des promesses, qui vérifie qu'elles sont tenues ?",
+[2026-10-13T10:21:42]       "wordpress_id": 5664,
+[2026-10-13T10:21:42]       "wordpress_url": "https://le-phare.info/?p=5664",
+[2026-10-13T10:21:42]       "updated_paths": [],
+[2026-10-13T10:21:42]       "status": "updated",
+[2026-10-13T10:21:42]       "error": ""
+[2026-10-13T10:21:42]     }
+[2026-10-13T10:21:42]   ],
+[2026-10-13T10:21:42]   "errors": []
+[2026-10-13T10:21:42] }

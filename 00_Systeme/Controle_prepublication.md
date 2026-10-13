@@ -7,7 +7,7 @@ Lu **au moment du contrôle seulement** : quotidienne (étape 9, entre `stage` e
 ## Deux niveaux
 
 - **a. Auto-contrôle** (le rédacteur) : chaque point de la grille, avec sa **preuve** (« vérifié dans [source] », « reformulé », « sans objet : … »). Un point sans preuve compte comme non vérifié.
-- **b. Relecture indépendante** (agent `relecteur-prepublication`) : **pilote = tous les articles**. Il reçoit le chemin du fichier final et cette grille, rien d'autre (ni fiche, ni candidats, ni raisonnement du rédacteur), et examine les affirmations une à une contre leurs sources.
+- **b. Relecture indépendante** (agent `relecteur-prepublication`) : **pilote = tous les articles**. Il reçoit le chemin du fichier final et cette grille, rien d'autre (ni fiche, ni candidats, ni raisonnement du rédacteur), et examine les affirmations une à une contre leurs sources. Seule exception : au cycle 2, la liste des passages modifiés (voir « Cycles »).
 
 En mode brouillons (`00_Systeme/Mode_brouillons.md`), les deux niveaux restent obligatoires pour chaque article et chaque rattrapage : le fait que rien ne soit publié n'allège pas le contrôle. Une validation de forme ne suffit pas (faits, sources ouvertes, citations, liens, droits humains, risques discriminatoires). La trace et le bilan de pilote séparent ce qu'a trouvé le rédacteur et ce qu'a trouvé le relecteur.
 
@@ -41,16 +41,30 @@ En mode brouillons (`00_Systeme/Mode_brouillons.md`), les deux niveaux restent o
 - D5 La conclusion sépare acquis, limites et question ouverte.
 - D6 SEO, catégorie, type, extrait et navigation corrects (`stage` OK).
 
+## Gravité des défauts (bilan de pilote du 2026-10-13)
+
+Chaque défaut relevé, par a ou par b, est classé :
+- **Bloquant** : fait faux OU fait contredit par sa source OU affirmation contestée présentée comme établie OU citation déformée (sens changé) OU fait qui porte l'article non confirmé OU point A en défaut.
+- **Mineur** : tout le reste, notamment attribution imprécise (citation qui déborde des guillemets, structure prêtée à une source), datation à préciser, source à ajouter dans les Repères pour un fait juste, formulation de titre ou de meta.
+
+## Cycles
+
+- **Cycle 1 exhaustif.** L'auto-contrôle a dresse le **tableau des citations et attributions** (chaque phrase entre guillemets ET chaque « selon… » face au passage de la source) ; les Repères sont complets dès la V1 : un fait repris d'un article interne garde au moins une source externe. Le relecteur b vérifie **toutes** les affirmations attribuées, chiffrées ou datées, pas un échantillon.
+- **Ajouts en corrigeant.** Toute phrase ajoutée ou réécrite pendant une correction est vérifiée à sa source par a avant de relancer b. Une correction n'ajoute pas de fait nouveau sans nécessité.
+- **Cycle 2 ciblé.** b reçoit le chemin du fichier **et** la liste des passages modifiés (citations exactes du nouveau texte, sans motif ni raisonnement). Il vérifie ces passages et seulement eux, sauf défaut bloquant aperçu ailleurs.
+
 ## Décision
 
 | Décision | Condition | Suite |
 |---|---|---|
-| **PUBLIER** | a et b sans défaut bloquant | `daily_run` normal |
-| **CORRIGER** | Défaut remédiable | Corriger, relancer `stage`, refaire a **puis** b sur le texte corrigé. **2 cycles au plus** |
-| **BROUILLON** | Risque important, vérification essentielle non résolue, ou 3ᵉ cycle nécessaire | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
+| **PUBLIER** | a et b sans défaut bloquant, défauts mineurs corrigés | `daily_run` normal. Les mineurs corrigés après le dernier passage de b sont listés dans la trace (passage, correction, source) |
+| **CORRIGER** | Au moins un défaut bloquant remédiable | Corriger, relancer `stage`, auto-contrôle des passages modifiés, puis b ciblé. **2 cycles au plus** |
+| **BROUILLON** | Risque important, vérification essentielle non résolue, OU défaut bloquant encore présent après le cycle 2 | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
+
+Des défauts seulement mineurs ne déclenchent ni nouveau cycle ni BROUILLON : ils sont corrigés et tracés.
 
 **Désaccord a / b** : une réserve de b se traite comme CORRIGER, sauf si le rédacteur la réfute **par la source** (passage cité dans la trace). Toute divergence est tracée : la rétro décidera si la relecture b devient permanente ou ciblée (personnes mises en cause, chiffre central à source unique).
 
 ## Trace
 
-Ligne **Contrôle** du bloc de séance (`06_Syntheses/Retros/README.md`) : points relevés par a, par b (codes), divergences, nombre de cycles, corrections importantes, décision.
+Ligne **Contrôle** du bloc de séance (`06_Syntheses/Retros/README.md`) : points relevés par a, par b (codes, avec **B** pour bloquant et **m** pour mineur, ex. `B2/m`), divergences, nombre de cycles, corrections importantes, défauts introduits par une correction, décision.

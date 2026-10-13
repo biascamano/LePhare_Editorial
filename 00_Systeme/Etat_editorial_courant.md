@@ -1,10 +1,12 @@
 # État éditorial courant — Le Phare
 
-*Généré par `tools/build_etat_courant.py` le 2026-10-12 — ne pas éditer. Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*
+*Généré par `tools/build_etat_courant.py` le 2026-10-13 — ne pas éditer. Sources : `Memoire_editoriale.md` §1–§4, `Radar_editorial.md`.*
 **Radar** : 34 entrées actives / 30 (bloc 1 : 13 · bloc 2 : 9 · bloc 3 : 3 · bloc 4 : 4 · bloc 5 : 5) — ATTENTION : plafond dépassé, l'hebdomadaire fusionne ou archive.
 
 ## Derniers articles
 
+- 2026-569 · 10-13 · Actualité · SCIENCE — [Seconde intercalaire : à Versailles, la CGPM vote sur la fin du raccord entre l'heure off…](https://le-phare.info/cgpm-2026-fin-seconde-intercalaire-utc/) · Q : Faut-il que l'heure des horloges suive la rotation de la Terre, ou la Terre n'est-elle plus la bonne mesure du temps ? · aucun (Actualité)
+- 2026-567 · 10-12 · Actualité · TECH — [OpenAI publie 722 démonstrations mathématiques, en retire trois le lendemain : qui dit qu…](https://le-phare.info/openai-722-manuscrits-mathematiques-octobre-2026/) · Q : Quand une machine produit plus de démonstrations que les mathématiciens ne peuvent en lire, qu'est-ce qui fait qu'un résultat dev… · aucun (Actualité)
 - 2026-566 · 10-12 · Actualité · MONDE — [Sanctions contre la Cour pénale internationale : Washington vise désormais l'institution,…](https://le-phare.info/cour-penale-internationale-sanctions-americaines-octobre-2026/) · Q : Une justice internationale peut-elle juger les puissants quand elle dépend, pour fonctionner, des services de ceux qu'elle pourra… · aucun (Actualité)
 - 2026-565 · 10-09 · Actualité · TECH — [Influence : OpenAI dit avoir démasqué des campagnes russe et iranienne, et reste seule à…](https://le-phare.info/openai-operations-influence-russie-iran-octobre-2026/) · Q : Quand l'entreprise qui fournit l'outil est seule à voir comment on l'a détourné, qui peut vérifier ce qu'elle en dit ? · aucun (Actualité)
 - 2026-564 · 10-08 · Actualité · SCIENCE — [Ebola atteint le Kenya : ce que dit un premier cas sur une épidémie qu'on ne parvient pas…](https://le-phare.info/ebola-kenya-premier-cas-epidemie-congo-octobre-2026/) · Q : Quand une épidémie lointaine franchit une frontière malgré les contrôles, qu'est-ce qui protège vraiment : le filtre à l'arrivée,… · aucun (Actualité)
@@ -13,8 +15,6 @@
 - 2026-561 · 10-06 · Question · SCIENCE — [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/) · Onora O'Neill (A Question of Trust, Reith Lectures 2002)
 - 2026-560 · 10-06 · Atelier Sentier (mensuelle) · SCIENCE — [Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre/) · Q : Comment savoir ce qu'un chiffre mesure vraiment avant de décider sur sa base ? · Donald T. Campbell ; Charles Goodhart
 - 2026-559 · 10-06 · Dossier (mensuelle) · CULTURE — [Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/) · Q : Comment se servir d'un indicateur sans le laisser décider à notre place ? · Donald T. Campbell ; Charles Goodhart
-- 2026-558 · 10-06 · Question · SCIENCE — [Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?](https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/) · Imre Lakatos (programmes de recherche, années 1970)
-- 2026-557 · 10-06 · Actualité · SCIENCE — [Nobel de physique 2026 : Francis Halzen et IceCube, ou trente-huit ans pour entendre les…](https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/) · Q : Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas ?
 
 ## Fils actifs
 

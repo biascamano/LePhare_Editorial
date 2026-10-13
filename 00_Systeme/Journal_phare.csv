@@ -1,3 +1,19 @@
 horodatage,periode,activite,statut,etape,ids,note
 2026-10-12 15:10,2026-10-12,generale,en_cours,debut,2026-566,avant orchestrateur (ancienne routine quotidienne)
 2026-10-12 15:10,2026-10-12,generale,publie,fin,2026-566,avant orchestrateur (ancienne routine quotidienne)
+2026-10-12 16:27,2026-10-12,curiosite,en_cours,debut,,
+2026-10-12 16:29,2026-10-12,curiosite,en_cours,redaction,2026-567,
+2026-10-12 17:38,2026-10-12,curiosite,en_cours,wp,2026-567,
+2026-10-12 17:56,2026-10-12,curiosite,brouillon,fin,2026-567,pilote (rodage) ; contrôle : BROUILLON — 3e cycle de correction nécessaire (attributions)
+2026-10-13 08:48,2026-10-13,generale,en_cours,debut,,
+2026-10-13 08:58,2026-10-13,generale,en_cours,redaction,2026-568,
+2026-10-13 09:42,2026-10-13,generale,en_cours,wp,2026-568,
+2026-10-13 09:44,2026-10-13,generale,brouillon,fin,2026-568,"pilote ; contrôle : BROUILLON — 3e cycle nécessaire (défauts mineurs d'attribution, fait central confirmé)"
+2026-10-13 09:48,2026-10-13,curiosite,en_cours,debut,,
+2026-10-13 09:51,2026-10-13,curiosite,en_cours,redaction,2026-569,
+2026-10-13 09:58,2026-10-13,curiosite,en_cours,wp,2026-569,
+2026-10-13 09:59,2026-10-13,curiosite,brouillon,fin,2026-569,"pilote ; contrôle : BROUILLON — 3e cycle nécessaire, défauts restants mineurs corrigés"
+2026-10-13 10:08,2026-10-13,question,en_cours,debut,,
+2026-10-13 10:11,2026-10-13,question,en_cours,redaction,2026-570,
+2026-10-13 10:21,2026-10-13,question,en_cours,wp,2026-570,
+2026-10-13 10:22,2026-10-13,question,brouillon,fin,2026-570,"pilote ; contrôle : BROUILLON — 3e cycle nécessaire, défauts d'attribution et de datation"

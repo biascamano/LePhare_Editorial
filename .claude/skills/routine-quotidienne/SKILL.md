@@ -142,9 +142,9 @@ python tools/new_article.py stage <ID>
 `stage` lance le contrôle v3 : s'il est KO, corriger et relancer — jamais `--force` sur `stage` en routine.
 
 **Contrôle prépublication** (`plan.md` D20, grille `00_Systeme/Controle_prepublication.md`, lue à ce moment-là) :
-1. **Auto-contrôle** : chaque point A–D avec sa preuve ; ouvrir chaque lien externe.
-2. **Relecture indépendante** (pilote : tous les articles) : lancer l'agent `relecteur-prepublication` avec pour seul prompt le chemin du fichier canonique (ni fiche, ni candidats, ni raisonnement).
-3. **Décision** : PUBLIER → `daily_run` ; CORRIGER → corriger, `stage`, refaire 1 puis 2 (2 cycles au plus) ; BROUILLON → `daily_run … --no-publish-final`, puis étapes 10–11, trace, et **la séance s'arrête** (pas d'autre sujet).
+1. **Auto-contrôle** : chaque point A–D avec sa preuve ; ouvrir chaque lien externe ; tableau des citations et attributions face aux sources ; Repères complets (un fait repris d'un article interne garde une source externe).
+2. **Relecture indépendante** (pilote : tous les articles) : lancer l'agent `relecteur-prepublication` avec pour seul prompt le chemin du fichier canonique (ni fiche, ni candidats, ni raisonnement). Au cycle 2 : chemin + « Passages modifiés : » suivis des extraits du nouveau texte, sans motif.
+3. **Décision** (défauts classés bloquant / mineur, grille « Gravité des défauts ») : PUBLIER si aucun bloquant (mineurs corrigés et tracés, sans nouveau cycle) → `daily_run` ; CORRIGER si un bloquant → corriger, vérifier à la source chaque phrase ajoutée, `stage`, puis b ciblé (2 cycles au plus) ; BROUILLON si un bloquant reste après le cycle 2 → `daily_run … --no-publish-final`, puis étapes 10–11, trace, et **la séance s'arrête** (pas d'autre sujet).
 
 ```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder [--force] [--no-publish-final]
@@ -231,7 +231,7 @@ Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `pytho
 - Produire un triptyque ou un atelier Sentier (→ `/routine-triptyque` ou `/routine-mensuelle`).
 - Modifier `02_Fonds/`, `03_Dossiers/`, les §2–§5 de la mémoire.
 - Inventer une URL interne ou un fait.
-- Publier sans contrôle prépublication, ou transmettre au relecteur autre chose que le chemin du fichier.
+- Publier sans contrôle prépublication, ou transmettre au relecteur autre chose que le chemin du fichier (et, au cycle 2, la liste des passages modifiés).
 - Chercher un autre sujet après un BROUILLON dans la même séance.
 - Ajouter une entrée P3 au Radar actif.
 - `editorial_pipeline.py` sans demande explicite `api`.

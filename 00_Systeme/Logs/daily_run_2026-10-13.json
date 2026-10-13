@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "status": "success",
+  "topic": "2026-10-13_question-du-phare-fusion-promesses-qui-verifie",
+  "theme": "",
+  "source": "agent_written",
+  "source_link": "",
+  "publish_drafts": true,
+  "publish_dir": "D:\\workspaces\\Nexus des mondes\\LePhare_Editorial\\07_A_Publier\\2026-10-13_question-du-phare-fusion-promesses-qui-verifie",
+  "stdout": "{\n  \"path\": \"D:\\\\workspaces\\\\Nexus des mondes\\\\LePhare_Editorial\\\\07_A_Publier\\\\2026-10-13_question-du-phare-fusion-promesses-qui-verifie\\\\2026-570_ACTU_ECON_question_du_phare_fusion_promesses_qui_verifie_V1.md\",\n  \"article_id\": \"2026-570\",\n  \"title\": \"Question du Phare - Quand une fusion s'achète par des promesses, qui vérifie qu'elles sont tenues ?\",\n  \"status\": \"draft\",\n  \"skipped\": false,\n  \"wordpress_id\": 5664,\n  \"wordpress_slug\": \"question-du-phare-fusion-promesses-qui-verifie\",\n  \"wordpress_link\": \"https://le-phare.info/?p=5664\",\n  \"categories\": [\n    \"actualites\"\n  ],\n  \"tags\": [\n    \"a-la-une\",\n    \"economie-finance\",\n    \"sentier-critique\",\n    \"posture-distance\",\n    \"type-question\",\n    \"question-du-phare\",\n    \"concurrence\",\n    \"concentration des médias\"\n  ],\n  \"index_updated\": true,\n  \"error\": \"\",\n  \"featured_media_id\": 4142\n}\n",
+  "stderr": "",
+  "linking_stdout": "{\n  \"triptych_dir\": \"D:\\\\workspaces\\\\Nexus des mondes\\\\LePhare_Editorial\\\\07_A_Publier\\\\2026-10-13_question-du-phare-fusion-promesses-qui-verifie\",\n  \"mode\": \"triptyque_linking_v2\",\n  \"dry_run\": false,\n  \"total\": 1,\n  \"updated_local\": 0,\n  \"updated_wordpress\": 1,\n  \"items\": [\n    {\n      \"article_id\": \"2026-570\",\n      \"type\": \"ACTU\",\n      \"title\": \"Question du Phare - Quand une fusion s'achète par des promesses, qui vérifie qu'elles sont tenues ?\",\n      \"wordpress_id\": 5664,\n      \"wordpress_url\": \"https://le-phare.info/?p=5664\",\n      \"updated_paths\": [],\n      \"status\": \"updated\",\n      \"error\": \"\"\n    }\n  ],\n  \"errors\": []\n}\n",
+  "linking_stderr": "",
+  "returncode": 0,
+  "workflow": "publish_existing",
+  "completed_at": "2026-10-13T10:21:42",
+  "seo_enrich_after_link": false,
+  "seo_phase_ok": true,
+  "parent_refresh_reminder": {
+    "needed": false
+  }
+}

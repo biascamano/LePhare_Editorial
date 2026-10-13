@@ -20,12 +20,12 @@ description: L'Orchestrateur du Phare — porte d'entrée unique. Demande à too
 ## Mode brouillons (pilote, `plan.md` D22)
 
 Tant que `00_Systeme/Mode_brouillons.md` existe, rien n'est rendu public ni modifié en ligne. Les scripts le garantissent (`post_linking --publish-final`, `wp_refresh_body` et `daily_run --refresh-body` refusés ; `daily_run` force `--no-publish-final`) ; la séance ne cherche pas à les contourner (`--hors-pilote` est réservé au fondateur).
-- **Contrôle complet obligatoire pour chaque article** : auto-contrôle puis agent `relecteur-prepublication` (prompt = chemin du fichier canonique, rien d'autre). Une validation de forme ne suffit pas : faits, chiffres et dates, sources ouvertes, citations exactes, liens, droits humains et risques discriminatoires (grille A–D). La trace sépare **Autocontrôle** (codes trouvés par le rédacteur) et **Relecteur** (codes trouvés par l'agent, verdict), puis divergences et cycles.
+- **Contrôle complet obligatoire pour chaque article** : auto-contrôle puis agent `relecteur-prepublication` (prompt = chemin du fichier canonique, rien d'autre ; au cycle 2, chemin + passages modifiés). Défauts classés bloquant / mineur : des mineurs seuls ne font ni nouveau cycle ni BROUILLON (`Controle_prepublication.md`). Une validation de forme ne suffit pas : faits, chiffres et dates, sources ouvertes, citations exactes, liens, droits humains et risques discriminatoires (grille A–D). La trace sépare **Autocontrôle** (codes trouvés par le rédacteur) et **Relecteur** (codes trouvés par l'agent, verdict), puis divergences et cycles.
 - **Mémoire et Radar** : décision PUBLIER (retenu seulement par le mode) → `memoire_append` et Radar comme pour un article publié, pour que les activités suivantes s'appuient dessus ; décision BROUILLON → pas de ligne §1.
 - **Relier en retour** : ne pas modifier l'article d'origine. Noter dans la trace « relier en retour à faire après publication : <origine> → <ID> ».
 - **Rattrapage** : version révisée dans `07_A_Publier/<YYYY-MM-DD>_rattrapage_<ID>/` (copie du canonique modifiée), canonique et WP intacts ; clôture `termine_sans_publication --note "pilote : refresh en attente du fondateur"`.
 - **Clôture** d'un article : `close … --statut brouillon --ids <ID> --note "pilote ; contrôle : PUBLIER"` (ou `"pilote ; contrôle : BROUILLON — <motif>"`).
-- **Le fondateur publie** : `verify_publication.py --publish-drafts <ID>` (index mis à `publie`) ; depuis l'admin WP → `verify_publication.py <ID> --fix` pour resynchroniser l'index. Le journal garde `brouillon` (décision de la séance) ; `contexte` et le bilan affichent « publié ensuite par le fondateur ». Publication d'une Question ou d'une Application → demander `relier en retour <ID>` : la séance relie l'origine puis `wp_refresh_body.py "<origine>" --hors-pilote` sur cette demande explicite.
+- **Le fondateur publie** : `verify_publication.py --publish-drafts <ID>` (index mis à `publie`) ; depuis l'admin WP → `verify_publication.py <ID> --fix` pour resynchroniser l'index. La séance le lance elle-même, sans demande, pour chaque ID que `verify_publication` signale « publié sur WP mais `wp_draft` dans l'index » (le fondateur a déjà publié : `--fix` ne fait que mettre l'index à `publie` et ajouter `a-la-une` si absent). Le journal garde `brouillon` (décision de la séance) ; `contexte` et le bilan affichent « publié ensuite par le fondateur ». Publication d'une Question ou d'une Application → demander `relier en retour <ID>` : la séance relie l'origine puis `wp_refresh_body.py "<origine>" --hors-pilote` sur cette demande explicite.
 
 ## Bilan de pilote (`routine phare — bilan pilote`)
 
@@ -44,7 +44,7 @@ Lire aussi les blocs de trace du jour (`06_Syntheses/Retros/<semaine>.md`) et le
 ## 1. Sujets et complémentarité
 ## 2. Sources (nombre, nature, ouvertes ou non, sources faibles)
 ## 3. Contrôle : rédacteur et relecteur
-| ID | Autocontrôle (codes) | Relecteur (codes, verdict) | Trouvé par le relecteur seul | Cycles | Décision |
+| ID | Autocontrôle (codes) | Relecteur (codes B/m, verdict) | Trouvé par le relecteur seul | Cycles | Décision |
 ## 4. Corrections et maintiens en brouillon (motifs)
 ## 5. Rattrapage
 ## 6. Journal (erreurs, incohérences avec l'index)
@@ -119,6 +119,8 @@ Pas de commit sans demande.
 ## Commandes sans demande de permission
 
 Une commande Bash **simple** par appel : pas de `cd … &&`, `;`, `|`, ni `python -c` multiligne. Ne jamais écrire le chemin d'un `tools/*.local.json` dans une commande, ni lire ces fichiers.
+
+La séance tourne **sans interaction** : le fondateur vérifie le résultat dans WordPress à la fin. Toujours `python tools/…` nu, **sans préfixe de variable d'environnement** (`PYTHONIOENCODING=…` fait sortir la commande des règles autorisées ; l'UTF-8 est fixé par `env` dans `.claude/settings.json`). Pas de question ni de confirmation en cours de séance.
 
 ## Ne pas faire
 
