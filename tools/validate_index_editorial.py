@@ -19,7 +19,7 @@ from index_editorial_utils import INDEX_COLUMNS, read_index, scan_index_issues  
 MAX_TAGS = 8
 THEME_DIRS = {"MONDE": "Politique_Societe", "POL": "Politique_Societe", "ECON": "Economie_Finance", "TECH": "Technologie_IA", "CLIMAT": "Climat_Transition", "SCIENCE": "Science_Sante", "CULTURE": "Culture"}
 THEME_TAGS = {"MONDE": "monde", "POL": "politique-societe", "ECON": "economie-finance", "TECH": "technologie-ia", "CLIMAT": "environnement-climat", "SCIENCE": "science-sante", "CULTURE": "culture-philosophie"}
-TYPE_CATEGORY = {"ACTU": "actualites", "TF": "textes-fondateurs", "SYNTHESE": "cycle", "DOSSIER": "dossier-hebdomadaire", "SENTIER": "sentier-du-savoir"}
+TYPE_CATEGORY = {"ACTU": "actualites", "TF": "textes-fondateurs", "SYNTHESE": "cycle", "DOSSIER": "dossier-hebdomadaire", "SENTIER": "sentier-du-savoir", "LIVRE": "livres"}
 V3_HEADER_KEYS = ("Type article", "Question du Phare", "Dossier", "Article precedent (ID)", "Prolongement envisage")
 NAV_MARKERS = ("**Repères de sources**", "**La question suivante**", "**Pour aller plus loin**", "**Sur le Sentier du Savoir**")
 PLACEHOLDER = "[Corps de l'article à rédiger]"
@@ -40,6 +40,8 @@ def expected_path_ok(type_code: str, theme: str, folder: str) -> bool:
         return folder.startswith(f"03_Dossiers/{theme_dir}/")
     if type_code == "SENTIER":
         return re.fullmatch(r"05_Sentier/Etape_\d{2}_[^/]+", folder) is not None
+    if type_code == "LIVRE":
+        return folder == "09_Livres/Articles"
     return False
 
 

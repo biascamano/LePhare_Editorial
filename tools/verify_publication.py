@@ -145,7 +145,7 @@ def check_local(
                 rep.errors.append(f"URL nue : {url}")
 
     type_article = meta.get("Type article", "")
-    if safe_str(row.get("Type")) in {"ACTU", "TF", "SYNTHESE"}:
+    if safe_str(row.get("Type")) in {"ACTU", "TF", "SYNTHESE", "LIVRE"}:
         for name in SECTIONS:
             if section(body, name) is None:
                 rep.warnings.append(f"section absente : {name}")

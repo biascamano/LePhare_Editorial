@@ -29,6 +29,7 @@ Ce document fixe la **meilleure structure pour l'objectif** : construire petit a
 | 4 | **dossier-hebdomadaire** | DOSSIER, series, volets d'un dossier nomme (routine mensuelle). |
 | 5 | **cycle** (id 97, « Dossier hebdomadaire - Notre fil rouge ») | SYNTHESE : Fil du Phare (routine hebdomadaire), synthese mensuelle (routine mensuelle). Categorie existante, aucune creation. |
 | 6 | **le-phare** | Pages institutionnelles, charte, methode (rarement des articles de fond). |
+| 7 | **livres** | LIVRE : « Savoir du livre », le savoir d'un chapitre des livres de la collection (`plan.md` D23). Creee par le premier push ; libelle et menu par le fondateur. |
 
 Libelles a renommer (slug et id inchanges) : `cycle` → « Le Fil du Phare », `dossier-hebdomadaire` → « Dossiers » (`plan.md` B21, `00_Systeme/Page_accueil_V5.md` §7).
 
@@ -44,6 +45,7 @@ Aucune categorie `syntheses` n'est creee : les syntheses vont dans `cycle` (deci
 | Mensuelle | Dossier | DOSSIER | dossier-hebdomadaire |
 | Mensuelle | Atelier Sentier | SENTIER | sentier-du-savoir |
 | Mensuelle | Synthese mensuelle | SYNTHESE | cycle |
+| Atelier livre (`— article`) | Savoir du livre | LIVRE | livres |
 | Triptyque (archive, `routine triptyque`) | ACTU + TF + SENTIER | ACTU / TF / SENTIER | actualites / textes-fondateurs / sentier-du-savoir |
 
 Si WordPress impose un libelle legerement different (accents, pluriel), **garde** la correspondance dans l'index avec le slug reel du site.
@@ -101,6 +103,7 @@ Un parmi les **huit themes** Sentier du site :
 | DOSSIER | dossier-hebdomadaire | theme (A) + 2 concepts (C) ; + pilier Sentier (B) si pertinent |
 | SYNTHESE (Fil du Phare) | cycle | `fil-du-phare` + `question-du-phare` + `synthese-hebdomadaire` (D) + theme dominant (A) ; concepts (C) dans la limite des 8 tags |
 | SYNTHESE (mensuelle) | cycle | `synthese-mensuelle` + `question-du-phare` (D) + theme dominant (A) + concepts (C) |
+| LIVRE | livres | theme (A) + `savoir-du-livre` (D) + tag du livre (`livre-meme-reel`) + savant ou notion (C) |
 
 Routines v3 (quotidienne) : ajouter le tag de type (D) et `question-du-phare` en plus des minimums ACTU / TF.
 

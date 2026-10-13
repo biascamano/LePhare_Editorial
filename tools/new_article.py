@@ -43,6 +43,7 @@ TYPES: dict[str, dict] = {
     "synthese-mensuelle": {"code": "SYNTHESE", "label": "Synthese mensuelle", "category": "cycle", "tags": ["synthese-mensuelle", "question-du-phare"], "posture": "Relier", "routine": "mensuelle"},
     "dossier": {"code": "DOSSIER", "label": "Dossier", "category": "dossier-hebdomadaire", "tags": [], "posture": "Relier", "routine": "mensuelle"},
     "atelier": {"code": "SENTIER", "label": "Atelier Sentier", "category": "sentier-du-savoir", "tags": ["atelier-sentier"], "posture": "Transmettre", "routine": "mensuelle"},
+    "livre": {"code": "LIVRE", "label": "Savoir du livre", "category": "livres", "tags": ["savoir-du-livre"], "posture": "Transmettre", "routine": "livre"},
 }
 
 TITLE_PREFIXES = {
@@ -106,6 +107,8 @@ def resolve_location(args: argparse.Namespace, spec: dict) -> tuple[str, dict[st
         return "06_Syntheses/Fil_du_Phare", None
     if args.type == "synthese-mensuelle":
         return "06_Syntheses/Mensuelles", None
+    if args.type == "livre":
+        return "09_Livres/Articles", None
     if args.type == "dossier":
         if not args.dossier_dir:
             raise SystemExit("--dossier-dir est obligatoire pour un dossier")
@@ -240,6 +243,8 @@ def cmd_create(args: argparse.Namespace) -> dict:
         remarques = f"Routine quotidienne v3 — type {spec['label'].lower()}"
     elif routine == "hebdomadaire":
         remarques = "Routine hebdomadaire — Fil du Phare"
+    elif routine == "livre":
+        remarques = "Atelier livre — savoir du livre"
     else:
         remarques = f"Routine mensuelle — {spec['label'].lower()}"
 
@@ -328,7 +333,7 @@ def main() -> None:
     create.add_argument("--tags", help="tags sujet supplémentaires séparés par ;")
     create.add_argument("--fondamental-id", help="atelier : ID du fondamental (sentier_fondamentaux.csv)")
     create.add_argument("--dossier-dir", help="dossier : sous-dossier de 03_Dossiers/<Theme>/")
-    create.add_argument("--routine", choices=("quotidienne", "hebdomadaire", "mensuelle"), help="défaut selon le type")
+    create.add_argument("--routine", choices=("quotidienne", "hebdomadaire", "mensuelle", "livre"), help="défaut selon le type")
     create.add_argument("--date", help="YYYY-MM-DD, défaut aujourd'hui")
     create.add_argument("--dry-run", action="store_true")
     create.set_defaults(handler=cmd_create)

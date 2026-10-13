@@ -244,7 +244,7 @@ def _slug_from_filename(stem: str) -> str:
     skip = 0
     if parts and re.match(r"^\d{4}-\d+$", parts[0]):
         skip = 1
-    if len(parts) > skip and parts[skip].upper() in ("ACTU", "TF", "SENTIER", "FOND", "DOSSIER", "SYNTHESE"):
+    if len(parts) > skip and parts[skip].upper() in ("ACTU", "TF", "SENTIER", "FOND", "DOSSIER", "SYNTHESE", "LIVRE"):
         skip += 1
     if len(parts) > skip and parts[skip].upper() in (
         "ECON", "POL", "TECH", "CLIMAT", "SCIENCE", "CULTURE", "MONDE",

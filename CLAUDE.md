@@ -23,6 +23,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 | `routine renovation` (+ `— lot 2` / `— <IDs>` / `— à blanc`) | Rénovation du stock ancien, même ID/URL/slug (`plan.md` D17, §19) | `.claude/skills/routine-renovation/SKILL.md` |
 | `routine renovation — rattrapage` | **Une** action de patrimoine (dont note « Depuis ») | idem |
 | `pack social` (+ `<ID>`) | Pack réseaux sociaux d'un article publié (`08_Social/`), sans ID : dernier publié sans pack. Ne poste rien | `.claude/skills/pack-social/SKILL.md` |
+| `atelier livre` (+ `— état` / `— plan` / `— rédaction` / `— critique` / `— arbitrage` / `— article [NNN]`) | Atelier d'écriture d'un livre (`09_Livres/`, règles dans `09_Livres/CLAUDE.md`) ; `— article` : savoir d'un chapitre → article du Phare, catégorie WP `livres` (`plan.md` D23) | `.claude/skills/atelier-livre/SKILL.md` |
 | `routine triptyque` / `triptyque` | **Ancienne** routine ACTU+TF+SENTIER (archivée, secours) | `.claude/skills/routine-triptyque/` |
 | `… api` | **Exception** : `editorial_pipeline.py --use-api-llm` | — |
 
@@ -48,6 +49,8 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 06_Syntheses/              → SYNTHESE : Fil_du_Phare/, Mensuelles/, Retros/ (interne : traces, rétros hebdo/mensuelles), Rapports_mensuels/ (jusqu'à 2026-09)
 07_A_Publier/<dossier>/    → transit avant publication (supprimé après succès)
 08_Social/                 → diffusion réseaux sociaux (manuelle, hors routines) : stratégie, packs de posts par article publié
+09_Livres/<Titre>/         → livres en atelier (docx historiques jamais modifiés, atelier/ : bible, plans, manuscrit, critiques)
+09_Livres/Articles/        → LIVRE : « Savoir du livre » (catégorie WP livres)
 index_editorial.csv        → registre canonique (IDs, slugs, URLs WP)
 tools/                     → scripts Python (daily_run, wp_push_draft, post_linking)
 00_Systeme/                → instructions, taxonomie, manifests Sentier, logs
@@ -59,7 +62,7 @@ tools/                     → scripts Python (daily_run, wp_push_draft, post_li
 
 Lire la **dernière ligne** de `index_editorial.csv` pour réserver les prochains IDs (`YYYY-NNN`). Ne jamais réutiliser un ID existant.
 
-Convention nom de fichier : `YYYY-NNN_TYPE_THEME_slug_descriptif_V1.md` (TYPE ∈ ACTU, TF, SENTIER, FOND, DOSSIER, SYNTHESE).
+Convention nom de fichier : `YYYY-NNN_TYPE_THEME_slug_descriptif_V1.md` (TYPE ∈ ACTU, TF, SENTIER, FOND, DOSSIER, SYNTHESE, LIVRE).
 
 ## Règles communes de publication
 

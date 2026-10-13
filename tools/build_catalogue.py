@@ -30,6 +30,7 @@ LEVELS = (
     ("Synthèses et briefings", lambda r: r["Type"] in ("SYNTHESE", "BRIEFING")),
     ("Dossiers", lambda r: r["Type"] == "DOSSIER"),
     ("Sentier — ateliers et pages", lambda r: r["Type"] == "SENTIER"),
+    ("Savoir des livres", lambda r: r["Type"] == "LIVRE"),
     ("Fonds — fondamentaux et notions", lambda r: r["Type"] == "FOND"),
 )
 
