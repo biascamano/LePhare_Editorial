@@ -24,7 +24,7 @@ python tools/index_lookup.py <ID>
   visuel.png   ← optionnel
 ```
 
-Rédiger les posts **à la main** en phase 1 (qualité > automatisation).
+Rédiger les posts **à la main** en phase 1 (qualité > automatisation), ou demander `pack social [<ID>]` à Claude Code (skill `.claude/skills/pack-social/`) : brouillon de pack, rien n'est posté.
 
 ## 3. Relecture (2 min)
 

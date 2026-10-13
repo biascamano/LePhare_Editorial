@@ -22,6 +22,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 | `routine quotidienne — generale` / `— curiosite` / `— question` | Activités du pilote : regard général, regard curiosité (Radar bloc 6), Question autonome (`plan.md` D18) | `.claude/skills/routine-quotidienne/SKILL.md` |
 | `routine renovation` (+ `— lot 2` / `— <IDs>` / `— à blanc`) | Rénovation du stock ancien, même ID/URL/slug (`plan.md` D17, §19) | `.claude/skills/routine-renovation/SKILL.md` |
 | `routine renovation — rattrapage` | **Une** action de patrimoine (dont note « Depuis ») | idem |
+| `pack social` (+ `<ID>`) | Pack réseaux sociaux d'un article publié (`08_Social/`), sans ID : dernier publié sans pack. Ne poste rien | `.claude/skills/pack-social/SKILL.md` |
 | `routine triptyque` / `triptyque` | **Ancienne** routine ACTU+TF+SENTIER (archivée, secours) | `.claude/skills/routine-triptyque/` |
 | `… api` | **Exception** : `editorial_pipeline.py --use-api-llm` | — |
 

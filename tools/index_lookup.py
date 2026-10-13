@@ -4,7 +4,7 @@
 Par IDs (ID, Statut, URL_WordPress, Slug_WordPress) :
     python tools/index_lookup.py 2026-555 2026-556
 Par recherche (ID, Type, Theme, Statut, URL, Titre ; plus récents d'abord) :
-    python tools/index_lookup.py --search "indicateur" [--type ACTU] [--theme SCIENCE] [--dossier 2026-559] [--limit 20]
+    python tools/index_lookup.py --search "indicateur" [--type ACTU] [--theme SCIENCE] [--dossier 2026-559] [--statut publie] [--limit 20]
 
 --search : mot-clé dans le titre, les mots-clés ou les tags (sans casse).
 --type : code d'index (ACTU, TF, SENTIER, DOSSIER, SYNTHESE, FOND) ou tag de type (question, actualite, application).
@@ -59,6 +59,8 @@ def matches(row: dict[str, str], a: argparse.Namespace) -> bool:
             return False
     if a.theme and safe_str(row.get("Theme")).lower() != a.theme.lower():
         return False
+    if a.statut and safe_str(row.get("Statut")).lower() != a.statut.lower():
+        return False
     if a.dossier:
         d = a.dossier.lower()
         if d not in safe_str(row.get("Chemin_dossier")).lower() and d not in header_dossier(row).lower():
@@ -74,12 +76,13 @@ def main() -> int:
     ap.add_argument("--type")
     ap.add_argument("--theme")
     ap.add_argument("--dossier")
+    ap.add_argument("--statut")
     ap.add_argument("--limit", type=int, default=20)
     a = ap.parse_args()
     _, rows = read_index(INDEX_PATH)
     if a.ids:
         return by_ids(rows, set(a.ids))
-    if not (a.search or a.type or a.theme or a.dossier):
+    if not (a.search or a.type or a.theme or a.dossier or a.statut):
         print(__doc__)
         return 2
     hits = sorted((r for r in rows if matches(r, a)), key=lambda r: safe_str(r.get("ID")), reverse=True)
