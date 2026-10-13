@@ -1,11 +1,11 @@
 # Inventaire de rénovation
 
-> Généré par `tools/build_inventaire_renovation.py` le 2026-10-12 — ne pas éditer à la main.
+> Généré par `tools/build_inventaire_renovation.py` le 2026-10-13 — ne pas éditer à la main.
 > Plan d'action : `plan.md` §19.
 
 | Catégorie | Articles |
 |---|---|
-| Format actuel (rien à faire) | 48 |
+| Format actuel (rien à faire) | 52 |
 | **Refaire** | 87 |
 | **Remettre à niveau** | 61 |
 | **Trier** (décision humaine) | 0 |
@@ -34,6 +34,7 @@ Mots : markdown local / WordPress (`?` = non mesuré).
 | 2026-424 | Milton Friedman et l'inflation : toujours un phenomene monetaire ? | [DOSSIER](https://le-phare.info/?p=4080) | triptyque | 0/1/9 | 902/? | navigation incomplète | dossier jamais publié : mettre au format actuel puis publier |
 | 2026-426 | Analyser l'inflation : distinguer faits, perceptions et interpretatio… | [DOSSIER](https://le-phare.info/?p=4082) | triptyque | 0/1/9 | 964/? | navigation incomplète | dossier jamais publié : mettre au format actuel puis publier |
 | 2026-517 | Thomas Schelling : pourquoi un budget nucléaire est aussi un message | [TF](https://le-phare.info/thomas-schelling-budget-nucleaire-message-credibilite/) | triptyque | 2/1/5 | 1108/1009 | navigation incomplète, « Dans ce triptyque », liens ?p= | réécriture au format actuel (même ID, même URL) |
+| 2026-153 | La falsifiabilité selon Popper | [SENTIER](https://le-phare.info/la-falsifiabilite-selon-popper/) | import | 2/0/6 | 606/2452 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
 | 2026-419 | Inflation en recul en Europe : accalmie durable ou pause fragile ? | [DOSSIER](https://le-phare.info/?p=4075) | triptyque | 0/0/9 | 1430/? | navigation incomplète, liens ?p= | dossier jamais publié : mettre au format actuel puis publier |
 | 2026-428 | Comprendre l'inflation : livres, concepts et pistes pour aller plus l… | [DOSSIER](https://le-phare.info/?p=4084) | triptyque | 0/1/8 | 677/? | navigation incomplète | dossier jamais publié : mettre au format actuel puis publier |
 | 2026-519 | Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce… | [ACTU](https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/) | triptyque | 3/0/4 | 1476/1336 | navigation incomplète, « Dans ce triptyque », liens ?p= | réécriture au format actuel (même ID, même URL) |
@@ -47,7 +48,6 @@ Mots : markdown local / WordPress (`?` = non mesuré).
 | 2026-456 | Lire une annonce sur le climat sans confondre météo, tendance, attrib… | [SENTIER](https://le-phare.info/lire-annonce-climat-meteo-attribution/) | triptyque | 3/3/0 | 935/833 | navigation incomplète, « Dans ce triptyque », liens ?p= | réécriture au format actuel (même ID, même URL) |
 | 2026-485 | Charles Perrow : les « accidents normaux » dans les systèmes complexe… | [TF](https://le-phare.info/charles-perrow-accidents-normaux-systemes-complexes-nis2/) | triptyque | 2/0/2 | 1185/2086 | navigation incomplète, « Dans ce triptyque », liens ?p=, **copie locale tronquée** | réécriture au format actuel (même ID, même URL) |
 | 2026-516 | Dépenses nucléaires mondiales : 119 milliards de dollars en 2025, et… | [ACTU](https://le-phare.info/depenses-nucleaires-mondiales-119-milliards-2026/) | triptyque | 1/1/4 | 1223/984 | navigation incomplète, « Dans ce triptyque », liens ?p= | réécriture au format actuel (même ID, même URL) |
-| 2026-153 | La falsifiabilité selon Popper | [SENTIER](https://le-phare.info/la-falsifiabilite-selon-popper/) | import | 1/0/4 | 606/2452 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
 | 2026-450 | Lire une annonce medicale sans confondre individu et population | [SENTIER](https://le-phare.info/lire-annonce-medicale-population-individu/) | triptyque | 3/2/0 | 857/756 | navigation incomplète, « Dans ce triptyque », liens ?p= | réécriture au format actuel (même ID, même URL) |
 | 2026-158 | Biais cognitifs et illusions de savoir | [SENTIER](https://le-phare.info/biais-cognitifs-et-illusions-de-savoir/) | import | 2/0/2 | 693/2288 | navigation incomplète, **copie locale tronquée**, rattaché à un fondamental | réécriture au format actuel (même ID, même URL) |
 | 2026-530 | Construire trois niveaux de vulgarisation pour transmettre une regle… | [SENTIER](https://le-phare.info/construire-trois-niveaux-vulgarisation-regle-ia/) | triptyque | 2/0/2 | 1133/1005 | navigation incomplète, « Dans ce triptyque » | réécriture au format actuel (même ID, même URL) |

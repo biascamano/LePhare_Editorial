@@ -17,3 +17,6 @@ horodatage,periode,activite,statut,etape,ids,note
 2026-10-13 10:11,2026-10-13,question,en_cours,redaction,2026-570,
 2026-10-13 10:21,2026-10-13,question,en_cours,wp,2026-570,
 2026-10-13 10:22,2026-10-13,question,brouillon,fin,2026-570,"pilote ; contrôle : BROUILLON — 3e cycle nécessaire, défauts d'attribution et de datation"
+2026-10-13 11:16,2026-10-13,rattrapage,en_cours,debut,,
+2026-10-13 11:19,2026-10-13,rattrapage,en_cours,redaction,2026-511,
+2026-10-13 11:27,2026-10-13,rattrapage,termine_sans_publication,fin,2026-511,"pilote : refresh en attente du fondateur ; contrôle : BROUILLON — bloquant au cycle 2 (réforme fiscale datée à tort), corrigé sans 3e relecture"
