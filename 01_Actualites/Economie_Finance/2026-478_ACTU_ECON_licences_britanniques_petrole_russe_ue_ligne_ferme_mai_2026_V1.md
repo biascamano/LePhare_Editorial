@@ -2,7 +2,7 @@ ID article : 2026-478
 Titre : Licences britanniques sur le pétrole russe : pourquoi Londres parle d'approvisionnement et Bruxelles de « mauvais moment »
 Type : ACTU
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-23
 Date de derniere mise a jour : 2026-05-23
@@ -13,7 +13,7 @@ Mots-cles : sanctions russes;pétrole russe;Royaume-Uni;Union européenne;crise 
 Resume court (500 caracteres max) : Mi-mai 2026 le Royaume-Uni délivre des licences pour importer diesel et kérosène raffinés à partir de brut russe via des pays tiers, pendant que Washington prolonge une dérogation maritime. Bruxelles refuse d'assouplir ses sanctions. Brent vers 109 dollars.
 Objectif de l article : Situer les licences UK et la ligne UE sans amalgamer cadeau à Moscou, pénurie de kérosène et stratégie de guerre économique.
 Sources principales : Le Figaro, Euronews, Commission européenne, Kyiv School of Economics, G7
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/licences-britanniques-petrole-russe-ue-mai-2026/
 Triptyque ID : routine_econ_sanctions_petrole_strange_2026-05-23
 Triptyque titre : Sanctions pétrole russe : Strange, licences UK et carte systémique
 Triptyque ordre : 1

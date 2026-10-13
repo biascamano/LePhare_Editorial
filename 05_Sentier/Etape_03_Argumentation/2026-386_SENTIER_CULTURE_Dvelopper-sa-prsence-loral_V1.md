@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “La parole est moitié à celui qui parle, moitié à celui qui écoute.” – Montaigne 📌 Introduction On croit souvent que convaincre dépend surtout des arguments. En réalité, une grande part de l’efficacité d’un discours repose sur la manière de le dire. 👉 La pré
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/developper-sa-presence-a-loral/
+URL WordPress (si publie) : https://le-phare.info/developper-sa-presence-a-loral/
 
 ---
 

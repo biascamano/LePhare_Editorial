@@ -2,7 +2,7 @@ ID article : 2026-526
 Titre : David Chalmers (1995) : nommer le « problème difficile » — et ne pas le confondre avec les « faciles »
 Type : TF
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-15
 Date de derniere mise a jour : 2026-06-15
@@ -13,7 +13,7 @@ Mots-cles : David Chalmers;problème difficile;conscience;1995;philosophie de l'
 Resume court (500 caracteres max) : En 1995, Chalmers sépare les problèmes « faciles » de la conscience (mécanismes, rapports, intégration) du « problème difficile » : pourquoi un traitement physique s'accompagne d'une expérience vécue. Grille pour lire Koch (2026) sans mélanger cartographie et explication.
 Objectif de l article : Donner une grille durable sur la distinction chalmérienne et ses usages — scientifiques, médiatiques, philosophiques — trente ans après sa formulation.
 Sources principales : David Chalmers, Facing Up to the Problem of Consciousness (1995);Journal of Consciousness Studies
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/david-chalmers-probleme-difficile-conscience-1995-grille/
 Triptyque ID : routine_science_conscience_probleme_difficile_2026-06-15
 Triptyque titre : Le problème difficile de la conscience : neuroscience, philosophie et controverses
 Triptyque ordre : 2

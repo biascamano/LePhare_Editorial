@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte L’histoire regorge de figures fascinantes qui ont maîtrisé plusieurs langues, parfois des dizaines.👉 Leurs parcours ne sont pas seulement des curiosités biographiques : ils révèlent des stratégies d’apprentissage, une discipline intellectuelle et 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/polyglottes-celebres-et-lecons-derudition/
+URL WordPress (si publie) : https://le-phare.info/polyglottes-celebres-et-lecons-derudition/
 
 ---
 

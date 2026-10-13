@@ -2,7 +2,7 @@ ID article : 2026-503
 Titre : Jürgen Habermas : sphère publique, médias et démocratie — lire AgoraEU sans réduire l'espace public à un budget
 Type : TF
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-04
 Date de derniere mise a jour : 2026-06-04
@@ -13,7 +13,7 @@ Mots-cles : Jürgen Habermas, sphère publique, médias, délibération, AgoraEU
 Resume court (500 caracteres max) : Habermas montre que la démocratie moderne repose sur un espace public où les arguments circulent. Un cadre pour lire AgoraEU : MEDIA+, CERV+ et le risque de confondre financement et sphère publique réelle.
 Objectif de l article : Donner une grille durable pour relier programmes européens de culture et médias à la théorie de l'espace public.
 Sources principales : Jürgen Habermas, Strukturwandel der Öffentlichkeit (1962) ; Between Facts and Norms (1992)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/jurgen-habermas-sphere-publique-agoraeu-medias/
 Triptyque ID : routine_culture_agoraeu_2026-06-04
 Triptyque titre : AgoraEU : sphère publique, mandat partiel et traduction institutionnelle
 Triptyque ordre : 2

@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Transmettre un savoir ne se résume pas à “expliquer”.👉 Cela suppose de choisir une méthode pédagogique adaptée à l’apprenant, au contexte et au contenu. De l’Antiquité à nos jours, les pédagogues ont proposé différentes approches pour enseigner ef
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-methodes-pedagogiques-essentielles/
+URL WordPress (si publie) : https://le-phare.info/les-methodes-pedagogiques-essentielles/
 
 ---
 

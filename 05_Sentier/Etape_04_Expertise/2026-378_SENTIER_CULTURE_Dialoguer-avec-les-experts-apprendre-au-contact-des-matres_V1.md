@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Une fois qu’on a choisi son domaine d’expertise, étudié ses textes fondateurs et repéré ses controverses, vient une étape décisive : aller à la rencontre de celles et ceux qui incarnent ce savoir vivant. 👉 Les livres et articles sont indispensable
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/dialoguer-avec-les-experts-apprendre-au-contact-des-maitres/
+URL WordPress (si publie) : https://le-phare.info/dialoguer-avec-les-experts-apprendre-au-contact-des-maitres/
 
 ---
 

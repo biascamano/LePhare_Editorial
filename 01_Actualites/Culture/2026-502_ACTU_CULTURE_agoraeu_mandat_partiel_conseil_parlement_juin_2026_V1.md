@@ -2,7 +2,7 @@ ID article : 2026-502
 Titre : AgoraEU : mandat partiel du Conseil, session du Parlement — et ce que juin 2026 change (ou pas) pour la culture et les médias
 Type : ACTU
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-04
 Date de derniere mise a jour : 2026-06-04
@@ -13,7 +13,7 @@ Mots-cles : AgoraEU, Creative Europe, CERV, médias, culture, mandat partiel, MF
 Resume court (500 caracteres max) : Le 12 mai 2026, le Conseil adopte une approche générale partielle sur AgoraEU (2028-2034). Le 3 juin, le Parlement CULT débat du dossier. Trois fils — Culture, MEDIA+, CERV+ — mais le budget reste hors table jusqu'au cadre financier pluriannuel.
 Objectif de l article : Situer le calendrier de juin 2026 sans confondre mandat de négociation, fusion de programmes et enveloppe budgétaire promise.
 Sources principales : Présidence chypriote du Conseil ; document ST-8313-2026 ; Parlement européen CULT ; EBU
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/agoraeu-mandat-partiel-conseil-parlement-juin-2026/
 Triptyque ID : routine_culture_agoraeu_2026-06-04
 Triptyque titre : AgoraEU : sphère publique, mandat partiel et traduction institutionnelle
 Triptyque ordre : 1

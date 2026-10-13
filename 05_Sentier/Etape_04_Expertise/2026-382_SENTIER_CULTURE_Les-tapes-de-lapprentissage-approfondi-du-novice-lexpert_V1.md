@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Apprendre un domaine en profondeur ne se fait pas en un jour.C’est un processus long, jalonné d’étapes où se mêlent découvertes enthousiasmantes, périodes de doute, et moments de découragement. Comprendre ces étapes permet de mieux orienter son éne
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-etapes-de-lapprentissage-approfondi-du-novice-a-lexpert/
+URL WordPress (si publie) : https://le-phare.info/les-etapes-de-lapprentissage-approfondi-du-novice-a-lexpert/
 
 ---
 

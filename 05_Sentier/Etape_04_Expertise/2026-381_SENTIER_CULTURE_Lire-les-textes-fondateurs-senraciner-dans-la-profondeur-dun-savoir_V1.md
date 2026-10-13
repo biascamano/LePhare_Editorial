@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Dans tout domaine de connaissance, il existe des textes fondateurs : des œuvres qui ont marqué un tournant, ouvert une voie ou posé les bases d’une discipline. Aujourd’hui, la tentation est grande de se contenter de résumés, de vidéos explicatives 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/lire-les-textes-fondateurs-senraciner-dans-la-profondeur-dun-savoir/
+URL WordPress (si publie) : https://le-phare.info/lire-les-textes-fondateurs-senraciner-dans-la-profondeur-dun-savoir/
 
 ---
 

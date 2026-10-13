@@ -2,7 +2,7 @@ ID article : 2026-486
 Titre : Décoder un formulaire de déclaration cyber européen : délais, champs et vocabulaire institutionnel
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-27
 Date de derniere mise a jour : 2026-05-27
@@ -17,7 +17,7 @@ Mots-cles : NIS2, declaration incident, traduction institutionnelle, formulaire,
 Resume court (500 caracteres max) : Atelier etape 5 sur le fondamental Traduire : sept questions pour lire un formulaire NIS2 ou un communiqué du 26 mai 2026 sans confondre alerte interne notification réglementaire et simplification annoncée.
 Objectif de l article : Donner une grille reutilisable pour decoder le vocabulaire et la sequence des declarations cyber europeennes a partir de l ACTU du 26 mai 2026.
 Sources principales : Commission europeenne (26 mai 2026), EUR-Lex NIS2, ENISA
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/decoder-formulaire-declaration-cyber-europeen-delais-champs-vocabulaire/
 Triptyque ID : routine_tech_nis2_templates_2026-05-27
 Triptyque titre : NIS2 : formulaires harmonises, systemes complexes et lecture europeenne
 Triptyque ordre : 3

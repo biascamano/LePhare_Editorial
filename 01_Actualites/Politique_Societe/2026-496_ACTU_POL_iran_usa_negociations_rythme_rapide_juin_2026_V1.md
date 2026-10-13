@@ -2,7 +2,7 @@ ID article : 2026-496
 Titre : Négociations Etats-Unis-Iran : que signifie vraiment un "rythme rapide" en juin 2026 ?
 Type : ACTU
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-02
 Date de derniere mise a jour : 2026-06-02
@@ -13,7 +13,7 @@ Mots-cles : Iran, Etats-Unis, négociation, diplomatie coercitive, Golfe, signal
 Resume court (500 caracteres max) : En juin 2026, Washington parle de discussions "a rythme rapide" avec Teheran. Ce signal ne vaut ni accord, ni desescalade acquise. Lecture des temporalites, des leviers et des ambiguities publiques.
 Objectif de l article : Distinguer communication politique, position de negociation et avancee verifiable dans le dossier Iran-Etats-Unis.
 Sources principales : Depêches internationales ; communiques officiels americains et iraniens ; analyses de think tanks.
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/iran-usa-negociations-rythme-rapide-juin-2026/
 Triptyque ID : routine_pol_iran_negociation_2026-06-02
 Triptyque titre : Iran-Etats-Unis : signaux de negociation, theorie de la coercition et methode d argumentation
 Triptyque ordre : 1

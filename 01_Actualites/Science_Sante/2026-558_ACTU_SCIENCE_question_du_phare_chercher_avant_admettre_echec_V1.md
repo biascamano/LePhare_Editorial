@@ -3,7 +3,7 @@ Titre : Combien de temps faut-il chercher avant d'admettre qu'on ne trouvera pas
 Type : ACTU
 Type article : Question
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : persévérance;échec;recherche scientifique;Lakatos;coûts irrécup
 Resume court (500 caracteres max) : Le Nobel attribué à IceCube récompense un pari tenu vingt-cinq ans sans résultat décisif. Mais combien de projets ont tenu aussi longtemps pour rien ? La question de savoir quand s'arrêter dépasse la science.
 Objectif de l'article : Donner des repères pour distinguer la persévérance raisonnable de l'entêtement, en science et ailleurs.
 Sources principales : Académie royale des sciences de Suède (communiqué Nobel, 6 octobre 2026) ; Physics World ; LIGO ; Stanford Encyclopedia of Philosophy (Lakatos)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-chercher-avant-admettre-echec/
 
 ---
 

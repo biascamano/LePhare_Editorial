@@ -2,7 +2,7 @@ ID article : 2026-513
 Titre : Vaclav Smil et AccelerateEU : lire une stratégie d'urgence à la vitesse réelle des infrastructures
 Type : TF
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-09
 Date de derniere mise a jour : 2026-06-09
@@ -13,7 +13,7 @@ Mots-cles : Vaclav Smil;AccelerateEU;transitions énergétiques;électrification
 Resume court (500 caracteres max) : Smil montre que les systèmes énergétiques changent par sédimentation lente, pas par communiqué. Relire AccelerateEU (44 mesures, fiscalité électricité) à cette échelle évite de confondre urgence politique et déploiement matériel.
 Objectif de l article : Donner une grille durable pour lire les stratégies européennes d'accélération face aux chocs fossiles sans illusion de bascule instantanée.
 Sources principales : Vaclav Smil;Energy Transitions;Carbon Brief;IEA
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/vaclav-smil-accelerateeu-lenteur-transitions/
 Triptyque ID : routine_climat_accelerateeu_fiscalite_2026-06-09
 Triptyque titre : AccelerateEU : lenteur des transitions, prix relatifs et cartographie citoyenne
 Triptyque ordre : 2

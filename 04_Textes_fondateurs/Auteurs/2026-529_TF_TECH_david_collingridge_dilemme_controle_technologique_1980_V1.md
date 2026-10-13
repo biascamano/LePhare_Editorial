@@ -3,7 +3,7 @@ Titre : David Collingridge (1980) : le dilemme du contrôle technologique — r�
 Type : TF
 Type article : Texte fondateur
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-06-25
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : David Collingridge;dilemme;contrôle technologique;régulation;innov
 Resume court (500 caracteres max) : En 1980, David Collingridge formule un dilemme qui résonne quarante-six ans plus tard : une technologie est facile à contrôler quand on ignore encore ses effets, et difficile à contrôler quand ils deviennent visibles. Une grille pour relire le Digital Omnibus sans réduire le report à un recul ni la précaution à une paralysie.
 Objectif de l'article : Donner une grille durable sur le dilemme de Collingridge et montrer sa pertinence directe pour la régulation européenne de l'IA.
 Sources principales : David Collingridge, The Social Control of Technology (1980);Genus & Stirling, Research Policy (2018);Parlement européen;Hunton
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/david-collingridge-dilemme-controle-technologique-1980/
 
 ---
 

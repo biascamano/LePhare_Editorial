@@ -2,7 +2,7 @@ ID article : 2026-436
 Titre : Crise énergétique : pourquoi la trêve au Moyen-Orient ne protège pas encore la France et l'Europe
 Type : ACTU
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-04-10
 Date de derniere mise a jour : 2026-04-10
@@ -13,7 +13,7 @@ Mots-cles : crise énergétique, Europe, France, pétrole, gaz, électrification
 Resume court (500 caracteres max) : La trêve au Moyen-Orient a calmé les marchés sans régler le fond du problème. La France et l'Europe restent exposées à une nouvelle flambée des hydrocarbures, parce que leur dépendance structurelle aux usages fossiles demeure élevée.
 Objectif de l'article : Montrer qu'une accalmie diplomatique ne suffit pas à restaurer la sécurité énergétique quand les infrastructures, les usages et les dépendances de fond n'ont pas changé.
 Sources principales : France 24, Deutsche Welle, Banque de France, IEA, Commission européenne
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/crise-energetique-europe-electrification-2/
 ---
 # SEO
 Mot-cle principal : crise énergétique Europe électrification

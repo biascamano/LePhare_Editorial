@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Apprendre une langue n’est pas difficile en soi : nous le faisons tous naturellement avec notre langue maternelle.👉 Ce qui pose problème à l’adulte apprenant, c’est la rétention dans le temps : comment ne pas oublier ce qu’on a appris ? La mémoire
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/la-memoire-et-les-langues-techniques-de-retention/
+URL WordPress (si publie) : https://le-phare.info/la-memoire-et-les-langues-techniques-de-retention/
 
 ---
 

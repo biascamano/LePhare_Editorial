@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Écrire pour clarifier sa pensée est une première étape. Mais dès que l’on souhaite partager son savoir, il faut choisir le bon genre d’écriture. 👉 La science, la philosophie, l’histoire et les humanités ont chacune forgé des formes particulières d
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-genres-de-lecriture-savante/
+URL WordPress (si publie) : https://le-phare.info/les-genres-de-lecriture-savante/
 
 ---
 

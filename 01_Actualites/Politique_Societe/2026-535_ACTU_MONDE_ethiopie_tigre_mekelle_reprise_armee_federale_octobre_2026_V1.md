@@ -3,7 +3,7 @@ Titre : Éthiopie : l'armée fédérale reprend Mekelle, et chaque camp raconte 
 Type : ACTU
 Type article : Actualite
 Theme : MONDE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Éthiopie;Tigré;Mekelle;TPLF;Abiy Ahmed;conflit
 Resume court (500 caracteres max) : Le 3 octobre 2026, l'armée fédérale éthiopienne reprend l'aéroport de Mekelle, dix jours après l'offensive d'une alliance menée par le TPLF. Le TPLF dit s'être « temporairement retiré ». Lecture d'une guerre racontée par deux camps.
 Objectif de l'article : Distinguer les faits attestés, les déclarations des belligérants et les interprétations dans un conflit en cours.
 Sources principales : Al Jazeera ; France 24
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026/
 
 ---
 

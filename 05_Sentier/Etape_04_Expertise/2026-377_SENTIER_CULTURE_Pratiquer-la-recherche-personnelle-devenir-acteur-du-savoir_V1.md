@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Approfondir un domaine d’expertise ne se limite pas à lire et écouter.À un moment donné, il faut passer de la réception à la production, oser explorer par soi-même, formuler des hypothèses, chercher des données, tester des idées. 👉 C’est ce saut q
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/pratiquer-la-recherche-personnelle-devenir-acteur-du-savoir/
+URL WordPress (si publie) : https://le-phare.info/pratiquer-la-recherche-personnelle-devenir-acteur-du-savoir/
 
 ---
 

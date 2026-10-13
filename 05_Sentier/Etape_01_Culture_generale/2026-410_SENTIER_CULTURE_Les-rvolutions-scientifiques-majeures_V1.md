@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : a science avance non pas en prouvant, mais en réfutant.” – Karl Popper 📌 Introduction L’histoire de la science n’est pas une ligne continue de progrès. Elle est marquée par des révolutions : des moments où une idée nouvelle bouleverse les certitudes établies 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-revolutions-scientifiques-majeures/
+URL WordPress (si publie) : https://le-phare.info/les-revolutions-scientifiques-majeures/
 
 ---
 

@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Pendant des siècles, l’apprentissage des langues passait par la grammaire-traduction : mémoriser des règles, réciter des listes de vocabulaire, traduire des textes.Aujourd’hui, les recherches en didactique et les outils numériques ont révolutionné 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/methodes-modernes-dapprentissage-des-langues-entre-science-technologie-et-immersion/
+URL WordPress (si publie) : https://le-phare.info/methodes-modernes-dapprentissage-des-langues-entre-science-technologie-et-immersion/
 
 ---
 

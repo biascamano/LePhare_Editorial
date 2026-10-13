@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Convaincre, c’est donner à l’autre les moyens de juger par lui-même.” – Inspiré de Montaigne 📌 Introduction Convaincre est au cœur de toute interaction humaine : débats, enseignement, négociation, communication publique. Mais entre convaincre et manipuler, l
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/convaincre-sans-manipuler/
+URL WordPress (si publie) : https://le-phare.info/convaincre-sans-manipuler/
 
 ---
 

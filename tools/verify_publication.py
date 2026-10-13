@@ -14,8 +14,11 @@ Contrôles (articles du périmètre) :
 
 Usage :
     python tools/verify_publication.py [IDs…] [--days 7] [--offline]
-    python tools/verify_publication.py --fix              # tag a-la-une manquant, liens ?p= → permaliens, refresh WP
+    python tools/verify_publication.py --fix              # tag a-la-une manquant, liens ?p= → permaliens, refresh WP, en-têtes
     python tools/verify_publication.py --publish-drafts   # publie les brouillons sans erreur bloquante, puis --fix
+    python tools/verify_publication.py --sync-headers     # local : `Statut :` et `URL WordPress` des en-têtes ← index
+
+--fix, --publish-drafts et --sync-headers alignent l'en-tête de tout article publié dans l'index (hors 02_Fonds/).
 
 Périmètre par défaut : articles créés depuis --days jours (hors 02_Fonds/). Les anciens brouillons
 n'entrent que par leurs IDs : --publish-drafts ne publie donc jamais un vieux brouillon par accident.
@@ -276,6 +279,35 @@ def rewrite_p_links(rows: list[dict[str, str]], by_post: dict[int, dict[str, str
     return changed
 
 
+HEADER_STATUS_RE = re.compile(r"^Statut :[^\n]*$", re.M)
+HEADER_URL_RE = re.compile(r"^URL WordPress \(si publie\) :[^\n]*$", re.M)
+
+
+def sync_headers(rows: list[dict[str, str]]) -> list[str]:
+    """Aligne `Statut :` et `URL WordPress (si publie) :` des en-têtes sur l'index (articles publiés, hors 02_Fonds).
+
+    Local seulement : l'en-tête n'est pas envoyé à WordPress, aucun refresh n'est nécessaire.
+    """
+    changed = []
+    for row in rows:
+        url = safe_str(row.get("URL_WordPress"))
+        if is_fonds(row) or safe_str(row.get("Statut")) != "publie" or not url or "?p=" in url:
+            continue
+        path = article_path(row)
+        if not path.is_file() or path.suffix != ".md":
+            continue
+        text = path.read_text(encoding="utf-8")
+        head, sep, rest = text.partition("\n---\n")
+        if not sep:
+            continue
+        new_head = HEADER_STATUS_RE.sub("Statut : publie", head, count=1)
+        new_head = HEADER_URL_RE.sub(lambda _: f"URL WordPress (si publie) : {url}", new_head, count=1)
+        if new_head != head:
+            path.write_text(new_head + sep + rest, encoding="utf-8")
+            changed.append(safe_str(row.get("ID")))
+    return changed
+
+
 def refresh(rows: list[dict[str, str]]) -> None:
     for row in rows:
         rel = (Path(safe_str(row.get("Chemin_dossier"))) / safe_str(row.get("Nom_fichier"))).as_posix()
@@ -297,6 +329,7 @@ def main() -> int:
     ap.add_argument("--offline", action="store_true", help="contrôles locaux seulement")
     ap.add_argument("--fix", action="store_true")
     ap.add_argument("--publish-drafts", action="store_true")
+    ap.add_argument("--sync-headers", action="store_true", help="en-têtes locaux alignés sur l'index, sans WordPress")
     a = ap.parse_args()
 
     fieldnames, rows = read_index(INDEX_PATH)
@@ -352,6 +385,12 @@ def main() -> int:
         if changed:
             print(f"Liens ?p= remplacés dans {len(changed)} article(s) : {', '.join(safe_str(r.get('ID')) for r in changed)}")
             refresh(changed)
+
+    if a.fix or a.publish_drafts or a.sync_headers:
+        synced = sync_headers(rows)
+        if synced:
+            print(f"En-têtes alignés sur l'index (statut, URL) : {len(synced)} article(s) : {', '.join(synced)}")
+    if a.fix or a.publish_drafts:
         print("Relancer sans --fix pour le bilan à jour.")
 
     n_err = n_warn = 0

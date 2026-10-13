@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Un domaine de savoir n’est pas un bloc homogène.Il est traversé par des controverses : des débats qui opposent écoles, chercheurs ou courants de pensée. 👉 Repérer ces controverses, c’est saisir ce qui fait vivre un champ intellectuel.Un savoir san
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/reperer-les-controverses-structurantes-comprendre-un-domaine-par-ses-debats/
+URL WordPress (si publie) : https://le-phare.info/reperer-les-controverses-structurantes-comprendre-un-domaine-par-ses-debats/
 
 ---
 

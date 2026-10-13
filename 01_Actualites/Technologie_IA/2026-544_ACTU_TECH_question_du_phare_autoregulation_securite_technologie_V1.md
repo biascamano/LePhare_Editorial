@@ -3,7 +3,7 @@ Titre : Question du Phare - Peut-on laisser ceux qui développent une technologi
 Type : ACTU
 Type article : Question
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : autorégulation;conflit d'intérêts;audit indépendant;agences de n
 Resume court (500 caracteres max) : L'accord de sécurité signé à la Maison-Blanche par six dirigeants de l'IA pose une question plus ancienne que l'IA : que vaut un contrôle organisé par ceux qu'il contrôle ? Finance, aviation, laboratoires : la même question, ailleurs.
 Objectif de l'article : Disposer de questions simples pour évaluer un dispositif d'autorégulation : qui contrôle, qui paie, qui voit les résultats, que se passe-t-il en cas de manquement.
 Sources principales : Article A du Phare ; Al Jazeera ; rapport de la Financial Crisis Inquiry Commission (2011) ; rapport de la commission des Transports de la Chambre des représentants sur le Boeing 737 MAX (2020)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-autoregulation-securite-technologie/
 
 ---
 

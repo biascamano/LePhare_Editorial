@@ -3,7 +3,7 @@ Titre : Sentier du Savoir - Lire un indicateur : cinq questions avant de croire 
 Type : SENTIER
 Type article : Atelier Sentier
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : indicateur;statistiques;sondage;fréquentation;loi de Goodhart
 Resume court (500 caracteres max) : Atelier du fondamental Statistiques, corrélations et causalité : cinq questions pour lire un indicateur avant de lui faire confiance, appliquées à deux cas d'octobre 2026, les sondages du premier tour brésilien et la fréquentation du musée de l'Academy of Natural Sciences de Philadelphie.
 Objectif de l'article : Donner une grille réutilisable pour lire un indicateur (ce qu'il mesure, son enjeu, son producteur, ses recoupements, sa validité dans le temps) et l'appliquer à des cas réels du mois.
 Sources principales : CNN et NPR (Brésil, 4 octobre 2026) ; WHYY, 6abc, Billy Penn (Philadelphie, septembre 2026) ; D. T. Campbell (1976) ; C. Goodhart (1975)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre/
 
 ---
 

@@ -2,7 +2,7 @@ ID article : 2026-510
 Titre : Tenir son attention face au cycle souveraineté tech : six règles pour juin 2026
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-08
 Date de derniere mise a jour : 2026-06-08
@@ -17,7 +17,7 @@ Mots-cles : hygiène numérique;attention;souveraineté technologique;cycle méd
 Resume court (500 caracteres max) : Atelier étape 9 fondamental 2026-124 : six règles pour suivre le package souveraineté de juin 2026 (CAIDA, Chips 2.0) sans saturer son fil d information — ancré sur Commission et CNBC du 3 juin.
 Objectif de l article : Donner une grille réutilisable d hygiène attentionnelle appliquée au dossier souveraineté tech du triptyque.
 Sources principales : Commission européenne ; CNBC ; fondamental Hygiène numérique et attention
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/tenir-attention-cycle-souverainete-tech-juin-2026/
 Triptyque ID : routine_tech_souverainete_package_2026-06-08
 Triptyque titre : Souveraineté numérique : légibilité institutionnelle, dépendances cloud et attention citoyenne
 Triptyque ordre : 3

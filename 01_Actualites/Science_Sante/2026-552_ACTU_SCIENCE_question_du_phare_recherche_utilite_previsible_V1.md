@@ -3,7 +3,7 @@ Titre : Question du Phare - Peut-on juger une recherche à son utilité prévisi
 Type : ACTU
 Type article : Question
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : recherche fondamentale;utilité;financement de la recherche;Abraham 
 Resume court (500 caracteres max) : L'optogénétique, Nobel de médecine 2026, est née de l'étude d'une algue. Faut-il en conclure qu'on ne doit pas juger la recherche à ses applications prévisibles ? Ce que le cas montre, ce qu'il ne prouve pas, et quelques questions pour arbitrer.
 Objectif de l'article : Disposer de critères pour discuter du financement d'un savoir dont l'usage n'est pas connu d'avance, sans tomber ni dans l'utilitarisme étroit ni dans le chèque en blanc.
 Sources principales : Article A du Phare ; A. Flexner, The Usefulness of Useless Knowledge, Harper's (1939) ; A. Fleming, discours Nobel (1945)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-recherche-utilite-previsible/
 
 ---
 

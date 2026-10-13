@@ -2,7 +2,7 @@ ID article : 2026-484
 Titre : NIS2 : quand Bruxelles harmonise les déclarations d'incident cyber — et que la contrainte se durcit au printemps 2026
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-27
 Date de derniere mise a jour : 2026-05-27
@@ -13,7 +13,7 @@ Mots-cles : NIS2, cybersecurite, declaration incident, ENISA, Union europeenne, 
 Resume court (500 caracteres max) : Le 26 mai 2026 le groupe de cooperation NIS adopte des modeles communs de declaration d incident. Simplification annoncee mais printemps 2026 marque le passage a l execution : audits Belgique avril 2026 enregistrements allemands incomplets amendes jusqu a 10 M euros.
 Objectif de l article : Situer l accord du 26 mai sur les templates sans confondre harmonisation des formulaires et fin de la contrainte reglementaire pour les entites essentielles et importantes.
 Sources principales : Commission europeenne (digital-strategy.ec.europa.eu, 26 mai 2026), ENISA, NIS Cooperation Group, analyses Eversheds Sutherland
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/nis2-modeles-declaration-incident-mai-2026-simplification-et-contrainte/
 Triptyque ID : routine_tech_nis2_templates_2026-05-27
 Triptyque titre : NIS2 : formulaires harmonises, systemes complexes et lecture europeenne
 Triptyque ordre : 1

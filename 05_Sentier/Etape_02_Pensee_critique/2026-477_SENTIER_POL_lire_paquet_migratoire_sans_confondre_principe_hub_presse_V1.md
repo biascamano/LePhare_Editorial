@@ -2,7 +2,7 @@ ID article : 2026-477
 Titre : Lire un paquet migratoire sans confondre accord de principe, hub et titre de presse
 Type : SENTIER
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-22
 Date de derniere mise a jour : 2026-05-22
@@ -17,7 +17,7 @@ Mots-cles : politique migratoire;pensee critique;sources;hubs de retour;Pacte mi
 Resume court (500 caracteres max) : Six questions pour classer un communiqué PE une dépêche AFP ou une tribune ONG sur la reforme migratoire mai 2026 : statut juridique perimetre lieu du droit auteur calendrier et effet concret.
 Objectif de l article : Atelier etape 2 appliquant le fondamental Lire une source avec discernement au triptyque hubs de retour mai 2026.
 Sources principales : Parlement europeen, Commission migration, Arendt Origines du totalitarisme
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-paquet-migratoire-accord-principe-hub-presse/
 Triptyque ID : routine_pol_migration_hubs_2026-05-22
 Triptyque titre : Migration UE : Arendt, apatridie et lecture des sources
 Triptyque ordre : 3

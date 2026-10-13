@@ -3,7 +3,7 @@ Titre : Philadelphie : le plus ancien musée d'histoire naturelle des Amériques
 Type : ACTU
 Type article : Actualite
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : musée;Academy of Natural Sciences;Philadelphie;Drexel;collections s
 Resume court (500 caracteres max) : Fondée en 1812, l'Academy of Natural Sciences de Philadelphie a fermé son musée au public fin septembre 2026. Drexel invoque la baisse de fréquentation et les coûts ; d'anciens salariés, des élus et une fondation contestent. Ce que l'on sait, ce qui reste ouvert.
 Objectif de l'article : Distinguer, dans la fermeture d'une institution culturelle, les raisons avancées, les critiques documentées et ce qui reste à décider.
 Sources principales : WHYY ; NBC10 Philadelphia ; Billy Penn ; 6abc Philadelphia
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/philadelphie-academy-of-natural-sciences-fermeture-drexel/
 
 ---
 

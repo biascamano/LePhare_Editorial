@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Un sophisme est comme un mirage : il semble vrai, mais disparaît quand on s’en approche.” – Inspiré d’Aristote 📌 Introduction Un argument peut sembler solide, bien tourné, presque convaincant… et pourtant être faux dans sa logique. C’est ce qu’on appelle un 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/reperer-et-eviter-les-sophismes/
+URL WordPress (si publie) : https://le-phare.info/reperer-et-eviter-les-sophismes/
 
 ---
 

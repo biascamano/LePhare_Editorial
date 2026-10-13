@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “La philosophie ne consiste pas à apprendre la philosophie, mais à apprendre à philosopher.” – Kant 📌 Introduction La philosophie peut intimider. On imagine des bibliothèques poussiéreuses, des concepts abstraits, des débats sans fin. Pourtant, elle est au cœ
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-grands-courants-philosophiques/
+URL WordPress (si publie) : https://le-phare.info/les-grands-courants-philosophiques/
 
 ---
 

@@ -2,7 +2,7 @@ ID article : 2026-506
 Titre : Ernst Haas : néofonctionnalisme et spillover — comprendre l'élargissement au-delà des déclarations de Tivat
 Type : TF
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-05
 Date de derniere mise a jour : 2026-06-05
@@ -13,7 +13,7 @@ Mots-cles : Ernst Haas;néofonctionnalisme;spillover;élargissement;intégration
 Resume court (500 caracteres max) : Haas montre comment l intégration fonctionnelle peut entraîner l intégration politique — ou échouer. Repère pour lire Tivat 2026 : roaming, Growth Plan et rhétorique d élargissement sans illusion de mécanisme automatique.
 Objectif de l article : Présenter le cadre Haas (1958–1971) pour distinguer dynamique d intégration et promesse d adhésion dans les Balkans occidentaux contemporains.
 Sources principales : E.B. Haas, The Uniting of Europe (1958) ; Beyond the Nation-State (1964) ; When Knowledge is Power (1990)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ernst-haas-neofonctionnalisme-spillover-elargissement-balkans/
 Triptyque ID : routine_pol_balkans_tivat_2026-06-05
 Triptyque titre : Balkans occidentaux : sommet de Tivat, néofonctionnalisme et repères historiques
 Triptyque ordre : 2

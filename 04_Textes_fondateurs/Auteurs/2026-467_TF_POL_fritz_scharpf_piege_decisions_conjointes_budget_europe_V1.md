@@ -2,7 +2,7 @@ ID article : 2026-467
 Titre : Fritz Scharpf : le « piège des décisions conjointes » et les impasses du budget européen
 Type : TF
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-19
 Date de derniere mise a jour : 2026-05-19
@@ -13,7 +13,7 @@ Mots-cles : Fritz Scharpf;decisions conjointes;gouvernance europeenne;budget UE;
 Resume court (500 caracteres max) : Scharpf montre pourquoi l Europe produit souvent des compromis budgetaires sous optimaux : decisions conjointes a quasi unanimite integration negative plus facile que politiques communes. Repere pour lire mai 2026 sans cynisme total.
 Objectif de l article : Presenter le cadre Scharpf (1988-1999) pour comprendre les blocages et les rhétoriques du budget europeen contemporain.
 Sources principales : F.W. Scharpf, The Joint-Decision Trap (1988) ; Governing in Europe (1999) ; MPIfG
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/fritz-scharpf-piege-decisions-conjointes-budget-europe/
 Triptyque ID : routine_pol_budget_ue_2026-05-19
 Triptyque titre : Budget europeen : Scharpf, defense et argumentation en situation complexe
 Triptyque ordre : 2

@@ -2,7 +2,7 @@ ID article : 2026-525
 Titre : Le « problème difficile » de la conscience : ce que Christof Koch remet en jeu — et ce que la neuroscience ne résout pas encore
 Type : ACTU
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-15
 Date de derniere mise a jour : 2026-06-15
@@ -13,7 +13,7 @@ Mots-cles : conscience;problème difficile;neurosciences;Christof Koch;David Cha
 Resume court (500 caracteres max) : En avril 2026, Christof Koch plaide à Porto pour une conscience « fondamentale » plutôt que produite par le cerveau. Trente ans après Chalmers, le « problème difficile » reste ouvert : cartographier le cerveau n'explique pas encore pourquoi il « fait quelque chose » de subjectif.
 Objectif de l article : Situer le débat contemporain sur la conscience subjective après la présentation Koch (avril 2026), en séparant progrès empiriques, impasse explicative et polémiques médiatiques.
 Sources principales : BIAL Foundation;ScienceDaily;Nature Reviews Neuroscience;Cogitate Consortium
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/probleme-difficile-conscience-koch-chalmers-juin-2026/
 Triptyque ID : routine_science_conscience_probleme_difficile_2026-06-15
 Triptyque titre : Le problème difficile de la conscience : neuroscience, philosophie et controverses
 Triptyque ordre : 1

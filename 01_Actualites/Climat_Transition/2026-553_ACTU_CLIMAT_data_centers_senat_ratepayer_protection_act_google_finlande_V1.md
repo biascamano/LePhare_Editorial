@@ -3,7 +3,7 @@ Titre : Data centers : le Sénat américain refuse de leur faire payer le résea
 Type : ACTU
 Type article : Actualite
 Theme : CLIMAT
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : data centers;réseau électrique;Ratepayer Protection Act;Google Fin
 Resume court (500 caracteres max) : Le 30 septembre, le Sénat américain a rejeté une loi censée faire payer aux data centers le coût du réseau ; en Finlande, Google est mis en cause pour 330 hectares abattus avant toute évaluation environnementale.
 Objectif de l'article : Comprendre ce que l'essor des data centers demande aux ressources communes, et qui en supporte le coût.
 Sources principales : CBS News ; Al Jazeera ; NBC News ; Kaleva / Helsingin Sanomat ; Futurism ; MTV Uutiset
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/data-centers-senat-ratepayer-protection-act-google-finlande/
 
 ---
 

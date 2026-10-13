@@ -2,7 +2,7 @@ ID article : 2026-494
 Titre : David Collingridge : réguler tôt ou tard — le dilemme du Code GPAI
 Type : TF
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-01
 Date de derniere mise a jour : 2026-06-01
@@ -13,7 +13,7 @@ Mots-cles : David Collingridge, dilemme de Collingridge, régulation technologiq
 Resume court (500 caracteres max) : Collingridge (1980) : réguler tôt manque d information réguler tard manque de levier. Le Code GPAI est une réponse européenne à ce dilemme entre obligations 2025 et exécution 2026 sans standards harmonisés avant 2027.
 Objectif de l article : Présenter le dilemme de Collingridge et ce qu il éclaire sur le Code of Practice et l AI Act sans opposer naïvement innovation et précaution.
 Sources principales : David Collingridge, The Social Control of Technology (1980) ; Collingridge, « Technology and Risk »
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/david-collingridge-dilemme-regulation-gpai-code-practice/
 Triptyque ID : routine_tech_gpai_code_2026-06-01
 Triptyque titre : GPAI en Europe : timing réglementaire, dilemme Collingridge et lecture des preuves
 Triptyque ordre : 2

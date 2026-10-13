@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Transmettre ne doit pas être un acte ponctuel, mais un chemin continu.👉 Trop souvent, on pense que l’enseignement se limite à un cours, une conférence, un livre.👉 En réalité, la transmission est une pratique de long terme, une manière d’habiter l
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/construire-une-pratique-durable-de-transmission/
+URL WordPress (si publie) : https://le-phare.info/construire-une-pratique-durable-de-transmission/
 
 ---
 

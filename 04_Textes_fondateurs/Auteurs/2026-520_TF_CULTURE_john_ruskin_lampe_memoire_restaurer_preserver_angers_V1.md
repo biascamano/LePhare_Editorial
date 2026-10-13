@@ -2,7 +2,7 @@ ID article : 2026-520
 Titre : John Ruskin : restaurer, préserver — et lire Angers sans faux dilemme
 Type : TF
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -13,7 +13,7 @@ Mots-cles : John Ruskin;restauration;patrimoine;authenticité;architecture;Lamp 
 Resume court (500 caracteres max) : Ruskin distingue restaurer (effacer le temps) et préserver (transmettre la trace). Grille pour relire la galerie Kuma à Angers : protection nécessaire, impossibilité de copie médiévale, débat sur le langage contemporain.
 Objectif de l article : Donner une grille durable pour comprendre les controverses patrimoniales sans opposer naïvement passé et présent.
 Sources principales : John Ruskin, The Seven Lamps of Architecture (1849), chap. « The Lamp of Memory »
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/john-ruskin-lampe-memoire-restaurer-preserver-angers/
 Triptyque ID : routine_culture_cathedrale_angers_2026-06-11
 Triptyque titre : Cathédrale d'Angers : patrimoine, création contemporaine et lecture critique
 Triptyque ordre : 2

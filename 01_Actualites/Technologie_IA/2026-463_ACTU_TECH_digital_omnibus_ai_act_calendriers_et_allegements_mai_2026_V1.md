@@ -2,7 +2,7 @@ ID article : 2026-463
 Titre : Digital Omnibus : l'Europe recale l'AI Act sans l'abandonner — ce qui change en mai 2026
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-18
 Date de derniere mise a jour : 2026-05-18
@@ -13,7 +13,7 @@ Mots-cles : AI Act, Digital Omnibus, réglementation IA, Union européenne, haut
 Resume court (500 caracteres max) : Le 7 mai 2026 Parlement et Conseil ont un accord provisoire sur le Digital Omnibus IA : délais haut risque repoussés à déc. 2027 et août 2028, filigrane dès déc. 2026, nouvelles interdictions sur contenus intimes non consentis. Ce n est pas une suppression du cadre mais un réajustement calendaire et ciblé avant adoption formelle.
 Objectif de l article : Situer l accord de mai 2026 sans dramatiser ni minimiser : calendrier daté, ce qui est allégé, ce qui est renforcé, et ce que le texte ne promet pas encore.
 Sources principales : Commission européenne (IP/26/1024), Society for Computers and Law, Timelex, Parlement européen
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/digital-omnibus-ai-act-europe-mai-2026/
 Triptyque ID : routine_tech_ai_act_omnibus_2026-05-18
 Triptyque titre : Réguler l'IA en Europe : calendrier, politique des artefacts et lecture critique
 Triptyque ordre : 1

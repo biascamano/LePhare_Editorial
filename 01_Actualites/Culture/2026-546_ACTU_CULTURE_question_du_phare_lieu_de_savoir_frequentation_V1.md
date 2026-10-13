@@ -3,7 +3,7 @@ Titre : Question du Phare - Un lieu de savoir doit-il être jugé à sa fréquen
 Type : ACTU
 Type article : Question
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : musées;fréquentation;indicateurs;collections scientifiques;Bourdie
 Resume court (500 caracteres max) : La fermeture du musée de l'Academy of Natural Sciences de Philadelphie, motivée par la baisse des visites, pose une question plus large : que mesure la fréquentation, et que laisse-t-elle hors champ ? Œufs de rapaces, banque de semences du Svalbard, restes médiévaux : la même question, ailleurs.
 Objectif de l'article : Disposer de questions simples pour juger un indicateur de fréquentation : que mesure-t-il, qui compte-t-il, sur quelle durée, et quelle valeur laisse-t-il de côté.
 Sources principales : Article A du Phare ; WHYY ; D. A. Ratcliffe, Nature (1967) ; Crop Trust (Svalbard Global Seed Vault) ; P. Bourdieu et A. Darbel, L'Amour de l'art (1966)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-lieu-de-savoir-frequentation/
 
 ---
 

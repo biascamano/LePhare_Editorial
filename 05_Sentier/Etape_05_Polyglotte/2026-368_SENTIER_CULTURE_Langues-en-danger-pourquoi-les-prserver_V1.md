@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Sur environ 7 000 langues parlées dans le monde aujourd’hui, les linguistes estiment que la moitié pourrait disparaître d’ici la fin du siècle.Chaque semaine, une langue s’éteint, emportant avec elle un univers de pensée, des savoirs locaux, des ré
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/langues-en-danger-pourquoi-les-preserver/
+URL WordPress (si publie) : https://le-phare.info/langues-en-danger-pourquoi-les-preserver/
 
 ---
 

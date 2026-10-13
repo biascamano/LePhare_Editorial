@@ -2,7 +2,7 @@ ID article : 2026-523
 Titre : Roy Meadow (1977) : nommer le Münchhausen par procuration — et connaître les limites de la grille
 Type : TF
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -13,7 +13,7 @@ Mots-cles : Roy Meadow;Münchhausen par procuration;trouble factice;pédiatrie;1
 Resume court (500 caracteres max) : En 1977, Roy Meadow décrit le « Münchhausen by proxy » : un parent fabrique des symptômes chez l'enfant. Grille pour relire le procès Daubon et la littérature 2025 sans transformer une hypothèse en verdict social.
 Objectif de l article : Donner une grille durable sur l'origine conceptuelle du SMPP et ses usages — cliniques, juridiques, médiatiques.
 Sources principales : Roy Meadow, The Lancet (1977);Archives of Disease in Childhood (1982);DSM-5
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/roy-meadow-munchhausen-par-procuration-1977-grille/
 Triptyque ID : routine_science_munchhausen_procuration_2026-06-11
 Triptyque titre : Münchhausen par procuration : diagnostic, justice et lecture des sources
 Triptyque ordre : 2

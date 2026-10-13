@@ -2,7 +2,7 @@ ID article : 2026-453
 Titre : Construire une expertise durable à l'ère de l'IA : ce que l'automatisation ne peut pas effacer
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-07
 Date de derniere mise a jour : 2026-05-07
@@ -13,7 +13,7 @@ Mots-cles : expertise, intelligence artificielle, automation, jugement, compéte
 Resume court (500 caracteres max) : Face à l'IA générative, la bonne question n'est pas "mon métier va-t-il disparaître" mais "qu'est-ce qui constitue une expertise irremplaçable ?" Ce texte propose une grille de lecture pour Etape 04 du Sentier : décomposer son activité, identifier les irréductibles, et construire durablement.
 Objectif de l article : Donner au lecteur une grille pratique pour évaluer la durabilité de son expertise face à l'automatisation, en s'appuyant sur ce que l'IA ne peut pas encore reproduire de façon fiable.
 Sources principales : Acemoglu & Johnson (2023), David Autor (2022), K. Anders Ericsson (2016), Ethan Mollick (2024), MIT Sloan Management Review
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/expertise-durable-ere-ia-automatisation/
 Triptyque ID : routine_tech_ia_emploi_2026-05-07
 Triptyque titre : IA et emploi qualifié : signal, fondements, expertise durable
 Triptyque ordre : 3

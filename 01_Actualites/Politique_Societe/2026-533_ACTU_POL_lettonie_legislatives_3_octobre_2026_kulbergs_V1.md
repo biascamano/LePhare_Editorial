@@ -3,7 +3,7 @@ Titre : Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'
 Type : ACTU
 Type article : Actualite
 Theme : POL
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Lettonie;élections législatives;Andris Kulbergs;Liste unie;coaliti
 Resume court (500 caracteres max) : Le 3 octobre 2026, la Liste unie du Premier ministre Andris Kulbergs arrive nettement en tête des législatives lettones, sans majorité. Lecture d'un résultat entre sécurité, coût de la vie et fragmentation.
 Objectif de l'article : Apprendre à lire un résultat électoral proportionnel : score, sièges, participation et coalition.
 Sources principales : Al Jazeera ; France 24
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/
 
 ---
 

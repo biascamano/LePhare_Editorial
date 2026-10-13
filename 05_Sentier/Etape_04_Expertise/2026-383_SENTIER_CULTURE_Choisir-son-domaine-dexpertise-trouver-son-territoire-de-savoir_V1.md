@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Après avoir construit une culture générale solide, appris à exercer son esprit critique et développé l’art de l’argumentation, l’érudit en devenir doit franchir un cap : approfondir un ou plusieurs domaines d’expertise. Mais comment choisir ? Dans 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/choisir-son-domaine-dexpertise-trouver-son-territoire-de-savoir/
+URL WordPress (si publie) : https://le-phare.info/choisir-son-domaine-dexpertise-trouver-son-territoire-de-savoir/
 
 ---
 

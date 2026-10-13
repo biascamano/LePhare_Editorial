@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Les hommes se persuadent mieux par les raisons qu’ils découvrent eux-mêmes que par celles qu’on leur impose.” – Pascal 📌 Introduction On dit souvent que “les faits parlent d’eux-mêmes”. En réalité, les faits n’ont pas de voix : c’est le récit qui leur donne 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/lart-de-raconter-storytelling-critique/
+URL WordPress (si publie) : https://le-phare.info/lart-de-raconter-storytelling-critique/
 
 ---
 

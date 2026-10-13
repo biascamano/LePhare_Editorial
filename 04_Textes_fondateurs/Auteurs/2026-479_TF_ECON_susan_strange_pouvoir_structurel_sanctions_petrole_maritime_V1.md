@@ -2,7 +2,7 @@ ID article : 2026-479
 Titre : Susan Strange : le pouvoir structurel pour lire sanctions pétrolières et services maritimes
 Type : TF
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-23
 Date de derniere mise a jour : 2026-05-23
@@ -13,7 +13,7 @@ Mots-cles : Susan Strange;pouvoir structurel;économie politique internationale;
 Resume court (500 caracteres max) : Dans States and Markets (1988) Susan Strange distingue pouvoir relationnel et pouvoir structurel — sécurité, production, finance, savoir. Cadre pour comprendre qui fait tenir les sanctions sur le pétrole russe en 2026.
 Objectif de l article : Donner un repère durable sur les leviers invisibles (finance, assurance, transport) derrière les licences UK et le projet d embargo maritime UE-G7.
 Sources principales : Susan Strange States and Markets (1988) Casino Capitalism (1986) synthèses IEP
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/susan-strange-pouvoir-structurel-sanctions-petrole-maritime/
 Triptyque ID : routine_econ_sanctions_petrole_strange_2026-05-23
 Triptyque titre : Sanctions pétrole russe : Strange, licences UK et carte systémique
 Triptyque ordre : 2

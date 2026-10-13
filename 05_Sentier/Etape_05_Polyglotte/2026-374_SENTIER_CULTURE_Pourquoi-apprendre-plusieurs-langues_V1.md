@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Pendant longtemps, parler plusieurs langues était un privilège réservé à une élite : diplomates, marchands, savants. Aujourd’hui, grâce aux voyages, aux outils numériques et aux ressources pédagogiques, l’apprentissage des langues est devenu access
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/pourquoi-apprendre-plusieurs-langues/
+URL WordPress (si publie) : https://le-phare.info/pourquoi-apprendre-plusieurs-langues/
 
 ---
 

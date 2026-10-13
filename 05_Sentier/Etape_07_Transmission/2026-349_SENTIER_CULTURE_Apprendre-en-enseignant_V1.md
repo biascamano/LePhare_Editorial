@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte On croit souvent que l’enseignement est un acte unidirectionnel : celui qui sait transmet à celui qui ignore.👉 Mais la réalité est plus subtile : enseigner est aussi une manière d’apprendre. Cette idée, déjà présente chez les philosophes antiques,
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/apprendre-en-enseignant/
+URL WordPress (si publie) : https://le-phare.info/apprendre-en-enseignant/
 
 ---
 

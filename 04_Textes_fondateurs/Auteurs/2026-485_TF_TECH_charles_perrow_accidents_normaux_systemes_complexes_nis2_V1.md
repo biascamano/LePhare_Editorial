@@ -2,7 +2,7 @@ ID article : 2026-485
 Titre : Charles Perrow : les « accidents normaux » dans les systèmes complexes — lire NIS2 autrement
 Type : TF
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-27
 Date de derniere mise a jour : 2026-05-27
@@ -13,7 +13,7 @@ Mots-cles : Charles Perrow, accidents normaux, systemes complexes, cybersecurite
 Resume court (500 caracteres max) : Dans Normal Accidents (1984) Charles Perrow montre que certains systemes technologiques couplés et complexes produisent des incidents structurellement possibles. Ce cadre eclaire NIS2 : harmoniser les declarations ne supprime pas la normalite des accidents cyber.
 Objectif de l article : Presenter la these de Perrow et ce qu elle apporte a la lecture des politiques europeennes de cyber-resilience sans fatalisme ni culte de la conformite papier.
 Sources principales : Charles Perrow, Normal Accidents (1984) ; The Next Catastrophe (2007)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/charles-perrow-accidents-normaux-systemes-complexes-nis2/
 Triptyque ID : routine_tech_nis2_templates_2026-05-27
 Triptyque titre : NIS2 : formulaires harmonises, systemes complexes et lecture europeenne
 Triptyque ordre : 2

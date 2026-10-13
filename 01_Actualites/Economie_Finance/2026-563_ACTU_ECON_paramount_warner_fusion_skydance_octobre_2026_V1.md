@@ -3,7 +3,7 @@ Titre : Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, 
 Type : ACTU
 Type article : Actualite
 Theme : ECON
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-08
 Date de derniere mise a jour : 2026-10-08
@@ -22,7 +22,7 @@ Mots-cles : Paramount Warner fusion;Skydance;concentration des médias;décret d
 Resume court (500 caracteres max) : Le 6 octobre 2026, Paramount Skydance a finalisé le rachat de Warner Bros. Discovery pour 111 milliards de dollars, dette comprise. La fusion a été autorisée en échange d'engagements de cinq ans : quotas de films en salle, négociation séparée des chaînes câblées, comité d'indépendance éditoriale pour CBS News et CNN.
 Objectif de l'article : Établir les faits de la fusion, détailler les engagements obtenus par douze États et leurs limites, et poser la question du contrôle des promesses dans le temps.
 Sources principales : AP (WSLS, Local10) ; The Hollywood Reporter ; communiqué Paramount Skydance / Warner Bros. Discovery ; Political.org ; AmericanTV ; /Film
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/paramount-warner-fusion-skydance-octobre-2026/
 
 ---
 

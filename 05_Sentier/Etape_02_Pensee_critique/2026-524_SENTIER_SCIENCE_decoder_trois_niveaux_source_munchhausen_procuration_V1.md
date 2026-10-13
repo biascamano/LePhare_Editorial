@@ -2,7 +2,7 @@ ID article : 2026-524
 Titre : Décoder trois niveaux de source autour du Münchhausen par procuration (juin 2026)
 Type : SENTIER
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -17,7 +17,7 @@ Mots-cles : lecture critique;sources;Münchhausen par procuration;procès Daubon
 Resume court (500 caracteres max) : Atelier étape 2, fondamental 2026-198 (Lire une source avec discernement) : trois niveaux — article scientifique, compte rendu judiciaire, titre médiatique — appliqués au SMPP après le procès Daubon et l'article Michel et al. (2024).
 Objectif de l article : Donner une grille réutilisable pour ne pas confondre hypothèse clinique, fait judiciaire et raccourci de presse sur un sujet sensible.
 Sources principales : Archives of Legal Medicine;Ouest-France;TF1 Info;fondamental Lire une source avec discernement
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/decoder-trois-niveaux-source-munchhausen-procuration/
 Triptyque ID : routine_science_munchhausen_procuration_2026-06-11
 Triptyque titre : Münchhausen par procuration : diagnostic, justice et lecture des sources
 Triptyque ordre : 3

@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Lorsqu’on choisit un domaine d’expertise, on découvre vite qu’il n’est pas homogène.Il est fait de sous-disciplines, de courants de pensée, de débats internes, et parfois de conflits féroces. 👉 Pour progresser en profondeur, il ne suffit pas d’acc
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/cartographier-un-champ-de-savoir-se-reperer-dans-la-complexite/
+URL WordPress (si publie) : https://le-phare.info/cartographier-un-champ-de-savoir-se-reperer-dans-la-complexite/
 
 ---
 

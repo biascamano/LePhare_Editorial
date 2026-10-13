@@ -3,7 +3,7 @@ Titre : Argentine : un passeport contre 350 000 dollars, ou ce que vaut une cito
 Type : ACTU
 Type article : Actualite
 Theme : ECON
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Argentine;citoyenneté par investissement;passeport doré;Milei;inve
 Resume court (500 caracteres max) : Le 2 octobre 2026, à Paris, l'Argentine a présenté un programme de citoyenneté par investissement : 350 000 dollars de contribution ou 800 000 dollars d'obligations publiques. Une première en Amérique du Sud, qui pose la question de ce qu'est une nationalité.
 Objectif de l'article : Comprendre la logique économique des passeports dorés et les questions politiques qu'ils soulèvent.
 Sources principales : AFP (Business Recorder) ; CP24 ; Malay Mail
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/argentine-citoyennete-par-investissement-milei-octobre-2026/
 
 ---
 

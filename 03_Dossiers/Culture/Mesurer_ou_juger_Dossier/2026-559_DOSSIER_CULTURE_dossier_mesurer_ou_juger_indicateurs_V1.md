@@ -3,7 +3,7 @@ Titre : Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors ch
 Type : DOSSIER
 Type article : Dossier
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : indicateurs;mesure;évaluation;loi de Goodhart;Campbell
 Resume court (500 caracteres max) : Sondages, scores électoraux, fréquentation d'un musée, prix d'un passeport, utilité d'une recherche : un mois d'actualité montre comment un chiffre utile finit par décider à notre place. Ce dossier rassemble les cas et la grille pour les lire.
 Objectif de l'article : Relier les articles d'octobre 2026 sur la mesure et le jugement autour d'une même question et d'une grille durable (Campbell, Goodhart).
 Sources principales : Articles 2026-533 à 2026-558 du Phare ; D. T. Campbell, Assessing the Impact of Planned Social Change (1976) ; C. Goodhart, Problems of Monetary Management: The UK Experience (1975)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/
 
 ---
 

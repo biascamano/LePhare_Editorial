@@ -2,7 +2,7 @@ ID article : 2026-527
 Titre : Cartographier trois controverses sur le problème difficile de la conscience (juin 2026)
 Type : SENTIER
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-15
 Date de derniere mise a jour : 2026-06-15
@@ -17,7 +17,7 @@ Mots-cles : controverses;conscience;problème difficile;IIT;matérialisme;atelie
 Resume court (500 caracteres max) : Atelier étape 4, fondamental 2026-177 : trois controverses structurantes — existence du problème difficile, production vs fondamentalité de la conscience, IIT vs théories fonctionnelles — appliquées à Koch (avril 2026) et Chalmers (1995).
 Objectif de l article : Donner une grille réutilisable pour situer un débat sur la conscience sans le réduire à « science vs mystère » ou à un duel simpliste.
 Sources principales : ScienceDaily;Chalmers (1995);Nature Reviews Neuroscience;Cogitate Consortium
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cartographier-controverses-probleme-difficile-conscience/
 Triptyque ID : routine_science_conscience_probleme_difficile_2026-06-15
 Triptyque titre : Le problème difficile de la conscience : neuroscience, philosophie et controverses
 Triptyque ordre : 3

@@ -3,7 +3,7 @@ Titre : Washington crée une « Super Intelligence Force » : un tsar de l'IA, m
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : intelligence artificielle;Super Intelligence Force;Jay Clayton;autor
 Resume court (500 caracteres max) : Le 4 octobre 2026, Donald Trump a confié au directeur du renseignement national, Jay Clayton, la direction d'une « Super Intelligence Force ». Cinq jours plus tôt, six dirigeants de l'IA signaient un accord de sécurité non contraignant. Ce qui est décidé, ce qui ne l'est pas.
 Objectif de l'article : Distinguer, dans une annonce de gouvernance de l'IA, ce qui relève de l'organisation, de l'engagement volontaire et de la règle contraignante.
 Sources principales : MS NOW ; Yahoo News ; Al Jazeera ; Quartz (citant le Wall Street Journal)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/etats-unis-super-intelligence-force-jay-clayton-octobre-2026/
 
 ---
 

@@ -2,7 +2,7 @@ ID article : 2026-469
 Titre : Marché carbone UE : pourquoi la réforme des benchmarks de mai 2026 divise climat et industrie
 Type : ACTU
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-20
 Date de derniere mise a jour : 2026-05-20
@@ -13,7 +13,7 @@ Mots-cles : ETS;marche carbone;benchmarks;decarbonation;industrie europeenne;Com
 Resume court (500 caracteres max) : Le 11 mai 2026 la Commission propose de nouveaux benchmarks ETS pour 2026-2030. L industrie garderait en moyenne 75 pour cent d allocations gratuites mais le maintien de certaines lignes electriques coute environ 4 milliards d euros. Decrypter sans amalgamer cadeau climatique et pause verte.
 Objectif de l article : Situer la proposition de mai 2026 dans le calendrier ETS et les jeux d acteurs sans reduire le debat a un chiffre mediatique.
 Sources principales : Commission europeenne, EU Law Live, Euronews, L'Info durable
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ets-benchmarks-mai-2026-marche-carbone-ue/
 Triptyque ID : routine_climat_ets_stern_2026-05-20
 Triptyque titre : ETS europeen : economie du carbone, lecture des sources et benchmarks 2026
 Triptyque ordre : 1

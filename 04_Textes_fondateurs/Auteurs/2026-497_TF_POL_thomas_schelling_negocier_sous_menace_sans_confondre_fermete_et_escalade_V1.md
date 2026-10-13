@@ -2,7 +2,7 @@ ID article : 2026-497
 Titre : Thomas Schelling : negocier sous menace sans confondre fermete et escalade
 Type : TF
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-02
 Date de derniere mise a jour : 2026-06-02
@@ -13,7 +13,7 @@ Mots-cles : Thomas Schelling, coercition, deterrence, bargaining, diplomatie de 
 Resume court (500 caracteres max) : Schelling montre que la negociation sous menace repose sur le dosage du risque, la credibilite et les signaux. Un cadre utile pour lire le dossier Iran-Etats-Unis en 2026.
 Objectif de l article : Donner une grille de lecture solide des crises diplomatiques ou la communication est une partie de la negociation.
 Sources principales : Thomas C. Schelling, The Strategy of Conflict ; Arms and Influence.
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/thomas-schelling-negocier-sous-menace-sans-confondre-fermete-et-escalade/
 Triptyque ID : routine_pol_iran_negociation_2026-06-02
 Triptyque titre : Iran-Etats-Unis : signaux de negociation, theorie de la coercition et methode d argumentation
 Triptyque ordre : 2

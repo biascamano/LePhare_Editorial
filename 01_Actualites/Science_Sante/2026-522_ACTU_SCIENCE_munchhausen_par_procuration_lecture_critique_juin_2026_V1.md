@@ -2,7 +2,7 @@ ID article : 2026-522
 Titre : Münchhausen par procuration : six mois après le procès Daubon, ce qu'un diagnostic rare change — et ce qu'il ne prouve pas
 Type : ACTU
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -13,7 +13,7 @@ Mots-cles : Münchhausen par procuration;trouble factice imposé à autrui;maltr
 Resume court (500 caracteres max) : Le 3 décembre 2025, Maylis Daubon est condamnée pour avoir empoisonné ses filles ; le SMPP a été évoqué au procès. En juin 2026, la littérature rappelle la rareté du trouble et la difficulté diagnostique — sans confondre hypothèse clinique, preuve pénale et titre médiatique.
 Objectif de l article : Situer le syndrome de Münchhausen par procuration après une affaire judiciaire médiatisée, en séparant nomenclature médicale, faisceau d'indices et verdict.
 Sources principales : Cour d'assises des Landes;Le Monde Réalités biomédicales;Archives of Legal Medicine;Parents.fr
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/munchhausen-par-procuration-lecture-critique-juin-2026/
 Triptyque ID : routine_science_munchhausen_procuration_2026-06-11
 Triptyque titre : Münchhausen par procuration : diagnostic, justice et lecture des sources
 Triptyque ordre : 1

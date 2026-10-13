@@ -2,7 +2,7 @@ ID article : 2026-471
 Titre : Lire un dossier ETS sans confondre proposition, consultation et chiffre médiatique
 Type : SENTIER
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-20
 Date de derniere mise a jour : 2026-05-20
@@ -17,7 +17,7 @@ Mots-cles : ETS;marche carbone;pensee critique;sources;benchmarks;lecture critiq
 Resume court (500 caracteres max) : Six questions pour classer un communiqué Commission, un article de presse ou une tribune syndicale sur l ETS : statut juridique, perimetre, auteur, chiffre agrege, calendrier et action possible.
 Objectif de l article : Atelier etape 2 appliquant le fondamental Lire une source avec discernement au triptyque marche carbone mai 2026.
 Sources principales : Commission europeenne ETS, methodologie benchmarks, Stern Review
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-dossier-ets-proposition-consultation-chiffre/
 Triptyque ID : routine_climat_ets_stern_2026-05-20
 Triptyque titre : ETS europeen : economie du carbone, lecture des sources et benchmarks 2026
 Triptyque ordre : 3

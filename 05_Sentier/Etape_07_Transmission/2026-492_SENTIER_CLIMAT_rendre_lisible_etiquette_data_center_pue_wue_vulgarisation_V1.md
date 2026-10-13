@@ -2,7 +2,7 @@ ID article : 2026-492
 Titre : Rendre lisible l'étiquette data center : PUE, WUE et limites de la vulgarisation
 Type : SENTIER
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-29
 Date de derniere mise a jour : 2026-05-29
@@ -17,7 +17,7 @@ Mots-cles : data centers, vulgarisation, PUE, WUE, transmission, etiquette, atel
 Resume court (500 caracteres max) : Atelier etape 7 sur le fondamental Vulgarisation : six questions pour expliquer l etiquette europeenne du 27 mai 2026 sans reduire le debat a un score vert ou a une cabale anti-tech.
 Objectif de l article : Donner une grille reutilisable pour transmettre le dossier data centers PUE WUE transparence a partir des sources de l ACTU du jour.
 Sources principales : Euronews 27 mai 2026, Philip Lee LLP, Taylor Wessing, Directive EED 2023/1791
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/rendre-lisible-etiquette-data-center-pue-wue-vulgarisation/
 Triptyque ID : routine_climat_datacenters_etiquette_2026-05-29
 Triptyque titre : Data centers : etiquette, Latour et transmission du debat
 Triptyque ordre : 3

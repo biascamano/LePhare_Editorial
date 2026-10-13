@@ -2,7 +2,7 @@ ID article : 2026-495
 Titre : Tester les preuves d'un dossier GPAI : méthode en six étapes
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-01
 Date de derniere mise a jour : 2026-06-01
@@ -17,7 +17,7 @@ Mots-cles : GPAI, Code of Practice, méthode scientifique, transparence, conform
 Resume court (500 caracteres max) : Atelier étape 6 sur le fondamental Lire un article scientifique : six étapes pour tester un dossier GPAI (Code signé fiche transparence évaluation risque) à partir de l ACTU du 1er juin 2026 et des listes Commission.
 Objectif de l article : Donner une grille reutilisable pour évaluer les preuves de conformité GPAI sans confondre signature symbolique et documentation vérifiable.
 Sources principales : Commission européenne (Code GPAI, Q&A), artificialintelligenceact.eu, Collingridge (1980)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/tester-preuves-dossier-gpai-methode-six-etapes/
 Triptyque ID : routine_tech_gpai_code_2026-06-01
 Triptyque titre : GPAI en Europe : timing réglementaire, dilemme Collingridge et lecture des preuves
 Triptyque ordre : 3

@@ -2,7 +2,7 @@ ID article : 2026-521
 Titre : Ce que la galerie d'Angers révèle sur nos lectures de l'art (juin 2026)
 Type : SENTIER
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -17,7 +17,7 @@ Mots-cles : arts et littérature;patrimoine;architecture contemporaine;Kengo Kum
 Resume court (500 caracteres max) : Atelier étape 1, fondamental 2026-206 (Arts et littérature) : quatre questions pour lire la galerie Kuma à Angers comme œuvre de notre temps — ancré sur Le Monde et Chroniques d'architecture, avec la grille Ruskin du triptyque.
 Objectif de l article : Donner une grille réutilisable pour analyser une polémique patrimoniale sans réduire l'art à « j'aime / j'aime pas ».
 Sources principales : Le Monde;Chroniques d'architecture;franceinfo;fondamental Arts et littérature
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ce-que-galerie-angers-revele-lectures-art-patrimoine/
 Triptyque ID : routine_culture_cathedrale_angers_2026-06-11
 Triptyque titre : Cathédrale d'Angers : patrimoine, création contemporaine et lecture critique
 Triptyque ordre : 3

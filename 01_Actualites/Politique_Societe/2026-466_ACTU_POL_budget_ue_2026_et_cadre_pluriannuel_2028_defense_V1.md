@@ -2,7 +2,7 @@ ID article : 2026-466
 Titre : Budget européen 2026 et cadre 2028-2034 : pourquoi les chiffres ne disent pas la même chose selon qui parle
 Type : ACTU
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-19
 Date de derniere mise a jour : 2026-05-19
@@ -17,7 +17,7 @@ Mots-cles : budget Union europeenne;cadre financier pluriannuel;defense europeen
 Resume court (500 caracteres max) : En mai 2026 le Parlement prepare le budget annuel 2026 vers 194 milliards d euros et son mandat pour le cadre 2028-2034. Defense en hausse cohesion et agriculture sous pression. Decrypter sans confondre budget annuel et enveloppe pluriannuelle.
 Objectif de l article : Situer les deux calendriers budgetaires et les tensions entre Etats frugaux et Parlement sans reduire le debat a un slogan de 2000 milliards.
 Sources principales : Parlement europeen, Commission europeenne, Euronews, Grand Continent
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/budget-ue-2026-cadre-financier-2028-defense/
 Triptyque ID : routine_pol_budget_ue_2026-05-19
 Triptyque titre : Budget europeen : Scharpf, defense et argumentation en situation complexe
 Triptyque ordre : 1

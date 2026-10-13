@@ -3,7 +3,7 @@ Titre : Hawaï : l'arche de Hōlei s'effondre, et le paysage rappelle qu'il n'es
 Type : ACTU
 Type article : Actualite
 Theme : CLIMAT
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Hōlei;Hawaï;Kīlauea;érosion;arche marine;parc national
 Resume court (500 caracteres max) : Fin septembre 2026, l'arche marine de Hōlei, haute d'environ 27 mètres, s'est effondrée dans le parc national des volcans d'Hawaï. Taillée dans une coulée de lave d'environ 550 ans, elle avait été fragilisée par les séismes de 2018 et la houle.
 Objectif de l'article : Comprendre un effondrement naturel en articulant temps géologique, événements extrêmes et attribution climatique.
 Sources principales : National Park Service ; Hawaii Public Radio ; Hawaii News Now
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/hawaii-arche-holei-effondrement-kilauea-octobre-2026/
 
 ---
 

@@ -3,7 +3,7 @@ Titre : Influence : OpenAI dit avoir démasqué des campagnes russe et iranienne
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-09
 Date de derniere mise a jour : 2026-10-09
@@ -22,7 +22,7 @@ Mots-cles : opérations d'influence;OpenAI;ChatGPT;désinformation;Russie;Iran;A
 Resume court (500 caracteres max) : OpenAI affirme avoir démantelé une opération russe visant l'Amérique latine et une campagne iranienne de faux auteurs. Ce que l'on sait, ce qui repose sur la seule parole de l'entreprise.
 Objectif de l'article : Comprendre comment fonctionnent ces opérations d'influence et pourquoi leur révélation dépend presque entièrement de la plateforme utilisée
 Sources principales : NPR (8 et 9 octobre 2026) ; NBC News (8 octobre 2026) ; NeoTeo (9 octobre 2026) ; rapport OpenAI (8 octobre 2026)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/openai-operations-influence-russie-iran-octobre-2026/
 
 ---
 

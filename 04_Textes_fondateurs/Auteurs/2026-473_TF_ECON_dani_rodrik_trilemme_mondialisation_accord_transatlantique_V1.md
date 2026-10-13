@@ -2,7 +2,7 @@ ID article : 2026-473
 Titre : Dani Rodrik : le trilemme de la mondialisation pour lire l'accord transatlantique
 Type : TF
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-21
 Date de derniere mise a jour : 2026-05-21
@@ -13,7 +13,7 @@ Mots-cles : Dani Rodrik;trilemme;mondialisation;democratie;souverainetet nationa
 Resume court (500 caracteres max) : Dans Has Globalization Gone Too Far (1997) puis The Globalization Paradox, Rodrik montre qu une democratie ne peut pas simultanement hyperglobalisation souverainete nationale pleine et democratie sociale approfondie. Cadre pour lire Turnberry sans moraline libre-echange ou protectionnisme.
 Objectif de l article : Donner un repere durable sur les compromis institutionnels des accords UE-US et sur la tension entre regles economiques et preferences electorales.
 Sources principales : D. Rodrik Has Globalization Gone Too Far (1997) The Globalization Paradox (2011) fiches universitaires
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/dani-rodrik-trilemme-mondialisation-accord-transatlantique/
 Triptyque ID : routine_econ_turnberry_rodrik_2026-05-21
 Triptyque titre : Turnberry : trilemme de la mondialisation, jargon economique et accord transatlantique
 Triptyque ordre : 2

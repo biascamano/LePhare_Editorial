@@ -3,7 +3,7 @@ Titre : Lycées bloqués en France : des revendications scolaires, des violences
 Type : ACTU
 Type article : Actualite
 Theme : POL
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : lycées;blocus;mouvement lycéen;éducation;austérité;manifestatio
 Resume court (500 caracteres max) : Depuis le 21 septembre 2026, des blocages de lycées se sont étendus depuis l'académie de Créteil à toute la France. Classes surchargées, bâtiments dégradés, stress de Parcoursup : les revendications scolaires côtoient des violences graves. Lecture d'un mouvement à plusieurs visages.
 Objectif de l'article : Distinguer revendications, modes d'action et récits médiatiques dans un mouvement social en cours.
 Sources principales : CNews ; Wikipédia (synthèse des sources de presse)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/france-blocages-lycees-mouvement-lyceen-octobre-2026/
 
 ---
 

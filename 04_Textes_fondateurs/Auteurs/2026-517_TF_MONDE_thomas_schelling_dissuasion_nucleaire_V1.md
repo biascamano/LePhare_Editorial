@@ -2,7 +2,7 @@ ID article : 2026-517
 Titre : Thomas Schelling : pourquoi un budget nucléaire est aussi un message
 Type : TF
 Theme : MONDE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-10
 Date de derniere mise a jour : 2026-06-10
@@ -13,7 +13,7 @@ Mots-cles : Thomas Schelling;théorie des jeux;dissuasion;engagement crédible;s
 Resume court (500 caracteres max) : Schelling montre qu'un budget de dissuasion n'est pas qu'une dépense militaire : c'est aussi un signal de crédibilité adressé à un adversaire. Relire le rapport ICAN du 9 juin 2026 avec ce cadre évite de réduire +19 % à un simple chiffre d'escalade.
 Objectif de l article : Donner une grille de lecture durable pour comprendre pourquoi les budgets nucléaires augmentent même quand aucune partie ne dit vouloir une escalade.
 Sources principales : Thomas Schelling;The Strategy of Conflict;Nobel Prize;Modern War Institute
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/thomas-schelling-budget-nucleaire-message-credibilite/
 Triptyque ID : routine_monde_depenses_nucleaires_2026-06-10
 Triptyque titre : Dépenses nucléaires mondiales : lire les chiffres-chocs sans tomber dans les sophismes
 Triptyque ordre : 2

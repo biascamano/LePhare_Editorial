@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte “On n’écrit pas parce qu’on sait, on écrit pour savoir.”👉 Cette formule résume la puissance de l’écriture comme outil intellectuel. Souvent perçue comme une simple compétence de communication, l’écriture est en réalité une méthode de pensée.Mettre
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/ecrire-pour-clarifier-sa-pensee/
+URL WordPress (si publie) : https://le-phare.info/ecrire-pour-clarifier-sa-pensee/
 
 ---
 

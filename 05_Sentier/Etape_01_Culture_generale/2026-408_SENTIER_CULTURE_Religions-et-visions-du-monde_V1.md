@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Toutes les religions sont vraies.” – Gandhi 📌 Introduction La religion est l’un des moteurs les plus puissants de l’histoire humaine. Elle structure les sociétés, inspire les arts, façonne la morale, mais engendre aussi conflits et divisions. Comprendre les 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/religions-et-visions-du-monde/
+URL WordPress (si publie) : https://le-phare.info/religions-et-visions-du-monde/
 
 ---
 

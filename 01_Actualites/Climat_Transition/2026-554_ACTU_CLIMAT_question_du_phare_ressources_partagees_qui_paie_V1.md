@@ -3,7 +3,7 @@ Titre : Quand une industrie nouvelle a besoin de ressources que tout le monde pa
 Type : ACTU
 Type article : Question
 Theme : CLIMAT
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : biens communs;Elinor Ostrom;data centers;coût du réseau;ressources
 Resume court (500 caracteres max) : Réseau électrique, forêt, rivière : l'essor des data centers pose une question ancienne, celle du prix des ressources communes. Qui doit payer, celui qui arrive, celui qui profite, ou tout le monde ?
 Objectif de l'article : Donner des repères pour juger de la répartition du coût des ressources partagées face à une activité nouvelle.
 Sources principales : Le Phare (2026-553) ; Elinor Ostrom, Governing the Commons (1990) ; Garrett Hardin, The Tragedy of the Commons (1968) ; Prix Nobel d'économie 2009
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-ressources-partagees-qui-paie/
 
 ---
 

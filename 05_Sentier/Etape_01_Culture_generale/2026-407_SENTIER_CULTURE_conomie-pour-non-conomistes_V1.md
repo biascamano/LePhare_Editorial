@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “À long terme, nous serons tous morts.” – John Maynard Keynes 📌 Introduction L’économie semble réservée aux experts, aux banquiers et aux commentateurs spécialisés. Pourtant, elle influence chaque aspect de notre vie quotidienne : travail, prix, impôts, retra
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/economie-pour-non-economistes/
+URL WordPress (si publie) : https://le-phare.info/economie-pour-non-economistes/
 
 ---
 

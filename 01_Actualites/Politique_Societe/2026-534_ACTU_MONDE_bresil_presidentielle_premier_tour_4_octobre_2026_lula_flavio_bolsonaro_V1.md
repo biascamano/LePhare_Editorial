@@ -3,7 +3,7 @@ Titre : Brésil : Flávio Bolsonaro devant Lula au premier tour, et des sondages
 Type : ACTU
 Type article : Actualite
 Theme : MONDE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Brésil;élection présidentielle;Lula;Flávio Bolsonaro;sondages;po
 Resume court (500 caracteres max) : Le 4 octobre 2026, Flávio Bolsonaro devance Lula au premier tour de la présidentielle brésilienne, alors que les sondages donnaient le président sortant légèrement en tête. Second tour le 25 octobre.
 Objectif de l'article : Lire un écart entre sondages et résultat sans conclure trop vite à une erreur ou à une manipulation.
 Sources principales : CNN ; NPR
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/bresil-presidentielle-premier-tour-4-octobre-2026-lula-flavio-bolsonaro/
 
 ---
 

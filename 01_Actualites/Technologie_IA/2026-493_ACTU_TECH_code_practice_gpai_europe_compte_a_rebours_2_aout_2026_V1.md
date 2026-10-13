@@ -2,7 +2,7 @@ ID article : 2026-493
 Titre : Code of Practice GPAI : l'Europe entre signature volontaire et compte à rebours du 2 août 2026
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-01
 Date de derniere mise a jour : 2026-06-01
@@ -13,7 +13,7 @@ Mots-cles : AI Act, GPAI, Code of Practice, AI Office, conformité, modèles fon
 Resume court (500 caracteres max) : Publié le 10 juillet 2025 le Code of Practice GPAI est un outil volontaire pour démontrer la conformité aux art. 53-55. Les obligations GPAI s appliquent depuis le 2 août 2025 ; le 2 août 2026 l AI Office active ses pouvoirs d exécution. Signataires OpenAI Google Mistral et d autres ; Meta et xAI hors périmètre complet.
 Objectif de l article : Situer le Code et l échéance de juin-août 2026 sans confondre adhésion symbolique obligations légales et présomption de conformité.
 Sources principales : Commission européenne (Code GPAI, Q&A), AI Office, artificialintelligenceact.eu
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/code-practice-gpai-europe-compte-a-rebours-2-aout-2026/
 Triptyque ID : routine_tech_gpai_code_2026-06-01
 Triptyque titre : GPAI en Europe : timing réglementaire, dilemme Collingridge et lecture des preuves
 Triptyque ordre : 1

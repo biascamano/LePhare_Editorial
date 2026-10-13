@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Depuis la nuit des temps, l’humanité apprend par histoires.👉 Avant l’écriture, les mythes, légendes et récits oraux portaient les savoirs essentiels : valeurs, repères, techniques de survie.👉 Aujourd’hui encore, la narration reste l’un des moyens
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/raconter-une-histoire-pour-transmettre/
+URL WordPress (si publie) : https://le-phare.info/raconter-une-histoire-pour-transmettre/
 
 ---
 

@@ -3,7 +3,7 @@ Titre : Nobel de médecine 2026 : l'optogénétique, ou comment une algue a appr
 Type : ACTU
 Type article : Actualite
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : prix Nobel 2026;optogénétique;channelrhodopsine;Karl Deisseroth;Pe
 Resume court (500 caracteres max) : Le 5 octobre 2026, le Nobel de physiologie ou médecine a récompensé Karl Deisseroth, Peter Hegemann et Georg Nagel pour l'optogénétique. Une technique née de l'étude d'une algue qui nage vers la lumière, devenue un outil central des neurosciences. Ce qui est établi, ce qui reste à prouver.
 Objectif de l'article : Comprendre ce qu'est l'optogénétique, comment elle est née et ce qu'elle permet aujourd'hui, en distinguant l'acquis du prometteur.
 Sources principales : Assemblée Nobel de l'Institut Karolinska (communiqué du 5 octobre 2026) ; Scientific American ; GEN ; Neuroscience News ; C&EN
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/nobel-medecine-2026-optogenetique-deisseroth-hegemann-nagel/
 
 ---
 

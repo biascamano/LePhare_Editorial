@@ -3,7 +3,7 @@ Titre : Sanctions contre la Cour pénale internationale : Washington vise désor
 Type : ACTU
 Type article : Actualite
 Theme : MONDE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-12
 Date de derniere mise a jour : 2026-10-12
@@ -22,7 +22,7 @@ Mots-cles : Cour pénale internationale;sanctions américaines;CPI;statut de blo
 Resume court (500 caracteres max) : Le 9 octobre 2026, les États-Unis ont sanctionné la Cour pénale internationale en tant qu'institution, après avoir visé une douzaine de ses juges et procureurs. Ce que prévoient les mesures, comment l'Europe peut répondre, et ce que révèle la dépendance d'une juridiction à des services qu'elle ne contrôle pas.
 Objectif de l'article : Établir les faits des sanctions du 9 octobre, situer l'escalade engagée depuis février 2025, présenter les arguments des deux camps et les leviers européens.
 Sources principales : AP (KSAT) ; Euronews ; Al Jazeera ; Human Rights Watch
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cour-penale-internationale-sanctions-americaines-octobre-2026/
 
 ---
 

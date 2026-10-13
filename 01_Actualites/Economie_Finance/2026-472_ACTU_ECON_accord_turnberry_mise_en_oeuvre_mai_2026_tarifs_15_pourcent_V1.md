@@ -2,7 +2,7 @@ ID article : 2026-472
 Titre : Accord UE–États-Unis : pourquoi Bruxelles valide le Turnberry alors que Washington brandit encore les tarifs
 Type : ACTU
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-21
 Date de derniere mise a jour : 2026-05-21
@@ -13,7 +13,7 @@ Mots-cles : Turnberry;accord commercial;UE-Etats-Unis;droits de douane;15 pour c
 Resume court (500 caracteres max) : Le 20 mai 2026 diplomates et eurodeputes actent la mise en oeuvre de l accord Turnberry de juillet 2025 : droits de douane US plafonnes a 15 pour cent sur les exportations europeennes, suppression des droits UE sur la plupart des biens industriels americains. Adoption formelle et menaces Trump sur les voitures avant debut juillet restent en jeu.
 Objectif de l article : Situer l acte du 20 mai 2026 sans confondre accord politique de 2025 legislation d implementation et menaces bilaterales hors texte.
 Sources principales : Euronews, Parlement europeen EPRS, Euractiv, Commission europeenne
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/accord-ue-us-turnberry-mise-en-oeuvre-mai-2026/
 Triptyque ID : routine_econ_turnberry_rodrik_2026-05-21
 Triptyque titre : Turnberry : trilemme de la mondialisation, jargon economique et accord transatlantique
 Triptyque ordre : 1

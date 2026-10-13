@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Le numérique a bouleversé la manière dont nous écrivons, lisons et transmettons le savoir.👉 Blogs, réseaux sociaux, podcasts, vidéos, newsletters, IA génératives : autant de canaux qui coexistent avec les formes classiques de l’écrit (livres, arti
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/ecrire-et-transmettre-a-lere-numerique/
+URL WordPress (si publie) : https://le-phare.info/ecrire-et-transmettre-a-lere-numerique/
 
 ---
 

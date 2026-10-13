@@ -2,7 +2,7 @@ ID article : 2026-476
 Titre : Hannah Arendt : l'apatridie et le « droit d'avoir des droits » pour lire l'externalisation migratoire
 Type : TF
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-22
 Date de derniere mise a jour : 2026-05-22
@@ -13,7 +13,7 @@ Mots-cles : Hannah Arendt;apatridie;droits de l homme;nation;externalisation;ref
 Resume court (500 caracteres max) : Dans Les Origines du totalitarisme Arendt montre que les apatrides des annees 1930 ont perdu le droit d avoir des droits des que aucun Etat ne les reconnaissait. Cadre pour lire les hubs de retour hors UE sans anachronisme ni equivoque morale gratuite.
 Objectif de l article : Donner un repere durable sur le lien entre territoire politique et effectivite des droits quand l Europe deplace les procedures migratoires hors de son sol.
 Sources principales : H. Arendt Les Origines du totalitarisme (1951) We Refugees (1943) traductions FR
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/hannah-arendt-apatridie-droit-avoir-des-droits-migration/
 Triptyque ID : routine_pol_migration_hubs_2026-05-22
 Triptyque titre : Migration UE : Arendt, apatridie et lecture des sources
 Triptyque ordre : 2

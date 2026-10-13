@@ -3,7 +3,7 @@ Titre : Question du Phare - Quand un dommage a des millions d'auteurs, peut-on e
 Type : ACTU
 Type article : Question
 Theme : CLIMAT
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : responsabilité;dommage collectif;climat;causalité;Hans Jonas;tromp
 Resume court (500 caracteres max) : Une ville du Colorado demande à deux pétroliers de payer une part de ses coûts climatiques. Derrière le procès, une question qui revient pour le tabac, les accidents industriels ou les technologies : quand un dommage a des millions d'auteurs, sur quoi fonder la responsabilité de quelques-uns ?
 Objectif de l'article : Disposer de questions simples pour juger une attribution de responsabilité dans un dommage collectif : qui a agi, qui savait, qui pouvait faire autrement, qui en a profité, et qui doit décider.
 Sources principales : Article A du Phare ; Cour suprême des États-Unis (dossier 25-170) ; H. Jonas, Le Principe responsabilité (1979) ; C. Perrow, Normal Accidents (1984)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-dommage-collectif-responsabilite/
 
 ---
 

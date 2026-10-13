@@ -2,7 +2,7 @@ ID article : 2026-488
 Titre : Albert Hirschman : commerce, dépendance et pouvoir de contrainte
 Type : TF
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-28
 Date de derniere mise a jour : 2026-05-28
@@ -13,7 +13,7 @@ Mots-cles : Albert Hirschman, commerce international, dependance, sanctions, pou
 Resume court (500 caracteres max) : Dans National Power and the Structure of Foreign Trade (1945), Hirschman montre que le commerce n'est pas seulement un echange de gains mais aussi une architecture de dependances mobilisable en levier politique. Une cle pour lire les sanctions energetiques de 2026.
 Objectif de l article : Relire Hirschman pour comprendre pourquoi les sanctions maritimes sont des instruments de pouvoir relationnel plus que de simple fermeture des flux.
 Sources principales : Albert O. Hirschman (1945), Mark Blyth, Helen Thompson
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/albert-hirschman-commerce-dependance-et-pouvoir-de-contrainte/
 Triptyque ID : routine_econ_sanctions_maritimes_2026-05-28
 Triptyque titre : Sanctions maritimes : normes, pouvoir commercial et argumentation publique
 Triptyque ordre : 2

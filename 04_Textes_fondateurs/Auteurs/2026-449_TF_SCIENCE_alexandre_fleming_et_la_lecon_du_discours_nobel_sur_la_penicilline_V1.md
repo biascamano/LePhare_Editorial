@@ -2,7 +2,7 @@ ID article : 2026-449
 Titre : Alexandre Fleming et la leçon du discours Nobel sur la pénicilline
 Type : TF
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-06
 Date de derniere mise a jour : 2026-05-06
@@ -13,7 +13,7 @@ Mots-cles : Fleming, pénicilline, Nobel, médecine, prévention, usage rationne
 Resume court (500 caracteres max) : En 1945, Alexander Fleming reçoit le prix Nobel pour la mise au point de la pénicilline. Son discours Nobel reste une référence paradoxale : il célèbre une découverte immense tout en mettant en garde contre les usages inconscients qui rendraient l’arme inefficace.
 Objectif de l article : Montrer que la tension entre innovation médicale et comportements sociaux n’est pas neuve — elle structure encore le débat sur les antimicrobiens.
 Sources principales : Nobel Prize — Fleming lecture 1945, littérature historique sur pénicilline et Seconde Guerre mondiale
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/fleming-discours-nobel-penicilline-prudence/
 Triptyque ID : routine_science_sante_ram_2026
 Triptyque titre : Résistance antimicrobienne : alertes, leçon historique et lecture critique
 Triptyque ordre : 2

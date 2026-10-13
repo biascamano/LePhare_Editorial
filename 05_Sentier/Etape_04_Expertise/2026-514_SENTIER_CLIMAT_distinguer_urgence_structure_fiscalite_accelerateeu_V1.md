@@ -2,7 +2,7 @@ ID article : 2026-514
 Titre : Distinguer urgence, structure et fiscalité : sept repères dans AccelerateEU (juin 2026)
 Type : SENTIER
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-09
 Date de derniere mise a jour : 2026-06-09
@@ -17,7 +17,7 @@ Mots-cles : AccelerateEU;cartographie;fiscalité énergétique;expertise;électr
 Resume court (500 caracteres max) : Atelier étape 4 fondamental 2026-178 : sept repères pour cartographier AccelerateEU après le catalogue du 13 mai 2026 — urgence, fiscalité électricité/gaz, réseaux — sans confondre annonce et déploiement.
 Objectif de l article : Donner une grille réutilisable pour se repérer dans un paquet énergétique européen dense quand la géopolitique réactive le choc des prix.
 Sources principales : Carbon Brief;EU Today;Real Instituto Elcano;Vaclav Smil
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/distinguer-urgence-structure-fiscalite-accelerateeu/
 Triptyque ID : routine_climat_accelerateeu_fiscalite_2026-06-09
 Triptyque titre : AccelerateEU : lenteur des transitions, prix relatifs et cartographie citoyenne
 Triptyque ordre : 3

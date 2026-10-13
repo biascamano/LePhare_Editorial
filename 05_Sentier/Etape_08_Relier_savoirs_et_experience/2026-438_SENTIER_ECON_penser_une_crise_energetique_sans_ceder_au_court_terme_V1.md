@@ -2,7 +2,7 @@ ID article : 2026-438
 Titre : Penser une crise énergétique sans céder au court terme : distinguer choc conjoncturel et dépendance structurelle
 Type : SENTIER
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-04-10
 Date de derniere mise a jour : 2026-04-10
@@ -13,7 +13,7 @@ Mots-cles : pensée critique, crise énergétique, court terme, structure, dépe
 Resume court (500 caracteres max) : Ce texte de Sentier propose un outil de lecture simple pour ne pas confondre l'événement énergétique du moment avec les dépendances profondes qui rendent les crises répétitives.
 Objectif de l'article : Aider le lecteur à distinguer réaction immédiate, vulnérabilité structurelle et transformation de long terme dans l'analyse d'une crise énergétique.
 Sources principales : France 24, Deutsche Welle, Banque de France, IEA, Vaclav Smil
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/penser-crise-energetique-court-terme-2/
 ---
 # SEO
 Mot-cle principal : penser crise énergétique court terme

@@ -2,7 +2,7 @@ ID article : 2026-508
 Titre : Package souveraineté tech : CAIDA, Chips Act 2.0 et ce que Bruxelles propose vraiment le 3 juin 2026
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-08
 Date de derniere mise a jour : 2026-06-08
@@ -13,7 +13,7 @@ Mots-cles : souveraineté technologique;CAIDA;Chips Act 2.0;cloud;semiconducteur
 Resume court (500 caracteres max) : Le 3 juin 2026 la Commission dévoile un package souveraineté : Cloud and AI Development Act, Chips Act 2.0, stratégie open source. Virkkunen évoque un « kill switch » sur les clouds critiques. Propositions à valider par les 27 — pas encore la loi, mais un cadrage net sur la dépendance US et chinoise.
 Objectif de l article : Situer le package du 3 juin sans amalgamer annonce stratégique, textes législatifs à venir et pilier énergie-IA déjà traité à part ; donner des repères datés avant l échéance AI Act du 2 août 2026.
 Sources principales : Commission européenne ; CNBC ; A&O Shearman (cité via CNBC)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/package-souverainete-technologique-ue-caida-chips-juin-2026/
 Triptyque ID : routine_tech_souverainete_package_2026-06-08
 Triptyque titre : Souveraineté numérique : légibilité institutionnelle, dépendances cloud et attention citoyenne
 Triptyque ordre : 1

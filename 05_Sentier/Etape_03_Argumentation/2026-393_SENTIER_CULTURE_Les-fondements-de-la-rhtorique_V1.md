@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “La rhétorique est la faculté de discerner, dans chaque cas, ce qui peut être propre à persuader.” – Aristote 📌 Introduction Depuis l’Antiquité, les penseurs ont cherché à comprendre pourquoi certains discours marquent les esprits et d’autres s’effacent aussi
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-fondements-de-la-rhetorique/
+URL WordPress (si publie) : https://le-phare.info/les-fondements-de-la-rhetorique/
 
 ---
 

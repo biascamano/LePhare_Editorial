@@ -2,7 +2,7 @@ ID article : 2026-518
 Titre : Repérer les sophismes derrière les chiffres-chocs du nucléaire militaire (juin 2026)
 Type : SENTIER
 Theme : MONDE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-10
 Date de derniere mise a jour : 2026-06-10
@@ -17,7 +17,7 @@ Mots-cles : sophismes;argumentation;dépenses nucléaires;ICAN;esprit critique;a
 Resume court (500 caracteres max) : Atelier étape 3, fondamental 2026-188 (Repérer et éviter les sophismes) : cinq sophismes à surveiller quand un chiffre-choc circule, appliqués au rapport ICAN (119 Md$, +19 %) et aux chiffres français de la dissuasion (37 Md€, 6 Md€/an, 449 Md€).
 Objectif de l article : Donner une grille réutilisable pour lire un chiffre-choc budgétaire sans tomber dans les sophismes les plus fréquents.
 Sources principales : ICAN;CNEWS;La Presse;Greenpeace France
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/reperer-sophismes-chiffres-chocs-nucleaire-militaire/
 Triptyque ID : routine_monde_depenses_nucleaires_2026-06-10
 Triptyque titre : Dépenses nucléaires mondiales : lire les chiffres-chocs sans tomber dans les sophismes
 Triptyque ordre : 3

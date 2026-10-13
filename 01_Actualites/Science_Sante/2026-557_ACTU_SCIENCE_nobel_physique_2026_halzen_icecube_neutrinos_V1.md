@@ -3,7 +3,7 @@ Titre : Nobel de physique 2026 : Francis Halzen et IceCube, ou trente-huit ans p
 Type : ACTU
 Type article : Actualite
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : Nobel de physique 2026;Francis Halzen;IceCube;neutrinos;astronomie m
 Resume court (500 caracteres max) : Le Nobel de physique 2026 récompense le seul Francis Halzen pour IceCube, un kilomètre cube de glace antarctique transformé en télescope à neutrinos. Proposée en 1988, l'idée a mis vingt-cinq ans à produire sa première découverte.
 Objectif de l'article : Expliquer ce que récompense le Nobel de physique 2026, ce qu'IceCube a réellement découvert et ce qui reste incertain.
 Sources principales : Académie royale des sciences de Suède (communiqué Nobel, 6 octobre 2026) ; Physics World ; NBC News ; Down To Earth ; IceCube Collaboration
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/nobel-physique-2026-halzen-icecube-neutrinos/
 
 ---
 

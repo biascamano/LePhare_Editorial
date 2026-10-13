@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Dans un monde saturé d’informations techniques, la vulgarisation scientifique et culturelle joue un rôle essentiel.👉 Elle permet au grand public d’accéder aux savoirs les plus complexes.👉 Elle évite que le savoir reste confiné dans des cercles d’
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/la-vulgarisation-lart-de-simplifier-sans-trahir/
+URL WordPress (si publie) : https://le-phare.info/la-vulgarisation-lart-de-simplifier-sans-trahir/
 
 ---
 

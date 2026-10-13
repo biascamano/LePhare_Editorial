@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Mieux vaut une tête bien faite qu’une tête bien pleine.” – Montaigne 📌 Introduction On associe souvent la “culture générale” à un quiz télé, à des concours, ou à un snobisme réservé aux élites. Pourtant, derrière le cliché se cache un enjeu bien plus vaste :
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/quest-ce-que-la-culture-generale-et-pourquoi-est-elle-essentielle/
+URL WordPress (si publie) : https://le-phare.info/quest-ce-que-la-culture-generale-et-pourquoi-est-elle-essentielle/
 
 ---
 

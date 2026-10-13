@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Écrire, c’est penser deux fois.” – Albert Camus 📌 Introduction Si l’oral captive par la présence et la voix, l’écrit possède un autre pouvoir : celui de laisser une trace durable.👉 Argumenter à l’écrit demande plus de rigueur que de spontanéité, car chaque 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/argumenter-a-lecrit/
+URL WordPress (si publie) : https://le-phare.info/argumenter-a-lecrit/
 
 ---
 

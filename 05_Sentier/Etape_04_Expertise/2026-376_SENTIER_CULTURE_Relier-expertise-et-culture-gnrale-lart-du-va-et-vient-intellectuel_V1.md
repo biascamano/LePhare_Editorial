@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Approfondir un domaine d’expertise est une étape décisive. Mais un danger guette : l’enfermement.À force de creuser, on risque de perdre de vue la richesse des autres savoirs, de se couper du monde commun. 👉 L’érudit ne peut se contenter d’être un
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/relier-expertise-et-culture-generale-lart-du-va-et-vient-intellectuel/
+URL WordPress (si publie) : https://le-phare.info/relier-expertise-et-culture-generale-lart-du-va-et-vient-intellectuel/
 
 ---
 

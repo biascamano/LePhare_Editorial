@@ -2,7 +2,7 @@ ID article : 2026-465
 Titre : Lire une annonce « IA réglementée » sans confondre délai, portée et abandon
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-18
 Date de derniere mise a jour : 2026-05-18
@@ -13,7 +13,7 @@ Mots-cles : régulation IA, AI Act, pensée critique, calendrier, portée juridi
 Resume court (500 caracteres max) : Les titres sur l AI Act mélangent accord politique adoption loi report général et exemption PME. Six questions pour classer l information garder du recul sans cynisme ni panique avant de prendre position.
 Objectif de l article : Outil Sentier étape 3 pour décrypter les annonces sur la régulation de l IA en Europe et ailleurs.
 Sources principales : Commission européenne, guides juridiques (SCL, Timelex), méthode Le Phare Sentier
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-annonce-regulation-ia-delai-portee/
 Triptyque ID : routine_tech_ai_act_omnibus_2026-05-18
 Triptyque titre : Réguler l'IA en Europe : calendrier, politique des artefacts et lecture critique
 Triptyque ordre : 3

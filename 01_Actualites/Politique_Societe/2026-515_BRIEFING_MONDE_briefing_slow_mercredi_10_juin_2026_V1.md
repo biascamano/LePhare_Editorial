@@ -2,7 +2,7 @@ ID article : 2026-515
 Titre : Briefing Slow — mercredi 10 juin 2026 : Ormuz élargi, ETS sous pression, Ukraine sans médiateur
 Type : BRIEFING
 Theme : MONDE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-10
 Date de derniere mise a jour : 2026-06-10
@@ -13,7 +13,7 @@ Mots-cles : briefing slow;actualite;Moyen-Orient;Ormuz;ETS;Ukraine;sanctions;Acc
 Resume court (500 caracteres max) : Le 10 juin 2026, les frappes autour d'Ormuz élargissent le conflit à la Jordanie et Bahreïn, Bruxelles prépare la bataille ETS du 15 juillet et un 18e paquet de sanctions, pendant que l'Ukraine subit des vagues de drones record. Ce briefing relie ces fils au graphe Le Phare.
 Objectif de l article : Revue de presse slow quotidienne : cadrer l'actualité du 10 juin, nommer les simplifications, renvoyer vers les outils déjà publiés sur Le Phare.
 Sources principales : l'Opinion;Boursorama;La Croix;RFI;AFP/BSS
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/briefing-monde-briefing-slow-mercredi-10-juin-2026/
 
 ---
 

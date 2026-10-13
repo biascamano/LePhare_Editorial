@@ -2,7 +2,7 @@ ID article : 2026-470
 Titre : Nicholas Stern et l'économie du changement climatique : relire le prix du carbone
 Type : TF
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-20
 Date de derniere mise a jour : 2026-05-20
@@ -13,7 +13,7 @@ Mots-cles : Nicholas Stern;Stern Review;economie du climat;prix du carbone;exter
 Resume court (500 caracteres max) : Le Stern Review (2006) formalise le cout social du carbone et le risque de retarder l action. Il eclaire pourquoi un marche ETS n est ni une taxe punitive ni un gadget technique mais un arbitrage intergenerationnel conteste.
 Objectif de l article : Donner un cadre durable pour lire les debats sur quotas gratuits et signal prix sans caricature.
 Sources principales : Stern Review (HM Treasury 2006), litterature economie climat
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/nicholas-stern-economie-climat-prix-carbone/
 Triptyque ID : routine_climat_ets_stern_2026-05-20
 Triptyque titre : ETS europeen : economie du carbone, lecture des sources et benchmarks 2026
 Triptyque ordre : 2

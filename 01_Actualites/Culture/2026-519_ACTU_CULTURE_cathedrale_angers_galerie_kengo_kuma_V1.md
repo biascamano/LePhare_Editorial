@@ -2,7 +2,7 @@ ID article : 2026-519
 Titre : Cathédrale d'Angers : ce que la galerie de Kengo Kuma protège — et ce qu'elle ne tranche pas
 Type : ACTU
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-11
 Date de derniere mise a jour : 2026-06-11
@@ -13,7 +13,7 @@ Mots-cles : Kengo Kuma;cathédrale d'Angers;patrimoine architectural;restauratio
 Resume court (500 caracteres max) : Le 9 avril 2026, Angers a inauguré la galerie contemporaine de Kengo Kuma devant le portail polychrome du XIIe siècle. Cinq arches de béton, 4,4 M€ financés par l'État, 74 candidatures au concours : une protection fonctionnelle qui rouvre un débat esthétique et patrimonial sans verdict simple.
 Objectif de l article : Situer l'inauguration du 9 avril 2026 et les controverses qu'elle suscite, sans trancher entre les positions en présence.
 Sources principales : Ministère de la Culture;Ville d'Angers;Le Monde;franceinfo
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cathedrale-angers-galerie-kengo-kuma/
 Triptyque ID : routine_culture_cathedrale_angers_2026-06-11
 Triptyque titre : Cathédrale d'Angers : patrimoine, création contemporaine et lecture critique
 Triptyque ordre : 1

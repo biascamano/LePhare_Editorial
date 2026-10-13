@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Traduire, ce n’est pas seulement transposer des mots d’une langue à une autre.👉 C’est une opération complexe, qui engage à la fois la précision technique (science) et la sensibilité esthétique et culturelle (art). Un bon traducteur doit être fidèl
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/traduire-un-art-et-une-science/
+URL WordPress (si publie) : https://le-phare.info/traduire-un-art-et-une-science/
 
 ---
 

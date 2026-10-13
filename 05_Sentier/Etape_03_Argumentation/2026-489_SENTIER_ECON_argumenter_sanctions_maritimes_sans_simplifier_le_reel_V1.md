@@ -2,7 +2,7 @@ ID article : 2026-489
 Titre : Argumenter sur des sanctions maritimes sans simplifier le réel
 Type : SENTIER
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-28
 Date de derniere mise a jour : 2026-05-28
@@ -17,7 +17,7 @@ Mots-cles : sanctions, argumentation, commerce maritime, dependance energetique,
 Resume court (500 caracteres max) : Atelier d'argumentation fonde sur l'actualite des licences britanniques liees au petrole russe: une grille en six tests pour debattre d'efficacite, de couts et de contournements sans tomber dans les slogans.
 Objectif de l article : Fournir une methode transferable pour argumenter sur les sanctions maritimes en articulant faits, temporalites et effets de structure.
 Sources principales : OFSI, Conseil de l'UE, AIE, Hirschman
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/argumenter-sanctions-maritimes-sans-simplifier-le-reel/
 Triptyque ID : routine_econ_sanctions_maritimes_2026-05-28
 Triptyque titre : Sanctions maritimes : normes, pouvoir commercial et argumentation publique
 Triptyque ordre : 3

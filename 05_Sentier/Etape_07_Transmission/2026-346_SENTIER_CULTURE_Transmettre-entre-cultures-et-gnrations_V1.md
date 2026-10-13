@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Transmettre le savoir n’est jamais neutre : il s’inscrit dans un contexte culturel et dans un rapport entre générations. 👉 Ce qui est évident dans une société peut être obscur dans une autre.👉 Ce qui motive un adolescent peut sembler insignifiant
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/transmettre-entre-cultures-et-generations/
+URL WordPress (si publie) : https://le-phare.info/transmettre-entre-cultures-et-generations/
 
 ---
 

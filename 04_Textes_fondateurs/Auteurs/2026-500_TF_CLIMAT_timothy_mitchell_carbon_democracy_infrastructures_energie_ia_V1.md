@@ -2,7 +2,7 @@ ID article : 2026-500
 Titre : Timothy Mitchell : infrastructures énergétiques et démocratie du carbone — lire la feuille de route énergie-IA
 Type : TF
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-03
 Date de derniere mise a jour : 2026-06-03
@@ -13,7 +13,7 @@ Mots-cles : Timothy Mitchell, Carbon Democracy, infrastructures énergétiques, 
 Resume court (500 caracteres max) : Mitchell montre que les formes de démocratie modernes ont été façonnées par la matérialité des flux énergétiques — charbon, pétrole — et leurs points de contrôle. Grille pour lire AI.grids et les accords tripartites data centers sans technocratie naïve.
 Objectif de l article : Présenter Mitchell pour comprendre pourquoi une feuille de route énergie-IA est autant un enjeu de gouvernance que de performance technique.
 Sources principales : Timothy Mitchell, Carbon Democracy (2011) ; Energy and Society (2013)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/timothy-mitchell-carbon-democracy-infrastructures-energie-ia/
 Triptyque ID : routine_tech_feuille_route_energie_ia_2026-06-03
 Triptyque titre : Feuille de route énergie-IA : démocratie carbone, cartographie et intégration des data centers
 Triptyque ordre : 2

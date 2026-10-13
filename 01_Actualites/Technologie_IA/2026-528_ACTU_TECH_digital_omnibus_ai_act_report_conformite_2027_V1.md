@@ -3,7 +3,7 @@ Titre : Le Digital Omnibus retouche l'AI Act : ce que le report au 2 décembre 2
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-06-25
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : Digital Omnibus;AI Act;régulation IA;conformité;Union européenne;
 Resume court (500 caracteres max) : Le 16 juin 2026, le Parlement européen adopte le Digital Omnibus, publié au Journal officiel le 24 juillet : la conformité des IA à haut risque est reportée au 2 décembre 2027, le marquage des contenus générés par IA reste fixé à la fin de 2026 et de nouvelles interdictions apparaissent. Ce qui change, ce qui ne change pas.
 Objectif de l'article : Situer les effets concrets du Digital Omnibus sur le calendrier de l'AI Act, sans réduire le report à un simple recul ni l'accélération à une simple victoire.
 Sources principales : Parlement européen;Gibson Dunn;White & Case;Inside Privacy;Cuatrecasas;Hunton
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/digital-omnibus-ai-act-report-conformite-2027/
 
 ---
 

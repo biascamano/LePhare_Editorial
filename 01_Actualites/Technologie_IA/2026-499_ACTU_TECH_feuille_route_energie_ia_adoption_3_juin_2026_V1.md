@@ -2,7 +2,7 @@ ID article : 2026-499
 Titre : Feuille de route énergie-IA : ce que Bruxelles engage le 3 juin 2026 — et ce qu'il reste à cartographier
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-03
 Date de derniere mise a jour : 2026-06-03
@@ -13,7 +13,7 @@ Mots-cles : énergie, intelligence artificielle, data centers, AI.grids, Union e
 Resume court (500 caracteres max) : Le 3 juin 2026, la Commission adopte sa feuille de route sur la digitalisation et l'IA dans l'énergie. Deux signatures marquent la journée : AI.grids pour les réseaux et une déclaration sur l'intégration durable des data centers. Lecture prudente des promesses et des calendriers.
 Objectif de l article : Situer l'événement du 3 juin sans confondre adoption stratégique, lancement de communautés de pratique et objectif 2030 de neutralité carbone des data centers.
 Sources principales : Commission européenne DG ENER ; White & Case ; EUobserver ; Euronews
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/feuille-route-energie-ia-adoption-3-juin-2026/
 Triptyque ID : routine_tech_feuille_route_energie_ia_2026-06-03
 Triptyque titre : Feuille de route énergie-IA : démocratie carbone, cartographie et intégration des data centers
 Triptyque ordre : 1

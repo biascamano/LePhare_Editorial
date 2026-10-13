@@ -2,7 +2,7 @@ ID article : 2026-464
 Titre : Langdon Winner : les artefacts ont-ils une politique ? — lire l'AI Act autrement
 Type : TF
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-18
 Date de derniere mise a jour : 2026-05-18
@@ -13,7 +13,7 @@ Mots-cles : Langdon Winner, politique des artefacts, technologie, régulation, A
 Resume court (500 caracteres max) : Dans Do Artifacts Have Politics (1980) Langdon Winner montre que certains objets techniques instaurent des rapports de pouvoir durables. Ce cadre éclaire le Digital Omnibus : recaler l AI Act n est pas neutre c est trancher qui gagne du temps et quelle forme d ordre technologique on entérine.
 Objectif de l article : Présenter la thèse de Winner et ce qu elle apporte à la lecture des débats européens sur la régulation de l IA sans réduire le texte à une opinion pour ou contre la tech.
 Sources principales : Langdon Winner, Do Artifacts Have Politics? (1980) ; The Whale and the Reactor (1986)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/langdon-winner-artefacts-politique-regulation-ia/
 Triptyque ID : routine_tech_ai_act_omnibus_2026-05-18
 Triptyque titre : Réguler l'IA en Europe : calendrier, politique des artefacts et lecture critique
 Triptyque ordre : 2

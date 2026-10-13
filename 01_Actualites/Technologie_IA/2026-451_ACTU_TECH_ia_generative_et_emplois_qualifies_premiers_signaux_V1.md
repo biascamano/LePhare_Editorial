@@ -2,7 +2,7 @@ ID article : 2026-451
 Titre : IA générative et emplois qualifiés : que disent les premières données ?
 Type : ACTU
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-07
 Date de derniere mise a jour : 2026-05-07
@@ -13,7 +13,7 @@ Mots-cles : intelligence artificielle, emploi, travail qualifié, automation, ma
 Resume court (500 caracteres max) : Après deux ans d'adoption massive, les premiers signaux sur l'impact de l'IA générative sur l'emploi qualifié arrivent. FMI, études MIT, secteur financier : les données ne racontent ni catastrophe ni continuité. Elles exigent une lecture méthodique.
 Objectif de l article : Présenter les premières mesures disponibles sur l'impact de l'IA générative sur l'emploi qualifié, en évitant catastrophisme et désinvolture, et en ancrant le signal dans une lecture structurée.
 Sources principales : FMI (janvier 2024), McKinsey Global Institute (2024), MIT/NBER Brynjolfsson et al. (2023), Goldman Sachs, OIT
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ia-generative-emploi-qualifie-premieres-donnees/
 Triptyque ID : routine_tech_ia_emploi_2026-05-07
 Triptyque titre : IA et emploi qualifié : signal, fondements, expertise durable
 Triptyque ordre : 1

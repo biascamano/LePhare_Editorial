@@ -2,7 +2,7 @@ ID article : 2026-474
 Titre : Lire un accord commercial sans se laisser impressionner par le jargon
 Type : SENTIER
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-21
 Date de derniere mise a jour : 2026-05-21
@@ -17,7 +17,7 @@ Mots-cles : accord commercial;jargon economique;tarifs;Turnberry;lecture critiqu
 Resume court (500 caracteres max) : Cinq questions et un mini-glossaire pour classer un titre sur Turnberry ou tout pacte UE-US : cadre vs loi d implementation plafond 15 pour cent NPF contingent et menace hors traité.
 Objectif de l article : Atelier etape 1 appliquant le fondamental Economie pour non-economistes au triptyque Turnberry Rodrik mai 2026.
 Sources principales : Euronews EPRS Parlement europeen OMC glossaires
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-accord-commercial-jargon-tarifs-turnberry/
 Triptyque ID : routine_econ_turnberry_rodrik_2026-05-21
 Triptyque titre : Turnberry : trilemme de la mondialisation, jargon economique et accord transatlantique
 Triptyque ordre : 3

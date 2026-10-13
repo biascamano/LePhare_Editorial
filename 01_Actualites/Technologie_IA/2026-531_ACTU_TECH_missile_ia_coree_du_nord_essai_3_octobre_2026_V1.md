@@ -3,7 +3,7 @@ Titre : Le missile « à IA » de Pyongyang : ce que l'essai du 3 octobre montre
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Corée du Nord;missile;intelligence artificielle;dissuasion;signal s
 Resume court (500 caracteres max) : Le 3 octobre 2026, la Corée du Nord a tiré un missile de portée intermédiaire qu'elle dit doté d'intelligence artificielle. Ce qui est vérifié, ce qui ne l'est pas, et pourquoi le mot « IA » est devenu une arme de communication.
 Objectif de l'article : Distinguer la capacité démontrée du message stratégique dans une annonce militaire invérifiable.
 Sources principales : France 24 ; La Libre Belgique ; Dawn ; OCDE.AI (AI Incidents Monitor)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/missile-ia-coree-du-nord-essai-3-octobre-2026/
 
 ---
 

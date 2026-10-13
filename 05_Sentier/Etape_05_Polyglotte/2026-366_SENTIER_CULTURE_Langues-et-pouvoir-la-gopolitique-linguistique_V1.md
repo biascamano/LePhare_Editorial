@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Une langue n’est jamais neutre.👉 Elle porte une histoire, des rapports de force, des hiérarchies sociales et politiques. Dans le monde actuel, certaines langues dominent (anglais, mandarin, espagnol, français), d’autres résistent (arabe, russe, hi
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/langues-et-pouvoir-la-geopolitique-linguistique/
+URL WordPress (si publie) : https://le-phare.info/langues-et-pouvoir-la-geopolitique-linguistique/
 
 ---
 

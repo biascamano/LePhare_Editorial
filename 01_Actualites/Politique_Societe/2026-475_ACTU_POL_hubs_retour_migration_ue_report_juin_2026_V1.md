@@ -2,7 +2,7 @@ ID article : 2026-475
 Titre : Hubs de retour hors d'Europe : pourquoi l'UE a un accord de principe mais pas encore de date
 Type : ACTU
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-22
 Date de derniere mise a jour : 2026-05-22
@@ -13,7 +13,7 @@ Mots-cles : politique migratoire UE;hubs de retour;expulsion;Pacte sur la migrat
 Resume court (500 caracteres max) : Les 20-21 mai 2026 l UE reporte au 1er juin le dernier verrou sur une reforme migratoire majeure incluant des centres de retour hors territoire europeen. Accord de principe mais date d entree en vigueur en suspens. Allemagne Danemark Autriche en tete France et Espagne sceptiques.
 Objectif de l article : Situer le report de mai 2026 sans amalgamer accord politique hubs a l etranger et droits effectifs des personnes deboutees.
 Sources principales : Parlement europeen, Commission europeenne, AFP, Le Figaro, Amnesty International
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/hubs-retour-migration-ue-report-juin-2026/
 Triptyque ID : routine_pol_migration_hubs_2026-05-22
 Triptyque titre : Migration UE : Arendt, apatridie et lecture des sources
 Triptyque ordre : 1

@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Avant l’imprimerie et l’ère numérique, le savoir circulait par la parole : maîtres et disciples, conteurs et auditeurs, débats publics, récits collectifs.👉 Aujourd’hui encore, la transmission orale garde une force unique : la voix, la présence, l’
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/lart-de-la-transmission-orale/
+URL WordPress (si publie) : https://le-phare.info/lart-de-la-transmission-orale/
 
 ---
 

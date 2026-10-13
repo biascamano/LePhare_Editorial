@@ -3,7 +3,7 @@ Titre : Saint François, 800 ans après : ce que l'Italie célèbre en refaisant
 Type : ACTU
 Type article : Actualite
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : saint François d'Assise;Assise;jour férié;Italie;patrimoine;sécu
 Resume court (500 caracteres max) : Le 4 octobre 2026, l'Italie a fêté les 800 ans de la mort de saint François, pour la première fois depuis 1977 en jour férié national. Ce que dit ce retour d'une fête religieuse dans le calendrier civil, et ce qu'il laisse ouvert.
 Objectif de l'article : Comprendre ce qu'un État sécularisé célèbre en restaurant une fête religieuse, entre foi, mémoire nationale et valeurs civiles.
 Sources principales : Euronews ; Vatican News ; Sky TG24 ; Geopop
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/saint-francois-assise-800-ans-4-octobre-ferie-italie/
 
 ---
 

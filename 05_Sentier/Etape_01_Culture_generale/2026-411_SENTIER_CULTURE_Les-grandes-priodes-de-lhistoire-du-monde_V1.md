@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “L’ignorance du passé compromet l’avenir.” – Marc Bloch 📌 Introduction La culture générale commence souvent par l’histoire. Non pas l’histoire comme une suite de dates à mémoriser, mais comme une cartographie du temps : comprendre comment les sociétés évoluen
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-grandes-periodes-de-lhistoire-du-monde/
+URL WordPress (si publie) : https://le-phare.info/les-grandes-periodes-de-lhistoire-du-monde/
 
 ---
 

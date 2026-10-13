@@ -2,7 +2,7 @@ ID article : 2026-448
 Titre : Résistance aux antimicrobiens : l’Europe entre nouvelles alertes et usages encore trop irrationnels
 Type : ACTU
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-06
 Date de derniere mise a jour : 2026-05-06
@@ -13,7 +13,7 @@ Mots-cles : résistance antimicrobienne, antibiotiques, santé publique, surveil
 Resume court (500 caracteres max) : Les autorités européennes et l’OMS rappellent que la résistance aux antimicrobiens continue de progresser et menace la médecine quotidienne. Pourtant prescription humaine, usages en élevage et attentes du public restent souvent mal alignés sur ce que la science autorise à espérer.
 Objectif de l article : Relier les signaux institutionnels récents aux écarts structurels d’usage pour éviter de réduire le débat à une « découverte miracle » ou à une fatalité silencieuse.
 Sources principales : OMS, ECDC, Commission européenne, rapport conjoint EFSA–ECDC–EMA (One Health)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/resistance-antimicrobiens-europe-usages-2026/
 Triptyque ID : routine_science_sante_ram_2026
 Triptyque titre : Résistance antimicrobienne : alertes, leçon historique et lecture critique
 Triptyque ordre : 1

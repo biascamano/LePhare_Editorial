@@ -2,7 +2,7 @@ ID article : 2026-507
 Titre : Construire le contexte historique du sommet de Tivat : six jalons pour lire les Balkans en juin 2026
 Type : SENTIER
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-05
 Date de derniere mise a jour : 2026-06-05
@@ -17,7 +17,7 @@ Mots-cles : Balkans occidentaux;repères historiques;sommet Tivat;élargissement
 Resume court (500 caracteres max) : Atelier étape 1 fondamental 2026-211 : six jalons de 1878 à 2026 pour situer Tivat sans anachronisme — Empire ottoman, Yougoslavie, guerres 90, Thessalonique, Berlin, Growth Plan.
 Objectif de l article : Appliquer la cartographie temporelle du fondamental Histoire du monde au triptyque Balkans Costa juin 2026.
 Sources principales : Conseil européen ; European Western Balkans ; Commission UE ; historiographie des Balkans
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/construire-contexte-historique-sommet-tivat-balkans-juin-2026/
 Triptyque ID : routine_pol_balkans_tivat_2026-06-05
 Triptyque titre : Balkans occidentaux : sommet de Tivat, néofonctionnalisme et repères historiques
 Triptyque ordre : 3

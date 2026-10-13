@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Un argument n’est pas une opinion bien dite, c’est une idée bien fondée.” – Inspiré de Boileau 📌 Introduction Tout le monde a des opinions. Mais toutes les opinions ne se valent pas.👉 Ce qui distingue une simple opinion d’un argument solide, c’est sa struct
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/construire-un-argument-solide/
+URL WordPress (si publie) : https://le-phare.info/construire-un-argument-solide/
 
 ---
 

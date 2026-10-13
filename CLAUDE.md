@@ -91,7 +91,8 @@ python tools/validate_index_editorial.py
 
 # Vérification de fin de routine (7 derniers jours, ou IDs donnés)
 python tools/verify_publication.py [IDs…] [--days 31] [--offline]
-python tools/verify_publication.py --fix                       # ajoute a-la-une, réécrit les liens ?p=
+python tools/verify_publication.py --fix                       # ajoute a-la-une, réécrit les liens ?p=, aligne les en-têtes
+python tools/verify_publication.py --sync-headers --offline    # local : Statut / URL des en-têtes ← index
 python tools/verify_publication.py --publish-drafts <IDs…>     # publie des brouillons désignés
 
 # Rénovation (plan.md §19)

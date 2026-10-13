@@ -2,7 +2,7 @@ ID article : 2026-509
 Titre : James C. Scott : voir comme un État — lire CAIDA et la grille de souveraineté cloud
 Type : TF
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-08
 Date de derniere mise a jour : 2026-06-08
@@ -13,7 +13,7 @@ Mots-cles : James C. Scott;Seeing Like a State;légibilité;souveraineté cloud;
 Resume court (500 caracteres max) : Dans Seeing Like a State (1998) Scott montre comment les États modernes rendent le monde lisible par des simplifications — noms, mesures, catégories — au prix de la complexité vécue. Cadre pour lire CAIDA : une grille de souveraineté cloud est aussi un geste de légibilité politique.
 Objectif de l article : Présenter la thèse de Scott et ce qu elle apporte à la lecture du package souveraineté de juin 2026 sans réduire la critique à un anti-étatisme simpliste.
 Sources principales : James C. Scott, Seeing Like a State (1998) ; The Art of Not Being Governed (2009)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/james-c-scott-voir-comme-un-etat-souverainete-cloud-caida/
 Triptyque ID : routine_tech_souverainete_package_2026-06-08
 Triptyque titre : Souveraineté numérique : légibilité institutionnelle, dépendances cloud et attention citoyenne
 Triptyque ordre : 2

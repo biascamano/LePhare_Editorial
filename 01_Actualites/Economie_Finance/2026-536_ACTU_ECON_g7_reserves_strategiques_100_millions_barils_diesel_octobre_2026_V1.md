@@ -3,7 +3,7 @@ Titre : G7 : 100 millions de barils de réserves pour calmer le diesel, un remè
 Type : ACTU
 Type article : Actualite
 Theme : ECON
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : G7;réserves stratégiques;diesel;pétrole;AIE;prix de l'énergie
 Resume court (500 caracteres max) : Le 2 octobre 2026, le G7 annonce la libération coordonnée de jusqu'à 100 millions de barils de diesel et de brut sur quatre mois, sous l'égide de l'AIE. Ce qu'une réserve stratégique peut faire, et ce qu'elle ne peut pas faire.
 Objectif de l'article : Comprendre le rôle et les limites des réserves stratégiques dans une crise des prix de l'énergie.
 Sources principales : NPR ; The Washington Post
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/g7-reserves-strategiques-100-millions-barils-diesel-octobre-2026/
 
 ---
 

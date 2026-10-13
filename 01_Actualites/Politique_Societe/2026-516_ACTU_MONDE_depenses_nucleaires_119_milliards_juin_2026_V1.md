@@ -2,7 +2,7 @@ ID article : 2026-516
 Titre : Dépenses nucléaires mondiales : 119 milliards de dollars en 2025, et trois chiffres français à ne pas confondre
 Type : ACTU
 Theme : MONDE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-10
 Date de derniere mise a jour : 2026-06-10
@@ -13,7 +13,7 @@ Mots-cles : ICAN;dépenses nucléaires;dissuasion;LPM;budget de défense;transpa
 Resume court (500 caracteres max) : Le 9 juin 2026, ICAN chiffre à 119 Md$ (+19 %) les dépenses 2025 des neuf États nucléaires. Côté français, trois chiffres circulent — 37 Md€ (LPM dissuasion), plus de 6 Md€/an, 449 Md€ (LPM 2026-2030 totale) — qui ne se comparent pas terme à terme.
 Objectif de l article : Situer le rapport ICAN du 9 juin 2026 et les chiffres français de la dissuasion sans laisser le lecteur fusionner des échelles différentes.
 Sources principales : ICAN;CNEWS;La Presse;Greenpeace France
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/depenses-nucleaires-mondiales-119-milliards-2026/
 Triptyque ID : routine_monde_depenses_nucleaires_2026-06-10
 Triptyque titre : Dépenses nucléaires mondiales : lire les chiffres-chocs sans tomber dans les sophismes
 Triptyque ordre : 1

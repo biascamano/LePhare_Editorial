@@ -2,7 +2,7 @@ ID article : 2026-530
 Titre : Construire trois niveaux de vulgarisation pour transmettre une règle IA sans la déformer (juin 2026)
 Type : SENTIER
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-06-25
 Date de derniere mise a jour : 2026-06-25
@@ -17,7 +17,7 @@ Mots-cles : vulgarisation;transmission;AI Act;Digital Omnibus;niveaux de lecture
 Resume court (500 caracteres max) : Atelier étape 7, fondamental 2026-149 : trois niveaux de vulgarisation — citoyen, professionnel, expert — appliqués au Digital Omnibus (16 juin 2026). Comment transmettre un calendrier réglementaire dense sans le déformer, le vider de son contenu ou le réduire à un gros titre.
 Objectif de l'article : Donner une grille réutilisable pour vulgariser un texte réglementaire complexe en trois niveaux de lecture, ancrée sur le cas réel du Digital Omnibus.
 Sources principales : Le Phare Info;Parlement européen;Gibson Dunn;Inside Privacy
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/construire-trois-niveaux-vulgarisation-regle-ia/
 
 ---
 

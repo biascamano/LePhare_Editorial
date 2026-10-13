@@ -2,7 +2,7 @@ ID article : 2026-504
 Titre : Naviguer entre mandat partiel, budget et trois fils AgoraEU : traduire le dossier de juin 2026
 Type : SENTIER
 Theme : CULTURE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-04
 Date de derniere mise a jour : 2026-06-04
@@ -17,7 +17,7 @@ Mots-cles : AgoraEU, traduction institutionnelle, mandat partiel, MFF, Creative 
 Resume court (500 caracteres max) : Atelier étape 5 sur le fondamental Traduire : sept traductions pour lire AgoraEU après le mandat partiel du 12 mai 2026 et la session CULT du 3 juin, sans confondre structure et budget.
 Objectif de l article : Grille réutilisable pour passer du langage UE (EN/FR) au sens opérationnel pour porteurs de projets et citoyens attentifs.
 Sources principales : Conseil ST-8313-2026 ; présidence chypriote ; agenda CULT 3 juin 2026
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/naviguer-mandat-partiel-agoraeu-traduction-institutionnelle/
 Triptyque ID : routine_culture_agoraeu_2026-06-04
 Triptyque titre : AgoraEU : sphère publique, mandat partiel et traduction institutionnelle
 Triptyque ordre : 3

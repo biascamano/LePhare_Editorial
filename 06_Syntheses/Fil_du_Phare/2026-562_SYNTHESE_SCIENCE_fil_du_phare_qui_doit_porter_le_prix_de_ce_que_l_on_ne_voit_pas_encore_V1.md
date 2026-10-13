@@ -3,7 +3,7 @@ Titre : Le Fil du Phare — Qui doit porter le prix de ce que l'on ne voit pas e
 Type : SYNTHESE
 Type article : Fil du Phare
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : coûts différés;responsabilité;incertitude;recherche fondamentale
 Resume court (500 caracteres max) : Un procès climatique, des data centers, la publicité dans ChatGPT, deux Nobel, une mort suspecte à Irkoutsk : cette semaine, chaque sujet posait la même question. Qui paie pour ce dont les effets n'apparaîtront que plus tard, ou ailleurs ?
 Objectif de l'article : Relier les articles de la semaine autour du prix de l'invisible : dommages différés, coûts partagés, bénéfices imprévisibles, risques non confirmés.
 Sources principales : Articles Le Phare 2026-549 à 2026-561 ; Hans Jonas, Le Principe responsabilité (1979)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/fil-du-phare-qui-doit-porter-le-prix-de-ce-que-l-on-ne-voit-pas-encore/
 
 ---
 

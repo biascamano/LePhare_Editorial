@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “On ne convainc pas seulement par la raison, mais par la manière dont on la présente.” – Aristote 📌 Introduction Convaincre ne repose pas uniquement sur des arguments solides.👉 La façon dont on présente une idée, dont on touche les émotions ou capte l’attent
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/les-techniques-de-persuasion/
+URL WordPress (si publie) : https://le-phare.info/les-techniques-de-persuasion/
 
 ---
 

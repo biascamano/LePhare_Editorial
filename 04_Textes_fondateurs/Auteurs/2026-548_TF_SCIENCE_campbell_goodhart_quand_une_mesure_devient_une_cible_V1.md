@@ -3,7 +3,7 @@ Titre : Texte fondateur - Campbell et Goodhart : quand une mesure devient une ci
 Type : TF
 Type article : Texte fondateur
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Donald T. Campbell;Charles Goodhart;Marilyn Strathern;indicateurs;me
 Resume court (500 caracteres max) : En 1975, l'économiste Charles Goodhart observe qu'une régularité statistique s'effondre dès qu'on s'en sert pour piloter. En 1976, le méthodologue Donald T. Campbell formule la même idée pour les politiques sociales. Une grille pour lire sondages, fréquentations et auto-évaluations sans prendre le chiffre pour la chose.
 Objectif de l'article : Donner une grille durable sur la déformation des indicateurs (Campbell, Goodhart, Strathern) et l'appliquer aux articles du mois.
 Sources principales : D. T. Campbell, Assessing the Impact of Planned Social Change (1976 ; Evaluation and Program Planning, 1979) ; C. Goodhart, Problems of Monetary Management: The UK Experience (1975) ; M. Strathern, European Review (1997)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/
 
 ---
 

@@ -3,7 +3,7 @@ Titre : Comment informer sur un accident de laboratoire quand le diagnostic n'es
 Type : ACTU
 Type article : Question
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : communication de crise;incertitude;sécurité des laboratoires;confi
 Resume court (500 caracteres max) : À Irkoutsk, une technicienne d'un institut antipeste est morte d'une pneumonie que les autorités refusent de nommer. Entre le silence qui rassure et l'alerte qui affole, existe-t-il une manière honnête de dire ce qu'on ne sait pas encore ?
 Objectif de l'article : Donner des repères pour juger une communication officielle en situation d'incertitude, et pour la lire soi-même sans minimiser ni dramatiser.
 Sources principales : The Moscow Times (2 et 5 octobre 2026) ; Al Jazeera (5 octobre 2026) ; Meduza (2 octobre 2026) ; Sverdlovsk 1979 et SRAS 2003 (synthèses Wikipedia) ; Onora O'Neill, Reith Lectures (2002)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/
 
 ---
 

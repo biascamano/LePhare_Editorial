@@ -2,7 +2,7 @@ ID article : 2026-505
 Titre : Sommet UE–Balkans occidentaux à Tivat : prospérité partagée, roaming et ce que juin 2026 promet (ou pas)
 Type : ACTU
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-05
 Date de derniere mise a jour : 2026-06-05
@@ -13,7 +13,7 @@ Mots-cles : Balkans occidentaux;élargissement UE;sommet Tivat;António Costa;in
 Resume court (500 caracteres max) : Le 5 juin 2026 à Tivat, Costa et Milatović co-président le sommet UE-Balkans sur la prospérité partagée. Tour régional du 1er au 5 juin, roaming, Growth Plan : dynamique réelle mais pas promesse d adhésion immédiate.
 Objectif de l article : Situer le sommet de juin 2026 sans confondre signal politique, intégration sectorielle et calendrier d élargissement.
 Sources principales : Conseil européen ; site officiel euwb26.me ; European Western Balkans ; New Union Post
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/
 Triptyque ID : routine_pol_balkans_tivat_2026-06-05
 Triptyque titre : Balkans occidentaux : sommet de Tivat, néofonctionnalisme et repères historiques
 Triptyque ordre : 1

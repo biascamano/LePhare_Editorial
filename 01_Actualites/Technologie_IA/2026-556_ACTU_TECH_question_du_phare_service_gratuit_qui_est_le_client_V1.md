@@ -3,7 +3,7 @@ Titre : Quand un service est gratuit, qui en est vraiment le client ?
 Type : ACTU
 Type article : Question
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : gratuité;publicité;économie de l'attention;Herbert Simon;Dallas S
 Resume court (500 caracteres max) : La publicité entre dans ChatGPT. Une vieille question revient : quand on ne paie pas un service, pour qui travaille-t-il ? Une lecture avec Herbert Simon et Dallas Smythe.
 Objectif de l'article : Donner des repères pour juger ce que l'on donne en échange d'un service gratuit.
 Sources principales : OpenAI ; MediaPost ; Herbert Simon (1971) ; Dallas Smythe (1977)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/
 
 ---
 

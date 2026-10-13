@@ -2,7 +2,7 @@ ID article : 2026-491
 Titre : Bruno Latour : quand l'étiquette ne clôt pas le débat — politiques de la nature et data centers
 Type : TF
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-29
 Date de derniere mise a jour : 2026-05-29
@@ -13,7 +13,7 @@ Mots-cles : Bruno Latour, politiques de la nature, indicateurs, data centers, cl
 Resume court (500 caracteres max) : Latour (Politiques de la nature, 1999 ; Ou atterrir, 2018) montre que mesures et etiquettes ne mettent pas fin au politique : elles le reorganisent. Cadre pour lire le debat europeen PUE/WUE et la querelle de transparence du 27 mai 2026.
 Objectif de l article : Presenter la these latourienne sur la constitution des faits ecologiques et son apport a la lecture des etiquettes data center sans anti-science ni cynisme.
 Sources principales : Bruno Latour, Politiques de la nature (1999) ; Où atterrir ? (2018) ; Pandora's Hope (1999)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/bruno-latour-etiquette-data-centers-politiques-nature/
 Triptyque ID : routine_climat_datacenters_etiquette_2026-05-29
 Triptyque titre : Data centers : etiquette, Latour et transmission du debat
 Triptyque ordre : 2

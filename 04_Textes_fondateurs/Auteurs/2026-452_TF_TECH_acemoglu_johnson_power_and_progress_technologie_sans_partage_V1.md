@@ -2,7 +2,7 @@ ID article : 2026-452
 Titre : Acemoglu et Johnson : la technologie ne partage pas la prospérité sans choix politiques
 Type : TF
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-07
 Date de derniere mise a jour : 2026-05-07
@@ -13,7 +13,7 @@ Mots-cles : Acemoglu, Johnson, Power and Progress, technologie, prospérité, tr
 Resume court (500 caracteres max) : Dans Power and Progress (2023), Daron Acemoglu et Simon Johnson relisent mille ans d'histoire technologique pour démontrer que les gains de productivité ne se diffusent jamais automatiquement. Ils offrent un cadre analytique précis pour penser l'IA et ses effets sur le travail.
 Objectif de l article : Présenter le cadre analytique d'Acemoglu et Johnson pour comprendre pourquoi la trajectoire de l'IA sur l'emploi n'est pas déterminée techniquement, mais politiquement.
 Sources principales : Daron Acemoglu & Simon Johnson, Power and Progress (2023) ; Daron Acemoglu, NBER WP 32487 (2024) ; David Autor (2019) ; OCDE Employment Outlook 2023
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/acemoglu-johnson-power-progress-technologie-prosperite/
 Triptyque ID : routine_tech_ia_emploi_2026-05-07
 Triptyque titre : IA et emploi qualifié : signal, fondements, expertise durable
 Triptyque ordre : 2

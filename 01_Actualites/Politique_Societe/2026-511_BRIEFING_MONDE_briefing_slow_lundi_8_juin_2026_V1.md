@@ -2,7 +2,7 @@ ID article : 2026-511
 Titre : Briefing Slow — lundi 8 juin 2026 : trois calendriers qui ne coïncident pas
 Type : BRIEFING
 Theme : MONDE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-08
 Date de derniere mise a jour : 2026-06-08
@@ -13,7 +13,7 @@ Mots-cles : briefing slow;actualite;Moyen-Orient;Ukraine;energie;Union europeenn
 Resume court (500 caracteres max) : Le 8 juin 2026, la trêve Iran-Israël rompue, la diplomatie ukrainienne et les réponses structurelles de Bruxelles ne suivent pas le même rythme. Ce briefing relie les faits du jour aux outils déjà publiés sur Le Phare — sans prétendre tout résumer.
 Objectif de l article : Prototype de briefing slow quotidien : cadrer l'actualité, nommer les simplifications, renvoyer vers le graphe éditorial existant.
 Sources principales : franceinfo;Le Temps;20minutes;Agence Europe;Commission europeenne
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/briefing-monde-briefing-slow-lundi-8-juin-2026/
 
 ---
 

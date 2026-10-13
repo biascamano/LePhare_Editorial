@@ -3,7 +3,7 @@ Titre : Climat : la Cour suprême américaine doit dire si une ville peut faire 
 Type : ACTU
 Type article : Actualite
 Theme : CLIMAT
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : Cour suprême;Suncor;Exxon Mobil;Boulder;responsabilité climatique;
 Resume court (500 caracteres max) : Le 5 octobre 2026, la Cour suprême des États-Unis a entendu l'affaire Suncor c. Boulder : un comté du Colorado demande à deux pétroliers de payer une partie de ses coûts d'adaptation au climat. Ce qui est en jeu, ce que les juges ont laissé voir, ce qui reste ouvert.
 Objectif de l'article : Comprendre ce que la Cour suprême doit trancher dans Suncor c. Boulder, distinguer les arguments en présence et ce qui reste incertain.
 Sources principales : Cour suprême des États-Unis (dossier 25-170) ; Center for Progressive Reform ; JURIST ; Deseret News ; Earthjustice ; Congressional Research Service
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cour-supreme-suncor-boulder-responsabilite-climatique/
 
 ---
 

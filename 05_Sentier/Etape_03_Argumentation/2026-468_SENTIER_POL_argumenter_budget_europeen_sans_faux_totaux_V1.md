@@ -2,7 +2,7 @@ ID article : 2026-468
 Titre : Argumenter sur un budget européen sans se laisser enfermer dans les faux totaux
 Type : SENTIER
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-19
 Date de derniere mise a jour : 2026-05-19
@@ -17,7 +17,7 @@ Mots-cles : argumentation;budget europeen;cadre financier pluriannuel;negociatio
 Resume court (500 caracteres max) : Cinq questions et trois pieges rhetoriques pour debattre du budget UE sans confondre annuel et pluriannuel engagement et paiement ni repeter des slogans de milliards incomparables.
 Objectif de l article : Atelier etape 3 applique au triptyque budget europeen 2026 : outil d argumentation reutilisable.
 Sources principales : Parlement europeen, Fritz Scharpf, methode Sentier Le Phare
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/argumenter-budget-europeen-sans-faux-totaux/
 Triptyque ID : routine_pol_budget_ue_2026-05-19
 Triptyque titre : Budget europeen : Scharpf, defense et argumentation en situation complexe
 Triptyque ordre : 3

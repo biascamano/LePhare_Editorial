@@ -2,7 +2,7 @@ ID article : 2026-437
 Titre : Vaclav Smil et la lenteur des transitions énergétiques : pourquoi changer de système prend des décennies
 Type : TF
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-04-10
 Date de derniere mise a jour : 2026-04-10
@@ -13,7 +13,7 @@ Mots-cles : Vaclav Smil, transitions énergétiques, électrification, infrastru
 Resume court (500 caracteres max) : L'oeuvre de Vaclav Smil rappelle qu'une transition énergétique n'est pas un simple basculement technologique, mais une transformation lente des infrastructures, des usages et des systèmes économiques.
 Objectif de l'article : Fournir un cadre intellectuel durable pour comprendre pourquoi les crises énergétiques accélèrent les décisions politiques sans garantir pour autant une transition rapide.
 Sources principales : Vaclav Smil, IEEE Spectrum, IEA, Commission européenne
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/vaclav-smil-transitions-energetiques-2/
 ---
 # SEO
 Mot-cle principal : Vaclav Smil transitions énergétiques

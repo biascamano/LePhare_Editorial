@@ -2,7 +2,7 @@ ID article : 2026-450
 Titre : Lire une annonce médicale sans confondre individu et population
 Type : SENTIER
 Theme : SCIENCE
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-06
 Date de derniere mise a jour : 2026-05-06
@@ -13,7 +13,7 @@ Mots-cles : pensée critique, médecine fondée sur les preuves, risque, populat
 Resume court (500 caracteres max) : Ce texte propose une grille simple pour lire une nouvelle médicale ou une campagne sur les antimicrobiens : distinguer résultat statistique et effet personnel, protocole expérimental et usage courant, innovation prometteuse et politique publique.
 Objectif de l article : Donner un outil réutilisable pour éviter les deux pièges du sensationnalisme et du fatalisme lorsqu’on lit l’actualité science-santé.
 Sources principales : méthodologie EBM, enseignements tirés du triptyque résistance antimicrobienne
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/lire-annonce-medicale-population-individu/
 Triptyque ID : routine_science_sante_ram_2026
 Triptyque titre : Résistance antimicrobienne : alertes, leçon historique et lecture critique
 Triptyque ordre : 3

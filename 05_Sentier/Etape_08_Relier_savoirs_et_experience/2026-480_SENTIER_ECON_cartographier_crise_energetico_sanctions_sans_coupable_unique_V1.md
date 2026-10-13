@@ -2,7 +2,7 @@ ID article : 2026-480
 Titre : Cartographier une crise énergético-sanctions sans réduire le débat à un coupable
 Type : SENTIER
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-23
 Date de derniere mise a jour : 2026-05-23
@@ -17,7 +17,7 @@ Mots-cles : pensée systémique;sanctions;énergie;carte causale;atelier;crise g
 Resume court (500 caracteres max) : Atelier étape 8 : sept étapes pour dessiner les boucles entre Ormuz, prix du baril, licences UK, recettes russes et pression sur l Ukraine — sans paralysie ni récit à un seul coupable.
 Objectif de l article : Donner une grille reutilisable ancrée sur le fondamental Pensée systémique pour lire l actualité énergie-sanctions.
 Sources principales : fondamental 2026-136, ACTU 2026-478, TF Strange 2026-479, Donella Meadows
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cartographier-crise-energetico-sanctions-pensee-systemique/
 Triptyque ID : routine_econ_sanctions_petrole_strange_2026-05-23
 Triptyque titre : Sanctions pétrole russe : Strange, licences UK et carte systémique
 Triptyque ordre : 3

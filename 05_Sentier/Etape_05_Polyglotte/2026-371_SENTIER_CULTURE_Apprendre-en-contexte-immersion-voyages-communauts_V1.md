@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Apprendre une langue, ce n’est pas seulement mémoriser du vocabulaire ou réciter des règles de grammaire.👉 C’est avant tout entrer dans un univers vivant : gestes, sons, références culturelles, habitudes sociales. Les neurosciences et la didactiqu
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/apprendre-en-contexte-immersion-voyages-communautes/
+URL WordPress (si publie) : https://le-phare.info/apprendre-en-contexte-immersion-voyages-communautes/
 
 ---
 

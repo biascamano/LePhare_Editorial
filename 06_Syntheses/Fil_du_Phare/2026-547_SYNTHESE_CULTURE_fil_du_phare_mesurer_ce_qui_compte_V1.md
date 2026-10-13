@@ -3,7 +3,7 @@ Titre : Le Fil du Phare - Sommes-nous en train de confondre ce qui se mesure ave
 Type : SYNTHESE
 Type article : Fil du Phare
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : indicateurs;sondages;fréquentation;mesure;Campbell;Fil du Phare
 Resume court (500 caracteres max) : Un sondage pris à revers, une majorité qui n'en est pas une, un passeport à prix fixe, un musée fermé faute de visiteurs, une IA qui s'évalue elle-même : seize articles de la semaine racontent la même tension entre ce que l'on compte et ce que l'on veut savoir.
 Objectif de l'article : Relier les articles de la semaine autour d'un même réflexe : avant de juger sur un chiffre ou une étiquette, se demander ce qu'il mesure vraiment et ce qu'il laisse hors champ.
 Sources principales : Articles 2026-531 à 2026-546 du Phare ; D. T. Campbell, Assessing the Impact of Planned Social Change (1976)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/
 
 ---
 

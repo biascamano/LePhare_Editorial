@@ -3,7 +3,7 @@ Titre : ChatGPT : la publicité arrive dans la génération d'images, et l'assis
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-06
 Date de derniere mise a jour : 2026-10-06
@@ -22,7 +22,7 @@ Mots-cles : ChatGPT;OpenAI;publicité;intelligence artificielle;gratuité;donné
 Resume court (500 caracteres max) : OpenAI va tester fin octobre des publicités visuelles pendant la génération d'images de ChatGPT. Huit mois après l'arrivée de la publicité dans l'assistant, le modèle économique de l'IA grand public se précise.
 Objectif de l'article : Comprendre comment la publicité s'installe dans les assistants d'IA et ce que cela change pour leurs utilisateurs.
 Sources principales : TechCrunch ; OpenAI ; Relevant Audience ; MediaPost ; eWeek
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/chatgpt-publicite-generation-images-octobre-2026/
 
 ---
 

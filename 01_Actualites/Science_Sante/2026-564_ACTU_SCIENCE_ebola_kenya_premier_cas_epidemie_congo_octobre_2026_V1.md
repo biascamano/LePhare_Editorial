@@ -3,7 +3,7 @@ Titre : Ebola atteint le Kenya : ce que dit un premier cas sur une épidémie qu
 Type : ACTU
 Type article : Actualite
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-08
 Date de derniere mise a jour : 2026-10-08
@@ -22,7 +22,7 @@ Mots-cles : Ebola Kenya;épidémie Ebola Congo;virus Bundibugyo;contrôle sanita
 Resume court (500 caracteres max) : Le 6 octobre 2026, le Kenya a confirmé son premier cas d'Ebola : un homme venu de RDC, mort à Nairobi après avoir passé le contrôle sanitaire de l'aéroport. L'épidémie de l'est du Congo, due au virus Bundibugyo, sans vaccin homologué, dépasse 8 000 cas et 4 000 morts.
 Objectif de l'article : Établir les faits du cas kényan, replacer l'épidémie congolaise (ampleur, virus, absence de vaccin, conflit), et poser la question de ce qui protège réellement contre une épidémie lointaine.
 Sources principales : AP (Philadelphia Inquirer) ; Daily Maverick ; OMS (page de situation, DON602) ; Al Jazeera ; ONU Info
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/ebola-kenya-premier-cas-epidemie-congo-octobre-2026/
 
 ---
 

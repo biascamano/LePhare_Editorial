@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : La vraie vie, la vie enfin découverte et éclaircie, c’est la littérature.” – Marcel Proust 📌 Introduction L’art et la littérature sont parfois perçus comme des domaines “secondaires”, réservés à l’élite ou au divertissement. Pourtant, ils constituent des pili
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/arts-et-litterature-pourquoi-ils-faconnent-la-pensee/
+URL WordPress (si publie) : https://le-phare.info/arts-et-litterature-pourquoi-ils-faconnent-la-pensee/
 
 ---
 

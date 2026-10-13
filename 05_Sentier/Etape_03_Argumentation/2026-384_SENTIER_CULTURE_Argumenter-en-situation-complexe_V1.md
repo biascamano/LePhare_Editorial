@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “C’est au cœur de la tempête que l’on voit la solidité du navire.” – Proverbe marin 📌 Introduction Débattre calmement dans un cadre serein est une chose. Mais la réalité, c’est que les contextes où l’on doit argumenter sont souvent tendus, rapides, polarisés 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/argumenter-en-situation-complexe/
+URL WordPress (si publie) : https://le-phare.info/argumenter-en-situation-complexe/
 
 ---
 

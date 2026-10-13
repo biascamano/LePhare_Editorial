@@ -2,7 +2,7 @@ ID article : 2026-501
 Titre : Cartographier la feuille de route énergie-IA du 3 juin : six repères pour AI.grids et l'intégration des data centers
 Type : SENTIER
 Theme : TECH
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-03
 Date de derniere mise a jour : 2026-06-03
@@ -17,7 +17,7 @@ Mots-cles : cartographie, feuille de route, énergie, IA, AI.grids, data centers
 Resume court (500 caracteres max) : Atelier étape 4 fondamental 2026-178 : six repères pour cartographier le dossier énergie-IA du 3 juin 2026 — acteurs, textes, calendriers, controverses — à partir des sources officielles et critiques du triptyque.
 Objectif de l article : Donner une grille réutilisable pour se repérer dans un dossier énergie-numérique dense sans confondre adoption, signature et déploiement.
 Sources principales : DG ENER ; White & Case ; EUobserver ; Timothy Mitchell
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cartographier-feuille-route-energie-ia-six-reperes/
 Triptyque ID : routine_tech_feuille_route_energie_ia_2026-06-03
 Triptyque titre : Feuille de route énergie-IA : démocratie carbone, cartographie et intégration des data centers
 Triptyque ordre : 3

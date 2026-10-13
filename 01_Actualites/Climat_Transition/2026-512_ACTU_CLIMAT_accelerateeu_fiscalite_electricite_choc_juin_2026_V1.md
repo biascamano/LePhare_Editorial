@@ -2,7 +2,7 @@ ID article : 2026-512
 Titre : AccelerateEU : fiscalité électricité, 44 mesures et ce que la deuxième vague de choc change en juin 2026
 Type : ACTU
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-09
 Date de derniere mise a jour : 2026-06-09
@@ -13,7 +13,7 @@ Mots-cles : AccelerateEU;fiscalité énergétique;électrification;choc pétroli
 Resume court (500 caracteres max) : Lancé le 23 avril 2026, AccelerateEU recense 44 mesures face au choc pétro-gazier lié au conflit au Moyen-Orient (+24 Md€ d'importations). Refonte fiscale électricité/gaz en cours ; catalogue d'économies livré aux ministres le 13 mai. La reprise des hostilités début juin rappelle l'écart entre urgence et structure.
 Objectif de l article : Situer AccelerateEU en juin 2026 sans confondre mesures temporaires, refonte fiscale et promesse d'électrification — après la rupture de trêve du 7-8 juin.
 Sources principales : Commission européenne;Carbon Brief;Euractiv;EU Today
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/accelerateeu-fiscalite-electricite-choc-juin-2026/
 Triptyque ID : routine_climat_accelerateeu_fiscalite_2026-06-09
 Triptyque titre : AccelerateEU : lenteur des transitions, prix relatifs et cartographie citoyenne
 Triptyque ordre : 1

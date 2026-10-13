@@ -3,7 +3,7 @@ Titre : Tsar Samuel : la Grèce remet à la Bulgarie des restes médiévaux, et 
 Type : ACTU
 Type article : Actualite
 Theme : CULTURE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : tsar Samuel;Bulgarie;Grèce;restitution;Prespa;mémoire nationale
 Resume court (500 caracteres max) : Le 3 octobre 2026, à Thessalonique, la Grèce a remis à la Bulgarie les restes attribués au tsar Samuel, découverts en 1965 près du lac Prespa. En échange, la Bulgarie rend 48 objets emportés pendant la Première Guerre mondiale.
 Objectif de l'article : Comprendre comment une restitution patrimoniale articule histoire, identité nationale et diplomatie.
 Sources principales : AP (Courthouse News) ; Reuters (Cyprus Mail) ; Medievalists.net ; Greek Reporter
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/tsar-samuel-restes-grece-bulgarie-thessalonique-3-octobre-2026/
 
 ---
 

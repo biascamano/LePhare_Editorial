@@ -2,7 +2,7 @@ ID article : 2026-487
 Titre : Licences britanniques et pétrole russe : l'Europe durcit le ton, mais la chaîne maritime reste dépendante
 Type : ACTU
 Theme : ECON
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-28
 Date de derniere mise a jour : 2026-05-28
@@ -13,7 +13,7 @@ Mots-cles : sanctions, petrole russe, licences britanniques, assurance maritime,
 Resume court (500 caracteres max) : Les nouvelles restrictions britanniques sur les licences liees au petrole russe durcissent la pression sur les intermediaires maritimes. Mais l'episode rappelle surtout une realite: l'efficacite des sanctions depend de details techniques, de la coordination UE-Royaume-Uni et de la capacite a tracer des flux hybrides.
 Objectif de l article : Expliquer ce que changent concretement les restrictions de licences du printemps 2026 et ce qu'elles ne changent pas dans l'economie politique du petrole maritime.
 Sources principales : OFSI (HM Treasury), OFAC, Conseil de l'UE, Agence internationale de l'energie
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/licences-britanniques-petrole-russe-entre-sanctions-et-dependances-maritimes/
 Triptyque ID : routine_econ_sanctions_maritimes_2026-05-28
 Triptyque titre : Sanctions maritimes : normes, pouvoir commercial et argumentation publique
 Triptyque ordre : 1

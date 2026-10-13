@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : “Un bon discours doit avoir un début, un milieu et une fin.” – Aristote 📌 Introduction Un discours convaincant n’est pas seulement une question de contenu : c’est aussi une question de structure.Même les idées les plus brillantes se perdent si elles sont mal 
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/structurer-un-discours-efficace/
+URL WordPress (si publie) : https://le-phare.info/structurer-un-discours-efficace/
 
 ---
 

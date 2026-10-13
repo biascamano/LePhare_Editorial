@@ -3,7 +3,7 @@ Titre : Irkoutsk : une technicienne morte d'une peste suspectée, et la question
 Type : ACTU
 Type article : Actualite
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : peste;Irkoutsk;laboratoire;biosécurité;Rospotrebnadzor;quarantaine
 Resume court (500 caracteres max) : Une technicienne de l'Institut antipeste d'Irkoutsk est morte le 1er octobre 2026, après une possible exposition en laboratoire. Les autorités parlent de pneumonie d'étiologie inconnue ; la peste pulmonaire est suspectée. Lecture d'une information sanitaire incertaine.
 Objectif de l'article : Lire une alerte sanitaire en distinguant diagnostic confirmé, suspicion et rumeur.
 Sources principales : Al Jazeera ; CNN
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/irkoutsk-peste-suspectee-technicienne-laboratoire-octobre-2026/
 
 ---
 

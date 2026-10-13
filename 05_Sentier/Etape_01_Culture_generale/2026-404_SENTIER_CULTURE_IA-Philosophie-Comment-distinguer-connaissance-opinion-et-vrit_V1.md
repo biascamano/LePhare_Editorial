@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : Catégorie : Le Sentier du Savoir → Philosophie & Pensée critiqueType : Clé de compréhension 📌 Contexte À l’heure des intelligences artificielles génératives, la frontière entre savoir, opinion et vérité semble plus floue que jamais. Face à cela, la philosophi
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/ia-philosophie-comment-distinguer-connaissance-opinion-et-verite/
+URL WordPress (si publie) : https://le-phare.info/ia-philosophie-comment-distinguer-connaissance-opinion-et-verite/
 
 ---
 

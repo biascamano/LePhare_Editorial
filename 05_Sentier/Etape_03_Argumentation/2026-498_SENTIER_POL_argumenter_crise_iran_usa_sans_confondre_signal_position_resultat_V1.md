@@ -2,7 +2,7 @@ ID article : 2026-498
 Titre : Argumenter sur une crise Iran-Etats-Unis sans confondre signal, position et resultat
 Type : SENTIER
 Theme : POL
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-06-02
 Date de derniere mise a jour : 2026-06-02
@@ -17,7 +17,7 @@ Mots-cles : argumentation, crise diplomatique, Iran, Etats-Unis, signal politiqu
 Resume court (500 caracteres max) : Atelier d argumentation applique au dossier Iran-Etats-Unis de juin 2026 : une methode en six tests pour eviter les contresens entre annonce politique et avancee negociee.
 Objectif de l article : Donner une grille reutilisable pour debattre des crises internationales avec rigueur et sans simplification agressive.
 Sources principales : ACTU 2026-496 ; TF Schelling 2026-497 ; sources diplomatiques citees.
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/argumenter-crise-iran-usa-sans-confondre-signal-position-resultat/
 Triptyque ID : routine_pol_iran_negociation_2026-06-02
 Triptyque titre : Iran-Etats-Unis : signaux de negociation, theorie de la coercition et methode d argumentation
 Triptyque ordre : 3

@@ -2,7 +2,7 @@ ID article : 2026-490
 Titre : Étiquette européenne des data centers : entre transparence promise et secret contesté — mai 2026
 Type : ACTU
 Theme : CLIMAT
-Statut : pret_a_publier
+Statut : publie
 Version : V1
 Date de creation : 2026-05-29
 Date de derniere mise a jour : 2026-05-29
@@ -13,7 +13,7 @@ Mots-cles : data centers, efficacite energetique, PUE, WUE, directive EED, trans
 Resume court (500 caracteres max) : Mai 2026 : la Commission finalise une etiquette obligatoire PUE/WUE pour les grands data centers des aout 2027. Le 27 mai 35 eurodeputes denoncent un amendement proche du lobbying Microsoft qui limiterait la publication des performances individuelles. Strategie energie-IA attendue le 3 juin.
 Objectif de l article : Situer le projet d etiquette sans confondre label ecologique, secret commercial et acceleration des capacites numeriques europeennes.
 Sources principales : Commission europeenne, Euronews, Corporate Europe Observatory, Philip Lee LLP, Taylor Wessing
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/etiquette-data-centers-europe-transparence-mai-2026/
 Triptyque ID : routine_climat_datacenters_etiquette_2026-05-29
 Triptyque titre : Data centers : etiquette, Latour et transmission du debat
 Triptyque ordre : 1

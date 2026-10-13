@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Devenir expert ne signifie pas atteindre un sommet figé.Le savoir évolue, les paradigmes changent, les controverses se déplacent. 👉 L’érudit qui progresse sait que son expertise n’est pas un acquis définitif, mais une trajectoire vivante, une lign
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/construire-une-trajectoire-dexpertise-vivante-apprendre-toute-sa-vie-sans-senfermer/
+URL WordPress (si publie) : https://le-phare.info/construire-une-trajectoire-dexpertise-vivante-apprendre-toute-sa-vie-sans-senfermer/
 
 ---
 

@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Parler une langue n’est pas seulement un moyen de communiquer : c’est aussi une façon d’habiter le monde.👉 Chaque langue porte avec elle une vision particulière de la réalité, un ensemble de catégories mentales, une manière de nommer et d’ordonner
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/langue-et-pensee-comment-les-mots-faconnent-nos-idees/
+URL WordPress (si publie) : https://le-phare.info/langue-et-pensee-comment-les-mots-faconnent-nos-idees/
 
 ---
 

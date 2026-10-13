@@ -13,7 +13,7 @@ Mots-cles :
 Resume court (500 caracteres max) : 📌 Contexte Apprendre une langue est déjà un défi. En apprendre plusieurs, c’est bâtir un véritable parcours polyglotte : un chemin progressif, réfléchi, qui vise non seulement la communication, mais aussi l’élargissement de l’esprit, la découverte des culture
 Objectif de l'article : Archive source depuis wiki du Phare.
 Sources principales : Le Phare Info
-URL WordPress (si publie) : https://le-phare.info/wiki-du-phare/construire-son-parcours-polyglotte/
+URL WordPress (si publie) : https://le-phare.info/construire-son-parcours-polyglotte/
 
 ---
 

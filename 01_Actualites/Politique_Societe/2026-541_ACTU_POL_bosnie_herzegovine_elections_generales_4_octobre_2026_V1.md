@@ -3,7 +3,7 @@ Titre : Bosnie-Herzégovine : trois présidents élus le même soir, et un pays 
 Type : ACTU
 Type article : Actualite
 Theme : POL
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-05
 Date de derniere mise a jour : 2026-10-05
@@ -22,7 +22,7 @@ Mots-cles : Bosnie-Herzégovine;élections;présidence tripartite;Dodik;Republik
 Resume court (500 caracteres max) : Le 4 octobre 2026, la Bosnie-Herzégovine a élu sa présidence tripartite, son Parlement et les institutions de ses deux entités. Résultats préliminaires, participation faible, et un système institutionnel hérité des accords de Dayton.
 Objectif de l'article : Comprendre un système électoral fondé sur les communautés et lire des résultats préliminaires avec prudence.
 Sources principales : Al Jazeera ; PBS (AP)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/bosnie-herzegovine-elections-generales-4-octobre-2026/
 
 ---
 
