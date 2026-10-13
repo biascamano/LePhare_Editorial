@@ -5,6 +5,8 @@
 
 ## Derniers articles
 
+- 2026-570 · 10-13 · Question · ECON — [Question du Phare - Quand une fusion s'achète par des promesses, qui vérifie qu'elles son…](https://le-phare.info/question-du-phare-fusion-promesses-qui-verifie/) · George Stigler (The Theory of Economic Regulation, 1971)
+- 2026-568 · 10-13 · Actualité · ECON — [Nobel d'économie 2026 : Hall et Woodford récompensés pour une théorie des anticipations,…](https://le-phare.info/nobel-economie-2026-hall-woodford-guidance-fed/) · Q : Une banque centrale doit-elle annoncer ce qu'elle fera, ou garder la liberté de surprendre ? · aucun (Actualité)
 - 2026-569 · 10-13 · Actualité · SCIENCE — [Seconde intercalaire : à Versailles, la CGPM vote sur la fin du raccord entre l'heure off…](https://le-phare.info/cgpm-2026-fin-seconde-intercalaire-utc/) · Q : Faut-il que l'heure des horloges suive la rotation de la Terre, ou la Terre n'est-elle plus la bonne mesure du temps ? · aucun (Actualité)
 - 2026-567 · 10-12 · Actualité · TECH — [OpenAI publie 722 démonstrations mathématiques, en retire trois le lendemain : qui dit qu…](https://le-phare.info/openai-722-manuscrits-mathematiques-octobre-2026/) · Q : Quand une machine produit plus de démonstrations que les mathématiciens ne peuvent en lire, qu'est-ce qui fait qu'un résultat dev… · aucun (Actualité)
 - 2026-566 · 10-12 · Actualité · MONDE — [Sanctions contre la Cour pénale internationale : Washington vise désormais l'institution,…](https://le-phare.info/cour-penale-internationale-sanctions-americaines-octobre-2026/) · Q : Une justice internationale peut-elle juger les puissants quand elle dépend, pour fonctionner, des services de ceux qu'elle pourra… · aucun (Actualité)
@@ -13,8 +15,6 @@
 - 2026-563 · 10-08 · Actualité · ECON — [Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, et pour combien d…](https://le-phare.info/paramount-warner-fusion-skydance-octobre-2026/) · Q : Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur éc… · aucun (Actualité)
 - 2026-562 · 10-06 · Fil du Phare · SCIENCE — [Le Fil du Phare — Qui doit porter le prix de ce que l'on ne voit pas encore ?](https://le-phare.info/fil-du-phare-qui-doit-porter-le-prix-de-ce-que-l-on-ne-voit-pas-encore/) · Q : Qui doit porter le prix de ce que l'on ne voit pas encore ? · Hans Jonas (Le Principe responsabilité, 1979)
 - 2026-561 · 10-06 · Question · SCIENCE — [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/) · Onora O'Neill (A Question of Trust, Reith Lectures 2002)
-- 2026-560 · 10-06 · Atelier Sentier (mensuelle) · SCIENCE — [Sentier du Savoir - Lire un indicateur : cinq questions avant de croire un chiffre](https://le-phare.info/lire-un-indicateur-cinq-questions-avant-de-croire-un-chiffre/) · Q : Comment savoir ce qu'un chiffre mesure vraiment avant de décider sur sa base ? · Donald T. Campbell ; Charles Goodhart
-- 2026-559 · 10-06 · Dossier (mensuelle) · CULTURE — [Dossier du Phare - Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/) · Q : Comment se servir d'un indicateur sans le laisser décider à notre place ? · Donald T. Campbell ; Charles Goodhart
 
 ## Fils actifs
 
@@ -30,7 +30,7 @@
 - P2 · Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) — 531 ; fil Capacités proclamées
 - P2 · Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) — 535
 - P2 · Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer) — 533
-- P2 · Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur échéance passée ? (ECON) — 563 ; fil Qui contrôle le contrôleur ?
+- P2 · Quand l'entreprise qui fournit l'outil est seule à voir comment on l'a détourné, qui peut vérifier ce qu'elle en dit ? (TECH) — 565 ; fil Qui contrôle le contrôleur ?
 
 ## Prochains candidats (Radar)
 

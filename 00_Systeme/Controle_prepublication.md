@@ -58,8 +58,10 @@ Chaque défaut relevé, par a ou par b, est classé :
 | Décision | Condition | Suite |
 |---|---|---|
 | **PUBLIER** | a et b sans défaut bloquant, défauts mineurs corrigés | `daily_run` normal. Les mineurs corrigés après le dernier passage de b sont listés dans la trace (passage, correction, source) |
-| **CORRIGER** | Au moins un défaut bloquant remédiable | Corriger, relancer `stage`, auto-contrôle des passages modifiés, puis b ciblé. **2 cycles au plus** |
-| **BROUILLON** | Risque important, vérification essentielle non résolue, OU défaut bloquant encore présent après le cycle 2 | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
+| **CORRIGER** | Au moins un défaut bloquant remédiable | Corriger, relancer `stage`, auto-contrôle des passages modifiés, puis b ciblé. **2 relectures b au plus** |
+| **BROUILLON** | Risque important (personne mise en cause, droits humains, discrimination) OU vérification essentielle non résolue (fait porteur introuvable à la source) | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
+
+**Après le cycle 2, on publie** (décision du fondateur, 2026-10-13) : jamais de 3e relecture. Les défauts relevés au cycle 2, bloquants ET mineurs, sont corrigés par le rédacteur, chaque correction vérifiée à la source ; un passage qui ne peut pas être sourcé est retiré. Puis décision **PUBLIER**, corrections listées dans la trace. Seuls les cas de la ligne BROUILLON empêchent la publication.
 
 Des défauts seulement mineurs ne déclenchent ni nouveau cycle ni BROUILLON : ils sont corrigés et tracés.
 

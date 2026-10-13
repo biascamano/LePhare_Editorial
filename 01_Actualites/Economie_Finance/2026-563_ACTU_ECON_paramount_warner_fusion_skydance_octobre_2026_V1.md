@@ -83,7 +83,7 @@ D'où la question que cette fusion laisse derrière elle : quand une fusion n'es
 
 **La question suivante**
 
-Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur échéance passée ?
+[Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur échéance passée ?](https://le-phare.info/question-du-phare-fusion-promesses-qui-verifie/)
 
 **Pour aller plus loin**
 

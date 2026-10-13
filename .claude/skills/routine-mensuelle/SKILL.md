@@ -107,7 +107,7 @@ Titre : `Ce que l'actualité du mois nous a appris sur [thème]`. Relier plusieu
 
 Titres : `--title` sans préfixe (`plan.md` D16). Chaque production : `create`, rédaction, `python tools/new_article.py stage <ID>` (un dossier de transit par article ; KO → corriger, jamais `--force` sur `stage`), puis **contrôle prépublication** (`00_Systeme/Controle_prepublication.md` : auto-contrôle + agent `relecteur-prepublication`) :
 - PUBLIER → `python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force` ;
-- CORRIGER (au moins un défaut bloquant) → 2 cycles au plus, cycle 2 ciblé sur les passages modifiés ; défauts mineurs seuls : corrigés et tracés, sans nouveau cycle ;
+- CORRIGER (au moins un défaut bloquant) → 2 relectures au plus, cycle 2 ciblé sur les passages modifiés ; après le cycle 2, défauts corrigés à la source puis PUBLIER (pas de 3e relecture) ; défauts mineurs seuls : corrigés et tracés, sans nouveau cycle ;
 - BROUILLON → même commande avec `--no-publish-final` ; passer à la production suivante (une production en brouillon ne se remplace pas).
 
 Signaux de vie : `phare.py etape consolidation --etape redaction --ids <IDs créés>` après chaque `create`, `--etape wp` avant chaque `daily_run`.

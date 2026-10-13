@@ -40,7 +40,7 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P2 | Question | Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) | 531 ; fil Capacités proclamées | approfondir |
 | P2 | Question | Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) | 535 | approfondir |
 | P2 | Question | Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer) | 533 | approfondir |
-| P2 | Question | Quand une fusion n'est autorisée qu'en échange de promesses, qui vérifie qu'elles sont tenues, et que reste-t-il une fois leur échéance passée ? (ECON) | 563 ; fil Qui contrôle le contrôleur ? | approfondir |
+| P? | Question | Une banque centrale doit-elle annoncer ce qu'elle fera, ou garder la liberté de surprendre ? (ECON) | 568 | approfondir |
 | P2 | Question | Quand l'entreprise qui fournit l'outil est seule à voir comment on l'a détourné, qui peut vérifier ce qu'elle en dit ? (TECH) | 565 ; fil Qui contrôle le contrôleur ? | approfondir |
 | P? | Question | Une justice internationale peut-elle juger les puissants quand elle dépend, pour fonctionner, des services de ceux qu'elle pourrait poursuivre ? (MONDE) | 566 | approfondir |
 | P3 | Question | Comment entendre les revendications d'un mouvement quand les images de violence occupent tout l'espace du récit ? (POL) | 542 | conserver |

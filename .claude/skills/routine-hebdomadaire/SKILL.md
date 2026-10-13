@@ -51,7 +51,7 @@ Le script calcule ID, fichier `06_Syntheses/Fil_du_Phare/`, type `SYNTHESE`, cat
 
 `python tools/new_article.py stage <ID>` (KO → corriger et relancer, jamais `--force` sur `stage`).
 
-**Contrôle prépublication** (`00_Systeme/Controle_prepublication.md`) : auto-contrôle puis agent `relecteur-prepublication`. Pour un Fil, B porte surtout sur la fidélité aux articles reliés (aucun fait nouveau non sourcé, aucune affirmation qu'ils ne contiennent pas). PUBLIER → `daily_run` ; CORRIGER (au moins un défaut bloquant) → 2 cycles au plus, cycle 2 ciblé sur les passages modifiés ; défauts mineurs seuls : corrigés et tracés, sans nouveau cycle ; BROUILLON → `--no-publish-final`, clore `brouillon`.
+**Contrôle prépublication** (`00_Systeme/Controle_prepublication.md`) : auto-contrôle puis agent `relecteur-prepublication`. Pour un Fil, B porte surtout sur la fidélité aux articles reliés (aucun fait nouveau non sourcé, aucune affirmation qu'ils ne contiennent pas). PUBLIER → `daily_run` ; CORRIGER (au moins un défaut bloquant) → 2 relectures au plus, cycle 2 ciblé sur les passages modifiés ; après le cycle 2, défauts corrigés à la source puis PUBLIER (pas de 3e relecture) ; défauts mineurs seuls : corrigés et tracés, sans nouveau cycle ; BROUILLON (risque important OU vérification essentielle non résolue) → `--no-publish-final`, clore `brouillon`.
 
 ```bash
 python tools/daily_run.py --publish-existing "07_A_Publier/<dossier>" --keep-publish-folder --force [--no-publish-final]
