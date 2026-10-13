@@ -3,7 +3,7 @@ Titre : OpenAI publie 722 démonstrations mathématiques, en retire trois le len
 Type : ACTU
 Type article : Actualite
 Theme : TECH
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-12
 Date de derniere mise a jour : 2026-10-12
@@ -22,7 +22,7 @@ Mots-cles : OpenAI mathématiques;démonstration IA;Lean formalisation;vérifica
 Resume court (500 caracteres max) : Le 6 octobre 2026, OpenAI a déposé 722 manuscrits mathématiques produits par un modèle interne ; trois ont été retirés le lendemain pour une erreur de signe. Ce que l'on sait, ce qui reste à vérifier.
 Objectif de l'article : Établir les faits de la publication massive d'OpenAI et poser la question de ce qui transforme un résultat en savoir établi.
 Sources principales : Retraction Watch (8 octobre 2026) ; Scientific American (6 octobre 2026) ; dépôt GitHub openai/math
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/openai-722-manuscrits-mathematiques-octobre-2026/
 
 ---
 

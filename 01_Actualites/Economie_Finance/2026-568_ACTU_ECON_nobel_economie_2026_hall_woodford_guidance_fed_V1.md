@@ -3,7 +3,7 @@ Titre : Nobel d'économie 2026 : Hall et Woodford récompensés pour une théori
 Type : ACTU
 Type article : Actualite
 Theme : ECON
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-13
 Date de derniere mise a jour : 2026-10-13
@@ -22,7 +22,7 @@ Mots-cles : Nobel d'économie 2026;Robert Hall;Michael Woodford;guidance prospec
 Resume court (500 caracteres max) : Le 12 octobre 2026, le prix de la Banque de Suède en sciences économiques a récompensé Robert E. Hall et Michael Woodford pour les fondements microéconomiques de la stabilisation macroéconomique. Leurs travaux ont donné une base théorique à la guidance prospective, à laquelle la Fed de Kevin Warsh a renoncé en juin.
 Objectif de l'article : Établir les faits du prix et montrer pourquoi il tombe au moment où la Fed renonce à annoncer sa politique.
 Sources principales : Académie royale des sciences de Suède (12 octobre 2026) ; Reuters via The Jakarta Post (13 octobre 2026) ; Global Finance et Fortune (juin 2026) ; Investing.com (29 juillet 2026) ; American Banker (16 septembre 2026)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/nobel-economie-2026-hall-woodford-guidance-fed/
 
 ---
 

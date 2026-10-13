@@ -3,7 +3,7 @@ Titre : Seconde intercalaire : à Versailles, la CGPM vote sur la fin du raccord
 Type : ACTU
 Type article : Actualite
 Theme : SCIENCE
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-13
 Date de derniere mise a jour : 2026-10-13
@@ -22,7 +22,7 @@ Mots-cles : seconde intercalaire;CGPM 2026;UTC;temps universel;horloges atomique
 Resume court (500 caracteres max) : La 28e Conférence générale des poids et mesures s'ouvre à Versailles. Elle doit se prononcer sur la fin de la seconde intercalaire, qui raccorde depuis 1972 le temps des horloges atomiques à la rotation de la Terre.
 Objectif de l'article : Comprendre ce que décide la CGPM, pourquoi la seconde intercalaire pose problème et ce qu'une unité de mesure laisse de côté
 Sources principales : BIPM, documents de la 28e CGPM (2026) ; BIPM, Résolution 4 de la 27e CGPM (2022) ; BIPM, feuille de route de la redéfinition de la seconde ; ABC News (12 octobre 2026) ; New Atlas d'après le Financial Times (6 septembre 2026)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/cgpm-2026-fin-seconde-intercalaire-utc/
 
 ---
 

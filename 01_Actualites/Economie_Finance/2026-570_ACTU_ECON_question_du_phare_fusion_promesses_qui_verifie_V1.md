@@ -3,7 +3,7 @@ Titre : Question du Phare - Quand une fusion s'achète par des promesses, qui v�
 Type : ACTU
 Type article : Question
 Theme : ECON
-Statut : brouillon
+Statut : publie
 Version : V1
 Date de creation : 2026-10-13
 Date de derniere mise a jour : 2026-10-13
@@ -22,7 +22,7 @@ Mots-cles : fusion sous conditions;engagements comportementaux;décret de consen
 Resume court (500 caracteres max) : La fusion de Paramount et de Warner Bros. a été autorisée contre des engagements de cinq ans. Ce procédé a une histoire : Live Nation et Ticketmaster, Comcast et NBCUniversal. Que deviennent des promesses quand il faut les vérifier, puis quand elles expirent ?
 Objectif de l'article : Examiner, à partir de précédents documentés, ce que valent dans le temps les engagements de comportement exigés lors d'une fusion, et donner des outils pour juger les prochains
 Sources principales : ABC News / AP (30 septembre 2026) ; décret de consentement (NY AG, 2026) ; Quinn Emanuel (juillet 2024) ; Music Business Worldwide et Digital Music News (janvier 2020) ; Thompson Coburn (avril 2026) ; Pollstar (11 et 22 mai 2026) ; Ars Technica via Benton Institute (décembre 2017) ; ProMarket, Richard Epstein (2021)
-URL WordPress (si publie) :
+URL WordPress (si publie) : https://le-phare.info/question-du-phare-fusion-promesses-qui-verifie/
 
 ---
 
