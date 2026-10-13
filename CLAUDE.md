@@ -46,6 +46,7 @@ Plan de référence (décisions, état, backlog) : **`plan.md`** — à mettre �
 03_Dossiers/<Theme>/       → DOSSIER (routine mensuelle)
 06_Syntheses/              → SYNTHESE : Fil_du_Phare/, Mensuelles/, Retros/ (interne : traces, rétros hebdo/mensuelles), Rapports_mensuels/ (jusqu'à 2026-09)
 07_A_Publier/<dossier>/    → transit avant publication (supprimé après succès)
+08_Social/                 → diffusion réseaux sociaux (manuelle, hors routines) : stratégie, packs de posts par article publié
 index_editorial.csv        → registre canonique (IDs, slugs, URLs WP)
 tools/                     → scripts Python (daily_run, wp_push_draft, post_linking)
 00_Systeme/                → instructions, taxonomie, manifests Sentier, logs
