@@ -20,3 +20,15 @@ horodatage,periode,activite,statut,etape,ids,note
 2026-10-13 11:16,2026-10-13,rattrapage,en_cours,debut,,
 2026-10-13 11:19,2026-10-13,rattrapage,en_cours,redaction,2026-511,
 2026-10-13 11:27,2026-10-13,rattrapage,termine_sans_publication,fin,2026-511,"pilote : refresh en attente du fondateur ; contrôle : BROUILLON — bloquant au cycle 2 (réforme fiscale datée à tort), corrigé sans 3e relecture"
+2026-10-16 14:33,2026-S42,fil,en_cours,debut,,
+2026-10-16 14:35,2026-S42,fil,en_cours,redaction,2026-571,
+2026-10-16 14:43,2026-S42,fil,en_cours,controle_ok,2026-571,
+2026-10-16 14:43,2026-S42,fil,en_cours,wp,2026-571,
+2026-10-16 14:44,2026-S42,fil,brouillon,fin,2026-571,pilote ; contrôle : PUBLIER
+2026-10-16 16:30,2026-10-16,generale,en_cours,debut,,
+2026-10-16 16:33,2026-10-16,generale,en_cours,redaction,2026-572,
+2026-10-16 16:36,2026-10-16,generale,en_cours,controle_ok,2026-572,
+2026-10-16 16:36,2026-10-16,generale,en_cours,wp,2026-572,
+2026-10-16 16:37,2026-10-16,generale,brouillon,fin,2026-572,pilote ; contrôle : PUBLIER
+2026-10-19 07:32,2026-S42,retro_hebdo,en_cours,debut,,
+2026-10-19 07:35,2026-S42,retro_hebdo,termine,fin,,

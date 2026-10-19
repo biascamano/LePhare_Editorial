@@ -90,6 +90,7 @@ D'où la question que cette fusion laisse derrière elle : quand une fusion n'es
 - [Quand un service est gratuit, qui en est vraiment le client ?](https://le-phare.info/question-du-phare-service-gratuit-qui-est-le-client/)
 - [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 - [Comment informer sur un accident de laboratoire quand le diagnostic n'est pas confirmé ?](https://le-phare.info/question-du-phare-informer-accident-laboratoire-diagnostic/)
+- [Hongrie : l'Union débloque 4,2 milliards d'euros contre des réformes, et la question de leur durée reste ouverte](https://le-phare.info/hongrie-fonds-europeens-conditionnalite-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 

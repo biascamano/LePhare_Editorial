@@ -53,6 +53,14 @@ Chaque défaut relevé, par a ou par b, est classé :
 - **Ajouts en corrigeant.** Toute phrase ajoutée ou réécrite pendant une correction est vérifiée à sa source par a avant de relancer b. Une correction n'ajoute pas de fait nouveau sans nécessité.
 - **Cycle 2 ciblé.** b reçoit le chemin du fichier **et** la liste des passages modifiés (citations exactes du nouveau texte, sans motif ni raisonnement). Il vérifie ces passages et seulement eux, sauf défaut bloquant aperçu ailleurs.
 
+## Budget de relecture (décision du fondateur, 2026-10-16)
+
+Les relectures doivent rester courtes. Repère : cycle 1 ≈ 40 000 tokens, cycle 2 ≈ 20 000 (mesuré le 16/10 : 59 500 et 43 800).
+- **Cycle 1** : 15 appels web au plus (WebFetch + WebSearch). Une seule ouverture par URL. WebSearch seulement pour une source inaccessible OU un fait central à source unique.
+- **Cycle 2** : 6 appels web au plus, limités aux passages modifiés et à leurs sources ; pas de WebSearch sauf source inaccessible ; pas de relecture A–D du reste.
+- **Sortie compacte** : le tableau ne liste que les affirmations partielles, non confirmées ou inaccessibles ; les confirmées sont comptées, pas détaillées.
+- **Budget atteint** : b s'arrête, rend son verdict sur ce qu'il a vérifié et liste ce qu'il n'a pas vérifié ; le rédacteur vérifie lui-même ces points avant de décider.
+
 ## Décision
 
 | Décision | Condition | Suite |
@@ -61,7 +69,10 @@ Chaque défaut relevé, par a ou par b, est classé :
 | **CORRIGER** | Au moins un défaut bloquant remédiable | Corriger, relancer `stage`, auto-contrôle des passages modifiés, puis b ciblé. **2 relectures b au plus** |
 | **BROUILLON** | Risque important (personne mise en cause, droits humains, discrimination) OU vérification essentielle non résolue (fait porteur introuvable à la source) | `daily_run --no-publish-final` ; **la séance s'arrête** (pas d'autre sujet) ; difficulté tracée ; orchestrateur : `close … --statut brouillon --note "<motif>"`. Le fondateur publie ensuite avec `verify_publication.py --publish-drafts <ID>` |
 
-**Après le cycle 2, on publie** (décision du fondateur, 2026-10-13) : jamais de 3e relecture. Les défauts relevés au cycle 2, bloquants ET mineurs, sont corrigés par le rédacteur, chaque correction vérifiée à la source ; un passage qui ne peut pas être sourcé est retiré. Puis décision **PUBLIER**, corrections listées dans la trace. Seuls les cas de la ligne BROUILLON empêchent la publication.
+**Après le cycle 2, on publie s'il ne reste aucun défaut bloquant** (décision du fondateur, 2026-10-13, précisée le 2026-10-16) : jamais de 3e relecture.
+- Cycle 2 sans bloquant : mineurs corrigés à la source, tracés, puis **PUBLIER**.
+- Cycle 2 avec bloquant : passage corrigé à la lettre de la source OU retiré, puis **PUBLIER** (correction listée dans la trace). Si le passage porte l'article (ni corrigeable à la source, ni retirable sans défaire l'article) : **BROUILLON**.
+- Les cas de la ligne BROUILLON empêchent toujours la publication.
 
 Des défauts seulement mineurs ne déclenchent ni nouveau cycle ni BROUILLON : ils sont corrigés et tracés.
 

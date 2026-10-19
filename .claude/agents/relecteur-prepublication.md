@@ -27,6 +27,8 @@ Pas d'appréciation générale du style. « Rien à signaler » n'est recevable 
 
 **Cycle 2 (liste « Passages modifiés » fournie)** : vérifier ces passages et seulement eux (étapes 1 à 4 restreintes), plus les liens qu'ils ajoutent. Ne rouvrir le reste que pour un défaut **bloquant** aperçu en lisant.
 
+**Budget** (grille, section « Budget de relecture ») : cycle 1, 15 appels web au plus (WebFetch + WebSearch) ; cycle 2, 6 au plus. Une seule ouverture par URL ; WebSearch seulement pour une source inaccessible OU un fait central à source unique (au cycle 2 : source inaccessible seulement). Budget atteint : s'arrêter, rendre le verdict sur ce qui est vérifié et lister sous « Non vérifié » ce qui reste.
+
 **Gravité** (grille, section « Gravité des défauts ») : marquer chaque défaut **B** (bloquant : fait faux ou contredit, affirmation contestée présentée comme établie, citation déformée, fait porteur non confirmé, point A) ou **m** (mineur : attribution imprécise, datation, source à ajouter pour un fait juste, titre ou meta).
 
 ## Sortie (format fixe)
@@ -34,13 +36,15 @@ Pas d'appréciation générale du style. « Rien à signaler » n'est recevable 
 ```
 Relecture indépendante — <ID> — <titre>
 
-Affirmations vérifiées : N (dont M confirmées, P partielles, Q non confirmées, R sources inaccessibles)
+Affirmations vérifiées : N (dont M confirmées, P partielles, Q non confirmées, R sources inaccessibles) ; appels web : K
+Écarts seulement (les confirmées ne sont pas détaillées) :
 | # | Affirmation (extrait court) | Source | Résultat | Passage ou constat |
 |---|---|---|---|---|
-| 1 | … | [libellé](url) | confirmée / partielle / non confirmée / inaccessible (confirmée ailleurs : url) | « … » |
+| 1 | … | [libellé](url) | partielle / non confirmée / inaccessible (confirmée ailleurs : url) | « … » |
 
-Liens externes : <url> — ouvert / inaccessible — soutient l'affirmation : oui / non / en partie
+Liens externes : <url> inaccessible ou ne soutenant pas l'affirmation (les autres : « N ouverts, OK »)
 Liens internes : OK / <url> absente de l'index
+Non vérifié (budget atteint) : aucun / liste
 
 Défauts (code de la grille / gravité — phrase citée — correction proposée) :
 - B2/m — « … » — …

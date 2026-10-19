@@ -89,6 +89,7 @@ Surtout, la frontière entre dommage et bénéfice différés n'est pas toujours
 - Le dossier [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
 - Le texte fondateur [Hans Jonas et le principe de responsabilité : un cadre éthique pour l'horizon écologique](https://le-phare.info/hans-jonas-principe-responsabilite-climat/)
 - Le Fil du Phare précédent : [Sommes-nous en train de confondre ce qui se mesure avec ce qui compte ?](https://le-phare.info/fil-du-phare-mesurer-ce-qui-compte/)
+- Le Fil du Phare suivant : [Qui a les moyens de vérifier ce qu'on nous affirme ?](https://le-phare.info/fil-du-phare-qui-a-les-moyens-de-verifier-ce-qu-on-nous-affirme/)
 - Sur le Sentier : [Science et société](https://le-phare.info/science-et-societe/) et [La pensée systémique](https://le-phare.info/la-pensee-systemique/)
 
 ---

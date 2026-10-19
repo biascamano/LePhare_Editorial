@@ -101,6 +101,8 @@ Faut-il autoriser une fusion dont les risques survivent à ses garde-fous ?
 - [Paramount et Warner Bros. ne font plus qu'un : ce que promet la fusion, et pour combien de temps](https://le-phare.info/paramount-warner-fusion-skydance-octobre-2026/)
 - [Peut-on laisser ceux qui développent une technologie juger seuls de sa sécurité ?](https://le-phare.info/question-du-phare-autoregulation-securite-technologie/)
 - [Influence : OpenAI dit avoir démasqué des campagnes russe et iranienne, et reste seule à pouvoir le prouver](https://le-phare.info/openai-operations-influence-russie-iran-octobre-2026/)
+- [Le Fil du Phare - Qui a les moyens de vérifier ce qu'on nous affirme ?](https://le-phare.info/fil-du-phare-qui-a-les-moyens-de-verifier-ce-qu-on-nous-affirme/)
+- [Hongrie : l'Union débloque 4,2 milliards d'euros contre des réformes, et la question de leur durée reste ouverte](https://le-phare.info/hongrie-fonds-europeens-conditionnalite-octobre-2026/)
 
 **Sur le Sentier du Savoir**
 
