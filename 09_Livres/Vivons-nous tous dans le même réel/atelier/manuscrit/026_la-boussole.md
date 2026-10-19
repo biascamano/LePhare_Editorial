@@ -26,7 +26,7 @@ Puis il vous parle de la pente. Vous lui avez dit, en montant, que la côte éta
 
 — Tout le monde se trompe comme toi. Mais pas tout le monde de la même façon.
 
-Il vous raconte les travaux d’un psychologue américain, Dennis Proffitt, à l’université de Virginie, à partir des années 1990. Proffitt et ses collègues demandaient à des passants d’estimer la pente d’une colline, devant eux, sur le campus. La plupart la surestimaient beaucoup, comme vous. Puis ils ont varié les conditions. En 1999, avec Mukul Bhalla, ils ont comparé des personnes reposées à des coureurs qui revenaient d’un long effort : les coureurs fatigués voyaient la colline plus raide. D’autres expériences ont fait porter à certains participants un sac à dos lourd. Avec le sac, la pente paraissait plus raide aussi.
+Il vous raconte les travaux d’un psychologue américain, Dennis Proffitt, à l’université de Virginie, à partir des années 1990. Proffitt et ses collègues demandaient à des passants d’estimer la pente d’une colline, devant eux, sur le campus. La plupart la surestimaient beaucoup, comme vous. Puis ils ont varié les conditions. En 1999, avec Mukul Bhalla, ils ont comparé des personnes reposées à des coureurs qui revenaient d’un long effort : les coureurs fatigués voyaient la colline plus raide. Dans la même étude, ils ont fait porter à certains participants un sac à dos lourd. Avec le sac, la pente paraissait plus raide aussi.
 
 Il ajoute une étude qui l’a touché. En 2008, une équipe menée par Simone Schnall a fait la même expérience avec des personnes seules et des personnes accompagnées d’un ami. Celles qui avaient un ami à côté d’elles jugeaient la colline moins raide. Et plus l’amitié était ancienne, plus la pente semblait douce.
 

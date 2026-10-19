@@ -54,8 +54,10 @@ Vous ne lui demandez pas quoi. Vous restez assis. Sur le pied du banc, l’escar
 
 - Albert Hastorf et Hadley Cantril, « They Saw a Game: A Case Study », 1954. Un même match de football, deux publics, deux matchs.
 - Christopher Chabris et Daniel Simons, *The Invisible Gorilla*, 2010. L’attention, ses angles morts et l’assurance avec laquelle nous les ignorons.
+- Alexandra Horowitz, *On Looking*, 2013. Le même tour de pâté de maisons, refait onze fois avec onze regards différents, dont celui d’un chien.
 - William James, *The Principles of Psychology*, 1890, chapitre « Habit ». L’habitude, grand volant de la société, et ce qu’elle cesse de nous montrer.
 - Marshall Segall, Donald Campbell et Melville Herskovits, *The Influence of Culture on Visual Perception*, 1966. Une illusion qu’on croyait universelle, mesurée dans une quinzaine de sociétés.
+- Joseph Henrich, Steven Heine et Ara Norenzayan, « The weirdest people in the world? », *Behavioral and Brain Sciences*, 2010. Ce que la psychologie a pris pour l’être humain, et qui n’était qu’un étudiant occidental.
 - Guy Deutscher, *Through the Language Glass*, 2010. De Gladstone au bleu russe, ce que les langues font, et ne font pas, à notre regard.
 - Frederic Bartlett, *Remembering*, 1932. La mémoire comme reconstruction, à partir d’un conte qui ne voulait pas rester étranger.
 - Chaz Firestone et Brian Scholl, « Cognition does not affect perception », 2016. L’objection sévère et argumentée à toutes les pentes trop raides.

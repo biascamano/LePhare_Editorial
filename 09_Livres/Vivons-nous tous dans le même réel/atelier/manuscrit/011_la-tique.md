@@ -10,7 +10,7 @@ Au bout de la tige, presque à la pointe, il y a un point brun-rouge, à peine p
 
 Vous reculez d’un pas. Vous connaissez les tiques comme tout le monde : une bestiole qu’on retire de la peau avec une pince, en espérant qu’elle n’a rien transmis. Vous n’aviez jamais vu une tique en train d’attendre. Elle a grimpé là, au sommet de la tige, et elle se tient prête, les pattes ouvertes, au cas où quelque chose passerait.
 
-Le vieil homme s’assied dans l’herbe fauchée, à bonne distance. Il vous parle d’un biologiste qu’il aime beaucoup, Jakob von Uexküll. Un homme né dans les pays baltes, qui a travaillé en Allemagne, à Hambourg notamment, dans la première moitié du vingtième siècle. En 1934, il a publié un petit livre, avec des dessins, qu’on a traduit en français sous le titre *Mondes animaux et monde humain*. Et ce livre commence justement par une tique.
+Le vieil homme s’assied dans l’herbe fauchée, à bonne distance. Il vous parle d’un biologiste qu’il aime beaucoup, Jakob von Uexküll. Un homme né dans les pays baltes, qui a travaillé en Allemagne, à Hambourg notamment, dans la première moitié du vingtième siècle. En 1934, il a publié un petit livre, avec des dessins, qu’on a traduit en français, bien plus tard, sous le titre *Mondes animaux et monde humain*. Et ce livre commence justement par une tique.
 
 — Il s’est demandé ce qu’elle perçoit, elle. Pas ce qu’il y a autour d’elle : ce qu’elle reçoit.
 

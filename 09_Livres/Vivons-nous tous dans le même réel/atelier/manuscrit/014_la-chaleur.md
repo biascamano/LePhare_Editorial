@@ -30,7 +30,7 @@ Vous regardez la couleuvre. Elle a soulevé la tête de quelques centimètres et
 
 — Et ça, dit le vieil homme, ce n’est ni plus vrai ni moins vrai que ce que tu vois de lui. C’est une autre découpe.
 
-Il y a un autre sens chez les serpents qu’il aime évoquer, ajoute-t-il : on a longtemps dit qu’ils étaient sourds parce qu’ils n’ont pas d’oreille externe. C’est faux. Ils entendent mal les sons de l’air, mais ils sentent très bien les vibrations du sol, par la mâchoire posée à terre, qui les conduit jusqu’à l’oreille interne, et par tout le corps qui y repose. Pour un serpent, le monde est fait de chaleur, de vibrations et de goûts dans l’air. La lumière compte, mais moins que pour vous.
+Il y a un autre sens chez les serpents qu’il aime évoquer, ajoute-t-il : on a longtemps dit qu’ils étaient sourds parce qu’ils n’ont pas d’oreille externe. C’est faux. Ils entendent mal les sons de l’air, mais ils sentent très bien les vibrations du sol, par la mâchoire posée à terre, qui les conduit jusqu’à l’oreille interne, et par tout le corps qui y repose. Pour bien des serpents, le monde est fait de chaleur, de vibrations et de goûts dans l’air. La lumière compte, mais moins que pour vous.
 
 La couleuvre glisse soudain de la pierre. Elle ne se presse pas, elle coule entre les tiges, le long du mur, et disparaît dans un trou entre deux pierres. Vous ne l’avez même pas vue partir. Il ne reste que la pierre plate, encore brûlante, et la trace de son corps dans la poussière.
 

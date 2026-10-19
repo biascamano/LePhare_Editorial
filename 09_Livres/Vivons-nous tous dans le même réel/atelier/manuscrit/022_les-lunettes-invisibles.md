@@ -30,7 +30,7 @@ Les chercheurs ont proposé une explication, poursuit-il. Ceux qui grandissent d
 
 Il insiste : c’est une hypothèse, pas une certitude. D’autres chercheurs ont proposé d’autres explications, comme des différences dans la pigmentation de l’œil, ou dans la manière de faire passer les tests. L’étude est ancienne, et certaines tentatives de la refaire ont donné des résultats moins nets. Mais le constat, lui, a tenu : une illusion qu’on croyait universelle, inscrite dans l’œil humain, n’a pas la même force d’un groupe humain à l’autre. Pourquoi, on en discute encore. Et si c’est bien l’habitude des angles, ce que vous preniez pour « voir » contient déjà un peu d’apprendre.
 
-— Et en 2010, d’autres chercheurs ont repris cet exemple pour faire un reproche à toute la psychologie : on a longtemps étudié des étudiants occidentaux en croyant étudier l’être humain.
+— Et en 2010, trois autres chercheurs, Joseph Henrich, Steven Heine et Ara Norenzayan, ont repris cet exemple pour faire un reproche à toute la psychologie : on a longtemps étudié des étudiants occidentaux en croyant étudier l’être humain.
 
 Vous regardez les deux traits dans le carnet. Vous savez qu’ils sont égaux. Vous les avez mesurés vous-même. Et pourtant le second vous paraît toujours plus long. Savoir ne suffit pas à corriger. C’est peut-être cela, une lunette invisible : on peut apprendre qu’on la porte, et continuer de voir à travers.
 

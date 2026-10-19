@@ -24,7 +24,7 @@ Il vous explique qu’il existe dans les muscles, les tendons et les articulatio
 
 — On a appris à l’école qu’on avait cinq sens. C’est faux, ou du moins c’est très incomplet. Il y a la position du corps, l’équilibre, la chaleur, la douleur, la faim, le cœur qui bat. Les chercheurs ne sont pas d’accord sur le nombre exact, parce que tout dépend de la façon dont on compte. Mais ils sont d’accord sur un point : cinq, c’est trop peu.
 
-Vous lui demandez ce qui arrive à quelqu’un qui perd ce sens-là. Il réfléchit un moment avant de répondre. Il existe des cas, très rares, où une maladie détruit les nerfs qui portent ces informations. Le médecin et écrivain Oliver Sacks a raconté l’histoire d’une femme, dans un livre publié en 1985, qui s’était réveillée un jour sans plus sentir son corps. Elle ne pouvait plus se tenir assise ni saisir un objet sans regarder ses mains. Quand elle fermait les yeux, elle s’effondrait.
+Vous lui demandez ce qui arrive à quelqu’un qui perd ce sens-là. Il réfléchit un moment avant de répondre. Il existe des cas, très rares, où une maladie détruit les nerfs qui portent ces informations. Le médecin et écrivain Oliver Sacks a raconté l’histoire d’une femme, dans un livre publié en 1985, qui, à la veille d’une opération sans gravité, avait perdu en quelques jours le sens de son corps. Elle ne pouvait plus se tenir assise ni saisir un objet sans regarder ses mains. Quand elle fermait les yeux, elle s’effondrait.
 
 — Elle a réappris à bouger, mais avec les yeux. Elle devait surveiller chaque geste, comme on conduit une machine. Ce que toi tu fais sans y penser, elle devait le faire en y pensant tout le temps.
 

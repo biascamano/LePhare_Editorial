@@ -10,7 +10,7 @@ Le vieil homme passe avec un panier et s’arrête au-dessus de vous. Il vous co
 
 — La pieuvre.
 
-Vous riez. Vous ne voyez pas le rapport. Il pose son panier et va jusqu’à la cabane. Il en revient avec un livre qu’il ouvre sur le banc, un caillou sur la page pour que le vent ne la tourne pas. C’est le livre d’un philosophe australien, Peter Godfrey-Smith, qui plonge depuis des années pour observer les pieuvres et les seiches. Il l’a publié en 2016, et on l’a traduit en français sous le titre *Le prince des profondeurs*.
+Vous riez. Vous ne voyez pas le rapport. Il pose son panier et va jusqu’à la cabane. Il en revient avec un livre qu’il ouvre sur le banc, un caillou sur la page pour que le vent ne la tourne pas. C’est le livre d’un philosophe australien, Peter Godfrey-Smith, qui plonge depuis des années pour observer les pieuvres et les seiches. Il l’a publié en 2016, et on l’a traduit en français deux ans plus tard sous le titre *Le prince des profondeurs*.
 
 Sur la page de gauche, il y a une grande photographie. Une pieuvre, posée sur un fond de rochers, ses bras étalés autour d’elle. Vous mettez un moment à la distinguer. Sa peau a la couleur des rochers, leur grain, jusqu’aux petites bosses et aux taches d’algue. Seul l’œil la trahit, un œil doré avec une pupille en forme de fente horizontale, qui regarde l’objectif.
 

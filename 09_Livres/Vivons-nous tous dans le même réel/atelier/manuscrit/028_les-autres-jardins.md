@@ -4,7 +4,7 @@
 
 ## Les autres jardins
 
-C’est un samedi de la fin d’août, et quand vous poussez le portail, le jardin n’est plus à vous seul. Un homme taille la haie le long du mur, une femme dessine sur un pliant au bord de la mare, deux voisins se passent un panier de prunes sous l’auvent de la cabane. Des enfants courent dans le pré. Sans s’arrêter de marcher, le vieil homme explique qu’à partir de la fin de l’été, il ouvre le jardin le samedi à qui veut venir, comme chaque année. Vous êtes presque vexé. Depuis le printemps, vous aviez fini par croire que ce lieu existait pour vous deux.
+C’est un samedi de la fin d’août, et quand vous poussez le portail, le jardin n’est plus à vous seul. Un homme taille la haie le long du mur, une femme dessine sur un pliant au bord de la mare, deux voisins se passent un panier de prunes sous l’auvent de la cabane. Des enfants courent dans le pré. Sans s’arrêter de marcher, le vieil homme explique qu’à partir de la fin de l’été, il ouvre le jardin à qui veut venir, le samedi pour y travailler, le dimanche pour s’y promener, comme chaque année. Vous êtes presque vexé. Depuis le printemps, vous aviez fini par croire que ce lieu existait pour vous deux.
 
 Près du potager, une petite fille plante des haricots avec son grand-père. Elle doit avoir quatre ou cinq ans. Le grand-père, à genoux sur un sac de toile, trace un sillon du bout du doigt, y pose un haricot, l’enfonce et le recouvre. Puis il lui tend un haricot et ne fait plus rien. Elle l’enfonce beaucoup trop profond, jusqu’au poignet. Il ne le reprend pas. Il lui montre son index, la première phalange, et dit seulement : pas plus profond que ça.
 

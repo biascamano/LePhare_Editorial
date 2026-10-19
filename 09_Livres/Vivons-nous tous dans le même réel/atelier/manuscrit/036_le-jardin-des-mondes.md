@@ -24,7 +24,7 @@ Vous regardez la terre longtemps. Puis vous sortez le carnet de votre poche et v
 
 Vous regardez le plan du printemps. Il y manque le tertre, la source dans les fougères, le verger derrière la haie. Il y manque aussi tout ce que vous avez appris à voir depuis. Vous ne le corrigez pas. Vous le laissez tel qu’il est, la carte d’un jardin vu par quelqu’un qui arrivait. Vous pensez que la buse, la taupe et la petite fille ont chacune la leur, et qu’aucune ne ressemble à la vôtre. Certaines se complètent, comme les regards sous le chêne, le jour de la galle. D’autres ne tiendraient pas ensemble : si une carte met la mare là où une autre met le chêne, l’une des deux se trompe, et il faut descendre voir.
 
-La plume, la loupe, la boussole et la graine sont restées sur la table de pierre, en bas. Vous pensez à elles une à une. La plume, qu’il vous a fallu un chien pour voir. La loupe, qui agrandit la bulle sans la crever. La boussole, qui donne une direction et laisse le terrain à regarder. La graine, la dernière d’une chaîne dont personne n’a vu le premier maillon. Le soleil descend. La lumière devient oblique et dorée, et les ombres s’allongent dans le pré.
+Le soleil descend. La lumière devient oblique et dorée, et les ombres s’allongent dans le pré.
 
 Alors vous posez à voix haute la question qui vous accompagne depuis le printemps. Elle a changé de forme plusieurs fois, sur la table de pierre, devant la plume, puis sous le chêne. Ce soir, elle vous vient entière.
 
@@ -42,4 +42,5 @@ Vous attendez la suite. Il n’y en a pas. Il se lève, lentement, en s’appuya
 - Les *Meules* de Claude Monet (1890–1891), dispersées entre le musée d’Orsay et de nombreux musées dans le monde. Regarder plusieurs toiles côte à côte, ne serait-ce qu’en reproduction.
 - Les lettres d’Antoni van Leeuwenhoek à la Royal Society (1674–1677). Le drapier de Delft et les « animalcules » de l’eau de pluie.
 - Alfred Wegener, *La Genèse des continents et des océans*, 1915 pour la première édition allemande. L’idée qui a eu raison trop tôt, et ses faiblesses.
+- Naomi Oreskes, *The Rejection of Continental Drift*, Oxford University Press, 1999. Pourquoi les géologues américains ont refusé Wegener, et ce que ce refus avait de raisonnable.
 - John Godfrey Saxe, « The Blind Men and the Elephant », 1872. La version rimée de la vieille histoire.

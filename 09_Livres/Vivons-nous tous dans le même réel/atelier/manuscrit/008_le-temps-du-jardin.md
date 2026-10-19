@@ -14,7 +14,7 @@ Vous lui demandez ce qu’il veut dire. Il s’assoit sur le bord de la brouette
 
 — Chez nous, c’est autour de cinquante ou soixante éclairs par seconde, selon la lumière et selon les gens. Au cinéma, on te montre vingt-quatre images par seconde, et chacune est projetée deux ou trois fois de suite, pour que tu ne voies pas l’écran clignoter. Ton œil ne suit pas, alors il recolle, et tu vois un mouvement continu. Une mouche, elle, verrait sans doute l’écran clignoter.
 
-Il vous apprend qu’en 2013, une équipe de chercheurs menée par Kevin Healy, en Irlande, a comparé cette fréquence chez des dizaines d’espèces. Leur résultat tient en une phrase : en général, plus un animal est petit et plus son métabolisme est rapide, plus il découpe le temps finement. Certaines mouches perçoivent plusieurs centaines d’éclairs par seconde. D’autres animaux, plus lents, en perçoivent beaucoup moins que nous.
+Il vous apprend qu’en 2013, une équipe de chercheurs menée par Kevin Healy, en Irlande, a comparé cette fréquence chez des dizaines d’espèces. Leur résultat tient en une phrase : en général, plus un animal est petit et plus son métabolisme est rapide, plus il découpe le temps finement. Certaines mouches perçoivent jusqu’à environ trois cents éclairs par seconde. D’autres animaux, plus lents, en perçoivent beaucoup moins que nous.
 
 Il précise que la mesure elle-même est solide, qu’on la pratique depuis longtemps, chez l’homme comme chez l’animal. Le lien avec la taille et le métabolisme repose sur des comparaisons nombreuses, et il est bien établi en tendance. Mais ce n’est pas une loi absolue : il y a des exceptions, et la fréquence change aussi avec la lumière, la température, l’âge.
 
@@ -32,7 +32,7 @@ Vous regardez autour de vous. Les salades, les tomates, les haricots qui grimpen
 
 — Ça, c’est le temps des plantes, dit-il. Trop lent pour toi, comme la mouche est trop rapide. Si tu photographiais ce haricot toutes les dix minutes pendant une semaine, et que tu passais les photos à la suite, tu le verrais se tordre, chercher, s’enrouler autour du tuteur comme un bras. Il bouge. C’est toi qui ne vis pas à la bonne vitesse pour le voir.
 
-L’idée vous donne le vertige. Vous croyiez que le temps était le même pour tout le monde, comme une horloge accrochée au-dessus du jardin. L’horloge est peut-être la même, mais la manière de la lire ne l’est pas. La mouche vit dans un temps étiré, l’escargot dans un temps comprimé, le haricot dans un temps si long qu’il échappe à vos yeux. Et vous, quelque part au milieu, vous prenez votre vitesse pour la vitesse du monde.
+L’idée vous donne le vertige. Vous croyiez que le temps était le même pour tout le monde, comme une horloge accrochée au-dessus du jardin. L’horloge est peut-être la même, mais la manière de la lire ne l’est pas. La mouche perçoit un temps étiré, l’escargot un temps comprimé, le haricot dans un temps si long qu’il échappe à vos yeux. Et vous, quelque part au milieu, vous prenez votre vitesse pour la vitesse du monde.
 
 Vous repensez au merle du premier jour. Ce qui vous séparait de lui, pensiez-vous alors, tenait à l’espace, aux couleurs, aux sons, aux odeurs. Il faut ajouter le temps. Chacun vit aussi dans une tranche de durée, plus fine ou plus épaisse, et ce qui est rapide pour l’un est lent pour l’autre.
 

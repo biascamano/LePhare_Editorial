@@ -24,7 +24,7 @@ Pour James, explique-t-il, l’habitude est d’abord une chose merveilleuse. Qu
 
 Car il y a un revers, poursuit-il. Ce que l’habitude prend en charge, l’attention ne le regarde plus. Le chemin que vous connaissez par cœur, vous ne le voyez presque plus. Vous pourriez le parcourir les yeux fermés, ou presque, et c’est bien ce que vous faites : vos yeux sont ouverts, mais votre attention est ailleurs, dans la journée qui vient, dans une conversation de la veille. Les choses qui se trouvent sur ce chemin deviennent du décor.
 
-Vous repensez à la promenade du matin où tout a commencé. La même rue, le même trottoir, le même mur. Vous la faisiez chaque jour avec Yuki, et vous n’y voyiez rien. Il a fallu que le chien s’arrête pour que vous regardiez. Le vieil homme ne savait rien de ce matin-là, mais il ne paraît pas surpris quand vous le lui racontez.
+Vous repensez à la promenade du matin où tout a commencé. La même rue, le même trottoir, le même mur. Vous la faisiez chaque jour avec Yuki, et vous n’y voyiez rien. Il a fallu que le chien s’arrête pour que vous regardiez. Vous ne lui aviez jamais raconté ce matin-là en entier, le chien arrêté net devant le mur. Il ne paraît pas surpris quand vous le faites.
 
 — C’est souvent comme ça. Il faut que quelque chose cloche pour qu’on regarde.
 
