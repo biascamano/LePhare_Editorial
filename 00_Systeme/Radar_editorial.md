@@ -1,6 +1,6 @@
 # Radar éditorial — Le Phare Info
 
-*Les possibilités ouvertes : ce qui peut devenir un prochain article. État au 2026-10-19 (comité hebdomadaire).*
+*Les possibilités ouvertes : ce qui peut devenir un prochain article. État au 2026-10-26 (comité hebdomadaire).*
 *La quotidienne y pioche ; l'hebdomadaire trie (fusionne, élimine, re-priorise) ; la mensuelle archive. Vue courte : `00_Systeme/Etat_editorial_courant.md` (généré). Inventaire complet : `00_Systeme/Catalogue_editorial.md` (généré, mensuelle seulement).*
 
 ## Règles
@@ -16,8 +16,8 @@
 
 | P | Type potentiel | Sujet / Question | Origine | Statut |
 |---|---|---|---|---|
-| P1 | Actualité | Audition du conseil municipal de Philadelphie sur le musée de l'Academy ; réponse de Drexel à la William Penn Foundation (CULTURE) | 545, 546 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (audition reportée au 26 oct.) |
-| P1 | Actualité | Second tour de la présidentielle au Brésil : résultat, et écart avec les sondages d'entre-deux-tours (MONDE) | 534 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (après le 25 oct.) |
+| P1 | Actualité | Audition du conseil municipal de Philadelphie sur le musée de l'Academy ; réponse de Drexel à la William Penn Foundation (CULTURE) | 545, 546 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (audition du 26 oct. ; écrire dès son compte rendu) |
+| P1 | Actualité | Second tour de la présidentielle au Brésil : résultat, et écart avec les sondages d'entre-deux-tours (MONDE) | 534 ; fil Mesurer ou juger ; dossier 2026-559 | à échéance (échue : scrutin du 25 oct., résultats à vérifier) |
 | P1 | Actualité | Seconde intercalaire : résultat du vote de la CGPM sur la résolution (15 oct.) et calendrier d'application (SCIENCE) | 569 ; fil Mesurer ou juger | à échéance (dès publication du résultat officiel) |
 | P1 | Actualité | Diagnostic à Irkoutsk et sécurité des laboratoires de haut confinement ; qu'est-ce qui rend une autorité digne de confiance avant qu'elle sache ? (SCIENCE) | 537, 561 ; fil Qui contrôle le contrôleur ? | à échéance (dès confirmation) |
 | P1 | Actualité | Publicité dans les assistants : premiers retours du test des publicités visuelles de ChatGPT, concurrents, réponse des régulateurs européens (TECH) | 555, 556 ; fil Le prix de l'invisible | à échéance (fin octobre) |
@@ -37,11 +37,13 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P2 | Question | Quand un paysage familier disparaît, faut-il y voir une perte, un signal climatique, ou simplement le temps de la Terre qui devient visible ? (CLIMAT ; Ruskin, TF existant) | 539 | approfondir |
 | P2 | Question | Quand une arme se dit « intelligente », qu'est-ce qui relève de la capacité et qu'est-ce qui relève du message ? (TECH ; Schelling, TF existant) | 531 ; fil Capacités proclamées | approfondir |
 | P2 | Question | Dans une guerre où chaque camp publie sa version, comment distinguer un fait militaire d'un récit de propagande ? (MONDE ; Arendt, TF existant) | 535 | approfondir |
-| P2 | Question | Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer ; ancrage : formation de la coalition en Lettonie) | 533 | approfondir |
+| P2 | Question | Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l'élection ? (POL ; Tocqueville, TF à créer ; ancrage : formation de la coalition en Lettonie) | 533 ; fil Qui a le droit de poser la question ? | approfondir |
 | P2 | Question | Une banque centrale doit-elle annoncer ce qu'elle fera, ou garder la liberté de surprendre ? (ECON ; ancrage : réunion du FOMC fin octobre) | 568 | approfondir |
 | P2 | Question | Quand l'entreprise qui fournit l'outil est seule à voir comment on l'a détourné, qui peut vérifier ce qu'elle en dit ? Et quand un seul acteur peut prouver, faut-il le croire, l'obliger à ouvrir ses données, ou suspendre son jugement ? (TECH ; ancrage : vérifications indépendantes du rapport OpenAI, rapports d'autres fournisseurs) | 565 ; Fil 571 ; fil Qui contrôle le contrôleur ? | approfondir |
 | P2 | Question | Une justice internationale peut-elle juger les puissants quand elle dépend, pour fonctionner, des services de ceux qu'elle pourrait poursuivre ? (MONDE) | 566 | approfondir |
 | P2 | Question | Quand une aide est versée en échange de réformes, qui vérifie qu'elles tiennent une fois l'argent versé ? (MONDE ; suivi : avis de la Commission sur les 10 Md€ du plan de relance hongrois, fin 2026) | 572 ; fil Qui contrôle le contrôleur ? | approfondir |
+| P2 | Question | Qui a le droit de choisir la question posée à un peuple, et peut-on lui demander de trancher seul ce qui engage aussi d'autres que lui ? (POL ; ancrages : résultats officiels du référendum albertain le 29 octobre, congrès de l'UCP en novembre, élection générale d'octobre 2027 ; TF Tocqueville possible) | 573 ; 533, 541 ; fil Qui a le droit de poser la question ? | approfondir |
+| P2 | Question | Quand une décision engage des milliers de générations qui n'auront rien choisi, qu'est-ce qui la rend légitime aujourd'hui : la solidité de la preuve, l'accord de ceux qui vivent à côté, ou la possibilité de revenir en arrière ? (CLIMAT ; ancrages : premier dépôt de combustible à Onkalo après validation des essais par STUK, décret d'autorisation de Cigéo) | 574 ; fil Le prix de l'invisible | approfondir |
 
 *Déjà traitées : 540 → Fil 547 et TF 548 ; 534 → TF 548.*
 
@@ -59,7 +61,6 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P1 | Texte fondateur | Ivan Illich : institutions et contre-productivité (CULTURE ; novembre) | Fil Mesurer ou juger (545, 546) ; lycées (542) | approfondir |
 | P2 | Texte fondateur | Jacques Ellul : la technique et son autonomie (TECH) | Fil Qui contrôle le contrôleur ? (531, 543, 544) | approfondir |
 | P2 | Texte fondateur | Pierre Bourdieu et Alain Darbel : *L'Amour de l'art* (1966) (CULTURE) | 546 (déjà cité sans TF) | approfondir |
-| P3 | Texte fondateur | Alexis de Tocqueville : démocratie et majorité (POL) | Élections (533, 534, 541) | conserver |
 
 ## 5. Dossiers et Sentier (propositions, validation humaine)
 
@@ -68,8 +69,6 @@ Questions finales d'actualités sans article Question. On ne les rattrape pas to
 | P1 | Dossier | Qui contrôle le contrôleur ? (pilier critique) | 537, 543, 544, plus le TF Ellul à venir | approfondir |
 | P2 | Atelier | Capacité démontrée ou proclamée : ce qui rend une affirmation testable (fondamental 2026-153 Popper, étape 06) | 531, 558 ; fil Capacités proclamées | approfondir |
 | P2 | Atelier | Un fait, deux récits : démêler un communiqué de guerre (fondamental 2026-199 Sophismes, étape 02) | 535, 541 | approfondir |
-| P3 | Atelier | Qui nomme, gouverne ? (fondamental 2026-163 Langues et pouvoir, étape 05) | 538, 541 | conserver |
-| P3 | Atelier | Les récits fondateurs à l'épreuve de l'actualité (fondamental 2026-137, étape 08) | 532, 538 | conserver |
 
 *Réalisés : dossier Mesurer ou juger → 2026-559 ; atelier Lire un indicateur → 2026-560 sous 2026-159 (2026-10-06). Les suites marquées « dossier 2026-559 » prennent `Dossier : 2026-559` dans leur en-tête.*
 
@@ -84,7 +83,7 @@ Questions exploratoires tirées des centres d'intérêt du fondateur (`plan.md` 
 | C | Pensée critique, épistémologie | À partir de quand une découverte scientifique devient-elle un savoir établi ? | Une réplication réussie ou ratée, une rétractation, un consensus révisé | explorée (567) |
 | C | IA et technologies | Qu'apprend-on de l'intelligence humaine en observant ce que les machines réussissent, et ce qu'elles ratent ? | Une évaluation publiée d'un modèle d'IA, un échec documenté | ouverte |
 | C | Sciences | Qu'est-ce qu'une mesure ne dit jamais de ce qu'elle mesure ? | Un nouvel instrument, une révision d'unité ou de constante, une donnée corrigée | explorée (569) |
-| C | Autonomie individuelle et collective | Une communauté peut-elle décider seule de ce qui la concerne quand ses choix engagent d'autres qu'elle ? | Un référendum local, une coopérative, un conflit de compétences | ouverte |
+| C | Autonomie individuelle et collective | Une communauté peut-elle décider seule de ce qui la concerne quand ses choix engagent d'autres qu'elle ? | Un référendum local, une coopérative, un conflit de compétences | explorée (573) |
 | C | Institutions | Pourquoi des institutions qui fonctionnent mal durent-elles parfois plus longtemps que celles qui fonctionnent bien ? | Une réforme institutionnelle avortée ou un rapport d'évaluation | ouverte |
 | C | Liberté et démocratie | La liberté d'expression protège-t-elle d'abord celui qui parle ou celui qui écoute ? | Une décision de justice, une régulation des plateformes | ouverte |
 | C | Connaissance de soi | Se connaître : affaire d'introspection, ou de regard des autres et de mesures ? | Une étude sur l'auto-évaluation, les objets connectés de suivi de soi | ouverte |
@@ -97,6 +96,9 @@ Questions exploratoires tirées des centres d'intérêt du fondateur (`plan.md` 
 
 | Date | Entrée | Raison |
 |---|---|---|
+| 2026-10-26 | TF : Alexis de Tocqueville, démocratie et majorité (533, 534, 541) | P3, réserve ; devient ancrage possible des Questions 533 et 573 (fil Qui a le droit de poser la question ?) |
+| 2026-10-26 | Atelier : Qui nomme, gouverne ? (2026-163, étape 05 ; 538, 541) | P3, réserve ; fils Héritages et Guerres et récits de côté (plafond 30) |
+| 2026-10-22 | Atelier : les récits fondateurs à l'épreuve de l'actualité (2026-137, étape 08 ; 532, 538) | P3, réserve ; fil Héritages de côté ; place pour la Question 573 (plafond 30) |
 | 2026-10-19 | Suite : opérations d'influence par IA, vérifications du rapport OpenAI (565) | Fusionnée dans la Question 565 / Fil 571 (bloc 2) comme ancrage |
 | 2026-10-19 | Suite : Bosnie-Herzégovine, résultats définitifs et gouvernements (541) | P3, réserve ; fil Guerres et récits concurrents de côté |
 | 2026-10-19 | Suite : formation de la coalition en Lettonie (533) | Fusionnée dans la Question 533 (bloc 2) comme ancrage |

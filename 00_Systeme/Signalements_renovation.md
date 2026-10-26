@@ -10,6 +10,7 @@
 
 | Date | ID | Titre | Signalé par | Constat | Suite proposée |
 |---|---|---|---|---|---|
+| 2026-10-26 | 2026-566 | Sanctions contre la Cour pénale internationale : Washington vise désormais l'institution, plus seulement ses juges | Rétro hebdomadaire S43 (D-2026-S42-7) | La formulation sur la portée des sanctions visant la CPI omet les exemptions de la licence générale GL14 ; reprise telle quelle par 571, où le relecteur l'a classée bloquante (non fausse, mais incomplète) | Ajouter la nuance GL14, à la lettre de la source OFAC, puis rafraîchir en ligne (hors mode brouillons ou sur demande du fondateur) |
 
 ## Traités
 

@@ -99,6 +99,7 @@ Un système conçu pour garantir la paix entre communautés peut-il aussi permet
 - [Ernst Haas : le néofonctionnalisme et l'élargissement aux Balkans](https://le-phare.info/ernst-haas-neofonctionnalisme-spillover-elargissement-balkans/)
 - [Lettonie : Andris Kulbergs gagne les législatives, mais une victoire n'est pas une majorité](https://le-phare.info/lettonie-legislatives-3-octobre-2026-kulbergs/)
 - [Éthiopie : l'armée fédérale reprend Mekelle, et chaque camp raconte une autre guerre](https://le-phare.info/ethiopie-tigre-mekelle-reprise-armee-federale-octobre-2026/)
+- [Référendum en Alberta : 75 % pour rester au Canada, mais qui avait choisi la question ?](https://le-phare.info/alberta-referendum-19-octobre-2026-question-canada/)
 
 **Sur le Sentier du Savoir**
 

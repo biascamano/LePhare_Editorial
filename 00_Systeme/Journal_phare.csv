@@ -32,3 +32,15 @@ horodatage,periode,activite,statut,etape,ids,note
 2026-10-16 16:37,2026-10-16,generale,brouillon,fin,2026-572,pilote ; contrôle : PUBLIER
 2026-10-19 07:32,2026-S42,retro_hebdo,en_cours,debut,,
 2026-10-19 07:35,2026-S42,retro_hebdo,termine,fin,,
+2026-10-22 10:06,2026-10-22,generale,en_cours,debut,,
+2026-10-22 10:15,2026-10-22,generale,en_cours,redaction,2026-573,
+2026-10-22 15:17,2026-10-22,generale,en_cours,controle_ok,2026-573,
+2026-10-22 15:17,2026-10-22,generale,en_cours,wp,2026-573,
+2026-10-22 15:18,2026-10-22,generale,brouillon,fin,2026-573,pilote ; contrôle : PUBLIER
+2026-10-23 09:22,2026-10-23,generale,en_cours,debut,,
+2026-10-23 09:28,2026-10-23,generale,en_cours,redaction,2026-574,
+2026-10-23 09:33,2026-10-23,generale,en_cours,controle_ok,2026-574,
+2026-10-23 09:33,2026-10-23,generale,en_cours,wp,2026-574,
+2026-10-23 09:33,2026-10-23,generale,brouillon,fin,2026-574,pilote ; contrôle : PUBLIER
+2026-10-26 09:02,2026-S43,retro_hebdo,en_cours,debut,,
+2026-10-26 09:05,2026-S43,retro_hebdo,termine,fin,,

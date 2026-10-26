@@ -97,6 +97,7 @@ Quand un parti arrive largement en tête sans majorité, qui a vraiment gagné l
 - [Sommet UE–Balkans occidentaux à Tivat](https://le-phare.info/sommet-ue-balkans-occidentaux-tivat-juin-2026/)
 - [Campbell et Goodhart : quand une mesure devient une cible, elle cesse de bien mesurer](https://le-phare.info/campbell-goodhart-quand-une-mesure-devient-une-cible/)
 - [Mesurer ou juger : ce qu'un indicateur laisse hors champ](https://le-phare.info/dossier-mesurer-ou-juger-indicateurs/)
+- [Référendum en Alberta : 75 % pour rester au Canada, mais qui avait choisi la question ?](https://le-phare.info/alberta-referendum-19-octobre-2026-question-canada/)
 
 **Sur le Sentier du Savoir**
 
