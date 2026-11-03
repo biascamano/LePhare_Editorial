@@ -1,0 +1,240 @@
+---
+import Base from '../../layouts/Base.astro';
+import { content } from '../../content/provider';
+import type { Article, ArticleRef, Format } from '../../content/types';
+import { FORMATS_ACTUALITE, LIBELLE_FORMAT, LIBELLE_THEME, dateFr, hrefDeUrl, relocaliser } from '../../content/util';
+
+export async function getStaticPaths() {
+  const articles = await content.listArticles();
+  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+const { article: a } = Astro.props as { article: Article };
+const tous = await content.listArticles();
+const slugs = new Set(tous.map((x) => x.slug));
+const sentier = await content.getSentier();
+
+const RELIEF = /ce que l['’]on sait|ce que nous ne savons|ce qui résiste|ce que l['’]on ignore|limites/i;
+const sections = a.sections.map((s, i) => ({ ...s, id: `s${i + 1}`, html: relocaliser(s.html, slugs), relief: RELIEF.test(s.title) }));
+const limites = sections.find((s) => s.relief);
+const chapeauHtml = relocaliser(a.chapeauHtml, slugs);
+
+const porte = (f: Format) => (FORMATS_ACTUALITE.includes(f) ? 'actualite' : 'connaissance');
+const maPorte = porte(a.format);
+
+const refs = (await Promise.all([a.previousId, a.dossierId, ...a.relatedIds].filter(Boolean).map((id) => content.resolveRef(id))))
+  .filter((r): r is ArticleRef => !!r && r.id !== a.id);
+// Rétroliens : la double circulation se lit aussi depuis les articles qui citent celui-ci.
+const retroliens: ArticleRef[] = tous.filter((x) => x.id !== a.id && (x.relatedIds.includes(a.id) || x.dossierId === a.id || x.previousId === a.id));
+const reseau = [...new Map([...refs, ...retroliens].map((r) => [r.id, r])).values()];
+const lien = (r: ArticleRef) => ({ label: r.title, note: LIBELLE_FORMAT[r.format] ?? '', ...hrefDeUrl(r.url, slugs) });
+
+const autreSens = reseau.filter((r) => porte(r.format) !== maPorte).slice(0, 3).map(lien);
+const titreAutreSens = maPorte === 'actualite' ? 'Les connaissances qui l\'éclairent' : 'L\'actualité qu\'elle éclaire';
+const dejaVus = new Set(autreSens.map((l) => l.href));
+
+const etapes = sentier.etapes.filter((e) => a.sentierEtapes.includes(e.num));
+const dossier = refs.find((r) => r.id === a.dossierId) ?? tous.find((x) => x.format === 'dossier' && x.theme === a.theme && x.id !== a.id);
+const decouverte = reseau.find((r) => ['experimental', 'question', 'texte-fondateur'].includes(r.format) && !dejaVus.has(lien(r).href) && r.id !== dossier?.id)
+  ?? tous.find((x) => x.format === 'experimental' && x.id !== a.id);
+type Suite = { quoi: string; label: string; href: string; externe: boolean };
+const suite: Suite[] = [];
+if (decouverte) suite.push({ quoi: decouverte.format === 'experimental' ? 'Une découverte' : LIBELLE_FORMAT[decouverte.format], ...lien(decouverte) });
+if (dossier && dossier.id !== a.id) suite.push({ quoi: 'Le dossier', ...lien(dossier) });
+if (etapes[0]) suite.push({ quoi: 'Sentier du Savoir', label: `Étape ${etapes[0].num} : ${etapes[0].nom}`, href: `/sentier/#etape-${etapes[0].num}`, externe: false });
+const suiteFiltree = suite.filter((s) => !dejaVus.has(s.href));
+
+const vus = new Set<string>([...dejaVus, ...suiteFiltree.map((s) => s.href)]);
+const references = [
+  ...a.furtherLinks.map((l) => ({ label: l.label, note: '', ...hrefDeUrl(l.url, slugs) })),
+  ...reseau.map((r) => ({ ...lien(r), note: r.id === a.dossierId ? 'Dossier' : r.id === a.previousId ? 'Article précédent' : LIBELLE_FORMAT[r.format] ?? '' })),
+  ...a.sentierLinks.map((l) => ({ label: l.label, note: 'Sentier', ...hrefDeUrl(l.url, slugs) })),
+].filter((l) => {
+  const k = l.href.replace(/\/$/, '');
+  if (vus.has(l.href) || vus.has(k)) return false;
+  vus.add(k);
+  return true;
+});
+
+const description = a.metaDescription || a.summary;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': a.format === 'actualite' ? 'NewsArticle' : 'Article',
+  headline: a.title,
+  description,
+  datePublished: a.date,
+  dateModified: a.updated || a.date,
+  inLanguage: 'fr-FR',
+  mainEntityOfPage: new URL(`/${a.slug}/`, Astro.site).href,
+  author: { '@type': 'Organization', name: 'La rédaction du Phare' },
+  publisher: { '@type': 'Organization', name: 'Le Phare', url: 'https://le-phare.info/' },
+  keywords: a.keywords.join(', '),
+};
+---
+
+<Base title={a.title} description={description} path={`/${a.slug}/`} type="article" published={a.date} modified={a.updated} jsonLd={jsonLd}>
+  <article class="wrap article">
+    <header class="a-head">
+      <p class="eyebrow">
+        <a href={`/explorer/?format=${a.format}`}>{LIBELLE_FORMAT[a.format]}</a>
+        {a.theme && <> · <a href={`/explorer/?theme=${a.theme}`}>{LIBELLE_THEME[a.theme] ?? a.theme}</a></>}
+      </p>
+      <h1>{a.title}</h1>
+      <p class="muted meta">
+        La rédaction du Phare · <time datetime={a.date}>{dateFr(a.date)}</time>
+        {a.updated && a.updated !== a.date && <>{' · mis à jour le '}<time datetime={a.updated}>{dateFr(a.updated)}</time></>}
+        {` · ${a.readingMinutes} min de lecture · `}<a href="#transparence">Méthode</a>
+      </p>
+      {chapeauHtml ? <div class="chapeau" set:html={chapeauHtml} /> : <p class="chapeau">{a.summary}</p>}
+    </header>
+
+    {(chapeauHtml || a.objective || a.question) && (
+      <aside class="essentiel" aria-labelledby="essentiel-t">
+        <h2 id="essentiel-t" class="eyebrow">L'essentiel en deux minutes</h2>
+        {chapeauHtml && <p>{a.summary}</p>}
+        {a.objective && <p><strong>Ce que l'article cherche à établir :</strong> {a.objective}</p>}
+        {a.question && (
+          <figure>
+            <figcaption>La question du Phare</figcaption>
+            <blockquote><p>{a.question}</p></blockquote>
+          </figure>
+        )}
+      </aside>
+    )}
+
+    <div class="corps">
+      {sections.length > 2 && (
+        <nav class="toc no-print" aria-labelledby="toc-t">
+          <details>
+            <summary id="toc-t">Analyse complète · {sections.length} parties</summary>
+            <ol>{sections.map((s) => <li><a href={`#${s.id}`}>{s.title}</a></li>)}</ol>
+          </details>
+        </nav>
+      )}
+      <div class="prose analyse">
+        {sections.map((s) => (
+          <section id={s.id} class:list={['part', { relief: s.relief }]} aria-labelledby={`${s.id}-t`}>
+            <h2 id={`${s.id}-t`}>{s.title}</h2>
+            <Fragment set:html={s.html} />
+          </section>
+        ))}
+      </div>
+    </div>
+
+    {a.nextQuestion && a.nextQuestion !== a.question && (
+      <aside class="ouverture" aria-labelledby="ouverture-t">
+        <h2 id="ouverture-t" class="eyebrow">La question suivante</h2>
+        <blockquote><p>{a.nextQuestion}</p></blockquote>
+      </aside>
+    )}
+
+    {autreSens.length > 0 && (
+      <section class="bloc circulation" aria-labelledby="circulation-t">
+        <h2 id="circulation-t">{titreAutreSens}</h2>
+        <ul class="liens">
+          {autreSens.map((l) => (
+            <li><span class="tag">{l.note}</span><a href={l.href}>{l.label}</a>{l.externe && <span class="muted petit"> (site actuel)</span>}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <aside id="transparence" class="bloc transparence" aria-labelledby="transparence-t">
+      <h2 id="transparence-t">Transparence</h2>
+      <dl>
+        <div><dt>Rédaction</dt><dd>La rédaction du Phare.</dd></div>
+        <div><dt>Sources</dt><dd>{a.sources.length > 0 ? <a href="#sources">{a.sources.length} repère{a.sources.length > 1 ? 's' : ''} de sources</a> : 'Aucun repère de source listé.'}</dd></div>
+        <div><dt>Limites</dt><dd>{limites ? <a href={`#${limites.id}`}>{limites.title}</a> : 'Pas de partie dédiée dans cet article.'}</dd></div>
+        <div><dt>Rôle de l'IA</dt><dd><span class="a-valider">Mention à rédiger par la rédaction.</span> <a href="/le-phare/#charte">Charte</a></dd></div>
+        <div><dt>Corrections</dt><dd>{a.updated && a.updated !== a.date ? <>Mis à jour le {dateFr(a.updated)}.</> : 'Aucune mise à jour signalée.'} <a href="/le-phare/#contact">Signaler une erreur</a></dd></div>
+      </dl>
+    </aside>
+
+    {a.sources.length > 0 && (
+      <section id="sources" class="bloc" aria-labelledby="sources-t">
+        <details>
+          <summary><h2 id="sources-t">Repères de sources <span class="muted">({a.sources.length})</span></h2></summary>
+          <ul class="liens">
+            {a.sources.map((s) => <li><a href={s.url} rel="noopener">{s.label}</a></li>)}
+          </ul>
+        </details>
+      </section>
+    )}
+
+    {suiteFiltree.length > 0 && (
+      <section class="bloc suite" aria-labelledby="suite-t">
+        <h2 id="suite-t">Poursuivre</h2>
+        <ul class="suite-l" role="list">
+          {suiteFiltree.map((s) => (
+            <li class="encart">
+              <span class="quoi">{s.quoi}</span>
+              <a href={s.href}>{s.label}</a>
+              {s.externe && <span class="muted petit">(site actuel)</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {references.length > 0 && (
+      <section class="bloc" aria-labelledby="refs-t">
+        <details>
+          <summary><h2 id="refs-t">Toutes les références <span class="muted">({references.length})</span></h2></summary>
+          <ul class="liens">
+            {references.map((l) => (
+              <li>{l.note && <span class="tag">{l.note}</span>}<a href={l.href}>{l.label}</a>{l.externe && l.href.startsWith('https://le-phare.info/') && <span class="muted petit"> (site actuel)</span>}</li>
+            ))}
+          </ul>
+        </details>
+      </section>
+    )}
+
+    <p class="no-print source-live muted petit">Version publiée : <a href={a.url}>{a.url}</a></p>
+  </article>
+</Base>
+
+<style>
+  .article { max-width: 48rem; }
+  .a-head { padding-block: var(--s-7) var(--s-5); }
+  .a-head .eyebrow a { color: inherit; text-decoration: none; }
+  .a-head .eyebrow a:hover { text-decoration: underline; }
+  .meta { font-size: var(--fs-0); }
+  .chapeau, .chapeau :global(p) { font: italic var(--fs-3) / 1.5 var(--f-serif); }
+  .chapeau :global(em) { font-style: inherit; }
+  .essentiel { background: var(--c-teal-mist); border-left: 4px solid var(--c-teal); border-radius: var(--radius); padding: var(--s-5); margin-bottom: var(--s-5); }
+  .essentiel > :last-child { margin-bottom: 0; }
+  .ouverture { margin-block: var(--s-6); padding: var(--s-5); background: var(--c-surface); border: 1px solid var(--c-line); border-left: 4px solid var(--c-amber); border-radius: var(--radius); }
+  figure { margin: var(--s-4) 0 0; }
+  figcaption { font-size: var(--fs-0); font-weight: 600; color: var(--c-muted); }
+  blockquote { margin: var(--s-1) 0 0; }
+  blockquote p { font: 600 var(--fs-3) / 1.35 var(--f-serif); margin: 0; }
+  .toc { margin-block: var(--s-6) var(--s-5); font-size: var(--fs-0); }
+  .toc summary { cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; color: var(--c-teal-ink); }
+  .toc ol { margin: var(--s-2) 0 0; padding-left: 1.4em; }
+  .toc li { margin-bottom: var(--s-1); }
+  .part { scroll-margin-top: var(--s-4); }
+  .part h2 { font-size: var(--fs-4); margin-top: var(--s-7); }
+  .part:first-child h2 { margin-top: var(--s-5); }
+  .relief { background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); padding: var(--s-2) var(--s-5) var(--s-3); margin-top: var(--s-6); }
+  .relief h2 { margin-top: var(--s-4); }
+  .bloc { border-top: 1px solid var(--c-line); padding-block: var(--s-5); scroll-margin-top: var(--s-4); }
+  .bloc h2 { font-size: var(--fs-3); margin: 0 0 var(--s-3); }
+  .bloc summary { cursor: pointer; list-style-position: outside; min-height: 44px; }
+  .bloc summary h2 { display: inline; margin: 0; }
+  .circulation { border-top: 3px solid var(--c-teal); }
+  .transparence { font-size: var(--fs-0); }
+  .transparence dl { display: grid; gap: var(--s-2); margin: 0; }
+  .transparence dl > div { display: grid; grid-template-columns: minmax(7rem, 10rem) 1fr; gap: var(--s-3); }
+  .transparence dt { font-weight: 700; color: var(--c-teal-ink); }
+  .transparence dd { margin: 0; }
+  .suite-l { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); }
+  .suite-l li { display: grid; gap: var(--s-1); align-content: start; }
+  .quoi { font: 700 0.75rem / 1.3 var(--f-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-amber-ink, var(--c-teal-ink)); }
+  .liens { padding-left: 1.2em; }
+  .liens li { margin-bottom: var(--s-2); }
+  .tag { display: inline-block; margin-right: var(--s-2); padding: 0 var(--s-2); border-radius: 4px; background: var(--c-teal-mist); font-size: var(--fs-0); font-weight: 600; }
+  .source-live { word-break: break-all; }
+  @media (max-width: 30rem) {
+    .transparence dl > div { grid-template-columns: 1fr; gap: 0; }
+  }
+</style>

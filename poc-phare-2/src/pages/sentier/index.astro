@@ -1,0 +1,93 @@
+---
+import Base from '../../layouts/Base.astro';
+import { content } from '../../content/provider';
+import { LIBELLE_FORMAT } from '../../content/util';
+
+const sentier = await content.getSentier();
+const tous = await content.listArticles();
+const etapes = sentier.etapes.map((e) => ({
+  ...e,
+  articles: tous.filter((a) => a.sentierEtapes.includes(e.num)).slice(0, 3),
+}));
+const ateliers = tous.filter((a) => a.format === 'atelier');
+const pratique = ateliers.find((a) => /cinq questions/i.test(a.title)) ?? ateliers[0];
+const deux = (n: number) => String(n).padStart(2, '0');
+const nb = etapes.length;
+---
+
+<Base
+  title="Le Sentier du Savoir"
+  description={`Le Sentier du Savoir : ${nb} étapes indépendantes, des outils pour exercer votre regard, quel que soit votre point de départ.`}
+  path="/sentier/"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Sentier du Savoir</p>
+      <h1>Le Sentier du Savoir</h1>
+      <p class="lead">Des outils pour exercer votre regard, quel que soit votre point de départ.</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <p class="intro prose">À partir d'une actualité ou d'une découverte, choisissez librement votre prochaine étape.</p>
+
+    <ol class="etapes" role="list">
+      {etapes.map((e) => (
+        <li class="etape encart" id={`etape-${e.num}`}>
+          <p class="num" aria-hidden="true">{deux(e.num)}</p>
+          <h2 class="nom"><span class="visually-hidden">Étape {e.num} : </span>{e.nom}</h2>
+          {e.articles.length > 0 && (
+            <ul class="recents" aria-label={`Articles récents liés à l'étape ${e.num}`}>
+              {e.articles.map((a) => <li><span class="tag">{LIBELLE_FORMAT[a.format]}</span> <a href={`/${a.slug}/`}>{a.title}</a></li>)}
+            </ul>
+          )}
+          <details>
+            <summary>{e.fondamentaux.length} fondamentaux</summary>
+            <ul class="fonds">
+              {e.fondamentaux.map((f) => <li>{f.url ? <a href={f.url}>{f.titre}</a> : <span>{f.titre}</span>}</li>)}
+            </ul>
+          </details>
+          {e.hubUrl && <p class="hub"><a href={e.hubUrl}>Ouvrir l'étape <span class="muted">(site actuel)</span></a></p>}
+        </li>
+      ))}
+    </ol>
+
+    {pratique && (
+      <section class="pratique" aria-labelledby="pratique-t">
+        <div>
+          <p class="eyebrow">Mettre en pratique</p>
+          <h2 id="pratique-t">{pratique.title.replace(/^Sentier du Savoir\s*[-–—]\s*/, '')}</h2>
+          <p class="muted">{pratique.summary.length > 220 ? `${pratique.summary.slice(0, 217).replace(/\s+\S*$/, '')}…` : pratique.summary}</p>
+        </div>
+        <a class="btn btn-plein" href={`/${pratique.slug}/`}>Ouvrir l'atelier</a>
+      </section>
+    )}
+
+    <p class="libre">Les étapes sont indépendantes : aucun ordre imposé.</p>
+    <p class="muted petit">Étapes et fondamentaux : manifest réel du dépôt (<code>sentier_fondamentaux.csv</code>). Les fondamentaux mènent au site actuel.</p>
+  </div>
+</Base>
+
+<style>
+  .intro { margin-block: var(--s-6) var(--s-5); font: var(--fs-2) / 1.6 var(--f-serif); }
+  .etapes { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); }
+  .etape { display: flex; flex-direction: column; gap: var(--s-2); scroll-margin-top: var(--s-4); border-top: 4px solid var(--c-teal); }
+  .etape:target { outline: 3px solid var(--c-amber); }
+  .num { margin: 0; font: 700 var(--fs-4) / 1 var(--f-serif); color: var(--c-amber); }
+  .nom { font-size: var(--fs-3); margin: 0; }
+  .recents { list-style: none; padding: 0; margin: 0; font-size: var(--fs-0); display: grid; gap: var(--s-2); }
+  .tag { display: inline-block; padding: 0 var(--s-2); border-radius: 4px; background: var(--c-teal-mist); font-size: 0.75rem; font-weight: 600; }
+  details { margin-top: auto; font-size: var(--fs-0); }
+  summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; font-weight: 600; color: var(--c-teal-ink); }
+  .fonds { padding-left: 1.2em; margin: 0; }
+  .fonds li { margin-bottom: var(--s-1); }
+  .hub { margin: 0; font-size: var(--fs-0); }
+  .pratique {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--s-4);
+    margin-top: var(--s-7); padding: var(--s-6); border-radius: var(--radius); background: var(--c-teal-mist); border-left: 4px solid var(--c-amber);
+  }
+  .pratique > div { flex: 1 1 24rem; }
+  .pratique h2 { font-size: var(--fs-4); }
+  .pratique p:last-child { margin: 0; }
+  .libre { margin-top: var(--s-6); font: italic 600 var(--fs-3) / 1.4 var(--f-serif); color: var(--c-teal-ink); }
+</style>

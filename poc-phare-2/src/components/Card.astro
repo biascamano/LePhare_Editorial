@@ -1,0 +1,46 @@
+---
+import type { Article } from '../content/types';
+import { LIBELLE_FORMAT, LIBELLE_THEME, dateFr } from '../content/util';
+
+interface Props {
+  article: Article;
+  /** Montre la Question du Phare plutôt que le résumé. */
+  questionFirst?: boolean;
+  headingLevel?: 'h2' | 'h3';
+}
+
+const { article: a, questionFirst = false, headingLevel = 'h3' } = Astro.props;
+const H = headingLevel;
+const accroche = questionFirst && a.question ? a.question : a.summary;
+---
+
+<article class="card" data-format={a.format}>
+  <p class="etiquette">{LIBELLE_FORMAT[a.format]}</p>
+  <H class="title"><a href={`/${a.slug}/`}>{a.title}</a></H>
+  <p class="accroche">{accroche.length > 200 ? `${accroche.slice(0, 197).replace(/\s+\S*$/, '')}…` : accroche}</p>
+  <p class="meta muted">
+    <span><time datetime={a.date}>{dateFr(a.date)}</time>{a.theme && ` · ${LIBELLE_THEME[a.theme] ?? a.theme}`} · {a.readingMinutes} min</span>
+    <span class="suite" aria-hidden="true">Explorer →</span>
+  </p>
+</article>
+
+<style>
+  .card {
+    position: relative; display: flex; flex-direction: column; height: 100%;
+    background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius);
+    padding: var(--s-5); box-shadow: var(--shadow);
+    border-top: 4px solid var(--c-teal);
+  }
+  .card[data-format='question'], .card[data-format='fil'], .card[data-format='experimental'] { border-top-color: var(--c-amber); }
+  .card[data-format='texte-fondateur'], .card[data-format='dossier'], .card[data-format='atelier'], .card[data-format='fondamental'], .card[data-format='livre'] { border-top-color: var(--c-teal-deep); }
+  .etiquette { font: 700 0.75rem / 1.3 var(--f-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-teal-ink); margin: 0 0 var(--s-2); }
+  .title { font-size: var(--fs-3); margin-bottom: var(--s-3); }
+  .title a { color: inherit; text-decoration: none; }
+  .title a::after { content: ''; position: absolute; inset: 0; border-radius: var(--radius); }
+  .title a:focus-visible { outline: none; box-shadow: none; }
+  .card:has(.title a:focus-visible) { outline: 2px solid var(--c-ink); outline-offset: 2px; box-shadow: 0 0 0 6px var(--c-focus); }
+  .card:hover .title a { text-decoration: underline; }
+  .accroche { flex: 1; font-family: var(--f-serif); }
+  .meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s-2); font-size: var(--fs-0); margin: 0; }
+  .suite { color: var(--c-teal-ink); font-weight: 600; }
+</style>

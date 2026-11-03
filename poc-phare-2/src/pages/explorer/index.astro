@@ -1,0 +1,154 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { content } from '../../content/provider';
+import { FORMATS_ACTUALITE, LIBELLE_FORMAT, LIBELLE_THEME, ORDRE_FORMATS } from '../../content/util';
+
+const tous = [...(await content.listArticles())].sort((a, b) => b.date.localeCompare(a.date));
+const formats = ORDRE_FORMATS.filter((f) => tous.some((a) => a.format === f));
+const themes = [...new Set(tous.map((a) => a.theme))].filter(Boolean).sort((a, b) => (LIBELLE_THEME[a] ?? a).localeCompare(LIBELLE_THEME[b] ?? b));
+const texteRecherche = (a: (typeof tous)[number]) =>
+  [a.title, a.summary, a.question, ...a.keywords].join(' ').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
+---
+
+<Base title="Explorer les publications" description="Explorer les publications du Phare : partir d'un fait, d'une idée ou d'une question, par thème et par format." path="/explorer/">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Explorer</p>
+      <h1>Explorer les publications</h1>
+      <p class="lead">Partir d'un fait, d'une idée ou d'une question.</p>
+      <form class="recherche no-print" method="get" action="/explorer/" role="search" aria-label="Rechercher et filtrer les publications">
+        <div class="champ grand">
+          <label for="q">Rechercher</label>
+          <input id="q" name="q" type="search" placeholder="Un mot, un nom, une question…" autocomplete="off" />
+        </div>
+        <div class="champ">
+          <label for="theme">Thème</label>
+          <select id="theme" name="theme">
+            <option value="">Tous les thèmes</option>
+            {themes.map((t) => <option value={t}>{LIBELLE_THEME[t] ?? t}</option>)}
+          </select>
+        </div>
+        <div class="champ">
+          <label for="format">Format</label>
+          <select id="format" name="format">
+            <option value="">Tous les formats</option>
+            {formats.map((f) => <option value={f}>{LIBELLE_FORMAT[f]}</option>)}
+          </select>
+        </div>
+        <div class="champ">
+          <label for="tri">Trier</label>
+          <select id="tri" name="tri">
+            <option value="">Plus récentes</option>
+            <option value="anciennes">Plus anciennes</option>
+          </select>
+        </div>
+        <input type="hidden" name="porte" id="porte" value="" />
+        <button class="btn btn-plein" type="submit">Explorer</button>
+      </form>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <p class="formats muted">Actualités, découvertes, questions, applications, dossiers, textes fondateurs, ateliers et Fil du Phare.</p>
+    <p id="compte" class="muted" role="status" aria-live="polite">{tous.length} publications.</p>
+
+    <ul class="grid resultats" id="resultats" role="list">
+      {tous.map((a) => (
+        <li data-item data-format={a.format} data-porte={FORMATS_ACTUALITE.includes(a.format) ? 'actualite' : 'connaissance'} data-theme={a.theme} data-date={a.date} data-texte={texteRecherche(a)}>
+          <Card article={a} />
+        </li>
+      ))}
+    </ul>
+    <p id="vide" class="vide" hidden>Aucune publication ne correspond. <a href="/explorer/">Tout afficher</a></p>
+    <nav id="pagination" class="pagination no-print" aria-label="Pages de résultats" hidden></nav>
+  </div>
+</Base>
+
+<script>
+  const PAR_PAGE = 12;
+  const form = document.querySelector<HTMLFormElement>('.recherche')!;
+  const liste = document.getElementById('resultats')!;
+  const items = [...liste.querySelectorAll<HTMLElement>('[data-item]')];
+  const compte = document.getElementById('compte')!;
+  const vide = document.getElementById('vide')!;
+  const pagination = document.getElementById('pagination')!;
+  const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').trim();
+  let page = 1;
+
+  function appliquer(pousser: boolean) {
+    const data = new FormData(form);
+    const q = norm(String(data.get('q') ?? ''));
+    const format = String(data.get('format') ?? '');
+    const theme = String(data.get('theme') ?? '');
+    const porte = String(data.get('porte') ?? '');
+    const tri = String(data.get('tri') ?? '');
+
+    const tries = [...items].sort((a, b) => a.dataset.date!.localeCompare(b.dataset.date!) * (tri === 'anciennes' ? 1 : -1));
+    for (const el of tries) liste.appendChild(el);
+    const ok = tries.filter((el) =>
+      (!q || q.split(/\s+/).every((m) => el.dataset.texte!.includes(m))) &&
+      (!format || el.dataset.format === format) &&
+      (!theme || el.dataset.theme === theme) &&
+      (!porte || el.dataset.porte === porte));
+
+    const pages = Math.max(1, Math.ceil(ok.length / PAR_PAGE));
+    page = Math.min(page, pages);
+    const visibles = new Set(ok.slice((page - 1) * PAR_PAGE, page * PAR_PAGE));
+    for (const el of items) el.hidden = !visibles.has(el);
+
+    const n = ok.length;
+    compte.textContent = `${n} publication${n > 1 ? 's' : ''}${pages > 1 ? ` · page ${page} sur ${pages}` : ''}.`;
+    vide.hidden = n > 0;
+    pagination.hidden = pages < 2;
+    pagination.replaceChildren(...Array.from({ length: pages }, (_, i) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = String(i + 1);
+      b.setAttribute('aria-label', `Page ${i + 1}`);
+      if (i + 1 === page) b.setAttribute('aria-current', 'page');
+      b.addEventListener('click', () => { page = i + 1; appliquer(true); liste.scrollIntoView({ block: 'start' }); });
+      return b;
+    }));
+
+    if (pousser) {
+      const p = new URLSearchParams();
+      for (const [k, v] of data) if (v) p.set(k, String(v));
+      if (page > 1) p.set('page', String(page));
+      history.replaceState(null, '', p.size ? `?${p}` : location.pathname);
+    }
+  }
+
+  const init = new URLSearchParams(location.search);
+  for (const k of ['q', 'format', 'theme', 'porte', 'tri']) {
+    const el = form.elements.namedItem(k) as HTMLInputElement | HTMLSelectElement | null;
+    if (el && init.get(k)) el.value = init.get(k)!;
+  }
+  page = Math.max(1, Number(init.get('page')) || 1);
+  form.addEventListener('input', () => { page = 1; appliquer(true); });
+  form.addEventListener('submit', (e) => { e.preventDefault(); page = 1; appliquer(true); });
+  appliquer(false);
+</script>
+
+<style>
+  .recherche {
+    display: flex; flex-wrap: wrap; align-items: end; gap: var(--s-3); margin-top: var(--s-5);
+    padding: var(--s-4); background: rgb(255 255 255 / 0.1); border: 1px solid rgb(255 255 255 / 0.25); border-radius: var(--radius);
+  }
+  .champ { display: grid; gap: var(--s-1); flex: 1 1 10rem; }
+  .champ.grand { flex: 3 1 16rem; }
+  label { font-size: var(--fs-0); font-weight: 600; }
+  input, select {
+    min-height: 44px; padding: var(--s-2) var(--s-3); font: inherit; color: var(--c-ink);
+    background: var(--c-surface); border: 1px solid var(--c-line); border-radius: 8px;
+  }
+  .formats { margin-top: var(--s-5); }
+  .resultats { list-style: none; padding: 0; margin: var(--s-4) 0 0; scroll-margin-top: var(--s-4); }
+  .vide { padding: var(--s-6) 0; font-size: var(--fs-2); }
+  .pagination { display: flex; justify-content: center; gap: var(--s-2); margin-top: var(--s-6); }
+  .pagination :global(button) {
+    min-width: 44px; min-height: 44px; border-radius: 999px; border: 1px solid var(--c-teal-ink);
+    background: var(--c-surface); color: var(--c-teal-ink); font: 600 var(--fs-0) / 1 var(--f-sans); cursor: pointer;
+  }
+  .pagination :global(button[aria-current='page']) { background: var(--c-teal-ink); color: var(--c-paper); }
+</style>

@@ -1,0 +1,69 @@
+/*
+ * Jetons du Phare 2.0. Provenance de chaque valeur : DESIGN_TOKENS dans ARCHITECTURE.md §5.
+ * Relevé = extrait du site en ligne ; Dérivé = calculé depuis un relevé ; Provisoire = à valider (pas de charte fournie).
+ */
+:root {
+  /* Couleur — bleu-vert */
+  --c-teal: #008d7f;          /* Relevé : --td_theme_color du thème Newspaper */
+  --c-teal-ink: #006b61;      /* Dérivé : teal assombri pour texte sur clair (contraste ≥ 4,5:1) */
+  --c-teal-deep: #0b3d39;     /* Provisoire : fonds sombres, en-tête */
+  --c-teal-mist: #e6f3f1;     /* Dérivé : teinte 10 % pour fonds de cartes */
+  --c-amber: #e8a33d;         /* Provisoire : lumière du logo (valeur approchée à l'œil) */
+  --c-ink: #1d1a17;           /* Provisoire : encre du logo (brun-noir) */
+  --c-paper: #fbfaf7;
+  --c-surface: #ffffff;
+  --c-muted: #5a5650;
+  --c-line: #dcd8d0;
+  --c-focus: #e8a33d;
+
+  /* Typographie — polices système : aucune requête externe (voir ARCHITECTURE.md §5) */
+  --f-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+  --f-sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --fs-0: 0.875rem;
+  --fs-1: 1rem;
+  --fs-2: 1.125rem;
+  --fs-3: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --fs-4: clamp(1.5rem, 1.2rem + 1.2vw, 2.125rem);
+  --fs-5: clamp(1.875rem, 1.4rem + 2vw, 2.875rem);
+  --lh-text: 1.65;
+  --lh-title: 1.2;
+  --measure: 68ch;
+
+  /* Espaces, formes */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 4px 14px rgb(0 0 0 / 0.05);
+  --wrap: 72rem;
+  --gutter: clamp(1rem, 4vw, 2rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --c-teal-ink: #5cc6b9;
+    --c-teal-mist: #13302d;
+    --c-teal-deep: #0a2523;
+    --c-ink: #ecebe7;
+    --c-paper: #121413;
+    --c-surface: #1a1d1c;
+    --c-muted: #a7a49d;
+    --c-line: #2f3432;
+  }
+}
+
+:root[data-theme='dark'] {
+  --c-teal-ink: #5cc6b9;
+  --c-teal-mist: #13302d;
+  --c-teal-deep: #0a2523;
+  --c-ink: #ecebe7;
+  --c-paper: #121413;
+  --c-surface: #1a1d1c;
+  --c-muted: #a7a49d;
+  --c-line: #2f3432;
+}

@@ -1,0 +1,170 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import { content } from '../content/provider';
+import { SELECTION_ACCUEIL } from '../content/selection';
+import type { Article, Format } from '../content/types';
+
+const tous = await content.listArticles();
+const parSlug = new Map(tous.map((a) => [a.slug, a]));
+const dernier = (f: Format) => tous.find((a) => a.format === f);
+const garder = (xs: (Article | undefined)[]) => xs.filter((x): x is Article => !!x);
+const choisis = (slugs: string[]) => garder(slugs.map((s) => parSlug.get(s)));
+
+// Sélection ≠ publication : la liste manuelle prime ; sinon un représentant récent par format.
+const fil = dernier('fil');
+const porteActu = choisis(SELECTION_ACCUEIL.actualite).length
+  ? choisis(SELECTION_ACCUEIL.actualite)
+  : garder([dernier('actualite'), dernier('question'), dernier('application')]);
+const porteSavoir = choisis(SELECTION_ACCUEIL.connaissance).length
+  ? choisis(SELECTION_ACCUEIL.connaissance)
+  : garder([dernier('texte-fondateur'), dernier('dossier'), dernier('atelier') ?? dernier('experimental')]);
+
+const engagements = [
+  { t: 'Distinguer', d: 'Séparer les faits établis, les hypothèses et les opinions, et dire lesquels sont lesquels.' },
+  { t: 'Documenter', d: 'Donner ses sources, cliquables, et signaler ce que l\'on ne sait pas encore.' },
+  { t: 'Ouvrir', d: 'Relier chaque sujet à ce qui l\'éclaire, et laisser une question plutôt qu\'une conclusion.' },
+];
+const rythme = [
+  { t: 'L\'essentiel en deux minutes', d: 'Le fait, son contexte, ce qu\'il change.' },
+  { t: 'Analyse complète', d: 'Les mécanismes, les chiffres, les limites.' },
+  { t: 'Dossier ou Sentier', d: 'La carte du sujet, ou un outil pour s\'exercer.' },
+];
+---
+
+<Base
+  title="Le Phare Info — actualité et connaissance"
+  description="Un média de découverte et de compréhension : partir d'une actualité vers ce qui l'éclaire, ou d'une connaissance vers le présent. Éclairer sans éblouir."
+  path="/"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Un média de découverte et de compréhension</p>
+      <h1>Éclairer sans éblouir.</h1>
+      <p class="lead">Chaque jour, un fait du présent ; derrière lui, une question qui dure. Le Phare prend le temps de passer de l'un à l'autre, pour comprendre plutôt que réagir.</p>
+    </div>
+  </section>
+
+  <section class="section portes-s" aria-label="Les deux entrées du Phare">
+    <div class="wrap portes">
+      <a class="porte porte-actu" href="#actualite">
+        <span class="porte-titre">L'actualité nous questionne</span>
+        <span class="porte-sens">Du présent vers la connaissance</span>
+        <span class="porte-aide">Un fait décrypté, puis la question qu'il ouvre.</span>
+      </a>
+      <a class="porte porte-savoir" href="#connaissance">
+        <span class="porte-titre">La connaissance nous éclaire</span>
+        <span class="porte-sens">De la connaissance vers le présent</span>
+        <span class="porte-aide">Une pensée, un dossier, un atelier pour regarder ce qui arrive.</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="reseau-t">
+    <div class="wrap">
+      <h2 id="reseau-t">Deux directions, un même réseau de connaissances</h2>
+      {fil && (
+        <p class="fil-ligne"><span class="etiq">Fil du Phare · la question de la semaine</span> <a href={`/${fil.slug}/`}>{fil.title.replace(/^Le Fil du Phare\s*[-–—]\s*/, '')}</a></p>
+      )}
+      <div class="colonnes">
+        <div id="actualite">
+          <div class="col-head">
+            <h3>L'actualité nous questionne</h3>
+            <a class="petit" href="/explorer/?porte=actualite">Toute l'actualité →</a>
+          </div>
+          <ul class="liste" role="list">{porteActu.map((a) => <li><Card article={a} headingLevel="h3" /></li>)}</ul>
+        </div>
+        <div id="connaissance">
+          <div class="col-head">
+            <h3>La connaissance nous éclaire</h3>
+            <a class="petit" href="/explorer/?porte=connaissance">Tout le savoir durable →</a>
+          </div>
+          <ul class="liste" role="list">{porteSavoir.map((a) => <li><Card article={a} headingLevel="h3" /></li>)}</ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bande" aria-labelledby="engagement-t">
+    <div class="wrap">
+      <h2 id="engagement-t">Notre engagement</h2>
+      <ol class="trio" role="list">
+        {engagements.map((e) => <li class="encart"><h3>{e.t}</h3><p>{e.d}</p></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="rythme-t">
+    <div class="wrap">
+      <h2 id="rythme-t">Votre lecture, à votre rythme</h2>
+      <ol class="rythme" role="list">
+        {rythme.map((r, i) => <li><span class="pas" aria-hidden="true">{i + 1}</span><strong>{r.t}</strong><span class="muted">{r.d}</span></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Principe et méthode">
+    <div class="wrap duo">
+      <div class="encart">
+        <h2 class="h3">Notre principe éditorial</h2>
+        <p>Aucun quota par format. Le sujet décide de la forme : une actualité, une question, un dossier ou rien du tout, si rien ne le mérite. Publier et mettre en avant sont deux décisions différentes : une publication ancienne peut revenir en lumière quand l'actualité la rend utile.</p>
+      </div>
+      <div class="encart">
+        <h2 class="h3">Une méthode visible</h2>
+        <p>Chaque article montre ses sources, ses limites, le rôle éventuel de l'IA et ses corrections.</p>
+        <a class="btn" href="/le-phare/#charte">Consulter la charte</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section citation" aria-label="Notre intention">
+    <div class="wrap">
+      <p class="grande">Éveiller la curiosité, non imposer une conclusion.</p>
+    </div>
+  </section>
+
+  <section class="section garder" aria-labelledby="garder-t">
+    <div class="wrap garder-in">
+      <div>
+        <h2 id="garder-t">Gardons le fil.</h2>
+        <p class="lead-s">Recevoir la sélection du Phare.</p>
+      </div>
+      <a class="btn btn-plein" href="/le-phare/#suivre">S'abonner</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .portes-s { padding-bottom: 0; }
+  .portes { display: grid; gap: var(--s-5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+  .porte {
+    display: grid; gap: var(--s-2); align-content: end; min-height: 12rem; padding: var(--s-6);
+    border-radius: var(--radius); color: #fff; text-decoration: none; box-shadow: var(--shadow);
+  }
+  .porte-actu { background: radial-gradient(ellipse 70% 90% at 100% 0%, rgb(232 163 61 / 0.45), transparent 65%), linear-gradient(135deg, #0f5a53, var(--c-teal)); }
+  .porte-savoir { background: radial-gradient(ellipse 70% 90% at 0% 0%, rgb(232 163 61 / 0.3), transparent 65%), linear-gradient(135deg, var(--c-teal-deep), #0f5a53); }
+  .porte-titre { font: 600 var(--fs-4) / 1.15 var(--f-serif); }
+  .porte-sens { font-weight: 700; color: var(--c-amber); font-size: var(--fs-0); letter-spacing: 0.04em; text-transform: uppercase; }
+  .porte-aide { opacity: 0.9; }
+  .porte:hover .porte-titre { text-decoration: underline; text-decoration-thickness: 2px; }
+  .fil-ligne { padding: var(--s-4) var(--s-5); border-left: 4px solid var(--c-amber); background: var(--c-surface); border-radius: 0 var(--radius) var(--radius) 0; font: var(--fs-2) / 1.4 var(--f-serif); }
+  .fil-ligne .etiq { display: block; font: 700 0.75rem / 1.3 var(--f-sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-muted); margin-bottom: var(--s-1); }
+  .colonnes { display: grid; gap: var(--s-6); grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); margin-top: var(--s-5); }
+  .colonnes > div { scroll-margin-top: var(--s-4); }
+  .col-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--s-2); margin-bottom: var(--s-3); }
+  .col-head h3 { margin: 0; }
+  .liste { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); }
+  .trio { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); }
+  .trio h3 { color: var(--c-teal-ink); }
+  .rythme { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+  .rythme li { display: grid; gap: var(--s-1); padding: var(--s-4); border-top: 3px solid var(--c-teal); }
+  .pas { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--c-teal-ink); color: var(--c-paper); font-weight: 700; }
+  .duo { display: grid; gap: var(--s-5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
+  .h3 { font-size: var(--fs-3); }
+  .citation { text-align: center; }
+  .grande { font: italic 600 var(--fs-4) / 1.3 var(--f-serif); color: var(--c-teal-ink); margin: 0 auto; max-width: 30ch; }
+  .garder { background: var(--c-teal-deep); color: #fff; }
+  .garder-in { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--s-4); }
+  .garder h2 { margin: 0; }
+  .lead-s { margin: var(--s-1) 0 0; opacity: 0.9; font-family: var(--f-serif); font-size: var(--fs-2); }
+</style>

@@ -1,0 +1,121 @@
+---
+import '../styles/base.css';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Chemin canonique (ex. /mon-slug/). */
+  path: string;
+  type?: 'website' | 'article';
+  published?: string;
+  modified?: string;
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description, path, type = 'website', published, modified, jsonLd } = Astro.props;
+const canonical = new URL(path, Astro.site).href;
+const fullTitle = path === '/' ? title : `${title} — Le Phare`;
+const nav = [
+  { href: '/', label: 'Accueil' },
+  { href: '/explorer/', label: 'Explorer' },
+  { href: '/sentier/', label: 'Sentier du Savoir' },
+  { href: '/le-phare/', label: 'Le Phare' },
+];
+// État actif calculé sur le chemin canonique de la page, pas sur l'URL servie (évite le défaut « Accueil » toujours souligné).
+const actif = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+const pied = [
+  { href: '/le-phare/#contact', label: 'Contact' },
+  { href: '/le-phare/#contribuer', label: 'Contribuer' },
+  { href: '/le-phare/#charte', label: 'Charte éditoriale' },
+  { href: '/le-phare/#mentions', label: 'Mentions légales' },
+];
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta property="og:site_name" content="Le Phare" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {published && <meta property="article:published_time" content={published} />}
+    {modified && <meta property="article:modified_time" content={modified} />}
+    <meta name="theme-color" content="#008d7f" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/" aria-label="Le Phare Info, accueil">
+          <svg width="22" height="28" viewBox="0 0 22 28" aria-hidden="true" focusable="false">
+            <path d="M8 6h6l2 20H6z" fill="currentColor" />
+            <rect x="7" y="2" width="8" height="4" rx="1" fill="var(--c-amber)" />
+          </svg>
+          <span class="brand-txt">
+            <span class="brand-nom">Le Phare <span class="brand-info">Info</span></span>
+            <span class="devise">Indépendant · Documenté · Accessible</span>
+          </span>
+        </a>
+        <nav aria-label="Navigation principale">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={actif(n.href) ? 'page' : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <a class="btn btn-plein abonner" href="/le-phare/#suivre">S'abonner</a>
+      </div>
+    </header>
+    <main id="contenu" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap pied">
+        <div>
+          <p class="pied-nom">Le Phare Info</p>
+          <p class="muted">Un média de découverte et de compréhension. Éclairer sans éblouir.</p>
+        </div>
+        <nav aria-label="Liens de pied de page">
+          <ul>{pied.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+        </nav>
+        <p class="muted petit poc">Prototype « Le Phare 2.0 », non indexé. Contenus issus d'un instantané du dépôt éditorial ; les liens hors instantané mènent au site en ligne.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header { background: var(--c-teal-deep); color: #fff; }
+  .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-2) var(--s-5); min-height: 4.25rem; padding-block: var(--s-2); }
+  .brand { display: inline-flex; align-items: center; gap: var(--s-3); color: #fff; text-decoration: none; }
+  .brand-txt { display: grid; gap: 2px; }
+  .brand-nom { font: 700 var(--fs-3) / 1 var(--f-serif); letter-spacing: 0.04em; text-transform: uppercase; }
+  .brand-info { color: var(--c-amber); }
+  .devise { font-size: 0.75rem; letter-spacing: 0.04em; opacity: 0.85; }
+  nav ul { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-5); list-style: none; margin: 0; padding: 0; }
+  .bar nav a { display: inline-block; padding: var(--s-2) 0; color: #fff; text-decoration: none; font-size: var(--fs-0); font-weight: 600; border-bottom: 2px solid transparent; }
+  .bar nav a:hover, .bar nav a[aria-current='page'] { border-bottom-color: var(--c-amber); }
+  .abonner { min-height: 40px; }
+  @media (max-width: 52rem) {
+    .bar nav { order: 3; flex-basis: 100%; }
+    .bar nav ul { gap: var(--s-1) var(--s-4); }
+  }
+  main:focus { outline: none; }
+  .site-footer { margin-top: var(--s-8); padding-block: var(--s-6); background: var(--c-teal-deep); color: #fff; font-size: var(--fs-0); }
+  .site-footer .muted { color: rgb(255 255 255 / 0.75); }
+  .pied { display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); align-items: start; }
+  .pied-nom { font: 700 var(--fs-2) / 1.2 var(--f-serif); margin-bottom: var(--s-1); }
+  .pied ul { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-5); list-style: none; margin: 0; padding: 0; }
+  .pied a { color: #fff; }
+  .poc { grid-column: 1 / -1; margin: 0; }
+</style>

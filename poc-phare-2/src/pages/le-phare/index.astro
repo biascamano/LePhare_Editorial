@@ -1,0 +1,98 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base
+  title="Le Phare"
+  description="Qui est Le Phare Info : une double entrée entre actualité et connaissance, des engagements, une lecture progressive, une publication sans quota et une méthode visible."
+  path="/le-phare/"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Le Phare</p>
+      <h1>Un média de découverte et de compréhension</h1>
+      <p class="lead">Indépendant, documenté, accessible. Le Phare éclaire l'actualité autrement : en la reliant à ce qui permet de la comprendre.</p>
+    </div>
+  </section>
+
+  <div class="wrap page">
+    <nav class="sommaire" aria-label="Sur cette page">
+      <ul>
+        <li><a href="#entrees">Deux entrées</a></li>
+        <li><a href="#engagements">Engagements</a></li>
+        <li><a href="#lecture">Lecture progressive</a></li>
+        <li><a href="#principe">Sans quota</a></li>
+        <li><a href="#charte">Charte</a></li>
+        <li><a href="#suivre">Suivre</a></li>
+      </ul>
+    </nav>
+
+    <section id="entrees" class="bloc prose" aria-labelledby="entrees-t">
+      <h2 id="entrees-t">Une double entrée</h2>
+      <p><strong>L'actualité nous questionne.</strong> On part d'un fait du présent, décrypté, puis de la question durable qu'il ouvre.</p>
+      <p><strong>La connaissance nous éclaire.</strong> On part d'une pensée, d'un dossier ou d'un atelier, et on regarde le présent avec.</p>
+      <p>Les deux directions mènent au même réseau : chaque article relie l'actualité aux connaissances qui l'éclairent, et inversement.</p>
+    </section>
+
+    <section id="engagements" class="bloc" aria-labelledby="engagements-t">
+      <h2 id="engagements-t">Nos engagements</h2>
+      <ol class="trio" role="list">
+        <li class="encart"><h3>Distinguer</h3><p>Les faits établis, les hypothèses et les opinions, nommés comme tels.</p></li>
+        <li class="encart"><h3>Documenter</h3><p>Des sources cliquables, et ce que l'on ne sait pas encore, dit clairement.</p></li>
+        <li class="encart"><h3>Ouvrir</h3><p>Une question laissée au lecteur plutôt qu'une conclusion imposée.</p></li>
+      </ol>
+    </section>
+
+    <section id="lecture" class="bloc prose" aria-labelledby="lecture-t">
+      <h2 id="lecture-t">Une lecture progressive</h2>
+      <ol>
+        <li><strong>L'essentiel en deux minutes</strong> : le fait, son contexte, ce qu'il change.</li>
+        <li><strong>L'analyse complète</strong> : les mécanismes, les chiffres, les limites.</li>
+        <li><strong>Le dossier ou le Sentier</strong> : la carte du sujet, ou un outil pour s'exercer.</li>
+      </ol>
+      <p>On s'arrête où l'on veut.</p>
+    </section>
+
+    <section id="principe" class="bloc prose" aria-labelledby="principe-t">
+      <h2 id="principe-t">Une publication sans quota</h2>
+      <p>Aucun format n'a de quota. Le sujet décide de la forme : actualité décryptée, Question du Phare, application, dossier, texte fondateur, atelier, ou rien si rien ne le mérite.</p>
+      <p>Produire un contenu et le mettre en avant sont deux décisions différentes. Une publication ancienne peut revenir à l'accueil quand l'actualité la rend utile.</p>
+    </section>
+
+    <section id="charte" class="bloc prose" aria-labelledby="charte-t">
+      <h2 id="charte-t">Charte éditoriale : une méthode visible</h2>
+      <p>Chaque article porte un encadré de transparence :</p>
+      <ul>
+        <li><strong>Sources</strong> : les repères de sources, cliquables, en fin d'article.</li>
+        <li><strong>Limites</strong> : ce que l'on sait, ce que l'on ne sait pas, ce qui reste discuté.</li>
+        <li><strong>Rôle de l'IA</strong> : <span class="a-valider">texte à rédiger par la rédaction (prototype : aucune formulation n'a été validée).</span></li>
+        <li><strong>Corrections</strong> : la date de mise à jour est affichée ; une erreur peut être signalée par le contact ci-dessous.</li>
+      </ul>
+      <p class="muted petit">La charte complète reste celle du site actuel ; ce prototype n'en reprend que la structure.</p>
+    </section>
+
+    <section id="suivre" class="bloc prose" aria-labelledby="suivre-t">
+      <h2 id="suivre-t">Gardons le fil</h2>
+      <p class="a-valider">Lettre « La sélection du Phare » : pas encore ouverte. Le prototype n'a ni formulaire ni collecte d'adresses.</p>
+      <p>En attendant, <a href="/explorer/?format=fil">le Fil du Phare</a> relie chaque semaine les articles parus.</p>
+    </section>
+
+    <section class="bloc prose" aria-labelledby="pratique-t">
+      <h2 id="pratique-t">Informations pratiques</h2>
+      <h3 id="contact">Contact</h3>
+      <p class="a-valider">Coordonnées à reprendre du site actuel.</p>
+      <h3 id="contribuer">Contribuer</h3>
+      <p class="a-valider">Modalités à définir par la rédaction.</p>
+      <h3 id="mentions">Mentions légales</h3>
+      <p class="a-valider">À reprendre du site actuel (<a href="https://le-phare.info/">le-phare.info</a>).</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .sommaire ul { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); list-style: none; padding: 0; margin: var(--s-5) 0 0; font-size: var(--fs-0); font-weight: 600; }
+  .bloc { padding-block: var(--s-6); border-bottom: 1px solid var(--c-line); scroll-margin-top: var(--s-4); }
+  .bloc h3 { scroll-margin-top: var(--s-4); }
+  .trio { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: grid; gap: var(--s-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); }
+  .trio h3 { color: var(--c-teal-ink); }
+</style>

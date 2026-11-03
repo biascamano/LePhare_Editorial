@@ -1,0 +1,26 @@
+{
+  "name": "poc-phare-2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "POC Le Phare 2.0 — front Astro statique, WordPress en source de contenu (lecture seule)",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "mock": "node scripts/extract-mock.mjs",
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview",
+    "verify": "node scripts/verify-dist.mjs"
+  },
+  "dependencies": {
+    "astro": "7.3.8",
+    "marked": "18.1.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "typescript": "6.0.3"
+  }
+}
