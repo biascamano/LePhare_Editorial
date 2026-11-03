@@ -114,7 +114,7 @@ $ find <dépôt> -path .git -prune -o -path poc-phare-2 -prune -o -type f -newer
 - rétros S44 ;
 - 09_Livres V7.
 
-Il n'y a eu aucun commit (le dernier date du 2026-10-26) ni aucun push.
+Pendant le développement, il n'y a eu aucun commit ni aucun push. Le POC a ensuite été commité seul (`poc-phare-2/` uniquement, sur autorisation), sans push.
 
 ## 8. Dépendances
 
@@ -131,8 +131,9 @@ Les versions ont été vérifiées avant l'installation : Astro 7.4.5 exige Node
 - Lecteur d'écran réel (NVDA, VoiceOver) et parcours complet au clavier : seul le focus visible a été vérifié, par CSS et par contraste.
 - Lighthouse et Core Web Vitals mesurés.
 - Navigateurs autres que Chrome, et appareils mobiles physiques.
-- Charge et hébergement : rien n'a été déployé.
-- Connexion SFTP, `-VerifierDistant`, `-Executer`, `-Restaurer` avec `-Executer`, `-VerifierHttps`, `-EnregistrerIdentifiants` et `-CreerAccesHttp` : WinSCP est absent, aucun paramètre OVH n'est connu et aucun transfert n'est autorisé.
+- Charge et performances réelles sur l'hébergement OVH.
+- `-Restaurer` avec `-Executer` : jamais lancé sur le serveur (seul le refus d'un dossier hors sauvegardes est testé, §10).
+- Nouvelle orientation : aucun contrôle visuel (desktop ou mobile) ; les captures du §5 montrent la version initiale.
 
 ## 10. Script de déploiement (simulation, 2026-11-03)
 
@@ -166,3 +167,21 @@ Cas de refus, tous en code 1 et sans connexion :
 | 10 | `-SansAuthentification` | `.htaccess` sans aucune directive `Auth*` |
 
 Le `.htaccess` produit dans `.deploy/lot/` est conforme au gabarit. `AuthUserFile` vaut `<HOME_OVH>/poc-phare-2/.htpasswd` en simulation ; le chemin réel est résolu à la connexion, ou exigé via `OVH_HOME_ABS` si la racine SFTP est chrootée. Les fichiers de test temporaires (`.env.deploy`, fichiers ajoutés à `dist/`) ont été supprimés. Aucun fichier du dépôt hors de `poc-phare-2/` n'est plus récent que le début du POC (`find -newer package.json` : 0).
+
+## 11. Déploiement réel sur test.le-phare.info (2026-11-03)
+
+Transferts autorisés explicitement (« go transfert »), par SFTP WinSCP, clé d'hôte imposée, vers `/home/lepharl/poc-phare-2` (marqueur `.phare-poc-marker`).
+
+| Horodatage | Opération | Résultat |
+|---|---|---|
+| 20261103-100047 | Premier déploiement (`-Executer -Initialiser`), version initiale | Publié |
+| 20261103-120254 | Nouvelle orientation (`-Executer`), version `20261103-120254-6ccee18-mock` | Sauvegarde distante dans `.deploy\sauvegardes\20261103-120254\`, 56 fichiers envoyés, 0 supprimé |
+| 20261103-120721 | Suppression manuelle du CSS orphelin `_astro/Base.CL8Kpbk1.css` (4 730 octets), sur autorisation explicite | Seul fichier supprimé ; marqueur et clé d'hôte vérifiés avant |
+
+Contrôles `-VerifierHttps` après chaque opération, tous OK :
+- accueil sans identifiants : 401 ; en-tête `X-Robots-Tag` noindex ; HTTP redirigé vers HTTPS avant l'authentification ;
+- avec identifiants : `/`, `/explorer/`, `/sentier/` en 200, `phare-version.txt` servi ;
+- `/.phare-poc-marker`, `/.htpasswd`, `/.htaccess` : 403 ; page inexistante : 404 ;
+- site principal le-phare.info : 200, aucun fichier du POC dans la racine WordPress.
+
+Traces : `.deploy\historique.csv` et `.deploy\logs\` (hors git).
